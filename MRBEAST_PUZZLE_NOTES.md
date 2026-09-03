@@ -26,3 +26,28 @@ Qaydalar: 18+, Azərbaycan qadağan siyahısında deyil. İlk düzgün cavab qal
 
 ## Bloker
 - Tam videonu bu mühitdən endirmək mümkün olmadı (YouTube 403/bot; 6 klient, PO token, Invidious, cobalt, y2mate). İstifadəçidən tam 1080p videonu yükləməsi xahiş olunub.
+
+## Montaj səhnələri -> tam videoda təxmini yer (pauza siyahısı)
+| Klipdə (s) | Səhnə | Tam videoda (təxmini) |
+|---|---|---|
+| 13.5–15.0 | Mantar lövhə (serial killer wall), geniş plan | 0:12–0:16, 4:28, 8:53–10:22 |
+| 15.0–17.0 | Seyfdə pul, sayğac $...->$1,000,000 (xətti animasiya) | 0:00–0:05, 1:03 |
+| 17.0–17.25 | MrBeast Salesforce otağında telefonu qaldırır | 2:43–2:49 (SB8 phone/emoji) |
+| 17.25–18.7 | Hazard zolaqlar + ay, divarda nöqtə-matris lövhələr | 2:00–2:15 (SB4/SB5) |
+| 18.7–19.2 | MrBeast divanda qırmızı controller ilə oyun | ? (tapılmadı, bəlkə başqa videodan) |
+| 19.2–19.5 | Çek $36,348.26 | 3:29–3:37 |
+| 19.5–19.8 | Koridor, mühafizəçilər | 15:49 / 16:39 |
+| 19.8–20.4 | Lazerlər + rəqəmlər (5,12,10,1,8...) | 2:17–2:26 (SB6) |
+| 20.4–20.9 | BEAST CITY | 2:39–2:41 |
+| 20.9–22.5 | Colin holoqram nöqtələrlə gəlir | 15:43–15:48 |
+| 22.5–23.0 | Planşet BEAST VAULT kodu, ACCESS GRANTED | 16:12–16:38 |
+| 23.0–23.5 | Qızıl seyf qapısı, dişlilər | 16:39–16:43 |
+| 23.5–24.6 | Colin + Jimmy eskiz üslubunda (pilləkən/təyyarə) | 15:48–15:52 |
+| 24.6–27.0 | Fallon şousu | 5:55–6:05 |
+| 27.0–30.0 | Şəbəkəli lövhə, hədiyyə şəkilləri (Fallon rəsm "JIMMYS BIRTHPLACE", Botez, Quackity...) | 5:53–7:12 |
+| 30.0–33.0 | MrBeast çarşafı çəkir, lövhə açılır | 0:10–0:16 |
+| 33.0–35.0 | "?" işarəsi, əl ikonu | (montaj) |
+| 35.0–37.0 | Colin gülür (müsahibə) | 15:53–16:07 / 16:46–16:55 |
+
+## Cəhd edilib alınmayan yükləmə yolları (03.09.2026)
+yt-dlp klientləri (android_vr, ios, tv, mweb, web_safari, mediaconnect, tv_simply, web_music, ios_music, android_music), bgutil PO-token provider, Invidious (nadeko, yewtu.be, nerdvpn və s.), Piped, cobalt, y2mate, loader.to, headless Chromium (proxy tunel bağlanır). Hamısı: 403 / "Sign in to confirm you're not a bot".
