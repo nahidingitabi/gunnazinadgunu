@@ -110,3 +110,21 @@ yt-dlp klientləri (android_vr, ios, tv, mweb, web_safari, mediaconnect, tv_simp
 - mrbeast.salesforce.com/faq köhnə yarışın FAQ-ıdır.
 - Montaj-vs-mənbə fərq analizi (scenes/diff_sheet.jpg): stilizasiya səbəbindən nəticəsiz; əlavə simvol seçilmir.
 - XOR açarı pregame cavablarının baş/son hərfləri ilə sınandı: mənasız.
+
+## 04.09.2026 16:00–17:00Z — dərin axtarış turu (Opus 5)
+### Yeni yoxlanılan və İSTİSNA edilən
+- **Colin-in kanal banneri**: "DOCTORXOR" naxışı proqramla təhlil edildi (161 hərf, 7 sətir). Hər təkrarda yalnız D hərfi və X-in bir cizgisi açıq yaşıldır — tam qaydalı brend naxışı, mesaj yoxdur.
+- **Altyazı quruluşu**: `position:XX%` dəyərləri mətn uzunluğundan avtomatik hesablanır (len 27→56, 28→58, ... +1.55/simvol). Gizli məlumat yoxdur. `align:start/end` yalnız 15:09-da iki eyni vaxtlı replika üçündür.
+- **Səs**: stereo sol-sağ fərqi adi musiqidir; 15 kHz-dən yuxarı enerji yoxdur (HE-AAC); DTMF/Morze/impuls yoxdur.
+- **Montaj keçidləri (1080p)**: f721–730, f898–903, f1105–1111 "flicker" kadrları qara CRT sönmə effektidir; parlaqlaşdırıldı, gizli məzmun yoxdur. Tək-kadr əlavəsi yoxdur.
+- **"PAUSE ||" kartı**: 17:00.0–17:01.6 arasında, yalnız söz + pauza ikonu, əlavə mətn yoxdur.
+- **Qutulardakı kartlar**: köhnə tapmacanın 15 rebusu (Roma rəqəmləri I–XV = MP1–MP15). Dekorasiya.
+- **Rəsmi PDF**: gizli/ağ mətn yoxdur, əlavə fayl yoxdur, annotasiya yoxdur. Rəngli mətnlərin hamısı linkdir. (Qeyd: səhifə 5-dəki divar sxemində MP10 və MP40 etiketləri bənövşəyidir — səbəbi bilinmir.)
+- **XOR açarı riyazi məhdudiyyəti**: cavabın 1, 3, 6-cı mövqeləri KİÇİK, 11 və 12-ci mövqeləri BÖYÜK hərf olmalıdır (əks halda şifrəmətn çap oluna bilməyən simvol verir). Yəni cavab "Şəhər, ÖLK" tipli qarışıq registrli 13 simvol ola bilər.
+- Lüğət və transkript əsasında 64 min namizəd yoxlandı: şifrəmətni "yazıla bilən kod" verən mənalı cavab tapılmadı.
+
+### ƏSAS YENİ TAPINTI: video posteri (thumbnail)
+- `i.ytimg.com/vi/82CX6WULNA0/maxresdefault.jpg` tam bir "tapmaca lövhəsi"dir: ACCESS DENIED ekranı, LOGIN ATTEMPTS LOG (17 uğursuz tarix), mantar lövhədə #1 SMOKE 1+1, qızıl seyf $1,000,000, **#2 QR kod** ("Scan on phone — what is it?"), #3, #4, Salesforce loqosu, Rubik kubu, "16-3-4" qeydi.
+- QR proqramla bərpa edildi: **33x33 (versiya 4), format məlumatı səhvsiz oxundu → səhv düzəltmə H, maska 0**. Bu, QR-in strukturunun HƏQİQİ olduğunu göstərir.
+- Lakin verilənlər hissəsi oxunmur: 1280x720-də QR cəmi 87 piksel (modul başına 2.6 piksel). Wiener deconvolution + kalibrləmə ilə struktur modullarında səhv 1/200-ə endirildi, amma Reed-Solomon (silinmə rejimi daxil) hələ də açmır. zxing və OpenCV də aça bilmir.
+- **Lazımdır**: posterin daha yüksək ölçülü nüsxəsi VƏ YA telefonla birbaşa skan.
