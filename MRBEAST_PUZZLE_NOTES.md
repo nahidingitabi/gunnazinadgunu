@@ -215,3 +215,60 @@ Ciddi yoxlama aparıldı:
 1. Colin-in XCOkRKUe3Nc videosu (31 dəq) — hələ baxılmayıb, $10k tapmacası haqda ipucu ola bilər.
 2. 1080p seqmentlər (istifadəçidən): 14:15–15:20, 10:40–11:30, 12:45–13:35, 8:20–8:55.
 3. Colin-in "say it out loud" üslubu → videodakı omofon/səs oyunlarını sistemli axtarmaq.
+
+## 04.09.2026 ~21:35Z — İLK REAL TAPMACA ARTEFAKTI TAPILDI (1080p OCR)
+
+### Metod dəyişikliyi
+Əvvəllər OCR yalnız 360p kadrlarda işlədilmişdi. İndi əlimdəki 4 ədəd 1080p klipin
+(0:00–1:10, 5:03–6:28, 15:19–16:52, 16:48–17:47 = 308 kadr) hamısı 1080p-də OCR edildi
+(`ocr_hd.py` → `ocr_hd.json`, 211 kadrda mətn, 1085 fərqli sətir). Keyfiyyət fərqi böyükdür.
+
+### ★ 6:08–6:27 — monitorun üstündəki iki yapışqan qeyd (1080p-də tam oxundu)
+YAŞIL QEYD:
+```
+LSWRTE
+NNHTIN
+HDOTA
+—
+Should I call it bird fence?
+```
+SARI QEYD:
+```
+Books w/ old names....
+Alphabetize?
+```
+- **"bird fence" = RAIL FENCE** (rail = həm quş, həm hasar dirəyi) → **rail fence (ziqzaq)
+  transpozisiya şifri**. Bu, Colin-in üslubuna tam uyğundur ("Try saying it out loud").
+- 17 hərf: L,S,W,R,T,E,N,N,H,T,I,N,H,D,O,T,A (A1 D1 E1 H2 I1 L1 N3 O1 R1 S1 T3 W1).
+- Sətir uzunluqları 6/6/5 = 3 sətirli **sütun** yazısına uyğundur (17 = 5×3+2),
+  klassik 3-relsli ziqzaqa (5/8/4) uyğun DEYİL.
+- Sütunlar: **LNH · SND · WHO · RTT · TIA · EN** ("WHO" hazır söz kimi çıxır).
+- 712 variant (bütün sətir sıraları × 2–8 rels × bütün offsetlər × sütun/bustrofedon/tərs)
+  ingilis dili 4-qram modeli ilə qiymətləndirildi. Ən yaxşılar hələ də mənasızdır:
+  `DAHNWTERSINTHONTL`, `WHATNHTESTONINDRL`, `NRNTHETHIDNOLTSAW`.
+- **HƏLL OLUNMAYIB** — amma bu, otaqdakı ilk aşkar "oyunçuya ünvanlanmış" şifrədir.
+- Sarı qeydin "Alphabetize?" sözü çox güman ikinci addımın açarıdır (sütunları/sətirləri
+  əlifba sırası ilə düzmək).
+
+### ★ 0:34–0:37 — 7 xarici link (BeastForce67)
+Ekranda 3 saniyə ərzində 9 köhnə videonun bərkidilmiş şərhləri göstərilir, hamısı
+`BeastForce67` ləqəbi ilə:
+reddit.com/user/BeastForce67/comments/1qxxmdn/ · pin.it/3DljEcxdY ·
+imageshack.com/user/BeastForce67 · photobucket.com/share/753ba093-2a25-4fd1-a061-5d199c5bda49 ·
+medium.com/@beastforce67/puzzle-1a6600218fd0 · pixelfed.social/BeastForce67 · imgpile.com/u/beastforce67
+- Bunlar **köhnə** tapmacanın Group 0 (EP1–EP9) linkləridir (PDF-də izahı var, URL-lər yoxdur).
+- Photobucket linki canlıdır, amma şəkil "still moving in" plaseholderidir (miqrasiya). Medium
+  Cloudflare ilə bağlıdır, Reddit JS-shell verir. Yəni köhnə infrastruktur qismən çürüyüb.
+
+### ★ 5:19–5:23 — INSTRUCTIONS kartlarında `onemil.xyz`
+"Asking Slackbot for a Sudoku gives players a link to **onemil.xyz**" — domen İNDİ DƏ CANLIDIR
+(Vercel, bot-challenge 429 verir). PDF-də də adı keçir (SB7-10, sudoku serveri). Köhnə tapmacaya aiddir.
+
+### Digər 1080p tapıntıları
+- 6:11–6:27 Twitch chat overlay: `@msg1138`, `@garrycaspivarov`, "CHOCOLATE CHESS", "OPEN THIS note first".
+- 15:39 `N407TC` (təyyarə qeydiyyatı), 16:01 "BEAST VAULT", 17:25–17:27 forma mətni.
+
+### Növbəti addım (ən vacib)
+Otaqdakı **bütün** yapışqan qeydləri və arxadakı "serial killer wall" kartlarını 1080p-də
+oxumaq lazımdır. Görünən otaq səhnələri: 5:03, 5:31, 5:35, 5:39, 6:03, 6:11, 6:23 və 17:01.
+Əlimdə olmayan otaq planları üçün 1080p seqment lazımdır.
