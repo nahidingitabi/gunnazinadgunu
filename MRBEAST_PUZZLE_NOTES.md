@@ -59,3 +59,9 @@ yt-dlp klientləri (android_vr, ios, tv, mweb, web_safari, mediaconnect, tv_simp
 - Koridor səhnəsi = tank insignia "3634826" (SB11), tam videoda ~3:16–3:22.
 - YouTube 00:05Z-dən etibarən bu IP üçün metadata sorğularını da bloklayır ("Sign in to confirm you're not a bot"); arxa planda hər 10 dəqiqədən bir təkrar cəhd skripti işləyir (retry_dl.sh).
 - Alarm: 04.09.2026 02:59Z (send_later, trig_01C8C9qTgnitrbCk8yawS9BJ).
+
+## 04.09.2026 03:05Z (alarm sonrası)
+- 23:49Z–03:02Z arasında YouTube bloku dəyişməyib: android_vr/ios/tv/mweb/web/web_safari hamısı "Sign in to confirm you're not a bot"; şərh və altyazı sorğuları da bloklanır.
+- Köhnə retry dövrəsi (retry_dl.sh) 2-ci raunddan sonra ilişib qalmışdı; öldürüldü, yerinə hər 20 dəqiqədən bir cəhd edən retry_dl2.sh başladıldı (timeout -k ilə).
+- PR #1: dəyişiklik yoxdur (draft, clean, CI yoxdur).
+- Növbəti addım istifadəçidən asılıdır: tam videonun (17:47, 1080p) yüklənməsi.
