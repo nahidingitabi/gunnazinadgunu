@@ -79,3 +79,12 @@ yt-dlp klientləri (android_vr, ios, tv, mweb, web_safari, mediaconnect, tv_simp
 - Sonluq montajının sırası (17:02–17:24): lövhə 17:02 → pul $1,000,000 17:03–04 → hazard otağı 17:05–06 → çek 17:07 → lazerlər 17:08 → Colin holoqram 17:09–10 → dişlilər 17:11 → qara 17:12 → Fallon 17:13–15 → hədiyyə lövhəsi 17:16–17 → çarşaf 17:18–20 → "?" 17:21–22 → Colin 17:23–24 → forma 17:25–28 → $10,000 17:29–30 → QR 17:31–34 → "thank you" 17:36–39.
 - 360p-də heç bir səhnədə oxuna bilən gizli kod görünmür. Ən güclü namizəd hələ də 5:20–5:26 "INSTRUCTIONS" kartlarıdır (1080p lazımdır).
 - 12-hərfli sözlər lövhəsi (14:31–14:47) və seyf kodu (16:12–16:37) köhnə tapmacadır.
+
+## 04.09.2026 ~11:40Z — 1080p seqment 5:03–6:28 analizi
+- 11 INSTRUCTIONS kartı 1080p-də tam oxundu: mətnlər rəsmi PDF-in (PG1–PG13) izahları ilə üst-üstə düşür ("WEEK STAYED IN WHICH SALT MINE" də eynidir). Kartlarda dəyişdirilmiş söz yoxdur.
+- **Masada iki "enumerasiya" qeydi var:** mavi "(364) → (6 2…) ↓ (6)" (telefonun yanında) və qırmızı "(527) ↓ (4 4…)" (çamadanın yanında). Puzzle-hunt üslubunda hərf sayları kimi görünür: (3,6,4)=13 hərf = CyberChef girişinin uzunluğu; son cavab ehtimal 6 hərf. Qırmızı: (5,2,7)=14 → (4,4)=8.
+- Masada "here are some … to get you started" yazılı çap kağızı var (tam mətn heç bir kadrda görünmür).
+- "PUZZLE CLUES" qutularında Roma rəqəmli şəkilli kartlar (IV+bayraq, VII+anbar, XI+uşaq, VIII+qırmızı kvadrat, V+ot, IX, XV+hamburger…) — mənşəyi bilinmir.
+- Qutu üzərində əl yazısı "July 1st 1988 – June 30 89" (aralıq = 364 gün!). "(364)" bununla bağlı ola bilər.
+- Sonluqdakı QR sadəcə https://puzzle-video-sweepstakes.mrbeast.app/ (parametr yoxdur). Forma demo-sunda 16 ulduz yazılır.
+- Monitorun yapışqan qeydləri və çəhrayı qeyd 1080p geniş planda oxunmur; 9:55–10:00 yaxın plan lazımdır.
