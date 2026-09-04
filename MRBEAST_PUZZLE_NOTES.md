@@ -526,3 +526,40 @@ Moscow, **Armavir (Armenia)**, **Salina Turda (Romania)**, **Toad Suck (Arkansas
 **Dimtu (Ethiopia)**, **Nome (Alaska)**, Iturup, **Male (Maldives)**, **Thane (India)**,
 Quito, **Heard Island**, Beatty, Christchurch, Manistee, L'Ascension, **Arzamas**, **Visby**,
 **Marquette**, **Casper** — hamısı rəsmi açarda var. Planlanmış səhv yoxdur.
+
+### ★ 12:29 "EXAMPLE" kartı — 3 kriptik açar özüm həll etdim (rəsmi cavabla təsdiqləndi)
+beast.travel "Trips By Roamy" bölməsindəki nümunə kart (12:29–12:35, hələ 1080p yoxdur):
+1. "Middle-earth native flips small blade to get a thing in this hunt (9)"
+   → ORC tərsinə = CRO + S(small) + SWORD = **CROSSWORD**
+2. "Data isn't up with a different arrangement (6)"
+   → "ISNT UP" anaqramı, tərif "Data" = **INPUTS**
+3. "Animated person heard automobile song (7)"
+   → "CAR TUNE" omofonu, tərif "Animated person" = **CARTOON**
+→ `crossword.inputs.cartoon` = **MANISTEE, MI** — PDF-də (səh. 81) sözbəsöz təsdiqlənir.
+Yəni bu da köhnə tapmacadır. (Açar mətnləri PDF-də yoxdur, amma cavab eynidir.)
+
+### Sonluqdakı QR (17:31) — 1080p-də 27 kadrda təmiz oxundu
+`https://puzzle-video-sweepstakes.mrbeast.app/` — **parametr, yol, fraqment YOXDUR.**
+
+### Müsabiqə saytı — gizli səhifə yoxdur
+/robots.txt, /sitemap.xml, /api, /hint, /puzzle → hamısı 404. Yalnız forma + official-rules var.
+Sayt `noindex`-dir. Cavab yoxlaması tam server tərəfindədir.
+
+## ★ ARALIQ NƏTİCƏ (vacib)
+İndiyə qədər videodakı **hər bir ekran elementi** rəsmi 84 səhifəlik açarla tutuşduruldu:
+40×12-hərflik söz + akrostik, 27+3 kriptik açar və cavabları, şahmat fiqur→hərf cədvəli,
+70 yer banneri, OP10 paraqrafı və omofon zənciri, vault kodu, bütün what3words ünvanları,
+INSTRUCTIONS kartları, montaj, QR. **Hamısı 100% uyğundur — heç bir dəyişiklik/səhv yoxdur.**
+
+Bu o deməkdir ki, $10k tapmacası köhnə məzmunun DƏYİŞDİRİLMƏSİNDƏ deyil, **ƏLAVƏ EDİLMİŞ**
+materialdadır. Əlavə material siyahısı və statusu:
+| Əlavə material | Status |
+|---|---|
+| Altyazılar (24 dil) | yoxlanıldı, təmiz |
+| Səs | yoxlanıldı, təmiz |
+| Thumbnail (QR + qeydlər) | QR dekorativ, qeydlər "hacker" bəzəyi |
+| Sonluq montajı + QR | təmiz |
+| Rəvayət mətni / akrostiklər | təmiz |
+| **Otaqdakı yapışqan qeydlər** | **← YEGANƏ AÇILMAMIŞ SAHƏ** |
+Açılmamış qeydlər: "LSWRTE/NNHTIN/HDOTA + bird fence", "Books w/ old names… Alphabetize?",
+"CODE … ON →", "K's ON BELT", klaviaturanın yanındakı oxunmayan qeyd.
