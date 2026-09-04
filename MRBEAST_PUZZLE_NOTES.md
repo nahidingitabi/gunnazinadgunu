@@ -51,3 +51,11 @@ Qaydalar: 18+, Azərbaycan qadağan siyahısında deyil. İlk düzgün cavab qal
 
 ## Cəhd edilib alınmayan yükləmə yolları (03.09.2026)
 yt-dlp klientləri (android_vr, ios, tv, mweb, web_safari, mediaconnect, tv_simply, web_music, ios_music, android_music), bgutil PO-token provider, Invidious (nadeko, yewtu.be, nerdvpn və s.), Piped, cobalt, y2mate, loader.to, headless Chromium (proxy tunel bağlanır). Hamısı: 403 / "Sign in to confirm you're not a bot".
+
+## 04.09.2026 00:05Z əlavə qeydlər
+- Colin "holoqram" səhnəsinin (klip 21–22.5s) fonundakı rəqəm matrisi {2,3,4,5,6,9,=} parlaqlığa görə çəkilmiş ASCII-art effektidir, kod deyil (ehtimal).
+- Montajdakı divar (serial killer wall) 1080p-də yoxlanıldı: yalnız köhnə tapmacanın materialları görünür; yeni 13 simvollıq kod seçilmir.
+- Pul sayğacı (klip 15–16.1s) hər 2 kadrda ~66,733 artan xətti animasiyadır.
+- Koridor səhnəsi = tank insignia "3634826" (SB11), tam videoda ~3:16–3:22.
+- YouTube 00:05Z-dən etibarən bu IP üçün metadata sorğularını da bloklayır ("Sign in to confirm you're not a bot"); arxa planda hər 10 dəqiqədən bir təkrar cəhd skripti işləyir (retry_dl.sh).
+- Alarm: 04.09.2026 02:59Z (send_later, trig_01C8C9qTgnitrbCk8yawS9BJ).
