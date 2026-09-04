@@ -128,3 +128,17 @@ yt-dlp klientləri (android_vr, ios, tv, mweb, web_safari, mediaconnect, tv_simp
 - QR proqramla bərpa edildi: **33x33 (versiya 4), format məlumatı səhvsiz oxundu → səhv düzəltmə H, maska 0**. Bu, QR-in strukturunun HƏQİQİ olduğunu göstərir.
 - Lakin verilənlər hissəsi oxunmur: 1280x720-də QR cəmi 87 piksel (modul başına 2.6 piksel). Wiener deconvolution + kalibrləmə ilə struktur modullarında səhv 1/200-ə endirildi, amma Reed-Solomon (silinmə rejimi daxil) hələ də açmır. zxing və OpenCV də aça bilmir.
 - **Lazımdır**: posterin daha yüksək ölçülü nüsxəsi VƏ YA telefonla birbaşa skan.
+
+## 04.09.2026 ~17:00Z — QR üzərində son cəhdlər
+- Model əsaslı (least-squares + PSF) modul bərpası: struktur səhvi 1/200, amma format məsafəsi pisləşdi (2/3). Nöqtəvi nümunələmə daha yaxşıdır.
+- **Chase yumşaq-qərarlı deşifrə** (hər blokda ən şübhəli 14 bit, 16384 kombinasiya): blok 0,1,2 → 0 həll; blok 3 → 1 həll (təsadüf ola bilər).
+- Nəticə: QR-in strukturu (finder, timing, alignment, format=H/maska 0) düzgündür, amma **verilənlər hissəsi etibarlı QR kodlaması deyil**. Yəni poster çox güman AI ilə yaradılıb və QR skan olunmur. İstifadəçinin telefonla bir dəfə skan cəhdi bunu qəti təsdiqləyə bilər.
+- Yoxlanılan alətlər: OpenCV QRCodeDetector, zxing-cpp, öz yazdığım tam QR deşifrəçisi (Reed-Solomon + silinmə + Chase). Öz deşifrəçim eyni parametrli (v4/H/maska 0) sınaq QR-ində qüsursuz işləyir.
+
+## Növbəti prioritetlər (1080p lazım olan hissələr)
+Videonun 6:40–15:19 aralığı yalnız 360p-də yoxlanılıb. Prioritet sırası:
+1. **14:15–15:20** — 34 ədəd 12 hərfli sözün yığını və "Numbers for this half..." akrostiki (Colin üslubuna ən uyğun yer).
+2. **10:40–11:30** — nəhəng krossvord və 11 səviyyəli boş bloklar massivi.
+3. **12:45–13:35** — son şəbəkə/cədvəl və seyf kodunun xəritədə "yazılması".
+4. **8:20–8:55** — "Rewatch This Video" shorts-un böyük hərf abzası.
+5. **9:05–10:30** — beast.travel bölmələri (rebus, kriptik trio, GeoGuessr).
