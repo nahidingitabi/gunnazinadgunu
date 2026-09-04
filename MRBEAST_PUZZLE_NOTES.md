@@ -384,3 +384,30 @@ korkbordun zamanla DƏYİŞƏN hissələri.
 Otağın göründüyü bütün anlar: 0:47–0:53, 1:19–1:22, 1:38–1:41, 4:05–4:07, 4:31–4:34, 4:44–4:45,
 5:01–5:41, 6:05–6:45, 6:59–7:15, 8:37, 9:01–9:12, 10:06, 10:36–10:45, 11:29–11:43, 12:04,
 13:20–13:25, 13:50, 14:50–14:51, 15:04–15:06, 15:32, 17:19.
+
+## 04.09.2026 ~22:55Z — ★ ENUMERASİYA QEYDLƏRİ DEŞİFRƏ EDİLDİ (və elimine olundu)
+
+17:01-dəki masa qeydləri 1080p-də (10 fps + ən kəskin kadr + 10× Lanczos) tam oxundu:
+
+**Mavi qeyd:**  `(3 6 4)  ↘  (6 2…)  ↓  (6)`
+**Qırmızı qeyd:** `(5 2 7)  ↓  (4 4)`
+
+**Qırmızı qeyd HƏLL OLUNDU:**
+- `(5 2 7)` = **STUCK IN TRAFFIC** (5+2+7) — PDF, PG7 TANK LICENSE PLATE:
+  "the YouTube video 'I Paid Everyone Stuck In Traffic'"
+- `(4 4)` = **TOAD SUCK** (4+4) — "there is a city called Toad Suck, Arkansas"
+- Yəni bu, **KÖHNƏ tapmacanın PG7-si**dir.
+
+**Nəticə:** hər iki qeyd MrBeast-in personajının KÖHNƏ tapmacaları həll edərkən tutduğu
+iş qeydləridir (dekorasiya), $10k tapmacası deyil. Mavi qeydin son addımı `(6)` böyük ehtimalla
+MOSCOW-dur (PG3: RED CUBE → RED SQUARE → Moscow).
+**Bu iz bağlandı** — "(3 6 4) = CyberChef-in 13 simvolu" fərziyyəsi də ləğv olunur
+(3+6+4=13 sadəcə təsadüfdür; həm də 13 hərflik sırf-hərf sətri XOR-dan sonra
+12–13-cü mövqelərdə çap olunmayan simvol verir, yəni açarla uyğun gəlmir).
+
+### Vəziyyətin xülasəsi (nə qalıb)
+Elimine olunanlar: altyazı tire/rəng/mövqe steqanoqrafiyası (24 dil), akrostiklər, videodakı
+faktlar (36 yer adı düz), səs (bütün zolaqlar), thumbnail QR, 13-simvollu XOR süpürməsi,
+kimyəvi simvollar, rail-fence/transpozisiya (951k variant), enumerasiya qeydləri, xarici linklər.
+Qalan ən güclü namizəd: **otaqdakı hələ oxunmamış rekvizitlər** (6:28–6:45 və 9:00–9:15
+masa yaxın planları) — bunlar üçün 1080p lazımdır.
