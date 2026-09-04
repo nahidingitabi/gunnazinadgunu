@@ -366,3 +366,21 @@ OPEN THIS CHOCOLATE CHESS PIECE" — Botez bacılarının real yayım chat-ıdı
 ### Qalan ən perspektivli istiqamət
 Otaq səhnələrinin 1080p görüntüləri (yuxarıdakı xəritə). Xüsusilə masa üstü yapışqan qeydlər və
 korkbordun zamanla DƏYİŞƏN hissələri.
+
+## 04.09.2026 ~22:45Z — 1080p üçün DƏQİQ seqment siyahısı (otaq/qeyd xəritəsi)
+
+360p üzərində bütün otaq səhnələri gözdən keçirildi. Qeydlərin oxunması üçün ən dəyərli anlar:
+
+| Prioritet | Vaxt | Nə var | 1080p əlimdə? |
+|---|---|---|---|
+| **1** | **6:28–6:45** | Masanın ƏN YAXIN planı: monitorun üstündəki yaşıl+sarı qeydlər (6:11-dəkindən daha yaxın) **və klaviaturanın yanında YENİ sarı qeyd** | **YOX** (klip B 6:28-də bitir) |
+| **2** | **9:00–9:15** | Masa başqa bucaqdan; masanın üstündə sarı qeyd | YOX |
+| 3 | 10:35–10:50 | Nəhəng krossvord əldə | YOX |
+| 4 | 13:15–13:35 | Qlobuslar / böyük çevrələr | YOX |
+| 5 | 14:15–15:20 | 34 sözün yığını + akrostik | YOX |
+| — | 5:26–5:45 | Korkbord yaxın planı ("CODE…ON→", "K's ON BELT") | HƏ (klip B) |
+| — | 6:05–6:28 | Monitor qeydləri (LSWRTE) | HƏ (klip B) |
+
+Otağın göründüyü bütün anlar: 0:47–0:53, 1:19–1:22, 1:38–1:41, 4:05–4:07, 4:31–4:34, 4:44–4:45,
+5:01–5:41, 6:05–6:45, 6:59–7:15, 8:37, 9:01–9:12, 10:06, 10:36–10:45, 11:29–11:43, 12:04,
+13:20–13:25, 13:50, 14:50–14:51, 15:04–15:06, 15:32, 17:19.
