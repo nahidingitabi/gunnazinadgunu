@@ -65,3 +65,11 @@ yt-dlp klientləri (android_vr, ios, tv, mweb, web_safari, mediaconnect, tv_simp
 - Köhnə retry dövrəsi (retry_dl.sh) 2-ci raunddan sonra ilişib qalmışdı; öldürüldü, yerinə hər 20 dəqiqədən bir cəhd edən retry_dl2.sh başladıldı (timeout -k ilə).
 - PR #1: dəyişiklik yoxdur (draft, clean, CI yoxdur).
 - Növbəti addım istifadəçidən asılıdır: tam videonun (17:47, 1080p) yüklənməsi.
+
+## 04.09.2026 ~10:20Z — istifadəçi 360p fayl yüklədi (yalnız 0:00–6:40)
+- Fayl: 3426abf2-vidssave.com_..._360P.mov, 640x360, 6:40 (tam video 17:47-dir; 6:40-dan sonrası yoxdur).
+- 0:00–6:40 arasında tək-kadr (gizli kadr) anomaliyası yoxdur (12008 kadr yoxlandı).
+- Qaranlıq hissə 0:11–0:13: sadəcə işıqların yanması keçididir. 3:32 və 3:51 "glitch" kadrları: keçid effektləri.
+- Altyazıdakı defislər və "səhv yazılmış" sözlər yoxlandı: şifrə əlaməti yoxdur (yalnız "Fourty-nine" — Sketch-in replikası).
+- **Əsas tapıntı:** 5:20–5:26 arasında sonluqdakı EYNİ Zenith TV və EYNİ masa ("(364)" qeydi və disk telefon görünür) üzərində 11 "INSTRUCTIONS" kartı hər biri ~0.3 s göstərilir: Salina Turda (PG1), Seoul (PG2), Lower Hutt (PG5, telefon klaviatura kodu!), Tbilisi (PG6), Toad Suck (PG7), Tijuana (PG8), Kandi (PG9), Ankara (PG10), Doha (PG11), Cairo (PG12), Maputo (PG13). "PAUSE" işarəsi çox güman bunlara aiddir. 360p-də mətn tam oxunmur; PDF-dəki izahlarla ümumi məzmun uyğun gəlir, amma söz-söz fərqlər yoxlanmalıdır (1080p lazımdır).
+- Montaj səhnələrinin tam videodakı yeri (360p ilə təsdiqləndi): çarşaf/lövhə 0:10–0:16 və 0:48–1:02; pul seyfi 1:03–1:17; lazerlər 2:18–2:24; Beast City 2:41; telefon/emoji 2:43–2:50; hazard zolaq+ay 3:02–3:04 (SB10 qapılar); tank "3634826-1" 3:19–3:24; çek 3:29–3:36; qırmızı kub ("oyun" səhnəsi) 4:35–4:37; Fallon 5:46 və 6:02–6:04; hədiyyə lövhəsi ehtimal 7:04–7:12; Colin səhnələri 15:43+; planşet 16:12–16:38; dişlilər 16:39.
