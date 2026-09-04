@@ -320,3 +320,49 @@ Təqdimatçı otağı (kərpic + korkbord) bu anlarda görünür:
 `mweb` klienti bütün formatları (1080p) SİYAHIDA göstərir, amma googlevideo.com media
 sorğuları **403** verir (IP bloku). tv_embedded yalnız dublyaj audio üçün HLS verir.
 Altyazı/şərh/metadata çəkilişi işləyir.
+
+## 04.09.2026 ~22:30Z — geniş mənfi nəticələr blokú (axtarış sahəsi xeyli daraldı)
+
+### Akrostik testləri — HAMISI MƏNFİ
+Aşağıdakıların hamısı çıxarılıb ingilis dili söz-seqmentasiya modeli ilə qiymətləndirildi;
+heç birində məna yoxdur:
+- Hər cümlənin ilk hərfi (299 cümlə) / son hərfi
+- Hər altyazı kadrının (503 unikal) ilk hərfi / son hərfi / ilk sözünün ilk hərfi
+- Hər 2-ci, 3-cü, 4-cü, 5-ci, 7-ci sözün ilk hərfi (1597/1065/799/639/457 hərf)
+
+### "Videoda səhv fakt var" nəzəriyyəsi — MƏNFİ
+Videoda deyilən **36 yer adı və açar rəqəmin hamısı** rəsmi PDF ilə üst-üstə düşür:
+Tashkent, Lima, Accra, Kabul, Kupang, Arles, Beast City Hub/Toronto, Casablanca, Yellowstone,
+Lahore, New Orleans, Tallinn, Red Square/Moscow, Wichita, Buffalo, Tierra del Fuego, Algiers,
+DeKalb, Queensland, Sucre, Silver Coast, Iturup, South Pole, Quito, Beatty, Christchurch,
+Manistee, Eyjafjallajökull, Tijuana, Yellowknife, Montreal, L'Ascension, Souper Bowl,
+titanic hoop, Blackpink/Rosé, R62L39R05... — **planlanmış səhv YOXDUR.**
+
+### DÜZƏLİŞ (əvvəlki qeyddəki səhv)
+5:19–5:26 INSTRUCTIONS kartları PDF ilə "söz-söz eyni" DEYİL — onlar PDF-in **parafrazıdır**
+(yenidən yazılmış qısa versiya). Ona görə kart mətnini PDF ilə müqayisə edərək "gizli dəyişiklik"
+tapmaq mümkün deyil. Kartlardan yeni məlumat: sudoku kitab-şifrəsinin fon mətni
+"WHY SO MANY? BECAUSE I AM BORED AND I NEED TO COUNT ON SOMETHING." və cavab
+"WEEK STAYED IN WHICH SALT MINE" → Salina Turda, Rumıniya.
+
+### Səs analizi — MƏNFİ
+Bütün videonun səsi (1067 s, stereo 48 kHz) 4096-nöqtəli pəncərələrlə tam skan edildi:
+mid və side kanallarında 20–4000 Hz, 15–19 kHz, 19–24 kHz zolaqları. 19–24 kHz praktik olaraq
+səs-küy səviyyəsindədir (orta 5·10⁻⁴); yüksək dəyərlər yalnız güclü səs effektləri ilə üst-üstə
+düşür (17:10, 15:11, 8:27) — data kanalı deyil. Qeyd: mənbə 360p AAC-dir, onsuz da ~16 kHz-dən
+yuxarını kəsir; YouTube kodeki ultrasəs steqanoqrafiyasını məhv edərdi, ona görə bu üsul
+tapmaca üçün onsuz da uyğun deyil.
+
+### N/91 sayğacı
+Oxunan dəyərlər: 12/91 (4:12), 13 (4:45), 14 (5:12), 25 (5:23), 26 (6:05), 27 (6:41), 32 (7:38),
+50 (8:59), 52 (10:04), 88 (10:32). Sıçrayışlar hekayə ilə uyğundur (14→25 = PG kartları toplu
+şəkildə). 1 fps seçmə olduğuna görə tam sıra bilinmir; anomaliya əlaməti yoxdur.
+
+### 6:11 planşet ekranındakı Twitch chat (tam oxundu)
+"MSG: Hello @garrycaspivarov / Thyranim: Andrea what happend to the pig vest? / aus85: not going
+to weigh in / @msg1138 / nuskul: glad to see you together / …note first / RoccoR…: hi! Andrea /
+OPEN THIS CHOCOLATE CHESS PIECE" — Botez bacılarının real yayım chat-ıdır, tapmaca əlaməti yoxdur.
+
+### Qalan ən perspektivli istiqamət
+Otaq səhnələrinin 1080p görüntüləri (yuxarıdakı xəritə). Xüsusilə masa üstü yapışqan qeydlər və
+korkbordun zamanla DƏYİŞƏN hissələri.
