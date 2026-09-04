@@ -272,3 +272,51 @@ medium.com/@beastforce67/puzzle-1a6600218fd0 · pixelfed.social/BeastForce67 · 
 Otaqdakı **bütün** yapışqan qeydləri və arxadakı "serial killer wall" kartlarını 1080p-də
 oxumaq lazımdır. Görünən otaq səhnələri: 5:03, 5:31, 5:35, 5:39, 6:03, 6:11, 6:23 və 17:01.
 Əlimdə olmayan otaq planları üçün 1080p seqment lazımdır.
+
+## 04.09.2026 ~22:20Z — rail-fence qeydi üzrə YEKUN, rəsmi qaydalar, otaq xəritəsi
+
+### ★ RƏSMİ QAYDALAR (yeni, vacib məhdudiyyət)
+https://puzzle-video-sweepstakes.mrbeast.app/official-rules mətni çıxarıldı (`rules.txt`):
+> "The goal of the Contest is to be the first person to solve a puzzle... watch the Contest
+> video published on @MrBeast2... **Clues to solving the Puzzle will be available in the Video.**
+> Once you have the answer, go to [the Website] and follow the on-screen instructions to provide
+> your answer... The first correct answer submitted... TO WIN YOU MUST BE THE FIRST PERSON TO
+> SUBMIT THE ANSWER 100% CORRECTLY."
+- Müsabiqə 02.09.2026 12:00 ET – 02.09.2027 11:59 ET (və ya qalib tapılana qədər).
+- **NƏTİCƏ: bütün ipuçları VİDEONUN İÇİNDƏDİR.** Thumbnail QR, xarici linklər (BeastForce67),
+  onemil.xyz — bunların heç biri tələb olunmur. Axtarışı yalnız videoya fokuslamaq lazımdır.
+
+### ★ "LSWRTE / NNHTIN / HDOTA" qeydi — TAM YOXLANDI, TRANSPOZİSİYA DEYİL
+Hərflər 1080p-də çox kadrda təsdiqləndi (super-rezolusiya + tək kadr yaxınlaşdırma).
+Aparılan yoxlamalar:
+- **951 112** transpozisiya variantı yaradıldı: 6 sətir sırası × sətirlərin tərsi × **720 sütun
+  permutasiyası** × sütun/sətir oxunuşu × rail fence (2–8 rels, bütün offsetlər, həm şifrələmə
+  həm deşifrə) × tərs oxunuş.
+- Paralel olaraq 17 hərfin (A D E H H I L N N N O R S T T T W) BÜTÜN ≤4 sözlük anaqram ifadələri
+  hesablandı (lüğət: pyspellchecker, 3321 uyğun söz).
+- **Kəsişmə: SIFIR.** Yəni bu hərflər heç bir ingilis ifadəsinin transpozisiyası DEYİL.
+- Əlavə mənfi nəticələr: heç bir sətir tək sözün anaqramı deyil (LSWRTE/NNHTIN/HDOTA — heç biri);
+  kimyəvi element simvollarına bölünmür (0 seqmentasiya); Caesar/Atbash nəticə vermir.
+- 4 sait / 17 hərf (23%) — ingilis mətni üçün çox aşağıdır (normal ~38%).
+- **HÖKM: çox güman dekorasiyadır** (art department zarafatı), ya da əlimizdə olmayan
+  əlavə məlumat tələb edir. Daha çox vaxt sərf etməyə dəyməz.
+- Sarı qonşu qeyd: "Books w/ old names.... Alphabetize?" — açar kimi sınandı (720 sütun sırası),
+  nəticə yoxdur.
+
+### ★ Digər otaq qeydləri (5:35–5:45 korkbord yaxın planı, 1080p)
+- Sarı qeyd: **"CODE ... ON ... →"** (qalanı ağ kağızın altında qalır, ox sağa göstərir)
+- Sarı qeyd: **"K's ON BELT"** (köhnə tapmacanın SB2 kəmər X-lərinə istinad)
+- Divar = PDF-in 5-ci səhifəsindəki "SERIAL KILLER WALL"-un rekonstruksiyasıdır (bütün köhnə
+  tapmacaların kartları). Kartlar video boyu ARTIR (hekayə irəlilədikcə divar dolur).
+
+### ★ OTAQ SƏHNƏLƏRİNİN XƏRİTƏSİ (360p üzərində rəng-imza axtarışı ilə)
+Təqdimatçı otağı (kərpic + korkbord) bu anlarda görünür:
+0:47–0:53 · 1:19–1:22 · 1:38–1:41 · 4:05–4:07 · 4:31–4:34 · 4:44–4:45 · **5:01–5:41** ·
+**6:05–6:33** · 6:41–6:42 · **6:59–7:15** · 8:37 · **9:01–9:08** · 10:06 · **10:36–10:40** ·
+**11:29–11:43** · 12:04 · **13:20–13:25** · 13:50 · 14:50–14:51 · **15:04–15:06** · 15:32 · 17:19
+Əlimdə 1080p olan: yalnız 0:00–1:10, 5:03–6:28, 15:19–16:52, 16:48–17:47.
+
+### Video yükləmə statusu
+`mweb` klienti bütün formatları (1080p) SİYAHIDA göstərir, amma googlevideo.com media
+sorğuları **403** verir (IP bloku). tv_embedded yalnız dublyaj audio üçün HLS verir.
+Altyazı/şərh/metadata çəkilişi işləyir.
