@@ -103,3 +103,10 @@ yt-dlp klientləri (android_vr, ios, tv, mweb, web_safari, mediaconnect, tv_simp
 - 15:19–16:52 1080p: Rosé fotosu çap şəkildir (Instagram başlığı yoxdur), tablo qrafikası real foto, planşet ekranı oxunmur, 70,000,000 sayğacı adi animasiyadır.
 - Colin-in "Riddle #0" videosunun sonu MrBeast tapmacasına istinad etmir (kanal təqdimatıdır).
 - Qırmızı masa qeydi "(5 2 7) → … → (4 4)(8?)" böyük ehtimalla köhnə PG7 həll zənciridir: STUCK IN TRAFFIC (5,2,7) → TOAD SUCK (4,4), ARKANSAS (8). Yəni masa qeydləri dekorasiyadır.
+
+## 04.09.2026 ~16:30Z — kənar saytlar
+- onemil.xyz (PG1 Sudoku saytı) hələ canlıdır, amma Vercel JS yoxlamasının arxasındadır (buradan açılmır). "Colin's profile" oradakı profil ola bilər — brauzerdə yoxlanmalıdır.
+- beast.travel dəyişməyib (son səhifə dəyişikliyi 2026-04-02, "Trips by Roamy"). Başlıqda "THERE ARE NO PUZZLES HIDING IN THE CODE. -SHANE". İcma Discord-u: https://lonesharkgames.com/discord/
+- mrbeast.salesforce.com/faq köhnə yarışın FAQ-ıdır.
+- Montaj-vs-mənbə fərq analizi (scenes/diff_sheet.jpg): stilizasiya səbəbindən nəticəsiz; əlavə simvol seçilmir.
+- XOR açarı pregame cavablarının baş/son hərfləri ilə sınandı: mənasız.
