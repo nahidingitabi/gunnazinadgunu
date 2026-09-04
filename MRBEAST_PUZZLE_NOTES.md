@@ -96,3 +96,10 @@ yt-dlp klientləri (android_vr, ios, tv, mweb, web_safari, mediaconnect, tv_simp
 - Nəticə: "(364)" və "(527)" qeydləri də dekorasiya ola bilər, amma PDF-də uyğun ifadə tapılmadı (avtomatik axtarış: (3,6,4), (5,2,7), (6,2), (4,4), (6,3,5,4) — mənalı uyğunluq yoxdur).
 - Colin səhnələri (15:43–16:52) 1080p-də: yeni heç nə yoxdur; planşet kodu köhnə tapmacadır.
 - Colin-in X hesabı (@doctorxor) ona aid deyil; Twitch/Instagram səhifələri bu mühitdən oxunmur; tinyurl "xor*" variantları əlaqəsizdir.
+
+## 04.09.2026 ~16:10Z — əlavə yoxlamalar (hamısı mənfi)
+- Sonluqdakı 17:12 "flicker" qara kadrları və 16:09 "blink" qara kadrları parlaqlaşdırıldı: gizli yazı yoxdur (16:09-dakılar tam qaradır).
+- Sonluq səsində (12–48 s) DTMF, Morze və disk-telefon impuls klikləri axtarıldı: yalnız musiqi/effekt tranzientləri var.
+- 15:19–16:52 1080p: Rosé fotosu çap şəkildir (Instagram başlığı yoxdur), tablo qrafikası real foto, planşet ekranı oxunmur, 70,000,000 sayğacı adi animasiyadır.
+- Colin-in "Riddle #0" videosunun sonu MrBeast tapmacasına istinad etmir (kanal təqdimatıdır).
+- Qırmızı masa qeydi "(5 2 7) → … → (4 4)(8?)" böyük ehtimalla köhnə PG7 həll zənciridir: STUCK IN TRAFFIC (5,2,7) → TOAD SUCK (4,4), ARKANSAS (8). Yəni masa qeydləri dekorasiyadır.
