@@ -467,3 +467,29 @@ Ekrandakı bütün açarlar MP16–24-ün rəsmi cavabları ilə uyğundur; yeni
 1080p-də belə həmin sarı qeyd cəmi ~67×30 pikseldir və maili/bulanıqdır. 13 kadrlıq
 izləmə + 14× super-rezolusiya sınandı: 3–4 sətir əlyazma və sonda "?" seçilir, mətn oxunmur.
 Videoda bu qeydin daha yaxın planı YOXDUR. Masadakı çap olunmuş cədvəl/siyahı da oxunmur.
+
+### ★ what3words ünvanları — hamısı yoxlandı
+Videoda ekranda görünən BÜTÜN üç-sözlü ünvanlar tapıldı və həll edildi:
+| Ünvan | Vaxt | Real yer | Status |
+|---|---|---|---|
+| `union.banks.piano` | 9:35–12:35 (kartlardakı nümunə) | **Greenville, North Carolina** | ✓ video düz deyir (MrBeast-in mərkəzi) |
+| `driven.hint.improving` | 10:00 | **Christchurch, Canterbury (NZ)** | ✓ PDF ilə eyni (MP17) |
+| `clip.apples.leap` | **9:58** | **New York City** | ✗ **YANLIŞ İZ** |
+
+`clip.apples.leap` əvvəlcə çox perspektivli göründü (rəsmi 9 triodan biri deyil, ekranda
+2 saniyə görünür). Amma **what3words.com-un ANA SƏHİFƏSİNİN öz standart nümunə ünvanıdır**
+(saytın kök HTML-ində 4 dəfə keçir). Yəni redaktor sadəcə saytı açıb, real ünvanı yazmazdan
+əvvəl standart ünvan ekranda qalıb. **Tapmaca ilə əlaqəsi yoxdur.**
+
+### 9:58 kadrı — masanın ən yaxın planı
+Bu kadrda monitorun qeydləri (yaşıl LSWRTE 97×74 px, sarı "Books w/…" 114×86 px) və
+klaviaturanın yanındakı sarı qeyd (117×54 px) ən böyük ölçüdədir. Buna baxmayaraq
+klaviatura qeydi **hələ də oxunmur** — çox maili bucaq + işıq partlaması; yalnız 3 sətir
+əlyazma seçilir. Videoda bundan yaxın plan yoxdur.
+
+### Digər yeni ekran mətnləri (hamısı köhnə tapmacaya aiddir)
+- 9:14 beast.travel altlığı: "Roamy says: BOOK YOUR MILLION-DOLLAR JOURNEY TODAY /
+  CHAT WITH OTHER TRAVELERS ON OUR DISCORD SERVER"
+- 10:29: "40 PUZZLES", "Trips by Car/Horse/Plane/Boat/Roamy"
+- 10:01–10:04: Christchurch xəritə adları (Riccarton, Addington, Hagley, Canterbury…) — MP17 təsdiqi
+- 6:39–6:53 Botez yayımının chat-ı (Twitch/chess.com) — real izləyici mesajlarıdır
