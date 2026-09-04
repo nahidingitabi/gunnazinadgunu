@@ -563,3 +563,20 @@ materialdadır. Əlavə material siyahısı və statusu:
 | **Otaqdakı yapışqan qeydlər** | **← YEGANƏ AÇILMAMIŞ SAHƏ** |
 Açılmamış qeydlər: "LSWRTE/NNHTIN/HDOTA + bird fence", "Books w/ old names… Alphabetize?",
 "CODE … ON →", "K's ON BELT", klaviaturanın yanındakı oxunmayan qeyd.
+
+### ★ Altyazı vs SƏS — müstəqil ASR ilə tutuşdurma (SB12 üsulunun yekun testi)
+faster-whisper (base.en) ilə bütün videonun səsi müstəqil transkript edildi (367 seqment),
+sonra authored altyazı ilə söz-səviyyəsində difflənildi:
+- Oxşarlıq: **0.9115**; 163 sözlük fərq bloku.
+- Fərqlərin **hamısı** adi ASR səhvləridir: rəqəmlərin yazılışı ("ninety one" vs "91"),
+  xüsusi adlar ("Botez"→"bo test", "Nepomniachtchi"→"napomniology", "DeKalb"→"the cobb",
+  "Quito"→"keto", "Tor'oc"→"tora"), omofon qarışığı ("chess"→"chest", "vault"→"bowl"),
+  qısaltmalar ("gonna"→"going to").
+- **Altyazıda danışılandan fərqli TƏK BİR məqsədli söz yoxdur.**
+→ SB12-nin "closed captioning is modded" üsulu bu videoda **qəti olaraq YOXDUR**.
+
+### Divar (serial killer wall) — 4 kadrda 3×5 tayl ilə 4× böyüdülmüş OCR
+60 fərqli sətir çıxdı: SAVINGS WITHDRAWAL / SIGNATURE / DATE / 5480234354 / 0283979 /
+RED HERRING BANK (PG5 çıxarış vərəqəsi), "THE BEST CUSTOMERS!" / "THE BEST BANK!" (PG8 poster),
+"FROM MR BEAST" (hədiyyə), "CODE", "BELT", "Slackbot: Good luck!" (SB ekranı), "10s" (SB7),
+qalanı Twitch chat. **Hamısı köhnə tapmacanın materialıdır.**
