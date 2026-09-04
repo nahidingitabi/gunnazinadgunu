@@ -411,3 +411,18 @@ faktlar (36 yer adı düz), səs (bütün zolaqlar), thumbnail QR, 13-simvollu X
 kimyəvi simvollar, rail-fence/transpozisiya (951k variant), enumerasiya qeydləri, xarici linklər.
 Qalan ən güclü namizəd: **otaqdakı hələ oxunmamış rekvizitlər** (6:28–6:45 və 9:00–9:15
 masa yaxın planları) — bunlar üçün 1080p lazımdır.
+
+### 23:05Z — 360p super-rezolusiya cəhdi (mənfi)
+6:36-dakı masa planında klaviaturanın yanındakı kiçik sarı qeyd üçün 360p-dən çox-kadrlı
+super-rezolusiya sınandı: 56 kadr (30 fps, kamera demək olar sabit), faza-korrelyasiya ilə
+sub-piksel düzləndirmə, 12× böyütmə, unsharp mask. **Oxunmur** — qeyd 360p-də ~28×15 piksel
+olduğuna görə məlumat sadəcə mövcud deyil. 1080p mütləq lazımdır.
+
+### Montaj (17:12–17:47) — əvvəllər tam xəritələnib, yeni heç nə yoxdur
+Bütün 18 montaj səhnəsi tam videodakı mənbə anlarına bağlanıb (yuxarıdakı cədvəl);
+hamısı videonun öz kadrlarıdır, əlavə məlumat daşımır.
+
+### Yer adlarının ardıcıllığı — akrostik YOXDUR
+Videoda adı çəkilən 37 yerin təqdim olunma sırasında ilk/ikinci/son hərfləri:
+`TLAKKABTCYLNTRMWBTADQNSSISQBDHIMETYLM` və s. — məna vermir.
+(Qeyd: video "driven.hint.improving" deyir, amma Christchurch adını heç vaxt çəkmir.)
