@@ -142,3 +142,9 @@ Videonun 6:40–15:19 aralığı yalnız 360p-də yoxlanılıb. Prioritet sıras
 3. **12:45–13:35** — son şəbəkə/cədvəl və seyf kodunun xəritədə "yazılması".
 4. **8:20–8:55** — "Rewatch This Video" shorts-un böyük hərf abzası.
 5. **9:05–10:30** — beast.travel bölmələri (rebus, kriptik trio, GeoGuessr).
+
+## 04.09.2026 ~17:30Z — saatlıq tur
+- Videodakı yaşıl sayğac (X/12 → X/91) kataloqlaşdırıldı. 4:11-dəki "12/73" ANOMALİYA DEYİL: 4:10–4:12 arasında sayğac 12/12 → 12/16 → 12/26 → ... → 12/91 animasiyası ilə artır.
+- Yer kartları (ağ mətn + qırmızı pin) avtomatik aşkarlandı: 59 fərqli görünüş. "Thane, India" rəsmi cavab açarında var (OP3), anomaliya deyil.
+- YouTube şərhləri hələ də bloklanır (bot yoxlaması).
+- **Yeni alət: rapidocr-onnxruntime quraşdırıldı.** Bütün 1068 kadr (1 fps) üzərində OCR işə salındı — videodakı bütün ekran mətnlərinin tam kataloqu çıxarılır. Nəticə: ocr_all.json.
