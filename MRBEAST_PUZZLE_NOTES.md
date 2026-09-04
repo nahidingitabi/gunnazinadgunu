@@ -88,3 +88,11 @@ yt-dlp klientləri (android_vr, ios, tv, mweb, web_safari, mediaconnect, tv_simp
 - Qutu üzərində əl yazısı "July 1st 1988 – June 30 89" (aralıq = 364 gün!). "(364)" bununla bağlı ola bilər.
 - Sonluqdakı QR sadəcə https://puzzle-video-sweepstakes.mrbeast.app/ (parametr yoxdur). Forma demo-sunda 16 ulduz yazılır.
 - Monitorun yapışqan qeydləri və çəhrayı qeyd 1080p geniş planda oxunmur; 9:55–10:00 yaxın plan lazımdır.
+
+## 04.09.2026 ~12:30Z — 1080p seqmentlər 0:00–1:10 və 15:19–16:52
+- 0:11–0:13 qaranlıq kadrlar 1080p-də də yalnız arxadan işıqlanan çarşafdır; gizli yazı yoxdur.
+- 0:14 geniş planda masalardakı qeydlər: qırmızı qeyd tam: "(5 2 7) ↓ (6 3 5 4)?" və yanında "(4 4)(9)?" (bir hissəsi "(5 6 3 5)" də oxuna bilər — SEVEN LETTER BIG LODGE-un say formatı (5,6,3,5) ola bilər; qeyri-müəyyən).
+- Monitorun yapışqan qeydləri (0:14, 5:24): mavi "LSWRTE / NNRTIN / HDOTA — Should I read it as a grid?", narıncı "Books w/ old name. Alphabetize?". Bunlar köhnə tapmacanın "həlledici qeydləri" üslubunda dekorasiyadır (PG1 sütun oxunuşu, Red Herring Bank).
+- Nəticə: "(364)" və "(527)" qeydləri də dekorasiya ola bilər, amma PDF-də uyğun ifadə tapılmadı (avtomatik axtarış: (3,6,4), (5,2,7), (6,2), (4,4), (6,3,5,4) — mənalı uyğunluq yoxdur).
+- Colin səhnələri (15:43–16:52) 1080p-də: yeni heç nə yoxdur; planşet kodu köhnə tapmacadır.
+- Colin-in X hesabı (@doctorxor) ona aid deyil; Twitch/Instagram səhifələri bu mühitdən oxunmur; tinyurl "xor*" variantları əlaqəsizdir.
