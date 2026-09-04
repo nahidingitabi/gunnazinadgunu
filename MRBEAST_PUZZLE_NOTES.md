@@ -493,3 +493,36 @@ klaviatura qeydi **hələ də oxunmur** — çox maili bucaq + işıq partlamas�
 - 10:29: "40 PUZZLES", "Trips by Car/Horse/Plane/Boat/Roamy"
 - 10:01–10:04: Christchurch xəritə adları (Riccarton, Addington, Hagley, Canterbury…) — MP17 təsdiqi
 - 6:39–6:53 Botez yayımının chat-ı (Twitch/chess.com) — real izləyici mesajlarıdır
+
+## 05.09.2026 — OP10 bloku (8:24–8:51) tam oxundu + bütün yer bannerləri yoxlandı
+
+### OP10 "Rewatch This Video" paraqrafı (8:28–8:34) — tam mətn çıxarıldı
+```
+I'm trapped and shaking. Trying to remember where I am. Hoping someone listens, I can't see
+exits, Sounds lie. Maybe this reaches you, Every breath hurts. Anxiety spikes, Nothing feels
+real, Still I talk. No windows, Only dark, Time warps. Head ringing, I can't think, Nerves
+frayed, Goodness help me. I keep whispering. Just in case. Unknown footsteps pass, Silence
+answers, Terrifying. Walls close in, Air thin, Nails scrape, Trying to focus, Every mark
+matters, Desperate. Take this seriously. Observe closely. What you're reading, All of it.
+Seems urgent, Tense, Enough. You're still here, Obviously reading, Unaware, Right?
+Time slipped, Ironic, Maybe smile, Ending now. Laughter feels earned, Oddly enough.
+Linger on that.
+```
+Video 8:32–8:34-də böyük hərfləri özü açır: **"This means nothing I just wanted to waste your
+time LOL"** — bu, PDF-də yazıldığı kimi TƏLƏDİR (decoy).
+
+### ★ 8:41–8:50 — omofon zənciri ekranda göstərilir
+**"Key Toe Heck Quid Door"** → deyəndə **QUITO ECUADOR** olur.
+(key = inəkdəki açar, quid = # / funt, door = qapılı butlerlər — PDF-dəki OP10 izahı ilə eyni.)
+**Bu vacibdir:** video "səsli oxu" (homophone) üsulunu AÇIQ şəkildə öyrədir — Colin-in
+öz ipucu da eynidir ("Try saying it out loud"). Digər eyni üsullu nümunələr: CASH TENT→Tashkent,
+TALL INN→Tallinn, GATE-WEIGH→Gateway, A NICE SUGAR→Nice+Sucre, ICE CREAM→"I"+screaming,
+SOUPER BOWL→Super Bowl.
+
+### Bütün ekran bannerləri (70 ədəd) PDF ilə tutuşduruldu — hamısı DÜZGÜNDÜR
+Tashkent, Lima, Accra, Kabul, Arles, Casablanca, Yellowstone, Lahore, New Orleans, Tallinn,
+Moscow, **Armavir (Armenia)**, **Salina Turda (Romania)**, **Toad Suck (Arkansas)**,
+**Seoul**, **Doha**, Tijuana, **Maputo**, Wichita, Buffalo, Algiers, DeKalb, Queensland,
+**Dimtu (Ethiopia)**, **Nome (Alaska)**, Iturup, **Male (Maldives)**, **Thane (India)**,
+Quito, **Heard Island**, Beatty, Christchurch, Manistee, L'Ascension, **Arzamas**, **Visby**,
+**Marquette**, **Casper** — hamısı rəsmi açarda var. Planlanmış səhv yoxdur.
