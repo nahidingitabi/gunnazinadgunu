@@ -426,3 +426,44 @@ hamısı videonun öz kadrlarıdır, əlavə məlumat daşımır.
 Videoda adı çəkilən 37 yerin təqdim olunma sırasında ilk/ikinci/son hərfləri:
 `TLAKKABTCYLNTRMWBTADQNSSISQBDHIMETYLM` və s. — məna vermir.
 (Qeyd: video "driven.hint.improving" deyir, amma Christchurch adını heç vaxt çəkmir.)
+
+## 05.09.2026 — 4 YENİ 1080p KLİP analiz edildi
+
+Klip əhatələri (360p ilə kadr-uyğunlaşdırma ilə təyin olundu):
+- `48b92c09` → **5:40–6:59**  (masa yaxın planı 6:32–6:36, şahmat kartı 6:28–6:31)
+- `0f1d65d9` → **9:10–10:34** (beast.travel, rebus, kriptik trio kartları 9:33–9:50)
+- `fba19fc0` → **14:14–15:28** (12 hərflik sözlərin yığını 14:32–14:47)
+- `29701bfa` → **16:57–17:26** (sonluq montajı TV-də)
+
+### ★ Şahmat kartı (6:28–6:31) tam oxundu — rəsmi açarla TAM UYĞUNDUR
+Kartın başlığı: "This file may be useful when studying Game 6 of Carlsen versus Nepomniachtchi
+at the World Chess Championship 2021." Fiqur→hərf cədvəli (ilk dəfə tam çıxarıldı):
+- **Qara:** qala=M, at=C, fil=S, **şah=B**, **vəzir=O**, piyada=E
+- **Ağ:** qala=L, at=A, fil=N, **şah=U**, **vəzir=Y**, piyada=F
+(Şah/vəzir fiqurun üstündəki xaç/tacla təsdiqləndi — kartda sıra R N B **K Q** B N R-dir.)
+Oyun 6-nın son mövqeyindəki 7 fiqur → B,O,U,L,A,F,F = **BUFFALO** ✓ PDF ilə eynidir, dəyişiklik yoxdur.
+
+### ★ 40 ədəd 12-hərflik söz — TAM SIRA İLƏ BƏRPA EDİLDİ (PDF-də sıra yoxdur!)
+14:32–14:47 arasında yığın sürüşür; hər kadr OCR edilib sıra bərpa olundu:
+NEBULAPHOBIA, ULTRAMONTANE, MARIMBAPHONE, BARODYNAMICS, EBULLIOSCOPE, RECEPTACULAR,
+SALAMANDROID, FURFURACEOUS, OCHROLEUCOUS, RISORGIMENTO, THEANTHROPIC, HAPAXANTHOUS,
+INCLINOMETER, SCAPULOMANCY, HEKISTOTHERM, ABERUNCATORS, LACHRYMIFORM, FISSICOSTATE,
+WINDCHEATERS, OLERICULTURE, UNDERBRIDGES, LAEVODUCTION, DEAMBULATORY, SCAFFMASTERS,
+MACHAIRODONT, ECTYPOGRAPHY, LAMPADEPHORE, LIGNIPERDOUS, ABOUTSLEDGES, SERPENTICIDE,
+SNALLYGASTER, WINTERBOURNE, EPANOSTROPHE, ELEEMOSYNARY, TERAMORPHOUS, ABSQUATULATE,
+SAPONIFIABLE, ODORIVECTORS, NARRISCHKEIT, EXSANGUINOUS
+
+- İlk hərflər: **NUMBERSFORTHISHALFWOULDSMELLASSWEETASONE** — rəsmi mesajla 100% eyni ✓
+- 40 sözün **hamısı** PDF-də var; heç bir söz dəyişdirilməyib.
+- **Bütün digər hərf mövqeləri (2–12), tərsi və 24 diaqonal yoxlandı → hamısı səs-küydür.**
+  (İngilis dili modeli: sütun 1 = 2.56 bal; ən yaxşı digər variant = 8.47 = mənasız.)
+- Kiçik qeyd: PDF-in özündə uyğunsuzluq var — başlıqlarda NEBULAPHOBIA, caption siyahısında
+  NEBULOPHOBIA. Video NEBULAPHOBIA yazır (yəni PDF-in öz səhvidir, videonun yox).
+
+### Kriptik trio kartları (9:33–9:50) 1080p-də
+Ekrandakı bütün açarlar MP16–24-ün rəsmi cavabları ilə uyğundur; yeni/əlavə açar yoxdur.
+
+### 6:32 masa qeydi — hələ də oxunmur
+1080p-də belə həmin sarı qeyd cəmi ~67×30 pikseldir və maili/bulanıqdır. 13 kadrlıq
+izləmə + 14× super-rezolusiya sınandı: 3–4 sətir əlyazma və sonda "?" seçilir, mətn oxunmur.
+Videoda bu qeydin daha yaxın planı YOXDUR. Masadakı çap olunmuş cədvəl/siyahı da oxunmur.
