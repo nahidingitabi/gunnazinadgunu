@@ -148,3 +148,70 @@ Videonun 6:40–15:19 aralığı yalnız 360p-də yoxlanılıb. Prioritet sıras
 - Yer kartları (ağ mətn + qırmızı pin) avtomatik aşkarlandı: 59 fərqli görünüş. "Thane, India" rəsmi cavab açarında var (OP3), anomaliya deyil.
 - YouTube şərhləri hələ də bloklanır (bot yoxlaması).
 - **Yeni alət: rapidocr-onnxruntime quraşdırıldı.** Bütün 1068 kadr (1 fps) üzərində OCR işə salındı — videodakı bütün ekran mətnlərinin tam kataloqu çıxarılır. Nəticə: ocr_all.json.
+
+## 04.09.2026 ~21:00Z — böyük sessiya: altyazılar, şərhlər, QR-ın yekun statusu
+
+### YENİ TEXNİKİ İMKAN (blokerin bir hissəsi aşıldı)
+YouTube-dan metadata/altyazı/şərh çəkmək artıq İŞLƏYİR. Resept:
+- `node` (/opt/node22/bin/node) + `pip install yt-dlp-ejs` (JS challenge həlli)
+- bgutil PO-token serveri: `git clone https://github.com/Brainicism/bgutil-ytdlp-pot-provider`,
+  `cd server && npm install && npx tsc && node build/main.js` (127.0.0.1:4416)
+- `yt-dlp --js-runtimes node:/opt/node22/bin/node --extractor-args 'youtube:player_client=mweb' ...`
+- `mweb` klienti BÜTÜN formatları (1080p daxil) siyahıda göstərir, AMMA googlevideo.com
+  media yükləməsi hələ də **HTTP 403** verir (IP blokdur). Yəni: altyazı/şərh = HƏ, video = YOX.
+
+### 24 dilin altyazısı yükləndi və müqayisə edildi
+- Yalnız **İNGİLİS** trekində `--` (5 ədəd) var; qalan 23 dildə sıfır. Hamısı təbii kəsilmə
+  (`expensive--`, `Lap-- top.`, `posi--`, `what--`, `That's the--`) — SB12 tipli gizli mesaj YOX.
+- 50 tək defis: hamısı normal (mürəkkəb sözlər, hərf-hərf oxunuşlar). İstisnalar:
+  `Fourty-nine` (orfoqrafiya səhvi), `Hayley`/`Haley` uyğunsuzluğu. `Gate-Weigh` QƏSDƏNDİR —
+  rebusun izahıdır (gate + weigh = Gateway to Death Valley), anomaliya deyil.
+- Latın hərfləri qeyri-latın treklərində: yalnız tərcümə artefaktları
+  (zh-Hant "Torak" = rəsmi "Tor'oc"-un səhv tərcüməsi; te "WHAT3WORDS"). Gizli mesaj YOX.
+- Altyazı rəngləri (18 sinif, 8-i bir dəfə) = danışana görədir, kod deyil. `position:` dəyərləri
+  56–81% arası, mətn eninin funksiyasıdır.
+
+### 9:35–9:50 ekranı tam deşifrə edildi (mənfi nəticə)
+Ekrandakı bütün kriptik açarlar MP16–MP24 "cryptic trios"-dur, rəsmi PDF ilə tam uyğundur:
+- "Doctor lay quiet for evenness" = **EQUALITY** (lay quiet → anaqram) = MP24-ün 3-cü sözü.
+  ("Doctor" = anaqram göstəricisidir, DoctorXOR-a işarə DEYİL.) Bu iz bağlandı.
+- Digərləri: reclined/smokes/mazelike, towers/decoder/models, driven/hint/improving,
+  sticky/rejected/jigsaw, calibrate/charted/puzzle, cryptically/packaging/bathrooms,
+  dusts/enigma/desks, headstart/anagram/griddled, quiz/delivers/equality.
+
+### XOR (13 simvol) fərziyyəsi — geniş yoxlama, nəticə mənfi
+Bütün korpusdan (OCR 2089 sətir + transkript + altyazı + 84 səhifəlik PDF) **229,636 fərqli
+13 simvollu alt-sətir** çıxarılıb `%H6U=)Z7</#bq` açarı ilə XOR edildi. Oxunaqlı/mənalı çıxış YOXDUR.
+`AaaaaA-aaAa##` şablonu ilə uyğun gələn giriş də yoxdur.
+
+### Cavab formatı aydınlaşdı
+Sayt kodunda cavab sahəsi: `placeholder="Type your answer here..." maxLength=500` — yəni cavab
+SÖZ/İFADƏdir, sabit uzunluqlu kod deyil. ("------" 6 xanası yalnız e-poçt təsdiq kodudur.)
+Videodakı formada (17:38) yazılan ulduzların dəqiq sayı: **15** (sütun proyeksiyası ilə 5 kadrda təsdiq).
+
+### İcma vəziyyəti (1500 şərh + Colin-in 200 şərhi çəkildi)
+- **Tapmaca HƏLƏ HƏLL OLUNMAYIB.** Onlarla adam Colin-dən ipucu istəyir, o heç nə verməyib.
+- Colin-in 2-ci videosu: **XCOkRKUe3Nc** "How to Solve a $1,000,000 Puzzle" (31 dəq, 02.09.2026).
+  Təsvirdə özü yazır: "MrBeast's video explanation (**and also I made a $10,000 puzzle** 😄)".
+- Colin-in üslub ipucu (öz videosundakı riddle üçün): "**Try saying it out loud** ... the third
+  line is faster!" → omofon/səsləndirmə oyunları onun imzasıdır.
+- İzləyici ipuçları yoxlandı: "17:01-də TV-nin altındakı tənlik" = artıq bildiyimiz (3 6 4) qeydi;
+  "0:16-da kağızda $10,000" = ekran qrafikasıdır, kağızda deyil.
+
+### Thumbnail QR — yekun hökm (çox güman dekorativdir)
+Ciddi yoxlama aparıldı:
+- Maksimum ölçü həqiqətən 1280×720-dir (metadata "1920x1080" yazsa da, fayl 1280×720).
+- Modul şəbəkəsi DOĞRUDUR: 3 finder 100%, hər iki timing xətti 100% (34/34),
+  alignment (26,26) 24/25, dark module doğru → **252 funksiya modulundan yalnız 1 səhv (0.40%)**.
+- Format info hər iki nüsxədə Hamming məsafəsi 0 ilə oxunur → **EC=H, mask=0**.
+- Qaranlıq/açıq ayrılması təmiz: 63±26 vs 180±27 (~4.3σ).
+- BUNA BAXMAYARAQ: 32 fərqli matris/həddi × 4 EC × 8 mask × 8 oriyentasiya (fırlanma/güzgü/invers)
+  kombinasiyasının HEÇ BİRİ Reed–Solomon-dan keçmir.
+- Nəticə: 0.4% modul səhvi ilə həqiqi QR mütləq açılmalı idi. Açılmadığına görə **data sahəsi
+  real yük daşımır** — yəni QR çox güman dekorativ butafordur (struktur naxışları düzgün,
+  içi təsadüfi). Telefonla skan etmək bunu qəti şəkildə təsdiq/təkzib edərdi.
+
+### Növbəti prioritetlər
+1. Colin-in XCOkRKUe3Nc videosu (31 dəq) — hələ baxılmayıb, $10k tapmacası haqda ipucu ola bilər.
+2. 1080p seqmentlər (istifadəçidən): 14:15–15:20, 10:40–11:30, 12:45–13:35, 8:20–8:55.
+3. Colin-in "say it out loud" üslubu → videodakı omofon/səs oyunlarını sistemli axtarmaq.
