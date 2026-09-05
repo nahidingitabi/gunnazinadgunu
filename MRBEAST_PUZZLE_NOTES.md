@@ -1306,3 +1306,61 @@ sətir var, oxunmur. Model nömrəsi görünmür.
 `visionos` klienti hələ işləyir (m3u8 alınır), lakin AV1 (format 399) ffmpeg-i SIGSEGV ilə
 çökdürür; H.264-ə keçəndə YouTube "Sign in to confirm you're not a bot" verir.
 Media endirmə hələ də bağlıdır → 4K üçün istifadəçinin screenshot-u lazımdır.
+
+## 05.09.2026 ~12:55Z — İSTİFADƏÇİNİN MÜŞAHİDƏSİ TƏSDİQLƏNDİ: BORUDAKI RƏQƏMLƏR
+
+İstifadəçi yazdı: *"sağ tərəfdə turbalar var, üstündə rəqəmlər yazılıb"* və
+*"Ondan başqa da ()->()->() var. Mr beastın danışdığı otaqda sağda."*
+
+### ★ TAPILDI — 6 / 7 / 4 (rəngli dairəvi stikerlər)
+MrBeast-in danışdığı kərpic otağın **sağ divarında** şaquli elektrik borusu (konduit) var,
+üzərində **üç paylayıcı qutu** və hər birində **dairəvi nömrəli stiker**:
+
+| Mövqe | Rəqəm | Rəng |
+|---|---|---|
+| yuxarı | **6** | açıq mavi |
+| orta | **7** | çəhrayı/qırmızımtıl |
+| aşağı | **4** | ağ |
+
+Ən yaxşı kadr: **t = 60 s** (0:58–1:03 arası), 1080p klip `94b4d23f` (0–70.7 s).
+Fayllar: `room/r_060.png`, `roomR_60.png`, `pipe_zoom.png`, `pipe_mid.png`.
+Şərh də bunu dəstəkləyir: `@LLOM_1` "sağdakı qutularda 7, 4, 1 rəqəmləri var" yazıb.
+
+### Bu köhnə tapmacanındır, yoxsa yenisinin?
+Lehinə (köhnə):
+- Otaq köhnə $1M ovunun **xülasə dekorasiyasıdır**: korkbordda köhnə ovun şəkilləri,
+  "META PUZZLE" kartı, MM2 qlobusları, MM1 krossvordları, MP16-24 kriptik trio kartları,
+  ip bağlantıları — hamısı köhnə tapmacanı sənədləşdirir.
+Əleyhinə (yeni ola bilər):
+- Stikerlər sənədləşdirmə deyil — **real bina avadanlığının üzərinə** yapışdırılıb.
+  Bu, adi dekor üçün qeyri-adidir və üç fərqli rəng seçilib.
+→ **Hələ qərar verilmir.** Rəqəmlər qeyd edilir: 6, 7, 4.
+
+### İNFRASTRUKTUR: bütün kliplərin video üzərindəki mövqeyi çıxarıldı (`clipmap.json`)
+Yüklənmiş kliplər hələ də `/root/.claude/uploads/...` qovluğunda durur (234 MB, 11 fayl).
+360p kliplər bütöv videonu örtür (0–400.7 / 400.68–858.9 / 854.22–1069.8).
+1080p kliplərin mövqeyi 1 fps imza uyğunlaşdırma ilə tapıldı:
+
+| Klip | Əhatə (s) | Əhatə (dəq) |
+|---|---|---|
+| `94b4d23f` | 0.0 – 70.7 | 0:00 – 1:11 |
+| `a16ce518` | 304.5 – 394.1 | 5:05 – 6:34 |
+| `48b92c09` | 340.5 – 420.0 | 5:41 – 7:00 |
+| `0f1d65d9` | 551.1 – 640.6 | 9:11 – 10:41 |
+| `fba19fc0` | 854.9 – 931.4 | 14:15 – 15:31 |
+| `fce1ee46` | 930.2 – 1025.0 | 15:30 – 17:05 |
+| `dd608937` | 1008.3 – 1072.5 | 16:48 – 17:52 |
+| `29701bfa` | 1018.3 – 1050.4 | 16:58 – 17:30 |
+
+**1080p BOŞLUQLAR: 1:11–5:05, 7:00–9:11, 10:41–14:15.**
+Bu aralıqlarda yalnız 360p var — istifadəçidən lazım olsa yeni klip istənəcək.
+
+### Bütün videonun düzgün vaxt damğalı kontakt vərəqləri
+`vs/S00.png … vs/S05.png` (hər 4 saniyədən bir, 360p-dən, real vaxt etiketi ilə).
+Qeyd: əvvəlki `allframes/` qovluğunun vaxt etiketləri YANLIŞ idi — o qovluq bütöv
+videonu bərabər əhatə etmir. Bundan sonra `vs/` istifadə edilməlidir.
+
+### `()->()->()` ikinci qeyd — hələ tapılmayıb
+Otağın sağ tərəfi 1080p-də (0–70 s, 304–420 s, 551–640 s) skan edildi; sarı stikerlər
+70×70 piksel olduğu üçün oxunmur. Bütün 1080p kliplərin sol/sağ yarımlarının 1 fps OCR-i
+işə salındı (`ocr_right.py` → `ocr_right.json`). İstifadəçidən təxmini vaxt soruşulur.
