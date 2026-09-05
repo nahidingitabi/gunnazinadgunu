@@ -3027,3 +3027,49 @@ bağlayır. Qalan ikisi (düzbucaqlı, iki obyekt) yenidən oxunmalıdır.
 mavi: II, III, IX, X, XII, XIII, XIV — qırmızı: I, III, X, XI, XII, XIII, XIV
 (qalan 7 kart: təqvim, qırmızı düzbucaqlı, iki hündür obyekt, sütun qrafiki,
 çərçivəli şəbəkə, qızılı yumru obyekt, tünd oval+fiqur.)
+
+### 21:55Z — ★ DÜZƏLİŞ: PERMUTASİYA MODELİ DƏ ÖLÜR. Model qurmağı dayandırıram.
+
+13:27 bucağından bant və qırmızı düzbucaqlı kartları 22× çıxarıldı
+(`srn8/BR807.png`) — **indiyə qədərki ən aydın rəqəm görüntüsü**:
+* **bant / lent:** qırmızı **V** · mavi **VIII** (V + üç ştrix, birmənalı)
+  → əvvəl "mavi VII" demişdim, **səhv idi**.
+* **qırmızı düzbucaqlı:** qırmızı **VI** (V + bir ştrix, birmənalı)
+  → əvvəl "qırmızı VII" demişdim, **səhv idi**.
+
+**Bu iki düzəliş permutasiya modelini dağıdır:**
+* mavi **VIII** iki kartda: Afrika (★★★) və bant (★★★)
+* qırmızı **VI** iki kartda: Oman (★★★) və qırmızı düzbucaqlı (★★★)
+* mavi **IV** iki kartda: ABŞ bayrağı (★★) və təqvim (★★)
+İndi təkrarlar **ən yaxşı oxunuşlarda** var, zəiflərdə yox. Yəni bu, oxunuş
+səhvi deyil — **dəyərlər həqiqətən təkrarlanır.**
+
+### Özümə dürüst qeyd
+Bu sessiyada eyni məsələ üzrə **dörd dəfə** model dəyişdim:
+(1) 6 düyünlü Euler dövrü → (2) "qırmızı = sıra" → (3) mavi=ID/qırmızı=next
+permutasiyası → (4) indi hamısı düşür.
+**Səbəb hər dəfə eyni oldu: modeli natamam və dəyişkən rəqəm oxunuşları üzərində
+qurdum.** VI/VII/VIII fərqi bir ştrixdir və hər yeni, daha yaxşı görüntü
+oxunuşu dəyişir.
+
+→ **Qərar: 14 kartın hamısı ən yaxşı bucaqdan oxunmayana qədər daha model
+qurmuram.** Yalnız ölçülmüş oxunuşları toplayıram.
+
+### Hazırkı ən yaxşı oxunuşlar (yalnız ən aydın görüntülərdən)
+```
+kart                       mavi   qırmızı   mənbə
+Oman bayrağı                V       VI      T3  (Δa −3.75 / +5.63)
+Afrika + Madaqaskar         VIII    IV      T3  (Δa −0.16 / +5.58)
+bant / lent                 VIII    V       BR807 22× (birmənalı)
+qırmızı düzbucaqlı          ?       VI      BR807 22× (birmənalı)
+rolikli fiqur               XI      II      C807 (Δa −0.11 / +4.72)
+qar buludu                  VI      IX      T6
+ABŞ bayrağı + tövlə         IV      VII     T6
+təqvim (qırmızı 25)         IV      III     T2  (Δa −0.32 / +2.54)
+sarı kart                   I       VII/VIII C807 (Δa +0.19 / +6.09)
+sütun qrafiki               ?       VII/VIII C807 (Δa +6.83)
+iki hündür obyekt           VI      VII?    T2b — YENİDƏN OXUNMALI
+çərçivəli şəbəkə            ?       ?
+qızılı yumru obyekt         ?       XIV?
+tünd oval + fiqur           ?       ?
+```
