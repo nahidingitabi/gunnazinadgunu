@@ -1880,3 +1880,46 @@ Uclar üzrə: **8 – 4 – 7 – 6 – 5** dörd kartla təmiz yığılır
 **Amma sol divar klasteri (2|4) bu zəncirə sığmır** — hər iki "4" ucu artıq işlənib.
 → **"Divar klasterləri özləri parçadır" fərziyyəm zəiflədi.** Ya sol divarın rəqəmləri
 (başqasından götürülmüş 2/1/4) səhvdir, ya klasterlər parça deyil.
+
+## 05.09.2026 ~17:00Z — "15 SİMVOL" ARQUMENTİ GÖZLƏNİLƏNDƏN ZƏİFDİR
+
+84 səhifəlik açarın **hər sətri** iki testdən keçirildi.
+
+### ✗ (3 6 4) şablonu açarda ÜMUMİYYƏTLƏ YOXDUR
+Bütün sətirlər arasında (3,6,4) sözuzunluqlu ifadə: **sıfır**.
+Yəni bağlanış qeydi hökmən açardan kənara işarə edir. (Bu, `THE ZENITH CITY` lehinədir —
+o da açarda yoxdur.)
+
+### ★ Amma "15 simvol" filtri düşündüyümüzdən çox zəifdir
+Digər sessiya deyirdi: *"PEARLOFTHENORTH MP9 sətrindəki yeganə 15 simvollu sətirdir"*.
+Bu, həmin sətir üçün doğrudur, **lakin bütöv açarda 15 simvollu sətirlər çoxdur:**
+
+**Boşluqla düz 15 simvol (ləqəb üslubu):**
+```
+Lady of the Sea      (MP7  -> Genoa, Italy)
+Island of Death      (MP14 -> Mayotte)
+BAKU AZERBAIJAN · ARMAVIR ARMENIA · TALLINN ESTONIA · MOORA AUSTRALIA
+ALGIERS ALGERIA · ISTANBUL TURKEY · ORLANDO FLORIDA · LAHORE PAKISTAN
+TBILISI GEORGIA · DEKALB ILLINOIS · MONTREAL QUEBEC
+```
+
+**Boşluqsuz düz 15 hərf:**
+```
+PEARLOFTHENORTH · OKATONEWZEALAND · KRASNODARRUSSIA · EDMONTONALBERTA
+DIVOCOTEDIVOIRE · SEOULSOUTHKOREA · ASCENSIONISLAND · KUPANGINDONESIA
+MONKEYBAYMALAWI · TAMPABAYFLORIDA
+```
+
+→ **"15 simvoldur, deməli doğrudur" arqumenti tək başına çox zəifdir.** Onların dəqiq
+iddiası ("'ninth'-in 18 oxunuşu arasında yeganə 15 simvollu") hələ də dura bilər, amma
+ümumi çərçivə həddindən artıq güclü təqdim edilib. **Dürüstlük üçün qeyd edilir.**
+
+### Köhnə tapmacanın cavab formatı (kontekst üçün)
+Açarın MM2 bölməsində məkanlar **`ŞƏHƏR ÖLKƏ` (böyük hərflə, vergülsüz)** formatındadır:
+`MOSUL IRAQ`, `TAMPA BAY FLORIDA`, `SEOUL SOUTH KOREA`. Yəni köhnə tapmacada məkan
+cavabları belə daxil edilirdi. Bu formatda **`MOSUL IRAQ` = 10 simvoldur, 15 deyil.**
+
+### Yeni namizədlər (zəif, amma 15 simvollu)
+`LADY OF THE SEA` və `ISLAND OF DEATH` — hər ikisi boşluqla düz 15. Onlara "ninth"
+oxunuşu ilə çatmaq yolu yoxdur, ona görə aşağı prioritetlidirlər, amma göndərmə
+siyahısının sonuna əlavə edilə bilər.
