@@ -1026,3 +1026,34 @@ Cavabın düzgünlüyü müştəri tərəfdə yoxlanmır (JS-də heç bir hash/a
 ### ⚠ Diqqət: giriş yalnız E-POÇT TƏSDİQİNDƏN SONRA sayılır
 Axın: cavab yaz → Submit → **e-poçta gələn 6 rəqəmli kodu forma daxil et → Verify** →
 "You're in the running". Kod daxil edilməyibsə, **giriş qeydə alınmır**.
+
+## 05.09.2026 ~09:00Z — köhnə tapmacanın KONTEKSTİ + Zenith üzrə veb axtarışı
+
+### ★ Köhnə tapmacanın rəsmi çərçivəsi (PDF səh. 4) — cavabın TİPİ
+> "Each puzzle (except those in the EP sequence) **resolves eventually to a location in the
+> world**. Sometimes it's a city, other times an attraction, still others a geographical
+> feature. The metapuzzles then use these locations to crack the vault."
+
+Mərhələlər: SB1–12 (Super Bowl) · PG1–13 (Pregame) · EP1–9 (playlist, cavabları
+söz verir: "Every Challenge Leads Towards Location Name Somewhere Around World") ·
+GC1–11 (hədiyyələr) · OP1–14 (outreach) · MP1–40 (beast.travel xəritə tapmacaları) ·
+MM1–4 (metatapmacalar → seyf kodu).
+→ **Bu kainatda hər cavab bir YERDİR** və "ŞƏHƏR ÖLKƏ/ŞTAT" formasında yazılır
+(DEKALB ILLINOIS, TOAD SUCK ARKANSAS, LAHORE PAKISTAN…).
+
+### ★ Zenith üzrə veb axtarışı (istifadəçinin təklifi)
+| Ünvan | Nəticə |
+|---|---|
+| `beast.travel` | **CANLIDIR** (WordPress + Elementor, Lone Shark Games). WP REST API ilə bütün səhifələr çıxarıldı: ən son dəyişiklik **2026-04-02**, post yoxdur, `search=zenith` → boş. Gizli `/weasel/` səhifəsi var, amma boşdur. → **$10k tapmacası ilə əlaqəsi yoxdur.** |
+| `onemil.xyz` | 429 (bot qoruması), köhnə tapmacanın Slackbot sudoku serveri |
+| `zenith.mrbeast.app`, `zenithcity.mrbeast.app` | 404 |
+| `zenith.xyz` | satılıq domen (Spaceship.com) |
+| `thezenithcity.com`, `zenithcity.xyz` | mövcud deyil |
+| **`zenithcity.com`** | **"Zenith City Press: Fine Books Celebrating Historic Duluth, Minnesota"** — real nəşriyyat. → "Zenith City = Duluth" assosiasiyasının nə qədər tanınmış və axtarışla tapıla bilən olduğunu təsdiqləyir. |
+| MrBeast + MrBeast2-nin 843 video başlığı | "duluth/minnesota/zenith/superior" → **0 nəticə** |
+→ **Zenith ilə bağlı ayrıca tapmaca saytı YOXDUR.** İz videonun içindədir.
+
+### ★ Ulduzların sayı BÜTÜN kadrlarda yenidən sayıldı → maksimum **15**
+`mon/` və `qrz/` qovluqlarındakı hər kadr skan edildi (bərabər aralıqlı sıra filtri ilə).
+Ən yüksək say **15**-dir (n_0088…n_0091). → **"DULUTH MINNESOTA" (16 simvol) uyğun DEYİL.**
+**"THE ZENITH CITY" (15 simvol) dəqiq uyğun gəlir.**
