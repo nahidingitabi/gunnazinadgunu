@@ -3526,3 +3526,23 @@ SR effektiv gücü ~3× artırır və orada dayanır.
 → **Lazım olan: eyni anların 2160p (4K) yazısı.** MrBeast videoları 4K-dadır;
 4K-da parçalar ~90 piksel olacaq — bu, rəqəmləri və şəkilləri birmənalı edir.
 Lazım olan anlar: **13:22–13:27**, **12:44–12:48**, **0:18–0:22**.
+
+## 06.09.2026 ~02:35Z — İSTİFADƏÇİNİN DÜZƏLİŞİ: DAŞ, QARTAL, GÜLMƏK
+
+İstifadəçi birləşdirilmiş şəkillərə baxıb üç şəkli özü adlandırdı:
+**daş 🪨 · qartal 🦅 · gülmək 😂**. Yəni "qızılı yumru obyekt" = **DAŞ**,
+"tünd quş" = **QARTAL** (daz qartal), sarı üz = **sevinc göz yaşı**.
+
+Bu, mənim əvvəlki adlandırmalarımı (kartof/qoz/lələk, hamburger) ləğv edir.
+**Qalan şəkil adlarımı da şübhəli sayıram** — xüsusən: "iki hündür obyekt",
+"Afrika silueti", "bant", "təqvim 25". Onları da yenidən yoxlamaq lazımdır.
+
+`piecesr.py`-a **4 fırlanma variantının avtomatik seçimi** əlavə edildi
+(şablonla korrelyasiyaya görə) — çünki avtomatik dördbucaq künc sırası
+fərqli bucaqlarda üst-üstə düşmürdü.
+
+Bu dövrün birləşdirmələri: `PSR_oman.png` (Oman bayrağı, qırmızı VI / mavi V —
+üçüncü dəfə təsdiq), `PSR_joy.png` (😂, mavi XIV / qırmızı X), `PSR_africa.png`
+(qeydiyyat zəif, korr 0.16 — künc uyğunluğu pisdir, yenidən lazımdır).
+
+`HANDOFF.md` yazıldı — başqa sessiya sıfırdan yox, **buradan** davam etsin deyə.
