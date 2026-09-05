@@ -3087,3 +3087,41 @@ rəqəmlərlə deyil, **yapboz dişlərinin forması ilə** birlikdə müəyyən
 
 → Bu, Colin-in "yapbozu həll et" sözünün hərfi mənasını qaytarır: **fiziki
 formalar sıralamanın bir hissəsidir**, rəqəmlər isə yoxlama/köməkçidir.
+
+### 22:25Z — daha iki kart oxundu (avtomatik qutu aşkarlaması ilə, təxminsiz)
+Öz qaydama əməl etdim: kartların qutularını **parlaq-ləkə detektoru** ilə
+`n765.png` və `n807.png` üzərində avtomatik çıxardım, `peek.py` ilə təsdiqlədim,
+sonra SR etdim. Boş bölgə çıxmadı.
+
+* **sütun qrafiki kartı** (`srn9/E_gridbar.png`, 22×): qırmızı **VIII** (V + üç
+  ştrix, birmənalı). Şəkil: **aşağı ox** + artan üç sütun (çəhrayı, sarı, yaşıl).
+* **iki hündür obyekt kartı** (`srn9/F_towers.png`, 22×): mavi **VI** ·
+  qırmızı **VII**. Şəkil: tünd qəhvəyi hündür obyekt + mavi-ağ hündür obyekt
+  (altında qırmızı zolaq).
+* **çərçimli şəbəkə kartı**: şəkil aydındır (**iki bölməli düzbucaqlı çərçivə**,
+  pəncərə/qapı kimi), amma **rəqəmləri bu üzdən görünmür** — kart digərlərinin
+  altındadır.
+
+### Yenilənmiş cədvəl — 11 kart / 14
+```
+şəkil                              mavi  qırmızı
+Oman bayrağı                        V     VI     ★★★
+Afrika + Madaqaskar                 VIII  IV     ★★★
+bant / lent                         VIII  V      ★★★
+qırmızı düzbucaqlı                  ?     VI     ★★★
+rolikli fiqur                       XI    II     ★★
+qar buludu                          VI    IX     ★★
+ABŞ bayrağı + tövlə                 IV    VII    ★★
+təqvim (qırmızı 25)                 IV    III    ★★
+sarı kart                           I     VIII   ★★
+sütun qrafiki (aşağı ox + sütunlar) ?     VIII   ★★
+iki hündür obyekt                   VI    VII    ★★
+çərçivəli şəbəkə (2 bölməli)        ?     ?
+qızılı yumru obyekt                 ?     XIV?
+tünd oval + fiqur                   ?     ?
+```
+**Qırmızı VIII indi iki kartda** (sarı, sütun qrafiki), **qırmızı VII iki kartda**
+(ABŞ bayrağı, iki obyekt), **qırmızı VI iki kartda** (Oman, düzbucaqlı),
+**mavi VIII üç kartda**, **mavi VI iki kartda**, **mavi IV iki kartda**.
+→ Təkrarlar sistematikdir. **Rəqəmlər sıranı təyin etmir** — bu, artıq
+ölçülmüş faktdır, fərziyyə deyil.
