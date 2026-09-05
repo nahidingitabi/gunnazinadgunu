@@ -1584,3 +1584,46 @@ fiziki olaraq olmamalıdır. Çəhrayı vərəqdəki "rəqəm + rum rəqəmi" c�
 köhnə İncillərdə fəsil nömrələrinin rum rəqəmi ilə yazılması ilə uyğun gəlir.
 Sarı stikerin iddia edilən mətni ("Roman numbers for Roman words?") da bu xətlə
 uyğundur. **Yoxlamaq üçün çəhrayı vərəqin məzmunu lazımdır → 4K.**
+
+## 05.09.2026 ~15:00Z — ★ ƏSAS DÜZƏLİŞ: MƏHDUDİYYƏT REZOLYUSİYA DEYİL, METODDUR
+
+İstifadəçi dedi: **digər sessiyaya da eyni 1080p klipləri göndərmişdi, 4K mövcud deyil.**
+Yəni onlar da 1080p-dən oxuyublar. Deməli:
+
+- **"4K məcburidir" nəticəsi SƏHVDİR** (həm mənim, həm onların §8 qənaəti).
+- Onlar eyni pikselərdən daha çoxunu çıxarıblar → **fərq METODDADIR.**
+- 4K gözləmək dayandırılır. Bütün səy 1080p-dən maksimum çıxarmağa yönəldilir.
+
+### Hazırlanan alətlər (agentlər üçün)
+- **`srx.py CLIPID T0 T1 X0 Y0 X1 Y1 SCALE OUT.png [--sharp N]`**
+  İxtiyari klipdən, mütləq video saniyələri ilə, çox kadrlı super-rezolyusiya.
+  Ən kəskin kadrı referens seçir, qalanlarını ORB+RANSAC homoqrafiya ilə (genişləndirilmiş
+  kontekst pəncərəsi üzərində) oturdur və SCALE dəfə böyüdülmüş şəbəkədə ortalayır.
+- **`ink.py IN.png OUT_PREFIX [ANGLE|auto] [SIGMA]`**
+  Mürəkkəb izolyasiyası: obyektin **öz** bulanıq L* kanalını çıxır (dekonvolyusiya YOX —
+  o, hərf uydurur). Avtomatik deskew (sətir profili variansını maksimallaşdırır).
+  Sətir profili çap edir ki, sətirlər və simvol qrupları sayıla bilsin.
+- **`AGENT_BRIEF.md`** — klip xəritəsi, alətlər, və metod qaydaları.
+- **`DESK_GRID.png`** — 1080p ofis kadrı 100 piksellik koordinat şəbəkəsi ilə.
+
+### `DESK_GRID.png`-dən oxunan yeni obyekt yerləri (t = 19.0 s, klip 94b4d23f)
+| obyekt | təxmini qutu |
+|---|---|
+| CRT monitor | x 60–350, y 620–830 |
+| mavi-yaşıl + narıncı kartlar | x 215–320, y 768–812 |
+| klaviatura | x 165–390, y 820–880 |
+| çəhrayı indeks vərəqi | x 0–150, y 860–940 |
+| **qara "Boo!" kitabı** | x 150–290, y 970–1080 |
+| sol divar stikerləri | x 30–60, y 500–540 |
+| sağ divar stikerləri 6/7/4 | x 1630–1670, y 290–560 |
+| **"PUZZLE CLUES" qutuları** | x 1150–1560, y 780–1030 |
+| qutulardakı yapboz kartları | x 1690–1920, y 600–920 və x 1780–1920, y 940–1080 |
+| yerdəki kağızlar (sağ alt) | x 1560–1920, y 940–1080 |
+
+Qutuların üzərində **"Puzzle Clues"** yazısı 1080p-də artıq oxunur — təsdiqləndi.
+
+### İşə salındı: 24 agentlik paralel oxuma workflow-u
+8 obyekt × (2 müstəqil oxuyucu + 1 əks-arqument yoxlayıcısı).
+Obyektlər: narıncı kart, çəhrayı indeks vərəqi, "Boo!" kitabı, sarı stiker + zeytunu kart,
+qutulardakı yapboz rəqəmləri, "Puzzle Clues" qutuları, yerdəki kağızlar,
+mavi-yaşıl kartın 1-ci/2-ci sətirləri və alt yazıları.
