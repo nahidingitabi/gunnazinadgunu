@@ -789,3 +789,34 @@ başqa formada gizlədilib. Ən güclü namizəd: **telefon diskindəki morze** 
   googlevideo **403**. cobalt.tools YouTube-u dəstəkləmir, vidssave.com 403.
   → 4K yalnız istifadəçidən gələ bilər.
 - 17:00 kağızının SOL yarısı boşdur (yalnız üç enumerasiya var).
+
+## 05.09.2026 ~02:45Z — otaq qeydlərinin dəqiq oxunuşu və "PAUSE"-un unikallığı
+
+### ★ "PAUSE" bütün videoda YALNIZ BİR DƏFƏ var
+Tam videonun 2 fps OCR-ində (`ocr_full2.json`) `PAUSE` sözü yalnız **1019.9–1021.4 s**
+(16:59.9–17:01.4) aralığında görünür. Başqa VCR göstərişi (PLAY/REW/STOP/EJECT) yoxdur.
+→ Bu, təsadüf deyil, qəsdən qoyulmuş TƏK göstərişdir.
+
+### ★ Monitorun qeydləri 1080p super-rezolusiya ilə TAM oxundu (6:09–6:26)
+YAŞIL: `LSWRTE / NNHTIN / HDOTA` + `Should I call it bird fence?` (hərflər təsdiqləndi)
+SARI:  `Books w/ old names.... Alphabetize?`
+
+**Sarı qeyd izah olundu:** PDF-in GC8 (Airrack) tapmacasında "On a horror bookshelf (1)"
+→ cavab **ANNE RICE** (dəhşət yazıçısı). Yəni "köhnə adlı kitablar" = o kitab rəfi.
+Otaqda masanın yanında "**Boo!**" adlı dəhşət kitabı da var. → KÖHNƏ tapmacaya aiddir.
+
+**Beləliklə açılmamış qalan yalnız 2 şey var:**
+1. Yaşıl qeyd `LSWRTE/NNHTIN/HDOTA` (17 hərf; 4 sait — ingilis mətni ola bilməz;
+   bütün transpozisiyalar sınandı = 0). Ehtimal: dekorasiya və ya xarici açar tələb edir.
+2. **17:00 masasındakı `(3 6 4)` qeydi + telefon diskindəki morze.**
+
+### Digər yoxlamalar (mənfi)
+- 17:00 kadrının aşağı zolağı (y 1000–1080) tam parlaqlaşdırıldı — əlavə əşya yoxdur.
+- Zenith-in altındakı VCR paneli — yalnız "COLOR TV-VCR COMBINATION".
+- WICHITA KANSAS-ın 13 hərfinin (3 6 4) anaqramları hesablandı: **770 həll** — çox,
+  heç biri mənalı deyil. Bu yol dar deyil.
+- what3words saytı proxy üzərindən İŞLƏYİR (og:description-da yer adı gəlir);
+  `driven.hint.improving` → "near Christchurch, Canterbury" ✓, `union.banks.piano` →
+  "near Greenville, North Carolina" ✓. Amma təsadüfi ünvan sınamaq mənasızdır
+  (axtarış sahəsi milyardlarladır) — ipuçları lazımdır.
+- what3words söz siyahısını əldə etmək alınmadı (GitHub axtarışı bu sessiyada bağlıdır).
