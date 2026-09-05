@@ -12,7 +12,22 @@
 addım ≈45.7 px, sonuncu ulduz x=1266-da bitir, sətir kəsilmir → **dəqiq 15 ulduz**.
 (Saytın real sahəsi `maxLength=500`-dür, yəni 15 sırf üslub deyil, məqsədli işarədir.)
 
-**2) Bağlanış qeydi `(3 6 4) → (6 2) → (6)` formasındadır** — kriptik krossvord
+**2) ⚠ DÜZƏLDİLDİ (06.09, 04:55Z) — qeyd bu deyil.** Əvvəl `(3 6 4) → (6 2) → (6)` yazmışdım; masadakı vərəqləri yenidən çıxarandan sonra məlum oldu ki, **iki ayrı vərəq var** və heç biri belə oxunmur:
+
+```
+mavi:   (3 6 4)   (4 4 4 5)        qırmızı:  (5 2 7)
+             ↘      ↙                            ↓
+               (6 6)                        (8 3 5 4 4)
+                 ↓                               ↓
+                (6)                          M̶R̶ (9)
+```
+
+`(6 2)` yox — **`(6 6)`**; və `(3 6 4)` tək giriş deyil. Yəni aşağıdakı
+"ikinci sətir = ŞƏHƏR + 2 hərfli ştat qısaltması" mühakiməsi (`DULUTH MN` və s.)
+**etibarsızdır** və bu siyahının 11–12-ci sətirləri onunla birlikdə düşür.
+Sağ qalan yeganə şey: `(3 6 4)` = 13 hərf + 2 boşluq = **15 simvol**.
+
+Köhnə (səhv) mətn arxivlik saxlanılır: bağlanış qeydi — kriptik krossvord
 sayğacı. Və **(3 6 4) = 13 hərf + 2 boşluq = tam 15 simvol.**
 → Yəni **cavab, çox güman, qeydin BİRİNCİ sətridir: üç sözlük (3-6-4) ifadə.**
 İkinci sətir `(6 2)` = `ŞƏHƏR XX` (ştat qısaltması), üçüncü sətir `(6)` = şəhərin özü.

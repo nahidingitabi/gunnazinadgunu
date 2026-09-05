@@ -3693,3 +3693,52 @@ tələnin eynisidir.
 
 Qeyd edirəm ki, **daha yaxşı məlumat gələndə yoxlanılsın**, indi yox:
 əgər 4K-dan sonra adlar müstəqil təsdiqlənsə və "TIMEOUT" qalsa, o zaman dəlildir.
+
+## 06.09.2026 ~04:55Z — ★ DÜZƏLİŞ: MASADAKI İKİ VƏRƏQİ SƏHV OXUMUŞDUM
+
+İstifadəçi 12:40–12:50 aralığını göstərdi. Vərəqləri yenidən çıxardım
+(ən kəskin kadr + 4× Lanczos + 90° döndərmə — vərəqlər kameraya görə
+tərs və yan yatıb). İndi **hər ikisi tam aydın oxunur**:
+
+### Mavi vərəq (`BLUE_ccw.png`)
+```
+    (3 6 4)        (4 4 4 5)
+         ↘            ↙
+             (6 6)
+               ↓
+              (6)
+```
+
+### Qırmızı vərəq (`RED_ccw.png`)
+```
+    (5 2 7)
+       ↓
+   (8 3 5 4 4)
+       ↓
+    M̶R̶ (9)
+```
+
+### Nəyi səhv yazmışdım
+Qeydlərimdə bu **"(3 6 4) → (6 2) → (6)"** kimi durur. İki səhv var:
+1. **(6 2) deyil, (6 6)-dır.** İkinci rəqəm 2 yox, 6-dır.
+2. **İkinci giriş buraxılıb:** (3 6 4) tək deyil — onunla birlikdə
+   **(4 4 4 5)** də eyni qutuya ox atır.
+Üstəlik **ikinci, qırmızı vərəqi ümumiyyətlə qeyd etməmişdim.**
+
+### Bunun `CANDIDATES.md`-ə təsiri
+Namizəd siyahım "(6 2) = ŞƏHƏR + ştatın 2 hərfli qısaltması" oxunuşuna
+söykənirdi (`DULUTH MN`, `LONDON ON` və s.). **Bu oxunuş öldü.**
+İndi (6 6) = **iki 6 hərfli söz** — məsələn şəhər + 6 hərfli ştat
+(`TOPEKA KANSAS`, `EUGENE OREGON`, `JUNEAU ALASKA`), sonra (6) = tək şəhər.
+
+Sağ qalan: **(3 6 4) = 13 hərf + 2 boşluq = tam 15 simvol** — formadakı
+15 ulduzla uyğun gəlir. Amma indi məlum oldu ki (3 6 4) zəncirin **sonu yox,
+girişidir** (oxlar ondan (6 6)-ya gedir), yəni onu "cavab" saymağın əsası
+əvvəlkindən zəifdir.
+
+### Bu vərəqlər hansı tapmacaya aiddir?
+Açıq deyil və uydurmuram. Lehinə: yanlarında **"$10,000!"** yazılı vərəq var.
+Əleyhinə: masa personajın **köhnə** ovu həll etdiyi masa kimi bəzədilib və
+yaxınlıqdakı qara qutunun üstündəki yapışqan kağızlar (`OB1 XIV – Seahawks?`,
+`251634`, `PLATES`, `9X=TH`) açıq-aydın köhnə Super Bowl ovundandır.
+Hər iki ehtimalı açıq saxlayıram.
