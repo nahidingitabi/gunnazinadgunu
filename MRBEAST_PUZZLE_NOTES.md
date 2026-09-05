@@ -2647,3 +2647,40 @@ kəsib bir sıra şəkil kimi göstərir. Bundan sonra hər SR-dən əvvəl isti
 və firuzəyi maskot loqosu. Ekrandakı sönük mətn what3words ünvanına oxşayır, amma
 12× SR-də loqonun özü çıxdı — **oxunaqlı mətn yoxdur**. Firuzəyi/narıncı ipucu
 kartları bu plana düşmür.
+
+### 20:00Z — FİRUZƏYİ + NARINCI KARTLAR DƏQİQ TAPILDI; ★ HƏMİN PLAN KAMERA-KİLİDLİDİR
+
+**Yer:** hər iki kart **masa yaxın planındadır (20.35–21.55 s, `94b4d23f`)**, monitorun
+sağında. t=20.90 kadrında: **firuzəyi kart (218–330, 372–492)**, narıncı kart
+onun sağında (330–400, 375–480). `peek.py` ilə təsdiqləndi.
+
+**Oxunan (12–16× Lanczos + mürəkkəb izolyasiyası + avtomatik deskew −10.0°):**
+```
+firuzəyi:  LSWRTE          narıncı:  Books w/
+           NNHTIN                    old names
+           HDOTA                     Alphabetize?
+           <alt sətir 1>             ?
+           <alt sətir 2>
+```
+İlk üç sətir icmanın transkripsiyası ilə **üst-üstə düşür** (müstəqil təsdiq).
+
+**★★ YENİ VƏ VACİB: bu plan KAMERA-KİLİDLİDİR, kadrlar arasında məlumat yoxdur.**
+20.35–21.55 aralığındakı hər kadr üçün homoqrafiya **miqyas = 1.000, 900/900
+inlier** verdi. Kartın piksellərinin kadrdan-kadra fərqi ölçüldü:
+
+| plan | orta |Δ| (kart sahəsi / tam kadr) |
+|---|---|
+| **masa yaxın planı 20.4–21.5** | **0.03** / 1.93 |
+| ofis geniş planı 14–20.3 (nəzarət) | — / 3.23 |
+| masa yaxın planı 598–599.6 (nəzarət) | — / 12.73 |
+
+→ Kartın sahəsi praktiki olaraq **bit-eynidir**. Yəni **çoxkadrlı SR bu plandan
+heç nə qazandıra bilməz** — nə sub-piksel müxtəlifliyi var, nə müstəqil küy.
+Bu, əvvəlki cəhdlərin niyə həmişə eyni nöqtədə dayandığını da izah edir.
+
+**Alt sətirlər:** hər ikisində mürəkkəb var, sətir seqmentasiyası onları tapır.
+`LSWRTE` sətri ilə kalibrləmə: **12.1 px/simvol** (orijinal miqyasda).
+Alt sətirlərin ştrix eni **~2 px** — şifr sətirlərinin təxminən yarısı, hər sətir
+**~15 simvol**. **Bu ölçüdə oxumaq prinsipial olaraq mümkün deyil.**
+→ Firuzəyi kartın alt sətirləri **bu videodan oxunmaz**. İz bağlanır
+(yeni, daha yaxın material gəlməyincə).
