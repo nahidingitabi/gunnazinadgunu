@@ -770,3 +770,22 @@ Qeydin davamı `→ (6 ?) ↓ (6)` isə ünvanın göstərdiyi yerin adı ola bi
 **3 kriptik ipucunu tapmaq** (uzunluqları 3, 6, 4). Ekranda `(3)` enumerasiyalı heç bir
 sətir yoxdur (bütün OCR bazalarında yoxlandı) → ipuçları yazılı kart şəklində deyil,
 başqa formada gizlədilib. Ən güclü namizəd: **telefon diskindəki morze** (4K lazımdır).
+
+### 12) Əlavə yoxlamalar (05.09.2026 ~02:20Z)
+- **12:29 EXAMPLE trio** tam OCR ilə oxundu və təsdiqləndi:
+  `Middle-earth native flips small blade… (9)` = CROSSWORD ·
+  `Data isn't up with a different arrangement (6)` = INPUTS (anaqram: "isn't up") ·
+  `Animated person heard automobile song (7)` = CARTOON (car+tune omofon)
+  → `crossword.inputs.cartoon` → Manistee, Michigan.
+- **Bütün OCR bazalarında `söz.söz.söz` şablonu axtarıldı** (96 fərqli üçlük tapıldı):
+  hamısı ya rəsmi 10 ünvanın, ya `union.banks.piano`-nun, ya da URL-lərin OCR variantıdır.
+  **Videoda YENİ what3words ünvanı görünmür** → cavab ekranda yazılı deyil, çıxarılmalıdır.
+- **Ekranda `(3)` enumerasiyalı heç bir sətir yoxdur** (bütün bazalar) → 3 hərfli sözün
+  ipucusu kart şəklində deyil.
+- **Sayğac (`N/91`)** 3 fps-də çıxarıldı (`counter2.json`): 1/12, 2/12 (1:22, 1:41),
+  12/12→12/91 (4:02–4:13), 13/91, 14/91, 25/91, 26/91, 27/91, 32/91, 52/91, 91/91 (10:34).
+  Anomaliya yoxdur (video yalnız bəzi yerləri göstərir).
+- **Media yükləmə**: mweb, tv, tv_simply, android_vr, web_embedded, ios — hamısı üçün
+  googlevideo **403**. cobalt.tools YouTube-u dəstəkləmir, vidssave.com 403.
+  → 4K yalnız istifadəçidən gələ bilər.
+- 17:00 kağızının SOL yarısı boşdur (yalnız üç enumerasiya var).
