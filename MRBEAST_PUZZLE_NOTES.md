@@ -2768,3 +2768,20 @@ mexanizmimin şəkli DEYİL; daha çox köhnə ovun həll axınına oxşayır.
 Fərziyyəni buna görə gücləndirmirəm.
 360p-də mətn oxunmur. **1080p-də bu vərəq oxunabilən olardı** — 12:35–14:00
 tələbinin üçüncü səbəbi.
+
+### 20:25Z — PARÇA SAYIMI: ofis geniş planında **DƏQİQ 9** parça var, artıq yoxdur
+Bütün kadr üzərində forma əsaslı axtarış aparıldı: ağ ləkələr + **perimetr²/sahə**
+(yapboz dilləri bu göstəricini kəskin artırır) + qabarıqlıq (solidity). 24 ən yüksək
+namizədin hamısı `peek.py` ilə baxıldı — **hamısı kərpic arası məhlul xətləridir**
+(yalançı müsbət). Yeni parça yoxdur.
+→ **Ofis geniş planı 9 parça verir; qalan ~4 parça bu planda ümumiyyətlə yoxdur.**
+
+12:45 planının qutu üzləri də çıxarıldı (`hc766c.npz`, 80 kadr, `sr16/box*.png`):
+boxA = təqvim + iki hündür obyekt + ABŞ bayrağı; boxB = Oman + Afrika;
+boxC = qızılı obyekt + tünd oval. **Eyni 9 parça, yenisi yoxdur.**
+
+CRT/danışan səhnəsi (t=260, `3426abf2`) da yoxlandı: bıçaq bloku, divarda **illik
+təqvim**, kağızlar — **yapboz parçası yoxdur**.
+
+→ Qalan 4 parça ya MrBeast-in arxasında qalan qutu üzlərindədir, ya da hələ
+baxmadığım bir plandadır. **12:35–14:00 1080p bunu da həll edərdi.**
