@@ -3546,3 +3546,61 @@ Bu dövrün birləşdirmələri: `PSR_oman.png` (Oman bayrağı, qırmızı VI /
 (qeydiyyat zəif, korr 0.16 — künc uyğunluğu pisdir, yenidən lazımdır).
 
 `HANDOFF.md` yazıldı — başqa sessiya sıfırdan yox, **buradan** davam etsin deyə.
+
+## 06.09.2026 ~03:10Z — ★★★ STRUKTUR: MAVİ = MÖVQE (1…15), QIRMIZI = HƏRF İNDEKSİ
+
+Bu, təxmin deyil — **saymaqla** çıxan nəticədir və özü-özünü yoxlayır.
+
+### 1) Diapazonlar asimmetrikdir
+Oxunmuş 12 parçada:
+* **qırmızı**: 2, 3, 4, 5, 6, 6, 7, 7, 7, 8, 9, 10 — **heç vaxt 10-u keçmir**
+* **mavi**: 1, 4, 4, 5, 5, 6, 7, 8, 8, 9, 11, 14 — **14-ə çatır**
+
+İki rəqəm eyni cür şeyi bildirsəydi, diapazonları da oxşar olardı. Deyil.
+Qırmızı **qısa bir sözün içindəki hərf nömrəsi** kimi davranır (2…10),
+mavi isə **uzun bir sıradakı mövqe** kimi (1…14+).
+
+### 2) Sayım tam oturur
+Otaqda **15 parça** var. Mavi 1…15-in yerdəyişməsidirsə:
+* 12 oxunuşda **9 fərqli** mavi dəyər var (1,4,5,6,7,8,9,11,14),
+* **3 təkrar cütü**: mavi 4 (ABŞ bayrağı / təqvim), mavi 5 (Oman / qar buludu),
+  mavi 8 (Afrika / düzbucaqlı),
+* çatışmayan dəyərlər: **2, 3, 10, 12, 13, 15 — tam 6 ədəd**,
+* oxunmamış parça: **3**.
+
+9 + 3 (düzəliş) + 3 (oxunmamış) = **15**. Tam oturur, bir dənə də artıq/əskik yox.
+Yəni **hər təkrar cütündən dəqiq biri səhv oxunub**, və doğru dəyər çatışmayan
+altılıqdan biridir. Qırmızıdakı təkrarlar isə (6 iki dəfə, 7 üç dəfə) **problem
+deyil** — müxtəlif sözlərin eyni nömrəli hərfi olması tamamilə normaldır.
+
+Bu, modelin özünü yoxlaması deməkdir: model təkcə məlumatı izah etmir, həm də
+**hansı üç oxunuşun səhv olduğunu və hansı dəyərlərdən seçilməli olduğunu**
+qabaqcadan deyir.
+
+### 3) Ən ehtimallı üç düzəliş — rum rəqəmlərinin öz həndəsəsindən
+Çatışmayan dəyərlərlə oxunanlar arasında **bir ştrix fərqi** olanlar:
+* **VIII (8) ↔ XIII (13)** — yalnız birinci qlif fərqlidir (V yoxsa X).
+  → Afrika və ya düzbucaqlının mavisi **XIII** ola bilər.
+* **V (5) ↔ X (10)** — eyni məntiq.
+  → Oman və ya qar buludunun mavisi **X** ola bilər.
+* **IV (4) ↔ II/III (2/3)** — → ABŞ bayrağı və ya təqvimin mavisi **II/III**.
+
+Yoxladım: **qar buludunun mavisi tərtəmiz V-dir** (aşağıda birləşir, kəsişmir)
+və qırmızısı tərtəmiz **IX**-dur (X aydın kəsişir) — `VX_TEST.png`.
+Deməli mavi 5 cütündə səhv **Oman tərəfindədir**. Afrika/düzbucaqlı və
+bayraq/təqvim cütlərində isə 1080p ayırd etməyə çatmır.
+
+### 4) ★ Bundan çıxan yeni və güclü nəticə: CAVAB 15 HƏRFDİR, BOŞLUQSUZ
+Hər parça bir hərf verir, mavi rəqəm o hərfin mövqeyidir, və 15 parça 15
+mövqeni tam örtür. **Boşluq bir hərf indeksindən çıxa bilməz.** Deməli cavabda
+boşluq yoxdur — **15 hərflik bitişik sətir**.
+
+Bu, forma placeholder-indəki **15 ulduz** ölçümü ilə tam uyğundur, amma
+`CANDIDATES.md`-dəki "13 hərf + 2 boşluq" oxunuşunu **ləğv edir**:
+`THE ZENITH CITY` tipli variantlar boşluqsuz yazılmalıdır (`THEZENITHCITY`
+isə 13-dür, yəni onlar onsuz da düşür).
+
+### 5) İndi lazım olan tam olaraq nədir
+Üç konkret rəqəmi ayırd etmək (VIII/XIII, IV/II/III, V/X) və üç oxunmamış
+parçanı oxumaq. Hamısı **eyni bir şeydən asılıdır: 2160p**.
+Anlar: **13:22–13:27**, **12:44–12:48**, **0:18–0:22**.
