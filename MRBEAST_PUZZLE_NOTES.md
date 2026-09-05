@@ -2589,3 +2589,32 @@ Yoxlanıldı və siyahıdan çıxarıldı.
 
 **Qalan ~5 parça bu səhnədə görünmür.** Yalnız 12:45 bucağında görünən qutu
 üzlərində ola bilər. → 1080p tələbi bir daha təsdiqlənir.
+
+### 19:25–19:40Z — ÇOX-BUCAQLI SR CƏHDİ: ★ NƏZARƏT TESTİ UĞURSUZ, ÜSUL RƏDD EDİLDİ
+Fikir: 12:45 (764.95–767.78) və 13:24 (803.6–806.9) planları eyni kartlara **başqa
+bucaqdan** baxır; onları da istinad kadrına (t=20.30) çevirib bir yığına qatsam,
+əlavə 169 kadr yeni fəza nümunəsi verə bilər.
+
+`homo_multi.py` + `warpreg_multi.py` yazıldı, **371 homoqrafiya** alındı
+(202 + 80 + 89). **Nəzarət kartı Oman** (rəqəmləri artıq oxunub) ilə yoxladım:
+
+→ **Nəticə tam zibil.** Kart görüntüdə ümumiyyətlə yoxdur; Laplas dispersiyası
+"artsa" da (1.2 → 1.9), bu artım siqnal deyil, sürüşmə artefaktıdır.
+
+**Səbəb (diaqnoz):** qutu yığını **üçölçülüdür**, kartlar müxtəlif dərinlikdəki
+üzlərdədir. Bir qlobal homoqrafiya yalnız **eyni müstəvi** üçün doğrudur.
+20.3 planında kamera çox az hərəkət edir (dolli) — parallaks kiçikdir, homoqrafiya
+işləyir. 12:45 isə **tamam başqa nöqtədən** baxır → parallaks böyükdür → bir
+homoqrafiya heç bir zaman bütün kartları eyni anda oturda bilmir. Aşağı böyütmədə
+düzgün görünür (`beyond_edge.png`), 20× böyütmədə isə 1–2 pikselllik səhv
+20–40 piksel sürüşməyə çevrilir.
+
+**Dərs (əvvəlki "(6 6)" epizodundan sonra qaydaya çevirdim):** yeni ölçmə üsulunu
+əvvəlcə **cavabı bilinən nəzarət obyektində** sına. Bu dəfə qayda işlədi və mən
+saatlarla yanlış oxunuş çıxarmaqdan xilas oldum.
+
+**Növbəti cəhd (davam edir):** hər kart üçün **lokal müstəvi homoqrafiyası** —
+qlobal homoqrafiyanı başlanğıc götürüb kartın öz ətrafında `findTransformECC`
+(MOTION_HOMOGRAPHY) ilə dəqiqləşdirmək. İlk qaçış: ECC pəncərəsi kartın özü qədər
+kiçik olanda 371 kadrdan yalnız 14-ü qəbul edildi (kontrast azdır). İkinci qaçış:
+pəncərə 0.9× kənar boşluqla genişləndirildi, hədd 0.55-ə endirildi.
