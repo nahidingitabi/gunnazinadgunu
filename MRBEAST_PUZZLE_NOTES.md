@@ -3125,3 +3125,29 @@ tünd oval + fiqur                   ?     ?
 **mavi VIII üç kartda**, **mavi VI iki kartda**, **mavi IV iki kartda**.
 → Təkrarlar sistematikdir. **Rəqəmlər sıranı təyin etmir** — bu, artıq
 ölçülmüş faktdır, fərziyyə deyil.
+
+### 22:40Z — ★ DİŞLƏR KVADRATDIR, YUVARLAQ DEYİL — bunun mühüm nəticəsi var
+`outline.py` yazıldı: kartı fonundan ayırır (parlaqlıq + aşağı xroma), xarici
+konturu çıxarır, qabarıq qüsurları (dil/oyuq) işarələyir.
+`srn9/F_towers.png` üzərində sınandı: kontur 7369 nöqtə, 29 təpə, 6 dərin oyuq.
+
+**Müşahidə:** kartların dilləri **klassik yuvarlaq yapboz düyməsi deyil,
+DÜZBUCAQLI/KVADRAT çıxıntılardır.**
+
+**Nəticə (vacibdir):** eyni ölçülü kvadrat dillər bir-biri ilə **əvəzlənə bilir** —
+yəni **forma da tək başına yığımı təyin etmir.** Yuvarlaq yapboz düymələri
+unikal olur, kvadrat dillər yox.
+
+→ Deməli mexanizm **hər ikisinin birləşməsidir**: forma namizədləri daraldır,
+rəqəmlər seçir. Bu, həm də rəqəmlərin niyə ümumiyyətlə mövcud olduğunu izah edir —
+əgər forma kifayət etsəydi, rəqəmlərə ehtiyac olmazdı.
+
+### Yeni, daha möhkəm plan: KƏNAR TİPİ İMZASI
+Ayrı-ayrı dillərin formasını müqayisə etmək əvəzinə hər kartın **dörd kənarını
+təsnif et: dil (çıxıntı) / oyuq (girinti) / düz.** Bu, bu çözünürlükdə
+**VI/VII/VIII fərqindən qat-qat etibarlıdır** və 14 kart üçün güclü
+kombinator məhdudiyyət verir (bir kartın dili yalnız qonşusunun oyuğuna oturur).
+
+Növbəti addım: hər kartın konturunu ayrıca çıxar (segmentasiya qonşu kartları
+birləşdirməməlidir — hazırda birləşdirir), kənarları təsnif et, sonra
+rəqəmlərlə birlikdə həll et.
