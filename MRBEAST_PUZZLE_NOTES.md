@@ -2756,3 +2756,15 @@ qəbul etmirəm.** Yalnız 13 parçanın hamısı oxunanda yoxlanıla bilər.
 **Yoxlanıla bilən proqnoz:** əgər boru xətti doğrudursa, 13 şəkil arasında
 **`Y` ilə başlayan bir şəkil olmalıdır** (hər beş namizəd `CITY` ilə bitir).
 Bu, tapılanda bütün fərziyyəni bir anda təsdiq və ya rədd edəcək.
+
+### 20:20Z — diaqram vərəqi 12:45 planında DAHA FRONTAL görünür
+`hc766b.npz` (80 kadr, ref 766.0, kontekst 340,140–640,359) quruldu; vərəq
+14× çıxarıldı (`sr15/diagram.png`). Ofis geniş planında vərəq kəskin bucaq
+altında yatır, 12:45-də isə **kameraya daha düz** baxır və təxminən **2× böyükdür**.
+Struktur indi aydındır: solda **iki çərçivəli mətn bloku**, aralarında qısa ox,
+sonra üçüncü blok və oradan **sağa şaxələnən oxlar**.
+→ Bu, dövrə deyil, **ağac/axın diaqramıdır** — yəni mənim Euler dövrü
+mexanizmimin şəkli DEYİL; daha çox köhnə ovun həll axınına oxşayır.
+Fərziyyəni buna görə gücləndirmirəm.
+360p-də mətn oxunmur. **1080p-də bu vərəq oxunabilən olardı** — 12:35–14:00
+tələbinin üçüncü səbəbi.
