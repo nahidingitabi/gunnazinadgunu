@@ -1002,3 +1002,27 @@ COMBINATION" (Zenith-in məhz bu məhsul adı) və bezeldə kiçik "zenith" söz
 QR (ağ ekran) işıqlandırdığı kadrlarda diskin lokal kontrastı daha yüksək görünürdü,
 amma səbəb diskin üstünə düşən hüquqi mətn overlay-i imiş — həmin kadrlarda disk
 oxunmur. **PAUSE pəncərəsi ən yaxşı görüntü olaraq qalır.**
+
+## 05.09.2026 ~08:35Z — ★★★ VACİB: forma HEÇ VAXT "düzdür/səhvdir" demir
+
+Müsabiqə saytının bütün JS chunk-ları yükləndi (`sitejs/`) və forma məntiqi tam oxundu
+(`257l0q4388oxg.js`). Səhifədə **cəmi 3 ekran** var:
+
+1. **`form`** — cavab + e-poçt + razılıq → `POST /api/entries`
+2. **`verify`** — *"Check your inbox. We sent a 6-digit code to {email}. Enter it below to
+   **lock in your entry**."* → `POST /api/entries/verify`
+3. **`done`** — *"✓ **You're in the running.** Your guess is confirmed for {email}.
+   You can submit another guess anytime — there's only 1 correct answer. Good luck."*
+   + "Submit again?" düyməsi
+
+**Kodda "qazandınız", "düzdür", "səhvdir" kimi HEÇ BİR ekran/mətn YOXDUR.**
+Cavabın düzgünlüyü müştəri tərəfdə yoxlanmır (JS-də heç bir hash/açar sabiti yoxdur;
+`subtle.digest` yalnız kitabxana kodundadır). Yəni:
+
+> **"Submit etdim, heç nə olmadı" — bu, cavabın səhv olduğunu SÜBUT ETMİR.**
+> Sayt hər cavaba eyni "You're in the running" cavabını verir. Qalibi sonradan
+> server tərəfdə müəyyən edib e-poçtla xəbər verirlər.
+
+### ⚠ Diqqət: giriş yalnız E-POÇT TƏSDİQİNDƏN SONRA sayılır
+Axın: cavab yaz → Submit → **e-poçta gələn 6 rəqəmli kodu forma daxil et → Verify** →
+"You're in the running". Kod daxil edilməyibsə, **giriş qeydə alınmır**.
