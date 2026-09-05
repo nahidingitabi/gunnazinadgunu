@@ -2274,3 +2274,50 @@ kitab rəsmi + "Boo!" + "Five of these."    (çekmecə kartı)
 "Boo!" = **BOOK** sözündən **K** çıxarılmışdır — bu, ya beş kitaba, ya da
 "bir hərfi çıxarılmış beş söz"ə işarədir. Colin-in "mexanizmlər klassikdir" sözü
 ikinci oxunuşu (hərf çıxarma) daha ehtimallı edir — o, tapmaca ənənəsində adi üsuldur.
+
+## 05.09.2026 ~18:00Z — ★★★★★ MÜƏLLİF YAYIMDA RƏSMİ İPUCU VERİB
+
+`v2864667604` (2026-09-04) yayımının **129–134-cü dəqiqələri**. Bu, bütün layihənin
+ən vacib tapıntısıdır.
+
+### Colin-in sözləri (transkripsiya, `tw_asr_full.json`)
+```
+[129:45] "Sorry, no hints tonight."
+[130:00] "I am happier with my puzzle than I thought I'd be, seeing how people
+          have interacted with it."
+[130:12] "I can't discuss it until someone solves it and team beast announces a winner."
+[130:42] "I DO have a hint — if you have not... if you don't think you've made any
+          progress, I have a..."
+[131:17] "...but the initial question is: HAVE YOU SOLVED THE JIGSAW PUZZLE?"
+[132:48] "The jigsaw puzzle in MrBeast's video."
+[132:57] "THE FIRST THING YOU SHOULD DO IS LOOK FOR A JIGSAW PUZZLE."
+[133:14] "And that's as far as I'm going to say right now — it's just to get you started."
+```
+
+### ★ NƏTİCƏ 1: YAPBOZ PARÇALARI GİRİŞ NÖQTƏSİDİR
+Müəllif birbaşa deyir ki, **ilk addım yapbozu tapıb HƏLL ETMƏKDİR.**
+
+→ **Mənim "parçalar bəlkə dekorasiyadır" fərziyyəm SƏHVDİR.** Geri götürürəm.
+→ Digər sessiyanın parçalara fokuslanması **DOĞRUDUR**.
+→ "Yapbozu həll etmək" = parçaları **bir-birinə birləşdirmək** (yapboz elə budur).
+   Rum rəqəmləri birləşmə qaydasını verir — domino zənciri.
+
+### ★ NƏTİCƏ 2: Digər faktlar
+- **Tapmaca 4 sentyabra qədər həll edilməyib** ("until someone solves it and team beast
+  announces a winner").
+- [133:25] *"Plenty of people have posted a lot of hints online already that are far
+  beyond that"* → icma "yapbozu tap" mərhələsindən **çox irəlidədir**.
+- [133:42] *"for every 'here's a hint' there's a 'here's a completely wrong idea'"*
+  → onlayn məlumatın çoxu səhvdir; ehtiyatlı olmaq lazımdır.
+- [130:00] Tapmacanın necə qarşılandığından **məmnundur**.
+
+### ★ STRATEGİYA DƏYİŞİR
+Bütün səy **parçaların rum rəqəmlərini oxumağa və zənciri qurmağa** yönəldilir.
+Hazırda oxunmuş (qara | qırmızı):
+```
+ABŞ bayrağı   IV | VII
+Afrika        IV | VIII
+Oman          VI | V
+qar buludu    IX | ?
+```
+Qalan ~9 parça oxunmalıdır. Metod: `srx.py … --reftime <parçanın ən böyük göründüyü an>`.
