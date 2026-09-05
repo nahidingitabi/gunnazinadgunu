@@ -3202,3 +3202,30 @@ məhz belə alınmışdı və yeganə işləyən yoldur.
 
 Bu, "üsulu seçmə, ölç" qaydasının davamıdır: ölçü doğrudur, onu qidalandıran
 avtomatika səhvdir — ona görə avtomatikanı atıram, ölçünü saxlayıram.
+
+### 23:20Z — ALTINCI AVTOMATLAŞDIRMA CƏHDİ DƏ DÜŞDÜ. İstiqamət dəyişirəm.
+Geniş qutu + `L < blur(L) − 4` mürəkkəb maskası: **hər qutuda mürəkkəb bütün
+qutunu doldurur** — yəni maska qlifi yox, kartın ümumi kölgələnməsini tutur.
+Nəzarət qlifləri yenə səhv çıxdı (Oman V → "VII", Afrika IV → "VII").
+
+**Yekun: VI/VII/VIII-i avtomatik ayırmaq üçün 6 üsul sınadım, 6-sı da nəzarətdə
+düşdü.** (zirvə sayımı · Hu momentləri · deşik sayımı · w/h + dilatasiya
+qruplaşdırması · w/h + sərhəd rədd etməsi · w/h + geniş qutu.)
+Yeganə işləyən: **yüksək böyütmədə gözlə oxumaq** — və onun da qeyri-müəyyənliyi
+**±1 ştrixdir**. Bu, materialın fiziki həddidir, alqoritm problemi deyil:
+orijinalda qliflər 10–20 px hündürlükdə, fərq isə ~3 px-lik bir ştrixdir.
+
+### ★ ONA GÖRƏ İSTİQAMƏTİ DƏYİŞİRƏM: ŞƏKİLLƏR
+Cavab üçün lazım olan **6 hərflik ortadakı sözdür** (`THE ______ CITY`).
+Şəkil identifikasiyası **bir ştrixdən asılı deyil** — yəni rəqəmlərdən qat-qat
+möhkəm əsasdır. 14 şəklin hamısı artıq çıxarılıb (`CARD_ATLAS2.png`).
+Növbəti iş: hər şəkli dəqiq adlandırmaq və baş hərfləri yoxlamaq.
+
+**Hazırkı şəkil siyahısı:**
+1 Oman bayrağı · 2 Afrika + Madaqaskar (yaşıl ləkə) · 3 qar buludu ·
+4 ABŞ bayrağı + qırmızı tövlə · 5 təqvim (iri qırmızı qlif) · 6 iki hündür obyekt
+(tünd qəhvəyi + mavi-ağ, altında qırmızı zolaq) · 7 bant/lent (mavi konturlu) ·
+8 düz qırmızı-kərpici düzbucaqlı · 9 rolikli fiqur (qırmızı-narıncı geyim, papaq) ·
+10 sarı kart (şəkli gizlənib) · 11 iki bölməli düzbucaqlı çərçivə ·
+12 aşağı ox + artan üç sütun (çəhrayı/sarı/yaşıl) · 13 qızılı yumru obyekt ·
+14 tünd oval + kiçik fiqur
