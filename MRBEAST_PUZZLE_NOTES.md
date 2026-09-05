@@ -714,3 +714,20 @@ Montaj yalnız videonun öz təkrarıdır (BEAST CITY, BEAST VAULT tableti
 URL sorğu edən IP-yə bağlıdır, media sorğusu isə agent-proxy-nin başqa IP-sindən çıxır
 (`ip=fda3:… vs mip=160.79.106.139`). ffmpeg ilə seqment yükləmə də alınmır (SIGSEGV).
 → **4K kadr yalnız istifadəçi tərəfindən yüklənə bilər.**
+
+### 11) Bu dövrədə əlavə MƏNFİ nəticələr
+- **Stereo yan-kanal (L−R) steqanoqrafiyası**: 3 audio seqmentin hamısı yoxlandı; yan kanalın
+  RMS/orta nisbəti normaldır (0.51–0.73), "səssizlikdə gizli siqnal" pəncərəsi = **0**.
+- **Spektroqram** 16:53–17:07 və 17:20–17:36: 16 kHz-də adi lowpass, gizli ton yoxdur.
+- **Bütün videonun parlaqlıq zaman sırası** (31 996 kadr, 30 fps, 360p → `bright_all.npy`):
+  titrəyən işıq (SB4-tipli morze) axtarıldı. Namizədlər (3:32, 6:17, 14:12, 17:12) —
+  hamısı sürətli montaj kəsimləridir. 17:12.1–17:12.4-də 10 kadrlıq strob var, amma
+  bərabər intervallıdır (morze deyil).
+- **Video metadata**: başlıq/təsvirdə gizli (zero-width) simvol yoxdur, tag yoxdur,
+  chapter yoxdur.
+- **4K yükləmə**: mümkün deyil (yuxarıda 10-cu bənd).
+
+### ⚠ VACİB METODOLOJİ QEYD
+Köhnə `ocr_all.json` (360p, 1 fps) **17:00-dakı "PAUSE" yazısını qaçırıb**. Yəni OCR
+bazalarımda yalançı-mənfi var. Bütün video 2 fps + 3× böyütmə ilə yenidən OCR edilir
+(`ocr_full2.json`).
