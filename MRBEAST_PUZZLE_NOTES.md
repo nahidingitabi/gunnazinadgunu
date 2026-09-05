@@ -2063,3 +2063,67 @@ onun yumor üslubu.)
 transkripsiya ediləcək, sonra tapmaca ilə bağlı hər söz axtarılacaq.
 **Bu, video-xarici axtarışın ən perspektivli qoludur:** müəllif canlı yayımda
 tapmaca haqqında danışmış ola bilər.
+
+## 05.09.2026 ~18:10Z — ★★★ DÜZƏLİŞ: QEYDİN 2-Cİ SƏTRİ (6 6)-DIR, (6 2) DEYİL
+
+Digər sessiya bunu iddia etdi. **Özüm yoxladım və onlar haqlıdır. Mən səhv etmişəm.**
+
+### Metod — nəzarət müqayisəsi
+Onların iki referens anını mütləq vaxta çevirdim (`dd608937` offset 1008.3 s):
+local 13.94 s → **1022.24 s**, local 49.60 s → **1057.90 s**.
+Hər ikisindən ayrıca 14× yığım qurdum (`sr_n_A.png`, `sr_n_B.png`), sonra **mübahisəli
+qlifi 3-cü sətrin MƏLUM "6"-sı ilə eyni miqyasda yan-yana** qoydum (`glyph_test.png`).
+
+**Nəticə birmənalıdır:** hər iki yığımda mübahisəli qlif nəzarət "6"-sı ilə eyni
+quruluşa malikdir — sağ yuxarıdan girən onurğa, sola-aşağı süpürmə, və **içi işıqlı
+qapalı kasa**. "2"-də qapalı kasa olmazdı, düz üfüqi altlıq olardı.
+
+### Səhvi necə etdim
+Əvvəl yazmışdım: *"üst üfüqi ştrix, enən diaqonal, alt ştrix — bu 2-dir"*.
+Bu, **gözlədiyim cavaba uyğunlaşdırma** idi: DULUTH MN = (6 2) mənə lazım idi, ona görə
+2 gördüm. Bu, **öz metod qaydalarımın 5-ci maddəsinin** ("gözlədiyin cavaba uyğunlaşdırma")
+pozulmasıdır. Qeydə düzəliş edilir.
+
+İzləyici şərhləri də bunu dəstəkləyir: heç kim "66" yazmayıb, amma **üç nəfər "62",
+iki nəfər "68"** yazıb — yəni qlif qapalı ilgəkli kimi qavranılır (6 və 8-in hər ikisində
+ilgək var), sadəcə hansı olduğu mübahisəlidir. "2" oxunuşu azlıqdadır.
+
+### ✗ NƏTİCƏ: `THE ZENITH CITY` ZƏNCİRİ QIRILIR
+```
+(3 6 4) = THE ZENITH CITY   ✓ hələ də uyğun
+(6 6)   = DULUTH MINNESOTA (6,9)? ✗   DULUTH MN (6,2)? ✗   → QIRILIR
+(6)     = DULUTH            ✓
+```
+**Mənim əsas namizədim əsas dayağını itirdi.**
+
+### ★ Düzəldilmiş qeydə uyan YEGANƏ ləqəb
+2867 ləqəb yenidən süzüldü: **(3 6 4) şablonu + 6 hərfli şəhər + 6 hərfli region**
+şərtlərini ödəyən **tam bir dənə** var:
+
+```
+THE FOREST CITY  →  LONDON, CANADA  →  LONDON
+   3   6     4        6       6           6        ✓ ✓ ✓
+```
+`THE FOREST CITY` = **15 simvol** (formadakı ulduz sayı ilə uyğun).
+Zəifliyi: videoda "meşə"yə və ya "London"a işarə edən heç bir əşya yoxdur
+(Zenith televizoru kimi fiziki dayaq yoxdur). OCR-də tapılan yeganə "ONTARIO"
+54 s-dədir və o, **"TORONTO ONTARIO"**-dur — köhnə ovun materialı.
+
+### Açardakı (6 6) formalı məkanlar (alternativ oxunuş)
+`BEATTY NEVADA · MANAUS BRAZIL · ITURUP RUSSIA · ANKARA TURKEY · MOSCOW RUSSIA`
+Bunlardan **MOSCOW RUSSIA** diqqətəlayiqdir: Moskva = PG3-ün cavabı ("Red Square"),
+və yapboz parçalarından biri məhz **düz qırmızı kvadratdır**.
+
+### `PEARLOFTHENORTH` bu düzəlişdən təsirlənmir
+O, qeydin heç bir sətrinə onsuz da uyğun gəlmirdi. İndi nisbətən **daha güclüdür**,
+xüsusən "bird fence = rail fence" təsdiqi ilə birlikdə.
+
+### Yenilənmiş göndərmə siyahısı
+```
+1. PEARLOFTHENORTH        (şifr kartı zənciri + rail fence təsdiqi)
+2. THE FOREST CITY        (düzəldilmiş qeydə uyan yeganə ləqəb, 15 simvol)
+3. LONDON  ·  LONDON CANADA  ·  LONDON ONTARIO
+4. PEARL OF THE NORTH  ·  MOSUL, IRAQ  ·  MOSULIRAQ
+5. THE ZENITH CITY  ·  DULUTH  ·  DULUTHMINNESOTA   (zəncir qırıldı, amma ucuzdur)
+6. MOSCOW  ·  MOSCOW RUSSIA
+```
