@@ -2914,3 +2914,36 @@ Bu, "iki kartda da mavi V" ziddiyyətini də aradan qaldırır — Oman tək mav
 * **İşləmədi:** ştrix zirvələrinin sayılması (qonşu "I"-lər birləşir) və
   en/hündürlük nisbəti (kartlar müxtəlif bucaqlarda olduğu üçün normallaşmır).
   VI/VII/VIII ayırd etməsi hələ də vizual oxunuşa dayanır.
+
+### 21:10Z — qalan kartlar: qismən irəliləyiş + ★ diapazon X-ə qədər uzanır
+* **Qırmızı kapüşonlu adam kartı:** qırmızı rəqəm **"X I I"** kimi oxunur (birinci
+  qlif kəsişən ştrixlərə malikdir → **X**), mavi rəqəm də X ilə başlayır (XI/XII).
+  → **Rəqəm diapazonu IX ilə bitmir; ən azı XII-yə qədər gedir.**
+  Bu, "6 fərqli rəqəm" ifadəsini birdəfəlik ləğv edir.
+* **Sarı kart:** qırmızı **VIII** aydın (V I I I), mavi hələ oxunmayıb.
+* **Çərçivəli şəbəkə kartı:** rəqəmlər kartın kənarındadır, oxunmur.
+* **Qızılı yumru obyekt (burger?) + tünd oval kartları:** həmin qutu üzü kameraya
+  ən kəskin bucaqdadır və MrBeast-in qolu keçir. Median bulanıq verir; **ən kəskin
+  tək kadr** (t=765.60, Laplas 49.5) daha yaxşıdır, amma rəqəmlər hələ də oxunmur.
+  Lokal kontekstli keş (`hn765c.npz`) də kifayət etmədi.
+
+### Cari tam vəziyyət (14 kartdan 9-u oxunub)
+```
+şəkil                    mavi  qırmızı
+Oman bayrağı              V      VI     ★★★
+Afrika + Madaqaskar       VIII   IV     ★★★
+qar buludu                VI     IX     ★★
+ABŞ bayrağı + tövlə       IV     VII    ★★
+təqvim (qırmızı 25)       IV     III    ★★
+bant / lent               VII    V      ★★
+qırmızı düzbucaqlı        VIII   VII    ★
+sütun qrafiki             ?      VIII   ★
+iki hündür obyekt         VI     VII    ★
+qırmızı kapüşonlu adam    X??    XII?   —
+sarı kart                 ?      VIII?  —
+çərçivəli şəbəkə          ?      ?      —
+qızılı yumru obyekt       ?      ?      —
+tünd oval + fiqur         ?      ?      —
+```
+**Təkrarlar:** qırmızı VII ×3, qırmızı VIII ×2; mavi IV ×2, VI ×2, VIII ×2.
+→ Nə mavi, nə qırmızı unikal indeks deyil. **Domino/til oxunuşu qüvvədə qalır.**
