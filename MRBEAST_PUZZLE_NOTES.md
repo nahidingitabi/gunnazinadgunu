@@ -2334,3 +2334,93 @@ Qalan ~9 parça oxunmalıdır. Metod: `srx.py … --reftime <parçanın ən böy
           it's just to get you started."
 ```
 İki müstəqil model (base.en və small.en) eyni cümlələri verir. **Təsdiqlənmişdir.**
+
+---
+
+## 2026-09-05 (18:30Z) — ★ PARÇALARIN RƏQƏMLƏRİ: ÖLÇÜLDÜ, RƏNGLƏR TESTLƏ AYRILDI
+
+### Metod (yenidir, əvvəlkindən yaxşıdır)
+`srx.py`-ni əvəz edən üç alət yazıldı:
+* `homo.py` — bir kadrı **istinad** seçib bütün digər kadrların homoqrafiyasını
+  bir dəfə hesablayır və `.npz`-ə yazır (ORB 15000 + RANSAC).
+* `warpreg.py` — həmin keşdən **çoxlu bölgəni** bir keçidə çıxarır; **maskalı
+  median** yığır (uint8 stack + zolaq-zolaq `nanmedian`), ona görə MrBeast
+  qarşıdan keçəndə ləkə qalmır.
+* `enh.py` / `inkcolor.py` — mürəkkəbi kartın **öz kağızına** görə ölçür.
+
+### ★ İstinad kadrı: t = 20.30 s (əvvəl 19.2 deyirdim — səhv idi)
+Kamera 13.6 s-dən 20.35 s-ə qədər **sağa pan + yavaş irəli dolli** edir.
+Ölçüldü: elektrik qutusunun ekran mövqeyi 16.8 s-də x=1670 → 20.2 s-də x=1599,
+miqyas 13.8 s-də 0.923 → 20.3 s-də 1.037.
+Kadrın sağ kənarında görünən **ən böyük dünya-koordinatı** hər kadr üçün
+hesablandı: **t=20.30 mütləq maksimumdur (x_ref = 1919)**. Yəni ofis
+səhnəsində sağdakı qutu yığınını bundan artıq göstərən kadr **yoxdur**.
+283 kadr (13.6–20.35 + 47.0–48.1 + 49.4–50.1 + 53.6–54.0 + 59.7–60.4) yığıldı.
+
+### ★★ OXUNAN PARÇALAR (t=20.30 koordinatları ilə)
+
+| şəkil | rəqəmlər (mövqe) | Δa* (öz kağızına görə) | qara → qırmızı |
+|---|---|---|---|
+| **ABŞ bayrağı 🇺🇸 + qırmızı tövlə** | IV (yuxarı), VII (aşağı-sol) | IV **+0.10**, VII **+1.39** | **IV → VII** |
+| **qar buludu 🌨️** | V (yuxarı-sağ), IX (aşağı-sol) | V **+1.79**, IX **+3.77** | **V → IX** |
+| **Afrika + Madaqaskar** | sol qlif (VIII?), IV (sağ) | sol **−0.21**, IV **+1.28** | **VIII? → IV** |
+| **Oman bayrağı 🇴🇲** | VI (yuxarı), V (aşağı) | VI **+2.14**, V **−1.07** | **V → VI** |
+
+Δa* = mürəkkəbin a* (qırmızılıq) göstəricisi minus **həmin kartın öz kağızının**
+a* göstəricisi. Bu, isti volfram işığının verdiyi yalançı rəngi tam aradan
+qaldırır. Cütlərin hər birində daha qırmızı olan aydın seçilir → **icmanın
+"qırmızı və qara" deməsi təsdiqləndi, mənim keçmiş "mavi" oxunuşum səhv idi.**
+
+### ★ YENİ FAKT — ABŞ kartında İKİ şəkil var
+12× SR göstərdi ki, IV|VII kartında **ABŞ bayrağı VƏ qırmızı tövlə (barn)**
+yan-yana çəkilib. Yəni parçalar tək şəkil deyil, **şəkil dəsti** daşıya bilər.
+
+### Zəncir mexanizmi (fərziyyə, hələ bağlanmır)
+Qayda "bir parçanın **qırmızısı** = növbəti parçanın **qarası**" olsa:
+* Afrika (VIII→IV) → ABŞ bayrağı (IV→VII) → qara VII olan parça
+* nə isə (…→V) → qar buludu (V→IX) → qara IX olan parça
+* Oman (V→VI) → qara VI olan parça
+**Problem:** həm qar buludu, həm Oman qara **V** verir. Deməli ya Omanın
+rəqəmlərindən biri səhv oxunub, ya qar buludunun yuxarı rəqəmi kəsilib
+(t=20.30-da kartın sağ küncü kadrın kənarından çıxır — "V" əslində VI/VII/VIII
+ola bilər), ya da qayda başqadır.
+
+### Ofisdəki bütün parçaların yeri (t=20.30 kadrında, avtomatik aşkarlandı)
+```
+(1842,438,75,120)  IX / qar buludu kartı  (sağ kənarda, qismən kəsik)
+(1719,452,102,110) köhnə tapmacanın mini vərəqləri (parça DEYİL)
+(1845,616,75, 48)  IV|VII ABŞ bayrağı + tövlə
+(1762,620,48, 82)  iki kart: "28"-ə oxşar şəkil + mavi fiqur
+(1680,703,45, 87)  qızılı oval kart + tünd yumurta kartı
+(1796,793,32, 54)  Afrika + Madaqaskar
+(1760,780,33, 45)  Oman bayrağı
+(1656,831,26, 41)  tünd heyvan başı (inək/pişik?) kartı
+```
+Ofisin **sol tərəfində (masa, monitor, siyirmə) parça yoxdur** — orada yalnız
+"Boo! / Five of these" kartı və narıncı kart var. Bağlanış səhnəsində
+(pul anbarı + CRT) də parça yoxdur.
+
+### ★★★ ƏSAS TAPINTI — PARÇALARIN ƏN YAXIN PLANI 12:44-dədir, MƏNDƏ 1080p YOXDUR
+Bütün videonun kontakt vərəqləri **düzgün vaxt xəritəsi ilə** yenidən quruldu
+(360p klipləri: `3426abf2` ofset 0.28, `84691c37` ofset 400.81,
+`39aedf50` ofset 854.29 — hər biri 1080p kliplərlə uyğunlaşdırılaraq ölçüldü).
+
+Kəsiklər tapıldı. **Eyni qutu yığını daha yaxın və daha düz bucaqdan görünür:**
+* **764.95 – 767.78 s (12:45)** — ən yaxşı: kartlar 3.4× daha böyük
+* **803.52 – 806.99 s (13:24)**
+* **831.68 – 834.61 s (13:52)**
+
+Ölçü: ABŞ bayrağı kartı geniş planda 1080p-də **33 px**, 12:45 planında 360p-də
+38 px → **1080p-də ~114 px olardı (3.4×)**. Bu, qalan rəqəmləri oxumaq üçün
+kifayət edərdi.
+
+**Mənim 1080p kliplərim yalnız bunları əhatə edir:** 0–70.7, 304.5–420,
+551–641, 855–1072. **640.6–854.9 aralığı boşdur** — və axtardığım plan məhz
+oradadır.
+
+→ **İstifadəçidən 12:35–14:00 (755–840 s) aralığının 1080p-si lazımdır.**
+
+### 12:45 planında görünən əlavə (köhnə tapmacaya aid, amma qeyd üçün)
+Qara arxiv şkafında əl yazısı stikerlər: "…XIV / Somewhere?", "…", "DEATH",
+"PLATES", bir neçə mavi stiker rəqəmlərlə. Bunlar köhnə $1M ovunun
+cavablarıdır (Death Valley, license plates) — $10k-ya aid deyil.
