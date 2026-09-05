@@ -1840,3 +1840,43 @@ kiçikdir, bu uyğun gəlir. Rum rəqəmi səhifədəki söz/sətir nömrəsi ol
 - `mrbeast.salesforce.com` → 403 (bağlıdır)
 - Invidious güzgüləri və yt-dlp şərh endpoint-i datamərkəz IP-dən bloklanır
 - Veb axtarışda tapmacaya dair icma müzakirəsi tapılmadı (çox yeni/niş)
+
+## 05.09.2026 ~16:45Z — MÜRƏKKƏB RƏNGİ HƏLL OLUNDU + qeydin kitab şifri oxunuşu ÖLDÜ
+
+### ✗ Qeyd kitab şifri DEYİL
+84 səhifəlik açar səhifə-səhifə parçalandı (84 səhifə düzgün ayrıldı) və qeyd
+`(3 6 4) → (6 2) → (6)` bütün mümkün oxunuşlarla sınandı:
+- (səhifə 3, sətir 6, söz 4) → diapazondan kənar
+- (səhifə, söz) → "GC" / "CHRIS" / "VIDEO" / "the" — mənasız
+- səhifə 364 → mövcud deyil; səhifə 62/6 → adi mətn
+→ **Bu qol bağlanır.** Qeyd açara indeks deyil.
+
+### ★★ RƏNG: hər kartda bir rəqəm QARA, digəri QIRMIZIDIR
+Əvvəlki cəhdim ağ referensi karton fonundan götürdüyü üçün hər şeyi "qırmızı" verirdi.
+Yeni üsul: **eyni kartdakı iki rəqəmi bir-birinə görə** ölçmək, hər birini **öz yanındakı
+kağızla** normallaşdırmaqla. Bu, işıq çalarından asılı deyil.
+
+| kart | daha qara / az qırmızı | qırmızı | fərq (R−B) |
+|---|---|---|---|
+| **ABŞ bayrağı** | **IV** | **VII** | −0.152 |
+| **Afrika + Madaqaskar** | **IV** | **VIII** | −0.087 |
+| **Oman** | **VI** | **V** | −0.270 |
+
+→ **İcmanın "red and black" iddiası DOĞRUDUR**, mənim əvvəlki "mavi" oxunuşum
+isti volfram işığının yaratdığı artefakt idi. **Düzəliş edilir.**
+
+### Dominolar (qara | qırmızı)
+```
+ABŞ bayrağı   4 | 7
+Afrika        4 | 8
+Oman          6 | 5
+qar buludu    9 | ?   (yalnız bir rəqəm tapılıb)
+```
+
+### Zəncir fraqmenti
+Uclar üzrə: **8 – 4 – 7 – 6 – 5** dörd kartla təmiz yığılır
+(Afrika 8|4 → ABŞ 4|7 → sağ divar 7|6 → Oman 6|5).
+
+**Amma sol divar klasteri (2|4) bu zəncirə sığmır** — hər iki "4" ucu artıq işlənib.
+→ **"Divar klasterləri özləri parçadır" fərziyyəm zəiflədi.** Ya sol divarın rəqəmləri
+(başqasından götürülmüş 2/1/4) səhvdir, ya klasterlər parça deyil.
