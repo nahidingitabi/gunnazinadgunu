@@ -3073,3 +3073,17 @@ iki hündür obyekt           VI      VII?    T2b — YENİDƏN OXUNMALI
 qızılı yumru obyekt         ?       XIV?
 tünd oval + fiqur           ?       ?
 ```
+
+### 22:05Z — sarı kart: qırmızı **VIII** (maksimum böyütmədə ştrixlər sayıldı)
+`srn7/C807.png`-dən 3× əlavə böyütmə + mürəkkəb izolyasiyası: qırmızı rəqəmdə
+"V"-dən sonra **üç** şaquli ştrix aydın seçilir → **VIII** (VII deyil).
+→ **sarı kart = mavi I | qırmızı VIII.**
+
+Bununla **mavi VIII üç kartda** olur (Afrika, bant, və yəqin ki digəri), yəni
+qırmızı VIII-in hansına işarə etdiyi **birmənalı deyil**. Bu, permutasiya
+modelinin ölümünü bir daha təsdiqləyir və **çoxqraf (multigraph)** mənzərəsini
+gücləndirir: eyni dəyər bir neçə kartda təkrarlanır, ona görə sıra yalnız
+rəqəmlərlə deyil, **yapboz dişlərinin forması ilə** birlikdə müəyyən olunur.
+
+→ Bu, Colin-in "yapbozu həll et" sözünün hərfi mənasını qaytarır: **fiziki
+formalar sıralamanın bir hissəsidir**, rəqəmlər isə yoxlama/köməkçidir.
