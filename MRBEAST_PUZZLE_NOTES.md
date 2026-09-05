@@ -2567,3 +2567,25 @@ tapmaca mexanizmidir) və Colin-in "kiçikdir" sözü ilə də uyuşur.
 
 **Nəticə: qalan ~10 parçanın rəqəmlərini oxumaq indi daha da vacibdir — çünki
 dərəcə balansı hər oxunuşu yoxlaya biləcək. 12:35–14:00 1080p hələ də açardır.**
+
+### 19:20Z — PARÇA ATLASI (9 parça, hamısı 1080p geniş plandan, 248–283 kadr median)
+`scratchpad/PIECE_ATLAS.png` — ofis səhnəsində tapılan bütün parçalar bir şəkildə.
+
+| # | şəkil | rəqəmlər | mövqe (t=20.30) |
+|---|---|---|---|
+| 1 | ABŞ bayrağı + qırmızı tövlə | **qara IV → qırmızı VII** | 1837–1917, 610–652 |
+| 2 | qar buludu | **qara V → qırmızı IX** | 1840–1915, 517–550 |
+| 3 | Oman bayrağı | **qara V → qırmızı VI** | 1763–1800, 787–818 |
+| 4 | Afrika + Madaqaskar | **qara VIII? → qırmızı IV** | 1800–1837, 790–827 |
+| 5 | təqvim vərəqi (çərçivədə iri 25/28) | oxunmadı | 1760–1800, 622–663 |
+| 6 | iki hündür şaquli obyekt | oxunmadı | 1778–1808, 658–693 |
+| 7 | qızılı yumru obyekt (burger? səbət?) | oxunmadı | 1673–1717, 700–735 |
+| 8 | iri tünd oval + kiçik uzunsov fiqur | oxunmadı | 1670–1715, 728–765 |
+| 9 | iki uclu tünd siluet (pişik/yarasa?) | oxunmadı | 1645–1678, 830–863 |
+
+**Yuxarıdakı rəflərdəki vərəqlər parça DEYİL** — onlar çərçivəli düzbucaqlı
+çap şəkilləridir (bir cütdə "88"-ə oxşayan iki halqa var), yapboz dişi yoxdur.
+Yoxlanıldı və siyahıdan çıxarıldı.
+
+**Qalan ~5 parça bu səhnədə görünmür.** Yalnız 12:45 bucağında görünən qutu
+üzlərində ola bilər. → 1080p tələbi bir daha təsdiqlənir.
