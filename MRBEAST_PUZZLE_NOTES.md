@@ -3151,3 +3151,27 @@ kombinator məhdudiyyət verir (bir kartın dili yalnız qonşusunun oyuğuna ot
 Növbəti addım: hər kartın konturunu ayrıca çıxar (segmentasiya qonşu kartları
 birləşdirməməlidir — hazırda birləşdirir), kənarları təsnif et, sonra
 rəqəmlərlə birlikdə həll et.
+
+### 22:55Z — ★ SEQMENTASİYA HƏLL OLUNDU: **b\* (sarılıq) kanalı** kartı kartondan tam ayırır
+Əvvəlki iki cəhd uğursuz idi (parlaqlıq + xroma → kartla kartonu birləşdirirdi;
+tünd sərhəd xətti ilə ayırma → kifayət etmədi). Səbəbi ölçdüm:
+
+```
+kartın içi:   b* = +4.1   L = 150.8
+karton qutu:  b* = +31.6  L = 142.3
+```
+→ **Parlaqlıqda fərq yoxdur (8 vahid), sarılıqda fərq nəhəngdir (27 vahid).**
+Karton isti-sarı, kart neytral-ağdır. `b* < 15` həddi kartı **təmiz** ayırır.
+
+`outline3.py` yazıldı (Otsu ilə avtomatik hədd də var). Nəticə: kontur artıq
+kartın həqiqi kənarını izləyir. "İki obyekt" kartında aydın görünür:
+**sol tərəfdə kvadrat dil, aşağı-solda oyuq, yuxarı-solda pillə, sağ kənar dalğalı.**
+
+Qalan problem: bir-birinə toxunan kartlar hələ də bir bölgəyə birləşir
+(aralarındakı çəkilmiş tünd xətt nazikdir). Həlli: hər kartı öz dar kəsimində
+işlətmək.
+
+**Metodik dərs:** üç seqmentasiya cəhdindən ikisi uğursuz oldu, çünki
+**hansı kanalın ayırdığını ölçmədən** seçmişdim. Ölçmə (kart və kartondan
+nümunə götürüb kanalları müqayisə etmək) 30 saniyə çəkdi və məsələni bir dəfəyə
+həll etdi.
