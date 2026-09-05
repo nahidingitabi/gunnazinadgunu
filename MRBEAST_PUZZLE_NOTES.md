@@ -2127,3 +2127,58 @@ xüsusən "bird fence = rail fence" təsdiqi ilə birlikdə.
 5. THE ZENITH CITY  ·  DULUTH  ·  DULUTHMINNESOTA   (zəncir qırıldı, amma ucuzdur)
 6. MOSCOW  ·  MOSCOW RUSSIA
 ```
+
+## 05.09.2026 ~18:30Z — DÜZƏLİŞİN DÜZƏLİŞİ: qlif ÖLÇÜ İLƏ HƏLL OLUNMUR, çəkisi (6 2)-dədir
+
+Əvvəlki dövrədə "onlar haqlıdır, (6 6)-dır" dedim. **O düzəliş səhv idi.** Səbəb:
+
+### Kəsim xətası
+Blob analizi göstərir ki, həmin bölgədə **iki ayrı mürəkkəb ləkəsi** var:
+```
+"line2 above"    (4049, 106)  162 x 61    ← ensiz, uzun, üfüqi
+"line2 DISPUTED" (4031, 218)  169 x 124   ← mübahisəli qlif
+```
+Mənim kəsimim **hər ikisini bir çərçivəyə salmışdı** — üst-üstə düşən iki ştrix
+"onurğa + qapalı kasa" təəssüratı yaradırdı. Hər qlifi **öz sərhədi ilə** ayrıca kəsəndə
+bu təəssürat itir (`glyphs_each.png`).
+
+### Nəzarətlə müqayisə (hamısı eyni qeyddə, eyni əl yazısı)
+```
+line2 SIX   227 x 150   aydın qapalı ilgək, içi işıqlı
+line3 SIX   258 x 173   aydın qapalı ilgək, içi işıqlı
+DISPUTED    169 x 124   ilgək YOXDUR; iki paralel ştrix + alt üfüqi ştrix
+```
+Mübahisəli qlif məlum iki "6"-dan **həm nəzərəçarpacaq dərəcədə kiçikdir, həm də onların
+aydın ilgəyi ona yoxdur**. "line2 above" isə "2"-nin üst əyrisi ola bilər.
+
+### ★ Hər iki avtomatik testim NƏZARƏTDƏ BELƏ İŞLƏMİR
+- **Deşik sayımı:** məlum "6"-larda da 0 deşik verir (mürəkkəb çox qalın/bulanıqdır).
+- **Hu moment məsafəsi:** iki MƏLUM "6" arasındakı məsafə **15.18**, halbuki bir
+  mötərizə "(" ilə "6" arasındakı məsafə cəmi **9.07**. Yəni ölçü tam səs-küydədir.
+
+→ **Bu qlif 1080p-də ölçü ilə həll oluna bilməz.** Yalnız gözlə mühakimə qalır.
+
+### Sübutların çəkisi
+| mənbə | oxunuş |
+|---|---|
+| mənim ilk oxunuşum | **2** |
+| mənim ikinci (səhv kəsimli) oxunuşum | 6 |
+| ayrıca kəsilmiş qlif, iki məlum "6" ilə müqayisədə | **ilgək yoxdur → 2** |
+| `@LLOM_1`, `@JabaDas-rq3sk`, `@陳瀅如-h7x` | **62** |
+| `@uditi_star`, `@arsgamingwarriors4070` | 68 |
+| digər sessiya | əvvəl 62 → 66 → **geri götürdü** |
+| **"66" oxuyan** | **heç kim** |
+
+→ **`(6 2)` bərpa olunur**, "8" ikinci ehtimal kimi qalır.
+**`THE ZENITH CITY → DULUTH MN → DULUTH` yenidən qüvvədədir.**
+
+### Dərs
+Bir düzəlişi qəbul etməzdən əvvəl **öz ölçmə üsulunu nəzarət nümunəsində sınamaq** lazımdır.
+Hər iki testim nəzarətdə uğursuz oldu — bunu əvvəlcədən yoxlasaydım, ilk düzəlişi
+etməzdim.
+
+## Colin-in yayımı yükləndi və transkripsiya olunur
+`v2864667604` "Just a normal Thursday" (2026-09-04, 3 s 10 dq) — 296 MB səs endirildi,
+16 kHz mono-ya çevrildi (`tw_audio.wav`, 364 MB), `faster_whisper base.en` ilə
+transkripsiya fonda işləyir (`tw_asr.py` → `tw_asr.json`).
+Video faylı diskdən silindi (yer qənaəti).
