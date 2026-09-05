@@ -1532,3 +1532,55 @@ CRT ("SalesForce MrBeast xp" boot ekranı) + klaviatura, monitorun altında
 **mavi-yaşıl şifr kartı** və **narıncı kart** yan-yana, klaviaturanın solunda
 **çəhrayı indeks vərəqi**, onun üstündə **ağ/krem vərəq** (başlıq sətri var),
 sağda **sarı stiker**. Beş kağız əşya iddiası **təsdiqlənir**.
+
+## 05.09.2026 ~14:50Z — MÜƏLLİFİN İDİOMU VİDEONUN ÖZ QRAFİKASINDA GÖSTƏRİLİR
+
+### ★ t = 44 s — köhnə tapmacanın çıxarma mexanizmi ekranda izah olunur
+`room/w_044.0.png` → `grid44.png`. Doqquz alt-tapmaca kartı bir şəbəkədə düzülüb və
+hər birinin altında **bir söz** yazılıb:
+
+```
+Every   Challenge   Leads    Towards   Location
+Name    Somewhere   Around   World
+```
+→ **"EVERY CHALLENGE LEADS TOWARDS A LOCATION NAME SOMEWHERE AROUND THE WORLD."**
+
+Kartlardan biri öz mexanizmini hərfən yazır:
+> *"The letters not 'X'd out spell HOMOPHONE OF WHIRLED, which is the answer World."*
+
+Yəni **hər alt-tapmaca bir söz verir, sözlər bir cümləyə yığılır.** Bu, müəllifin
+(Lone Shark Games / Colin) təsdiqlənmiş iş üsuludur.
+
+### ★★ BUNDAN ÇIXAN STRUKTUR ARQUMENTİ (hər iki namizədə təsir edir)
+Əgər Colin eyni üsulu təkrarlayıbsa, **~15 yapboz parçasının hər biri bir HƏRF verir**
+və domino zənciri sıranı müəyyən edir. 15 parça → **15 hərf, boşluqsuz**.
+
+| Namizəd | hərf | boşluq | cəmi |
+|---|---|---|---|
+| `PEARLOFTHENORTH` | 15 | 0 | 15 ✓ |
+| `DULUTHMINNESOTA` | 15 | 0 | 15 ✓ |
+| `THE ZENITH CITY` | 13 | 2 | 15 (yalnız boşluqlar yazılarsa) |
+
+→ Bu arqument **boşluqsuz 15 hərflik sətirlərin** xeyrinədir. Öz namizədimin
+boşluqlu formasını bir qədər zəiflədir, `DULUTHMINNESOTA` formasını gücləndirir.
+Dürüst olmaq üçün qeyd edilir.
+
+### Yoxlanmış və mənfi nəticələr
+- **`mrb.gg/p/puzzle`** (video təsvirindəki "detailed breakdown" linki) → sadəcə
+  84 səhifəlik cavab açarının səhifəsidir ("Million Dollar Puzzle Answers",
+  1 sentyabr 2026). Yeni məzmun yoxdur. Səhifənin altında "let's go make history."
+- **Video təsvirinin son sözü** = "com" → "LAST WORD" mənbəyi kimi yararsızdır.
+- **Steinbeck kitabları oxunuşu**: Colin-in bio-su "The Pearl" ilə bitir, ona görə
+  "LAST WORD THEN NINTH" Steinbeck romanlarına tətbiq edildi.
+  Nəşr sırası ilə 9-cu = "Cannery Row" (10 simvol). Əlifba sırası ilə 9-cu =
+  "The Pastures of Heaven". **Heç biri 15 simvol vermir** → bu qol bağlanır.
+
+### Yeni fərziyyə (yoxlanmayıb) — "beş kitab" fiziki əşya olmaya bilər
+Digər sessiya "Books w/ old names… / Alphabetize?" + "Boo! / Five of these."
+kartlarını həll edə bilmir və beş kitabı üç yerdə axtarıb tapmayıb.
+Alternativ oxunuş: **"old names" = Əhdi-Ətiq**; "beş kitab" = **Pentateuch**
+(Genesis, Exodus, Leviticus, Numbers, Deuteronomy). Bu halda kitablar heç yerdə
+fiziki olaraq olmamalıdır. Çəhrayı vərəqdəki "rəqəm + rum rəqəmi" cütləri də
+köhnə İncillərdə fəsil nömrələrinin rum rəqəmi ilə yazılması ilə uyğun gəlir.
+Sarı stikerin iddia edilən mətni ("Roman numbers for Roman words?") da bu xətlə
+uyğundur. **Yoxlamaq üçün çəhrayı vərəqin məzmunu lazımdır → 4K.**
