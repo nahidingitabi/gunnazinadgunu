@@ -3372,3 +3372,74 @@ həqiqətən dəyişdi. Model → ölçmə → düzəliş dövrəsi işləyir.
 13 😂 face with tears of joy mavi XIV  qırmızı X      ← YENİ
 14 qızılı obyekt + tünd quş  mavi VI?  qırmızı VII?   ← YENİ
 ```
+
+## 06.09.2026 ~01:30Z — ★ QURULUŞ AÇILDI: PARÇALARIN İKİ RƏQƏMİ VAR (qırmızı + mavi)
+
+**Yeni ən yaxşı kadr tapıldı: t=803.53** (klip `67592638`, plan 803.49–806.96).
+Bu plan kamera geri çəkilməsidir; 803.53 həm **ən böyük**, həm **ən kəskin**
+kadrdır (lapvar 117 — qonşu planlarda 15 və 51). 101 kadrlıq homoqrafiya keşi
+(`h803.npz`) qurdum və 14–18× maskalı median SR etdim (`sr803/`, `sr803b/`,
+`sr803c/`). 26×-də şəkil artıq yeni məlumat vermir — optik hədd 14–18× arasıdır.
+
+### Nə dəyişdi
+Əvvəl "kart" dediyim obyektlər **yapboz parçalarıdır** və hər birində:
+* **sol ucda üst-üstə iki rum rəqəmi** — biri **qırmızı**, biri **mavi**
+  (rəngi gözlə deyil, kağızın öz kağızına nisbətən Δa\* ilə ölçdüm: `inkq.py`),
+* sağda **bir və ya İKİ şəkil**.
+
+İKİ şəkilli parçalar tapıldı — bu, əvvəlki "hər kartda bir emoji" modelimi
+ləğv edir:
+* 🇺🇸 ABŞ bayrağı **+ qırmızı taxta anbar (barn)** — mavi IV, qırmızı VII
+* Afrika silueti **+ yaşıl kol/ot** — mavi VIII, qırmızı IV
+* uzun aşağı ox **+ 📊 sütun diaqramı** — qırmızı VIII, mavi IX
+* qızılı yumru obyekt **+ tünd quş** — rəqəmlər hələ oxunmayıb
+
+Parçaların forması da məlum oldu: **sol kənar mişar dişli, sağ kənar yumru
+çıxıntı** — yəni parçalar soldan-sağa **zəncir** kimi birləşir (2 ölçülü şəkil
+deyil).
+
+### 803.53-dən oxunan cədvəl (qırmızı | mavi) — hamısı SR-dən
+```
+şəkil(lər)                              qırmızı  mavi
+🇴🇲 Oman bayrağı                          VI      V     ölçüldü Δa +2.69 / +0.29
+Afrika + yaşıl kol                        IV      VIII  ölçüldü Δa +2.15 / +1.06
+🌨 qar buludu                             IX      V     ← mavi VI deyil, **V**
+🇺🇸 ABŞ bayrağı + anbar                   VII     IV
+təqvim (spiralli, qırmızı qlif)           II/III  IV    ölçüldü Δa +1.08 / +0.25
+iki hündür obyekt                         VI/VII  VI    ölçüldü Δa +2.06 / -0.90
+🎀 bant (tünd konturlu ilmə)              V       VII   ✓ 765 planı ilə təsdiq
+qırmızı-qəhvəyi düzbucaqlı                VI      VIII  ✓ 765 planı ilə təsdiq
+qnom/elf papaqlı adam + rolik ayaqqabı    II      XI    ✓ 765 planı ilə təsdiq
+? (şəkli sarı ilə örtülü)                 VII     I     ✓ 765 planı ilə təsdiq
+🪟 pəncərə (çərçivə + bölgü)              ?       ?     örtülü
+aşağı ox + 📊 sütun diaqramı              VIII    IX    ✓ 765 planı ilə təsdiq
+😂 sevinc göz yaşı üzü                    X       XIV
+qızılı obyekt + tünd quş                  ?       ?
+```
+Üç parça **müstəqil ikinci baxış bucağından** (12:45 planı, `sr765/`) eyni
+oxundu — yəni bu oxunuşlar artıq bir kadrın artefaktı deyil.
+
+### Sınanan və RƏDD EDİLƏN üç struktur modeli (hesabla, təxminlə deyil)
+1. **Domino zənciri (qırmızı(i) = mavi(i+1))** — 5 parçadan **qapalı 5-dövrə**
+   çıxdı: ABŞ→bant→qar→diaqram→Afrika→ABŞ (7→5→9→8→4→7). Cazibədar görünür,
+   amma qalan parçalarda mavi 4, 5, 8 və qırmızı 2, 6, 7 **təkrarlanır**, yəni
+   ardıcıl seçim birmənalı deyil.
+2. **Rəqəmlər 1..14-ün yerdəyişməsidir** — RƏDD. 12 qırmızı oxunuşda cəmi 8
+   fərqli dəyər var; qalan 2 parça 6 çatışmayan dəyəri verə bilməz. Yəni ya
+   ən azı 4 oxunuşum səhvdir (SR-də çox aydın olduqları üçün buna inanmıram),
+   ya da model yanlışdır.
+3. **Adi domino (bərabər uclar bitişir)** — RƏDD. Tək sayda görünən dəyərlər
+   8 ədəddir; 2 naməlum parça (4 uc) bunu ən yaxşı halda 4-ə salır, zəncir
+   üçün isə ≤2 lazımdır.
+
+Həmçinin **"qırmızı = hərf indeksi, mavi = mövqe"** modeli də (və tərsi də)
+indiki oxunuşlarla ziddiyyətə düşür: mavi V həm Oman, həm qar buludundadır.
+
+### Bundan çıxan real nəticə
+Rəqəmlər **1..14-ün yerdəyişməsi deyil**. Deməli ya (a) otaqda 14-dən çox
+parça var və mən hamısını tapmamışam, ya da (b) rəqəmlər sıra/mövqe deyil,
+başqa bir şey bildirir. Növbəti addım: **otaqdakı bütün parçaları saymaq** —
+əgər say 14-dən böyükdürsə, təkrarlanan dəyərlər öz-özünə izah olunur.
+
+Qeyd: modeli məlumatdan qabaq qurmamaq qaydası yenə işlədi — üç model də
+ölçmə ilə rədd olundu, uydurma ilə deyil.
