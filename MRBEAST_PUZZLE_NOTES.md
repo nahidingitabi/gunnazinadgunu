@@ -878,3 +878,30 @@ eynidir) → çox-kadrlı super-rezolusiya MÜMKÜN DEYİL. 1080p mütləq tavan
   → **Toad Suck, Arkansas**. Yəni masa qeydinin `(5 2 7) → (4 4)` yazısı
   "**mənbə ifadəsi → yer adı**" deməkdir. Deməli `(3 6 4) → (6 ?) → (6)` də eyni məntiqlə
   "mənbə ifadəsi (13 hərf) → yer adı → şəhər" oxunmalıdır.
+
+## 05.09.2026 ~04:45Z — müstəqil təsdiq: qeyd "364 → 62 → 6"
+
+### ★ İkinci müstəqil oxucu qeydi eyni oxuyub
+Yeni çəkilən şərhlərdə (`mb4/`, 1500 ən yeni; əvvəlkindən 437 yeni şərh)
+**@陳瀅如-h7x: "364-62-6?"** yazıb. Yəni ikinci qrup **(6 2)**-dir, (6 8) deyil
+(əvvəlki şərhçi @uditi_star "(68)" oxumuşdu — səhv imiş).
+→ Masadakı qeyd: **`(3 6 4) → (6 2) ↓ (6)`**
+- (3 6 4) = 13 hərf + 2 boşluq = **15 simvol** = formadakı ulduzların sayı ✓
+- (6 2) = ola bilər "ŞƏHƏR ŞT" (6 hərfli şəhər + 2 hərfli ştat qısaltması),
+  məs. DEKALB IL (91 yerdən biri) → (6) = DEKALB.
+- PG7 məntiqi ilə: **mənbə ifadəsi → yer → şəhər**.
+Başqa bir şərhçi (@alejandraferrer5688): "For Colin puzzle I found 674 the number".
+
+### Müsabiqə saytı yoxlandı (mənfi)
+`puzzle-video-sweepstakes.mrbeast.app`: /robots.txt, /sitemap.xml, /hint(s), /clue(s),
+/help, /faq, /api/health — hamısı 404. Yalnız `/` və `/official-rules` var.
+Səhifə mətni: "You can guess multiple times, but there is **only 1 correct answer**.",
+düymə: "Submit — **press Enter ↵**" (CRT-dəki kəsilmiş "press…" yazısı budur).
+Yeganə şəkil `/img/brick-board.png` (1024×571) — qəsdən bulanıq fon, məlumat yoxdur
+(LSB, metadata yoxlandı).
+
+### Colin-in kanalında dəyişiklik (01:19Z → 04:37Z arası)
+Bir video **yenidən adlandırılıb**:
+`IU89_plbom0`: "Will This Be the Greatest Puzzle Game Ever? - Order of the Sinking Star (Demo)"
+→ **"Beware the Puzzling Snake-Goat: Order of the Sinking Star (Demo)"**
+Yeni video yoxdur (21 video, eyni). Çox güman adi başlıq testidir, amma qeyd edilir.
