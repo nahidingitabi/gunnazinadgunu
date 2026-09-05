@@ -3742,3 +3742,34 @@ Açıq deyil və uydurmuram. Lehinə: yanlarında **"$10,000!"** yazılı vərə
 yaxınlıqdakı qara qutunun üstündəki yapışqan kağızlar (`OB1 XIV – Seahawks?`,
 `251634`, `PLATES`, `9X=TH`) açıq-aydın köhnə Super Bowl ovundandır.
 Hər iki ehtimalı açıq saxlayıram.
+
+## 06.09.2026 ~05:20Z — ÜÇÜNCÜ VƏRƏQ: UÇAN QUŞLAR + BİR ARİFMETİK MÜŞAHİDƏ
+
+### Üçüncü vərəq (`BIRDS_ccw.png`)
+Mavi vərəqin altında/sağında olan vərəqdə **yazı yoxdur** — ağ kağız üzərinə
+səpələnmiş **6 uçan quş silueti** çəkilib. Rəqəm, hərf, ox yoxdur.
+Sayı dəqiqləşdirmək lazımdır (kadrın aşağısı kəsilir), amma ən azı 6 görünür.
+
+### ★ Arifmetik müşahidə (ölçü, hərf uydurması deyil)
+İki vərəq iki ayrı zəncirdir və hər ikisi bir sözlə bitir:
+```
+mavi  zəncir → (6)   — 6 hərflik bir söz
+qırmızı zəncir → (9) — 9 hərflik bir söz
+```
+**6 + 9 = 15**, və formadakı cavab **tam 15 simvoldur** (bu gün sabitləşən
+kadrdan təkrar ölçdüm). Yəni iki zəncirin sonu boşluqsuz birləşdirilsə,
+uzunluq dəqiq oturur.
+
+Bunu **dəlil saymıram**, amma əvvəlki "TIMEOUT" tipli uyğunluqlardan **fərqli
+cinsdəndir**: burada heç bir söz və ya ad seçməmişəm — yalnız iki rəqəmi
+toplamışam və nəticə müstəqil ölçülmüş 15 ilə üst-üstə düşür. Geriyə
+uyğunlaşdırma sərbəstliyi yoxdur.
+
+Zəif tərəfi: təsadüfi iki kiçik rəqəmin cəminin məhz 15 olması ehtimalı
+təxminən 1/10-dur — yəni tək başına güclü deyil.
+
+### Bu, iki modeli bir-birinə bağlayır
+* Yapboz parçaları modeli: 15 parça → 15 hərf, boşluqsuz.
+* Masa vərəqləri: (6) + (9) = 15 hərf, boşluqsuz.
+İkisi də **eyni forma** proqnozlaşdırır: boşluqsuz 15 hərf. Bu, ikisinin
+eyni tapmacanın iki üzü olması ehtimalını artırır — amma sübut etmir.
