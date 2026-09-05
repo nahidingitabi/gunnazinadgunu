@@ -3650,3 +3650,46 @@ hərf:   ?  ?  ?  I  ?  ?  O  U  T  ?  O  ?  ?  E  ?
 ```
 7-8-9 = **O U T** maraqlıdır, amma üç ayrı adın düz gəlməsindən asılıdır və
 tək başına dəlil deyil.
+
+## 06.09.2026 ~04:05Z — AVTOMATİK EMOJİ TANIMA: NƏZARƏTDƏ DÜŞDÜ
+
+Sistemdə **Noto Color Emoji** şrifti var. Namizəd emojiləri rəndərləyib
+parçadakı şəkillə müqayisə edən ölçü qurdum (`emomatch2.py`): kağızın öz
+ağına görə ağ balansı, sonra **xroma normalizasiyası** (çap kağızda şrift
+qlifindən qat-qat solğundur), sonra rəng histoqramı ∩ + forma maskası korrelyasiyası.
+
+**Nəzarət: 3-dən 1-i.**
+* 🇴🇲 Oman — **1-ci sırada, aydın fərqlə** (0.95 vs növbəti 0.73) ✓
+* 😂 — düşdü (üz solğun və aşağı kontrastdır)
+* 🇺🇸 — düşdü
+
+Bayraqlar kimi iri rəng blokları olan şəkillərdə işləyir, üz və solğun çaplarda
+işləmir. **Nəzarətdə düşən ölçünü etibarlı saymıram** — bu, bu ovda 7-ci
+avtomatik təsnifat cəhdidir və yenə eyni səbəbdən düşdü: 1080p-də məlumat yoxdur.
+Alət `tools/pieces/`-də qalır, amma README-də "yalnız bayraqlar üçün" yazılıb.
+
+## 06.09.2026 ~04:10Z — SPEKULYATİV, AMMA QEYD ETMƏYƏ DƏYƏR: "TIMEOUT"
+
+Model (mavi = mövqe, qırmızı = ad içindəki hərf) + emoji CLDR adları ilə:
+```
+mövqe 4 = FLAGUNITEDSTATES[7] = I     (ABŞ bayrağı)
+        = SPIRALCALENDAR[3]   = I     (təqvim — şəkildə spiral halqalar var) ✓ uyğun
+mövqe 7 = RIBBON[5]           = O
+mövqe 8 = REDSQUARE[6]        = U
+mövqe 9 = BARCHART[8]         = T
+```
+→ **7-8-9 = O U T**, və mövqe 4 = I iki müstəqil parçadan.
+
+Əgər mövqe 5 = M (FLAGOMAN[6]) və mövqe 6 = E olsaydı, 3–9 **T I M E O U T**
+olardı. Bu, cazibədardır.
+
+**AMMA — bu, geriyə uyğunlaşdırmadır və mən onu dəlil saymıram.**
+Səbəb: mövqe 5 və 8 cütlərinin uyğun gəlməsi üçün adları **nəticəni gördükdən
+sonra** seçməli oldum (`SNOWSTORM`[9]=M, `SHRUB`[4]=U). Öncədən verilmiş
+CLDR adları ilə üç cütdən yalnız **biri** (mövqe 4) uyğun gəlir — yəni
+təsadüfün gözlədiyi qədər. Ad seçimi sərbəst qaldıqca istənilən hərfi
+"çıxarmaq" olar; bu, ovda dörd dəfə model retraksiyasına səbəb olmuş
+tələnin eynisidir.
+
+Qeyd edirəm ki, **daha yaxşı məlumat gələndə yoxlanılsın**, indi yox:
+əgər 4K-dan sonra adlar müstəqil təsdiqlənsə və "TIMEOUT" qalsa, o zaman dəlildir.
