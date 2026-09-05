@@ -2837,3 +2837,38 @@ Bu, "6 düyün" fərziyyəmi zəiflədir — düyün sayı daha çoxdur.
 ### Bütün kartlar bir plandadır
 12:45 bucağında kartlar beş klasterdə görünür: T1 (6 kart), T2 (2), T3 (2),
 T4 (2), T6 (2) → **14 kart yeri**. İcmanın "13–14" sayımı ilə uyğun.
+
+### 20:50Z — T1 klasteri (6 kart) rəngli etiketlə oxundu
+`srn3/T1.png` üzərində avtomatik rəqəm axtarışı + hər qrup üçün Δa* ölçüsü
+(`T1_over.png` — qırmızı/mavi çərçivələr və ölçülən dəyərlər şəkil üzərində).
+
+**Oxunanlar (mavi | qırmızı):**
+| şəkil | mavi | qırmızı | əminlik |
+|---|---|---|---|
+| Oman bayrağı | **V** | **VI** | ★★ iki ayrı mənbədə ölçülüb |
+| Afrika + Madaqaskar | **VIII** | **IV** | ★★ |
+| təqvim (iri qırmızı 25) | **IV** | **III** | ★ Δa* −0.32 / +2.54 |
+| bant/lent (bow) | **VII** | **V** | ★ Δa* −0.9/−1.6 / +7.7 |
+| qırmızı düzbucaqlı | **VIII** | **VII** | ★ Δa* −0.5 / +7.7 |
+| sütun qrafiki | ? | **VIII** | Δa* +6.43, "V I I I" aydın görünür |
+| qırmızı kapüşonlu adam | ? | ? (XII?) | qeyri-müəyyən |
+| sarı kart | ? | **VIII**? | qeyri-müəyyən |
+| çərçivəli şəbəkə | ? | ? | qeyri-müəyyən |
+
+### ★ QIRMIZI DƏYƏRLƏR ARDICIL ALTI ƏDƏDDİR: III, IV, V, VI, VII, VIII
+İndiyə qədər oxunan qırmızı rəqəmlər: təqvim **III**, Afrika **IV**, bant **V**,
+Oman **VI**, düzbucaqlı **VII**, sütun qrafiki **VIII**.
+**Altı fərqli, ardıcıl dəyər — heç bir təkrar yoxdur.**
+→ İcmanın *"6 distinct numbers in color coordination"* ifadəsi çox güman məhz
+bunu bildirir: **qırmızı dəst 6 dəyərdən ibarətdir.**
+→ Əgər hər qırmızı dəyər yalnız bir dəfə görünürsə, qırmızı rəqəm **parçanın
+sırasıdır** (1-dən 6-ya qədər nömrələmə deyil, III–VIII), mavi isə başqa
+funksiya daşıyır. Bu, Euler dövrü fərziyyəmə alternativdir və **daha sadədir** —
+Colin-in "kiçik və klassik" təsvirinə daha yaxşı uyur.
+**Yoxlama:** qalan kartların qırmızıları oxunanda ya təkrar çıxacaq (Euler),
+ya çıxmayacaq (sıralama). Bu, iki fərziyyəni birbaşa ayırır.
+
+### Ştrix sayımı məhdudiyyəti
+Qonşu "I" ştrixləri bulanıqlıqda birləşir: qırmızı düzbucaqlının "VII"-si
+3 zirvə verdi (V=2 + II birləşib 1). → **Zirvə sayı yalnız aşağı hədd verir**,
+tək başına VI/VII/VIII-i ayırmır. Vizual oxunuşla birlikdə istifadə edilməlidir.
