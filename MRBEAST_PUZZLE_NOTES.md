@@ -2024,3 +2024,42 @@ amma Feastables kartında VI|VI var, PG12 = 12 deyil. **Hələ təsdiqlənmir.**
 *"PG13. Video playlist — playlist of 9 videos"* → videoda 30–31 s-də görünən
 **MILLION DOLLAR PLAYLIST**. Köhnə ovda EP1–EP9 məhz həmin 9 videoda gizlədilmişdi.
 Yəni "video başqa videolara aparır" strukturu **köhnə ova aiddir**, yenisinə yox.
+
+## 05.09.2026 ~17:55Z — ★ "BIRD FENCE" = RAIL FENCE (şifr kartının alt yazısı həll olundu)
+
+Mavi-yaşıl kartın alt yazısında **"bird fence"** ifadəsinin olduğu bildirilir, və Colin-in
+videosunun şərhlərində bir izləyici (`@Obsessoloco`) sadəcə **"OMG BIRD FENCE"** yazıb.
+İndiyə qədər bunun nə demək olduğu izah edilməmişdi.
+
+**RAIL bir quşdur** — Rallidae fəsiləsi (water rail, corncrake, coot, moorhen).
+```
+BIRD FENCE  =  RAIL FENCE  =  həmin kartdakı şifrin adı
+```
+
+→ **Alt yazı sadəcə kriptik tərifdir: "hansı şifri işlətməli olduğunu deyir".**
+Yəni o sətirlər əlavə ipucu deyil, şifrin adını verir.
+
+Bu, deşifrəni **müəllif tərəfindən** müstəqil dəstəkləyir:
+```
+LSWRTE / NNHTIN / HDOTA   →  rail fence (iki relsli, alt rels tərsinə)  →  LAST WORD THEN NINTH
+```
+**`PEARLOFTHENORTH` namizədi bununla gücləndi.**
+
+## Twitch — YouTube-dan fərqli olaraq BLOKLANMIR
+`yt-dlp` Twitch-də tam işləyir (metadata + media).
+Colin-in kanalında **17 VOD** var. Ən yenisi:
+
+| VOD | başlıq | tarix | müddət | baxış |
+|---|---|---|---|---|
+| `v2864667604` | **"Just a normal Thursday"** | **2026-09-04** | 3 s 10 dq | 241 |
+| `v2858399071` | Chroma Zero | | 2 s 53 dq | |
+| `v2852953659` | Paradox Puzzlehunt - Six Pack | | 2 s 03 dq | |
+
+**"Just a normal Thursday" tapmaca videosundan İKİ GÜN SONRA yayımlanıb.**
+(Colin öz videosunun təsvirində də "A completely normal video" ifadəsini işlədir —
+onun yumor üslubu.)
+
+`Audio_Only` formatı mövcuddur → səs yüklənir və `faster_whisper` ilə
+transkripsiya ediləcək, sonra tapmaca ilə bağlı hər söz axtarılacaq.
+**Bu, video-xarici axtarışın ən perspektivli qoludur:** müəllif canlı yayımda
+tapmaca haqqında danışmış ola bilər.
