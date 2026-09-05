@@ -2513,3 +2513,57 @@ Yəni **halqanı rəqəmlərdən asılı olmadan, sırf FORMA uyğunluğu ilə q
 mümkündür.** Rəqəmlər 1080p geniş planda sərhəddədir, kontur isə deyil.
 → Növbəti addım: bütün parçaların konturunu çıxarıb dil/oyuq profillərini
 uyğunlaşdırmaq.
+
+## 05.09.2026 ~19:15Z — ★★★ MEXANİZM TAPILDI: İSTİQAMƏTLİ EULER DÖVRÜ
+
+### 1) Əvvəlcə bir səhvimi düzəldirəm: kartlar kadrın kənarından KƏSİLMİR
+12:45 planını (360p, t=766) homoqrafiya ilə **t=20.30 istinad koordinatlarına**
+çevirib genişləndirilmiş kətana çıxardım (`beyond_edge.png`, ref x 1600–2150).
+x=1919 (bütün 1080p planlarının sağ kənarı) qırmızı xətlə işarələndi.
+→ **IX/qar buludu kartı ref x≈1842–1897, ABŞ kartı ref x≈1836–1902** — hər ikisi
+tam **1919-dan içəridədir.** Yəni heç nə kəsilmir, rəqəmlər bütövdür.
+(Əlavə: `a16ce518` 304–340 s planları ən çoxu ref x≈1876-ya çatır — daha az
+göstərir, ona görə oradan qazanc yoxdur. `fba19fc0` 889 s və `0f1d65d9` 566 s
+planlarında bu divar **ümumiyyətlə yoxdur** — 5–7 inlier.)
+
+### 2) Rəng ölçüsü sərtləşdirildi (9 qutu sürüşməsi ilə, sd < 0.6)
+Δa* = mürəkkəbin a*-ı **minus həmin qlifin ətrafındakı halqa-kağızın** a*-ı:
+
+```
+OMAN yuxarı  VI  +3.38     OMAN aşağı   V   -1.71
+QAR  yuxarı  V   +2.58     QAR  aşağı   IX  +6.45
+ABŞ  yuxarı  IV  +0.09     ABŞ  aşağı   VII +2.91
+AFR  sol     ?   -0.79     AFR  sağ     IV  +1.77
+```
+Mütləq qiymət kartdan-karta sürüşür (işıq fərqi), ona görə qayda **cüt daxilində
+nisbi**: hər kartda daha qırmızı olan = qırmızı. Nəticə dəyişmir:
+
+```
+qara IV  → qırmızı VII   (ABŞ bayrağı + tövlə)
+qara V   → qırmızı IX    (qar buludu)
+qara VIII?→ qırmızı IV   (Afrika + Madaqaskar)
+qara V   → qırmızı VI    (Oman bayrağı)
+```
+
+### 3) ★★★ "İki parçada da qara V" ziddiyyət DEYİL — mexanizmin özüdür
+Əvvəl bunu ziddiyyət sayırdım. Səhv idi. Faktları yan-yana qoyanda:
+* icma: **6 fərqli rəqəm**
+* icma: **13–14 parça**
+* icma ovçusu: **"closed-loop solution! Just figuring out the order"**
+* Colin: **"the mechanics are old hat, they've been used before"**
+
+→ Hər parça **istiqamətli tildir: qara = başlanğıc düyün, qırmızı = son düyün.**
+6 düyün (IV…IX), 14 til. Bütün parçaları bir dəfə işlədən qapalı gəzinti =
+**İSTİQAMƏTLİ EULER DÖVRÜ**. 14 tili 6 düyünə paylayanda rəqəmlərin təkrarlanması
+**qaçılmazdır** — yəni "iki qara V" gözlənilən haldır, səhv oxunuş deyil.
+
+Bilinən tillər: `8→4`, `4→7`, `5→9`, `5→6`.
+Euler dövrünün mövcud olması üçün hər düyündə **giriş dərəcəsi = çıxış dərəcəsi**
+olmalıdır — bu, qalan parçaları oxuyanda **güclü yoxlama meyarı** verəcək:
+səhv oxunmuş rəqəm dərəcə balansını pozacaq.
+
+Bu, həm də "old hat" tərifinə tam uyğundur (Euler dövrü / domino zənciri klassik
+tapmaca mexanizmidir) və Colin-in "kiçikdir" sözü ilə də uyuşur.
+
+**Nəticə: qalan ~10 parçanın rəqəmlərini oxumaq indi daha da vacibdir — çünki
+dərəcə balansı hər oxunuşu yoxlaya biləcək. 12:35–14:00 1080p hələ də açardır.**
