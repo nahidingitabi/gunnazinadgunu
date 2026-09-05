@@ -945,3 +945,35 @@ Yeni video yoxdur (21 video, eyni). Çox güman adi başlıq testidir, amma qeyd
 ## Hələ izah olunmamış
 Telefon diskindəki morze işarələri — çox güman **təsdiq** (məs. DULUTH və ya ZENITH-i
 morzelə yazır) və ya əlavə addım. 4K şəkil gələndə yoxlanacaq.
+
+## 05.09.2026 ~06:50Z — ZENITH hipotezinin möhkəmləndirilməsi
+
+### Ulduzların sayı yenidən yoxlandı = 15 (tam və kəsilməmiş)
+`mon/n_0088` və `n_0090` kadrlarında yazı bandı 400–1700 px aralığında tam skan edildi:
+**15 ulduz**, bərabər aralıqlı (44–46 px), x = 594…1267. Sağda kəsilmə yoxdur (ekranın
+kəsildiyi yer x≈1440-dır), solda başlıqla eyni marjdan başlayır. Yazılma animasiyası
+ulduzları bir-bir əlavə edir və **15-də dayanır** (n_0086-da hələ 12 idi).
+→ **Cavab dəqiq 15 simvoldur (boşluqlar daxil).** `THE ZENITH CITY` = 15 ✓
+
+### Rəqib namizədlər (dürüstlük üçün)
+"The ______ City" formasında 6 hərfli orta söz + 6 hərfli şəhər + 2 hərfli ştat:
+| Ləqəb | Şəhər | Rəqəmlər | Videoda işarə? |
+|---|---|---|---|
+| **The ZENITH City** | **Duluth, MN** | 3-6-4 / 6-2 / 6 ✓ | **BƏLİ — PAUSE yazan televizorun markası** |
+| The AZALEA City | Mobile, AL | 3-6-4 / 6-2 / 6 ✓ | yox |
+| The FOREST City | London, ON | 3-6-4 / 6-2 / 6 ✓ | yox |
+Rəqəmlə üçü də uyğundur, amma yalnız ZENITH videoda fiziki olaraq göstərilir — üstəlik
+məhz "PAUSE" yazısını göstərən əşyanın markasıdır. 17:00 kadrında **yeganə görünən
+marka** Zenith-dir (telefonun, qutunun, kağızın markası görünmür).
+
+### Əlavə yoxlamalar
+- Otaqda/videoda Duluth-la bağlı başqa iz (Bob Dylan, Aerial Lift Bridge, Lake Superior,
+  Iron Range, "unsalted") **yoxdur** — gözlənilən nəticə, çünki ipucu yalnız marka ilə verilir.
+- Telefon diskinin bucaq üzrə "qaralıq profili" ölçüldü (ellips uyğunlaşdırma + 720 bucaq
+  nöqtəsi): 10 bərabər paylanmış qrup görünmür (dəstək/dəstəyin kölgəsi diski qismən örtür).
+  Morze işarələrinin sayını 1080p-dən çıxarmaq mümkün deyil.
+
+### Vəziyyət
+Hipotez güclüdür, amma **təsdiqlənməyib**. Telefon diskindəki morze hələ oxunmayıb —
+o, çox güman cavabı təsdiqləyən əlavə addımdır. İstifadəçi formada sınaya bilər
+(forma "bir neçə dəfə təxmin edə bilərsən, amma yalnız 1 doğru cavab var" deyir).
