@@ -1968,3 +1968,59 @@ Təsvir **dəyişməyib** (mənim nüsxəmlə eynidir). Hazırkı statistika: 30
 ### Nəticə
 Bu iz **bağlanır**: $10k ipucuları başqa videolarda deyil. Videonun içində göstərilən
 bütün digər videolar köhnə ovun sənədləşdirməsidir.
+
+## 05.09.2026 ~17:40Z — MƏNİM İPUCLARIM HANSI VİDEOYA APARIR? (istifadəçinin sualı)
+
+### 1) ✗ Namizədlərim heç bir MrBeast videosuna aparmır
+Beş kanaldan **1305 video başlığı** təzə çəkildi (MrBeast 802, MrBeast 2 42,
+Gaming 179, Beast Reacts 229, Philanthropy 53) və mənim bütün ipucu sözlərim axtarıldı:
+
+```
+pearl · zenith · duluth · minnesota · mosul · iraq · genoa · mayotte
+oman · madagascar · ninth · alphabet · roman     →  SIFIR uyğunluq
+```
+Yeganə yaxın nəticələr: *"I Survived 50 Hours In Antarctica"* (qar buludu üçün?) və
+*"World's Largest Dominoes Vs Store"* (təsadüf).
+
+**Şablon testləri də mənfi:**
+- (3,6,4) söz-uzunluq şablonuna uyan başlıq: **0 / 1305**
+- Düz 15 simvollu başlıq: 6 ədəd, hamısı əlaqəsiz köhnə videolar
+  (`MrBeast6000Subs`, `COD IS NOT DEAD`, `Battle Pirates!`, `Channel Update.`,
+  `Cycling On Ice!`, `We Built A Town`)
+
+→ **Bu iz bağlanır:** nə Duluth, nə Pearl zənciri hər hansı videoya aparmır.
+
+### 2) ★ AMMA PARÇALARIN ÖZLƏRİ BİR DƏSTƏ İŞARƏ EDİR — PG DƏSTİ 13-DÜR
+İcma **13 yapboz parçası** sayır. Köhnə ovun **PG dəsti də tam 13 tapmacadır**:
+
+| PG | əşya | uyğun gələn parça şəkli |
+|---|---|---|
+| PG1 | Desktop computer | ? |
+| **PG2** | **Nameplate & wall calendar** | **`DECEMBER 25` təqvimi** ✓ |
+| **PG3** | **Rubik's cube (tam qırmızı)** | **düz qırmızı-narıncı kvadrat** ✓ |
+| PG4 | Street markings (semaphore) | ? |
+| PG5 | Withdrawal slip (phone puzzle) | ? |
+| **PG6** | **Drinky bird & cup** | **tünd quş** ✓ |
+| PG7 | Tank license plate | ? |
+| PG8 | Bank poster (Caesar shift) | ? |
+| PG9 | CEO magazine (rebus) | eynək? |
+| **PG11** | **Penny jar** | **qızılı oval** ✓ (sent!) |
+| **PG12** | **Feastables sweatshirt** | **Feastables batonu** ✓ |
+| PG13 | **Video playlist — 9 videodan ibarət pleylist** | aşağı-ox + sütun qrafiki? |
+
+**Beş şəkil təmiz oturur.** Bu, digər sessiyanın qarışıq SB/PG/MP xəritəsindən daha
+yaxşı struktur uyğunluğudur — çünki **say tam tutur: 13 parça = 13 PG tapmacası**.
+
+**Amma bayraqlar oturmur:** Oman bayrağı, ABŞ bayrağı, Afrika+Madaqaskar və qar buludu
+PG əşyaları deyil — onlar məkan kimi görünür. Yəni ya dəst qarışıqdır, ya şəkil
+identifikasiyalarının biri səhvdir.
+
+**Test edilə bilən proqnoz:** əgər parçalar PG1–PG13-dürsə, onlar **artıq nömrələnib**
+və domino zəncirini həll etməyə ehtiyac yoxdur — sıra PG indeksidir. Rum rəqəmləri isə
+çıxarma indeksləri olardı. Qismən uyğunluq var (təqvim kartında **II** var, PG2 = 2),
+amma Feastables kartında VI|VI var, PG12 = 12 deyil. **Hələ təsdiqlənmir.**
+
+### 3) Qeyd: PG13 köhnə ovun öz "video → videolar" addımıdır
+*"PG13. Video playlist — playlist of 9 videos"* → videoda 30–31 s-də görünən
+**MILLION DOLLAR PLAYLIST**. Köhnə ovda EP1–EP9 məhz həmin 9 videoda gizlədilmişdi.
+Yəni "video başqa videolara aparır" strukturu **köhnə ova aiddir**, yenisinə yox.
