@@ -686,3 +686,31 @@ Videonun YouTube-da **2160p** formatı var (format 401/313). Telefon diski 1080p
 **Xahiş: 17:00 anından bir ədəd 2160p şəkil (screenshot) və ya 16:57–17:02 arası
 qısa 2160p klip lazımdır.**
 
+
+### 7) Videonun öz sözləri — tapmacanın rəsmi çərçivəsi (altyazıdan)
+- **05:33** "…at the end of this video, I'll tell you how you can solve the puzzle in this
+  video and win $10,000. But that's at the end."
+- **17:11** "And this puzzle proves that **nothing is ever what it seems, including this video**."
+- **17:20** "there is a puzzle hidden within this video **created by Colin himself**, and the
+  first person to answer correctly wins $10,000. So if you think you've solved it, scan this
+  QR code and enter your final answer."
+→ Yəni "sonda izah edəcəyəm" = sadəcə QR + forma. Başqa göstəriş yoxdur.
+
+### 8) 17:01–17:24 TV-dəki montaj — TAM YOXLANDI (mənfi)
+840 kadr 30 fps-də çıxarıldı, 198 fərqli "shot"a bölündü, hamısı OCR edildi (`ocr_tv.json`).
+Montaj yalnız videonun öz təkrarıdır (BEAST CITY, BEAST VAULT tableti
+`R62L39R05L7360662309` / `3121200300` → ACCESS GRANTED, Fallon hərf plitələri, Colin).
+**Yeni məlumat yoxdur.**
+
+### 9) Colin-in şərh cavabları (colin3/) — nə deyib, nə deməyib
+- "Riddle #0 (Hat Trick)" və "Riddle #1" → **"This is not part of the 10k puzzle"**,
+  "not relevant to MrBeast's challenges".
+- İpucu vermir. Onun ipucu üslubu: **"Try saying it out loud"** (homofon).
+- @Jattubee: "…i thought i had it but i realized i misread a clue" → ipuçları oxunaqlıdır.
+- Hələ heç kim həll etməyib (02–05.09.2026 şərhlərinə görə).
+
+### 10) 4K yükləmə cəhdi — MÜMKÜN DEYİL (infrastruktur)
+`yt-dlp -f 401` (2160p) URL-i alınır, amma googlevideo **HTTP 403** qaytarır: imzalanmış
+URL sorğu edən IP-yə bağlıdır, media sorğusu isə agent-proxy-nin başqa IP-sindən çıxır
+(`ip=fda3:… vs mip=160.79.106.139`). ffmpeg ilə seqment yükləmə də alınmır (SIGSEGV).
+→ **4K kadr yalnız istifadəçi tərəfindən yüklənə bilər.**
