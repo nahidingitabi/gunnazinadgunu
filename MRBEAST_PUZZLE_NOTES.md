@@ -820,3 +820,42 @@ Otaqda masanın yanında "**Boo!**" adlı dəhşət kitabı da var. → KÖHNƏ 
   "near Greenville, North Carolina" ✓. Amma təsadüfi ünvan sınamaq mənasızdır
   (axtarış sahəsi milyardlarladır) — ipuçları lazımdır.
 - what3words söz siyahısını əldə etmək alınmadı (GitHub axtarışı bu sessiyada bağlıdır).
+
+## 05.09.2026 ~03:00Z — ★ DÜZƏLİŞ: cavab what3words DEYİL
+
+### Sınaq metodu
+what3words saytı proxy üzərindən işləyir və **etibarsız ünvan** üçün həmişə eyni default
+cavabı qaytarır ("...near New York City, New York"), etibarlı ünvan üçün isə real yer adını.
+Yəni sayt **oracle** kimi istifadə oluna bilər (`w3w.py` yazıldı: morze dekoder + telefon
+kodu + w3w yoxlayıcı).
+
+### ★★★ NƏTİCƏ: what3words-də 3 HƏRFLİ SÖZ YOXDUR
+Nəzarət ünvanı `driven.hint.improving` (etibarlı) götürüldü və birinci söz dəyişdirildi:
+- **24 ədəd 3-hərfli söz** sınandı (cat, dog, key, sun, ice, oak, fox, ash, map, car, box,
+  cup, top, run, hub, jam, bee, owl, elm, fig, oat, pea, rib, tin) → **hamısı ETİBARSIZ (24/24)**
+- **8 ədəd 4-hərfli söz** sınandı → **6-sı ETİBARLI** (moss, yarn, clip, vine, harp, kiln;
+  yalnız "word" və "gate" siyahıda yoxdur)
+→ what3words-in ingilis lüğətində minimum söz uzunluğu **4 hərfdir**.
+
+### Buna görə:
+**`(3 6 4)` bir what3words ünvanı OLA BİLMƏZ.** Əvvəlki hipotez ləğv edilir.
+Amma 15 simvol faktı qalır. Yeni iki variant:
+1. Cavab **3 sözlük ingilis ifadəsidir**: (3 6 4) = 13 hərf + 2 boşluq = **15 simvol** ✓
+   (məs. "THE SECRET CODE", "THE HIDDEN CODE", "THE PUZZLE ROOM" formasında)
+2. Və ya cavab qeydin ikinci sətridir: **(6 8)** = 14 hərf + 1 boşluq = **15 simvol** ✓
+   yəni "ŞƏHƏR ÖLKƏ" formasında yer adı (məs. DEKALB ILLINOIS, LAHORE PAKISTAN — hər ikisi
+   köhnə tapmacanın 91 yerindəndir və hər ikisi düz 15 simvoldur).
+Hər iki variant 15 ulduzla uyğun gəlir; qeydin oxu istiqaməti (yuxarıdan aşağı) 1-ci variantı
+"tapılacaq ipucu", 2-ciini isə "nəticə" kimi göstərir — köhnə masa qeydi ilə eyni məntiq:
+`STUCK IN TRAFFIC (5 2 7) → TOAD SUCK (4 4)`.
+
+### Əlavə təsdiq: ekrandakı bütün rebus kartları rəsmidir
+14:19–14:24 arasındakı "Trips by Car" rebusları tam oxundu və PDF ilə üst-üstə düşür:
+👁+L+& of ☠ = "Island of Death" → Mayotte (MP14) · qlobus 1|2 = "City on Two Continents"
+→ Istanbul (MP10) · qapı+tərəzi+ölüm dərəsi = "Gateway to Death Valley" → Beatty (MP1) ·
+zər+təqvim… = "Diamond City of India" → Surat (MP13) · H+ॐ+noxud = "Home of Peace"
+→ Mubi (MP8). **Uydurma rebus yoxdur.**
+
+### Texniki
+17:00 kadrlarında kamera TAM sabitdir (faza-korrelyasiya sürüşməsi = 0.0 px, kadrlar
+eynidir) → çox-kadrlı super-rezolusiya MÜMKÜN DEYİL. 1080p mütləq tavandır.
