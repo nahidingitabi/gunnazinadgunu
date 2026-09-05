@@ -2460,3 +2460,37 @@ danışmasına reaksiyadır — ipucu deyil. → **Bu iz bağlanır.**
 82CX6WULNA0 videosunun 2400 şərhi (top + newest) yükləndi və axtarıldı:
 tapmaca müzakirəsi orada **yoxdur**, hamısı ümumi fan şərhləridir.
 Ovçular Colin-in kanalındadır.
+
+## 05.09.2026 ~19:00Z — ★ NAMİZƏDLƏR BİR YERƏ YIĞILDI + ŞABLONUN TAM SAYIMI
+
+Yeni fayl: **`CANDIDATES.md`** — 15 sətirlik göndərmə siyahısı, hər biri üçün səbəb
+və nəyə görə o sırada olduğu yazılıb.
+
+### ★★ YENİ VƏ ÖNƏMLİ: (3 6 4) şablonunu ödəyən variantların TAM SAYIMI
+2867 şəhər ləqəbindən ibarət Wikipedia siyahısını proqramla süzdüm:
+**söz uzunluqları tam (3,6,4) VƏ şəhər adı tam 6 hərf.** Bütün dünyada **5 variant**:
+
+```
+The Azalea City  -> MOBILE AL -> MOBILE
+The Circle City  -> CORONA CA -> CORONA
+The Forest City  -> LONDON ON -> LONDON      (London, Ontario)
+The Garden City  -> NEWTON MA -> NEWTON
+The Zenith City  -> DULUTH MN -> DULUTH
+```
+
+Beşi də bağlanış qeydinin **hər üç sətrini** ödəyir: (3 6 4) → (6 2) → (6).
+Beşi də **dəqiq 15 simvoldur** (13 hərf + 2 boşluq) — çünki (3 6 4) həmişə 15 verir.
+
+→ **Bu, "15 simvol" ölçüsünü qeydin BİRİNCİ sətri ilə birləşdirir:** cavab, çox
+güman, ləqəbin özüdür, şəhər adı deyil.
+→ Amma eyni zamanda **`THE ZENITH CITY`-nin unikal olmadığını göstərir.** Əvvəllər
+onu "yeganə uyğun" saymışdım — **səhv idi.** Beş variant var; Zenith yalnız ona
+görə birincidir ki, videoda tək fiziki dayaq ondadır (bağlanış otağındakı
+**Zenith markalı CRT televizor**).
+→ Siyahı bağlı deyil: Wikipedia siyahısı natamamdır (məs. Quebec City-nin
+"The Walled City" ləqəbi orada yoxdur; QUEBEC QC / QUEBEC də şablonu ödəyir).
+
+### Dürüstlük qeydi
+`CANDIDATES.md`-də açıq yazılıb ki, bu 15-in **heç biri həll deyil** — hamısı qeyd +
+firuzəyi kart zəncirindən çıxan ehtimallardır. Əsl giriş müəllifin dediyi kimi
+yapboz halqasıdır və o hələ bağlanmayıb.
