@@ -3331,3 +3331,44 @@ Amma üçü də eyni anda VII ola bilməz — deməli ən azı biri başqa dəy�
 struktur mənə ölçməni hara yönəltməli olduğumu deyir, əvəzinə ki, mən struktur
 uydurum. Səhv oxunuşlar məhz ən çətin qliflərdədir (VI/VII/VIII), təsadüfi
 yerlərdə deyil — bu, modelin lehinə zəif, amma real bir işarədir.
+
+## 06.09.2026 ~00:05Z — KART 13 və 14 AÇILDI + BİR ZİDDİYYƏT HƏLL OLUNDU
+
+13:27 planının **ən kəskin xam kadrları** (t=806.60, 806.64, 806.97; SR yox,
+10× Lanczos) — bu bucaqda kartlar kiçikdir, amma **çox kəskindir**:
+
+* **Kart 13 = 😂 "face with tears of joy"** — sarı yumru üz, qapalı gözlər,
+  açıq ağız, **hər iki yanında mavi göz yaşı damlaları**. Əvvəl "qızılı yumru
+  obyekt / burger" deyirdim — **səhv idi.**
+  Rəqəmlər: **mavi XIV · qırmızı X** (aydın oxunur).
+* **Kart 14** = solda qızılı-qəhvəyi hündür obyekt (kegli/küp/stəkan?),
+  sağda tünd quşabənzər siluet (qartal?). Rəqəmlər: mavi **VI?** · qırmızı **VII?**
+* ★ **Bant kartı: mavi VII** (bu kadrda "V VII" aydın görünür) —
+  əvvəl VIII oxumuşdum. **Düzəliş.**
+
+### Permutasiya ziddiyyətlərindən biri həll oldu
+Bant VIII→VII olduğu üçün **mövqe 8 artıq təkcə Afrikanındır** ✓.
+Qalan iki ziddiyyət: mavi 4 (ABŞ bayrağı / təqvim) və mavi 6 (qar buludu / iki obyekt),
+üstəgəl kart 14-ün mavi VI-si də ora düşürsə — üçlü toqquşma.
+
+**Bu, modelin ikinci faydalı işidir:** permutasiya şərti mənə hansı oxunuşun
+səhv olduğunu göstərdi, mən ora qayıtdım, daha kəskin kadr tapdım, və oxunuş
+həqiqətən dəyişdi. Model → ölçmə → düzəliş dövrəsi işləyir.
+
+### Yenilənmiş emoji siyahısı
+```
+1  🇴🇲 flag: Oman            mavi V    qırmızı VI
+2  Afrika silueti + yaşıl    mavi VIII qırmızı IV     (emoji adı hələ naməlum)
+3  🌨️ cloud with snow        mavi VI   qırmızı IX
+4  🇺🇸 flag: United States   mavi IV   qırmızı VII
+5  təqvim/qırmızı qlif       mavi IV?  qırmızı III
+6  iki hündür obyekt         mavi VI?  qırmızı VII
+7  🎀 ribbon                 mavi VII  qırmızı V      ← düzəldildi
+8  🟥 red square             mavi ?    qırmızı VI
+9  🛼 roller skate           mavi XI   qırmızı II
+10 sarı kart (şəkli gizli)   mavi I    qırmızı VIII
+11 🪟 window                 mavi ?    qırmızı ?
+12 📊 bar chart              mavi ?    qırmızı VIII
+13 😂 face with tears of joy mavi XIV  qırmızı X      ← YENİ
+14 qızılı obyekt + tünd quş  mavi VI?  qırmızı VII?   ← YENİ
+```
