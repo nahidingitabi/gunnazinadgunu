@@ -2182,3 +2182,53 @@ etməzdim.
 16 kHz mono-ya çevrildi (`tw_audio.wav`, 364 MB), `faster_whisper base.en` ilə
 transkripsiya fonda işləyir (`tw_asr.py` → `tw_asr.json`).
 Video faylı diskdən silindi (yer qənaəti).
+
+## 05.09.2026 ~18:45Z — ★★★ COLIN CANLI YAYIMDA TAPMACADAN DANIŞIR
+
+`v2864667604` "Just a normal Thursday" (2026-09-04) transkripsiya edildi
+(`faster_whisper base.en`, `tw_asr.json`). İlk 123 dəqiqədə üç mühüm ifadə var.
+
+### 1) Müəllifliyi və vəziyyəti təsdiqləyir (24:16–24:29)
+> İzləyici sualı: *"did you make the puzzle by yourself or the team?"*
+> **Colin: "The current — I'm assuming you mean the current 10K **outstanding**
+> MrBeast puzzle — **I made it by myself**."**
+
+→ Tək adam qurub. **"Outstanding" = hələ həll edilməyib** (4 sentyabr tarixinə).
+
+### 2) ★ ÖLÇÜ KALİBRASİYASI (24:29)
+> **"Yeah, it is **not as big as the Super Bowl puzzle**."**
+
+→ **$10k tapmacası KİÇİKDİR.** $1M ovu 103 alt-tapmacadan ibarət idi; bu, ona
+yaxın deyil. **Bu, 13 yapboz parçası + domino zənciri + kitab şifri kimi mürəkkəb
+maşınlığın həddindən artıq düşünülmə olduğunu göstərir.**
+
+### 3) ★ MEXANİZMLƏR QƏSDƏN KLASSİKDİR (24:38–25:36)
+Süni intellektlə bağlı sualda:
+> *"I don't want to reckon with LLMs… I don't like the idea of people shortcutting
+> puzzles with AI, or maybe a better phrasing — AI **guessing the puzzle mechanics**.
+> Because in my mind, if you can do that, it's because the mechanics are… **they're old
+> hat, right? They've been used before**… But I'm okay with it. I don't want to bother
+> myself and go out of my way to **add weird elements**."*
+
+→ **Mexanizmlər bilərəkdən adi/klassikdir və qəribə elementlər əlavə edilməyib.**
+Rail fence + şəhər ləqəbi axtarışı məhz "old hat"dır.
+
+### ★ Bundan çıxan nəticə
+(2) və (3) birlikdə **sadə zənciri gücləndirir**:
+```
+mavi-yaşıl kart → rail fence → LAST WORD THEN NINTH
+   → Colin-in profilinin son sözü "Pearl" → açarda tək uyğunluq = MP9
+   → "Pearl of the North"
+```
+Bu, qısa, klassik və "Super Bowl tapmacasından kiçik"dir.
+
+Və bu, **13 yapboz parçasının ümumiyyətlə mexanizm olmaya biləcəyini** göstərir —
+onların şəkilləri **köhnə** alt-tapmacaları təsvir edir, yəni onlar xülasə dekorasiyası
+ola bilər. Digər sessiya onları əsas mexanizm sayır; bu, yenidən düşünülməlidir.
+
+### Qeyd — yanlış iz
+25:59-da Colin deyir: *"the riddle I just put on the screen is way easier than it looks.
+If you think you know the second letter, you probably don't know the second letter."*
+Kontekst göstərir ki, bu **ekranda göstərdiyi öz riddle-ıdır**, $10k tapmacası deyil.
+
+Transkripsiya davam edir (ümumi 190 dəq). Qalan 16 VOD növbədədir.
