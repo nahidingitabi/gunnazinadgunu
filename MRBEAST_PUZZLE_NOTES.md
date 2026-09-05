@@ -3443,3 +3443,86 @@ başqa bir şey bildirir. Növbəti addım: **otaqdakı bütün parçaları saym
 
 Qeyd: modeli məlumatdan qabaq qurmamaq qaydası yenə işlədi — üç model də
 ölçmə ilə rədd olundu, uydurma ilə deyil.
+
+## 06.09.2026 ~02:15Z — ÇOX-BUCAQLI BİRLƏŞDİRMƏ İŞLƏDİ + ÇÖZÜLMƏYƏN ZİDDİYYƏT
+
+### Yeni alət: `piecesr.py` — parça üzrə çox-planlı super-rezolyusiya
+Əvvəlki sessiyada "çox baxış bucaqlı SR" uğursuz olmuşdu, çünki **bir qlobal
+homoqrafiya** 3 ölçülü qutu yığınını qeydə ala bilmir. İndi bunu düzəltdim:
+**hər parça (və ya hər qutu üzü) ayrıca müstəvidir** — ona görə hər parça üçün
+öz kanonik düzbucaqlısını təyin edib, hər plandan gələn kadrları ora
+çevirirəm, sonra **piramidal ECC** (1/4 → 1/2 → 1/1 miqyas, homoqrafiya modeli)
+ilə şablona kilidləyirəm. Nəticə: iki fərqli plandan (13:23 və 12:45, yaxud
+13:23 və 13:26) gələn **120–175 kadr** bir şəkildə birləşir.
+
+Bu, kadr sayını ~1.5–2 dəfə, effektiv həlledici gücü isə gözlə görünəcək
+qədər artırdı: `PSR_usflag.png`, `PSR_topbox.png`, `PSR_eagle.png`.
+
+### Bununla təsdiqlənən şəkillər
+* 🇺🇸 ABŞ bayrağı + **qırmızı taxta anbar** (gambrel damı, üstündə kiçik qüllə)
+* **daz qartal** (ağ baş, tünd bədən, sarı pəncə) + yanında **qızılı-qəhvəyi
+  uzunsov obyekt** (kartof? qoz? lələk?)
+* yaşıl konus papaqlı fiqur **rolik konkilərdə**
+* **bant** (nazik tünd konturla bağlanmış ilmə)
+* **pəncərə** (çərçivə + bölgü)
+* uzun **aşağı ox** + 📊 3 sütunlu diaqram (çəhrayı/sarı/yaşıl)
+* spiral **təqvim**, üstündə iri qəhvəyi rəqəm (25?)
+
+### Rəqəmlər — kontrastı artırılmış qlif atlası ilə təkrar oxundu
+`GLYPHS_top.png` (bir birləşdirilmiş şəkildən, deməli hamısı eyni miqyasda):
+```
+rolik:      qırmızı II    mavi XI
+"I VII":    qırmızı VII   mavi I
+diaqram:    qırmızı VIII  mavi IX
+bant:       qırmızı V     mavi VII
+düzbucaq:   qırmızı VI    mavi VIII
+```
+**V ilə X-i ayırd etmək mümkündür** (V aşağıda birləşir, X kəsişir) — bu
+vacibdir, çünki "VIII↔XIII, VII↔XII, VI↔XI" qarışığı bütün ziddiyyətləri
+izah edə bilərdi. Birləşdirilmiş şəkildə baxdım: **qarışıq yoxdur**, oxunuşlar
+düzgündür. Yəni ziddiyyət realdır, oxunuş səhvi deyil.
+
+### Tam cədvəl (12 parça, iki müstəqil bucaqdan təsdiqlənib)
+```
+parça                      qırmızı  mavi
+rolik konki fiquru            2       11
+"I VII" (şəkli gizli)         7        1
+ox + sütun diaqramı           8        9
+bant                          5        7
+qırmızı düzbucaqlı            6        8
+təqvim (25)                   3        4
+iki hündür obyekt             7        6
+🇺🇸 bayraq + anbar             7        4
+🇴🇲 Oman bayrağı               6        5
+Afrika + yaşıl kol            4        8
+🌨 qar buludu                  9        5
+😂 sevinc göz yaşı            10       14
+```
+Oxunmayan 3 parça: **pəncərə**, **qartal+qızılı obyekt**, və aşağı qutudakı
+**15-ci parça** (ofis planında görünür, `extra_piece.png`).
+
+### ★ Otaqda 14 yox, **15** parça var
+Ofis ümumi planında (t=20.30) yığını tam saydım: 4+2 (yuxarı qara qutu) + 1
+(qar buludu) + 2 (orta qutu) + 1 (ABŞ bayrağı) + 2 (əyilmiş qutu: 😂 və qartal)
++ 2 (aşağı qutu: Oman, Afrika) + **1 (ən aşağı kiçik qutuda)** = **15**.
+Ön plandakı böyük "PUZZLE CLUES" qutusunda parça yoxdur; otağın qalan
+hissəsində də yoxdur.
+
+### Nə RƏDD OLUNDU (hesabla)
+Rəqəmlər **nə qırmızıda, nə mavidə yerdəyişmə deyil**: qırmızıda 6 və 7
+təkrarlanır, mavidə 4, 5 və 8. Bu, aşağıdakıların hamısını öldürür:
+* "qırmızı = parçanın nömrəsi, mavi = növbətinin nömrəsi" (zəncir/halqa)
+* "adi domino: bərabər uclar bitişir"
+* "qırmızı = hərf indeksi, mavi = cavabdakı mövqe" (və tərsi)
+* "qırmızı/mavi = iki şəklin söz uzunluqları" (qismən uyur — BARCHART=8,
+  DOWNARROW=9, ROLLERSKATE=11, BARN=4 — amma yarısında uymur)
+
+### ★ ƏSAS MANEƏ: 1080p bəs etmir
+Parçalar 1080p-də cəmi **~45 piksel** enindədir; rəqəmlər ~10 piksel.
+Bütün planları taradım — **qutulara daha yaxın kadr yoxdur** (ən yaxşısı
+t=803.53, kartonun kadrın 50%-ni tutduğu kadrlar isə fon pərdəsidir, qutu deyil).
+SR effektiv gücü ~3× artırır və orada dayanır.
+
+→ **Lazım olan: eyni anların 2160p (4K) yazısı.** MrBeast videoları 4K-dadır;
+4K-da parçalar ~90 piksel olacaq — bu, rəqəmləri və şəkilləri birmənalı edir.
+Lazım olan anlar: **13:22–13:27**, **12:44–12:48**, **0:18–0:22**.
