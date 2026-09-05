@@ -3604,3 +3604,49 @@ isə 13-dür, yəni onlar onsuz da düşür).
 Üç konkret rəqəmi ayırd etmək (VIII/XIII, IV/II/III, V/X) və üç oxunmamış
 parçanı oxumaq. Hamısı **eyni bir şeydən asılıdır: 2160p**.
 Anlar: **13:22–13:27**, **12:44–12:48**, **0:18–0:22**.
+
+## 06.09.2026 ~03:35Z — ÖZ MODELİMİ ÖZÜM ÇÜRÜTDÜM: MAVİ YERDƏYİŞMƏ DEYİL
+
+Yuxarıdakı sayım arqumenti gözəl idi, amma **ölçmə onu ləğv etdi**.
+
+Modelin əsas proqnozu bu idi: mavi 5 cütündən (Oman / qar buludu) **biri**
+əslində X (10) olmalıdır. Hər ikisini üç müstəqil təsvirdən yoxladım:
+* `SNOW_BLUE.png` — qar buludunun mavisi 803 və 765 planlarında **tərtəmiz V**,
+  ətrafında heç nə yoxdur;
+* `OMAN_BLUE.png` — Oman bayrağının mavisi `PSR_oman`, `sr803/R8_bottom` və
+  `sr765/V_low`-da, yəni **üç görüntüdə də tərtəmiz V**.
+
+Yəni **hər ikisi doğrudan da V-dir (5)**. Toqquşma realdır. Deməli:
+**mavi rəqəm 1…15-in yerdəyişməsi deyil.** Sayım arqumenti düşür.
+
+### Nə qalır
+Diapazon asimmetriyası hələ də realdır və mənasızlaşmır:
+qırmızı 2…10, mavi 1…14. Bu, hələ də "qırmızı = qısa sözdə hərf nömrəsi"
+oxunuşunu dəstəkləyir. Amma mavi mövqedirsə, **eyni mavini daşıyan parçalar
+eyni hərfi verməlidir** — bu, yoxlanıla bilən şərtdir.
+
+Emoji CLDR adları ilə yoxladım:
+* mavi 4: `FLAGUNITEDSTATES`[7]=**I** və `SPIRALCALENDAR`[3]=**I** → **uyğun** ✓
+  (təqvimin şəklində yuxarıda spiral halqalar var, yəni 🗓️ "spiral calendar" —
+  ad təsadüfən seçilməyib)
+* mavi 5: `FLAGOMAN`[6]=**M**, `CLOUDWITHSNOW`[9]=**H** → **uyğun deyil** ✗
+* mavi 8: `REDSQUARE`[6]=**U**, Afrika+bitki üçün heç bir ad U vermir ✗
+
+**Üç cütdən yalnız biri uyğun gəldi** — bu, təsadüfün gözlədiyi qədərdir
+(iki təsadüfi hərfin üst-üstə düşməsi ≈ 1/15, üç cüt üçün ≈ 0.2 gözlənilən).
+Yəni bu, modeli **təsdiqləmir**. Uydurmaya qarşı qayda işlədi: cazibədar
+uyğunluğu (mövqe 4 = I) tək başına dəlil saymıram.
+
+### Ən ehtimallı izah
+İstifadəçi artıq dedi ki şəkil adlarım səhvdir (daş/qartal/gülmək düzəlişi).
+Model doğru olsa belə, **yanlış adlarla yoxlana bilməz**. Ona görə ardıcıllıq:
+əvvəlcə şəkilləri dəqiq adlandırmaq (bunun üçün 4K lazımdır), sonra modeli
+sınamaq — əksi yox.
+
+Aralıq hərf cədvəli (əgər model doğrudursa və adlar CLDR-dirsə):
+```
+mövqe:  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15
+hərf:   ?  ?  ?  I  ?  ?  O  U  T  ?  O  ?  ?  E  ?
+```
+7-8-9 = **O U T** maraqlıdır, amma üç ayrı adın düz gəlməsindən asılıdır və
+tək başına dəlil deyil.
