@@ -3307,3 +3307,27 @@ Həmçinin VI/VII/VIII qeyri-müəyyənliyi (±1) hərfləri sürüşdürə bil�
 **Növbəti:** qalan kartların emoji adlarını dəqiqləşdir (2 Afrika?, 5 təqvim?,
 6 iki obyekt?, 10 sarı, 11 pəncərə, 14 tünd oval), mavi rəqəmləri tamamla,
 14 mövqeni doldur.
+
+### 23:50Z — model özü səhv oxunuşlarımı göstərir (faydalı yoxlama)
+Əgər **mavi = cavabdakı mövqe**dirsə, mavi dəyərlər 1…14-ün **permutasiyası**
+olmalıdır — hər mövqe bir dəfə. Mənim oxunuşlarımda:
+```
+mavi:  1 (sarı) · 4 (ABŞ bayrağı) · 4 (təqvim) · 5 (Oman) · 6 (qar buludu)
+       6 (iki obyekt) · 8 (Afrika) · 8 (bant) · 11 (rolik)
+```
+→ **4, 6 və 8 ikişər dəfə təkrarlanır.** Model doğrudursa, hər cütdən **biri
+səhv oxunub** və doğru dəyər boş qalan mövqelərdən biridir: **2, 3, 7, 9, 10,
+12, 13, 14.**
+
+Bu, mənə hansı oxunuşlara qayıtmalı olduğumu **dəqiq göstərir**:
+* təqvim (IV oxudum) — ABŞ bayrağı ilə toqquşur
+* iki hündür obyekt (VI) — qar buludu ilə toqquşur
+* bant (VIII) — Afrika ilə toqquşur
+Üçü də VI/VII/VIII ailəsindəndir, yəni ±1 ştrix səhvi ilə tam izah olunur.
+Ən ehtimallı düzəlişlər: təqvim → **VI/VII**, iki obyekt → **VII**, bant → **VII**.
+Amma üçü də eyni anda VII ola bilməz — deməli ən azı biri başqa dəyərdir.
+
+**Qeyd:** bu, modeli təsdiqləmir, amma **modeli faydalı edir** — ilk dəfədir ki,
+struktur mənə ölçməni hara yönəltməli olduğumu deyir, əvəzinə ki, mən struktur
+uydurum. Səhv oxunuşlar məhz ən çətin qliflərdədir (VI/VII/VIII), təsadüfi
+yerlərdə deyil — bu, modelin lehinə zəif, amma real bir işarədir.
