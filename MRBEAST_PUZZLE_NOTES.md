@@ -1254,3 +1254,55 @@ xüsusi səhifə deyil). `zenithcity.com` real Duluth tarix saytıdır, MrBeast-
 8.  ZENITH
 Ehtiyat: THE AZALEA CITY / THE CIRCLE CITY / THE GARDEN CITY / THE FOREST CITY
 ```
+
+## 05.09.2026 ~12:40Z — 49 KADRLIQ SUPER-REZOLYUSİYA: yeni keyfiyyət səviyyəsi
+
+### Metod (yeni)
+`en2/` qovluğunda 17:00 səhnəsinin **56 kadrı** tapıldı (kamera yavaş-yavaş irəli gedir →
+sub-piksel müxtəlifliyi var). ORB xüsusiyyət uyğunlaşdırma + RANSAC homoqrafiya ilə
+49 kadr eyni şəbəkəyə oturduldu və **5× böyüdülmüş** şəbəkədə ortalandı
+(`srnote.py` / `srphone.py` → `sr_desk.png`, `sr_phone.png`).
+Bu, əvvəlki tək-kadrlıq böyütmədən **köklü şəkildə** daha aydındır — 1080p-nin
+"sərt tavan" olduğu barədə əvvəlki qənaətim səhv idi (17:00 kadrları sabit deyil,
+kamera hərəkət edir, ona görə SR mümkündür).
+
+### ★ DÜZƏLİŞ — telefon diski: əvvəlki qiymətləndirməm YANLIŞ idi
+Keçən dövrədə "disk adi çap üzüdür, morze iddiası əsassızdır" yazmışdım.
+SR-dən sonra vəziyyət belədir:
+- Diskin ətrafında **düz 10 bucaq qrupu** var (ellips RANSAC ilə fit edildi:
+  mərkəz (728, 404), oxlar 423×679, 81.5°; 33 inlier nöqtə tam ellips üzərində oturur).
+- Hər qrupda **3–4 kiçik tünd işarə**, iki mövqedə isə **tək işarə** var.
+- Bu şablon **HƏM** adi çap disk üzü ilə (8 mövqedə 3 hərflik qrup + rəqəm; "1" və "0"-da
+  hərf yoxdur → tək işarə) **HƏM DƏ** morze qrupları ilə uyğun gəlir.
+→ **1080p mənbədə bu iki variantı ayırd etmək fiziki olaraq mümkün deyil.**
+İşarələr orijinal kadrda cəmi 2–4 piksel enindədir.
+**Bu sual yalnız 4K (2160p) stop-kadrla həll oluna bilər.** İstifadəçidən 4K screenshot
+istənildi.
+
+### ★ Qeyd super-rezolyusiyada (12 kadr yan-yana yoxlandı)
+```
+(3 6 4)
+      ↘
+       (6 2      ← bağlayan mötərizə karton qutunun arxasında qalır
+        ↓
+       (6)
+```
+- **Birinci sətrin "4"-ü artıq tam birmənalıdır** (diaqonal + şaquli ştrix aydın görünür).
+  → `(3 6 4)` təsdiqləndi.
+- İkinci sətirdəki rəqəm **2**-dir (yuvarlaq üst + düz altlıq); "8" olsaydı iki qapalı halqa
+  görünərdi — 5× SR-də ikinci halqa yoxdur. `@uditi_star`-ın `(68)` oxunuşu səhvdir.
+- Sətir 2-nin bağlayan mötərizəsi gizli olduğuna görə orada **əlavə simvol ola bilər**
+  (`(6 2 …)`), amma sətir 3 `(6)` tam görünür.
+
+### DÜZƏLİŞ — kağız xəritə DEYİL
+Əvvəl "miqyas xətkeşi olan xəritə" yazmışdım. SR göstərir ki, bu, **spiralla tikilmiş,
+xətli mavi bloknotdur** — "xətkeş" əslində spiral cildləmədir. Kağızda çap məzmunu yoxdur.
+
+### Televizor
+Ön paneldə: **"COLOR TV-VCR COMBINATION"** (Zenith TV-VCR combo). Altında daha kiçik
+sətir var, oxunmur. Model nömrəsi görünmür.
+
+### yt-dlp vəziyyəti
+`visionos` klienti hələ işləyir (m3u8 alınır), lakin AV1 (format 399) ffmpeg-i SIGSEGV ilə
+çökdürür; H.264-ə keçəndə YouTube "Sign in to confirm you're not a bot" verir.
+Media endirmə hələ də bağlıdır → 4K üçün istifadəçinin screenshot-u lazımdır.
