@@ -2684,3 +2684,36 @@ Alt sətirlərin ştrix eni **~2 px** — şifr sətirlərinin təxminən yarıs
 **~15 simvol**. **Bu ölçüdə oxumaq prinsipial olaraq mümkün deyil.**
 → Firuzəyi kartın alt sətirləri **bu videodan oxunmaz**. İz bağlanır
 (yeni, daha yaxın material gəlməyincə).
+
+### 20:10Z — ★★ YERDƏKİ VƏRƏQ OXUNDU: **"$10,000!"** — səhnədə YENİ müsabiqəyə açıq istinad
+Ofis geniş planında (t=20.30) yerdəki vərəqlər 87 kadrlıq median SR ilə çıxarıldı
+(`sr13/looksheet.png`, `sr14/floorwide.png`). Vərəq **kameraya tərs** yatıb;
+180° çevirəndə yazı aydın oxunur:
+
+```
+$10,000!
+```
+(`looksheet_rot.png` — "$", sonra "10,000" vergüllə, sonra nida işarəsi.)
+
+→ **Bu, dekorasiyada $10,000-a açıq istinad edən ilk və yeganə obyektdir.**
+Köhnə ovun məbləği $1,000,000-dur, yəni bu vərəq **yeni müsabiqəyə aiddir**,
+köhnəsinə yox. Yerdə, "PUZZLE CLUES" qutusunun dağılmış kağızları arasındadır.
+
+### Onun qonşuluğu — yeni, heç kimin bildirmədiyi vərəq klasteri
+Eyni yerdə (t=20.30 kadrında **x 1500–1920, y 900–1080**) daha bir neçə əlyazma
+vərəqi var:
+
+| SR mövqe (6×) | nə görünür |
+|---|---|
+| 850–1500, 250–700 | ★ **əl ilə çəkilmiş DİAQRAM**: iki ellips (düyün), aralarında qısa xətt, sağda bir nöqtəyə **birləşən oxlar** |
+| 1300–1500, 250–650 | fiqurlu mötərizələr `{` və sətirlər |
+| 250–750, 450–700 | **"$10,000!"** vərəqi |
+| 100–700, 100–350 | əlyazma, tərs |
+| 800–1400, 480–700 | ox formalı işarələr |
+
+**Diaqram vərəqi diqqətəlayiqdir:** düyünlər + oxlar — mənim müstəqil çıxardığım
+**istiqamətli Euler dövrü** mexanizminin şəkli ilə eyni formadadır. Amma **ehtiyat:**
+bu vərəqlər köhnə ovun həllinin iş qeydləri də ola bilər (səhnə onunla bəzədilib).
+Yazı ştrixləri 1–2 px-dir → **mətn oxunmur**, yalnız struktur görünür.
+
+→ **Bu klaster 12:35–14:00 1080p-dən sonra ikinci prioritetdir.**
