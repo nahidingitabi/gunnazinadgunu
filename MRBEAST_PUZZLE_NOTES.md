@@ -1667,3 +1667,49 @@ Kağız **spirallı bloknotdur** (cildləmə tikişləri aydın görünür), yan
 ## "BEAST CITY" (t = 1029 s, televizorda)
 Açarda var: *"letters in BEAST CITY HUB. The location of, Beast City, the compound built
 for Beast Games."* → köhnə tapmacanın materialı, 10 simvol, yeni cavab deyil.
+
+## 05.09.2026 ~15:40Z — ★ TƏSNİFAT: HANSI OBYEKT $10,000-LIQDIR, HANSI KÖHNƏDİR
+
+İstifadəçinin göstərişi: **köhnə $1M tapmacasının materialını qarışdırma.**
+Aydın filtr var: **84 səhifəlik rəsmi açarda təsvir olunan hər şey KÖHNƏDİR.**
+Colin bu video üçün yerləşdirdiyi əşyalar açarda YOXDUR.
+
+### ✅ $10,000-lıq tapmacaya aid (açarda YOXDUR)
+| obyekt | yeri | vəziyyət |
+|---|---|---|
+| mavi-yaşıl şifr kartı (5 sətir) | ofis masası, monitorun altında | 3 şifr sətri + 2 alt yazı; sətir 3 = `?DOTA` oxunur |
+| narıncı kart, sonu böyük "?" | şifr kartının sağında | 4 sətir, sonuncu "?" təsdiqləndi |
+| çəhrayı indeks vərəqi | klaviaturanın solunda | başlıq sətri + ~5 sətir xırda işarə |
+| **qara "Boo!" kitabı** | masanın altında, sol aşağı | **"Boo!" TAM AYDIN OXUNUR** ✓ |
+| zeytunu/tan kart | klaviaturanın altında | oxunmayıb |
+| yapboz formalı kartlar (rum rəqəmləri) | karton qutuların üzərində | kartlar real, rəqəmlər oxunmayıb |
+| konduit stikerləri: sağ 6/7/4, sol 2/1/4 | hər iki divar | rənglər təsdiqləndi |
+| Zenith TV + "PAUSE" | bağlanış otağı | təsdiqləndi |
+| spirallı bloknot `(3 6 4)→(6 2)→(6)` | bağlanış masası | sətir 3 tam aydın |
+| yaşıl stiker | bloknotun yanında | boş görünür |
+| forma / QR / "$10,000" ekranları | televizorda 1046–1054 s | təsdiqləndi |
+
+### ❌ KÖHNƏ $1M materialı — bu tapmacaya AİD DEYİL, bir daha araşdırılmır
+- Korkbord otağı **bütövlükdə** (fotolar, qlobuslar, krossvordlar, "META PUZZLE" kartı,
+  kriptik trio kartları, ip bağlantıları, rebus kartları)
+- t=44 s-dəki "Every Challenge Leads Towards Location…" qrafikası
+- Pul divarı qrafikası (t=68–70 s)
+- "BEAST CITY" (t=1029 s) — açarda var: *"letters in BEAST CITY HUB"*
+- Seyf kodu R62L39R05L73… (t=1002–1020 s)
+- MP/SB/PG/EP/GC/OP alt-tapmacalarının bütün cavabları
+
+### Kağızdan başqa səthlərin süzgəci (istifadəçinin təklifi) — nəticələr
+| səth | metod | nəticə |
+|---|---|---|
+| **arxadakı brezent pərdə** | 100 kadr 3× SR + yüksək keçid | **BOŞ** — yalnız qat, ləkə və boya nöqtələri; yazı yoxdur |
+| **ofis masasının üzü** | 110 kadr 5× SR | **BOŞ** — taxta üzərində yazı yoxdur |
+| **çekmecə üzləri** | eyni | **BOŞ** |
+| **bağlanış otağının karton qutusu** | 88 kadr 5× SR | **BOŞ** — düz karton, yazı yoxdur |
+| **ekranın altındakı hüquqi mətn** (1050–1056 s) | OCR | **standart mətndir** — video təsviri ilə hərfi-hərfinə eynidir, gizli mesaj yoxdur |
+| kərpic divarlar | 3× SR işlədilir | davam edir |
+
+### Alətə əlavə: `--reftime`
+`srx.py`-a `--reftime T` seçimi əlavə edildi. Kamera hərəkət etdiyi üçün referens kadr
+obyektin ƏN BÖYÜK göründüyü an olmalıdır; homoqrafiya miqyası özü düzəldir, ona görə
+uzaq kadrlar da yaxın referensin şəbəkəsinə oturur və çözünürlüyə əlavə edir.
+Bu, telefon məsələsini həll edən dəyişiklikdir.
