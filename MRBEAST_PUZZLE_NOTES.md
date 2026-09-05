@@ -3229,3 +3229,41 @@ Növbəti iş: hər şəkli dəqiq adlandırmaq və baş hərfləri yoxlamaq.
 10 sarı kart (şəkli gizlənib) · 11 iki bölməli düzbucaqlı çərçivə ·
 12 aşağı ox + artan üç sütun (çəhrayı/sarı/yaşıl) · 13 qızılı yumru obyekt ·
 14 tünd oval + kiçik fiqur
+
+## 05.09.2026 ~23:30Z — ★★★ ŞƏKİLLƏR EMOJİDİR (icmanın sualı təsdiqlənir)
+
+Şəkilləri yüksək böyütmədə ayrı-ayrı nəzərdən keçirdim (`pics_zoom.png`,
+`CARD_ATLAS2.png`). Yeddisi **birmənalı standart emojidir**:
+
+| kart | şəkil | emoji | Unicode adı |
+|---|---|---|---|
+| 8 | düz qırmızı-kərpici düzbucaqlı | 🟥 | **red square** |
+| 11 | iki bölməli düzbucaqlı çərçivə | 🪟 | **window** |
+| 9 | rolikli fiqur | 🛼 | **roller skate** |
+| 12 | artan üç sütun + ox | 📊 | **bar chart** |
+| 7 | mavi konturlu bant | 🎀 | **ribbon** |
+| 3 | qar buludu | 🌨️ | **cloud with snow** |
+| 13 | qızılı yumru obyekt | 🍔 | **hamburger** |
+| 1 | Oman bayrağı | 🇴🇲 | **flag: Oman** |
+| 4 | ABŞ bayrağı | 🇺🇸 | **flag: United States** |
+
+→ **İcmanın sualı** (*"Are the 14 card pictures named by emoji names?"*) **doğrudur.**
+Bu, təsadüf ola bilməz: qırmızı kvadrat, pəncərə, rolik, sütun qrafiki, bant —
+hamısı emoji dəstinin üzvüdür və heç biri "adi" illüstrasiya deyil.
+
+### Bundan çıxan mexanizm fərziyyəsi (YENİ, hələ sınanmayıb)
+Əgər hər kart bir emojidirsə, onun **adı** var (məs. `RED SQUARE`, `WINDOW`,
+`ROLLER SKATE`, `BAR CHART`, `HAMBURGER`, `CLOUD WITH SNOW`).
+**İki rəqəm iki funksiya daşıya bilər:**
+* biri — **addan neçənci hərfi götürmək**,
+* digəri — **həmin hərfin cavabdakı mövqeyi**.
+
+Bu, rəqəmlərdəki təkrarları da izah edir: hərf indeksi təbii olaraq təkrarlanır.
+Və **"old hat" mexanizmdir** — Colin-in təsvirinə tam uyğun.
+Həmçinin izah edir ki, niyə rəqəmlər I…XIV-ə qədər gedir: uzun emoji adlarında
+(`CLOUD WITH SNOW` = 13 hərf) 13-14-cü hərf mövcuddur.
+
+**Növbəti iş:** hər kartın emoji adını dəqiqləşdir (xüsusən 2, 5, 6, 10, 14),
+sonra (mavi, qırmızı) cütlərini hərf indeksi / mövqe kimi sınaqdan keçir.
+Diqqət: qarışıq kartlar var — 4-cü kartda ABŞ bayrağı **və** tövlə, 2-ci kartda
+Afrika **və** yaşıl ləkə görünür; bunlar bir kartda iki emoji ola bilər.
