@@ -1101,3 +1101,23 @@ Onlardan şəhəri **6 hərfli** olanlar (yəni qeydin `(6 2)` və `(6)` sətirl
   göstərişi çıxır.
 - Digər 3 namizədin heç birinin videoda izi yoxdur (azalea/gül, dairə, bağ).
 → **ZENITH → DULUTH zənciri təsadüf olma ehtimalı çox aşağıdır.**
+
+## 05.09.2026 ~10:55Z — sweep TAMAMLANDI (ABŞ + Kanada + Böyük Britaniya)
+
+Kanada siyahısında ləqəblər dırnaq içindədir (`** "The Forest City"`), ona görə əvvəlki
+parser onları buraxmışdı. Düzəldildi və hamısı yenidən emal edildi:
+**53 səhifə, 2867 ləqəb.**
+
+`(3 6 4)` uyğunluğu: **46**. Onlardan şəhəri 6 hərfli olanlar — **cəmi 5**:
+
+| Ləqəb | Şəhər | Bölgə | Videoda işarə? |
+|---|---|---|---|
+| The Azalea City | Mobile | Alabama (AL) | yox |
+| The Circle City | Corona | California (CA) | yox |
+| The Forest City | London | Ontario (ON) | yox |
+| The Garden City | Newton | Massachusetts (MA) | yox |
+| **The Zenith City** | **Duluth** | **Minnesota (MN)** | **BƏLİ — televizorun markası** |
+
+→ Qeydin `(3 6 4) → (6 2) → (6)` şablonunu dünyada (ABŞ+Kanada+BB siyahılarında)
+**yalnız 5 ləqəb** ödəyir və onlardan yalnız birinin adı 17:00 kadrında fiziki əşya kimi
+durur — üstəlik "PAUSE" göstərişini göstərən həmin əşyadır.
