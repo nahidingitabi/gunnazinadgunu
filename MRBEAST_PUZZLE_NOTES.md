@@ -1627,3 +1627,43 @@ Qutuların üzərində **"Puzzle Clues"** yazısı 1080p-də artıq oxunur — t
 Obyektlər: narıncı kart, çəhrayı indeks vərəqi, "Boo!" kitabı, sarı stiker + zeytunu kart,
 qutulardakı yapboz rəqəmləri, "Puzzle Clues" qutuları, yerdəki kağızlar,
 mavi-yaşıl kartın 1-ci/2-ci sətirləri və alt yazıları.
+
+## 05.09.2026 ~15:20Z — ★ TELEFON DİSKİ QƏTİ HƏLL OLUNDU: MORZE YOXDUR
+
+Yeni alət (`srx.py`) bağlanış klipinə tətbiq edildi və telefon indiyə qədərki ən yaxşı
+görüntüsünü verdi. Əvvəlki cəhdlərim yanlış klipdən, telefonun kiçik göründüyü kadrlardan
+gedirdi. **`dd608937` klipində, t = 1021–1042 s, telefon kadrın dörddə birini tutur.**
+
+```
+python3 srx.py dd608937 1021 1042 280 840 700 1080 6 sr_dial2.png --sharp 90
+→ frames=90 aligned=90  size=2520x1440
+```
+
+### Nəticə — hər disk mövqeyində eyni struktur
+`dial2_groups.png` (10 mövqe, hər biri ayrıca böyüdülüb):
+**BİR SIRADA ÜÇ kiçik işarə + ONLARDAN AYRI BİR işarə.**
+
+Bu, adi Western Electric disk üzüdür: **üç hərflik qrup (ABC, DEF, GHI…) + rəqəm.**
+Morze qrupları 1–4 element arasında dəyişərdi və "üç+bir" şablonunu təkrarlamazdı.
+10 mövqedən 7-də struktur aydın görünür və hamısı eynidir.
+
+→ **"Diskdə morze var" iddiası YANLIŞDIR. Bu qol qəti bağlanır.**
+(Əvvəlki dövrədə "1080p-də həll olunmur" demişdim — səhv idi; düzgün klip və düzgün
+kadr aralığı ilə həll olunur.)
+
+## Bağlanış qeydinin ən yaxşı görüntüsü
+```
+python3 srx.py dd608937 1021 1042 660 990 1000 1080 10 sr_note2.png --sharp 90
+```
+`(6)` sətri artıq **tam aydındır** — bağlayan mötərizə ilə birlikdə.
+İkinci sətir: `( 6  2` — "2"-nin sol yarısı görünür (üst üfüqi ştrix, enən diaqonal,
+alt üfüqi ştrix), sağ yarısı karton qutunun kənarı ilə örtülüb.
+**"8" ola bilməz** (üst qapalı halqa yoxdur), "0"/"9" ola bilməz (sol tərəf qapanmır).
+Sətir 3 `(6)` 3 qlif üçün ~97 px/qlif verir; sətir 2-nin görünən hissəsi ~94 px/qlif —
+uyğun. Bağlayan mötərizə qutunun arxasındadır, ona görə `(6 2)` ən təbii oxunuşdur,
+amma `(6 2…)` daha uzun da ola bilər.
+Kağız **spirallı bloknotdur** (cildləmə tikişləri aydın görünür), yanında **yaşıl stiker**.
+
+## "BEAST CITY" (t = 1029 s, televizorda)
+Açarda var: *"letters in BEAST CITY HUB. The location of, Beast City, the compound built
+for Beast Games."* → köhnə tapmacanın materialı, 10 simvol, yeni cavab deyil.
