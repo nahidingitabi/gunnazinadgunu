@@ -859,3 +859,22 @@ zər+təqvim… = "Diamond City of India" → Surat (MP13) · H+ॐ+noxud = "Hom
 ### Texniki
 17:00 kadrlarında kamera TAM sabitdir (faza-korrelyasiya sürüşməsi = 0.0 px, kadrlar
 eynidir) → çox-kadrlı super-rezolusiya MÜMKÜN DEYİL. 1080p mütləq tavandır.
+
+## 05.09.2026 ~03:45Z — korkbord yaxın planının tam OCR-i (mənfi)
+
+- 5:39–5:44 korkbord yaxın planının 26 kadrı **6 parçaya bölünüb 2× böyüdülərək** OCR edildi
+  (`ocr_cork.json`, 357 sətir, 75 fərqli mətn). Tapılanların hamısı köhnə tapmacadandır:
+  "Red Herring Bank SAVINGS WITHDRAWAL" slipi (`SIGNATURE:`, `DATE`, hesab nömrəsi),
+  `CODE / ON →`, `"X'S ON BELT"`, `THE BEST BANK!`, `n³=n²`, `Slackbot — Good luck!`
+  (Super Bowl reklamından). **Yeni heç nə yoxdur.**
+- 17:00 kağızının ikinci qrupunu ("(6 ?)") daha yaxşı işıqda oxumaq cəhdi: bütün geniş
+  kadrlar yoxlandı — PAUSE pəncərəsindən parlaq olan yoxdur; QR kadrlarında hüquqi mətn
+  üstünü örtür. Rəqəm oxunmur.
+- MrBeast + MrBeast2 kanallarının **843 video başlığı** çəkildi (`titles_MrBeast*.txt`).
+  PG7-dəki kimi "video başlığı" izi axtarıldı: (3 6 4) formasında 12 fraqment var,
+  heç biri mənalı deyil (məs. "The Golden Play", "You Rather Have").
+- PG7-nin semantikası PDF-dən təsdiqləndi: `IPESIT` = "**I P**aid **E**veryone **S**tuck
+  **I**n **T**raffic" akronimi → STUCK−T=SUCK, TOWED→TOAD (omofon), KANSAS+AR=ARKANSAS
+  → **Toad Suck, Arkansas**. Yəni masa qeydinin `(5 2 7) → (4 4)` yazısı
+  "**mənbə ifadəsi → yer adı**" deməkdir. Deməli `(3 6 4) → (6 ?) → (6)` də eyni məntiqlə
+  "mənbə ifadəsi (13 hərf) → yer adı → şəhər" oxunmalıdır.
