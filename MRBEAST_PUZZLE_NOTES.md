@@ -1068,3 +1068,36 @@ Ardınca: qara ekran → "thank you for watching" (17:36–17:40) → "SUBSCRIBE
 
 Masadakı kağızın "(6)" sətrindən AŞAĞISI da yoxlandı: kağız masanın kənarında bitir,
 **4-cü sətir yoxdur**.
+
+# ★★★★★ 05.09.2026 ~10:10Z — SİSTEMLİ TƏSDİQ: (3 6 4) + 6-hərfli şəhər = cəmi 4 namizəd
+
+## Metod
+Vikipediyanın **50 ştatın hamısı üçün "List of city nicknames in X"** səhifələri çəkildi
+(`nickwiki/`, 50 fayl) və parser ilə **2615 şəhər ləqəbi** çıxarıldı (`nicknames_all.json`).
+
+## Nəticə
+`(3 6 4)` enumerasiyasına uyğun gələn ləqəb: **41 ədəd**.
+Onlardan şəhəri **6 hərfli** olanlar (yəni qeydin `(6 2)` və `(6)` sətirlərinə uyğun):
+
+| Ləqəb (3 6 4) | Şəhər (6) | Ştat (2) | Videoda işarə? |
+|---|---|---|---|
+| The Azalea City | Mobile | AL | yox |
+| The Circle City | Corona | CA | yox |
+| The Garden City | Newton | MA | yox |
+| **The Zenith City** | **Duluth** | **MN** | **BƏLİ — "PAUSE" yazan televizorun markası** |
+
+**Cəmi 4 namizəd var və yalnız birinə video fiziki olaraq işarə edir.**
+Üstəlik Vikipediyanın Minnesota siyahısında birbaşa yazılıb:
+```
+*[[Duluth, Minnesota|Duluth]]
+**The Zenith City
+**The Twin Ports (with Superior, Wisconsin)
+```
+
+## Qiymətləndirmə
+- Qeydin hər üç sətri (3 6 4 / 6 2 / 6) eyni anda ödənir.
+- Cavabın uzunluğu 15 simvol = "THE ZENITH CITY".
+- Televizor videoda yalnız son 50 saniyədə görünür və üstündə videonun YEGANƏ "PAUSE"
+  göstərişi çıxır.
+- Digər 3 namizədin heç birinin videoda izi yoxdur (azalea/gül, dairə, bağ).
+→ **ZENITH → DULUTH zənciri təsadüf olma ehtimalı çox aşağıdır.**
