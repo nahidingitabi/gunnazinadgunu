@@ -59,7 +59,7 @@ for k in range(1, n):
     x0,y0 = max(0,x-pad)+cx0, max(0,y-pad)+cy0
     x1,y1 = min(sub.shape[1],x+w+pad)+cx0, min(sub.shape[0],y+h+pad)+cy0
     s = max(4, int(round(900/max(x1-x0, y1-y0))))            # ~900 px on the long side
-    regions[f'P{len(regions):02d}_x{x0}_y{y0}'] = [x0,y0,x1,y1,s]
+    regions[f"P{len(regions):02d}_x{x0}_y{y0}"] = [int(x0),int(y0),int(x1),int(y1),int(s)]
 json.dump(regions, open(f'{OUT}/regions.json','w'), indent=1)
 print(f'{len(regions)} piece candidates', flush=True)
 
