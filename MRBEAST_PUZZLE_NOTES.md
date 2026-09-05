@@ -2232,3 +2232,45 @@ If you think you know the second letter, you probably don't know the second lett
 Kontekst göstərir ki, bu **ekranda göstərdiyi öz riddle-ıdır**, $10k tapmacası deyil.
 
 Transkripsiya davam edir (ümumi 190 dəq). Qalan 16 VOD növbədədir.
+
+## 05.09.2026 ~17:50Z — ★ "Boo! / Five of these." TAM TƏSDİQLƏNDİ + narıncı kartın quruluşu
+
+### ★ Çekmecə kartı — artıq [BORROWED] deyil, [ÖLÇÜLDÜ]
+**t = 20.5–21.5 s aralığında kamera çekmecəyə yaxınlaşır və kart tam oxunur —
+super-rezolyusiyaya ehtiyac belə yoxdur, tək kadr kifayətdir.**
+
+Kartda: **tünd mavi kitabın rəsmi**, üzərində **"Boo!"**, altında **"Five of these."**
+
+Digər sessiyanın iddiası tam təsdiqləndi. Faylar: `pink_when.png`, `BOO_CARD.png`.
+(Qeyd: mənim "çəhrayı vərəq ən böyük olan an" axtarışım məni təsadüfən bu kadra apardı.)
+
+### Narıncı kart — quruluş ölçüldü (iddianı dəstəkləyir)
+`srx.py 94b4d23f 18.5 22.0 300 360 480 510 12 --reftime 20.83` → 39 kadr, 12× yığım,
+sonra mürəkkəb izolyasiyası + deskew (`orangeX_ink.png`).
+
+**Kartda 4 mətn sətri var.** Simvol qrupu sayımı (üç ayrı astanada):
+| sətir | hündürlük | qrup sayı |
+|---|---|---|
+| 0 | 51 px | 1–2 |
+| 1 | 87 px | 2–7 |
+| 2 | 56 px | **8 (üç astanada da sabit)** |
+| 3 | 92 px | 8–12 |
+
+İddia edilən mətnlə tutuşdurma:
+```
+"names..."      = 8 simvol   ↔  sətir 2 = 8 qrup   ✓
+"Alphabetize?"  = 12 simvol  ↔  sətir 3 = 8–12     ✓
+```
+→ **Quruluş "Books w/ old names… / Alphabetize?" iddiasını dəstəkləyir.**
+Hərflər hələ oxunmur, amma sətir sayı və simvol sayları uyğun gəlir.
+Sətir 4-də tək **"?"** aydın görünür.
+
+### Nəticə — "beş kitab" sualı indi daha kəskindir
+İki kart birlikdə oxunur:
+```
+"Books w/ old names…  Alphabetize?"        (narıncı kart)
+kitab rəsmi + "Boo!" + "Five of these."    (çekmecə kartı)
+```
+"Boo!" = **BOOK** sözündən **K** çıxarılmışdır — bu, ya beş kitaba, ya da
+"bir hərfi çıxarılmış beş söz"ə işarədir. Colin-in "mexanizmlər klassikdir" sözü
+ikinci oxunuşu (hərf çıxarma) daha ehtimallı edir — o, tapmaca ənənəsində adi üsuldur.
