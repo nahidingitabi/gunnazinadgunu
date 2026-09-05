@@ -2717,3 +2717,42 @@ bu vərəqlər köhnə ovun həllinin iş qeydləri də ola bilər (səhnə onun
 Yazı ştrixləri 1–2 px-dir → **mətn oxunmur**, yalnız struktur görünür.
 
 → **Bu klaster 12:35–14:00 1080p-dən sonra ikinci prioritetdir.**
+
+### 20:15Z — ★★★ ÜÇ MÜSTƏQİL ÖLÇÜNÜN ÜST-ÜSTƏ DÜŞMƏSİ: **13 parça = 13 hərf = (3 6 4)**
+
+Bu, hesab məsələsidir, təxmin deyil. Üç fakt tam ayrı yollarla alınıb:
+
+| fakt | mənbə | dəyər |
+|---|---|---|
+| parça sayı | icma (`@AustinMartin99`) | **13** |
+| qeydin 1-ci sətri `(3 6 4)` | mənim qeyd oxunuşum | **13 hərf** + 2 boşluq |
+| formadakı ulduz sayı | mənim piksel ölçüm (addım 45.7 px) | **15 simvol** |
+
+**13 hərf + 2 boşluq = 15 simvol.** Üçü də eyni ədədə çıxır.
+
+→ **Boru xətti aydınlaşır:** 13 yapboz parçası → qapalı Euler dövrü sırası →
+hər parçadan **bir hərf** → **13 hərflik üç sözlük ifadə** → forma.
+Yapbozun çıxışı 13 hərfdir, artıq nə az, nə çox.
+
+**Bundan çıxan güclü daralma:** (3 6 4) şablonunu ödəyən ləqəblərin praktiki
+olaraq hamısı `THE ______ CITY` formasındadır (45 ləqəbdən 43-ü). Yəni
+13 hərfin **7-si əvvəlcədən bəllidir**: `T H E · _ _ _ _ _ _ · C I T Y`.
+**Yapbozdan yalnız ortadakı 6 hərflik söz lazımdır:**
+`ZENITH` / `FOREST` / `AZALEA` / `GARDEN` / `CIRCLE`.
+
+### Hərf təyini — HƏLƏ SINAQDAN KEÇMƏYİB (fərziyyə kimi qeyd edirəm)
+Əgər hər şəkil öz adının **baş hərfini** verirsə, mənim (qeyri-müəyyən) şəkil
+identifikasiyalarım `FOREST` üçün ən çox uyğunluq verir:
+`F`(lag) · `O`(man) · `R`? · `E`(gg = iri tünd oval) · `S`(now) · `T`(rees = iki
+hündür şaquli obyekt). Amma:
+* şəkil identifikasiyalarımın yarısı **təxmindir** (qızılı obyekt, iki uclu siluet,
+  iri oval — heç biri əmin deyil),
+* `THE…CITY` hissəsi üçün lazım olan hərflər (`T`×3, `H`, `C`, `I`, `Y`) heç bir
+  şəklə oturmur — xüsusən **`Y` və `I`** üçün namizəd yoxdur,
+* eyni məntiqlə `ZENITH` üçün `Z` və `N`, `CIRCLE` üçün `I` və `L` də tapılmır.
+→ **Bu, "gözlədiyim cavaba uyğunlaşdırma" riski daşıyır. Sübut kimi
+qəbul etmirəm.** Yalnız 13 parçanın hamısı oxunanda yoxlanıla bilər.
+
+**Yoxlanıla bilən proqnoz:** əgər boru xətti doğrudursa, 13 şəkil arasında
+**`Y` ilə başlayan bir şəkil olmalıdır** (hər beş namizəd `CITY` ilə bitir).
+Bu, tapılanda bütün fərziyyəni bir anda təsdiq və ya rədd edəcək.
