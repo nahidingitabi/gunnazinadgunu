@@ -613,3 +613,76 @@ You'll love EXSANGUINOUS!
 **Akrostik testləri (söz sırası və əlifba sırası ilə; ifadənin ilk hərfi, son hərfi,
 son sözün ilk hərfi) — hamısı səs-küy** (bal 8.8–18.5; həqiqi ingilis mətni ≈2.5).
 Yəni bu ifadələr sadəcə saxta turizm saytının bəzəyidir.
+
+## 05.09.2026 ~01:10Z — ★★★ BÖYÜK İRƏLİLƏYİŞ: "PAUSE" ekranı, DoctorXOR, 15 ulduz
+
+### ★★★ 1) MrBeast-in BƏRKİDİLMİŞ (pinned) ŞƏRHİ — indiyə qədər tapılmayıb
+Videonun şərhləri yenidən çəkildi (`mb3/`, 3000 şərh, "yeni" sıralaması ilə):
+> **@MrBeast (10 000 bəyənmə, pinned): "Make sure you check out Colin's profile 👀
+> https://tinyurl.com/xorprofile"**
+
+tinyurl açılışı (301 → Location):
+```
+https://gchq.github.io/CyberChef/#recipe=XOR({'option':'UTF8','string':'%H6U=)Z7</#bq'},
+'Standard',false)&input=QWFhYWFBLWFhQWEjIw
+```
+- Açar (13 simvol): `%H6U=)Z7</#bq`
+- Giriş (base64 → mətn, 13 simvol): `AaaaaA-aaAa##`
+- XOR nəticəsi: `d)W4\hwV]nBAR` (mənasız).
+- Giriş sətri **format maskası** kimi görünür: A=böyük hərf, a=kiçik hərf, #=rəqəm.
+- **Açar da, giriş də tam 13 simvoldur** — aşağıdakı (3 6 4) = 13 hərflə üst-üstə düşür.
+
+### ★★★ 2) Colin = **DoctorXOR** (youtube.com/@doctorxor) və $10 000-lıq tapmacanı O QURUB
+Videonun təsvirində: "Check out Colin: youtube.com/@doctorxor".
+Colin-in öz videosunun (XCOkRKUe3Nc) təsvirində açıq yazılıb:
+> "MrBeast's video explanation (**and also I made a $10,000 puzzle** 😄)"
+- Kanal təsviri (profil): *"Send me a puzzle - or join me solving puzzles on Twitch every
+  Thursday evening"* + Steinbeck, "The Pearl" sitatı: **"there are only good and bad things
+  and black and white things and good and evil things and no in-between anywhere"**
+  → ikili (binary/XOR) işarəsi.
+- Colin-in başqa videoları: "The Ramblings of a Million Dollar Winner (**Riddle #0: The Hat
+  Trick**)" və əsas videoda "**Riddle #1**" (ayrı, kiçik tapmacalar; $10k deyil).
+- Twitch: twitch.tv/doctorxor · Instagram: instagram.com/doctorxor
+
+### ★★★ 3) **17:00 — ZENITH TV-də "PAUSE ⏸" YAZISI** (ən vacib tapıntı)
+Şərhçilər (@igearmedia 22 bəyənmə, @สิทธิศักดิ์) göstərdi: "pause the video at the end where
+the zenith monitor says pause". Təsdiqləndi:
+- **16:58.9 – 17:01.2 arası** köhnə Zenith TV ekranında böyük **`PAUSE ▮▮`** (VCR OSD) yazısı var.
+- Yəni video birbaşa deyir: **BURADA DAYANDIR VƏ MASAYA BAX.**
+- 66 kadr üst-üstə yığıldı (`pause_stack.png`, kamera sabitdir).
+
+**Masanın üstündəki əşyalar (17:00):**
+| Əşya | Vəziyyət |
+|---|---|
+| Narıncı **disklə (rotary) telefon** — diskin ətrafında qara **nöqtə/tire** işarələri | ⚠ 1080p-də oxunmur |
+| Ağ kağız: **`(3 6 4) → (6 2) ↓ (6)`** əl yazısı | oxundu (son mötərizə qutunun altındadır) |
+| Yaşıl yapışqan qeyd | bu bucaqdan boşdur |
+| Yaşıl lentli karton qutu | yazı yoxdur |
+
+### ★★★ 4) Cavabın UZUNLUĞU: **15 simvol**
+17:25–17:29 ekrandakı "BEAST SWEEPSTAKES / Guess the answer*" formasında yazılan
+ulduzlar dəqiq sayıldı (sütun proyeksiyası, 4 kadr): **tam 15 ulduz**.
+- **(3 6 4) = 13 hərf + 2 boşluq = 15 simvol.** Tam uyğunluq!
+- Forma mətni: "You can guess multiple times, but there is only 1 …", "Your email*",
+  "We'll send a verification code to confirm your e…", "I confirm I am …Policy.",
+  düymə: `SUBMIT`, sağında kəsilmiş `press…`.
+
+### 5) Sonluqdakı QR — yenidən yoxlandı
+17:31–17:35 arası QR **hər kadrda dəyişir** (maska/versiya dövr edir), lakin zxing-cpp ilə
+115 kadr uğurla açıldı və **hamısı eyni**: `https://puzzle-video-sweepstakes.mrbeast.app/`.
+Gizli məlumat yoxdur.
+
+### 6) 5:03 semafor əlifbası — TAM DÜZGÜNDÜR (mənfi nəticə)
+5:03-də ekranda bütöv semafor əlifbası (26 sarı fiqur, A–Z) göstərilir; bu, köhnə
+tapmacanın **PG4/SB7-9** (küçə nişanları → ARMAVIR ARMENIA) izahıdır.
+Fiqurlar avtomatik çıxarıldı və oxundu: 26 cütün hamısı **fərqlidir**, 8 mövqedən
+seçilən 28 cütdən yalnız {N,NE} və {NW,SE} (rəqəm və ləğv işarələri) yoxdur —
+yəni əlifba **standart və səhvsizdir**. PDF-in A=SW/S, R=W/E, M=SW/E, V=N/SE
+qeydləri ilə tam uyğundur. **Gizli mesaj yoxdur.**
+
+### ⚠ LAZIM OLAN: 4K (2160p) KADR
+Videonun YouTube-da **2160p** formatı var (format 401/313). Telefon diski 1080p-də cəmi
+~230 px enindədir və üzərindəki morze işarələri oxunmur. 4K-da ~460 px olar.
+**Xahiş: 17:00 anından bir ədəd 2160p şəkil (screenshot) və ya 16:57–17:02 arası
+qısa 2160p klip lazımdır.**
+
