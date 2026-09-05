@@ -731,3 +731,42 @@ URL sorğu edən IP-yə bağlıdır, media sorğusu isə agent-proxy-nin başqa 
 Köhnə `ocr_all.json` (360p, 1 fps) **17:00-dakı "PAUSE" yazısını qaçırıb**. Yəni OCR
 bazalarımda yalançı-mənfi var. Bütün video 2 fps + 3× böyütmə ilə yenidən OCR edilir
 (`ocr_full2.json`).
+
+## 05.09.2026 ~02:10Z — ★★★ CAVABIN FORMATI TAPILDI: what3words (3.6.4)
+
+### Tam videonun yenidən OCR-i (2 fps, 3× böyütmə) — `ocr_full2.json`
+1647 kadrda mətn (əvvəlki `ocr_all.json`-da 685 idi), **3512 fərqli sətir** (əvvəl 1995).
+2674 sətir tamamilə yenidir. Bu, əvvəlki OCR-in ciddi boşluqları olduğunu təsdiqlədi.
+
+### ★★★ 9:35–10:06 — "cryptic trio" mexanizmi tam açıldı
+beast.travel ekranında **9 kart** göstərilir, hər kartda 3 kriptik ipucu + enumerasiya.
+Nümunə (videoda addım-addım göstərilir):
+```
+"Pushed down sequel to 'Myst' (6)"                  → DRIVEN   (D + RIVEN, Riven = Myst-in davamı)
+"Crossing path in traveling thing in this hunt (4)" → HINT
+"Little devil wandering and getting better (9)"     → IMPROVING (IMP + ROVING)
+→ what3words: ///driven.hint.improving → Christchurch, New Zealand → sayğac 52/91
+```
+Ekrandakı 9 kartın **hamısı** PDF-dəki rəsmi siyahı ilə üst-üstə düşür (MP16–24):
+reclined.smokes.mazelike(8.6.8), driven.hint.improving(6.4.9), towers.decoder.models(6.7.6),
+sticky.rejected.jigsaw(6.8.6), calibrate.charted.puzzle(9.7.6),
+cryptically.packaging.bathrooms(11.9.9), dusts.enigma.desks(5.6.5),
+headstart.anagram.griddled(9.7.8), quiz.delivers.equality(4.8.8).
+**Əlavə/uydurma trio YOXDUR.**
+
+### ★★★ ƏSAS NƏTİCƏ: 17:00-dakı qeyd = what3words enumerasiyası
+Videonun öz konvensiyası budur: **kriptik trio → enumerasiya → what3words → yer**.
+Masadakı qeyd `(3 6 4)` məhz bu formatdadır və:
+- `xxx.xxxxxx.xxxx` = 3 + 1 + 6 + 1 + 4 = **15 simvol**
+- Forma ekranındakı ulduzların sayı = **15** ✓✓✓
+- Rəsmi 9 trionun heç birində (3 6 4) enumerasiyası YOXDUR → yəni bu **YENİ** ünvandır.
+
+**HÖKM: $10 000-lıq cavab çox güman 3, 6 və 4 hərfli sözlərdən ibarət
+what3words ünvanıdır (`///xxx.xxxxxx.xxxx`).**
+Qeydin davamı `→ (6 ?) ↓ (6)` isə ünvanın göstərdiyi yerin adı ola bilər
+(məs. "ŞƏHƏR ÖLKƏ" (6 8) → "ŞƏHƏR" (6)) — videodakı nümunə ilə eyni məntiq.
+
+### Növbəti addım
+**3 kriptik ipucunu tapmaq** (uzunluqları 3, 6, 4). Ekranda `(3)` enumerasiyalı heç bir
+sətir yoxdur (bütün OCR bazalarında yoxlandı) → ipuçları yazılı kart şəklində deyil,
+başqa formada gizlədilib. Ən güclü namizəd: **telefon diskindəki morze** (4K lazımdır).
