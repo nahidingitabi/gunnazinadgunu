@@ -1778,3 +1778,65 @@ Mümkün zəncir parçası: **2–4 → 4–7 → 7–6 → 6–5**.
 Amma "4" üç dəfə görünür (2|4, 4|7, 8|4), sadə zəncirdə isə hər rəqəm ən çox iki dəfə
 qonşuluq edə bilər. Yəni ya rəng təyinatlarından biri səhvdir, ya divar klasterləri
 parça deyil, ya da zəncir sadə deyil. **Nəticə çıxarmaq üçün hələ tezdir.**
+
+## 05.09.2026 ~16:20Z — VİDEO XARİCİ AXTARIŞ: MÜƏLLİFİN ÖZ AÇIQLAMALARI
+
+### ★★★ COLIN ÖZÜ ŞƏRHLƏRDƏ CAVAB VERİB (səlahiyyətli mənbə)
+Onun iki videosunun şərhlərində `@doctorxor` hesabından yazılıb:
+
+> **"This is not part of the 10k puzzle"** — "Hat Trick / Riddle #0" videosu haqqında
+> **"It is not relevant to MrBeast's challenges, I promise 😅 I made this quite a bit earlier."**
+> **"Nope, not relevant to the MrBeast puzzle!"** — öz $1M təhlil videosu haqqında
+> *("...although the generic puzzlehunt advice in the intro doesn't hurt to know.")*
+
+→ **Colin-in ÖZ VİDEOLARI $10k tapmacasına aid DEYİL.** Yalnız onun **profili**
+(kanal təsviri) aiddir, çünki MrBeast-in sancılı şərhi ora yönəldir.
+Bu, böyük bir sahəni birdəfəlik bağlayır.
+
+### "Try saying it out loud … the third line is faster!" — ARADAN QALDIRILDI
+Colin bunu iki nəfərə yazıb, amma valideyn şərhləri göstərir ki, söhbət **onun öz
+videosundakı ayrıca brain teaser**-dən gedir, $10k tapmacasından yox. Yanlış izdir.
+
+### İcmanın inventarı (şərhlərdən, yoxlanmalıdır)
+`@AustinMartin99`: *"there's **13 puzzle pieces**, each one has its own pictures and
+**two sets of Roman numerals being in red and black**. We have **6 distinct numbers** in
+color coordination. We have a black book with the letters **boo** on it and it says
+**five of these** underneath it"*
+→ Rənglər **QIRMIZI və QARA** deyilir (mavi yox). Mənim ağ-balans testim ABŞ bayrağı
+kartında "mavi" vermişdi — isti işıq qaranı mavi kimi göstərmiş ola bilər. **Diqqət.**
+
+`@YAKIchallengers`: *"Rail Fence / LSWRTE / NNHTIN / HDOTA / LAST WORD THEN NINTH"*
+→ Bu deşifrə **ictimaidir**, şərhlərdə açıq yazılıb. Üstünlük deyil.
+
+### ★ HEÇ KİM QAZANMAYIB (yoxlandı)
+Rəsmi qaydalar: müsabiqə **qalib cavab qəbul edilən anda bitir**.
+Sayt indi yüklənib əvvəlki nüsxə ilə **bayt-bayt eynidir** (md5 eyni) →
+**forma hələ açıqdır, qalib yoxdur.**
+
+### Rəsmi qaydalardan çıxan faktlar
+- *"Clues to solving the Puzzle will be available **in the Video**"* → ipucular videodadır;
+  xarici mənbələr yalnız dəstəkdir (sancılı şərhin göstərdiyi profil istisna).
+- *"TO WIN YOU MUST BE THE FIRST PERSON TO SUBMIT THE ANSWER **100% CORRECTLY**"*
+- Qalib $10,000 alır; müsabiqə 2 sentyabr 2027-yə qədər açıqdır.
+
+### ★ Lone Shark Games — "beş kitab" izi
+Video təsviri **Lone Shark Games**-i $1M ovunu quran şirkət kimi göstərir.
+Onların saytında **Books** menyusu: *Dealer's Choice · Letters to Margaret · Mindspaces ·
+Puzzlecraft · The Hunting of the Shark · The Maze of Games*.
+Narıncı kartın iddia edilən mətni **"Books w/ old names… / Alphabetize?"** və çekmecə
+kartı **"Boo! / Five of these."** ilə birlikdə bu, kitab şifri istiqamətini göstərir.
+
+**Colin özü kitab şifrindən danışır:** *"...and THEN if you knew what to do with the
+algorithm after all that, you had to do an **evil little book cipher**. (In my opinion,
+book ciphers and their equivalents are the hardest things out there already.)"*
+
+→ **Fərziyyə:** çəhrayı indeks vərəqi (səhifə + rum rəqəmi cütləri) bir **kitab şifridir**.
+Ən ehtimallı "kitab" — **84 səhifəlik cavab açarı PDF-i** (pulsuz, video təsvirində
+linklənib, Colin özü də şərhdə linkləyib). İddia edilən dəyərlər "029", "039" 84-dən
+kiçikdir, bu uyğun gəlir. Rum rəqəmi səhifədəki söz/sətir nömrəsi ola bilər.
+**Yoxlamaq üçün çəhrayı vərəqin məzmunu lazımdır.**
+
+### Digər yoxlamalar
+- `mrbeast.salesforce.com` → 403 (bağlıdır)
+- Invidious güzgüləri və yt-dlp şərh endpoint-i datamərkəz IP-dən bloklanır
+- Veb axtarışda tapmacaya dair icma müzakirəsi tapılmadı (çox yeni/niş)
