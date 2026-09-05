@@ -2872,3 +2872,45 @@ ya çıxmayacaq (sıralama). Bu, iki fərziyyəni birbaşa ayırır.
 Qonşu "I" ştrixləri bulanıqlıqda birləşir: qırmızı düzbucaqlının "VII"-si
 3 zirvə verdi (V=2 + II birləşib 1). → **Zirvə sayı yalnız aşağı hədd verir**,
 tək başına VI/VII/VIII-i ayırmır. Vizual oxunuşla birlikdə istifadə edilməlidir.
+
+### 21:00Z — İNVENTAR (yeni 1080p, t=764.95 istinadı) və ★ SIRALAMA FƏRZİYYƏSİ RƏDD EDİLDİ
+
+**Oxunmuş kartlar (mavi | qırmızı):**
+| # | şəkil | mavi | qırmızı | əminlik |
+|---|---|---|---|---|
+| 1 | Oman bayrağı | **V** | **VI** | ★★★ iki ayrı klip, Δa* ±4…6 |
+| 2 | Afrika + Madaqaskar | **VIII** | **IV** | ★★★ |
+| 3 | qar buludu | **VI** | **IX** | ★★ (əvvəl "V" demişdim — **VI**-dır, düzəliş) |
+| 4 | ABŞ bayrağı + tövlə | **IV** | **VII** | ★★ |
+| 5 | təqvim (iri qırmızı 25) | **IV** | **III** | ★★ |
+| 6 | bant / lent | **VII** | **V** | ★★ |
+| 7 | qırmızı düzbucaqlı | **VIII** | **VII** | ★ |
+| 8 | sütun qrafiki | ? | **VIII** | ★ Δa* +6.4 |
+| 9 | iki hündür obyekt | **VI** | **VII** | ★ |
+| 10 | qırmızı kapüşonlu adam | ? | ? | — |
+| 11 | sarı kart | ? | VIII? | — |
+| 12 | çərçivəli şəbəkə | ? | ? | — |
+| 13 | qızılı yumru obyekt | ? | ? | — |
+| 14 | tünd oval + kiçik fiqur | ? | ? | — |
+
+### ★ Bir dövrə əvvəlki fərziyyəmi ÖZÜM RƏDD EDİRƏM
+20:50-də yazmışdım: *"qırmızı dəyərlər III–VIII, altı ardıcıl, təkrarsız → qırmızı
+= sıra, Euler dövrü yox"*. **Yeni oxunuşlar bunu dağıdır:**
+* qırmızı **VII** üç kartda görünür (ABŞ bayrağı, qırmızı düzbucaqlı, iki obyekt),
+* mavi **IV** iki kartda (ABŞ bayrağı, təqvim), mavi **VI** iki kartda (qar buludu,
+  iki obyekt), mavi **VIII** iki kartda (Afrika, qırmızı düzbucaqlı).
+→ **Hər iki rəngdə təkrar var.** Sıralama fərziyyəsi ölür; **istiqamətli
+til / domino oxunuşu sağ qalır.**
+→ Diapazon indi **III…IX** (ən azı 7 dəyər), 6 deyil.
+
+### Düzəliş
+Qar buludunun mavi rəqəmi **V yox, VI**-dır (yeni klipdə aydın görünür).
+Bu, "iki kartda da mavi V" ziddiyyətini də aradan qaldırır — Oman tək mavi V-dir.
+
+### Metodik qeyd — nə işlədi, nə işləmədi
+* **İşlədi:** kartın öz kağızına görə Δa* ölçüsü (indi ±4…6, şübhəsiz);
+  yaxın qutu üçün **lokal kontekstlə ayrıca homoqrafiya keşi** (`hn765c.npz`) —
+  qlobal keşdə həmin qutu parallaksdan bulanıq çıxırdı.
+* **İşləmədi:** ştrix zirvələrinin sayılması (qonşu "I"-lər birləşir) və
+  en/hündürlük nisbəti (kartlar müxtəlif bucaqlarda olduğu üçün normallaşmır).
+  VI/VII/VIII ayırd etməsi hələ də vizual oxunuşa dayanır.
