@@ -2494,3 +2494,22 @@ görə birincidir ki, videoda tək fiziki dayaq ondadır (bağlanış otağında
 `CANDIDATES.md`-də açıq yazılıb ki, bu 15-in **heç biri həll deyil** — hamısı qeyd +
 firuzəyi kart zəncirindən çıxan ehtimallardır. Əsl giriş müəllifin dediyi kimi
 yapboz halqasıdır və o hələ bağlanmayıb.
+
+### 19:05Z — daha 5 parçanın ŞƏKLİ və YAPBOZ KONTURU çıxarıldı (rəqəmlər yox, şəkil)
+Şəkillər rəqəmlərdən **aşağı tezliklidir**, ona görə 1080p geniş plandan oxunur.
+`warpreg.py` + `hcache_office.npz`, istinad t=20.30, 249–283 kadr median.
+
+| yer (t=20.30) | şəkil | qeyd |
+|---|---|---|
+| (1755,620) yuxarı | **təqvim vərəqi**: yuxarıda sətirlər, ortada çərçivədə iri iki rəqəmli ədəd (**25** və ya **28**), altda xətt | PG2 "təqvim" ilə uyğun gəlir |
+| (1770,660) aşağı | **iki hündür şaquli obyekt** — sol tünd (yuxarısı yumru), sağ açıq boz | şam? qüllə? şüşə? ⏸? — həll olunmadı |
+| (1690,715) yuxarı | **qızılı yumru obyekt**, altında açıq zolaq, sol-aşağıda ağ əyri element | burger 🍔 / bal qabı / sikkə bankası? |
+| (1685,750) aşağı | **iri tünd oval** + yanında kiçik tünd fiqur | drinky bird? yumurta + ? |
+| (1656,835) | **tünd siluet: yuxarıda iki uc, aşağı doğru daralaraq yumru bitir** | pişik başı / yarasa / ox ucu? |
+
+★ **Ən vacib yan tapıntı:** bu çözünürlükdə **yapboz dişlərinin konturu aydın
+görünür** (cardsA-da iki parçanın kvadrat dilləri və oyuqları tam seçilir).
+Yəni **halqanı rəqəmlərdən asılı olmadan, sırf FORMA uyğunluğu ilə qurmaq
+mümkündür.** Rəqəmlər 1080p geniş planda sərhəddədir, kontur isə deyil.
+→ Növbəti addım: bütün parçaların konturunu çıxarıb dil/oyuq profillərini
+uyğunlaşdırmaq.
