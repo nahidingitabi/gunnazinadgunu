@@ -2785,3 +2785,55 @@ təqvim**, kağızlar — **yapboz parçası yoxdur**.
 
 → Qalan 4 parça ya MrBeast-in arxasında qalan qutu üzlərindədir, ya da hələ
 baxmadığım bir plandadır. **12:35–14:00 1080p bunu da həll edərdi.**
+
+## 05.09.2026 ~20:35Z — ★★★ YENİ 1080p GƏLDİ, PARÇALAR OXUNMAĞA BAŞLADI
+
+İstifadəçi iki yeni 1080p klip atdı. Ofsetlər 360p kliplərlə uyğunlaşdırılaraq
+ölçüldü və `clipmap.json`-a yazıldı:
+* **`1bc10ec4`** → ofset **721.172**, 58.1 s → **12:01–12:59**
+* **`67592638`** → ofset **775.532**, 115.9 s → **12:55–14:51**
+
+### Ən yaxşı an tapıldı: **t = 764.95 s**
+765–767.7 planı boyu miqyas ölçüldü: **764.95-də 1.070 → 767.65-də 0.905** —
+kamera geri çəkilir, yəni **kartlar planın ƏN BAŞINDA ən böyükdür**.
+`hn765.npz` quruldu (82 kadr, istinad 764.95, kontekst 880,0–1420,700).
+
+### ★ RƏNGLƏR: QIRMIZI və **MAVİ** (qara deyil!) — ölçüldü
+Ən aydın kartda (Oman + Afrika, `srn3/T3.png`, 16×) mürəkkəbin a* göstəricisi
+kartın öz kağızına görə:
+```
+OMAN  yuxarı VI   da* = +5.63   -> QIRMIZI
+OMAN  aşağı  V    da* = -3.75   -> MAVİ
+AFRİKA       VIII da* = -0.16, db* = -2.73  -> MAVİ
+AFRİKA       IV   da* = +5.58   -> QIRMIZI
+```
+Fərq artıq ±3…±6-dır (əvvəl ±1…±3 idi) — **şübhə yeri qalmır**.
+→ İcmanın "red and black" deməsi qismən səhvdir: ikinci rəng **mavidir**.
+→ **Mənim əvvəlki oxunuşlarım tam təsdiqləndi:** Oman = mavi V | qırmızı VI,
+Afrika = mavi VIII | qırmızı IV. (Ayrı mənbə, ayrı bucaq, eyni nəticə.)
+
+### Ştrix sayımı kalibrləndi
+Sütun profili zirvələri: **V = 2 zirvə, I = 1 zirvə, X = 2**. Yəni
+IV=3, V=2, VI=3, VII=4, VIII=5, IX=3. Afrika VIII → **5 zirvə ✓**,
+Afrika IV → **3 zirvə ✓**. Kalibrləmə nəzarətdə işləyir.
+
+### Yeni oxunanlar (bu planda)
+| şəkil | mavi | qırmızı | əminlik |
+|---|---|---|---|
+| Oman bayrağı | **V** | **VI** | ölçülüb, yüksək |
+| Afrika + Madaqaskar | **VIII** | **IV** | ölçülüb, yüksək |
+| təqvim vərəqi (iri qırmızı "25") | **IV** | **III** | ölçülüb (da* −0.32 / +2.54) |
+| bant/lent (bow) | **VII** | **V** | görüntü aydın |
+| qırmızı düzbucaqlı | VIII? | VII/VI? | qeyri-müəyyən |
+| sütun qrafiki | IX? | VII/VIII? | qeyri-müəyyən |
+| qırmızı kapüşonlu adam | ? | **II** | qismən |
+| iki hündür obyekt | VI | VI/VII? | qeyri-müəyyən |
+
+### ★★ VACİB: rəqəm dəsti IV–IX-dan GENİŞDİR
+Təqvim kartında **III**, adam kartında **II** var. Yəni icmanın "6 fərqli rəqəm"
+ifadəsi ya səhvdir, ya başqa şeyə aiddir. **Diapazon ən azı II…IX-dur.**
+Bu, "6 düyün" fərziyyəmi zəiflədir — düyün sayı daha çoxdur.
+
+### Bütün kartlar bir plandadır
+12:45 bucağında kartlar beş klasterdə görünür: T1 (6 kart), T2 (2), T3 (2),
+T4 (2), T6 (2) → **14 kart yeri**. İcmanın "13–14" sayımı ilə uyğun.
