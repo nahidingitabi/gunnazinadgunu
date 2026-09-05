@@ -580,3 +580,36 @@ sonra authored altyazı ilə söz-səviyyəsində difflənildi:
 RED HERRING BANK (PG5 çıxarış vərəqəsi), "THE BEST CUSTOMERS!" / "THE BEST BANK!" (PG8 poster),
 "FROM MR BEAST" (hədiyyə), "CODE", "BELT", "Slackbot: Good luck!" (SB ekranı), "10s" (SB7),
 qalanı Twitch chat. **Hamısı köhnə tapmacanın materialıdır.**
+
+## 05.09.2026 ~00:30Z — üç yeni hipotez sınandı (hamısı mənfi) + yeni verilənlər toplusu
+
+### 1) "Video güzgü əksidir" hipotezi — MƏNFİ
+Bütün 573 ədəd 1080p kadr üfüqi çevrilib (cv2.flip) yenidən OCR edildi. Çevrilmiş kadrlarda
+görünən, amma normal kadrlarda olmayan **söz-bənzər sətir sayı: 0**. Videoda güzgü mətn yoxdur.
+
+### 2) "Qısa mətn sıçrayışı" (flash) hipotezi — MƏNFİ
+OCR-im 1 fps idi, ona görə 0.3 saniyəlik mətn 70% ehtimalla buraxıla bilərdi. Buna görə:
+8 klipin hamısı 10 fps-də kadr-fərqi ilə tarandı (5920 nümunə), 99-cu persentil həddi ilə
+15 "flash" namizədi tapıldı, hər biri ətrafında **30 fps-də** OCR edildi (294 kadr).
+Nəticə: hamısı adi montaj kəsikləridir. Yeni mətn yoxdur.
+(Yalnız kiçik qeyd: 5:05-də "Ninja Sward" — PG/GC rekvizitidir.)
+
+### 3) ★ YENİ VERİLƏNLƏR: 40 sözün "caption" ifadələri (PDF-də yalnız 9-u var)
+beast.travel səhifələrindən 10 fps OCR ilə **37/40** ifadə çıxarıldı (çatışmayan:
+SCAPULOMANCY, THEANTHROPIC, ULTRAMONTANE):
+Return to NEBULAPHOBIA! · Head off to MARIMBAPHONE! · Join us at BARODYNAMICS! ·
+See lovely EBULLIOSCOPE! · Stay at RECEPTACULAR! · Stop off at SALAMANDROID! ·
+Meet us at FURFURACEOUS! · Drop in on OCHROLEUCOUS! · Take in RISORGIMENTO! ·
+You'll like HAPAXANTHOUS! · Come to INCLINOMETER! · Get down to HEKISTOTHERM! ·
+Vacation at ABERUNCATORS! · Now booking LACHRYMIFORM! · Have fun at FISSICOSTATE! ·
+Time for WINDCHEATERS! · Swing by OLERICULTURE! · Revisit UNDERBRIDGES! ·
+Ride out to LAEVODUCTION! · Find us in DEAMBULATORY! · Holiday in SCAFFMASTERS! ·
+Jet on into MACHAIRODONT! · Come visit ECTYPOGRAPHY! · Go to LAMPADEPHORE! ·
+Now enjoy LIGNIPERDOUS! · See you at ABOUTSLEDGES! · Stop in at SERPENTICIDE! ·
+We dream of SNALLYGASTER! · Pop into WINTERBOURNE! · Be well at EPANOSTROPHE! ·
+Chill at ELEEMOSYNARY! · So nice at TERAMORPHOUS! · Such fun at ABSQUATULATE! ·
+We suggest SAPONIFIABLE! · Rest up at ODORIVECTORS! · Next stop: NARRISCHKEIT ·
+You'll love EXSANGUINOUS!
+**Akrostik testləri (söz sırası və əlifba sırası ilə; ifadənin ilk hərfi, son hərfi,
+son sözün ilk hərfi) — hamısı səs-küy** (bal 8.8–18.5; həqiqi ingilis mətni ≈2.5).
+Yəni bu ifadələr sadəcə saxta turizm saytının bəzəyidir.
