@@ -2321,3 +2321,16 @@ Oman          VI | V
 qar buludu    IX | ?
 ```
 Qalan ~9 parça oxunmalıdır. Metod: `srx.py … --reftime <parçanın ən böyük göründüyü an>`.
+
+### İpucunun yüksək dəqiqlikli təsdiqi (`small.en`, beam 5)
+```
+[130:43] "I do have a hint — if you have not gotten anything, if you don't think you've
+          made any progress… I do not mind a starting hint, but that's as far as I go
+          right now, 'cause like the Super Bowl — even the Super Bowl had hundreds of
+          hints. So the starting hint is… or maybe it's just a questionnaire — but
+          THE INITIAL QUESTION IS: HAVE YOU SOLVED THE JIGSAW PUZZLE?"
+[132:38] "…the jigsaw puzzle in MrBeast's video. THE FIRST THING YOU SHOULD DO IS LOOK
+          FOR A JIGSAW PUZZLE. And that's as far as I'm going to say right now,
+          it's just to get you started."
+```
+İki müstəqil model (base.en və small.en) eyni cümlələri verir. **Təsdiqlənmişdir.**
