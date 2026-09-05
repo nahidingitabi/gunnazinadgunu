@@ -1713,3 +1713,39 @@ Colin bu video üçün yerləşdirdiyi əşyalar açarda YOXDUR.
 obyektin ƏN BÖYÜK göründüyü an olmalıdır; homoqrafiya miqyası özü düzəldir, ona görə
 uzaq kadrlar da yaxın referensin şəbəkəsinə oturur və çözünürlüyə əlavə edir.
 Bu, telefon məsələsini həll edən dəyişiklikdir.
+
+## 05.09.2026 ~15:55Z — ★★★ YAPBOZ PARÇALARININ RUM RƏQƏMLƏRİ OXUNDU
+
+`--reftime` düzəlişi məsələni açdı. Əvvəl referens kadr "ən kəskin" seçilirdi; indi
+obyektin **ən böyük göründüyü** kadr seçilir və homoqrafiya bütün digər kadrları həmin
+şəbəkəyə oturdur. Digər sessiya 180 kadrlıq 4× yığımla heç bir rəqəm ala bilməmişdi.
+
+```
+python3 srx.py 94b4d23f 16.6 22.0 1540 380 1920 1080 6 sr_cards_all.png --reftime 19.2
+→ frames=161 aligned=113  size=2280x4200
+```
+
+### ★ OXUNAN RƏQƏMLƏR
+| kart | rəqəmlər | əvvəlki iddia | nəticə |
+|---|---|---|---|
+| **ABŞ bayrağı** | **IV** (yuxarı sağ) · **VII** (aşağı sol) | "IV / VII (zəif)" | **TƏSDİQLƏNDİ** |
+| **Oman bayrağı** | **VI** (yuxarı sol) · **V** (altında) | "mavi V və ya VI, qırmızı VI" | **hər ikisi var: VI və V** |
+| **Afrika + Madaqaskar** | **VIII** (yuxarı sol) · **IV** (sağ) | "mavi VII və ya VIII, qırmızı IV" | **VIII kimi HƏLL OLUNDU** |
+| **qar buludu** (boz bulud + ağ nöqtələr) | **IX** (aşağı sol) | *onların cədvəlində YOXDUR* | **YENİ KART** |
+
+Rəng ayırması: ABŞ bayrağı kartında kağızı ağ referens götürəndə **IV = MAVİ**,
+**VII = QIRMIZI** çıxır (r−b = −21 / +60). Digər kartlarda isti volfram işığı və karton
+fonu ağ balansını pozur, ona görə **mavi/qırmızı təyinatı yalnız ABŞ bayrağı üçün
+etibarlıdır.** Rəqəmlərin FORMASI isə hamısında etibarlıdır.
+
+### ★ YENİ OBYEKT — yerdəki əlyazma vərəqi (heç kim bildirməyib)
+Ofis dəstinin sağ aşağı küncündə, yerdə, mötərizəli qruplar yazılmış bir vərəq var
+(`floor_sheetA.png`, 113 kadr 10× yığım, orijinal ~1540–1690 × 957–1002 px).
+Yazı üslubu **bağlanış bloknotu ilə eynidir** — mötərizə içində qruplar.
+Vərəq əyri uzandığı üçün tam oxunmur, amma struktur aydındır. **Prioritet hədəf.**
+Yanında: məlum "$10,000!" vərəqi (baş-ayaq yazılmış) və gözlə "X" çəkilmiş bir vərəq.
+
+### Səth süzgəci tamamlandı — hamısı boş
+brezent pərdə · masanın taxta üzü · çekmecə üzləri · bağlanış otağının qutusu ·
+ekran altındakı hüquqi mətn (video təsviri ilə hərfi-hərfinə eyni).
+Sağ divarın SR-ində stikerlərin rəqəmləri **6 / 7 / 4** artıq gözlə oxunur.
