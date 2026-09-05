@@ -905,3 +905,43 @@ Bir video **yenidən adlandırılıb**:
 `IU89_plbom0`: "Will This Be the Greatest Puzzle Game Ever? - Order of the Sinking Star (Demo)"
 → **"Beware the Puzzling Snake-Goat: Order of the Sinking Star (Demo)"**
 Yeni video yoxdur (21 video, eyni). Çox güman adi başlıq testidir, amma qeyd edilir.
+
+# ★★★★★ 05.09.2026 ~05:40Z — GÜCLÜ HƏLL NAMİZƏDİ: "THE ZENITH CITY" → DULUTH, MINNESOTA
+
+## Zəncir
+| Addım | Dəyər | Qeydlə uyğunluq |
+|---|---|---|
+| Nişan (nickname) | **THE ZENITH CITY** | THE(3) ZENITH(6) CITY(4) = **(3 6 4)** ✓ |
+| Simvol sayı | `THE ZENITH CITY` = 13 hərf + 2 boşluq = **15** | formadakı **15 ulduz** ✓ |
+| Şəhər + ştat | **DULUTH MN** | **(6 2)** ✓ |
+| Şəhər | **DULUTH** | **(6)** ✓ |
+
+## Sübutlar
+1. **17:00-da TV "PAUSE ⏸" göstərir** — bütün videoda YEGANƏ belə göstəriş (2 fps OCR ilə
+   təsdiqlənib) → "burada dayandır və bax".
+2. **O televizor ZENITH markasıdır.** Ekran çərçivəsində kiçik "zenith" yazısı, altda
+   klassik "Z" loqosu, altındakı panel: "COLOR TV-VCR COMBINATION". Şərhçilər də markanı
+   müstəqil tanıyıb: @igearmedia "the **zentih** monitor", @สิทธิศักดิ์ "**ZENITH** PAUSE".
+   → Marka videoda oxunaqlıdır (yəni ipucu ədalətlidir).
+3. **Duluth, Minnesota-nın rəsmi ləqəbi "Zenith City of the Unsalted Seas"dir**
+   (Vikipediya infobox "nickname" sahəsi: `Zenith City of the Unsalted Seas`;
+   şəhərin tarix arxivi saytı da `zenithcity.com`). Qısa forması: **"the Zenith City"**.
+4. **Videonun ÖZ mexanizmi məhz budur.** MP1–15 ("Trips by Car") poeması:
+   *"A **nickname** for your destination (But not its name or its translation)"* →
+   rebus ləqəbi verir, ləqəb şəhəri verir (məs. "Oil City" → Casper, "Home of Peace" → Mubi).
+   Colin eyni mexanizmi təkrar istifadə edib.
+5. **DULUTH / MINNESOTA / ZENITH sözü:** 91 rəsmi yerin siyahısında YOXDUR, videonun
+   bütün OCR bazalarında YOXDUR, altyazılarda YOXDUR. Yəni istifadə olunmamış, təzə cavabdır
+   və ekranda hərflə yazılmayıb — yalnız televizorun markası ilə işarə edilib.
+6. MrBeast (17:11): *"nothing is ever what it seems, **including this video**"* —
+   televizor sadəcə televizor deyil.
+
+## Nə yazmaq lazımdır (forma "bir neçə dəfə təxmin edə bilərsən" deyir)
+1. `THE ZENITH CITY`  ← 15 simvol, ulduzların sayı ilə tam uyğun
+2. `DULUTH`           ← qeydin son addımı (6)
+3. `DULUTH MN`        ← (6 2)
+4. `DULUTH MINNESOTA` ← köhnə tapmacanın cavab üslubu ("Toad Suck, Arkansas" kimi)
+
+## Hələ izah olunmamış
+Telefon diskindəki morze işarələri — çox güman **təsdiq** (məs. DULUTH və ya ZENITH-i
+morzelə yazır) və ya əlavə addım. 4K şəkil gələndə yoxlanacaq.
