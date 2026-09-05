@@ -977,3 +977,28 @@ marka** Zenith-dir (telefonun, qutunun, kağızın markası görünmür).
 Hipotez güclüdür, amma **təsdiqlənməyib**. Telefon diskindəki morze hələ oxunmayıb —
 o, çox güman cavabı təsdiqləyən əlavə addımdır. İstifadəçi formada sınaya bilər
 (forma "bir neçə dəfə təxmin edə bilərsən, amma yalnız 1 doğru cavab var" deyir).
+
+## 05.09.2026 ~07:50Z — ★ ZENITH televizoru YALNIZ finalda görünür
+
+### Şablon axtarışı (bütün 1080p kliplər, 1 fps)
+17:00 kadrındakı televizorun bezeli şablon kimi götürüldü və 8 klipin hamısında axtarıldı:
+| Klip | Vaxt | Uyğunluq |
+|---|---|---|
+| 29701bfa (16:57–17:26) | t=4.0 | **0.841** |
+| dd608937 (16:48–17:47) | t=12.0 | **0.785** |
+| fce1ee46 (15:19–16:52) | t=93.1 (=16:52, finala keçid) | 0.773 |
+| 94b4d23f, fba19fc0, 0f1d65d9, 48b92c09, a16ce518 | — | ≤0.69 (uyğunluq yoxdur) |
+→ **Zenith CRT televizoru videoda yalnız son ~50 saniyədə (16:57–17:47) var.**
+Əsas otaq səhnələrində (0:00–16:52) yoxdur. Yəni bu rekvizit məhz bu səhnə üçün
+qoyulub — və üstündə "PAUSE" yazısı çıxır.
+
+### Marka təsdiqi
+Televizorun altındakı loqo təmizlənib böyüdüldü (`zenith_z2.png`): **Zenith-in klassik
+ildırım şəklində "Z" loqosu** aydın görünür. Üstəlik panelin yazısı "COLOR TV-VCR
+COMBINATION" (Zenith-in məhz bu məhsul adı) və bezeldə kiçik "zenith" sözü.
+Şərhçilər də markanı müstəqil oxuyub. → **Marka identifikasiyası şübhəsizdir.**
+
+### Diskin oxunmasına daha bir cəhd (mənfi)
+QR (ağ ekran) işıqlandırdığı kadrlarda diskin lokal kontrastı daha yüksək görünürdü,
+amma səbəb diskin üstünə düşən hüquqi mətn overlay-i imiş — həmin kadrlarda disk
+oxunmur. **PAUSE pəncərəsi ən yaxşı görüntü olaraq qalır.**
