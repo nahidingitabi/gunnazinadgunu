@@ -1057,3 +1057,14 @@ MM1–4 (metatapmacalar → seyf kodu).
 `mon/` və `qrz/` qovluqlarındakı hər kadr skan edildi (bərabər aralıqlı sıra filtri ilə).
 Ən yüksək say **15**-dir (n_0088…n_0091). → **"DULUTH MINNESOTA" (16 simvol) uyğun DEYİL.**
 **"THE ZENITH CITY" (15 simvol) dəqiq uyğun gəlir.**
+
+## 05.09.2026 ~09:20Z — videonun sonu (17:35–17:47) tam yoxlandı
+
+30 fps-də çıxarıldı (`osd/`, `endf/`). 17:35.2-də TV-də "mətn" kimi görünən şey əslində
+**CRT-nin sönmə animasiyasıdır** (QR üfüqi zolağa sıxılır) — yazı deyil.
+Ardınca: qara ekran → "thank you for watching" (17:36–17:40) → "SUBSCRIBE FOR A COOKIE"
+(17:40–17:47). **Yeni məlumat yoxdur.**
+17:24–17:26-da QR-in tam (kəsilməmiş) görüntüsü var — dekod edildi, yenə eyni URL.
+
+Masadakı kağızın "(6)" sətrindən AŞAĞISI da yoxlandı: kağız masanın kənarında bitir,
+**4-cü sətir yoxdur**.
