@@ -3175,3 +3175,30 @@ işlətmək.
 **hansı kanalın ayırdığını ölçmədən** seçmişdim. Ölçmə (kart və kartondan
 nümunə götürüb kanalları müqayisə etmək) 30 saniyə çəkdi və məsələni bir dəfəyə
 həll etdi.
+
+### 23:10Z — VI/VII/VIII üçün ÖLÇÜ TAPILDI, amma AVTOMATİK QLİF TAPMA İŞLƏMİR
+**Ölçü işləyir:** əl ilə dar qutu + **en/hündürlük** nisbəti. Nəzarət qliflərində
+(T3, əmin olduqlarım) kalibrləmə:
+```
+V    (2 vahid)  w/h = 0.56
+VI   (3 vahid)  w/h = 0.71
+IV   (3 vahid)  w/h = 0.77
+VIII (5 vahid)  w/h = 1.18
+```
+→ vahid başına ≈ **0.207** artım; siniflər arası ~0.2 fərq, ölçmə küyü ~0.05.
+**Yəni VI (0.75) / VII (0.97) / VIII (1.18) ayrılır.** Bu, indiyə qədər tapdığım
+yeganə kəmiyyət meyarıdır.
+
+**Amma qlifi avtomatik tapmaq alınmır.** Dörd üsul sınandı, dördü də NƏZARƏTDƏ düşdü:
+1. ştrix zirvələrini saymaq — qonşu "I"-lər birləşir
+2. w/h + avtomatik qruplaşdırma (dilatasiya) — kartın konturunu/şəklini də tutur,
+   Oman VI-ni "VII", Afrika VIII-i "VI" göstərdi
+3. w/h + sərhədə toxunan komponentləri atmaq — qlifin ştrixlərini də atır
+4. (əvvəlki sessiya) Hu momentləri / deşik sayımı — nəzarətdə işləmədi
+
+→ **Qərar: avtomatik təsnifat qurmağı dayandırıram.** İş bölgüsü belə olacaq:
+**gözüm qlifi tapır (yüksək böyütmədə), ölçü VI/VII/VIII-i seçir.** Kalibrləmə
+məhz belə alınmışdı və yeganə işləyən yoldur.
+
+Bu, "üsulu seçmə, ölç" qaydasının davamıdır: ölçü doğrudur, onu qidalandıran
+avtomatika səhvdir — ona görə avtomatikanı atıram, ölçünü saxlayıram.
