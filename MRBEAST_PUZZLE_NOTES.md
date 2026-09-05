@@ -1485,3 +1485,50 @@ kanalı yandırır). → Digər sessiyanın §8 nəticəsi **müstəqil təsdiql
 `topstrip_316.png`: "S D / D" bitki ilə, "H·3O" noxud qabığı ilə, kəllə "L &",
 "of the" ulduzlarla, təyyarə + kompas, "A / P•L". Bunlar açardakı MP1-15
 piktoqram rebusları ilə uyğundur — köhnə material, yeni ipucu deyil.
+
+## 05.09.2026 ~13:50Z — SOL DİVARIN STİKERLƏRİ TAPILDI + YENİ STRUKTUR FƏRZİYYƏSİ
+
+### ★ Sol divar təsdiqləndi (116 kadrlıq 8× SR)
+Ofis dəstindəki **sol divarda** da şaquli konduit var və üzərində **üç dairəvi stiker**:
+- yuxarı: **tünd göy (navy)** disk, açıq rəngli rəqəm
+- aşağı sol: **krem/ağ** disk, tünd rəqəm
+- aşağı sağ: **somon/şaftalı** disk, tünd rəqəm
+
+Metod: `sr_cards.py`, klip `94b4d23f`, 16.6–22.0 s, 161 kadrdan 116-sı ORB+RANSAC ilə
+uyğunlaşdırıldı, 8× şəbəkə (`sr_leftstick.png`).
+Rənglər digər sessiyanın **"sol divar 2 navy · 1 cream · 4 salmon"** iddiası ilə
+**tam üst-üstə düşür**. Rəqəmlərin özü mənbədə ~6 pikseldir — rəngləri təsdiqləyirəm,
+rəqəmləri onların oxunuşundan götürürəm.
+
+### ★★ YENİ FƏRZİYYƏ — divar klasterləri özləri "parça"dır
+İki divarda cəmi 6 stiker və hər klasterdə **hər rəngdən tam bir dənə**:
+
+| Rəng ailəsi | Sol divar | Sağ divar |
+|---|---|---|
+| mavi / navy | **2** | **6** |
+| ağ / krem | **1** | **4** |
+| qırmızı / somon / çəhrayı | **4** | **7** |
+
+Yapboz kartlarının konvensiyası **mavi rəqəm + qırmızı rəqəm** (domino) idi.
+Divarlarda da tam olaraq bir mavi + bir qırmızı var, üstəgəl bir ağ.
+→ **Ehtimal: ağ rəqəm = parçanın NÖMRƏSİ, mavi|qırmızı = domino qiyməti.**
+- Sol klaster = parça **№1**, domino **2|4**
+- Sağ klaster = parça **№4**, domino **6|7**
+
+Bu, heç bir sessiyanın irəli sürmədiyi bir oxunuşdur və yoxlana biləndir:
+əgər kartların üzərində də üçüncü (ağ/qara) rəqəm varsa, zəncirin sırası hazırdır.
+
+### Çəhrayı indeks vərəqi — forması təsdiqləndi, məzmunu YOX
+116 kadrlıq 8× SR (`sr_pink.png`, `pinksheet_ink.png`). Vərəq masanın sol ön
+küncündə, çox iti bucaqda uzanır. Mürəkkəb izolyasiyasından sonra:
+- **~5 sətir**, sətirlərdə qısa işarə qrupları
+- cəmi **~30 qrup**
+Bu, icmanın "~28 səhifə+rum rəqəmi cütü" iddiasının **formasını** təsdiqləyir.
+**Məzmun 1080p-də bərpa olunmur** — işarələr mənbədə ~2 pikseldir.
+Perspektiv də çox iti olduğu üçün sətirlər əyilir.
+
+### Masanın tam inventarı (1080p-də təsdiqləndi, `leftwall_wide.png`)
+CRT ("SalesForce MrBeast xp" boot ekranı) + klaviatura, monitorun altında
+**mavi-yaşıl şifr kartı** və **narıncı kart** yan-yana, klaviaturanın solunda
+**çəhrayı indeks vərəqi**, onun üstündə **ağ/krem vərəq** (başlıq sətri var),
+sağda **sarı stiker**. Beş kağız əşya iddiası **təsdiqlənir**.
