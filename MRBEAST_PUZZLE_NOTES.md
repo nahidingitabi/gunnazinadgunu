@@ -1364,3 +1364,95 @@ videonu bərabər əhatə etmir. Bundan sonra `vs/` istifadə edilməlidir.
 Otağın sağ tərəfi 1080p-də (0–70 s, 304–420 s, 551–640 s) skan edildi; sarı stikerlər
 70×70 piksel olduğu üçün oxunmur. Bütün 1080p kliplərin sol/sağ yarımlarının 1 fps OCR-i
 işə salındı (`ocr_right.py` → `ocr_right.json`). İstifadəçidən təxmini vaxt soruşulur.
+
+## 05.09.2026 ~12:35Z — DİGƏR SESSİYANIN İDDİALARI MÜSTƏQİL YOXLANDI
+
+İstifadəçi başqa bir sessiyanın (Opus 5 max) briefinqini göndərdi. Əsas iddia:
+cavab **`PEARLOFTHENORTH`**-dur. Hər əsas həlqəni öz materialımdan yoxladım.
+
+### ✓ TƏSDİQLƏNDİ (mənim öz ölçmələrimlə)
+
+**1. Colin-in kanal təsviri.** yt-dlp ilə birbaşa çəkildi (`@DoctorXOR`, 303 simvol):
+> *"Send me a puzzle - or join me solving puzzles on Twitch every Thursday evening…
+> …and no in-between anywhere." **- John Steinbeck, The Pearl***
+
+**Son söz = `Pearl`.** ✓
+
+**2. Rail-fence hesabı DƏQİQDİR.** `LASTWORDTHENNINTH` (17 hərf):
+```
+cüt mövqelər, irəli   -> L S W R T E N N H
+tək mövqelər, tərsinə -> T I N H D O T A
+birləşdir             -> LSWRTENNHTINHDOTA
+6/6/5 kimi böl        -> LSWRTE / NNHTIN / HDOTA   ← hədəflə TAM eyni
+```
+
+**3. ★ Kartı ÖZÜM oxudum — transkripsiya təsdiqlənir.**
+Metod: 1080p klip `94b4d23f`, ən kəskin kadr **t = 20.83 s**, 10× böyütmə,
+mürəkkəb izolyasiyası (kartın öz bulanıq L* kanalını çıxmaqla), avtomatik deskew
+**−12.0°** (sətir profili variansını maksimallaşdırmaqla). **Dekonvolyusiya YOXDUR.**
+Fayllar: `teal_rot.png`, `teal_ink.png`, `band_A/B/C.png`.
+
+Kartda **5 sətir** var (3 şifr + 2 alt yazı). Sütun profili ilə simvol sayımı:
+
+| Sətir | y | simvol sayı | gözlənilən |
+|---|---|---|---|
+| A | 345–445 | **6** | LSWRTE (6) ✓ |
+| B | 478–565 | 7–9 (həddən artıq bölünür) | NNHTIN — hamısı şaquli ştrix ✓ |
+| C | 598–712 | **5** | HDOTA (5) ✓ |
+
+C sətrində hərflər **görünür**: 2-ci = qapalı gövdəli **D**, 3-cü = deşikli halqa **O**,
+5-ci = açıq ayaqlı **A**. 4-cü **T** və ya **Y**. → `? D O T/Y A` = **HDOTA** ✓
+
+**4. `Pearl` açarda tam BİR DƏFƏ keçir** — və MP9-dur:
+```
+2843: MP9
+2844: OCHROLEUCOUS
+2845: Pearl of the North
+2846: Mosul, Iraq
+```
+`Send`, `join`, `John` da bir dəfə keçir (onların dekoy testi doğrudur).
+
+**5. `PEARLOFTHENORTH` = 15 simvol** — mənim öz piksel sayımımla forma **15**-dir. ✓
+
+**6. Sağ divardakı 6/7/4 boruları** — mən bunu onların briefinqini görməzdən ƏVVƏL
+müstəqil tapmışdım. Tam üst-üstə düşür.
+
+**7. Narıncı kart** sonunda böyük **"?"** var (mürəkkəb izolyasiyasında aydın görünür) —
+"Alphabetize?" ilə uyğundur.
+
+**8. Transkript 17:20**: *"there is a puzzle hidden within this video, created by Colin
+himself, and the first person to answer correctly wins $10,000."* ✓
+
+### ✗ RAZI DEYİLƏM / TƏSDİQLƏNMƏDİ
+
+**A. "Telefon diskində morze — RETIRED, adi Western Electric üzüdür".**
+Mənim 49 kadrlıq 5× SR-im diskin ətrafında **10 bucaq qrupu, hər birində 3–4 işarə**
+göstərir. Bu şablon **hər iki** variantla (çap üzü VƏ morze) uyğundur.
+**1080p-də bu sual bağlanmır.** Onlar "RETIRED" yazır; mən "AÇIQ" deyirəm.
+
+**B. ★ ƏSAS ZİDDİYYƏT — qeyd onların cavabını RƏDD EDİR.**
+Bağlanış qeydi: `(3 6 4) → (6 2) → (6)`
+
+| Namizəd | (3 6 4) | (6 2) | (6) |
+|---|---|---|---|
+| **THE ZENITH CITY** → DULUTH MN → DULUTH | ✓ 3,6,4 | ✓ 6,2 | ✓ 6 |
+| **PEARL OF THE NORTH** → MOSUL IRAQ → MOSUL | ✗ 5,2,3,5 | ✗ 5,4 | ✗ 5 |
+
+Onların briefinqi qeydi izah edilməmiş qoyur (`(6 ?)` yazır).
+**Mənim namizədim qeydin hər üç sətrini ödəyir, onlarınkı heç birini.**
+
+**C. 84 səhifəlik açarda (3 6 4) şablonlu heç bir uyğun ifadə yoxdur.**
+Bütün mətn üzərində 3-sözlük sürüşən pəncərə axtarışı: 32 uyğunluq, hamısı adi
+söz birləşmələri ("the answer Name", "The solver must"...). Yəni qeyd **açardan
+kənara** işarə edir — bu, "The Zenith City" (açarda yoxdur) lehinədir.
+
+**D. Onların zəncirində məntiqi dövrə var.** "Pearl" səni MP9-a aparır, MP9 isə
+məhz "Pearl"-ün olduğu yerdir. "THEN NINTH" addımı müstəqil iş görmür.
+
+### NƏTİCƏ
+İki namizəd, hər ikisi **düz 15 simvol**, hər ikisi **şəhər ləqəbi**, hər birini
+digərinin izah edə bilmədiyi sübut dəstəkləyir:
+- `PEARLOFTHENORTH` ← sancılı şərh → bio → şifr kartı → açarda tək uyğunluq
+- `THE ZENITH CITY` ← bağlanış qeydinin (3 6 4)→(6 2)→(6) forması + Zenith televizoru
+
+Sayt **birdən çox təxminə icazə verdiyi** üçün **hər ikisini göndərmək lazımdır**.
