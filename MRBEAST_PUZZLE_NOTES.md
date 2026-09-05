@@ -2947,3 +2947,43 @@ tünd oval + fiqur         ?      ?      —
 ```
 **Təkrarlar:** qırmızı VII ×3, qırmızı VIII ×2; mavi IV ×2, VI ×2, VIII ×2.
 → Nə mavi, nə qırmızı unikal indeks deyil. **Domino/til oxunuşu qüvvədə qalır.**
+
+## 21:25Z — ★★★ MEXANİZM AÇILDI: MAVİ = KARTIN NÖMRƏSİ, QIRMIZI = NÖVBƏTİ KART
+
+### Aparıcı tapıntı
+13:27 planında (t≈807.0, `67592638`) kamera tərpəndi və T1 klasterini **başqa,
+daha kəskin bucaqdan** göstərdi. Xam kadrda (SR-siz, 9× Lanczos) oxunur:
+* **sarı kart:** mavi **I** · qırmızı **VII**
+* **qırmızı kapüşonlu adam kartı:** **II** (yuxarı-sol) və **XI** (aşağı-sol)
+* qızılı obyekt kartında **XIV** görünür (t=806.5 peek)
+
+→ **Rəqəm diapazonu I…XIV-dir.** 14 kart × 2 rəqəm = 28 rəqəm; I…XIV = 14 dəyər.
+**Hər dəyər tam iki dəfə görünür: bir dəfə mavi, bir dəfə qırmızı.**
+
+### Bundan çıxan mexanizm
+**Mavi rəqəm = kartın öz nömrəsi (I…XIV, təkrarsız).**
+**Qırmızı rəqəm = növbəti kartın nömrəsi.**
+→ 14 kart **bir qapalı dövrə** düzülür. Bu, icma ovçusunun
+*"closed-loop solution! Just figuring out the order"* sözünün tam qarşılığıdır,
+və Colin-in *"old hat"* təsvirinə uyğun klassik bir mexanizmdir.
+
+### ★ Zəncir artıq qurulmağa başlayır (yalnız ən əmin oxunuşlarla)
+```
+… → VIII (Afrika+Madaqaskar) → IV (ABŞ bayrağı + tövlə) → VII (bant/lent)
+    → V (Oman bayrağı) → VI (qar buludu) → IX (?) → …
+```
+**Beş kart heç bir ziddiyyət olmadan bir-birinə keçir.** Bu, mexanizmin
+düzgünlüyünün ilk müstəqil təsdiqidir.
+
+### ★ Ziddiyyətlər məhz zəif oxunuşlardadır — bu da təsdiqdir
+Təkrar çıxan mavi dəyərlər yalnız **★ (bir ulduzlu)** kartlardadır:
+təqvim (mavi IV — ABŞ bayrağı ilə toqquşur), qırmızı düzbucaqlı (mavi VIII —
+Afrika ilə), iki hündür obyekt (mavi VI — qar buludu ilə).
+**★★ və ★★★ oxunuşların heç birində təkrar yoxdur.**
+→ Permutasiya şərti indi **səhv oxunuşları avtomatik aşkar edən yoxlama**
+verir: hər dəyər hər rəngdə tam bir dəfə olmalıdır.
+
+### Növbəti addım
+Zəif oxunmuş kartları (təqvim, qırmızı düzbucaqlı, iki obyekt, sütun qrafiki,
+çərçivəli şəbəkə, qızılı obyekt, tünd oval) permutasiya şərtinə uyğun
+yenidən oxu; dövrə bağlananda şəkillərin sırası çıxacaq.
