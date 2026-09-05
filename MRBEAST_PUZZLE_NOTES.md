@@ -1121,3 +1121,25 @@ parser onları buraxmışdı. Düzəldildi və hamısı yenidən emal edildi:
 → Qeydin `(3 6 4) → (6 2) → (6)` şablonunu dünyada (ABŞ+Kanada+BB siyahılarında)
 **yalnız 5 ləqəb** ödəyir və onlardan yalnız birinin adı 17:00 kadrında fiziki əşya kimi
 durur — üstəlik "PAUSE" göstərişini göstərən həmin əşyadır.
+
+## 05.09.2026 ~11:45Z — telefon: "morze" iddiası şübhəlidir + 15 simvolun ikinci oxunuşu
+
+### Telefon yenidən baxıldı (bütöv görüntü, `phone_full.png`)
+Narıncı disk telefonu yuxarıdan-öndən görünür, dəstək yuxarı hissəni örtür. Diskin
+ətrafındakı qara işarələr **10 bərabər mövqedə** yerləşir — bu, **adi disk telefonun
+standart çap üzü** ilə (rəqəmlər + ABC/DEF/GHI… hərf qrupları) tam uyğundur.
+→ **"Diskdə morze var" iddiası bir izləyicinin şərhindən gəlir və TƏSDİQLƏNMƏYİB.**
+1080p-də çap üzü ilə əlavə qara marker işarəsini ayırd etmək mümkün deyil.
+Bu, 4K sorğusunun prioritetini azaldır: telefon çox güman sadəcə dövrə uyğun rekvizitdir.
+
+### ★ 15 simvolun İKİNCİ mümkün oxunuşu
+Ulduzlar bərabər aralıqlıdır və aralarında boşluq yoxdur. İki variant da düz 15 verir:
+- `THE ZENITH CITY` = 13 hərf + 2 boşluq = **15**
+- `DULUTHMINNESOTA` (boşluqsuz) = **15**  ← D-U-L-U-T-H-M-I-N-N-E-S-O-T-A
+(`DULUTH MINNESOTA` boşluqla 16-dır.)
+→ Sınama siyahısına **`DULUTH MINNESOTA`** və **`DULUTHMINNESOTA`** də əlavə edilir.
+
+### Videoda Duluth/Minnesota izi (mənfi)
+Bütün OCR bazalarında axtarıldı: `218` (Duluth-un kod nömrəsi), `MN`, `zenith`, `duluth`,
+`Lake Superior`, `Twin Ports`, `aerial` → **heç bir uyğunluq yoxdur**.
+Yəni ipucu yalnız televizorun markasıdır (gözlənilən).
