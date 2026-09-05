@@ -119,6 +119,29 @@ three unread pieces cannot supply the six missing ones. That single fact kills:
 Do not re-derive these. If you revive one, say which specific read you are
 overturning and show the measurement.
 
+### 5a. The one reading still alive — and its open test
+
+`[MEASURED]` The two colours behave differently: **red never exceeds 10, blue
+reaches 14**. Two numerals meaning the same kind of thing would not do that.
+That asymmetry reads as **red = a letter index inside a short word, blue = a
+position in a long string**.
+
+A counting argument briefly made blue look like a permutation of 1..15 (nine
+distinct values, three duplicate pairs, six missing values, three unread
+pieces — it balanced exactly). It predicted that one numeral in each duplicate
+pair was misread. **I tested that and it failed:** both blue V numerals (Oman
+flag, cloud with snow) read as a clean isolated V across three independent
+renders. The collision is real, so blue is not a permutation. `[DEAD]`
+
+What survives is weaker but testable: if blue is a position, **pieces sharing a
+blue must yield the same letter**. Under emoji CLDR names, one of the three
+pairs agrees (`FLAGUNITEDSTATES`[7] = `SPIRALCALENDAR`[3] = I — and the
+calendar picture does have spiral rings) and two do not. One hit in three is
+what chance gives, so this is not yet evidence. **The test cannot run until the
+picture names are right, and the user has said mine are not.** Settle the
+pictures first, then re-run this check — not the other way round.
+
+
 ## 6. The blocker, and the one thing that would break it open
 
 `[MEASURED]` In 1080p a piece is **~45 px wide**; its numerals are ~10 px. Every
