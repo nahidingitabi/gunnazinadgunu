@@ -1749,3 +1749,32 @@ Yanında: məlum "$10,000!" vərəqi (baş-ayaq yazılmış) və gözlə "X" ç�
 brezent pərdə · masanın taxta üzü · çekmecə üzləri · bağlanış otağının qutusu ·
 ekran altındakı hüquqi mətn (video təsviri ilə hərfi-hərfinə eyni).
 Sağ divarın SR-ində stikerlərin rəqəmləri **6 / 7 / 4** artıq gözlə oxunur.
+
+## 05.09.2026 ~16:10Z — yerdəki vərəq rektifikasiya edildi + domino cəhdi
+
+### Yerdəki əlyazma vərəqi (`floorA_warp.png`)
+Vərəqin parlaq maskası ayrıldı, `minAreaRect` ilə dördbucaqlısı tapıldı və perspektiv
+transformasiya ilə düzləşdirildi (583×1737 px). Nəticə: **mötərizəli əlyazma qrupları**
+aydın görünür — bağlanış bloknotu ilə eyni üslub. Konkret simvollar oxunmur (vərəq qaranlıq
+döşəmədə çox iti bucaqda uzanır və qismən örtülüdür), amma **struktur təsdiqlənir.**
+Bu obyekti heç bir icma inventarı qeyd etməyib.
+
+### Qalan kartlar (rəqəmlər hələ oxunmur)
+`cards_rest.png`: qızılı oval kartı, iki tünd forma kartı, sol aşağıda bir kart, və
+şəkillərlə dolu kiçik lövhə. Hamısı kadrın sağ kənarında və kölgədə qalır.
+Daha yaxın bucaq lazımdır — t = 44–52 s aralığı sınanacaq.
+
+### Domino cəhdi (FƏRZİYYƏ, nəticə deyil)
+Oxunmuş rəqəmlər + divar klasteri fərziyyəsi ilə:
+```
+divar sol   2 | 4        (mavi 2, qırmızı 4)
+ABŞ bayrağı 4 | 7        (mavi IV, qırmızı VII — rəng testi ilə təsdiqləndi)
+divar sağ   6 | 7        (mavi 6, qırmızı 7)
+Oman        6 | 5   və ya 5 | 6
+Afrika      8 | 4   və ya 4 | 8
+qar buludu  9 | ?
+```
+Mümkün zəncir parçası: **2–4 → 4–7 → 7–6 → 6–5**.
+Amma "4" üç dəfə görünür (2|4, 4|7, 8|4), sadə zəncirdə isə hər rəqəm ən çox iki dəfə
+qonşuluq edə bilər. Yəni ya rəng təyinatlarından biri səhvdir, ya divar klasterləri
+parça deyil, ya da zəncir sadə deyil. **Nəticə çıxarmaq üçün hələ tezdir.**
