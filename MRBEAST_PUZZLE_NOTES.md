@@ -1456,3 +1456,32 @@ digərinin izah edə bilmədiyi sübut dəstəkləyir:
 - `THE ZENITH CITY` ← bağlanış qeydinin (3 6 4)→(6 2)→(6) forması + Zenith televizoru
 
 Sayt **birdən çox təxminə icazə verdiyi** üçün **hər ikisini göndərmək lazımdır**.
+
+## 05.09.2026 ~13:00Z — YAPBOZ PARÇALARI TAPILDI VƏ ŞƏKLƏ ALINDI
+
+### ★ Parçalar realdır — 180 kadrlıq 4× SR ilə görüntüləndi
+Digər sessiyanın "bankers box-ların üzərinə yapışdırılmış yapboz formalı kartlar"
+iddiası **təsdiqlənir**. Metod: 1080p klip `94b4d23f`, 44–52 s arası 239 kadr,
+ORB+RANSAC ilə 180-i uyğunlaşdırıldı, 4× şəbəkə (`sr_boxes.png`).
+
+Aydın görünən kartlar (hamısı yapboz kəsimli, ağ, künclərində rum rəqəmləri):
+- **Oman bayrağı** (qırmızı/ağ/yaşıl) — sol yuxarı küncdə mavi rəqəm
+- **Afrika qitəsi + yaşıl ada (Madaqaskar)** — künclərində rəqəmlər
+- **Qızılı oval** (SB3 qızıl seyf qapısı → Accra, Qana)
+- Tünd oval + tünd forma (yerfındığı yağı / quş?)
+- Ən azı 3 başqa kart, qismən kadrdan kənarda
+
+### ✗ 1080p-də RƏQƏMLƏR OXUNMUR — bu, həlledici məhdudiyyətdir
+Rəqəmlər orijinal kadrda **~10 piksel**dir. 180 kadrlıq 4× super-rezolyusiyadan sonra
+belə mavi/qırmızı mürəkkəb izolyasiyası **heç nə** vermir (isti volfram işığı mavi
+kanalı yandırır). → Digər sessiyanın §8 nəticəsi **müstəqil təsdiqlənir: 4K məcburidir.**
+
+### ✗ Onların "5:16.5–5:17.5 ağ maket lövhəsi" iddiası TƏSDİQLƏNMİR
+315.30–316.60 s aralığındakı **hər bir kadrı** (40 kadr, 30 fps) çıxardım:
+315.30–316.40 sabit danışan plan (korkbord fonu), 316.43-dən sonra əl kamerası selfi.
+**Ağ maket lövhəsi yoxdur.** Ya vaxt damğası səhvdir, ya başqa an nəzərdə tutulur.
+
+### Korkbordun yuxarı zolağı (5:14–5:16) = köhnə tapmacanın REBUS kartları
+`topstrip_316.png`: "S D / D" bitki ilə, "H·3O" noxud qabığı ilə, kəllə "L &",
+"of the" ulduzlarla, təyyarə + kompas, "A / P•L". Bunlar açardakı MP1-15
+piktoqram rebusları ilə uyğundur — köhnə material, yeni ipucu deyil.
