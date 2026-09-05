@@ -1143,3 +1143,114 @@ Ulduzlar bərabər aralıqlıdır və aralarında boşluq yoxdur. İki variant d
 Bütün OCR bazalarında axtarıldı: `218` (Duluth-un kod nömrəsi), `MN`, `zenith`, `duluth`,
 `Lake Superior`, `Twin Ports`, `aerial` → **heç bir uyğunluq yoxdur**.
 Yəni ipucu yalnız televizorun markasıdır (gözlənilən).
+
+## 05.09.2026 ~12:10Z — KÖHNƏ TAPMACANIN MEXANİKASI: "ŞƏHƏR LƏQƏBİ" TƏSDİQLƏNDİ ★★★★★
+
+İstifadəçinin göstərişi: *"həllolunmuş puzzlenin kontekstini anla, sonra zenith üzərində
+ona bənzər əməllər et."* Rəsmi 84 səhifəlik cavab açarı (`site/puzzle_answers.txt`)
+yenidən oxundu. Nəticə çox güclüdür.
+
+### 1) $1,000,000-luq tapmacada "şəhər ləqəbi" ƏSAS mexanizmdir
+Səh. 70–71, **MP1–15 "PICTORIAL REBUSES"** dəsti. Şeir belədir:
+
+> *"**A nickname for your destination** / (But not its name or its translation) /
+> To get here you can ride our free bus / Or hire a car to get each…"*
+
+Cavab bölməsi hərfən deyir: **"These images are rebus puzzles for city nicknames."**
+Cavab formatı isə həmişə **"Şəhər, Ştat/Ölkə"**-dir:
+
+| Ləqəb | Cavab |
+|---|---|
+| Gateway to Death Valley | Beatty, Nevada |
+| **Queen City of the North** | Marquette, Michigan |
+| Oil City | Casper, Wyoming |
+| City of Roses and Ruins | Visby, Sweden |
+| Pearl of the North | Mosul, Iraq |
+| City on Two Continents | Istanbul, Turkey |
+| **City of Winds** | **Baku, Azerbaijan** |
+| Diamond City of India | Surat, India |
+| Capital of the Plains | Moora, Australia |
+
+Eyni şeir (**"A nickname for your destination"**) MP25–40 GeoGuessr dəstində də təkrarlanır
+(səh. 74). Yəni **bu müəllifin (doctorxor) imza mexanizmi məhz şəhər ləqəbidir.**
+
+→ **"The Zenith City" → Duluth, Minnesota** fərziyyəsi köhnə tapmacanın öz idiomuna
+tam oturur. Bu, təsadüfi uyğunluq deyil, müəllifin təkrarladığı üsuldur.
+
+### 2) Ləqəb bazasında "Zenith" TƏKDİR
+2867 ləqəb (50 ABŞ ştatı + Kanada + BB) yenidən süzüldü:
+- `zenith` sözü keçən **yeganə** ləqəb: **"The Zenith City" → Duluth, Minnesota**.
+- (3 6 4) şablonuna uyan 45 ləqəbdən yalnız 4-ü 6-hərfli şəhər + 2-hərfli ştat verir:
+  Azalea/**Mobile AL**, Circle/**Corona CA**, Garden/**Newton MA**, Zenith/**Duluth MN**.
+- Bunlardan yalnız Duluth-un ləqəbi videoda fiziki əşya kimi (Zenith televizoru) durur.
+
+### 3) 15 SİMVOL RİYAZİ OLARAQ TƏSDİQLƏNDİ (piksel sayımı)
+`mon/n_0084…0090` kadrlarında ulduzların zirvələri sayıldı (parlaqlıq profili + run-length):
+```
+n_0084: 10   n_0086: 12   n_0088: 15
+n_0085: 10   n_0087: 14   n_0089: 15   n_0090: 15  ← sabitləşir
+```
+Addım ≈45.7 px, sonuncu ulduz x=1266-da bitir, sətir kəsilmir. → **Düz 15 simvol.**
+`THE ZENITH CITY` = 3+1+6+1+4 = **15** ✓ (qeydin `(3 6 4)` sətri ilə eyni)
+
+### 4) ★ SAYT QAYDASI: BİRDƏN ÇOX TƏXMİN ETMƏK OLAR
+Saytın öz mətnindən (`site/257l0q4388oxg.js`):
+> **"You can guess multiple times, but there is only 1 correct answer."**
+
+Sahənin `maxLength: 500`-dür (yəni videodakı 15 ulduz sadəcə stildir, real sahə 500 simvol
+qəbul edir). **Nəticə: bütün namizədləri bir-bir göndərmək tamamilə təhlükəsizdir** —
+səhv təxmin heç nəyi itirmir.
+
+### 5) Qeydin oxunuşu 1080p-də yenidən təsdiqləndi
+`tv17/f_007.jpg` → `note007_big.png` (6× Lanczos + CLAHE + UnsharpMask):
+```
+(3 6 4)
+      ↘
+       (6 2)
+         ↓
+       (6)
+```
+Kağız bir **xəritədir** — aşağı kənarında çap olunmuş **miqyas xətkeşi** (tick-lər) görünür,
+altında da solğun çap məzmunu var (1080p-də oxunmur). Bu, köhnə tapmacanın
+*"her puzzle resolves eventually to a location in the world"* prinsipi ilə üst-üstə düşür.
+
+İzləyici şərhləri qeydin oxunuşunu müstəqil təsdiqləyir: `@陳瀅如-h7x` → **"364-62-6?"**,
+`@LLOM_1` → **"(364) (62) 6"**, `@JabaDas-rq3sk` → **"364 / 62 / 2"**.
+(Bir nəfər `@uditi_star` `(68)` oxuyub — 20× böyütmədə ikinci qapalı halqa görünmür,
+ona görə **`(6 2)`** saxlanılır.)
+
+### 6) ★ Telefon: ZENITH dial edilə BİLMİR, DULUTH edilir
+Köhnə ABŞ disk telefonlarında **Q və Z hərfi YOXDUR** (7=PRS, 9=WXY).
+```
+ZENITH  → mümkün deyil (Z yoxdur)      DULUTH → 385884   (6 rəqəm!)
+NADIR   → 62347                        MINNESOTA → 646637682
+```
+Yəni televizorun yanındakı disk telefonu ilə **ZENITH yazmaq fiziki olaraq mümkün deyil,
+DULUTH isə tam yazılır və düz 6 rəqəm verir** — qeydin sonuncu sətri `(6)` ilə uyğun.
+Bu, zəncirin istiqamətini təsdiqləyir: ZENITH ipucu → **DULUTH** cavabı.
+
+### 7) 4500 şərhdə HEÇ KİM Duluth-u tapmayıb
+`mb3` (3000 şərh) + `mb4` (1500 şərh) + Colin-in videoları (390 şərh) süzüldü:
+`duluth` / `minnesota` / `nickname` / `zenith city` → **sıfır uyğunluq**.
+Yalnız 3 nəfər sadəcə "Zenith" sözünü (televizorun markası kimi) qeyd edib.
+→ **Bu həll ictimai müzakirədə hələ yoxdur.**
+
+### 8) Zenith ilə bağlı sayt axtarışı (mənfi)
+`zenith.mrbeast.app`, `mrbeast.app/zenith`, `duluth.mrbeast.app`,
+`puzzle-video-sweepstakes.mrbeast.app/zenith`, `beast.travel/zenith|duluth`,
+`zenithcity.mrbeast.app`, `thezenithcity.com/.org` → hamısı 404 və ya mövcud deyil.
+`mrbeast.app/*` bütün yollar eyni Okta-qorumalı daxili portala yönləndirir (catch-all,
+xüsusi səhifə deyil). `zenithcity.com` real Duluth tarix saytıdır, MrBeast-lə əlaqəsi yoxdur.
+
+### ★ GÖNDƏRİLƏCƏK SİYAHI (birdən çox təxmin sərbəstdir — hamısını sırayla yaz)
+```
+1.  THE ZENITH CITY        ← 15 simvol, qeydin (3 6 4) sətri, ən güclü
+2.  DULUTH                 ← qeydin (6) sətri, telefonla 385884
+3.  DULUTH, MINNESOTA      ← köhnə tapmacanın rəsmi cavab formatı ("Baku, Azerbaijan")
+4.  DULUTH MINNESOTA
+5.  DULUTHMINNESOTA        ← boşluqsuz 15 simvol
+6.  DULUTH, MN   /  DULUTH MN
+7.  ZENITH CITY
+8.  ZENITH
+Ehtiyat: THE AZALEA CITY / THE CIRCLE CITY / THE GARDEN CITY / THE FOREST CITY
+```
