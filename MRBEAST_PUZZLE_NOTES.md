@@ -1923,3 +1923,48 @@ cavabları belə daxil edilirdi. Bu formatda **`MOSUL IRAQ` = 10 simvoldur, 15 d
 `LADY OF THE SEA` və `ISLAND OF DEATH` — hər ikisi boşluqla düz 15. Onlara "ninth"
 oxunuşu ilə çatmaq yolu yoxdur, ona görə aşağı prioritetlidirlər, amma göndərmə
 siyahısının sonuna əlavə edilə bilər.
+
+## 05.09.2026 ~17:20Z — "BAŞQA VİDEOLAR" İZİ TAM YOXLANDI
+
+İstifadəçinin təklifi: $1M ovu kimi, ipucu başqa videolarda ola bilər.
+Üç istiqamətdə yoxladım.
+
+### 1) Videonun İÇİNDƏ göstərilən bütün ekranların tam inventarı
+Bütöv videonun 2 fps OCR bazasından (`ocr_full2.json`) video/kanal/URL kimi görünən
+hər sətir çıxarıldı. **Hamısı köhnə $1M ovunun materialıdır:**
+
+| vaxt | ekranda nə var |
+|---|---|
+| 28–30 s | YouTube səhifəsi: *"Watch My Super Bowl Ad To Win $1,000,000!"* (`OBQELGS13XA`), *MILLION DOLLAR PLAYLIST*, *"SUBSCRIBE OR I TAKE YOUR DOG"* |
+| 37–38 s | @MrBeast-in sancılı şərhi: *"…Now check this image out. **https://pin.it/3DljEcxdY**"* (Pinterest linki) |
+| 138–143 s | *"Starts 2/8/26 and Ends 4/2/26. Register and rules at mrbeast.salesforce.com"* |
+| 206–209 s | *"306M views · 5 years ago"*, *"MrBeast 490M Subs"* |
+| 322 s | *"the first letter is \*, which begins many of Jimmy's videos — specifically the recent YouTube video:"* |
+| 374–392 s | Chess.com, @garrykasparov, @msg1138 |
+| 485–499 s | altı Salesforce videosu: *MrBeast's Secret Search Engine*, *How MrBeast Uses Slack to Manage…*, *How MrBeast Manages Chaos*, *Behind the Chaos*, *How MrBeast Executes Massive Id…*, *How MrBeast Uses Salesforce to R…* |
+| 504–506 s | *"Watch my latest video!"* — **MrBeast vs The Rock** |
+| 511 s | *"Take this seriously. Observe closely."* |
+| 550–860 s | BEAST TRAVEL · *"Complete these trips on Beast dot Travel"* |
+| 971 s | BEAST VAULT |
+| **1046 s** | **BEAST SWEEPSTAKES** ← yeganə $10k elementi |
+
+### 2) ✗ Yoldaş video YOXDUR
+`@MrBeast2` kanalının **ən yeni videosu məhz bu videodur** (42 video yoxlandı).
+Təsvirdə göstərilən digər beş kanal da yoxlandı — **heç birində 2 sentyabr 2026 tarixli
+və ya sonrakı video yoxdur**:
+MrBeast (əsas), MrBeast Gaming, Beast Reacts, Beast Philanthropy, Beast Animations.
+→ Rəsmi qaydaların *"Clues … will be available **in the Video**"* ifadəsi təsdiqlənir.
+
+### 3) ★ Videonun BAŞLIĞI iki variantda yayımlanır (A/B testi) — ipucu DEYİL
+- Kanal siyahısında: **"He Solved The World's Hardest Puzzle"**
+- Video səhifəsində: **"How 1 Person Solved A $1,000,000 Puzzle!"**
+Hər ikisi eyni anda canlıdır → YouTube-un A/B başlıq testidir, MrBeast-in adi praktikası.
+**Nəticə: başlığa əsaslanan hər hansı tapmaca addımı işləyə bilməz**, çünki başlıq sabit
+deyil. (Hər iki sessiya köhnə başlığı istinad kimi işlədir — qeyd üçün.)
+
+Təsvir **dəyişməyib** (mənim nüsxəmlə eynidir). Hazırkı statistika: 30.2M baxış,
+592K bəyənmə, 31,000 şərh.
+
+### Nəticə
+Bu iz **bağlanır**: $10k ipucuları başqa videolarda deyil. Videonun içində göstərilən
+bütün digər videolar köhnə ovun sənədləşdirməsidir.
