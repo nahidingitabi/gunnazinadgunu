@@ -2424,3 +2424,39 @@ oradadır.
 Qara arxiv şkafında əl yazısı stikerlər: "…XIV / Somewhere?", "…", "DEATH",
 "PLATES", bir neçə mavi stiker rəqəmlərlə. Bunlar köhnə $1M ovunun
 cavablarıdır (Death Valley, license plates) — $10k-ya aid deyil.
+
+### ★★★ İCMADAN ÜÇ TƏSDİQ (Colin-in son videosunun şərhləri, yt-dlp ilə çəkildi)
+Şərhlər `youtube.com/watch?v=aFo8P073eSY` (Colin, "The Hat Trick", 2026-09-04):
+
+1. **`@kallieholman9329`: "closed-loop solution! Just figuring out the order"**
+   → Zəncir **QAPALI HALQADIR**. Mənim "domino zənciri" fərziyyəm doğrudur,
+   amma ucu-başı yoxdur — dövrədir. Bu, "6 fərqli rəqəm, 13-14 parça"
+   ziddiyyətini də izah edir.
+2. **`@LuminousLink-r3u`: "Are the **14 card** pictures named by **emoji names**,
+   or something else?"** → parça sayı **14** ola bilər (13 yox), və icma
+   şəkillərin **emoji** olduğunu güman edir. Mənim oxuduğum şəkillər buna
+   uyğundur: 🇺🇸 🇴🇲 🌨️ + Afrika.
+3. **`@bananabiscut`: "the numbers **674** are on the right"** → sağ divardakı
+   kabel qutularındakı **6 / 7 / 4** stikerləri. Mənim oxuduğumla eynidir
+   (t=306 kadrında da təsdiqləndi: 6 mavi ~(1670,255), 7 çəhrayı ~(1680,360),
+   4 boz ~(1680,460)).
+4. `@kallieholman9329`: "It correlates with the **T9**. Look in the video and
+   there a bunch of numbers you can use with the T9" — telefon klaviaturası
+   fərziyyəsi (səhnədə disk telefonu var; disk üzü standartdır, artıq
+   yoxlanılıb — üstündə hərflər olan adi disk).
+
+### Colin-in YouTube videosu — BAĞLANDI
+İstifadəçinin yüklədiyi iki hissə (`1dedd164`, `995b6bda` = "The Ramblings of a
+Million Dollar Winner / Riddle #0: The Hat Trick") `small.en` ilə tam
+transkript edildi (`colin_asr.json`, 149 seqment). Məzmun: **üç hekayə-tapmaca**
+(ən yaxşı dost / seçilmiş əsgər / yazıçı), sonra Colin-in şəxsi manifesti və
+kanal planları. **$10k tapmacasına aid heç nə yoxdur.** Colin özü şərhlərdə
+iki dəfə təsdiqləyir: *"This is not part of the 10k puzzle"* və
+*"It is not relevant to MrBeast's challenges, I promise 😅 I made this quite a
+bit earlier."* "OMG BIRD FENCE" şərhi isə Colin-in videoda **quş seyr etməkdən**
+danışmasına reaksiyadır — ipucu deyil. → **Bu iz bağlanır.**
+
+### MrBeast videosunun şərhləri — heç nə
+82CX6WULNA0 videosunun 2400 şərhi (top + newest) yükləndi və axtarıldı:
+tapmaca müzakirəsi orada **yoxdur**, hamısı ümumi fan şərhləridir.
+Ovçular Colin-in kanalındadır.
