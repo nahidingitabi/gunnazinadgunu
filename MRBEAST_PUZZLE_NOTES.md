@@ -3267,3 +3267,43 @@ Həmçinin izah edir ki, niyə rəqəmlər I…XIV-ə qədər gedir: uzun emoji 
 sonra (mavi, qırmızı) cütlərini hərf indeksi / mövqe kimi sınaqdan keçir.
 Diqqət: qarışıq kartlar var — 4-cü kartda ABŞ bayrağı **və** tövlə, 2-ci kartda
 Afrika **və** yaşıl ləkə görünür; bunlar bir kartda iki emoji ola bilər.
+
+### 23:40Z — ★★ İKİ İSTİQAMƏT SINANDI, BİRİ DÜŞDÜ: **qırmızı = hərf indeksi**
+Emoji adlarına qarşı diapazon yoxlaması apardım (hər rəqəm adın uzunluğundan
+kiçik və ya bərabər olmalıdır):
+
+```
+TEST A — qırmızı = hərf indeksi, mavi = mövqe
+  flag: Oman        FLAGOMAN(8)          qırmızı 6 -> M      mavi 5
+  flag: US          FLAGUNITEDSTATES(16) qırmızı 7 -> I      mavi 4
+  cloud with snow   CLOUDWITHSNOW(13)    qırmızı 9 -> H      mavi 6
+  ribbon            RIBBON(6)            qırmızı 5 -> O      mavi 8
+  roller skate      ROLLERSKATE(11)      qırmızı 2 -> O      mavi 11
+  red square        REDSQUARE(9)         qırmızı 6 -> U      mavi ?
+  bar chart         BARCHART(8)          qırmızı 8 -> T      mavi ?
+  → 7 kartın 7-sində də indeks ADIN UZUNLUĞUNA SIĞIR ✓
+```
+```
+TEST B — mavi = hərf indeksi, qırmızı = mövqe
+  ribbon            RIBBON(6)            mavi 8  -> İNDEKS HÜDUDDAN KƏNAR ✗
+  → DÜŞÜR
+```
+
+→ **Qırmızı rəqəm emoji adının içindəki hərf indeksidir; mavi rəqəm həmin hərfin
+cavabdakı mövqeyidir.** Bu, ilk dəfədir ki, iki rəqəmin **fərqli funksiyaları**
+məlumatla yoxlanılır və biri kəsilir. `bar chart` (8 hərf, qırmızı 8 — tam
+sərhəddə) və `ribbon` (6 hərf, qırmızı 5) xüsusilə güclü dəlildir.
+
+**Alınan qismən cavab** (FLAG… adlandırma konvensiyası ilə):
+```
+mövqe:  1  2  3  4  5  6  7  8  9 10 11 12 13 14
+hərf:   .  .  .  I  M  H  .  O  .  .  O  .  .  .
+```
+**Açıq risk:** adlandırma konvensiyası nəticəni tam dəyişir
+(`OMAN`(4) olsaydı, qırmızı 6 hüduddan çıxardı — yəni bayraq adları **"FLAG"
+sözünü daxil etməlidir**; bu, konvensiyanı özü müəyyən edir).
+Həmçinin VI/VII/VIII qeyri-müəyyənliyi (±1) hərfləri sürüşdürə bilər.
+
+**Növbəti:** qalan kartların emoji adlarını dəqiqləşdir (2 Afrika?, 5 təqvim?,
+6 iki obyekt?, 10 sarı, 11 pəncərə, 14 tünd oval), mavi rəqəmləri tamamla,
+14 mövqeni doldur.
