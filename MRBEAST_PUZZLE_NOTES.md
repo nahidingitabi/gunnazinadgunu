@@ -2987,3 +2987,43 @@ verir: hər dəyər hər rəngdə tam bir dəfə olmalıdır.
 Zəif oxunmuş kartları (təqvim, qırmızı düzbucaqlı, iki obyekt, sütun qrafiki,
 çərçivəli şəbəkə, qızılı obyekt, tünd oval) permutasiya şərtinə uyğun
 yenidən oxu; dövrə bağlananda şəkillərin sırası çıxacaq.
+
+### 21:40Z — ★★ ALTI KARTLIQ ZƏNCİR QURULDU
+
+13:27 planı (`67592638`, kəsik **806.95**-də başlayır, kartlar **807.0**-da ən
+böyükdür, sonra kiçilir) üçün keş quruldu: `h807.npz` (37 kadr, ktx 1600,350–1919,780).
+Klaster 20× çıxarıldı (`srn7/C807.png`). Bu, indiyə qədərki **ən aydın** görüntüdür.
+
+**Yeni dəqiq oxunuşlar (dar qutularla ölçülmüş Δa*):**
+* **qırmızı kapüşonlu adam (rolikli fiqur):** mavi **XI** (Δa* −0.11) · qırmızı **II** (Δa* +4.72)
+* **sarı kart:** mavi **I** (Δa* +0.19) · qırmızı **VII/VIII** (Δa* +6.09)
+* **sütun qrafiki (aşağı ox + sütunlar):** qırmızı (Δa* +6.83)
+
+*(Qeyd: ilk ölçmədə adam kartının hər iki rəqəmi "mavi" çıxmışdı — qutular kartın
+kölgəli kənarını tutmuşdu. Dar qutularla təkrarlayanda düzəldi. **Qutu yerləşdirməsi
+ölçmənin ən zəif halqasıdır** — həmişə qlifin öz sərhədi ilə kəsilməlidir.)*
+
+### ★ ZƏNCİR (mavi = kartın nömrəsi, qırmızı = növbəti kart)
+```
+I  (sarı kart)              → VIII
+VIII (Afrika + Madaqaskar)  → IV
+IV (ABŞ bayrağı + tövlə)    → VII
+VII (bant / lent)           → V
+V  (Oman bayrağı)           → VI
+VI (qar buludu)             → IX
+IX (?)                      → …
+```
+**Altı kart ardıcıl olaraq bir-birinə keçir — heç bir ziddiyyət yoxdur.**
+Ayrıca fraqment: **XI (rolikli fiqur) → II (?)**.
+
+### Açıq ziddiyyət — yalnız zəif oxunuşlarda
+Qırmızı **VII** dörd kartda iddia edilir (sarı, ABŞ bayrağı, qırmızı düzbucaqlı,
+iki hündür obyekt). Permutasiya şərtinə görə **yalnız biri doğrudur**.
+Zəncirin bütövlüyü ABŞ bayrağının qırmızı VII olmasını tələb edir; deməli
+sarı kartın qırmızısı **VIII** olmalıdır (V-I-I-I) — və bu, zənciri Afrikaya
+bağlayır. Qalan ikisi (düzbucaqlı, iki obyekt) yenidən oxunmalıdır.
+
+### Hələ təyin edilməmiş dəyərlər
+mavi: II, III, IX, X, XII, XIII, XIV — qırmızı: I, III, X, XI, XII, XIII, XIV
+(qalan 7 kart: təqvim, qırmızı düzbucaqlı, iki hündür obyekt, sütun qrafiki,
+çərçivəli şəbəkə, qızılı yumru obyekt, tünd oval+fiqur.)
