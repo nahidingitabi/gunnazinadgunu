@@ -2618,3 +2618,32 @@ qlobal homoqrafiyanı başlanğıc götürüb kartın öz ətrafında `findTrans
 (MOTION_HOMOGRAPHY) ilə dəqiqləşdirmək. İlk qaçış: ECC pəncərəsi kartın özü qədər
 kiçik olanda 371 kadrdan yalnız 14-ü qəbul edildi (kontrast azdır). İkinci qaçış:
 pəncərə 0.9× kənar boşluqla genişləndirildi, hədd 0.55-ə endirildi.
+
+### 19:45–19:55Z — ECC nəzarəti də UĞURSUZ; masa yaxın planı tapıldı; yeni alət `peek.py`
+
+**1) Lokal müstəvi + ECC dəqiqləşdirməsi də rədd edildi.**
+`warpreg_ecc.py` (qlobal homoqrafiya başlanğıc + `findTransformECC` MOTION_HOMOGRAPHY,
+ECC pəncərəsi 0.9× marja ilə genişləndirilib, hədd 0.55): 371 kadrdan 59-u qəbul
+edildi. **Nəzarət kartı Oman yenə zibil verdi** — kəskinlik 1.16 → **0.92** (aşağı
+düşdü). → **Çox-bucaqlı SR bu səhnə üçün prinsipial olaraq işləmir.** İki müstəqil
+nəzarət testi, iki uğursuzluq. Bu istiqamət **bağlandı**.
+
+**2) ★ Masanın ən yaxın planı tapıldı: 598.2–599.7 s (9:58), 1080p (`0f1d65d9`).**
+Kəsik xəritəsi çıxarıldı: bu, bütün videoda masanın ən yaxın görüntüsüdür (44 kadr).
+`hdesk2.npz` (kontekst 400,380–1000,900) və `hdesk3.npz` (600,680–1150,1079) quruldu.
+**"Boo!" kartı indiyə qədərki ən aydın halda çıxarıldı** (`sr12/boocard.png`,
+10×, 14 kadr): qara cildli kitab, üstündə ağ əlyazı ilə **"Boo!"**, altında
+**"Fi…"** (kadrın alt kənarı kəsir). Məzmun əvvəlkini təsdiqləyir, yeni məlumat yox.
+
+**3) Səhvlərim və düzəlişi.** Bu dövrədə üç dəfə yanlış bölgə seçdim, çünki
+koordinatları grid şəklinə **baxıb təxmin etdim**, etiketləri oxumadım (bir dəfə
+~250 px sürüşmə). Həmçinin bir bölgə `warpreg`-də boş çıxdı, çünki keşin
+**konteksti** ondan kiçik idi.
+→ Yeni alət **`peek.py`**: bahalı SR-dən ƏVVƏL namizəd bölgələri istinad kadrından
+kəsib bir sıra şəkil kimi göstərir. Bundan sonra hər SR-dən əvvəl istifadə ediləcək.
+→ Qayda: bölgə həmişə keşin konteksti **daxilində** olmalıdır.
+
+**4) Monitor ekranı** (`sr11/both.png`): Salesforce **"MrBeast XD"** yükləmə ekranı
+və firuzəyi maskot loqosu. Ekrandakı sönük mətn what3words ünvanına oxşayır, amma
+12× SR-də loqonun özü çıxdı — **oxunaqlı mətn yoxdur**. Firuzəyi/narıncı ipucu
+kartları bu plana düşmür.
