@@ -8374,3 +8374,104 @@ D və F bəndləri birlikdə **videonun içinə qayıtmağı** tələb edir. Xar
 dəyişməz olaraq qalır:
 1. 13, 14, 15 nömrəli kartların rəqəmləri (30 rəqəmdən 6-sı çatışmır);
 2. "hansı ada saymalı" göstəricisi (OP1-də bu "Find a puzzle maker" idi).
+
+---
+
+## 2026-09-06 13:5xZ — ★★★ İKİ YENİ NƏTİCƏ: PG2 ŞABLONU və XOR-un MÖVQE ŞƏRTLƏRİ
+
+### 1. Köhnə ovun PG2 şablonu tapıldı və NƏZARƏTİ KEÇDİ
+
+Cavab PDF-inin **PG2. NAMEPLATE & WALL CALENDAR** bölməsi:
+
+> "The calendar's dates are circled. It would be reasonable to count into the names of
+> the months by the dates, but that doesn't produce anything. Mrs. Maybelle's name
+> suggests a month and a foreign language. But which language? The split raincoat image
+> gives an answer: the word RAINCOAT anagrams to CROATIAN. **Counting into the names of
+> the months in Croatian produces SEOULSKOREA**."
+
+**Mexanizm:** hər dairəyə alınmış tarix (ay, gün) → **ayın adının `gün`-cü hərfi**,
+xronoloji sırada oxunur.
+
+**NƏZARƏT KEÇDİ** ✓ — CLDR-in xorvat `stand-alone` ay adları ilə köhnə 11 tarix
+(1/1, 2/2, 3/1, 3/3, 6/1, 7/1, 8/1, 8/6, 9/1, 11/5, 12/7) **hərfbəhərf SEOULSKOREA**
+verir. (`format` variantı SEOULSKOREC verir — deməli **stand-alone** forma düzgündür.)
+
+Bu, bizim kartların formasına tam oturur: **qırmızı = ay (I…X), qara = gün (I…XIV)**,
+15 kart → 15 hərf, sıra isə **xronoloji**dir (PG2-də də belədir — sıralama problemi
+bu fərziyyə üçün həll olunur).
+
+### 2. …amma tətbiqi RƏDD OLDU (1082 dil süpürüldü)
+
+12 məlum cütün tələb etdiyi minimum ad uzunluqları:
+
+| ay | 2 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+|---|---|---|---|---|---|---|---|---|
+| min uzunluq | **11** | 8 | 7 | 8 | 4 | 9 | 5 | **14** |
+
+CLDR-in **1082 dilinin hamısı** (hər ikisi: `stand-alone` və `format`) süpürüldü.
+Şərtlərin hamısını ödəyən cəmi **10 kombinasiya** var və hamısı formulyar ay adları olan
+dillərdir (agq_CM, lkt_US, kde_TZ, blo, bez_TZ). Çıxışlar: `ƆʔASŊƆZNƆIŊƆ`,
+`YKOPZUHCŊWWW`, `DINAIWNMDNIN`, `KŊƱƉƉUAALKƱƆ`, `WAIZEDIPWGEM` — **heç biri məna vermir**.
+3 səhvə qədər güzəştlə (109 namizəd) ən yaxşı bal `MONAARUDMOA?` (luo_KE) — yenə heç nə.
+Əl ilə yoxlanılan CLDR-dənkənar dillər: **Latın** (Februarius=11 ✓, amma Aprilis=7 ✗,
+Maius=5 ✗, October=7 ✗), **Ojibwe** (bütün şərtləri ödəyir → `EIZAMIIAIIES`, mənasız),
+Fransız Respublika təqvimi, bürclər, doğum daşları, ay çiçəkləri — hamısı ✗.
+
+⇒ **"Qırmızı = ay, qara = ayın adına hərf indeksi" oxunuşu bağlandı.** Şablon realdır,
+amma bizim rəqəmlərə bu formada tətbiq olunmur. (Ehtimallar: (a) rəqəmlər tarix deyil;
+(b) siyahı aylar deyil, başqa 12+ elementli adlar siyahısıdır; (c) 3 çatışmayan kart
+oxunuşu dəyişir.)
+
+### 3. ★★★ XOR AÇARI CAVABIN FORMASINI MƏHDUDLAŞDIRIR (yeni, sərt nəticə)
+
+Açar `%H6U=)Z7</#bq` (13 bayt). **Əgər şifrəmətn çap oluna bilən ASCII-dirsə** (yəni
+videodan oxunub yazıla bilən bir sətirdirsə), onda hər mövqedə cavabın hansı simvol
+sinfində ola biləcəyi məcburidir:
+
+| mövqe | açar | cavabda BÖYÜK hərf ola bilərmi? |
+|---|---|---|
+| 1, 3, 5, 6, 8, 9, 10, 11 | `% 6 = ) 7 < / #` | **bəli** |
+| **2, 4, 7** | `H U Z` | **XEYR — mümkün deyil** |
+| 12, 13 | `b q` | bəli (kiçik hərf yox) |
+
+Yəni **cavabın 2-ci, 4-cü və 7-ci simvolu böyük hərf OLA BİLMƏZ** — kiçik hərf, rəqəm,
+boşluq, defis, nöqtə, vergül və ya apostrof olmalıdır.
+
+**★ Və bu, CyberChef linkindəki "boş" input şablonu ilə DƏQİQ üst-üstə düşür:**
+
+```
+A a a a a A - a a A a # #
+1 2 3 4 5 6 7 8 9 10 11 12 13
+      ↑     ↑   ↑
+      2     4   7   ← şablonda da böyük hərf DEYİL (a, a, -)
+```
+
+⇒ **`AaaaaA-aaAa##` təsadüfi doldurma deyil — o, CAVABIN maskasıdır.**
+(Şifrəmətnin maskası ola bilməz: şifrəmətn kimi götürüldükdə 2-ci mövqedə hərf olur,
+bu isə cavabı idarəedici simvola çevirir.) Maska deyir: böyük hərflər 1, 6, 10-da;
+7-də ayırıcı; **12–13-də iki rəqəm**.
+
+**Şifrəmətnin məcburi forması** (cavabın hər mövqeyi hərf olsun deyə):
+`L ? L ? L L ? L L L L ? ?` — 8 hərf + 5 rəqəm/işarə. Yəni videodan çıxarılacaq 13
+simvol **təmiz hərf silsiləsi deyil**, qarışıq alfanumerik koddur.
+
+**⛔ Bu, mühüm düzəlişdir:** indiyə qədər bütün çıxarma cəhdlərini "ingiliscə söz
+verirmi?" deyə qiymətləndirmişəm. Şifrəmətn təsadüfi görünməlidir — o test **yanlış
+hədəfə tuşlanmışdı**. Bundan sonra çıxarma nəticələri `L?L?LL?LLLL??` formasına
+uyğunluğuna görə yoxlanmalıdır.
+
+### 4. Video mənbəyi haqqında iki fakt
+
+- Innertube `player` (IOS klienti + `sw.js_data`-dan təzə `visitorData`) **200 qaytardı**
+  və `82CX6WULNA0` üçün format siyahısında **2160p (4K)** var:
+  itag **313** (VP9, 3840×2160, 30fps) və itag **401** (AV1, 3840×2160, 30fps),
+  həmçinin 1440p (271/400). Video: "How 1 Person Solved A $1,000,000 Puzzle!",
+  MrBeast 2, 1067 s — eyni videodur, təsdiqləndi.
+- Lakin **media axını bu mühitdən açılmır**: `googlevideo.com` bütün cəhdlərdə
+  **403** verir (8 təkrar, iOS UA, brauzer UA, `&range=` parametri — hamısı 403,
+  gövdə boş). Yəni kadrları buradan çıxara bilmirəm; bu, əvvəlki sessiyaların
+  nəticəsini təsdiqləyir.
+- Alət qeydi: `/usr/local/bin/ffmpeg` Playwright-in kəsilmiş buildidir (yalnız mjpeg,
+  vp8). **Tam ffmpeg** buradadır:
+  `/usr/local/lib/python3.11/dist-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2`
+  (h264, vp9, libdav1d/AV1 hamısı var). PyAV (`av` 18.1.0) da quraşdırılıb.
