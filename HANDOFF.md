@@ -142,44 +142,88 @@ picture names are right, and the user has said mine are not.** Settle the
 pictures first, then re-run this check — not the other way round.
 
 
-## 6. The blocker, and the one thing that would break it open
+## 6. What is settled, and what is closed for good
 
-`[MEASURED]` In 1080p a piece is **~45 px wide**; its numerals are ~10 px. Every
-shot in the video was scanned — **there is no closer frame**. Multi-frame
-super-resolution buys about 3× and then stops.
+`[MEASURED]` **Numeral reading is finished: 12 of 15.** The other three cannot
+be read from this footage, each for a different reason, and none of them is an
+algorithm problem:
 
-**There is no 4K.** The user has confirmed this video maxes out at 1080p, so
-higher-resolution source is not coming and must not be asked for again. Every
-remaining gain has to come from processing: more frames per piece, better
-registration, and a real super-resolution estimator instead of a median.
-
-## 7. Tools built for this (in the session scratchpad)
-
-| tool | what it does |
+| piece | why it cannot be read |
 |---|---|
-| `piecesr.py SPEC.json OUT.png` | **the important one** — per-piece multi-shot SR. Each piece (or box face) is its own plane, so frames from *different camera angles* can be fused: warp each shot's reference quad to a canonical rectangle, then lock every frame to the template with **pyramid ECC** (¼ → ½ → 1, homography). A single global homography cannot do this — the box stack is 3-D — which is why the earlier multi-angle attempt failed. |
-| `homo.py` / `warpreg.py` | single-shot ORB+RANSAC homography cache, then masked-median SR of listed regions |
-| `sharp.py` | ranks frames in a time range by Laplacian variance over a crop |
-| `allquads.py` / `findquad.py` | auto-detect piece outlines (b\* < 16 & L > 135) and return min-area-rect corners |
-| `inkq.py` | red-vs-blue ink verdict from Δa\* against the card's own paper |
-| `gwidth.py` / `strokes.py` | glyph width and stroke-run profiles (both **too noisy at this resolution** — read numerals by eye from the fused images instead) |
+| window | its numerals sit **physically underneath** a neighbouring piece |
+| rock + eagle | below 1080p — best view is 124×50 px; three separate attempts all failed |
+| the fifteenth (lowest box) | below 1080p — 31×42 px, and it appears in no other shot |
 
-Homography caches: `h803.npz` (ref **t=803.527**, ctx 1450,300–1920,1050, 101
-frames — the best shot in the video), `h806.npz`, `h807.npz`, `hn765b.npz`,
-`hcache_office.npz`. Fused outputs: `PSR_topbox.png`, `PSR_usflag.png`,
-`PSR_eagle.png`, `GLYPHS_top.png`.
+`[MEASURED]` **The top-row ambiguity is resolved.** Magnifying the seam shows
+the "I VII" piece and the window piece are **separate** — the first's lower-right
+edge steps away with a yellow card beneath it, the second has its own left
+margin and shadow line. So the count stays **fifteen**, the yellow card is not a
+piece, and the I-VII numerals belong to the hidden-picture piece.
 
-## 8. Where to pick up
+`[MEASURED]` **Also closed:** both coloured cards on the desk are blank; there is
+no second piece of month handwriting anywhere on the boxes; the calendar's glyph
+is **25**, which does *not* echo that piece's own numerals (III·IV), so it is
+stock art rather than a confirmation of anything.
 
-1. Read the last three pieces (window, rock+eagle, the 15th) with `piecesr.py`.
-2. Pin down the ambiguous pictures — the two tall objects, the calendar's
-   number, the hidden picture on the "I VII" piece.
-3. Extract the **edge profiles** of the pieces (tooth count, tab shape). That is
-   an assembly route that does not depend on the numerals at all, and the
-   numerals have so far refused every ordering.
-4. Build a model only from measurements. Four models have already been built and
-   retracted in this hunt; each time the cause was modelling ahead of the data.
+## 7. The date reading — leading, and frozen
+
+`[MEASURED]` Handwriting on the box beside the US-flag piece reads **"July?"**,
+and that piece's numerals are **VII · IV**, with a US flag on it. Read as
+**red = month, blue = day**, that is the Fourth of July, and it explains at
+once: red never exceeds 12, blue never exceeds 31, both colours repeat freely
+(several dates share a month), and a calendar is among the pictures. All twelve
+month-day pairs are distinct, as an ordering key requires.
+
+`[INFERRED]` Its weakness is that the box is an archive box and "July?" may
+simply label its contents. Its one testable prediction — that the unread pieces
+would bring new months — **died with the numerals above**. It can now be neither
+confirmed nor refuted from this material, so it is **frozen**: leading
+hypothesis, nothing further built on it. Six models in this hunt died from
+building on an untested one.
+
+Dates, in order: 11 Feb (skater) · 4 Mar (calendar) · 8 Apr (Africa + plant) ·
+7 May (bow) · 5 Jun (Oman) · 8 Jun (rectangle) · 1 Jul (hidden picture) ·
+**4 Jul (US flag + barn)** · 6 Jul (two objects) · 9 Aug (arrow + bar chart) ·
+5 Sep (snow cloud) · 14 Oct (laughing face).
+
+## 8. Method — what actually moved the needle
+
+`[MEASURED]` **Iterative back-projection beats the masked median**, because a
+median discards the sub-pixel information that makes many frames worth more than
+one. Same frames, same registration, different estimator:
+
+| piece | median | IBP | |
+|---|---|---|---|
+| US flag + barn | 8.7 | **49.9** | 5.7× |
+| two objects | 5.4 | **13.7** | 2.5× |
+| fifteenth piece (283 frames) | 0.74 | **10.85** | 14.7× |
+| rock + eagle, multi-shot | 1.4 | 1.2 | no gain |
+| rock + eagle, **single shot + hand-placed quad** | — | **86.3** | 72× vs multi-shot |
+
+**The binding constraint is registration, not the estimator.** The last row is
+the proof: same solver, same frames, only the quad placed by hand instead of
+automatically. Two corollaries, both measured:
+
+* **Multi-shot is not always better than single-shot.** The calendar fused badly
+  across shots and cleanly from one; the two-objects piece did the opposite
+  (1.1 single against 13.7 multi). It depends on the angle between the shots and
+  must be measured per piece.
+* Set the low-resolution grid to the piece's **true pixel size** (canonical
+  width / S ≈ native width). Wrong S either blurs or amplifies noise.
+
+## 9. Where to pick up
+
+1. **The pictures still need names** — that is the critical path. Several of my
+   labels have already been wrong (the user corrected rock, eagle and the
+   laughing face; back-projection then retired "red square", which is a
+   *vertical* rectangle, and settled the bow against butterfly). `PIECE_PICTURES2.png`
+   is the current atlas.
+2. Two-picture pieces must yield **one** thing between them: seven pieces carry
+   one picture, four carry two, which totals ~20 pictures against 15 pieces, so
+   first-letter-per-picture cannot be the mechanism as it stands.
+3. Only then re-test the date reading and the letter models against the names.
 
 **Standing constraints:** never submit anything to the contest form — every
 submission is the user's. Never probe the entry endpoint. Keep the old $1M
-puzzle's material out of this work. Answer the user in Azerbaijani.
+puzzle's material out of this work. **There is no 4K of this video; do not ask
+again.** Answer the user in Azerbaijani.
