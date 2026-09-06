@@ -7067,3 +7067,25 @@ Parçalar hələ də izah olunmur: 15 parça 15 simvola sıra ilə uyğun gəlmi
 (4-cü və 11-ci simvol boşluqdur, orada dolu şəkillər var). Amma indi bilirik ki,
 **cavabın forması `XXX XXXXXX XXXX`-dır** — yəni parçalar ya bu ifadəni başqa
 yolla verir, ya da aralıq mərhələyə (`LONDON CANADA` / `LONDON`) aiddir.
+
+### Parçalar `THE FOREST CITY`-ni HƏRF-HƏRF də vermir
+
+Sınadım: rəsmin adının **ilk hərfi**, və adın **son sözünün ilk hərfi**.
+
+```
+THE FOREST CITY-də olan hərflər:  T H E F O R S C I Y
+kəpənək → B      ✗ cavabda B yoxdur
+ABŞ bayrağı → U (və ya States→S)  ✗ U yoxdur
+sevinc üzü → J (və ya joy→J)      ✗ J yoxdur
+ox → A (arrow)                    ✗ A yoxdur
+```
+
+Uyğun gələnlər var (qartal→**E**, Oman→**O**, qar→**S**, kartoteka→**C**,
+təqvim→**C**, diaqram→**C**), amma **ən azı üç parça cavabda ümumiyyətlə olmayan
+hərf verir**. Bir-bir uyğunlaşma modelində bu ölümcüldür.
+
+**Nəticə:** parçalar `THE FOREST CITY`-nin hərfləri deyil — nə sıra ilə, nə də
+sırasız. Deməli parçalar **başqa bir qatdır**: ya aralıq mərhələni verir, ya da
+tamam ayrı bir çıxışı var. «Hər parça bir hərf» modeli **iki müstəqil testdən
+keçmədi** (boşluq mövqeləri + hərf dəsti) — onu artıq işlək fərziyyə kimi
+saxlamıram.
