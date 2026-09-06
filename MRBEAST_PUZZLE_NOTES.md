@@ -9950,3 +9950,48 @@ qırmızı və mavi sətirlər **eyni hərfi** daşıyır. Bu, sətirlərin bir 
 - **Kart 1** — tünd-yaşıl şiş papaq, ağ/çəhrayı üz-saqqal zolağı, tünd-qırmızı
   paltar, açıq ayaqlar, qara ayaqqabı. Ad **≥12 hərf** olmalıdır.
 
+
+## ★★ 2026-09-06 ~19:4xZ — İŞLƏYƏN ÇOX-KADRLI YIĞIN (`tools/pieces/stackwin.py`)
+
+Əvvəlki sessiyalarda kadr yığma **dörd dəfə** uğursuz olmuşdu. Bu dəfə işlədi.
+Fərq nədədir:
+
+1. **Bütün çəkilişin kadrları çıxarılır** — `67592638` klipindən 27.90–31.50 s
+   (video 803.43–807.03), 107 kadr, `-vsync 0` ilə.
+2. Yalnız **həmin pəncərədə** Laplasian dispersiyası ən yüksək **70%** saxlanılır.
+3. Referens = ən kəskin kadr. Hər kadr referensə **`findTransformECC`
+   MOTION_HOMOGRAPHY** ilə (300 iterasiya, eps 1e-8, 5 px Gauss) oturdulur.
+4. **Korrelyasiya < 0.90 olan kadr atılır.** Bu, əvvəlki cəhdlərin buraxdığı
+   addımdır — süzgəcsiz yığın hərəkət bulanıqlığını orta hesaba qatır və
+   nəticə tək kadrdan pisdir.
+5. Qalanların **ORTASI** (median yox — orta) alınır, sonra 3× IBP
+   (14 iterasiya, addım 0.7, Gauss σ=0.45·S).
+
+Nəticə: kart 1 pəncərəsində tək kadrdan 74-dən **10 kadr** keçdi, orta
+korrelyasiya **0.998**; şəkil gözlə nəzərəçarpacaq dərəcədə təmizdir.
+Ölçülmüş: kart 10-un rəqəm zolağında Laplasian dispersiyası 55.6 → **350.2**.
+
+⚠ Məhdudiyyət: keçən kadr sayı azdır (7–14). Səbəb: bu çəkilişdə kamera əl
+ilə tutulub və kadrların çoxu bulanıqdır. Daha uzun statik çəkilişlərdə
+daha çox kadr keçəcək.
+
+### Bu üsulla təsdiqlənən yeni oxunuşlar
+- **Kart 1**: mavi **XII** — artıq şübhə yoxdur (X + I + I aydın ayrılır).
+- **Kart 10** (oval + qartal): mavi ≈ **IX**, qırmızı ≈ **VIII** — hələ qəti deyil,
+  amma ilk dəfə hər ikisi *görünür*.
+- **Qartal** qəti **keçəl qartaldır**: tünd gövdə, **ağ baş**, əyri dimdik, ayaqlar.
+
+## 2026-09-06 ~19:5xZ — OTAĞIN GENİŞ KADRI: KARTLAR BİR YIĞINDA DEYİL
+
+`pink_index_sheet_A_full_19.8.png` (t = 19.8 s) tam otağı göstərir. Sağ tərəfdə
+**qutu yığını** var və **kartlar ayrı-ayrı qutulara yapışdırılıb** — bir qutuda 2,
+başqasında 1–2. Yəni:
+
+- Yapboz **yığılmış halda heç yerdə göstərilmir**.
+- Kartların fiziki qonşuluğu **yapboz sırası deyil** — sadəcə səhnə düzümüdür.
+- ⇒ Sıra yalnız (a) kənar formalarından, (b) hərflərin özündən, və ya
+  (c) hələ tapılmamış üçüncü mənbədən çıxa bilər.
+
+Həmçinin bu kadrda görünür: sağ divarda konduit üzərində **6 (mavi) / 7 (qırmızı) /
+4 (ağ)** dairəvi stikerlər (əvvəlki sessiyanın tapıntısı təsdiqlənir), mərkəzdə
+**"PUZZLE CLUES"** yazılı qutu, sol aşağıda **"Boo! … Five of these"** kitabı.
