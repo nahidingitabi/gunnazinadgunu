@@ -5091,3 +5091,37 @@ Yəni: **hər iki ucunda qırmızı, ortası solğun.**
 
 **Qəti demirəm.** Amma "tünd qəhvəyi + açıq boz" təsvirim səhv idi: ölçmə
 **navy + iki ucu qırmızı** verir, və bu, namizəd siyahısını əsaslı dəyişir.
+
+### Kənar zolaqları 22× (`tools/pieces/EDGESTRIPS.png`) — profillər kataloqu
+
+Hər kartın sol/sağ kənarını ayrıca dar zolaq kimi 22× böyütdüm. Nəticə:
+
+| kart / kənar | profil |
+|---|---|
+| ABŞ bayrağı **sol** | **3 iti üçbucaq diş** (aydın mişar) |
+| ABŞ bayrağı **sağ** | **hamar yumru qabarıq** |
+| qar buludu **sol** | hamar yumru qabarıq (yüngül S) |
+| təqvim **sağ** | **pilləli düzbucaq oyuq** (soket) |
+| iki obyekt **sol** | **düzbucaq dil (tab)** — çox fərqlidir |
+| siluet **sağ** | dalğalı (əvvəl içəri, sonra çölə) |
+| Oman **sol** | düz şaquli |
+| qartal **sol** | yumru |
+
+Yəni ən azı **beş fərqli birləşdirici tipi** var: iti mişar, yumru qabarıq,
+düzbucaq dil, pilləli oyuq, dalğalı.
+
+### ★ Diqqətəlayiq təsadüf
+
+**Təqvimin sağ kənarı düzbucaq OYUQ, iki obyektin sol kənarı düzbucaq DİL** —
+yəni bir-birini tamamlayır. Və bu iki kart qutunun üstündə **fiziki olaraq
+yan-yanadır** (orta qutu).
+
+Bu iki cür oxuna bilər:
+1. Parçalar qutuların üstünə **artıq düzgün qonşuluqda** yapışdırılıb (yəni
+   düzülüş elə cavabın özüdür) — amma onlar 6 fərqli qutuya səpələnib, deməli
+   bütöv bir zəncir deyil.
+2. Sadəcə təsadüfdür.
+
+Bunu ayırd etmək üçün digər qonşu cütlərin kənarlarını da yoxlamaq lazımdır
+(məs. kəpənək↔düzbucaq, Oman↔siluet, 😂↔qartal). **Bu, növbəti sessiya üçün
+konkret, ölçülə bilən sualdır.**
