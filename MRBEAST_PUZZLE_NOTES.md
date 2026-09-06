@@ -5921,3 +5921,33 @@ zolaqları**dır (artıq ölçülüb), forma profili yox.
 (çox hamar, qabarıq).** Yəni **uzun, hamar, aşağıya doğru sivriləşən** forma.
 Rəng ölçməsi ilə birləşdirəndə (**tünd göy/navy gövdə**) bu, **qələm/fırça
 tipli sivri ucu olan alətə** uyğun gəlir.
+
+---
+
+## 2026-09-06 10:15Z — Rəqəmlərin kart üzərindəki YERİ ölçüldü (yeni, əvvəl qeyd edilməyib)
+
+Yeni alət: `tools/pieces/numpos.py` — kartı tapır, qırmızı və mavi rəqəmin
+mərkəzini **kartın öz ölçüsünə görə kəsr** kimi verir və nisbi düzülüşü çıxarır.
+
+| kart | qırmızı (x, y) | mavi (x, y) | nisbi düzülüş |
+|---|---|---|---|
+| təqvim | 0.81, 0.77 | 0.80, 0.21 | qırmızı **AŞAĞI**, sağda |
+| iki obyekt | 0.53, 0.52 | 0.25, 0.87 | qırmızı **YUXARI**, sağda |
+| Oman | 0.18, 0.26 | 0.33, 0.75 | qırmızı **YUXARI**, solda |
+| siluet | 0.39, 0.67 | 0.74, 0.16 | qırmızı **AŞAĞI**, solda |
+| qar buludu | 0.07, 0.88 | 0.29, 0.58 | qırmızı **AŞAĞI**, solda |
+| ox+diaqram | 0.31, 0.14 | 0.86, 0.72 | qırmızı **YUXARI**, solda |
+| qartal | 0.47, 0.57 | 0.48, 0.23 | qırmızı **AŞAĞI**, solda |
+
+**Dörd mümkün düzülüşün hamısı baş verir** (aşağı-sağ, yuxarı-sağ, yuxarı-sol,
+aşağı-sol). Yəni **sabit konvensiya yoxdur** — qırmızı həmişə yuxarıda və ya
+həmişə solda deyil.
+
+**Nə demək olar, nə deyil:** bu, kart başına 2 bit deməkdir (15 kart × 2 bit),
+amma **məlumat daşıdığına dair heç bir dəlil yoxdur**. Ən sadə izah:
+rəqəmlər şəklin **boş qoyduğu yerə** yazılıb. İkinci izah: yer parçanın
+**dil/oyuq düzülüşünü** izləyir (yığma məlumatı). **Ayırd etmək mümkün deyil.**
+Faktı qeyd edirəm, model qurmuram.
+
+**Qeyd:** dörd kartda (kəpənək, düzbucaq, I-VII, fiqur) mavi rəqəm tapılmadı —
+onların mavisi tək nazik ştrixdir və ya renderin kart kəsimindən kənarda qalır.
