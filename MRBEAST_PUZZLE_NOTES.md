@@ -10911,3 +10911,62 @@ Yəni çox-çəkiliş birləşdirməsi **küyü azaldır**, amma **yeni detal ve
 görünür ki, REF* şəkillərinin özləri artıq çəkiliş-daxili yığındır — piksel-altı
 müxtəliflik onsuz da istifadə olunub. Bu yol **bağlanır**: görüntü keyfiyyəti
 1080p mənbədə tavana çatıb.
+
+### ★ «LAST WORD THEN NINTH» — köhnə metanın üslubu ilə eynidir
+
+Köhnə tapmacanın **meta-təlimatı** (səh. 80, avtomobil/at/təyyarə/qayıq hərfləri ilə
+yığılır) belədir:
+
+> **"IN JIMMY'S VAULT FIRST PART STICKS ROAMY RESULTS IN BETWEEN STAGE ONE ANSWER
+> PAIRS LAST PART HE SHOWED AT START."**
+
+Yəni müəllifin üslubunda **qısa, əmr formasında təlimat** hərflərlə yığılır və növbəti
+addımı deyir. `LAST WORD THEN NINTH` **məhz bu ailədəndir** — həm uzunluğu, həm
+qrammatikası uyğundur («FIRST PART…», «LAST PART…» ↔ «LAST WORD… THEN NINTH»).
+
+⇒ Firuzəyi kartın açılışının **yeni tapmacanın 2-ci addım təlimatı** olması ehtimalı
+artır. Yapbozdan çıxan mətn əldə olan kimi ilk tətbiq ediləcək qayda budur.
+(Qeyd: bu, əlaqə arqumentidir, sübut deyil.)
+
+## ★★★★ 2026-09-07 — QIRMIZI MASA QEYDİ TAM OXUNDU (t≈767 masa çəkilişi)
+
+Qeyd masanın üstündə 90° döndərilmiş vəziyyətdədir. `st767` kadr 55–95 → 
+`stackwin.py 786 866 1000 990 … 4` (18/28 kadr, orta korr. 0.994) → 90° CCW döndərmə.
+`RED_NOTE_READ.png`. Mətn indi şübhəsizdir:
+
+```
+   ( 5   2   7 )
+        ↓
+ ( 8  3  5  4  4 )
+        ↓
+     M̶R̶  ( 9 )
+```
+
+«MR» **bir diaqonal xətlə üstündən xətlənib**, sonra mötərizədə **9**.
+
+### İki masa qeydi eyni üslubdadır
+
+| qeyd | zəncir |
+|---|---|
+| krem kağız | `(3 6 4)` + `(4 4 4 5)` → `(6 6)` → `(6)` |
+| ağ kağız, qırmızı qələm | `(5 2 7)` → `(8 3 5 4 4)` → `M̶R̶ (9)` |
+
+Hər ikisi **söz-uzunluğu imzalarıdır**. Krem qeyddə ikinci giriş
+`(4 4 4 5)` = **LAST WORD THEN NINTH** olduğu təsdiqləndi — yəni bu imzalar
+**ifadələri** göstərir, sadəcə rəqəm deyil. Deməli qırmızı qeyddəki
+`(8 3 5 4 4)` da böyük ehtimalla **5 sözlü bir təlimatdır** (eyni üslub).
+
+### Fərziyyə (sübut deyil): `M̶R̶ (9)` = DONALDSON
+
+«MR» yazıb üstündən xətləmək + 9 hərflik cavab → yazan adam «MR BEAST» deməyə
+başlayıb, sonra əsl soyadı yazmağa keçib. **DONALDSON düz 9 hərfdir.**
+Bunu **fərziyyə** kimi qeyd edirəm; təsdiqi yoxdur.
+
+⚠ **Gərginlik:** əgər qırmızı qeyd YENİ tapmacanın yol xəritəsidirsə, son cavab
+**9 hərflikdir** — bu isə formadakı 15 simvolla ziddiyyət təşkil edir. Üç ehtimal:
+1. qeydlər köhnə tapmacanındır (krem qeyd üçün bu artıq güclüdür);
+2. formadakı 15 nümunə mətndir (`DULUTHMINNESOTA` = 15);
+3. yapboz aralıq addımdır, `(5 2 7)` = onun 14 hərfi, son cavab isə 9 hərf.
+Üçü də açıqdır; heç birini qəti saymıram.
+
+★ Diqqətçəkən: `(5 2 7)` = **14 hərf**, yapbozun verdiyi hərf sayı ilə eynidir.
