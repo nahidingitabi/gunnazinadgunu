@@ -6691,3 +6691,36 @@ Kəpənəkdə arxa qanadlar ön qanadlardan kiçikdir — uyğun gəlir; bantda 
 aşağıdakılar **açıq lent** olardı, qapalı ilmə yox. Ona görə kəpənək qalır,
 amma **«şübhəsiz» deyil, «çox güman»dır**. (Qeydlərimdə bu ad iki dəfə
 əks istiqamətdə dəyişib — indiki dayaq: dörd **qapalı** ilmə.)
+
+## 6-cı kart: sağdakı obyektin rəng imzası ölçüldü
+
+20× şəbəkə (`Z06.png`) + zolaqlarla rəng ölçüsü (`B6.png`, zolaqlar çəkilib):
+
+```
+zolaq 1 (üst)   da* +9.9  db* -1.6   ÇƏHRAYI
+zolaq 2         da* -0.8  db* -8.0   mavi
+zolaq 3–7       da* +0.8…+2.3  db* -6.4…-8.2   mavi gövdə
+zolaq 8 (alt)   da* +9.4  db* -3.2   ÇƏHRAYI
+```
+
+**İki ucu da çəhrayı, ortası soyuq mavi — simmetrik.** Görüntüdə əlavə olaraq:
+hər çəhrayı ucun içərisində **firuzəyi zolaq**, gövdənin içində isə
+**iki paralel tünd şaquli çubuq**. Ölçüsü ~14×50 px, uzanma ~3.5.
+
+Sol obyekt: **tünd, neytrala yaxın lövhə**; rəngi qonşusundan ayrıla bilmir
+(hər ikisi ~10 px enindədir — ayırdetmə həddi). Onun ölçüsü **etibarsız**dır.
+
+### 155 nişanın heç birində bu imza yoxdur
+
+`tools/pieces/axisband.py` hər nişanı **öz uzun oxuna döndərir**, sonra ox boyu
+uc/orta/uc rənglərini verir.
+
+**Əvvəlki qaçışda ciddi qüsur vardı:** aspekti **sərhəd qutusuna** görə
+süzürdüm və cəmi 13 nişan «uzun-nazik» sayıldı. Twemoji raketi, şprisi, qələmi,
+termometri **maili çəkir** — onların sərhəd qutusu demək olar kvadratdır, ona
+görə **məhz axtardığım namizədlər atılırdı**. Öz oxuna döndərəndən sonra
+**65 nişan** uzun-nazik çıxdı.
+
+Düzəldilmiş qaçışda da ən yaxın məsafə 10.3-dür və fərq **tamamilə a\*-dan**
+gəlir: rəsmdə iki uc `a* ≈ +10`, namizədlərdə `−1…−3`.
+**155 nişanın heç birində «iki ucu qırmızı, ortası soyuq» yoxdur.**
