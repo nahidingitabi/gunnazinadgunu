@@ -344,3 +344,36 @@ Strengthened by the second handwritten month; weakened by a measurement: every
 numeral read falls in 1..14 while there are 15 pieces, and twelve draws of a
 day-of-month all landing at 14 or below has probability about 7×10⁻⁵. It remains
 the leading hypothesis and remains frozen.
+
+### Added later the same night
+
+- **The calendar is II·IV — 4 February**, not III·IV. Measured per stroke against
+  the card's own paper with the neighbouring cardboard as a passing control.
+  This moved the calendar to the front of the date order and **killed** the
+  "every month appears" observation recorded earlier that night (four months
+  missing against three unread pieces).
+- **A third camera angle exists**: the office shot (cache `hcache_office`, best
+  frame t≈19.9) shows the *whole* box stack from the left. My notes had it as
+  showing only the fifteenth piece. Its occlusion differs from every other
+  angle. It is lower magnification for the top box, so it does not recover the
+  window card's numerals, but it is the only view of the fifteenth piece and it
+  confirmed the ovoid's colour independently.
+- **The drawings are not a standard emoji set.** No barn emoji exists; the bar
+  chart's colours are wrong for Noto's; no emoji is a plain unpatterned
+  rectangle. So a first-letter-of-the-Unicode-name mechanism cannot apply to all
+  fifteen. If there is a letter rule it runs on ordinary English words.
+- **The pieces overlap on the boxes, they do not interlock.** All six junctions
+  show one card lying on the other. The arrangement on the boxes is not the
+  assembled puzzle.
+- **Shapes now measured three ways each:** the "Africa" silhouette is 32×11
+  native px (elongation 2.87–2.98 at three thresholds, mask drawn and checked);
+  the fifteenth piece's picture is 19×8 (elongation 2.30–2.54 from both a render
+  and the raw frame).
+- **New tools**: `numcheck.py` (red vs blue, control visible in the db* column),
+  `colorbox.py` (measures named boxes *and draws them*, because misplacement was
+  the failure mode every time), `inkarea.py` (kept only as the record of a
+  discarded estimator), `picatlas.py`, `emocmp.py`, `board.py`.
+- **Best artefacts to look at first**: `tools/pieces/BOARD.png` (all fifteen
+  pieces, dated), `PICTURES_ONLY.png` (20× drawings), `EMOCMP.png` +
+  `EMOCMP2.png` (drawings beside candidate emoji), `EDGESTRIPS.png` (edge
+  profiles).
