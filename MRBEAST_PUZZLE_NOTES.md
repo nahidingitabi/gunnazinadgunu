@@ -6421,3 +6421,71 @@ Yəni «qırmızı = ay» oxunuşunun zəifləməsi **sıralamanı sarsıtmır**
 üçün lazım olan yeganə şey (qırmızı, mavi) cütünün **sıralana bilən açar**
 olmasıdır — 12 cütün hamısı fərqlidir, bu şərt ödənir. Yeganə açıq sual
 sıralamanın `(qırmızı, mavi)` yoxsa `(mavi, qırmızı)` olmasıdır.
+
+---
+
+## ★ «Bunlar standart emoji deyil» nəticəsini GERİ GÖTÜRÜRƏM
+
+O nəticə üç dayağa söykənirdi və hər üçü zəifdir:
+
+1. «anbarın emojisi yoxdur» — bu, **mənim adlandırmamdan** asılıdır, ölçüdən yox.
+2. «diaqramın sütunları çəhrayı/sarı/yaşıldır, Noto-da yaşıl/qırmızı/mavi» —
+   bu, **əl ilə çəkilmiş** rəsmin vendorun rənglərini eynilə təkrarlayacağını
+   fərz edir. Səbəb yoxdur.
+3. «düz düzbucaq və qara siluet heç bir emojiyə uymur» — onlar **adsızdır**;
+   adsız şeydən «uymur» nəticəsi çıxmaz.
+
+**Ən əsas qüsur: yalnız BİR vendorla (Noto) müqayisə etmişdim.** Eyni emojini
+vendorlar çox fərqli çəkir. Sən özün «daş, qartal, gülən üz görürəm» demişdin —
+yəni rəsmlər emojiyə oxşayır.
+
+→ **«Emoji adının ilk hərfi» mexanizmi yenidən canlı fərziyyədir.**
+
+### İkinci vendor gətirildi: Twemoji (76 nişan, `emo/`)
+
+`tools/pieces/twcmp.py` → **`TWCMP.png`**: hər adsız rəsmin yanında namizədlər,
+eyni ölçüdə. Avtomatik sıralayıcı deyil — göz üçün (11 avtomatik ölçü artıq
+nəzarətdən keçməyib).
+
+### İki nəticə dərhal çıxdı
+
+**#13 = 🗄️ kartoteka (file cabinet).** Twemoji-nin kartotekası **İKİ siyirməli**
+(Noto-nunki üç siyirməlidir — məhz buna görə əvvəl uymurdu). Rəsm: tünd konturlu
+hündür düzbucaq, **ortada bir üfüqi ayırıcı**, iki panel, ayırıcıda kiçik
+çıxıntılar (= siyirmə tutacaqları). Rəngi: **mürəkkəb kağızdan soyuq** = boz —
+Twemoji-nin boz kartotekasına uyğun. **İndiyə qədərki ən güclü uyğunluq.**
+
+**#7 üçün ən yaxşı namizəd 🚪 qapıdır** — Twemoji-nin qapısı terrakotadır,
+rəsmin rəngi `a* +16.4 / b* +13.8` terrakota. Amma nisbət uyğun gəlmir
+(rəsm 1 : 2.14, Twemoji qapısı ≈ 1 : 1.5) və rəsmdə nə panel, nə dəstək görünür.
+**Təsdiq deyil.**
+
+### Namizədlər eyni üsulla ölçüldü (`profcmp.py`)
+
+Namizəd emoji siluetə çevrilir, rəsmin piksel ölçüsünə endirilir, **rəsmlərlə
+eyni üsulla** ölçülür: uzun ox, dərinliyin hər 10%-ində en, uzanma, solidity.
+Əvvəl **ayırdetmə yoxlanılır** — namizədlər bir-birindən ayrılmırsa ölçü mənasız
+sayılır və atılır. (Ayrılma 0.19–0.20, hədd 0.08 → ölçü mənalıdır.)
+
+Bir səhv tutuldu: Twemoji mikrofonunun **not işarələri ayrı parçadır** və
+siluetə qarışıb uzanmanı 1.49 göstərmişdi. Yalnız əsas gövdə götürüləndə **2.72**.
+
+**#3 (neytral QARA, uzanma 2.87–2.98, solidity 0.82, en profili
+qabar–bel–qabar–incəlmə):**
+
+```
+🎤 mikrofon         uzanma 2.72  solidity 0.83   ← ölçülərə ən yaxın, üstəlik QARA
+🕴 kostyumlu siluet uzanma 2.82  solidity 0.82   ← ölçülər eyni dərəcədə yaxın
+🧪 sınaq borusu     2.94 / 1.00  (profil düz, bel yoxdur)      ✗
+🖊 qələm            3.95 / 0.93                                 ✗
+🥾 bot, 🐦 quş, 🗿, ☂, 🦇, 🔑, 💡, 🎸 — uzanma 1.3–2.3          ✗
+```
+
+İki namizəd qalır. **Heç biri təsdiq deyil**: rəsmdə 65%-də **ikinci qabar** var,
+mikrofonun profili orada düşür (0.57), rəsmdə 0.84-dür.
+Yəni: `#3 ∈ {🎤, 🕴}` — 12 namizəddən 2-yə endi, adı hələ verilmir.
+
+**#15 (uzanma 2.36, solidity 0.91, ən enli 20%-də, sonra monoton incəlmə):**
+doqquz namizədin **heç biri uymur**. Formaca ən yaxını 🦷 dişdir (ən enli
+yuxarıda, monoton azalma) amma uzanması 1.41-dir, 2.36 deyil. 🍃 1.80, 🪶 3.07,
+🥕 3.16, 🔪 4.12, 🌶 solidity 0.68. **Hamısı istisna.**
