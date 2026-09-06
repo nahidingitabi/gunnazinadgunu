@@ -9676,3 +9676,22 @@ Sağ qalan konvensiya namizədləri:
 - **assosiativ xüsusi ad** (GC8-dəki `ANNE RICE`, `DALLAS MAVERICKS` üslubu) —
   bant üçün? Oman üçün `MUSCAT`(6)?
 Hər iki halda **konvensiyanı bir kartda təsbit etmək** lazımdır ki, qalanlar açılsın.
+
+### ↩ ...və elə həmin şərt **KƏPƏNƏK** oxunuşuna qayıtmağı təklif edir
+
+Yuxarıda gözlə "qəti bant" yazdım. Amma mexanizmin öz filtri əks istiqamətə işarə edir:
+
+- 🎀 `ribbon` = **6** hərf → mavi **VII = 7** ilə **sığmır** ✗
+- 🦋 `butterfly` = **9** hərf → **sığır** ✓ → qırmızı **E**, mavi **F**
+
+Və vizual olaraq da fərq incədir: 18×-də gördüyüm "iki ilgək + ortada düyün + aşağıda
+iki quyruq" **kəpənəyin iki ön + iki arxa qanadı və gövdəsi** kimi də oxunur.
+
+★ **Parsimoniya arqumenti:** 😂 `face with tears of joy`(18) CLDR adı ilə işləyir,
+Oman `flag: Oman`(8) ilə işləyir. Əgər bu kart da 🦋 `butterfly`(9)-dursa,
+**CLDR konvensiyası bütün üç kartda ardıcıl olur** və heç bir istisna qalmır.
+`hair bow`(7) də sığır, amma o, standart emoji adı deyil.
+
+⇒ **Üstünlük verilən oxunuş: 🦋 kəpənək** (qəti deyil). Bu, mənim gözlə etdiyim
+"düzəlişi" geri qaytarır — mexanizmin filtri gözdən daha etibarlı çıxdı.
+Yeganə qalan CLDR istisnası: **yaşıl papaqlı fiqur** (≥12).

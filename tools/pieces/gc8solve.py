@@ -51,7 +51,7 @@ CARDS = [
     ('sari kart (sekli gizli)',  7,   1, None),
     ('iki panelli cerceve',   None, None, None),
     ('asagi ox + sutunlar',      8,   9, None),   # namized: 'chart decreasing'(15) -> C/R
-    ('bant / lent',              5,   7, None),
+    ('kepenek (bant?)',          5,   7, 'butterfly'),  # filtr `ribbon`(6)-ni kesir
     ('narinci-qirmizi duzbucaq', 6,   8, None),   # namized: 'red square'(9) -> U/R
     ("teqvim '25'",              2,   4, None),   # namized: 'spiral calendar'(14) -> P/R
     ('iki obyekt',               6,   6, None),   # qirmizi == mavi
