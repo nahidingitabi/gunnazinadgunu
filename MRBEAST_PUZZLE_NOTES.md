@@ -10970,3 +10970,19 @@ Bunu **fərziyyə** kimi qeyd edirəm; təsdiqi yoxdur.
 Üçü də açıqdır; heç birini qəti saymıram.
 
 ★ Diqqətçəkən: `(5 2 7)` = **14 hərf**, yapbozun verdiyi hərf sayı ilə eynidir.
+
+## ⛔ 2026-09-07 — ŞƏKİLLƏR OTAQDA BAŞQA HEÇ YERDƏ TƏKRARLANMIR
+
+Fikir: köhnə tapmacanın mantar lövhəsindəki kartlarda **etiket** var. Əgər yapboz
+şəkillərindən hansısa orada da varsa, etiket şəklin **adını** verərdi — bu, bütün
+həllin çatışmayan yeganə hissəsidir.
+
+`boardhunt.py`: 13 parça şəkli beş səhnədə (REF803/806/765/767/OFFICE) 0.30–1.75
+miqyas aralığında şablon uyğunlaşdırması ilə axtarıldı, eşik 0.62.
+
+**Nəticə: bütün yüksək bal uyğunluqları parçanın özünün başqa kadrdakı təkrarıdır**
+(hamısı x > 1200, yəni qutu bölgəsi). Mantar lövhəsində (x < 1000) yeganə namizəd
+`chart` üçün REF803 (840, 285) bal 0.831, miqyas 0.35 idi — yoxladım, **MrBeast-in
+əlidir**, yanlış uyğunluq.
+
+⇒ Yapboz şəkilləri otaqda **unikaldır**; etiketdən ad almaq yolu bağlıdır.
