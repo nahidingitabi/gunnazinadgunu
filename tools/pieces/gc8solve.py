@@ -48,15 +48,15 @@ def run_control():
 # Qirmizi/mavi reqemler REF803-den warp + 9-16x boyutme ile oxunub.
 CARDS = [
     ('yasil papaqli fiqur',      2,  12, None),   # mavi XII: 5 kadrda tesdiq (2026-09-06)
-    ('gizli sekilli kart',       7,   1, None),   # 'I VII' karti; uzu tam ortulu
+    ('gizli sekilli kart',       8,   1, None),   # yigin: qirmizi VIII (VII deyil), mavi I
     ('iki panelli cerceve',   None, None, None),   # reqemleri sag ucundadir, diaqram kartinin altinda
     ('asagi ox + sutunlar',      8,   9, None),   # namized: 'chart decreasing'(15) -> C/R
     ('kepenek (bant?)',          5,   7, 'butterfly'),  # filtr `ribbon`(6)-ni kesir
     ('narinci-qirmizi duzbucaq', 6,   8, None),   # namized: 'red square'(9) -> U/R
     ("teqvim '25'",              2,   4, None),   # namized: 'spiral calendar'(14) -> P/R
-    ('iki obyekt',               7,   7, None),   # VII/VII, 32x-de yeniden oxundu; beraber
+    ('iki obyekt',               6,   6, None),   # yigin: VI/VI (kohne oxunus dogru idi); beraber
     ('sevinc uzu',              10,  14, 'face with tears of joy'),
-    ('das + kecel qartal',    None, None, None),
+    ('das + kecel qartal',       8,   9, None),   # yigin: qirmizi ~VIII, mavi ~IX (ilk defe gorunur)
     ('Oman bayragi',             6,   5, 'flag: Oman'),  # CLDR adi, 8 herf
     ('Afrika + yasil bitki',     4,   8, None),   # namized: 'globe showing Europe-Africa'(24) -> B/O
     ('qar buludu',               9,   5, 'cloud with snow'),

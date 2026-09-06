@@ -9995,3 +9995,35 @@ başqasında 1–2. Yəni:
 Həmçinin bu kadrda görünür: sağ divarda konduit üzərində **6 (mavi) / 7 (qırmızı) /
 4 (ağ)** dairəvi stikerlər (əvvəlki sessiyanın tapıntısı təsdiqlənir), mərkəzdə
 **"PUZZLE CLUES"** yazılı qutu, sol aşağıda **"Boo! … Five of these"** kitabı.
+
+### Yığınla təsdiqlənən rəqəm cədvəli (2026-09-06 ~20:1xZ)
+
+Hər rəqəm ayrıca 5× IBP yığını ilə böyüdüldü (`NUM_VI_VII.png`, `K2NUM.png`).
+
+| kart | qırmızı | mavi | ad ≥ | qeyd |
+|---|---|---|---|---|
+| 1 papaqlı fiqur | **II** 2 | **XII** 12 | 12 | XII qəti |
+| 2 gizli şəkil | **VIII** 8 | **I** 1 | 8 | ⚠ əvvəl VII yazılmışdı — yığında **VIII** (V+III) |
+| 3 çərçivə | ? | ? | — | rəqəmləri örtülü |
+| 4 ↓ox + sütunlar | **VIII** 8 | **IX** 9 | 9 | |
+| 5 bant | **V** 5 | **VII** 7 | 7 | |
+| 6 düzbucaq | **VI** 6 | **VIII** 8 | 8 | ikisi də qəti |
+| 7 təqvim | **II** 2 | **IV** 4 | 4 | |
+| 8 iki obyekt | **VI** 6 | **VI** 6 | 6 | ⚠ bu gün «VII/VII» yazmışdım — **səhv idi**; yığın **VI/VI** göstərir, yəni qeydlərin ilkin dəyəri düzgün imiş. Bərabərlik dəyişmir. |
+| 9 😂 | **X** 10 | **XIV** 14 | 14 | |
+| 10 oval + qartal | **VIII** 8 | **IX** 9 | 9 | ilk dəfə oxundu, hələ qəti deyil |
+| 11 Oman | **VI** 6 | **V** 5 | 6 | |
+| 12 siluet + bitki | **IV** 4 | **VIII** 8 | 8 | |
+| 13 qar buludu | **IX** 9 | **V** 5 | 9 | |
+| 14 ABŞ + tövlə | **VII** 7 | **IV** 4 | 7 | |
+| 15 tünd fiqur | ? | ? | — | ayrı qutuda, çox uzaq |
+
+⇒ **13 kartın hər iki rəqəmi məlumdur.** Naməlum qalan: kart 3 və kart 15.
+
+**Ən çətin süzgəc: kart 9 (≥14) və kart 1 (≥12).** Kart 9 üçün `face with tears of
+joy`(18) praktiki olaraq məcburidir. Kart 1 üçün ≥12 hərflik ad tapılmalıdır —
+`garden gnome`(11) bir hərf çatmır, `Santa Claus`(10) və `leprechaun`(10) də keçmir.
+
+### Kart 3 daha aydın göründü (`K2NUM.png`)
+Qalın tünd çərçivə, **üfüqi bölgü ilə iki panel**, panellərin içi **açıq boz-lavanda**.
+Ən yaxın oxunuşlar: **pəncərə**, **iki panelli qapı**, **çərçivəyə salınmış şəkil**.
