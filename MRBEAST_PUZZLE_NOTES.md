@@ -8948,3 +8948,33 @@ uzun olmalıdır.
 GC8-də adları seçən qayda var idi: *hər ad **ERIC** hərflərini ehtiva edir*.
 Bizdə analoji açar hələ tapılmayıb. Namizədlər: **JIMMY**, **BEAST**, **COLIN**,
 **XOR**, **MRBEAST**. Bunu tapmaq adların hamısını bir anda təsdiqləyərdi.
+
+### GC8-in seçici qaydası dəqiqləşdirildi: **açar söz BİTİŞİK alt-sətirdir**
+
+`ERIC` yeddi adın hamısında **bitişik** görünür (mövqe: 4, 3, 11, 3, 5, 6, 10):
+`ANNE**RIC**E`… əslində `ANN**ERIC**E`, `CL**ERIC**`, `FRID**ERIC**HANDEL`,
+`AM**ERIC**ANCHEESE`, `CENT**ERIC**E`, `RICHI**ERIC**H`, `MAV**ERIC**KS`.
+⇒ Bizdə də belə bir **açar söz** hər adın içində bitişik olmalıdır. Bu, adları
+təsdiqləyən **öz-özünə nəzarət** mexanizmidir.
+
+### Sətir uzunluğu haqqında
+
+GC8-də **tək rəqəmli** şəkillər hər iki sətrə **eyni hərfi** verirdi (ortaq prefiks
+`ALG`); cüt rəqəmlilər ayrılırdı. Bizdə **8-ci kartda qırmızı VI = mavi VI** —
+funksional olaraq "tək rəqəm"dir ⇒ o mövqedə şəhər və ölkə **eyni hərfə** malikdir.
+Qalan kartlarda rəqəmlər fərqlidir ⇒ **hər iki sətir parça sayı qədər uzundur.**
+Sayım: 14 kart yerləşdirilib + ürək formalı 15-ci (təsdiqlənməmiş) ⇒ **N = 14 və ya 15**.
+(İcma "13 parça" deyir; bu halda N = 13.) N-i dəqiqləşdirmək cavabın uzunluğunu verir.
+
+### Kartların KƏNARLARI həqiqətən yapboz kənarlarıdır
+
+Warp edilmiş görüntülərdə aydın görünür: 14-cü kartın (ABŞ bayrağı) **sol kənarı
+mişar dişlidir**, 13-cü kartın (qar) **sol kənarı dalğavaridir**, 4-cü kartın
+(diaqram) **sağ kənarı dalğavaridir**. ⇒ Sıra doğrudan da kənarların birləşməsindən
+çıxır — Colin-in "look for a jigsaw puzzle" ipucusu hərfi mənadadır.
+
+### `NAME_THESE.png` hazırlandı
+
+14 kartın hamısı, hər birinin qırmızı/mavi rəqəmi və **adın minimum uzunluğu**
+şərti ilə bir vərəqdə. İstifadəçiyə göndərildi — adlandırma indi tapmacanın
+yeganə açıq addımıdır.
