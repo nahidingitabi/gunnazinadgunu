@@ -10865,3 +10865,27 @@ Yapbozun 14 hərfi bir siyahı/ifadə verirsə, bu qayda ona tətbiq olunacaq.
 Formada saydığım **15 simvol** skriptlə yazılan animasiyadır və köhnə cavab
 `DULUTHMINNESOTA` da düz 15 hərfdir. Deməli 15 rəqəmi ya yeni cavabın uzunluğudur
 (14 hərf + 1 boşluq), ya da nümunə mətndir. İkisi də eyni dərəcədə mümkündür.
+
+## ⛔★ 2026-09-07 — ÖLÇÜLDÜ: STRUKTUR AXTARIŞININ AYIRDEDİCİ GÜCÜ YOXDUR
+
+Qırmızı masa qeydinin birinci sətri **(5 2 7)** — 3 sözlü, **düz 14 hərflik** ifadə.
+Yapboz da düz **14 hərf** verir. Bu üst-üstə düşmə axtarış üçün sərt forma verir,
+ona görə dörd səviyyəli süzgəci ölçdüm (hamısı C-də, saniyələr içində):
+
+| alət | şərt | yoxlanan | keçən | faiz |
+|---|---|---|---|---|
+| `feas.c` | geniş ad siyahısı, 2 sözlü 14 hərf | 6 332 769 | 3 684 330 | **58 %** |
+| `feas2.c` | dar ad siyahısı, 2 sözlü 14 hərf | 10 056 738 | 5 428 092 | **54 %** |
+| `feas527.c` | dar siyahı, **5+2+7** forması | ~49 000 000 | 25 148 524 | **51 %** |
+| `joint.c` | qırmızı 5+2+7 **VƏ** mavi 2–4 söz | 132 M düyün | 20 000-lik həddə dərhal çatdı | — |
+
+★ **Nəticə:** 14 parça və hər parça üçün ~5 mümkün hərf olanda «parçalar bu ifadəni
+yığa bilərmi?» sualı praktik olaraq **hər ifadəyə «hə» deyir**. Mükəmməl uyğunlaşdırma
+(bipartite matching) şərti heç nə süzmür. Mavi sətri də oxunaqlı tələb etmək kömək
+etmir, çünki 10k siyahıdakı qısaltmalar (EOS, FDA, CEO, CRM, LCD, APR…) hər cür
+zibili «söz» edir: `AIMED TO LEADING | EOS FDA WHO ROUTE` tipli 20 000+ nəticə.
+
+⇒ **Bundan sonra axtarış işi mənasızdır. Yeganə informasiya mənbəyi şəkillərin
+dəqiq adlandırılmasıdır.** Gələcək sessiyalar bu süzgəcləri təkrar qurmasın.
+
+Alətlər: `tools/pieces/feas.c`, `feas527.c`, `joint.c`, `joint2w.py`.
