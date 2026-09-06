@@ -11030,3 +11030,52 @@ Alətlər: `tools/pieces/naming.py` (dərəcələnmiş ad cədvəli), `mincost.p
 ★ **Vacib nəticə:** büdcə = 2 (yəni demək olar yalnız ən təbii adlar) olanda
 **heç bir sıralama hər iki rəngi eyni anda iki sözə bölmür** (2 543 874 düyün, 0 nəticə).
 Deməli ya adlardan biri hələ də səhvdir, ya da mavi sətir söz kimi oxunmur.
+
+## ⛔★ 2026-09-07 — GC8 FORMATI (qırmızı = bir yer, mavi = başqa yer) TAM TƏKZİB OLUNDU
+
+`pairjoint.c`: 4113 ədəd 14 hərflik yer sətri × 4113 = **16 912 656 sıralı cüt** yoxlandı.
+Hər cüt üçün əvvəlcə mövqe-mövqe yoxlanır ki, (qırmızı hərf, mavi hərf) cütünü **hansısa
+parça eyni adla** verə bilirmi; sonra mükəmməl uyğunlaşdırma.
+
+- mövqe testindən keçən: **26 226**
+- ardıcıl təyinatı olan: **0**
+
+⇒ «Algiers / Algeria» şablonu — eyni sıralamada qırmızı bir yer adı, mavi başqa bir yer
+adı — bu parçalarla **mümkün deyil**. Bu, artıq üçüncü və ən güclü təkzibdir
+(əvvəlkilər 15 və 14 simvolluq tək tərəfli axtarışlar idi).
+
+## ⛔ Hər iki rəng eyni anda iki sözə bölünmür
+
+`both.c` (hər iki rəng üçün eyni anda trie, ad-xərci büdcəsi ilə):
+
+| büdcə | düyün | nəticə |
+|---|---|---|
+| 3 | 6 307 866 | **0** |
+| 5 | 32 517 917 | **0** |
+| 7 | 119 259 655 | **0** |
+
+Büdcəsiz (40) işlədilmiş versiya da uzun müddət **0** verir.
+
+⇒ Mövcud ad fəzasında **heç bir sıralama hər iki 14 hərfli sətri iki lüğət sözünə**
+bölmür. Deməli: ya adlardan biri mənim siyahılarımdan kənardadır, ya da **yalnız bir
+rəng söz kimi oxunur** (digəri ad/yer/kod ola bilər).
+
+## Ən təbii adlandırma nə verir?
+
+Hər şəkil üçün 0-cı dərəcəli ad götürüləndə:
+`calendar · santas helper · continent · glasses · flag of oman · feastables ·
+brown square · mosquito net · american barn · column chart · cloud with snow ·
+face with tears of joy · bald eagle · swimsuit`
+
+- QIRMIZI çoxluq: **A A A A E F G H H I S S T T** → yalnız «AAA FAST HEIGHTS» tipli zibil
+- MAVİ çoxluq: **? A A D E E E M N O O R S U** → «ENORMOUS…», «CAMEROON…», «DANGEROUS…» tipli
+
+★ **Dörd A** çox şübhəlidir: `calendar`, `santas helper`, `feastables`, `american barn`
+hamısı A verir. `feastables` istifadəçi tərəfindən təsdiqlənib, deməli qalan üç addan
+ən azı biri **səhvdir**.
+
+### Şəkillərin adı hələ də açıqdır — icma da bilmir
+
+Paralel axtarış: X-də parçaların adlarını verən **heç bir paylaşım tapılmadı**;
+r/MrBeast mövzunun mərkəzidir amma orada da adlandırma yoxdur; tapmaca icması
+mənbələrində dörd gün ərzində **sıfır** identifikasiya var.
