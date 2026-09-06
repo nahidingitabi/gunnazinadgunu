@@ -9853,3 +9853,59 @@ ehtimaldır, iddia deyil.
 
 ⇒ Qeyd **açıq qalır**, amma indi **düzgün rəqəmlərlə**. Rəqəmlərin özləri hələ
 qəti deyil (kağız maili və kiçikdir) — istifadəçinin gözü kömək edə bilər.
+
+---
+
+# ★★★ 2026-09-06 19:1xZ — MASADAKI ÜÇ QEYD İLK DƏFƏ TAM OXUNDU
+
+Üsul: **rəng maskası ilə axtar** (qırmızı: `R−G>45, R−B>35`; nanə-yaşıl: `hue 60–95`),
+sonra **kağızın öz istiqamətinə çevir** (`rotate(±90)`) və 8–15× böyüt.
+Bu, kağızların **90° çevrilmiş** olduğunu üzə çıxardı — indiyə qədər tanınmamalarının səbəbi.
+
+### 1. MAVİ vərəq — **TƏSDİQLƏNDİ, KÖHNƏDİR**
+
+`BLUENOTE2.png`-də aydın oxunur:
+```
+( 6 6 )
+   ↓
+ ( 6 )
+```
+Yuxarıda (kadrdan kənar) `(3 6 4)`.
+⇒ `RED SQUARE CUBE`(3,6,4) → `MOSCOW RUSSIA`(6,6) → `MOSCOW`(6). **Köhnə tapmaca** ✓
+
+### 2. QIRMIZI vərəq — **İLK DƏFƏ OXUNDU, KÖHNƏ SƏNƏDDƏ UYĞUNLUQ YOXDUR**
+
+`REDNOTE_r90.png` + `DESK_STRIP.png`:
+```
+( 5  2  7 )
+     ↓
+( 8  3  5  4  4 )
+     ↓
+  ~~M R~~  ( 9 )       ← iki hərf üstündən xətlənib
+```
+⛔ Qeydlərdəki `(5 2 7) ↓ (4 4…)` **yanlış idi** — orta sətir **beş rəqəmlidir**,
+son enumerasiya **(9)**-dur.
+
+**Köhnə sənəddə yoxlandı:** nə (5,2,7), nə (8,3,5,4,4) naxışı 84 səhifədə mənalı
+ifadə vermir (yalnız təsadüfi söz ardıcıllıqları). ⇒ **Mavi qeyd köhnədir, qırmızı
+qeydin uyğunluğu YOXDUR.** Bu asimmetriya qırmızı qeydin **yeni tapmacaya** aid
+olma ehtimalını yaradır — amma **rəqəmlər hələ qəti deyil** (kağız kiçik və maildir).
+⚠ Diqqət: (9) ölçdüyüm **15 simvolluq** cavabla uyğun gəlmir ⇒ ya (9) aralıq mərhələdir,
+ya rəqəmi səhv oxumuşam, ya da qeyd yenə köhnəyə aiddir.
+
+### 3. ★ NANƏ-YAŞIL STİKER: **"YouTube / link / watch?"** — İLK DƏFƏ OXUNDU
+
+`n766.png` kadrında **tam** görünür (`YT_TRACK1.png`, 7×):
+```
+YouTube
+link
+watch?
+```
+★ Bu, **istifadəçinin çoxdan xatırladığı "yt link" qeydidir** — indiyə qədər heç bir
+sessiyada oxunmamışdı. Yerləşməsi: REF767-də masanın sağ-alt küncü (~1790, 990);
+kadrın kənarında olduğu üçün üçüncü sətir yalnız `n766`-da görünür.
+
+**Köhnə sənəddə yoxlandı:** `YouTube link` və `watch?` ifadələri **0 dəfə** keçir.
+Ən yaxın köhnə obyekt **PG13. VIDEO PLAYLIST LINK**-dir (təsvirdəki
+*"Missing a playlist? Use this one"* → baş hərflər **MAPUTO**). Yəni stiker köhnə
+PG13 üzərində işləyən "həlledicinin qeydi" ola bilər — amma **mətni köhnə sənəddə yoxdur**.
