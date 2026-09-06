@@ -9585,3 +9585,46 @@ mexanizm tərəfindən **avtomatik rədd edilir**.
 ★ Diqqətəlayiq: **`chart decreasing` və `chart increasing` eyni hərfləri verir (C/R)** —
 yəni o kartda hansı variantın seçilməsi fərq etmir. Bu, cədvəldəki ilk "bağlanmış"
 qeyri-müəyyənlikdir.
+
+---
+
+## 2026-09-06 18:1xZ — DÖRD QEYRİ-MÜƏYYƏN KART 18× WARP İLƏ AÇILDI (`FOUR_CARDS.png`)
+
+### Kart 5 — **BANT/LENT**, qəti (kəpənək DEYİL, eynək DEYİL)
+
+İki ilgək, ortada **düyün**, aşağıda **iki quyruq** — klassik **bant 🎀**.
+Kəpənəyin gövdəsi/bığcıqları yoxdur; eynəyin körpüsü/saplarıı yoxdur.
+Rəqəmlər aydın: qırmızı **V**, mavi **VII** (üç qlif).
+⛔ **Problem qalır:** 🎀-nın adı `ribbon` = **6 hərf**, mavi VII = **7** ⇒ **sığmır**.
+⇒ Ya ad emoji adı deyil (`hair bow`(7)? `ribbon bow`(9)? `reminder ribbon`(14)?),
+ya da bu kart mexanizmin istisnasıdır. **Açıq sual.**
+
+### Kart 6 — **düz, dolu, portret düzbucaq** (qırmızı-narıncı), nazik konturlu
+
+Kvadrat deyil — **hündür düzbucaqdır**, ona görə 🟥`red square`/🟧`orange square`
+tam oturmur. Şokolad batonunun seqmentləri, kitabın tikişi, kərpicin naxışı — heç biri
+görünmür. **Sadəcə rəngli blokdur.** Rəqəmlər: qırmızı **VI**, mavi **VIII**.
+
+### Kart 8 — **iki obyekt**, indi daha aydın
+
+Solda **tünd-şabalıdı/qaramtıl** forma; sağda **boz-mavi şaquli obyekt**, **yuxarı və
+aşağı uclarında çəhrayı/qırmızı**, yuxarıda **firuzəyi zolaq**.
+★ Bu, **raket 🚀** ola bilər (boz gövdə, qırmızı burun və qanadcıqlar, mavi pəncərə).
+`rocket`(6) → q6=**T**, m6=**T** (q=m olduğu üçün eyni hərf).
+Amma tünd forma ikinci elementdir və izah olunmur. **Açıq.**
+
+### Kart 14 — **ABŞ bayrağı + QIRMIZI TÖVLƏ**, qəti
+
+Bayraq: mavi kanton + ulduzlar + qırmızı-ağ zolaqlar. Tövlə: **qırmızı, kupolalı,
+saman qapılı klassik Amerika tövləsi**. Rəqəmlər çox aydın: mavi **IV** (yuxarı),
+qırmızı **VII** (aşağı-sol).
+Ad namizədləri: `Americana`(9) → **A/R** · `heartland`(9) → **A/R** (eyni!) ·
+`rural America`(12) → M/A · `flag: United States`(16) → I/G · `American farm`(12) → A/R.
+★ Üç fərqli namizəd (**Americana**, **heartland**, **American farm**) **eyni hərfləri**
+verir: **q=A, m=R**. Bu, ikinci "özü bağlanan" qeyri-müəyyənlikdir.
+
+### ★ Yapboz kənarları görünür
+
+Kart 14-ün **sol kənarı mişar dişlidir (5 diş)**, **sağ kənarı yumrudur**.
+Bu, sıranı tapmaq üçün real siqnaldır — avtomatik seqmentasiya alınmadı, amma
+**gözlə kənar tipini kataloqlaşdırmaq mümkündür**.
