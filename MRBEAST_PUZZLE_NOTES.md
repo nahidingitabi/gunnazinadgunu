@@ -4359,3 +4359,28 @@ kağızdır. Bu xətt bağlandı.
 Rəqəm sahəsinə fokuslanmış dördbucaqla (47×50 piksel) 72 kadr IBP: kəskinlik
 **1.1** — heç bir ştrix strukturu yoxdur. Üç ayrı cəhd (çox plan, uzadılmış
 dördbucaq, fokuslanmış dördbucaq) — üçü də düşdü. **Bağlıdır.**
+
+## 2026-09-06 03:25Z — 24 RƏQƏMİN ATLASI + BİR OXUNUŞU ŞÜBHƏLİ İŞARƏLƏYİRƏM
+
+`NUMERALS_ALL.png` — oxuduğum bütün **24 rəqəm** bir yerdə, hər biri ən yaxşı
+görüntüdən, eyni ölçüdə, kağızın öz ağına görə balanslanmış. Məqsəd: hamısını
+yan-yana görüb özümü yoxlamaq.
+
+**Yoxlamanın nəticəsi — 22-si möhkəm, 2-si zəif:**
+```
+tam aydın:  rolik II·XI · gizli VII·I · diaqram VIII·IX · bant V·VII ·
+            düzbucaq VI · təqvim IV·III · ABŞ IV·VII · Oman VI·V ·
+            Afrika IV · qar IX·V · sevinc XIV·X
+zəif:       düzbucaq mavi VIII (solğun, 4–5 ştrix sayılır, amma qəti deyil)
+ŞÜBHƏLİ:    **iki obyekt parçasının QIRMIZI rəqəmi** — atlas kəsiyində
+            "VI" kimi görünür, halbuki əvvəl "VII" oxumuşdum
+```
+
+**Bunu gizlətmirəm:** iki obyekt parçasının qırmızısı **VI, yoxsa VII** —
+qəti deyil. Tarix modelində bu, **6 iyun ↔ 6 iyul** fərqi deməkdir və
+sıralamanı dəyişir (Oman 5 iyun ilə qonşuluq). Onu **"VI/VII"** kimi qeyd
+edirəm, tək dəyər kimi yox.
+
+Qalan 11 parçanın rəqəmləri isə atlasda birbaşa oxunur — bu, cədvəlin
+müstəqil təsdiqidir, çünki indiyə qədər onları ayrı-ayrı görüntülərdə
+oxumuşdum, ilk dəfə hamısını eyni miqyasda yan-yana gördüm.
