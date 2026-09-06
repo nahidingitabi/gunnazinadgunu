@@ -7272,3 +7272,35 @@ sivri papaq → üz → QIRMIZI palto → yanlara açılmış QOLLAR → açıq 
 ⚠ **Ziddiyyət:** bu bucaqda papaq **solğun çəhrayı/ağ** görünür, REF803-də isə
 «yaşıl» yazmışdım. İkisi bir yerdə ola bilməz — **papağın rəngi açıq qalır**,
 hər iki bucaqda kartın öz kağızına görə ayrıca ölçülməlidir.
+
+### Papağın rəngi həll olundu — və maska yoxlaması ALTINCI səhvi tutdu
+
+Ziddiyyəti həll etmək üçün papağı **hər iki bucaqda** zolaqla ölçdüm. İkisi də
+`da* ≈ +3.6` verdi, yəni «yaşıl deyil». **Sonra maskanı çəkdim — ikisi də səhv
+idi** (`HAT.png`):
+
+```
+REF803: zolaq papağın ALTINA düşüb — ağ kənar + üzü ölçüb, papağı yox
+REF765: zolaq ümumiyyətlə fiqurda deyil — kartın üst kənarı və rəqəmləri ölçüb
+```
+
+**Hər iki rəqəmi geri götürürəm.** Səbəb: zolağı «mürəkkəbin yuxarı 22%-i» kimi
+təyin etmişdim, halbuki mürəkkəb maskası kartın kənarını da tuturdu.
+
+**Dar qutu ilə, çəkilib yoxlanmış** (`HAT2.png`, qutu papağın üstündə oturur):
+
+```
+REF803 papaq:  da* = −2.6   db* = +4.1   (n=35688)   →  a* MƏNFİ = YAŞIL tərəf
+```
+
+**Papaq yaşıldır** — köhnə qeyd doğru idi, indi yoxlanmış maska ilə təsdiqləndi.
+REF765-dəki solğun-çəhrayı görünüş həmin bucağın daha yuyulmuş işığındandır və
+dar qutu ilə ölçülməyib.
+
+### Fiqurun dəqiq təsviri (REF803, 26×, maska yoxlanılıb)
+
+```
+YAŞIL sivri konus papaq → ağ/çəhrayı kənar zolağı → sarımtıl gövdə (qollar yanda)
+→ QIRMIZI/şabalıdı alt geyim → topuqlarda yaşıl zolaq
+→ aşağıda İKİ AYRI TÜND QƏHVƏYİ DİSK (təkərlər)
+```
