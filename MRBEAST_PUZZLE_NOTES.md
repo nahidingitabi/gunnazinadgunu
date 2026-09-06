@@ -7020,3 +7020,50 @@ sıra ilə bir-bir uyğun gəlmir.** Üçüncü variant yoxdur.
 Yəni parçalar çox güman **ayrı bir qatdır** — çıxışı ya aralıq sətirlərdən
 biridir, ya da tamam başqa şeydir (söz, marşrut, təsdiq). «Hər parça bir hərf»
 modelini artıq **sübut olunmuş kimi işlətmə**.
+
+---
+
+## ★★ «KÖHNƏ DEKORDUR» İZAHI ARADAN QALXDI — 15 simvol YENİ tapmacaya aiddir
+
+Bu gecə iki dəfə yazmışdım ki, formaya yazılan **15 ulduz** və `(3 6 4)` vərəqi
+**köhnə $1M tapmacasının dekoru** ola bilər, və köhnə cavab açıq mənbələrdə
+olmadığı üçün ayırd edə bilmirəm. **İndi tapdım.**
+
+### Köhnə $1M tapmacasının qalib kodu
+
+```
+R62L39R05L73606623093121200300      →  30 simvol, hamısı hərf+rəqəm, SÖZ YOXDUR
+```
+
+(Seyf kodu `R62 L39 R05` + köynəkdən `L73` + fondakı rəqəmlər. İki müstəqil
+mənbədə eynidir.)
+
+### Nəticələr — hər ikisi güclüdür
+
+1. **Videodakı demo köhnə cavabı yazmır.** Köhnə cavab **30 simvoldur**,
+   ekranda isə **15** ulduz sabitləşir. Yəni forma demosu köhnə tapmacaya aid
+   ola bilməz → **15 simvol YENİ tapmacanın cavabının uzunluğudur.**
+2. **`(3 6 4)` vərəqi də köhnəyə aid deyil.** Köhnə cavabda **söz yoxdur**,
+   vərəq isə söz uzunluqlarını sayır. Yəni o da yeni tapmacaya aiddir.
+
+Beləliklə:
+
+```
+cavab = 15 simvol            (ulduzlar, dörd kadrda sabit — ölçüldü)
+forma = (3 6 4)              (13 hərf + 2 boşluq = 15 — uyğun)
+zəncir= (3 6 4) → (6 6) → (6)
+tək tam uyğun ləqəb: THE FOREST CITY → LONDON CANADA → LONDON
+```
+
+**Bu, aparıcı namizədin ən güclü dayağıdır.** Əvvəllər «bəlkə dekordur» şübhəsi
+onu zəiflədirdi — o şübhə indi ölçü ilə aradan qalxdı.
+
+Mənbələr: laurencetennant.com/mrbeast-million-dollar-puzzle (kodu verbatim verir),
+axtarış nəticəsində ikinci mənbə ilə təsdiq.
+
+### Bu, 15 parça haqqında nə deyir?
+
+Parçalar hələ də izah olunmur: 15 parça 15 simvola sıra ilə uyğun gəlmir
+(4-cü və 11-ci simvol boşluqdur, orada dolu şəkillər var). Amma indi bilirik ki,
+**cavabın forması `XXX XXXXXX XXXX`-dır** — yəni parçalar ya bu ifadəni başqa
+yolla verir, ya da aralıq mərhələyə (`LONDON CANADA` / `LONDON`) aiddir.
