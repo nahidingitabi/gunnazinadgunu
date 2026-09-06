@@ -269,3 +269,78 @@ Four things changed since §9 was written:
    - *Is there a closer shot of the unread pieces?* No. Contact sheets over the
      whole room segment (722–1066 s) show the box stack only around 761–770 and
      800–810 s, which is what the existing caches already cover.
+
+---
+
+## 11. The overnight session of 2026-09-06, in full
+
+Read this section before trusting anything above it: it corrects four things.
+
+### What changed in the data
+
+| piece | was | is | how |
+|---|---|---|---|
+| two tall objects | red VII | **red VI** → 6 June | stroke topology on two independent shots, confirmed on a third |
+| calendar | red III (4 Mar) | **red II** → 4 February | per-stroke a\* against the card's own paper, control passed |
+| ribbon / bow | bow | **butterfly** | four lobes in a 2×2 arrangement plus antennae, at 16× |
+| "Africa + Madagascar" | Africa | **unidentified** | elongation 2.97 and 2.99 on two angles; Africa is ~1.1 |
+
+Two claims in §6 were **wrong and are retracted**: there *is* a second month
+word on the boxes (`"July?"` with `Jun` below it, cut off by the box's fold),
+and the calendar's numerals are not III·IV.
+
+### Three tooling rules that each changed an answer
+
+1. **Canvas must match the quad's aspect ratio.** Three specs were stretched
+   2–5×; the "Africa" quad also straddled two cards.
+2. **The low-resolution grid must equal the piece's native pixel size**
+   (`canon/S` = quad size). `sp_15.json` sampled 4.7× too finely and was fitting
+   noise; at S=16 the fifteenth piece's picture appeared for the first time.
+3. **Put a coordinate grid on a render before measuring it.** Twice tonight I
+   measured a region that turned out to be the box's printed lines.
+
+And: **plain 9–20× Lanczos on the raw frame, white-balanced per card, beats the
+super-resolution pipeline** for these cards. Try it first.
+
+### `numcheck.py` — the one colour test that works
+
+Earlier colour tests failed because the cardboard around a card scores as red
+ink. `tools/pieces/numcheck.py` finds the card, erodes its convex hull, and only
+scores ink **inside** it, against that card's own paper. Red ink raises a\*
+without raising b\* much; cardboard raises both; blue ink lowers b\*. The db\*
+column is the visible control.
+
+It confirmed the red/blue assignment on **every** card checked — which matters,
+since swapping them on any card swaps that piece's month and day. It also
+**located the eagle card's numerals** (blue upper middle, red lower right,
+agreeing across two shots) where I had recorded that none were visible. Their
+values are still unreadable.
+
+### Closed for good
+
+- **No 1080p footage is missing.** The three uncovered spans are all recap of the
+  earlier puzzle.
+- **No closer shot of the unread pieces exists.** The box stack appears only at
+  761–770 s and 800–810 s.
+- **The eagle card's and the fifteenth piece's numerals cannot be read.** A
+  numeral there is ~5×10 native pixels. Nine automated classifiers have now
+  failed their controls at this scale; the most recent, an ink-area estimator,
+  measured the same numeral VI as 76.5 and 10.2 px², and VIII as narrower
+  than VI.
+
+### The new direction, untested
+
+The pieces are **real jigsaw pieces and their edge profiles differ** — three
+sharp triangular teeth on the US flag piece's left, a stepped notch on the
+calendar's right, a rounded tab on the two-objects piece's left, an S-curve on
+the snow cloud's left. If they interlock in one arrangement, that arrangement
+orders all fifteen **without needing the dates or the three unread numerals**.
+See `tools/pieces/EDGES.png` and `EDGES2.png`. Automatic contour extraction does
+not work at this resolution; this has to be done by eye.
+
+### Where the date reading now stands
+
+Strengthened by the second handwritten month; weakened by a measurement: every
+numeral read falls in 1..14 while there are 15 pieces, and twelve draws of a
+day-of-month all landing at 14 or below has probability about 7×10⁻⁵. It remains
+the leading hypothesis and remains frozen.
