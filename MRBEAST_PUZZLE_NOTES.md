@@ -10819,41 +10819,49 @@ Alət: `tools/pieces/datetest.py`.
 ⛔ Deməli adlar CLDR emoji adları deyil — şəkillər adi klipart/vektor
 ikonlarıdır və adlandırma yalnız təsvirlə mümkündür.
 
-## ★★★★ 2026-09-07 — MAVİ QEYD 17:01-də TAM OXUNDU (+ bir düzəliş, bir xəbərdarlıq)
+## ★★★★★ 2026-09-07 — MASA QEYDİ TAM OXUNDU: (4 4 4 5) = «LAST WORD THEN NINTH»
 
 YouTube şərhi (@RexN1Fan): «$10,000 clue is in this frame 17:01, below the TV there
 is an equation». Yoxladım: t=1021-də ekranda **«PAUSE ⏸»**, televizorun altında isə
-**mavi masa qeydi** görünür. Yəni bu qeyd təsadüfi dekor deyil — video onu
-göstərəndə «PAUSE» yazır.
+həmin **masa qeydi** görünür — yəni video onu göstərəndə «PAUSE» yazır.
+`notef/` (378 kadr) → ən az örtülü pəncərə (88–118) → `stackwin.py … 4`
+(21/21 kadr, orta korr. 0.999) → `NOTEW_IBP.png`. Üst sətir tam aydın: **(3 6 4)**.
 
-`notef/` (378 kadr, t=1019.5–1032) → ən çox görünən pəncərə (kadr 88–118) →
-`stackwin.py … 4` (21/21 kadr, orta korr. 0.999). Nəticə `NOTEW_IBP.png`:
+Orta sətir orada karton qutu ilə örtülüdür. **Masa çəkilişindəki tam görüntü
+(`NOTE_FULL.png`) isə qeydin hamısını göstərir:**
 
 ```
-        ( 3   6   4 )
-                   ↘
-              ( 6   ? )     <- karton qutu ilə örtülü
-                 ↓
-              ( 6 )
+   (3 6 4)        (4 4 4 5)
+         ↘        ↙
+            (6 6)
+              ↓
+             (6)
 ```
 
-★ **Üst sətir tam aydındır: (3 6 4).**
-⛔ **DÜZƏLİŞ:** əvvəlki qeyd orta sətri **(6 6)** yazmışdı. Yeni yığında ikinci rəqəm
-örtülüdür və qalan ştrixlər **3 / 9 / 6** ola bilər. Məzmun baxımından ən uyğunu
-**(6 9)**-dur, çünki zəncir köhnə tapmacanın cavabıdır:
+⛔ **Özümü düzəldirəm (eyni sessiya daxilində):** bir neçə dəqiqə əvvəl örtülü
+kadra baxıb orta sətri «(6 9), yəni DULUTH MINNESOTA» kimi oxumuşdum. **Yanlış idi.**
+Masa çəkilişi orta sətrin **(6 6)** olduğunu şübhəsiz göstərir — iki rəqəm eyni
+formadadır və aşağıdakı (6) ilə eyni. İlkin qeydim düzgün imiş.
 
-`THE ZENITH CITY` (3, 6, 4) → `DULUTH MINNESOTA` (6, 9) → `DULUTH` (6)
+### ★★★ YENİ: ikinci giriş artıq izahsız deyil
 
-Bu, mavi qeydin **köhnə tapmaca materialı** olduğunu təsdiqləyir (əvvəlki
-«yarısı köhnədir» oxunuşundan daha güclü: bütün zəncir köhnədir).
+`(4 4 4 5)` = **LAST(4) WORD(4) THEN(4) NINTH(5)** — tam uyğunluq.
 
-### ⚠ BUNUN CAVAB UZUNLUĞUNA TƏSİRİ — ciddi xəbərdarlıq
+Yəni **firuzəyi şifrədən çıxardığım «LAST WORD THEN NINTH» ifadəsi bu qeydin
+ikinci girişidir.** İki müstəqil mənbə (ikitaylı rail fence şifrəsi və masa qeydinin
+söz-uzunluğu imzası) eyni ifadəyə çıxır. Bu, şifrə oxunuşunun **müstəqil təsdiqidir**
+və qeyddəki «izah olunmayan ikinci giriş» sualını bağlayır.
 
-`DULUTHMINNESOTA` = **düz 15 hərf**. Formada saydığım **15 simvol** skriptlə
-yazılan animasiyadır. Deməli ehtimal var ki, videoda **köhnə cavab nümunə kimi**
-yazılıb, yeni cavab deyil. Bu halda «15 = 14 hərf + 1 boşluq» nəticəm dayaqsız qalır.
+Qeydin oxunuşu: **(3 6 4)** ilə **LAST WORD THEN NINTH** birlikdə **(6 6)** verir,
+o da **(6)**-ya yığılır. `(3 6 4)` üçün ən uyğun namizəd `THE ZENITH CITY`-dir
+(3, 6, 4) — köhnə tapmacanın Duluth zənciri.
 
-**Vəziyyət:** 14 parça → 14 hərf faktdır. 15 simvol isə artıq **iki cür oxuna bilər**:
-1. yeni cavab = 14 hərf + 1 boşluq (iki söz), və ya
-2. nümunə mətn `DULUTHMINNESOTA` — yəni yeni cavabın uzunluğu **naməlum**.
-İkinci ehtimal birinciyə bərabər çəkidədir; artıq «iki söz» kimi qəti danışmıram.
+⚠ **«Sonuncu söz, sonra doqquzuncu»** bir SİYAHI üzərində işləyən seçki qaydasına
+oxşayır: siyahının sonuncu elementi, sonra doqquzuncu elementi → iki nəticə (6 6).
+Yapbozun 14 hərfi bir siyahı/ifadə verirsə, bu qayda ona tətbiq olunacaq.
+
+### ⚠ Cavab uzunluğu barədə xəbərdarlıq (dəyişməz qalır)
+
+Formada saydığım **15 simvol** skriptlə yazılan animasiyadır və köhnə cavab
+`DULUTHMINNESOTA` da düz 15 hərfdir. Deməli 15 rəqəmi ya yeni cavabın uzunluğudur
+(14 hərf + 1 boşluq), ya da nümunə mətndir. İkisi də eyni dərəcədə mümkündür.
