@@ -3851,3 +3851,61 @@ yazmışam və hamısı **3–6 saat irəlidir**. Həqiqi aralıq:
 Yəni bu sessiyadakı bütün girişlər təxminən iki saatlıq bir pəncərədə baş verib,
 altı saatlıq deyil. Ardıcıllıq (hansı tapıntının hansından sonra gəldiyi) düzgündür,
 yalnız mütləq vaxtlar yanlışdır. Bundan sonra damğaları `date -u` ilə yazıram.
+
+## 2026-09-06 00:25Z — ★★★★ RƏQƏMLƏR TARİXDİR: QIRMIZI = AY, MAVİ = GÜN
+
+Bunu mən uydurmadım — **otağın özü dedi.**
+
+ABŞ bayrağı + anbar parçasının **düz yanında**, qutunun üzərində əl yazısı var
+(`mo765.png`, `hw765.png`): dırnaq içində **"July?"**, altında **"Jun…"**.
+Həmin parçanın rəqəmləri: **qırmızı VII · mavi IV**.
+
+**VII = 7 = July. IV = 4. → 4 iyul = ABŞ Müstəqillik Günü. Şəkil isə ABŞ bayrağıdır.**
+
+Yəni parçanın yanındakı qeyd parçanın rəqəmini **sözlə təkrar edir**.
+
+### Bu, bir anda beş şeyi izah edir
+1. **Diapazon asimmetriyası.** Qırmızı 2…10 — çünki **ay nömrəsidir** (1…12).
+   Mavi 1…14 — çünki **gün nömrəsidir** (1…31). Heç bir qırmızı 12-ni,
+   heç bir mavi 31-i keçmir. ✓
+2. **Təkrarlar.** Qırmızı 7 üç dəfə, 6 iki dəfə — çünki **eyni ayda bir neçə
+   tarix** olur. Mavi 4, 5, 8 təkrarı — eyni gün fərqli aylarda. Tamamilə normal.
+   Beləliklə "yerdəyişmə olmalıdır" tələbi düşür — **problem deyildi, mənim
+   modelim səhv idi.**
+3. **Nə üçün heç bir sıralama modeli işləmirdi** — rəqəmlər ID deyil, tarixdir.
+4. **Spiral təqvim parçası** — dəstdə təqvim şəkli olması təsadüf deyil,
+   mövzunu özü elan edir.
+5. **Qutuların üzərindəki ay yazıları** ("July?", "Jun…") — həll edən personaj
+   məhz ayları qeyd edib.
+
+### 12 parçanın tarixləri
+```
+11 fevral   rolik konkili fiqur       (qırmızı II  · mavi XI)
+ 4 mart     spiral təqvim             (III · IV)
+ 8 aprel    Afrika + yaşıl bitki      (IV  · VIII)
+ 7 may      bant / ilmə               (V   · VII)
+ 5 iyun     🇴🇲 Oman bayrağı           (VI  · V)
+ 8 iyun     terrakota düzbucaqlı      (VI  · VIII)
+ 1 iyul     "I VII" (şəkli gizli)     (VII · I)
+ 4 iyul     🇺🇸 ABŞ bayrağı + anbar    (VII · IV)   ← "July?" qeydi bunun yanındadır
+ 6 iyul     iki hündür obyekt         (VII · VI)
+ 9 avqust   aşağı ox + sütun diaqram  (VIII· IX)
+ 5 sentyabr qar buludu                (IX  · V)
+14 oktyabr  😂 sevinc göz yaşı        (X   · XIV)
+```
+Oxunmayan 3 parça: pəncərə/qapı · daş+qartal · ən aşağı qutudakı siluet.
+**Proqnoz:** onların qırmızıları 1…12, maviləri 1…31 aralığında olacaq və
+ehtimal ki yanvar/noyabr/dekabr aylarını dolduracaq.
+
+### Niyə bu, əvvəlki dörd modeldən fərqlidir
+Əvvəlkiləri **məlumata uyğunlaşdırmışdım**. Bunu isə **otaqdakı müstəqil bir
+əşya** (əl yazısı qeyd) proqnozlaşdırdı və rəqəmlər ona uydu. Üstəlik model
+**yoxlanıla bilən proqnoz** verir (qalan üç parçanın diapazonu) və indiyə qədər
+izah edə bilmədiyim üç şeyi (asimmetriya, təkrarlar, təqvim şəkli) eyni anda izah edir.
+
+### Növbəti addım
+15 parça → 15 tarix → **xronoloji sıra**. Cavab 15 simvoldur; deməli hər parça
+sıralandıqdan sonra bir simvol verir. Hansı simvolu verdiyi hələ məlum deyil —
+hər iki rəqəm tarixə sərf olunduğu üçün hərf indeksi qalmır, yəni simvol
+**şəklin özündən** gəlməlidir (adının baş hərfi, yaxud şəklin bildirdiyi
+gün/bayramın adı). Bunu şəkil adları dəqiqləşəndən sonra sınayacağam.
