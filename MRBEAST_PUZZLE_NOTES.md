@@ -3799,3 +3799,27 @@ Yəni həll edən əvvəlcə "MR" yazıb, sonra ondan imtina edib.
 "$10,000!" və qıvrım xətt.
 
 Üçüncü vərəqdə (`BIRDS_ccw.png`) yazı yoxdur — səpələnmiş **uçan quş siluetləri**.
+
+## 06.09.2026 ~06:05Z — 15-Cİ PARÇA TAPILDI + BÜTÜN ŞƏKİLLƏRİN ATLASI
+
+**15-ci parça** (ən aşağı qutuda) ofis ümumi planından 283 kadrla 22× yığıldı
+(`sr15/X15.png`). Görünən: ağ parça, ortasında **tünd siluet** — yuxarıda iki
+uc, aşağıda bir nöqtəyə daralır (qalxan? yarasa? pişik/tülkü başı? ox ucu?).
+Rəqəmləri var, amma bu planda parça cəmi ~28 piksel olduğu üçün oxunmur.
+**Otaqda 15 parça olduğu artıq təsdiqlənib.**
+
+**`PIECE_PICTURES.png`** — 15 parçanın hamısı bir atlasda: hər şəkil kağızın
+öz ağına görə balanslanıb, kontrastı açılıb, üstündə parçanın qırmızı/mavi
+rəqəmləri yazılıb (`tools/pieces/atlas.py` ilə yenidən qurulur).
+
+Atlası yan-yana görəndə üç şey nəzərə çarpdı — **hamısını şübhəli sayıram**,
+çünki istifadəçi artıq mənim şəkil adlarımın etibarsız olduğunu göstərib:
+* **04 "bant"** — aşağı hissələr də ilmə kimi yumrudur, nazik quyruq deyil.
+  Bu, bant yox, **kəpənək** və ya **eynək** ola bilər.
+* **08 "iki hündür obyekt"** — solda tünd-lacivərd düzbucaq, sağda **açıq mavi
+  gövdə, üstü və altı çəhrayı** olan uzun obyekt. Diş pastası? batareya? kitab?
+* **03-dəki tünd obyekt** — uzun sap + aşağıda genişlənən ucluq + kiçik boz
+  altlıq. Aşağı ox, bel, yaxud pistonlu alət ola bilər.
+
+Bunlar səhər istifadəçinin baxması üçün qeyd olunur — adlandırmanı ona
+buraxıram, çünki üç dəfə onun oxunuşu mənimkindən düzgün çıxıb.
