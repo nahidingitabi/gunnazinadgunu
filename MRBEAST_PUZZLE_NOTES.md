@@ -5410,3 +5410,30 @@ Və orada yuxarı qutunun kartları **h803-dəkindən kiçik və bulanıqdır**
 
 **Nəyə yaramır:** yuxarı qutunun rəqəmlərini oxumağa. Pəncərə kartının
 rəqəmləri burada da açılmır.
+
+---
+
+## 2026-09-06 07:25Z — Düzbucağın dəqiq rəngi
+
+`colorbox.py` ilə, qutular çəkilib yoxlanıb (`CB_RECT.png` — hamısı hədəfdədir):
+
+| sahə | da\* | db\* | L |
+|---|---|---|---|
+| rect üst | +16.34 | +13.80 | 98.9 |
+| rect orta | +17.28 | +14.21 | 96.3 |
+| rect alt | +15.48 | +13.19 | 102.8 |
+| sol ağ haşiyə (**nəzarət**) | +2.37 | +4.86 | 144.7 ✓ |
+
+**Rəng yuxarıdan aşağı tamamilə eynidir** (a\* 15.5–17.3) — **qradiyent yoxdur,
+naxış yoxdur, detal yoxdur.** Düz rəngli düzbucaqdır.
+
+Müqayisə üçün: Oman bayrağının qırmızısı **a\* +22** verir (təmiz qırmızı).
+Bu isə **a\* +16, b\* +14** — yəni daha az doymuş və daha sarı:
+**kərpic/terrakotta** tonu, təmiz qırmızı deyil.
+
+Nisbət: təxminən **22 × 47 piksel = 1 : 2.14**.
+
+Terrakotta rəngli, tam düz, 1:2 nisbətli şaquli düzbucaq + nazik tünd kontur.
+Ən uyğun namizəd: **qapı 🚪** (Noto-da qəhvəyi-terrakotta, təxminən 1:2, sadə).
+Kitab 📕 daha qırmızıdır və səhifələri görünür; kərpic 🧱 üfüqidir və tikişləri var.
+Bu ölçüdə qapı dəstəyi (~2 piksel) görünməyə bilər.
