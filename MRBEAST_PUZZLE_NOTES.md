@@ -10514,3 +10514,37 @@ Soldan sağa dörd parça bir kadrda, demək olar üzbəüz:
 
 ★ Kart 3 üçün ən yaxın oxunuşlar: **həbsxana pəncərəsi / qəfəs / darvaza (portcullis) /
 hasar paneli / radiator**. Qeyd: firuzəyi şifr kartının alt yazısı «bird **fence**» idi.
+
+## ★★★ 2026-09-07 ~00:5xZ — YENİ ALƏT: `tools/pieces/phrase15.py` (adlar gələn kimi hazırdır)
+
+15 kartın (qırmızı hərf, mavi hərf) cütü verilir → **hər iki sətrin** söz(lər)ə
+bölündüyü bütün sıralamalar çıxır. GC8-in öz quruluşu budur: **ALGIERS *və* ALGERIA** —
+yəni «hər iki sətir mənalı olmalıdır» şərti ən güclü süzgəcdir.
+
+**Necə işləyir**
+1. Qırmızı hərflərin **çoxluğundan** (sıra lazım deyil) mümkün ifadələr qurulur.
+   İmza (26-lıq vektor) axtarışı: söz siyahısı əvvəlcə hovuza sığanlara süzülür
+   (hərf-*çoxluğu* testi 370 000 sözün demək olar hamısını atır), sonra 1/2/3 sözlük
+   bölgülər qalığı imza cədvəlində axtarmaqla bağlanır. Kor DFS deyil — ona görə işləyir.
+2. Generator **≥4 hərflik sözlər + kurasiya olunmuş qısa sözlər siyahısı** (OF, THE,
+   AND, TO…) istifadə edir; yoxsa 2 hərflik sözlər partlayış yaradır.
+3. Hər qırmızı namizəd üçün **ikitərəfli uyğunluq**: kart yalnız öz qırmızı hərfinə
+   uyğun mövqeyə otura bilər. Bərabərlik yalnız eyni qırmızı hərfli kartlar arasında
+   olur, ona görə həmin qrupları yerdəyişməklə **bütün mümkün mavi sətirlər** alınır.
+4. Hər mavi sətir dinamik proqramla sözlərə bölünməyə çalışılır. Bölünürsə — çap olunur.
+
+**Nəzarətlər (hər ikisi keçir)**
+- `DULUTHMINNESOTA` çoxluğundan `{DULUTH, MINNESOTA}` tapılır.
+- Uçdan-uca: qırmızı `DULUTHMINNESOTA`, mavi `PEARLOFTHENORTH` cütləri verilib —
+  alət məhz həmin cütü tapır:
+  ```
+  QIRMIZI DULUTHMINNESOTA = DULUTH MINNESOTA
+  MAVI    PEARLOFTHENORTH = PEAR LOF THE NORTH
+  ```
+
+**İstifadə:** `phrase15.py "AE,EF,EO,MO,HD,AR,…" [SÜZGƏC_SÖZ]` — 15 cüt, vergüllə.
+Süzgəc sözü verilsə, yalnız həmin sözü ehtiva edən qırmızı ifadələr göstərilir.
+
+⚠ Alət **sıranı özü tapmır** — o, yalnız «hər iki sətir mənalıdır» şərtini ödəyən
+sıraları sayır. Yapboz kənarlarından gələn müstəqil sıra hələ də lazımdır; bu alət
+onu **yoxlamaq** və namizədləri kəskin daraltmaq üçündür.
