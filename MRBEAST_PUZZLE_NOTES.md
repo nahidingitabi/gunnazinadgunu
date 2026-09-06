@@ -5350,3 +5350,42 @@ seçmişdi (`P15_MASKCHK.png`), çünki kamera bu keş boyu hərəkət edir və
 dördbucağın gözlədiyi yerlə bu kadrdakı yer üst-üstə düşmür. Maskanı çəkib
 gözlə yoxlamasaydım, bunu görməzdim. **`colorbox`/maska-çəkmə vərdişi
 işə yarayır.**
+
+---
+
+## 2026-09-06 07:05Z — ★★ ÜÇÜNCÜ KAMERA BUCAĞI TAPILDI: ofis çəkilişi (t≈19.9)
+
+Qeydlərimdə ofis keşi (hcache_office, klip 94b4d23f, 283 kadr) yalnız **15-ci
+parça** üçün istifadə olunurdu. **Səhv idi:** həmin kadrda **bütün qutu yığını**
+görünür — və **soldan**, yəni h803/h806/hn765b-dən **fərqli tərəfdən**.
+
+`tools/pieces/OFFICE_STACK.png` (5× böyütmə) — görünənlər:
+- yuxarı qutu (konki, I-VII, pəncərə, diaqram, kəpənək, düzbucaq)
+- qar buludu (IX·V) və ABŞ bayrağı + anbar
+- orta qutu: təqvim ("25") və iki obyekt
+- **əyri DEPT qutusu: 😂 kartı və oval+qartal kartı** — yaxşı görünür
+- aşağı qutu: Oman və siluet+bitki
+- ən aşağı kiçik qutu: **15-ci parça**
+
+**Niyə vacibdir:** örtüşmə bu bucaqda **fərqlidir**. h803-də gizlənən kənar və
+sahələr burada açıla bilər (məs. pəncərə kartının rəqəmləri). Bu, **istifadə
+olunmamış mənbədir**.
+
+### Oval: iki müstəqil bucaqda, nəzarətli ölçmə
+
+Ofis bucağında eyni kartda ölçdüm (`CB_OVOID_OFF.png` — qutular çəkilib):
+
+| sahə | da\* | db\* | |
+|---|---|---|---|
+| kağız (nəzarət) | +0.75 | **+1.78** | ✓ neytral |
+| **ovalın kənarı** | +3.15 | **+8.32** | **isti** |
+| **ovalın ortası** | +1.26 | **+7.55** | **isti** |
+| **qartalın gövdəsi** | +3.82 | **+0.68** | **neytral-tünd** |
+
+**Eyni kartda, eyni işıqda: oval isti (b\* +7.5…+8.3), qartal neytral (+0.68).**
+Boz daş qartal kimi b\* ≈ 0 verməli idi. **Vermir.** → oval **qəhvəyi/bej** cisimdir.
+
+Bir düzəliş: h803-də ölçdüyüm **güclü qızılı iç** (b\* +13.65) bu bucaqda
+təkrarlanmır (iç +7.55, kənar +8.32 — iç daha isti **deyil**).
+→ Həmin "qızılı iç" böyük ehtimalla **işıq parıltısı** idi, cismin öz rəngi yox.
+Cismin özü **bütövlükdə isti qəhvəyi**dir.
