@@ -8618,3 +8618,78 @@ Rəqəmin özü bu ölçüdə ≈ **5 × 10 piksel**-dir — bu, hər hansı oxu
 həddin altındadır (13 avtomatik təsnifatçının hamısının uğursuzluğunun səbəbi budur).
 2160p-də həmin sahələr **66 × 94** və **136 × 136** piksel, rəqəm isə ≈ **10 × 20**
 piksel olardı — bu, oxunan diapazondur.
+
+---
+
+## 2026-09-06 14:2xZ — ★★★ NƏZARƏT CƏMİ TAPILDI: QARA RƏQƏMLƏR YERDƏYİŞMƏ OLMALIDIR
+
+Əvvəlki dövrədə (04.09 23:40Z) TEST A qalib gəlmişdi:
+**qırmızı = kartın şəkil adının neçənci hərfi, qara = həmin hərfin CAVABDAKI mövqeyi.**
+(TEST B — əksi — "ribbon"(6) kartında qara 8 hüdudu aşdığı üçün düşmüşdü.)
+
+Bu oxunuşun indiyə qədər istifadə edilməmiş **güclü nəticəsi** var:
+əgər qara = mövqedirsə, **qara rəqəmlər I…XV-in yerdəyişməsi olmalıdır — təkrarsız.**
+
+### Bizim oxunuşda 3 TƏKRAR var ⇒ 3 oxunuş SƏHVDİR
+
+```
+qara çoxluğu : 1, 4, 4, 5, 5, 6, 7, 8, 8, 9, 11, 14
+təkrarlar    : IV  → 1 təqvim  &  9 ABŞ bayrağı
+               V   → 5 Oman    &  11 qar buludu
+               VIII→ 3 siluet+bitki & 7 düzbucaq
+1..15-dən istifadəsiz : 2, 3, 10, 12, 13, 15
+```
+
+Yəni hər təkrar cütünün **birinin əsl dəyəri** boş qalan {2,3,10,12,13,15} çoxluğundandır.
+Roma rəqəmlərinin qarışma yaxınlığına görə mümkün düzəlişlər:
+
+| səhv oxunan | hansı iki kart | əsl dəyər ola bilər |
+|---|---|---|
+| `IV` | təqvim / ABŞ bayrağı | **II (2)** — `IV`↔`II` |
+| `V` | Oman / qar | **X (10)**, **XV (15)** və ya **II (2)** |
+| `VIII` | siluet+bitki / düzbucaq | **XIII (13)**, **III (3)** və ya **XII (12)** |
+
+⇒ **Bu, indiyə qədər əldə etdiyim yeganə DAXİLİ NƏZARƏT CƏMİDİR.** Yeni görüntü
+gələndə ilk iş bu 6 kartın qara rəqəmini yenidən oxumaqdır — biri hökmən səhvdir.
+Həmçinin **XV kimsədə olmalıdır**, amma 12 kartın heç birində XV oxunmayıb ⇒ ya
+təkrarlardan biri XV-dir, ya da 13/14/15-ci kartlardadır.
+
+### ⇒ CAVAB 15 HƏRFLİDİR (15 parça = 15 mövqe)
+
+Bilinən hərflər və mövqeləri (adlar hələ təsdiqlənməyib, ona görə hərflər ilkin):
+
+| kart | ad namizədi | qırmızı → hərf | mövqe (qara) |
+|---|---|---|---|
+| 8 "I VII" | ? | 7 → ? | **1** |
+| 1 təqvim | SPIRALCALENDAR | 2 → **P** | 4 *(və ya 2)* |
+| 9 ABŞ bayrağı | FLAGUNITEDSTATES | 7 → **I** | 4 *(və ya 2)* |
+| 5 Oman | FLAGOMAN | 6 → **M** | 5 *(və ya 10/15)* |
+| 11 qar | CLOUDWITHSNOW | 9 → **H** | 5 *(və ya 10/15)* |
+| 6 iki obyekt | ? | 6 → ? | **6** |
+| 4 kəpənək | BUTTERFLY | 5 → **E** | **7** |
+| 7 düzbucaq | REDSQUARE | 6 → **U** | 8 *(və ya 13/3/12)* |
+| 3 siluet+bitki | ? | 4 → ? | 8 *(və ya 13/3/12)* |
+| 10 diaqram | BARCHART | 8 → **T** | **9** |
+| 2 rolik | ROLLERSKATE | 2 → **O** | **11** |
+| 12 😂 | FACEWITHTEARSOFJOY | 10 → **E** | **14** |
+
+Skelet (ən ehtimallı hal, təqvim P@4, Oman M@5, düzbucaq U@8, qar H@10):
+```
+1  2  3  4  5  6  7  8  9  10 11 12 13 14 15
+?  I  ?  P  M  ?  E  U  T  H  O  ?  ?  E  ?
+```
+Alternativ (P@2, I@4): `? P ? I M ? E U T H O ? ? E ?`
+
+Hələ oxunmayan 6 hərf: kart 3, 6, 8 və 13, 14, 15. **15 hərfli ifadə**, Colin-in
+qaydasına görə **səsləndikdə yer adına çevrilən kalambur** olmalıdır.
+
+### 13 yoxsa 15 parça? — iki oxunuşun fərqi
+
+- İzləyicinin sayı (**13 parça**) düz olsa: 13 hərf = **XOR girişinin uzunluğu ilə eyni**.
+  Amma XOR şərti 13 böyük hərfə icazə vermir (2-ci mövqe idarəedici simvol verir)
+  ⇒ o halda 13 hərf birbaşa **cavabın özüdür**, XOR isə ayrı mərhələ/yalançı izdir.
+- Mənim sayım (**15 parça**) düz olsa: cavab 15 hərflidir və XOR tamam ayrı bir
+  sətir üçündür (ehtimalla çəhrayı indeks vərəqindən çıxan kod).
+
+Hər iki halda **növbəti addım eynidir**: kartların adlarını və qara rəqəmlərini
+dəqiqləşdirmək. Yerdəyişmə şərti indi bunu **yoxlanabilən** edir.
