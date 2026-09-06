@@ -8693,3 +8693,68 @@ qaydasına görə **səsləndikdə yer adına çevrilən kalambur** olmalıdır.
 
 Hər iki halda **növbəti addım eynidir**: kartların adlarını və qara rəqəmlərini
 dəqiqləşdirmək. Yerdəyişmə şərti indi bunu **yoxlanabilən** edir.
+
+---
+
+## 2026-09-06 14:4xZ — ⛔ NƏZARƏT CƏMİ FƏRZİYYƏSİ RƏDD OLDU (öz müşahidəmlə)
+
+Yuxarıdakı "qara rəqəmlər I…XV-in yerdəyişməsidir, ona görə 3 oxunuş səhvdir"
+fərziyyəsini **yoxladım və o düşdü**. Səbəb: rəqəmləri yenidən oxumaq üçün **yeni üsul**
+tapdım və o, gözlədiyimdən qat-qat aydın nəticə verdi.
+
+### ★ METODOLOJİ QAZANC: perspektiv düzəltmə + 14–16× böyütmə
+
+İndiyə qədər kartları **ox-paralel kəsiklə** (bounding box) çıxarırdım və şəkillər
+bulanıq çıxırdı. Əvəzinə kartın **dördbucaq konturunu düzbucağa warp etmək**
+(`cv2.getPerspectiveTransform` + `warpPerspective`, INTER_LANCZOS4, 14–16×) və rəngi
+2.2–2.4× doyurmaq **REF803.png-dən rəqəmləri oxunaqlı edir**.
+`tools/` üçün qeyd: kadr **REF803.png** (t=803.53) masa kartları üçün ən kəskin kadrdır.
+
+### Bu üsulla YENİDƏN OXUNAN rəqəmlər (hamısı təsdiqləndi, dəyişiklik yoxdur)
+
+| kart | qırmızı | mavi | qeyd |
+|---|---|---|---|
+| qar buludu | **IX** | **V** | rənglər aydın seçilir |
+| iki obyekt | **VI** | **VI** | ikisi də VI — təkrar REALDIR |
+| Oman bayrağı | **VI** | **V** | |
+| tünd siluet + yaşıl | **IV** | **VIII** | |
+| qırmızı düzbucaq | **VI** | **VIII** | |
+| diaqram (↓ ox + sütunlar) | **VIII** | **IX** | |
+| bant/lent 🎀 | **V** | **VII** | |
+| sarı kart | **VII** | **I** | |
+| ABŞ bayrağı + tövlə | **VII** | **IV** | |
+| 😂 | **X** | **XIV** | dördüncü təsdiq |
+
+⇒ **Mavi V həm Oman, həm qar buludunda; mavi VIII həm siluet, həm düzbucaqda.**
+Bunlar səhv oxunuş deyil — **həqiqətən təkrarlanır**. Deməli mavi rəqəm "cavabdakı
+mövqe" OLA BİLMƏZ. Qırmızıda da təkrarlar var (VI üç dəfə) ⇒ **heç bir rəng
+yerdəyişmə deyil**, və "(hərf indeksi, mövqe)" oxunuşu bu formada **ölüdür**.
+
+Sağ qalan oxunuşlar: (a) **tarix** (qırmızı = ay, mavi = gün) — təkrarlara icazə verir;
+(b) **hər iki rəqəm kartın öz adına hərf indeksidir** (Colin-in "emojinin ilk iki hərfi"
+idiomunun ümumiləşməsi) — bu da təkrarlara icazə verir.
+
+### ★★ ŞƏKİL TANIMASINDA İKİ DÜZƏLİŞ
+
+- **"Kəpənək" DEYİL — BANT/LENT 🎀.** Qarabaşlı karandaşla çəkilmiş, iki ilgəkli
+  klassik bant. (Köhnə qeydlərdəki "ribbon" ehtimalı doğru imiş, "butterfly" səhv idi.)
+  ⇒ Ad namizədi `RIBBON`(6) / `BOW`(3). Qırmızı V=5 ⇒ `RIBBON`[5] = **O**.
+  (`BOW` çox qısadır — düşür. Bu, ad seçimini məhdudlaşdıran real şərtdir.)
+- **"Rolik/skeyt" DEYİL — YAŞIL PAPAQLI, ÇƏHRAYI-QIRMIZI GEYİMLİ İNSAN FİQURU**
+  (elf / şaxta baba / uşaq?). Rəqəmləri: **XI** və **II**.
+
+### ★ Kartların ÇOXU İKİ ELEMENTLİDİR — köhnə MP1–15 rebus üslubu
+
+Aydın görünən cütlər: **ABŞ bayrağı + tövlə**, **tünd siluet + yaşıl bitki**,
+**↓ ox + sütunlu diaqram**, **iki uzun obyekt** (tünd çubuq + uclarında çəhrayı olan
+mavi-boz çubuq). Köhnə ovda MP1–15 məhz belə idi: `H + 🕉️ = HOME OF PEACE`.
+⇒ Kartlar **tək emoji deyil, iki elementli rebusdur**; "ad" rebusun **həll sözüdür**,
+elementlərin adı deyil. Bu, indiyə qədərki bütün ad namizədlərini yenidən qiymətləndirməyi
+tələb edir.
+
+### Hələ oxunmayanlar
+
+Masadakı iki qonşu kart (açıq-qəhvəyi uzunsov obyekt = **daş?**, tünd-qəhvəyi uzunsov
+forma = **qartal?**) REF803-də **çox maili bucaqdadır**; warp da onları oxunaqlı etmir.
+REF806 hərəkət bulanıqlığı daşıyır. Bu üç kart üçün fərqli kadr və ya daha yüksək
+ayırdetmə lazımdır.
