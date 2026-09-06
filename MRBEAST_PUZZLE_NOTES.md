@@ -5979,3 +5979,24 @@ yuxarısı sivri, aşağıya doğru genişlənən** bir formadır. Yanındakı *
 birlikdə bu, **lələk + quş** və ya **yumurta/pup + quş** kimi mənalı bir cüt
 ola bilər. **Təxmindir**, ölçmə deyil — amma "boz daş" oxunuşundan daha
 uyğundur (rəng ölçməsi də daşı istisna etmişdi).
+
+### `ISOLATED2.png` — tünd formalar qaralığa görə ayrıldı (uğurlu)
+
+"Ən böyük komponent" əvəzinə **"ən tünd komponent"** seçimi ilə dörd tünd
+forma təmiz ağ fonda ayrıldı. **#3 iki müstəqil bucaqda demək olar eynidir** —
+ayırma etibarlıdır.
+
+**Müşahidələr (təxmin, ölçmə deyil — belə də işarələyirəm):**
+
+- **#3 siluet:** təmiz fonda baxanda **çəkmə/ayaq** formasına oxşayır: yuxarıda
+  yumru lob, ~40%-də sağda çuxur, ~65%-də **sağa çıxan qabarıq**, altda **sola
+  yönəlmiş pəncə/burun**. Bu, **İtaliya xəritəsinə** uyğun gələ bilər
+  (şimal enli → ayaq → daban sağda → burun solda). Ölçdüyüm profil də buna
+  yaxındır (30% ən enli, 45% bel, 65% ikinci qabarıq).
+  ⚠ Amma uzanma 2.9, İtaliyanın min-area-rect nisbəti isə ~3.5–4.4 —
+  **tam oturmur**. Namizəd kimi qeyd edirəm, təsdiq kimi yox.
+- **#15 paz:** yuxarıda **iki zirvə + aralarında çuxur**, aşağıda **nöqtə**.
+  Tərsinə çevirsək: **yuxarıda nöqtə, aşağıda dalğalı əsas** → **alov** 🔥
+  formasına uyğundur. Yarpaq/üzgəc də mümkündür.
+- **#14 sol forma:** nazik, **əyri**, altda **qarmaq**; rəngi açıq bej-zeytunu.
+  Yanındakı quşla birlikdə **lələk** 🪶 ehtimalı ən uyğunudur.
