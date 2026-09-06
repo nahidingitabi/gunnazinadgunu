@@ -8199,3 +8199,37 @@ Fərqli mövqe dəyərləri yalnız **11-dir** (1,2,4,5,6,7,8,9,10,11,14) ⇒ bu
 **11 simvollu sadə əvəzetmə şifrəsidir** və birbaşa həll edilə bilər:
 ingilis quadgram statistikası ilə təpə-dırmanma. Nəzarət kimi köhnə OP1
 ardıcıllığı işlədilir. (`tools/pieces/subsolve.py`, işləyir.)
+
+## ✗ ADI ÖZÜ TAPMAQ CƏHDİ — NƏZARƏTDƏN KEÇMƏDİ, NƏTİCƏLƏR LƏĞVDİR
+
+`subsolve.py`: 11 simvollu əvəzetməni ingilis quadgram statistikası ilə
+təpə-dırmanma (40 restart × 60 000 addım).
+
+**Nəzarət uğursuz oldu.** Köhnə OP1 ardıcıllığında düzgün cavab
+`AHOMEAREANEARKAMLAKE`-dir; həlledici `TATIONIANTATIONISTOO` verdi.
+⇒ **Bizim rəqəmlər üçün aldığı bütün nəticələr LƏĞVDİR**
+(`ENESSEERSESSSERERSETTERI` və s. mənasızdır).
+
+**Səbəb informasiya nəzəriyyəsidir:** 20–24 simvol əvəzetmə şifrəsini həll etmək
+üçün çox azdır (adətən 100+ simvol lazımdır). Köhnə tapmacada bu, məsələ deyildi,
+çünki **ad solverlərə verilmişdi.**
+
+## ★★ BUNDAN ÇIXAN ƏSAS NƏTİCƏ: «HANSI AD» SUALI VİDEODA CAVABLANMALIDIR
+
+OP1-də adı göstərən şey **Slack pəncərəsindəki mətn idi**:
+
+> «Jimmy's Slack popup **"Find a puzzle maker"** appears, containing a jigsaw
+> puzzle piece»
+
+Yəni «**puzzle maker**» sözü solverə deyirdi ki, **tapmaca müəllifinin adına**
+saymaq lazımdır. Deməli bizim videoda da **hansı ada saymaq lazım olduğunu
+deyən bir işarə** olmalıdır.
+
+⇒ **Yeni axtarış hədəfi:** parçaların yanında/qutuların üstündə/videoda
+«hansı ad» olduğunu göstərən mətn. Namizədlər: qutuların üzərindəki çaplı yazı
+(«CONTENTS FROM … DEPT», MrBeast-in daşıdığı qutuda «PUZZLE CLUES»),
+parçaların üstündəki hər hansı yazı, otaqdakı ad lövhəsi.
+
+⚠ Diqqət: hədəf ad **ən azı 14 hərf** olmalıdır (mavi XIV=14).
+`COLIN SANDERS` = 12 ✗ · `DOCTORXOR` = 9 ✗ · `JIMMY DONALDSON` = 14 ✓ ·
+`LONE SHARK GAMES` = 14 ✓ · `MRBEAST YOUTUBE` = 14 ✓
