@@ -9465,3 +9465,29 @@ Bu, Oman kartının uğursuzluğunu **həll edir**:
 Qalan tək problem **yaşıl papaqlı fiqur** kartıdır (mavi XI/XII = 11–12; heç bir
 insan/elf emojisinin adı bu uzunluqda deyil) — bu, ya şəklin səhv oxunması,
 ya da emoji olmaması deməkdir.
+
+### ★ Məntiqi sınaq: rəqəmlər elementə görə yox, **BÜTÖV KARTA** aiddir
+
+"↓ ox + sütunlar" kartında rəqəmlərin yerləşməsi bəllidir: **qırmızı VIII yuxarı-solda,
+oxun üstündə**; **mavi IX sağda, sütunların yanında**. Əgər hər rəqəm **öz yanındakı
+elementin adına** indekslənirsə:
+
+- qırmızı 8 → `down arrow`(9) → 'O' ✓ mümkün
+- mavi 9 → `bar chart`(**8**) → **9 > 8, HÜDUDDAN KƏNAR** ✗
+
+⇒ **Yanaşılıq oxunuşu düşür.** Deməli iki rəqəm **bir ada** — bütöv kartın adına —
+indekslənir (GC8-də də belədir: bir şəkil, bir ad, bir rəqəm cütü).
+Bu kart üçün ad ≥9 olmalıdır: `chart decreasing`(15) və ya `chart increasing`(15) —
+**hər ikisi eyni hərfləri verir: qırmızı C, mavi R**.
+
+Eyni məntiqlə **ABŞ bayrağı + tövlə** kartı da **bir ad** daşıyır (tövləni də əhatə edən):
+`flag: United States`(16) → I/G, yoxsa `Americana`(9) → A/R, yoxsa `rural America`(12) → M/A?
+— hələ həll olunmayıb.
+
+### Hazırkı alət çıxışı (3 kart adlandırılıb)
+
+```
+QIRMIZI : ????????E?M?H??
+MAVI    : ????????O?O?D??
+```
+(sıra mənim kataloq sıramdır; yapboz sırası hələ naməlumdur)
