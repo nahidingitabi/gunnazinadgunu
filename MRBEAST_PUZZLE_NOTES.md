@@ -7672,3 +7672,56 @@ Bu, əlyazma qeydindəki zəncirlə **tam eyni** quruluşdur.
 Hər parça üçün «emojinin adının qırmızı-cı və mavi-ci hərfi» sınağı 12 məlum
 parçada aparıldı; 5 rəsm adsız və 2 rəqəm cütü naməlum olduğu üçün söz
 çıxmadı. Bu sınaq **5 rəsm adlandırılan kimi təkrarlanmalıdır.**
+
+## ★★★ 15 REBUS — TAPMACANIN JANRI ARTIQ MƏLUMDUR
+
+Rəsmi sənədin 70-ci səhifəsi **MP1–15 şəkilli rebuslarının özünü** göstərir.
+Janr eynidir:
+
+**Lone Shark rebusu = rəngli kvadrat + EMOJİ + hərflər + `+` / `−` + «of the».**
+
+| rebus | təsvir | cavab |
+|---|---|---|
+| FURFURACEOUS | `H` + 🕉️(om) «of» 🫛(peas) | **HOME OF PEACE** |
+| SCAPULOMANCY | 👁️(eye) + `L` + `&`(and) «of» ☠️(skull) | **ISLAND OF DEATH** |
+| OCHROLEUCOUS | 🦪(pearl) «of the» 🧭(compass) | **PEARL OF THE NORTH** |
+| HEKISTOTHERM | 🧢(cap) + sütunlar «of the» ✈️✈️✈️ | **CAPITAL OF THE PLAINS** |
+| NEBULAPHOBIA | 🚪(gate)+⚖️(weigh) «to» dağ+ölüm | **GATEWAY TO DEATH VALLEY** |
+| RISORGIMENTO | qlobus, üstündə `1` və `2` qitə | **CITY ON TWO CONTINENTS** |
+
+Şeir: `A nickname for your destination / (But not its name or its translation)`
+
+### Bizim parçalar üçün nəticə
+
+Bizim rəsmlərin hamısı emojidir → **parçalar bir REBUSDUR**:
+
+```
+20 emoji → ŞƏHƏR LƏQƏBİ (3 6 4) → ŞƏHƏR + BÖLGƏ (6 6) → ŞƏHƏR (6)
+```
+
+Bu, əlyazma qeydindəki zəncirlə tam eyni quruluşdur.
+
+1. Emoji tanımaq artıq köməkçi iş deyil — **əsas işdir**.
+2. Rebusda `+`, `−`, `&` operatorları var → bordo düzbucaq operator ola bilər.
+3. Rəqəmlər eyni anda **tarix (sıralama)** və **hərf indeksi (məzmun)** ola bilər.
+
+## ★ İSTİFADƏÇİDƏN: 7-ci PARÇA = FEASTABLES
+
+İstifadəçi öz gözü ilə **Feastables** görür — 1:2.14 nisbətli bordo düzbucaq
+**şokolad batonudur**, boş sahə deyil. Bu, «7-ci parça boşluqdur» ehtimalını
+ləğv edir və rebusa məzmun verir (FEASTABLES / BAR / CHOCOLATE / COCOA).
+
+## ★ İSTİFADƏÇİDƏN: TAPMACA TƏK VİDEODA DEYİL
+
+İki istiqamət göstərildi:
+1. **«Yt link» var** → başqa (bəlkə tək videoluq) YouTube kanalı ola bilər.
+2. **Tarixlər video tarixləri ola bilər**: MrBeast-in və ya Colin-in müəyyən
+   tarixdə yüklədiyi videonun müəyyən dəqiqəsində ipucu gizlənə bilər.
+
+Bu ikinci fikir **12 tarixə birbaşa məna verir** və indiyə qədər sınanmayıb.
+
+## ★ DÜZƏLİŞ: CAVABIN UZUNLUĞU SƏRT DEYİL
+
+Forma `maxLength=500`, saytda uzunluq göstərişi yoxdur; 15 ulduz yalnız
+demoda yazılanın uzunluğudur. **Cavab istənilən sayda hərf/rəqəm ola bilər** —
+15 rəqəmini sərt filtr kimi işlətmə.
