@@ -49,6 +49,10 @@ for si,sh in enumerate(spec['shots']):
                         t4=cv2.resize(tmpl,None,fx=0.25,fy=0.25); g4=cv2.resize(gr,None,fx=0.25,fy=0.25)
                         cc=float(np.corrcoef(t4.ravel(),g4.ravel())[0,1])
                         if cc>best[0]: best=(cc,r)
+                    if best[0] < 0.35:
+                        print(f'  SKIPPING shot: best rotation only corr {best[0]:.3f} '
+                              f'- quad does not correspond, fusing it would poison the median',flush=True)
+                        break
                     Hq=cv2.getPerspectiveTransform(rots[best[1]],dst); rot_locked=True
                     print(f'  rotation {best[1]} (corr {best[0]:.3f})',flush=True)
                     Hf=Hq@Hs[k]

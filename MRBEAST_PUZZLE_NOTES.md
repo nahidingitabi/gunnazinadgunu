@@ -3823,3 +3823,21 @@ Atlası yan-yana görəndə üç şey nəzərə çarpdı — **hamısını şüb
 
 Bunlar səhər istifadəçinin baxması üçün qeyd olunur — adlandırmanı ona
 buraxıram, çünki üç dəfə onun oxunuşu mənimkindən düzgün çıxıb.
+
+## 06.09.2026 ~06:30Z — QUTULARIN ÜZƏRİNDƏ AY ADLARI + BİR ALƏT DÜZƏLİŞİ
+
+**Yeni müşahidə:** ABŞ bayrağı parçasının sağında, qutunun üzərində əl yazısı var:
+**"July?"** və altında **"Jun…"** (`hw765.png`). Yəni qutular **ay adları** ilə
+işarələnib. Digər qutuların üzərindəki mətn isə çap olunub — Bankers Box-un
+standart "CONTENTS / FROM ___ / DEPT." şablonu, əl yazısı deyil (`lbl_cf.png`).
+
+Bu, indiyə qədər baxmadığım xəttdir: əgər hər qutunun öz ayı varsa və parçalar
+konkret qutulara yapışdırılıbsa, **qutular parçalara sıra verə bilər** — rəqəmlərdən
+asılı olmayan ikinci yığma yolu. Hələlik yalnız bir qutuda ay yazısı tapmışam;
+qalanlarını yoxlamaq lazımdır.
+
+**Alət düzəlişi:** `piecesr.py` indi hər plan üçün dördbucağın 4 fırlanma variantını
+şablonla korrelyasiyaya görə seçir. Korrelyasiya **0.35-dən aşağıdırsa planı
+tamamilə buraxır** — səhv oturmuş kadrlar medianı korlayır, yəni pis birləşdirmə
+heç birləşdirməməkdən pisdir. (Ofis planını qartal parçasına əlavə etmək cəhdi
+məhz bu səbəbdən uğursuz oldu: ən yaxşı fırlanma cəmi 0.16 verdi.)
