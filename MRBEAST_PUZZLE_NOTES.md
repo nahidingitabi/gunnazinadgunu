@@ -6489,3 +6489,59 @@ Yəni: `#3 ∈ {🎤, 🕴}` — 12 namizəddən 2-yə endi, adı hələ verilmi
 doqquz namizədin **heç biri uymur**. Formaca ən yaxını 🦷 dişdir (ən enli
 yuxarıda, monoton azalma) amma uzanması 1.41-dir, 2.36 deyil. 🍃 1.80, 🪶 3.07,
 🥕 3.16, 🔪 4.12, 🌶 solidity 0.68. **Hamısı istisna.**
+
+### NƏZARƏT: bilinən şəkillərlə yoxlama (`ctrlsheet.py` → `CTRL.png`)
+
+Adsızlara güvənməzdən əvvəl **kimliyi bilinən** altı rəsm öz nişanının və iki
+tələnin yanına qoyuldu:
+
+```
+😂 sevinc üzü      → sarı yumru + mavi damcılar   AYDIN KEÇİR
+🌨 qarlı bulud     → bulud + altında nöqtələr     AYDIN KEÇİR
+🇺🇸 ABŞ bayrağı     → mavi kanton + zolaqlar       AYDIN KEÇİR
+🇴🇲 Oman bayrağı    → şaquli qırmızı zolaq         AYDIN KEÇİR
+🦋 kəpənək         → rəngə görə YOX (rəsm rəngsiz konturdur),
+                     amma **quruluşa görə keçir**: dörd ilmə = dörd qanad
+🦅 qartal          → çox kiçik/az kontrastlı, ayırd etmir  ZƏİF
+```
+
+**Kalibrləmə:** müqayisə **rəngli və quruluşlu** rəsmlərdə məlumat verir;
+kiçik, az kontrastlı, tək rəngli rəsmlərdə vermir. Üstəlik: **bəzi rəsmlər
+rəngsiz konturdur** (kəpənək, kartoteka), bəziləri doludur (düzbucaq, siluet) —
+ona görə kontur rəsmlərdə yalnız **quruluş** sayılır, rəng yox.
+
+## Üç vendor yan-yana (`v3cmp.py` → `V3CMP.png`)
+
+Noto + Twemoji + OpenMoji. OpenMoji vacibdir: onun düz, konturlu üslubu
+qələmlə çəkilmiş rəsmə ən yaxınıdır.
+
+**#13 = 🗄️ KARTOTEKA — yaxşı dayaqlıdır.** Hər üç vendor onu **iki siyirməli,
+hər siyirmədə açıq rəngli dəstək** kimi çəkir; OpenMoji-ninki qara konturlu
+düzbucaq içində iki açıq siyirmədir — rəsmə çox yaxın. Rəsm: bir üfüqi ayırıcı,
+iki panel, ayırıcıda kiçik çıxıntılar, mürəkkəb boz.
+
+**🪟 PƏNCƏRƏ QƏTİ İSTİSNA:** hər üç vendorda pəncərənin **dörd gözü (xaç)** var.
+Rəsmdə **şaquli ayırıcı yoxdur**. Bu, birmənalı fərqdir.
+
+**★ #14-ün sol forması DAŞ DEYİL — bu gecə öz yazdığımı geri götürürəm.**
+Hər üç vendor daşı **yığcam boz kütlə** kimi çəkir (uzanma 1.2–1.4). Rəsm:
+**uzanma 2.63, isti qəhvəyi, qızılı ləkəli**. Rəng dayağı ilə yanaşı indi
+**forma dayağı da** əleyhinədir. Bir neçə saat əvvəl «çox güman elə budur»
+demişdim — səhv idi, `#14 sol` yenə **adsızdır**.
+(Sənin gördüyün daş başqa bir şəkildir; bilmirəm hansı.)
+
+**#7 (düz terrakota düzbucaq)** — qapı və qırmızı kitab, hər üç vendorda
+paneller/dəstək/tikiş göstərir, nisbətləri də 1:1.2–1.5-dir, rəsm isə 1:2.14
+və tamamilə düzdür. **Amma vacib qeyd:** rəsm videoda cəmi **22×47 px**-dir.
+Bu ölçüdə **xırda detalın görünməməsi onun olmaması demək deyil** — kartın
+üstündə dəstək və panel ola bilər, sadəcə həll olunmur. Ona görə qapı
+**istisna edilmir**, sadəcə təsdiqlənmir.
+
+**#3 (qara siluet)** — OpenMoji-nin mikrofonu maili çəkilib: yuxarıda yumru baş,
+aşağı incələn sap. Rəsmdə də yumru baş (yuxarı-solda) və aşağı-sağa incələn
+gövdə var — güzgü kimi, quruluş eynidir. Rəngi də **neytral qara**.
+🎤 aparıcı namizəd olaraq qalır.
+
+**#1 (fiqur)** — bu gecə ölçdüyüm «ayaqların altında iki tünd disk» köhnə
+qeyddəki oxunuşla üst-üstə düşür: **ağ rolik konkilər, tünd təkərlər**.
+Yəni fiqur **rolik konkidə duran adamdır**, papağı yaşıl konusdur.
