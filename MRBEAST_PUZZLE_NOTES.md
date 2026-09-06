@@ -7089,3 +7089,47 @@ sırasız. Deməli parçalar **başqa bir qatdır**: ya aralıq mərhələni ver
 tamam ayrı bir çıxışı var. «Hər parça bir hərf» modeli **iki müstəqil testdən
 keçmədi** (boşluq mövqeləri + hərf dəsti) — onu artıq işlək fərziyyə kimi
 saxlamıram.
+
+## ★ TARİX MODELİ DAXİLİ DƏLİLLƏ BƏRPA OLUNUR — iki «yol nişanı»
+
+«Qırmızı = ay» oxunuşunun yeganə **xarici** dayağı (qutudakı `"July?"`) düşəndən
+sonra model yalnız istisna ilə yaşayırdı. İndi **iki daxili dayaq** görürəm —
+ikisi də ölçülmüş dəyərlərdən çıxır, yeni fərziyyə deyil.
+
+### 1. ABŞ bayrağı parçası konvensiyanı özü elan edir
+
+```
+qırmızı VII = 7 = İYUL      mavi IV = 4        →  4 İYUL
+şəkil: ABŞ BAYRAĞI  →  ABŞ-ın Müstəqillik Günü
+```
+
+Əks oxunuşda (mavi = ay) həmin parça **7 aprel** verərdi — ABŞ bayrağı ilə heç
+bir əlaqəsi yoxdur. Yəni bu parça **hansı rəngin ay olduğunu göstərən açardır**.
+Tapmaca qurucusu konvensiyanı məhz belə bildirər.
+
+### 2. Təqvim parçası «bunlar tarixdir» deyir
+
+Bir parçanın şəkli **təqvimdir**. Bu, rəqəmlərin ümumiyyətlə **tarix** olduğunu
+bildirən meta-işarədir. (Onun öz tarixi 4 fevraldır — xüsusi bir gün deyil,
+yəni işarə şəklin özündədir, tarixində yox.)
+
+### Bu, «hər tarix bir milli bayramdır» demək DEYİL
+
+Yoxladım — ümumiləşmir:
+```
+4 iyul  → ABŞ bayrağı          ✓ Müstəqillik Günü
+1 iyul  → şəkil GİZLİ          ← Kanada Günü olardı (yoxlana bilmir)
+5 iyun  → Oman bayrağı         ✗ Omanın milli günü 18 noyabrdır
+9 avq   → ox + diaqram         ✗ (Sinqapur milli günü, şəkil uyğun deyil)
+6 iyun  → iki obyekt           ✗ (İsveç milli günü, şəkil uyğun deyil)
+```
+
+Yəni ABŞ bayrağı **ümumi qayda deyil, konvensiya açarıdır** — bir dəfəlik
+imzadır.
+
+### ⚠ Diqqətçəkən təsadüf (dəlil kimi işlətmə)
+
+**1 iyul = Kanada Günü**, və həmin parçanın şəkli **üç bucaqda da gizlidir**.
+Aparıcı cavabda isə `LONDON **CANADA**` var. Bu, gözəl uyğunluqdur, amma
+**yoxlana bilmir** — şəkil heç vaxt görünmür. Ona görə **fərziyyə kimi qeyd
+edirəm, dayaq kimi yox.**
