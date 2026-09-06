@@ -4031,3 +4031,28 @@ gün 1…14.
 Qeyd: 12 cütün fərqli olması təsadüfən də baş verə bilərdi (ehtimal yüksəkdir),
 yəni bu **güclü dəlil deyil** — amma **zəruri şərtdir** və ödənir. Rədd etmək
 üçün əsas vermir.
+
+## 2026-09-06 01:25Z — IBP İLƏ ŞƏKİLLƏR DƏQİQLƏŞDİ (yuxarı qutu)
+
+`IBP_topbox.png` (121 kadr, 24 iterasiya, S=10) medianla müqayisədə şəkilləri
+ilk dəfə **birmənalı** etdi:
+
+* **Bant parçası** — şübhəm aradan qalxdı: **iki ilmə yuxarıda, iki quyruq
+  aşağıda**, tünd nazik konturla. Bu, **bağlanmış bant/lentdir**, kəpənək deyil.
+  (Kəpənəkdə aşağı hissə də qanad olardı; burada quyruqlar nazik və düzdür.)
+  qırmızı **V** · mavi **VII** ✓
+* **"Düzbucaq" parçası** — və burada **öz adlandırmam səhv çıxdı**: şəkil
+  **kvadrat deyil, açıq-aydın şaquli düzbucaqlıdır** (hündürlüyü enindən
+  ~1.6 dəfə çox), terrakota rəngli, nazik tünd konturlu, künclər yumru.
+  Yəni 🟥 "red square" **yanlışdır**. Nə olduğu hələ açıq: kərpic? kitab?
+  şokolad? qapı? qırmızı **VI** · mavi **VIII** ✓
+* **Rolik parçası** — yaşıl konus papaq, açıq rəngli üz, narıncı gövdə,
+  qırmızı ayaqlar, **ağ rolik konkilər tünd təkərlərlə**. Fiqurun qolları
+  başının yanındadır. qırmızı **II** · mavi **XI** ✓
+* **Diaqram parçası** — tünd obyekt indi aydındır: **aşağı yönəlmiş ox**
+  (uzun sap + ucluq), ucu **ən qısa boz sütuna** dirənir; sonra çəhrayı, sarı,
+  yaşıl sütunlar **artan sırada**. qırmızı **VIII** · mavi **IX** ✓
+* **Pəncərə parçası** — çərçivə + **iki üst-üstə pəncərə gözü**.
+
+Yəni IBP təkcə kəskinlik ölçüsünü deyil, **məzmunu** da dəyişdi: bir şəkil adım
+(red square) düşdü, bir şübhəm (bant/kəpənək) həll oldu.
