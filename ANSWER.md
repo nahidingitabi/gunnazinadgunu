@@ -1,9 +1,18 @@
 # MrBeast $10,000 puzzle — the answer
 
-**Submit: `FANTASTIC HEDWIG`**
+**Leading answer: `FANTASTIC HEDWIG`** (fallback `FANTASTICHEDWIG`, no space).
 
-If it is rejected, submit `FANTASTICHEDWIG` (no space). The form allows multiple guesses.
-Nothing here has been submitted anywhere — that is yours to do.
+**Read this before you submit.** At least one solver entered `FANTASTIC HEDWIG` — and
+every permutation of it, spaced and unspaced — on about 4 September, and as of the
+evening of 6 September **no winner has been announced**. So either the sponsor simply
+has not announced, or the answer is wrong. Submitting costs nothing and takes seconds,
+so do it; but do not expect it to win on its own.
+
+Nothing here has been submitted anywhere by me — that is yours to do.
+
+**What is certain is the jigsaw**, verified here letter by letter: it yields
+**BIRDS OF AMERICA** and **XOR SUPERB OWLS**. Everything after that is the community's
+work and is unconfirmed. That is where the real remaining opportunity is.
 
 ---
 

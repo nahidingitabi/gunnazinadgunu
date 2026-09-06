@@ -11264,3 +11264,43 @@ götürülüb və həmin lövhənin başqa yerlərində də transkripsiya səhvl
 ⇒ **Vəziyyət:** yapboz mərhələsini özüm tam yoxladım (27/27 hərf). Audubon mərhələsini
 yoxlaya bilmirəm, çünki çəhrayı vərəqi videodan oxuya bilmirəm (hər işarə ~2 px).
 Alət hazırdır: düzgün transkripsiya gələn kimi bir əmrlə yoxlanır.
+
+## ★★★ 2026-09-07 — SIRA MÜSTƏQİL TƏSDİQ OLUNDU + CİDDİ XƏBƏRDARLIQ
+
+Arctic Shift arxivi ilə r/MrBeast-i özüm yoxladım (curl ilə API).
+
+### Sıram təsdiqləndi
+
+u/Excellent_Leather824 (2026-09-05 14:41), «parçalar **düzgün sıra** ilə yığılanda»:
+1) Oman Flag 2) Calendar 3) Feastables/Chocolate Bar 4) Rainy Cloud 5) **Brown square**
+6) Africa&Cactus 7) Joy smiley 8) Eyeglasses 9) Graphic 10) Black swimsuit
+11) America flag&Barn 12) Elf/Gnome 13) Pharaoh&Eagle 14) Jail Door
+
+★ Bu, mənim hərflərdən çıxardığım sıra ilə **14/14 eynidir**. Müstəqil təsdiq.
+★ #5-i onlar da «**brown** square» adlandırır — mənim rəng ölçmüm haqlı idi.
+★ #10 «black swimsuit» = Tasmaniya siluetidir.
+
+### ⚠⚠ CİDDİ: FANTASTIC HEDWIG artıq göndərilib və QALİB YOXDUR
+
+u/Huge-Stable-7397 (2026-09-05 14:56): *«…you end up in "FANTASTIC HEDWIG". I find it
+quite weird since **I already entered that solution more than 20 hours ago, with all
+its permutations** (I thought it had no space, etc.) so I really think…»*
+
+u/CiviledXI (2026-09-05 15:25): *«I sent an email to see if a winner has been picked
+yet… if nobody hears back soon, then **it's safe to assume we got some more work to
+do** ;)»*
+
+⇒ Yəni **FANTASTIC HEDWIG təxminən 4 sentyabrdan bəri, bütün variantları ilə
+göndərilib** və 6 sentyabr axşamına qədər **heç bir qalib elan olunmayıb**.
+İki izah var:
+1. Sponsor sadəcə elan etmir (qaydalar «sponsorun mülahizəsi» deyir), və ya
+2. **Cavab səhvdir / yarımçıqdır.**
+
+★ Bu, işin cəbhəsini dəyişir: **yapbozun çıxışı (BIRDS OF AMERICA / XOR SUPERB OWLS)
+qətidir** — mən 27/27 hərflə yoxladım. Ondan sonrakı addımlar isə **icmanındır və
+təsdiqlənməyib**. Əsl açıq sual ikinci yarıdır.
+
+Rəqib oxunuş (u/gg4999): «…→ **stunts** (9) → **beastsand** (6)». Amma qeydlərdə
+qırmızı zəncir **(9)** ilə, mavi **(6)** ilə bitir; STUNTS 6, BEASTSAND 9 hərfdir —
+yəni gg4999-un yerləri qarışıb. CiviledXI-in hash-i isə «9 hərflik və 6 hərflik»
+ardıcıllığı ilə uyğundur.
