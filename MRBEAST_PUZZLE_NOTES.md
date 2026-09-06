@@ -3994,3 +3994,23 @@ x ← x + α · Σ_k Wᵀ_k Bᵀ D↑ ( y_k − D↓ B W_k x )
 yəni yüksək həllli təxmini hər kadra geri proyeksiya et, fərqi ölç, fərqi
 yenidən yuxarı qaytar və topla. Qeydiyyat (ECC ilə kilidlənmiş, korrelyasiya
 0.9) yaxşı olduğu üçün bu üsul medianı ciddi üstələyə bilər.
+
+## 2026-09-06 01:05Z — ★ IBP MEDIANI 5.7 DƏFƏ ÜSTƏLƏYİR (NƏZARƏTDƏ ÖLÇÜLDÜ)
+
+`piecesr_ibp.py` yazıldı və **nəzarət parçasında** (ABŞ bayrağı + anbar — şəklini
+və rəqəmlərini artıq bilirəm) medianla yanaşı işlədildi. Eyni 96 kadr, eyni
+qeydiyyat, yalnız qiymətləndirici fərqli:
+
+```
+maskalı median            kəskinlik (Laplas dispersiyası) =  8.7
+iterativ geri-proyeksiya  kəskinlik                       = 49.9   → 5.7×
+```
+Gözlə də açıq görünür: bayrağın zolaqları ayrılır, anbarın detalları,
+rəqəmlərin kənarları kəskinləşir (`IBP_CMP.png`).
+
+**Vacib texniki nöqtə:** aşağı-həlledicilik şəbəkəsini parçanın **əsl piksel
+ölçüsünə** bərabər seçmək lazımdır (ABŞ bayrağı parçası üçün ~110 px enində →
+`S=8`, kanonik 880/8=110). Səhv seçilsə, model ya lazımsız bulanıqlaşdırır,
+ya da şum gücləndirir.
+
+Bütün mühüm parçalar bununla yenidən çıxarılır. Alət `tools/pieces/`-dədir.
