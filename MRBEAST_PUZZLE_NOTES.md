@@ -10565,3 +10565,19 @@ Heç bir simvol oxunmur.
 
 ⇒ **Çəhrayı vərəq bağlanır.** İcmanın «~28 səhifə + rum rəqəmi cütü» iddiasının
 *forması* təsdiqlənir, məzmunu isə bu mənbədən çıxarıla bilməz.
+
+### ★ «LAST WORD THEN NINTH» — köhnə metanın üslubu ilə eynidir
+
+Köhnə tapmacanın **meta-təlimatı** (səh. 80, avtomobil/at/təyyarə/qayıq hərfləri ilə
+yığılır) belədir:
+
+> **"IN JIMMY'S VAULT FIRST PART STICKS ROAMY RESULTS IN BETWEEN STAGE ONE ANSWER
+> PAIRS LAST PART HE SHOWED AT START."**
+
+Yəni müəllifin üslubunda **qısa, əmr formasında təlimat** hərflərlə yığılır və növbəti
+addımı deyir. `LAST WORD THEN NINTH` **məhz bu ailədəndir** — həm uzunluğu, həm
+qrammatikası uyğundur («FIRST PART…», «LAST PART…» ↔ «LAST WORD… THEN NINTH»).
+
+⇒ Firuzəyi kartın açılışının **yeni tapmacanın 2-ci addım təlimatı** olması ehtimalı
+artır. Yapbozdan çıxan mətn əldə olan kimi ilk tətbiq ediləcək qayda budur.
+(Qeyd: bu, əlaqə arqumentidir, sübut deyil.)
