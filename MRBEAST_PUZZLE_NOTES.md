@@ -7163,3 +7163,30 @@ qəti idi, çünki o kart masaya qarşı təkdir. **10-cu kart açıq qalır.**
 Ona görə hazırda dəqiq bilinən: **9, 3, 6-cı kartlarda iki rəsm var** (kontur ilə
 təsdiq), 1-ci kartda **bir**. 10 və 14 açıqdır, 8-in şəkli gizlidir.
 **20 rəsm fərziyyəsi hələ nə təsdiqlənir, nə də istisna olunur.**
+
+## Videonun TƏSVİRİ və ŞƏRHLƏRİ — bu mühitdən oxumaq mümkün olmadı
+
+Rəsmi qaydalar deyir «ipucular videodadır» və **sayını göstərmir**, köhnə ovda isə
+ilk ipucular **bərkidilmiş şərhdəki linklərdə** idi. Ona görə videonun təsvirini
+və şərhlərini yoxlamaq istədim. Dörd yol sınadım, dördü də bağlıdır:
+
+```
+yt-dlp                → "Sign in to confirm you're not a bot" (429 + bot yoxlaması)
+WebFetch              → google.com/sorry captcha səhifəsinə yönləndirir
+oEmbed API            → yalnız başlıq/kanal verir (təsdiqləndi: "How 1 Person
+                        Solved A $1,000,000 Puzzle!", MrBeast 2) — təsvir yoxdur
+Chromium + Playwright → ERR_CONNECTION_RESET; proxy jurnalı:
+                        ws_closed_mid_exchange, www.youtube.com:443, kod 1006
+```
+
+(Playwright üçün düzəlişlər: `executable_path=/opt/pw-browsers/chromium-1194/...`
+və proxy `http://127.0.0.1:41903`. TLS yoxlamasını **söndürmədim** — CA onsuz da
+brauzerin NSS anbarındadır. Problem sertifikat deyil, tunelin bağlanmasıdır.)
+
+Mətbuatda da yoxdur: 03.09.2026 tarixli UNILAD məqaləsi videodan bəhs edir,
+**yeni $10,000 tapmacasını ümumiyyətlə xatırlatmır**.
+
+**Nəticə:** «video şərhləri» kanalı **yoxlanılmamış qalır** — bağlı olduğu üçün,
+tükəndiyi üçün yox. Bunu açıq iş kimi saxlayıram; brauzeri olan biri (sən)
+təsviri və bərkidilmiş şərhi bir dəqiqəyə yoxlaya bilər. **Bu, hazırda ən ucuz
+yoxlanılmamış kanaldır.**
