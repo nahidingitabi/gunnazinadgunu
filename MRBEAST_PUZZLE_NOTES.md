@@ -5049,3 +5049,45 @@ Noto Color Emoji şrifti ilə namizəd emojiləri eyni ölçüdə render edib h�
 Deməli "hər şəkil bir emojidir, adının ilk hərfini götür" modeli **hamısı üçün
 işləməyə bilər**. Bəzi şəkillər sadə klip-art forma ola bilər (xəritə, rəng
 ləkəsi, həndəsi fiqur). Bunu modeldə nəzərə almaq lazımdır.
+
+---
+
+## 2026-09-06 05:35Z — "İki obyekt" şəklinin ÖLÇÜLMÜŞ rəng profili
+
+Ən yaxşı bucaqda (h806, t=804.4) hər iki obyektin rəngini yuxarıdan aşağı
+zolaqlarla ölçdüm (kartın öz kağızına görə ağ balans, sonra Lab).
+
+**Tünd obyekt** (kadr x 1786–1801):
+
+| y | L | a\* | **b\*** |
+|---|---|---|---|
+| 662 | 127.9 | +3.17 | **−5.19** |
+| 668 | 104.4 | +0.49 | **−5.53** |
+| 680 | 94.8 | +3.91 | **−4.23** |
+| 692 | 112.6 | +1.46 | **−6.28** |
+| 698 | 121.6 | +0.40 | **−8.12** |
+
+b\* gövdə boyu **mənfidir** → obyekt **tünd GÖY / navy**dir, qəhvəyi deyil.
+(Əvvəllər "tünd qəhvəyi" yazmışdım — düzəldirəm.)
+
+**Açıq obyekt** (kadr x 1801–1817):
+
+| y | a\* | oxunuş |
+|---|---|---|
+| 660 | **+6.11** | çəhrayı/qırmızı — **yuxarı uc** |
+| 668–704 | +0.7 … +2.5 | solğun/boz — **gövdə** |
+| 716 | **+4.38** | çəhrayı/qırmızı — **aşağı uc** |
+| 720 | **+4.98** | çəhrayı/qırmızı |
+
+Yəni: **hər iki ucunda qırmızı, ortası solğun.**
+
+### Namizədlər (`tools/pieces/TWO_VS.png` — yan-yana)
+
+- tünd navy + iti uc → **🖊️ qələm** ilə yaxşı uyğun gəlir
+- açıq gövdə + **iki ucunda qırmızı** → **🚀 raket** (qırmızı burun + qırmızı
+  qanadcıqlar) buna ən yaxın gələn formadır; 🌡️ termometrdə qırmızı **yalnız
+  aşağıda** olur, 💉 şprisdə isə qırmızı yoxdur
+- ✏️ karandaş **sarıdır** → istisna; 🕯️ şam ağ + alov → istisna
+
+**Qəti demirəm.** Amma "tünd qəhvəyi + açıq boz" təsvirim səhv idi: ölçmə
+**navy + iki ucu qırmızı** verir, və bu, namizəd siyahısını əsaslı dəyişir.
