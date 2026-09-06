@@ -5488,3 +5488,32 @@ Yalnız **ölçülmüş** dəyərlər. Etiketlər ayrı sütundadır və onlara 
 
 **Ölçmə ilə İSTİSNA edilənlər:** Afrika (#3), boz daş (#14), kitab və kərpic (#7),
 📊 emojisi (#10, rənglər), və ümumiyyətlə "hamısı standart emojidir" fərziyyəsi.
+
+---
+
+## 2026-09-06 07:55Z — "Pəncərə" şəkli: bütövlükdə boz-mavidir → 🪟 Noto pəncərəsi DEYİL
+
+`colorbox.py` (`CB_WINDOW.png`, qutular yoxlanıb):
+
+| sahə | L | da\* | **db\*** |
+|---|---|---|---|
+| yuxarı panel | 156.7 | −0.53 | **−6.91** |
+| aşağı panel | 153.4 | +1.41 | **−8.13** |
+| **qalın çərçivə** | 147.3 | +0.42 | **−5.76** |
+| üfüqi tir | 144.9 | +0.84 | **−6.94** |
+
+**Şəklin BÜTÜN hissələri kağızdan soyuqdur** (b\* −5.8…−8.1) — panellər də,
+**çərçivə də**. Yəni bütöv rəsm **boz/boz-mavi**dir; çərçivə sadəcə daha tünddür
+(L 147 vs 153–157).
+
+**Nəticə:** Noto-nun 🪟 pəncərəsində çərçivə **narıncı-qəhvəyi**dir (isti),
+şüşələr isə mavi. Burada çərçivə **isti deyil** → **Noto pəncərəsi ilə uyğun
+gəlmir**. Eyni ilə 🚪 qapı (qəhvəyi) və 🖼 çərçivə (qızılı) də istisna olunur.
+
+**Uyğun gələn:** 🗄️ **sənəd şkafı** — boz-mavi gövdə, iki açıq siyirmə üzü,
+tünd çərçivə. Ölçülənlə üst-üstə düşür. (📱 telefon da boz-qara çərçivəlidir,
+amma ekranı rəngli olur; burada panellər sadədir.)
+
+→ #13-ün etiketini **"pəncərə"dən "boz çərçivəli iki panelli obyekt —
+ehtimal ki sənəd şkafı"** kimi dəyişirəm. Qəti deyil, amma **ölçmə pəncərəni
+zəiflədir**.
