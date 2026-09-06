@@ -4754,3 +4754,22 @@ düşən kartların arasından görünən **qutunun öz kartonudur** (üstdəki 
 kölgəsi tünd sərhəd yaradır). Bilinən 15 parçanın hamısı ağdır; iki boş sarı
 parça dizayn baxımından da uyğunsuz olardı.
 → **Parça sayı 15 olaraq qalır.**
+
+### Düzəliş: sarı sahələr barədə yuxarıdakı hökmü yumşaldıram
+
+Yuxarıda "bunlar qutunun öz kartonudur" yazmışdım. **İkinci bucaqda (hn765b,
+t=767) belə görünmür.** Orada sarı sahələrin **öz kənarları var** və ağ kartların
+**arasına yerləşdirilmiş** kimi görünürlər — yəni ayrıca kağız ola bilərlər.
+
+26× böyütmə ilə ikisinə də baxdım (`tools/pieces/YELLOW765.png`):
+- sarı səth ağ kartın **həm üstündə, həm altında davam edir** → fasiləsiz səthdir
+- tünd xətt ağ kartın **kölgəsidir**, çap edilmiş kənar deyil
+- **heç bir rəqəm və heç bir şəkil yoxdur** (hər iki bucaqda)
+
+**Dürüst nəticə: bu görüntüdən sarı səthlərin ayrıca kart olub-olmadığını təyin
+etmək mümkün deyil.** Nə "qutunun kartonudur" deyə bilərəm, nə də "parçadır".
+
+Sayın 15 olması **ağ kartların sayılmasına** əsaslanır və formadakı 15 ulduzla
+üst-üstə düşür — dayaq budur, sarı sahələr deyil. Əgər sarılar da parçadırsa,
+say 17 olardı və 15 ulduzla uyğunsuzluq yaranardı; bu, dolayı yolla onların
+parça olmadığına dəlildir, amma sübut deyil.
