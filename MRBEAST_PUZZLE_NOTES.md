@@ -5644,3 +5644,30 @@ adının **ilk hərfini** verirsə, tarix sırasında **1-ci mövqe T** olmalıd
 Ovqat: ya təqvimin adı başqadır, ya sıra tərsdir, ya oxunmayan parçalardan biri
 yanvardadır və birinci gəlir, ya da model səhvdir.
 **Bu, model üçün zəif mənfi siqnaldır** — 7 ad hələ bilinmədiyi üçün qəti deyil.
+
+---
+
+## 2026-09-06 08:50Z — İcma yoxlaması: yeni heç nə yoxdur, amma başlanğıc nöqtəsi TƏSDİQLƏNDİ
+
+Vebi yenidən yoxladım.
+
+**Tapılan yeganə $10k məzmunu:** `24ZL3Oe24Gw` — "MrBeast's $10,000 New Puzzle |
+Easy to Solve | ... | Full Breakdown" (kanal *Dmajor Giant*, **02.09.2026**,
+2 529 baxış, 2:16). Transkripti tam çıxardım (yt-dlp, `android_vr` klienti).
+
+**Məzmunu boşdur** — həll yoxdur, addım yoxdur. Video sadəcə deyir:
+*"Tapmaca Jimmy-nin **'Puzzle Clues' yazılı qutunu** yerə qoyduğu səhnədən
+başlayır. Onun üstündəki **rəqəmlərə və tapmacalara** baxın — həll etməli
+olduğunuz budur."* Qalanı abunə çağırışıdır.
+
+**İki faydalı təsdiq:**
+1. İcma da tapmacanın **elə həmin qutu yığınından** başladığını deyir — yəni
+   mənim bütün gecə işlədiyim istiqamət **doğrudur**.
+2. **Müsabiqə bir il davam edir** — tələsmək lazım deyil.
+
+**Rəsmi sayt** (`puzzle-video-sweepstakes.mrbeast.app`) yenidən yoxlandı:
+həll olunduğuna dair **heç bir işarə yoxdur**, forma hələ açıqdır,
+"You can guess multiple times, but there is only 1 correct answer."
+Cavab sahəsində uzunluq göstəricisi yoxdur.
+
+→ **Tapmaca hələ həll olunmayıb və başqa heç kim bizdən irəlidə deyil.**
