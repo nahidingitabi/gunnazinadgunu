@@ -4522,3 +4522,49 @@ yalnız **761–770** və **800–810** saniyələrdə görünür — yəni möv
 (h803, h806, h807, hn765b) əhatə etdiyi yerlərdə. Qalan hissə köhnə tapmacanın
 xülasəsi, qlobus, BEAST TRAVEL və qalibin hekayəsidir.
 → **Oxunmayan üç parça üçün daha yaxşı kadr mövcud deyil.**
+
+---
+
+## 2026-09-06 02:50Z — Təqvim kartı: qırmızı **III** təsdiqləndi (II deyil)
+
+Düzəldilmiş kanonla ilk render qırmızı rəqəmi **II** kimi göstərdi və bu məni az
+qala 4 mart → 4 fevral səhvinə aparacaqdı. Səbəb: dördbucaq rəqəmlərin sağ
+kənarını **kəsirdi**.
+
+Dördbucağı en istiqamətində 16 px sağa uzadıb (kanon 832×1200, S=16) yenidən
+render etdim. İndi rəqəmin sağında ağ kağız var, yəni heç nə kəsilmir və
+`CAL_red.png`-də **üç paralel diaqonal ştrix** aydın görünür → **III**.
+
+**Təqvim: qırmızı III · mavi IV → 4 mart.** Cədvəl doğru idi, dəyişiklik yoxdur.
+
+**Dərs:** dartılma nisbətini düzəltmək kifayət deyil — dördbucağın rəqəmləri
+**tam əhatə etdiyini** də yoxlamaq lazımdır. Kəsilmiş ştrix rəqəmi kiçildir.
+
+---
+
+## 2026-09-06 02:52Z — Cavabın forması: 15 nə deməkdir?
+
+Bunu bir yerə yığıram, çünki hər dəfə yenidən çıxarıram:
+
+- Formadakı ulduzların sayı = **15** (sütun proyeksiyası, 13 kadrda sabit).
+- Otaqdakı parçaların sayı = **15**.
+- Bu 1:1 uyğunluq ən güclü struktur siqnalıdır: **hər parça bir simvol verir**,
+  və sıralama tarixlərlə (qırmızı = ay, mavi = gün) müəyyən olunur.
+
+Mavi vərəqdəki `(3 6 4)` sayğacı 13 hərf + 2 boşluq = 15 simvol verir və bu da
+uyğun gəlir. **Amma bu dəlil zəifdir**: vərəqlər köhnə tapmacanın dekorudur, və
+elə bu sessiyada `(6 2)` oxunuşuna qurduğum bütün mühakiməni geri götürmüşəm.
+
+İki modelin fərqi yoxlanıla bilər:
+- **Model A — (3 6 4):** cavab "___ ______ ____" formasındadır; onda **iki parça
+  boşluq kodlamalıdır** (4-cü və 11-ci mövqelər).
+- **Model B — 15 hərf:** cavab boşluqsuz 15 hərflik sözdür (məs. PEARLOFTHENORTH);
+  onda hər parça bir hərfdir.
+
+**Model A əleyhinə ölçülən dəlil:** boşluq kodlaya biləcək **boş şəkilli parça
+yoxdur** — görünən 13 parçanın hamısında şəkil var. (Boş olanlar yalnız masadakı
+sarı və firuzəyi kartlardır, onlar parça deyil.) Bu, A-nı zəiflədir, amma
+oxunmayan 3 parçadan biri boş ola bilər — ona görə tam bağlamıram.
+
+Praktik nəticə: **hansı model doğrudursa da, şəkillərin adları lazımdır.**
+Kritik yol dəyişmir.
