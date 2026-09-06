@@ -5517,3 +5517,26 @@ amma ekranı rəngli olur; burada panellər sadədir.)
 → #13-ün etiketini **"pəncərə"dən "boz çərçivəli iki panelli obyekt —
 ehtimal ki sənəd şkafı"** kimi dəyişirəm. Qəti deyil, amma **ölçmə pəncərəni
 zəiflədir**.
+
+---
+
+## 2026-09-06 08:05Z — Ofis keşi ilə qartal kartını yığmaq: ALINMADI (səbəb ölçüdür)
+
+283 kadrlıq ofis keşini qartal kartına yığmağa çalışdım (`sp_offdept.json`).
+**Birinci cəhd boş çıxdı** — əl ilə qoyduğum dördbucaq səhv yerdə idi
+(render kartonu və qutunun tutacağını göstərdi).
+
+Lövbər kadrına (t=13.6) koordinat şəbəkəsi qoyub kartı **dəqiq** tapdım
+(`OFF_DEPT_grid.png`):
+- 😂 kartı: təxminən (1780–1820, 733–768); sarı üz (1790–1805, 738–758)
+- **oval + qartal kartı**: təxminən (1774–1820, 758–805);
+  oval (1782–1789, 767–790), qartal (1793–1801, 775–798)
+
+**Amma ölçmə göstərir ki, davam etməyə dəyməz:**
+bu bucaqda kart **43.7 × 35 piksel**dir, h803-də isə **90.7 × 34.2**.
+Yəni kartın uzun oxu boyunca **iki dəfə az piksel** var — kart yandan görünür,
+qısalıb. Super-ayırdetmə itirilmiş bucaq ayırdetməsini geri qaytara bilməz.
+
+→ **Ofis bucağı qartal kartının rəqəmləri üçün h803-dən PİSDİR.** Bu istiqaməti
+bağlayıram. (Ofis bucağı yalnız ovalın rəngini ikinci dəfə təsdiqləmək və
+15-ci parça üçün faydalı oldu.)
