@@ -10123,3 +10123,33 @@ qalxır**, sağ uc **kəsik + sivri**, alt kənar demək olar düz.
 **Amma bu dəlil deyil:** adları məhz `ad ≥ max(rəqəm)` süzgəcindən keçsin deyə
 seçmişəm — yəni korrelyasiya konstruksiya ilə yaradılıb. Bu, bu gün artıq bir dəfə
 düşdüyüm tələnin (adı rəqəmə uyğun seçmək) eynisidir. **Qeyd olunur, istinad edilmir.**
+
+## ★★★ 2026-09-06 ~21:3xZ — MASA QEYDLƏRİNİN «KÖHNƏ/YENİ» TESTİ
+
+Bu gün masadakı dörd kağızın hamısını oxuduqdan sonra hər birini 84 səhifəlik
+köhnə cavab sənədinin mətnində axtardım. Nəticə **kəskin asimmetriyadır**:
+
+| qeyd | məzmun | köhnə sənəddə |
+|---|---|---|
+| **mavi vərəq** | `(3 6 4) → (6 6) → (6)` = RED SQUARE CUBE → MOSCOW RUSSIA | ✅ **VAR** — səh. 1500-1511: *«PG3. Rubik's cube … It's entirely red … apply the screen's cube = square formula. The resulting concept, Red Square, is a place in Moscow, Russia.»* |
+| **firuzəyi şifr kartı** | `LSWRTE / NNHTIN / HDOTA` + «bird fence» → rail fence → **LAST WORD THEN NINTH** | ❌ **YOXDUR** — `rail fence`, `ninth`, `last word`, `LSWRTE`, `HDOTA` üçün **sıfır** uyğunluq |
+| **qırmızı vərəq** | `(5 2 7) → (8 3 5 4 4) → (9)` | ❌ **YOXDUR** |
+| **nanə yapışqan** | `YouTube / link / watch?` | ❌ **YOXDUR** |
+
+Mətn çıxarışının özü etibarlıdır (nəzarət: `Moscow`, `Wichita`, `Algiers`, `Sucre`
+hamısı tapılır).
+
+⚠ **Dürüst məhdudiyyət:** köhnə sənəd hər rekvizitin *tam siyahısı deyil*, xülasədir.
+Orada olmamaq «yenidir» sübutu deyil. Amma mavi qeydin **hərfi-hərfinə** uyğun
+gəlməsi, digər üçünün isə heç bir izinin olmaması təsadüfə oxşamır.
+
+⇒ **Əvvəlki qiymətləndirməni düzəldirəm.** Qeydlərdə (sətir 95) bu yapışqanlar
+«köhnə tapmacanın həll qeydləri üslubunda dekorasiya» kimi yazılmışdı. Mavi vərəq
+üçün bu doğrudur; **firuzəyi şifr kartı, qırmızı vərəq və nanə yapışqan üçün yox.**
+
+### ★ AÇILMIŞ, LAKİN HƏLƏ TƏTBİQ EDİLMƏMİŞ TƏLİMAT
+Firuzəyi kart rail-fence ilə **`LAST WORD THEN NINTH`** verir. Bu, bir **çıxarma
+qaydasıdır** və indiyə qədər yalnız Colin-in bio-suna (Steinbeck) tətbiq edilib —
+o qol bağlanıb. **Yapbozun nəticəsinə heç vaxt tətbiq edilməyib.**
+Müəllif deyir yapboz **birinci addımdır** ⇒ ehtimal: `yapboz → mətn → LAST WORD
+THEN NINTH → cavab`. Yapbozun sırası tapılan kimi ilk yoxlanacaq qayda budur.
