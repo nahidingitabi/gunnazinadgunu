@@ -6937,3 +6937,55 @@ enində nişan lazım olardı. **Yalnız n = 15 mümkündür.**
 Formanın öz mətni: **«You can guess multiple times, but there is only 1 correct
 answer»**. Yəni namizədləri bir-bir yoxlamaq təhlükəsizdir.
 (Mən **heç nə göndərmirəm** — bu, sənin qərarındır.)
+
+## ★ VACİB: parçalarla məşğul olarkən ƏSAS ZƏNCİRİ gözdən qaçırmışdım
+
+Ulduzları yenidən sayarkən öz köhnə qeydlərimə qayıtdım və gördüm ki, bu gecə
+bütün diqqətimi 15 parçaya verib **daha yaxşı dəlilli bir xətti** kənarda
+qoymuşam. Onu buraya çıxarıram.
+
+### Bağlanış otağındakı MAVİ vərəq (49 kadrlıq yığımla oxunub)
+
+```
+(3 6 4)     (4 4 4 5)
+      ↘       ↙
+        (6 6)
+          ↓
+         (6)
+```
+
+⚠ İkinci sətir **`(6 6)`-dır, `(6 2)` DEYİL** — yəni «şəhər + 2 hərfli ştat
+qısaltması» oxunuşu **ləğv edilib**. Bu gecə tək kadrda «(6 2» kimi gördüm,
+amma qutu onu örtür; **49 kadrlıq yığım daha etibarlıdır**, `(6 6)` qalır.
+
+### Bu gecəki ölçü birinci sətri DƏSTƏKLƏYİR
+
+`(3 6 4)` = 13 hərf + 2 boşluq = **15 simvol** = formada saydığım ulduz sayı.
+Yəni **cavab, çox güman, birinci sətrin özüdür**: `XXX XXXXXX XXXX`.
+
+### 2867 ləqəbdən yalnız 5-i (3,6,4)+6 hərfli şəhər şablonunu ödəyir
+
+```
+The Azalea City → MOBILE ...        Alabama(7)   ✗ ikinci sətir (6 6) tutmur
+The Circle City → CORONA ...        California   ✗
+The Garden City → NEWTON ...        Massachusetts ✗
+The Zenith City → DULUTH ...        Minnesota(9) ✗
+The Forest City → LONDON CANADA     6 + 6        ✓✓✓  → (6) = LONDON
+```
+
+**Düzəldilmiş `(6 6)` oxunuşu ilə beşdən YALNIZ BİRİ hər üç sətri ödəyir:**
+`THE FOREST CITY → LONDON CANADA → LONDON` (London, Ontario).
+
+Zenith televizoru Zenith lehinə fiziki işarədir, amma **Zenith ikinci sətirdə
+qırılır** (DULUTH + 6 hərfli söz yoxdur). Forest isə üçünü də ödəyir.
+
+### Yəni indiki vəziyyət
+
+* **Aparıcı namizəd: `THE FOREST CITY`** — 15 simvol (ölçüldü), üç sətrin
+  hamısına uyur.
+* **15 parça ayrıca, bitməmiş qatdır.** Onlar bu ifadəni necə verir — bilinmir:
+  sadə «parça k = simvol k» uyğunlaşması **tutmur** (4-cü parça boşluq olmalıdır,
+  amma orada kəpənək var).
+* Formanın öz mətni: **çoxlu təxmin etmək olar**. Yəni namizədləri yoxlamaq ucuzdur.
+
+**Mən heç nə göndərmirəm** — bu sənin qərarındır.
