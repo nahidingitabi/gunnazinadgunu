@@ -413,3 +413,154 @@ every colour test. `wprof.py` reports width by depth and prints solidity, which
 is what rejects a fragmented mask. `numcheck.py`'s db\* column is its own
 control. Ten automated classifiers have failed their controls here; only direct
 measurements against a card's own paper have held.
+
+---
+
+# 13. 2026-09-06 səhəri — ƏSAS ZƏNCİR TAPILDI, avtomatik tanıma bağlandı
+
+Bu bölmə əvvəlkiləri **əvəz etmir**, davamıdır. İki şey kökündən dəyişdi.
+
+## 13.1 ★★ Cavabın forması artıq bilinir — və köhnə tapmaca ilə qarışmır
+
+**Köhnə $1M cavabı tapıldı:** `R62L39R05L73606623093121200300` —
+**30 simvol, tamamilə hərf+rəqəm, SÖZ YOXDUR** (iki müstəqil mənbə).
+
+Bu, gecə boyu bizi əngəlləyən «bunlar köhnə tapmacanın dekorudur» şübhəsini
+**ölçü ilə** həll edir:
+
+| müşahidə | köhnə cavaba uyğun gəlirmi? | nəticə |
+|---|---|---|
+| forma demosu **15** ulduzda sabitləşir | yox (köhnə 30-dur) | **yeni tapmacaya aiddir** |
+| vərəq **söz uzunluqlarını** sayır `(3 6 4)` | yox (köhnə cavabda söz yoxdur) | **yeni tapmacaya aiddir** |
+
+**Ulduzları özüm yenidən saydım** (`mon/n_0084…0091`): 10→11→13→14→**15**,
+dörd kadrda sabit. Üç səhv sayma üsulundan keçdim (hamısı qeydlərdədir):
+sətir üzrə axınlar **artıq sayır** (`*` altı ştrixdir), morfoloji bağlama
+**az sayır**, `span/period+1` isə səhv düsturdur (`span` bir tam nişan enini
+əhatə edir). Düzgün: `span = (n−1)·period + w` → **yalnız n=15 mümkündür**.
+
+**Zəncir** (mavi vərəq, 49 kadrlıq yığımla oxunub):
+```
+(3 6 4)   və   (4 4 4 5)
+      ↘        ↙
+        (6 6)
+          ↓
+         (6)
+```
+⚠ İkinci sətir **(6 6)**-dır; köhnə `(6 2)` oxunuşu **ləğvdir** (yəni «şəhər +
+2 hərfli ştat» modeli də ləğvdir).
+
+**2867 şəhər ləqəbindən** (3,6,4)+6 hərfli şəhər şablonunu **beşi** ödəyir;
+düzəldilmiş `(6 6)` ilə **yalnız biri hər üç sətri ödəyir**:
+
+> ### `THE FOREST CITY → LONDON CANADA → LONDON`  (London, Ontario)
+
+Zenith televizoru `THE ZENITH CITY` lehinə **fiziki** işarədir, amma DULUTH-un
+6 hərfli cütü olmadığı üçün o, ikinci sətirdə qırılır. FOREST-in zəifliyi:
+videoda meşəyə/London-a işarə edən əşya yoxdur (yalnız qlobuslar — REF765-də
+bir, REF806-da iki; bu, istənilən coğrafi cavaba uyğundur).
+
+Sayt: **«You can guess multiple times, but there is only 1 correct answer»** —
+təxmin ucuzdur. **Göndərməni istifadəçi edir; agent formaya heç nə göndərmir.**
+
+## 13.2 ★ 15 parça AYRI QATDIR — «hər parça bir hərf» ÜÇ testdən keçmədi
+
+1. `(3 6 4)`-də **4-cü və 11-ci simvol boşluqdur**; hər iki sıralamada
+   (qırmızı,mavi) və (mavi,qırmızı) orada **dolu şəkillər** var.
+2. İlk hərflər cavabda olmayan hərflər verir: kəpənək→**B**, ABŞ→**U**,
+   sevinc→**J**, ox→**A** — `THE FOREST CITY`-də nə B, nə U, nə J, nə A var.
+3. **Heç bir parça boş deyil**, halbuki ikisi boşluq kodlamalıydı.
+
+**Tarix modeli isə DAXİLİ dəlillə bərpa olundu** (xarici dayaq `"July?"`
+düşəndən sonra):
+* **ABŞ bayrağı parçası = qırmızı VII / mavi IV = 4 iyul** və şəkli ABŞ
+  bayrağıdır. Əks konvensiyada 7 aprel çıxardı — mənasız. Bu parça
+  **hansı rəngin ay olduğunu elan edən açardır.**
+* **Təqvim şəkilli parça** = «bunlar ümumiyyətlə tarixdir» meta-işarəsi.
+Bu, «hər tarix milli bayramdır» demək DEYİL — ümumiləşmir (Oman 5 iyunda,
+milli günü 18 noyabrdır).
+
+## 13.3 ★ AVTOMATİK TANIMA BAĞLANDI — iki ortoqonal invariant, hər ikisi uğursuz
+
+| üsul | nəzarət | nəticə |
+|---|---|---|
+| **FORMA** (uzanma, solidity, en profili) | qartal rəsmi **3.43**, üç vendorda 1.0–1.5 | ✗ rəssam köçürmür, **yenidən çəkir** |
+| **ÇALAR** (hue histoqramı, miqyasdan asılı deyil) | 5 bilinən rəsmdən **0-ı** öz nişanını ilk 6-ya salır | ✗ ailəni tapır, obyekti yox |
+
+1326 nişanlıq (bütün Obyekt/Yemək/Heyvan/Yer/Simvol/Bayraq) süzgəcin **bütün
+nəticələri ləğv edilib** — o süzgəc kəpənəyi və qartalı da atardı.
+**14-cü təsnifatçı yazma.** İşləyən yalnız üçüdür: **gözlə görünən quruluş**,
+**rəsmin öz kağızına görə rəngi**, **insanın tanıması**.
+
+## 13.4 Bucaqlar: «görüntü tükənib» ÇOX GENİŞ yazılmışdı
+
+`tools/pieces/findcards.py` kadrdakı bütün kart ölçülü ağ ləkələri siyahılayır —
+**gözlə axtarma**. Bununla tapıldı:
+
+| kart | ən yaxşı kadr | qeyd |
+|---|---|---|
+| 1, 4, 7, 8, 10, 13 | **REF767** (1240,30,1400,260) | REF765-dən böyük və kəskin |
+| 6 | **REF806** (1776,655,1814,724) | **bütün bucaqlardan böyük** |
+| 3, 5 (Oman) | REF806 (1690,770,1920,1020) | yaxşı ölçü |
+| 9 (ABŞ) | REF803 / REF767 | ikisi də yaxşı |
+| 14 | REF803 | REF767/REF806-da yoxdur |
+| 15 | ofis (t≈19.9) | yeganə bucaq |
+
+⚠ **Rəqəmlər YALNIZ REF803-də oxunur.** İkinci bucaqda ştrix oxuyucusu
+nəzarətdən keçmir (ABŞ-ın bilinən `VII`-si 0/4/3 verir; `strokes4.py` ilə
+−24°…+24° arası 13 döndərmə də düzəltmir) — kartlar orada **sürüşdürülüb**.
+**Hələ sınanmayıb:** kartı perspektiv warp ilə düzləndirib sonra oxumaq.
+
+⚠ **Saxlanmış dördbucaqların ADLARINA GÜVƏNMƏ** — `sp_eag806` «eagle» adlanır,
+amma 6-cı kartı göstərir. Hər dördbucağı **rəqəmlərlə** yoxla.
+
+**13-cü kartın mövqeyi bağlanır:** rəqəmləri **üç bucağın hamısında** örtülüdür.
+
+## 13.5 Şəkillərin son vəziyyəti
+
+**Adı var (7):** təqvim(🗓 spiral, səhifədə «25/&» qlifi) · **kəpənək** (üç dəfə
+təsdiq: dörd **qapalı** ilmə, ön qanadlar böyük) · Oman · ABŞ+anbar ·
+ox+diaqram (sütunlar **artır**, ox aşağı → **iki ayrı rəsm**) · qar buludu · 😂
+**Bu gecə (1):** **#13 = 🗄️ kartoteka** — hər üç vendorda iki siyirmə, rəsmdə
+bir üfüqi ayırıcı + iki **yumru-düzbucaqlı** panel + ayırıcıda çıxıntı;
+🪟 pəncərə **qəti istisna** (pəncərənin dörd gözü var).
+**Çox güman (1):** #1 fiqur — **yaşıl** sivri papaq (dar qutu, `da* −2.6`,
+maska yoxlanılıb) → ağ kənar → sarımtıl gövdə, qollar yanda → qırmızı alt →
+topuqda yaşıl → **aşağıda iki tünd təkər**.
+
+**AÇIQ (5) — ölçülmüş təsvirlər:**
+* **#3** neytral qara, uzanma 2.78, solidity 0.82, zəif qövs; gözlə: yumru baş →
+  dar boyun → enli gövdə → aşağı-sola incələn uc. Yanında yaşıl bitki.
+* **#6** solda tünd (qara/lacivərd) paz; sağda solğun mavi-firuzəyi düzbucaq,
+  yuxarı **və** aşağı kənarında qalın magenta zolaq, içində şaquli tünd quruluş.
+  **İkisi üst-üstə düşür.** Bu imza 155 nişanın heç birində yoxdur.
+* **#7** dolu, detalsız, hündür düzbucaq. Rəng **iki bucaqda üst-üstə düşür**:
+  `da* +15.0/+15.8`, hue 34–42° = **isti kərpic-qırmızısı**. Ölçü 22×40–47 px.
+* **#14 sol kütlə** solidity 0.97, onurğa **düz**, isti qəhvəyi + yuxarı-sağda
+  qızılı ləkə. **Daş DEYİL** (daş üç vendorda yığcam boz, uzanma 1.2–1.4).
+* **#15** solidity 0.91, solda hündür zirvə → çuxur → sağda alçaq çiyin,
+  yanları paralel, aşağı yumru uc, **tünd neytral** (🍆 rənglə istisna).
+
+**Heç vaxt (1):** #8 — şəkli üç bucaqda da gizli. (1 iyul = Kanada Günü olardı;
+cavabda `LONDON CANADA` var — **yoxlana bilməz, dəlil kimi işlətmə.**)
+
+## 13.6 Ölçmə qaydaları (hər biri səhvlə qazanılıb)
+
+1. **Ölçdüyünü ÇƏK.** Bu gecə maska yoxlaması **altı** səhv ölçməni tutdu.
+2. **Ən böyük komponenti götürmə** — o, adətən masa və ya qonşu kartdır.
+3. **Uzanma poza-invariant DEYİL** (kart əyilib). Solidity və profil forması etibarlıdır.
+4. **Aspekti sərhəd qutusuna görə süzmə** — Twemoji maili çəkir; öz oxuna döndər.
+5. **Kəskinliyi Laplasian dispersiyası ilə ölçmə** — küyü mükafatlandırır.
+6. **Rəngi gözlə qiymətləndirmə** — eyni düzbucaq iki bucaqda «terrakota» və
+   «qırmızı» göründü; ölçü isə eyni çıxdı.
+7. **Kadr birləşdirmə bağlıdır** (üç dəfə uduzdu, düzgün ölçü ilə də).
+
+## 13.7 Növbəti addımlar
+
+1. **İstifadəçi:** videonun **təsviri və bərkidilmiş şərhi** — bu mühitdən
+   oxunmur (yt-dlp bot yoxlaması, WebFetch captcha, Chromium tuneli kəsilir),
+   amma köhnə ovda ilk ipucular məhz orada idi. **Ən ucuz yoxlanılmamış kanal.**
+2. **İstifadəçi:** açıq 5 rəsmi adlandırmaq — avtomatik tanıma bağlıdır.
+3. Kartı düzləndirib (perspektiv warp) ikinci bucaqdan rəqəm oxumağa cəhd.
+4. Rəsmlərin dəqiq sayı (10 və 14 açıqdır; 20 olarsa `(4 4 4 5)` sətrinə uyğun).
+5. Parçaların çıxışı nədir — `LONDON`/`CANADA`/`ONTARIO`/`FOREST` alt-çoxluğu?
