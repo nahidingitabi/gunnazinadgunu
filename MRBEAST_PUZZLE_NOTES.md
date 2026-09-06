@@ -7841,3 +7841,31 @@ Yanındakı yaşıl obyekt bitki/koldur. Bu, əvvəlki ölçmələrlə uzlaşır
 
 ⚠ 10-cu kartdakı tünd obyekt sadə «aşağı ox» deyil: başlığı var, sapı nazikdir,
 altlığı boz və enlidir. Ad açıq qalır.
+
+## ✗ MƏNFİ NƏTİCƏ — ÜÇ ÇIXARMA QAYDASI, TARİX SIRASI İLƏ, İNGİLİS SÖZÜ VERMİR
+
+`extract.py`: hər parça üçün ehtimallı emoji adları (alternativlərlə), üç qayda:
+**(a)** adın ilk iki hərfi · **(b)** qırmızı-cı və mavi-ci hərf · **(c)** əksi.
+Nəticələr ingilis biqram modeli ilə sıralandı (49 mln kombinasiya süzüldü).
+
+```
+ilk iki hərf         NOROWOHERIOM????CA??UNHODOCHCLLA   (ən yaxşı)
+(qırmızı,mavi)       EROEBORESSMO????AL??ST??OWCRDCEO
+(mavi,qırmızı)       REEOPLERSSOM????LA??TS??WORCDHOE
+```
+
+**Bilinən hissələrdə də oxunaqlı söz yoxdur.** Deməli ya (a) sıra tarix sırası
+deyil, ya (b) rəsmlərin adları səhvdir, ya da (c) mexanizm hərf yox,
+**bütöv söz** verir (köhnə MP1–15 rebusları məhz bütöv söz verirdi:
+🦪 = «pearl», 🧭 = «north»).
+
+⚠ Bir uyğunluq qeyd olunmalıdır: `THEFORESTCITY` iki-hərfli parçalara bölünəndə
+`TH·EF·OR·ES·TC·IT·Y` çıxır; `EF`, `TC` ilə başlayan emoji yoxdur. Yəni
+**«ilk iki hərf» qaydası bu ləqəbi verə bilməz** — nə FOREST, nə WALLED.
+
+## ✗ MƏNFİ NƏTİCƏ — VİDEONUN SONUNDAKI MONTAJ
+
+16:53–17:05 arası Zenith televizorundakı sürətli montajın **hər kadrı** kəsim
+aşkarlaması ilə süzüldü (26 fərqli plan). Hamısı köhnə tapmacanın xülasəsidir
+(17:02.99-da `R62L39R05L7360662309 3121200300` planşetdə görünür). **Yeni ipucu yoxdur.**
+QR kod da yalnız giriş saytıdır.
