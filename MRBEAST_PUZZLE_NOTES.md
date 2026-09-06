@@ -7190,3 +7190,27 @@ Mətbuatda da yoxdur: 03.09.2026 tarixli UNILAD məqaləsi videodan bəhs edir,
 tükəndiyi üçün yox. Bunu açıq iş kimi saxlayıram; brauzeri olan biri (sən)
 təsviri və bərkidilmiş şərhi bir dəqiqəyə yoxlaya bilər. **Bu, hazırda ən ucuz
 yoxlanılmamış kanaldır.**
+
+## 6-cı kart İKİNCİ bucaqdan — quruluş təsdiqləndi
+
+İkinci kamera bucağında (REF765, t=764.95) qutunun üstündəki kartlar başqa
+tərəfdən görünür (`Z765BOX.png`). Orada **təqvim kartı**, **6-cı kart** və
+**ABŞ bayrağı kartı** aydın seçilir; ABŞ kartının yanında qutudakı əlyazma
+(`"July r…" / "Jun…"`) da görünür.
+
+6-cı kartı 16× böyütdüm (`C6_ANGLE2.png`). **Birinci bucaqdakı ölçmə təsdiqlənir:**
+
+```
+sol   : tünd (qəhvəyi-qara) PAZ — yuxarısı enli, aşağı daralır, sağa mail
+sağ   : solğun MAVİ-BOZ hündür düzbucaq
+        yuxarı kənarında ÇƏHRAYI zolaq
+        aşağı kənarında ÇƏHRAYI zolaq
+        içində tünd şaquli element
+```
+
+Yeni müşahidə: **iki obyekt üst-üstə düşür** — tünd paz mavi obyektin
+qabağında/arxasındadır, yan-yana deyil. (Bu, birinci bucaqda ayırd edilmirdi və
+məhz buna görə rəng ölçüsündə maskalar birləşirdi.)
+
+Rəng imzası dəyişmir: **iki ucu çəhrayı, ortası soyuq** — və bu imza
+**1326 nişanın heç birində yoxdur** (yoxlanılıb).
