@@ -6038,3 +6038,37 @@ Bizim siluetin solidity-si **0.85**-dir — yəni **hamar, az girintili** formad
 
 Daha uyğun sinif: **hamar təbii və ya süni obyekt** — çəkmə, fıstıq, keqli,
 quş, butulka, balqabaq, damcı. (Uzanma 2.9, solidity 0.85, iki lob + bel.)
+
+---
+
+## 2026-09-06 11:00Z — Formaya görə sıralayıcı da NƏZARƏTDƏN KEÇMƏDİ (11-ci)
+
+Solidity kəşfindən sonra (xəritələr 0.5–0.7, bizimki 0.85) düşündüm ki, forma
+təsvirçisi ilə namizədləri süzmək olar: **uzanma + solidity + en profili**
+vektoru, namizəd emojilər eyni üsulla imzalanır, məsafəyə görə sıralanır.
+`tools/pieces/shaperank.py`.
+
+**Nəzarəti əvvəlcə qurdum:** qartal kartının **quşu** (kimliyi bilinir).
+
+```
+🪶(0.26)  ✏(0.34)  🥒(0.42)  🥕(0.43)  🍾(0.51)  🖊(0.56)
+```
+
+İlk üçdə **quş yoxdur** (🕊 🐦 🐧 🦅 heç biri). → **Üsul yararsızdır, atıram.**
+Bu, nəzarətindən keçməyən **11-ci avtomatik təsnifatçıdır**.
+
+### ★ Bunun ƏLAVƏ nəticəsi: öz təxminimi zəiflədir
+
+Nəzarətdə **bilinən quş üçün birinci gələn 🪶 lələk oldu**. Yəni bu ölçüdə
+forma təsvirçisi **quşla lələyi ayırd edə bilmir** — hər ikisi uzun, hamar,
+bir ucu enli formadır.
+
+Bir saat əvvəl #14-ün sol formasını "yanında quş var, deməli **lələk** ola
+bilər" deyə təxmin etmişdim. **Bu təxminin forma dayağı yoxdur** — indi
+göstərdim ki, forma quşu lələkdən ayırd etmir. Təxmin qalır, amma **dəlilsiz**
+təxmin kimi işarələnir.
+
+**Ümumi nümunə (11 dəfə təsdiqlənib):** bu ölçüdə **dolayı, avtomatik
+oxşarlıq ölçüləri işləmir**. İşləyən yalnız **birbaşa ölçmələrdir**:
+kartın öz kağızına nisbətdə rəng, maska çəkilib yoxlanmış forma ölçüsü,
+en profili. Onlar da **adı vermir** — yalnız namizədləri istisna edir.
