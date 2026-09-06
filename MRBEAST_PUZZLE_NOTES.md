@@ -5145,3 +5145,35 @@ Yəni "kənarlar yığılma sırasını verir" fikri hələ də mümkündür; sa
 sıranı qutulardan **oxumaq olmaz**, formaları bir-birinə uyğunlaşdırmaq lazımdır.
 Və bunun üçün hər parçanın **hər dörd kənarını** görmək lazımdır — hazırda
 örtüşmə səbəbindən bir çoxu görünmür. **Bu, ciddi məhdudiyyətdir.**
+
+---
+
+## 2026-09-06 05:55Z — ★ Şəkillər STANDART EMOJİ DEYİL (struktur nəticə)
+
+İkinci müqayisə dövrəsi (`tools/pieces/EMOCMP2.png`): pəncərə, anbar, qar buludu,
+😂, sütun diaqramı — hər biri Noto emojiləri ilə yan-yana.
+
+**Uyğunsuzluqlar sistematikdir:**
+
+| şəkil | emoji ilə fərq |
+|---|---|
+| **anbar** | qırmızı gövdə + boz **gambrel** dam + üstündə **kiçik qüllə (cupola)**. 🏚 🏫 🏤 🛖 🏠 🏭 — **heç biri anbar deyil**. Unicode-da anbar emojisi **yoxdur**. |
+| **sütun diaqramı** | şəkildə sütunlar **bənövşəyi, sarı, yaşıl**; Noto 📊-də **yaşıl, qırmızı, mavi**. Rənglər uyğun gəlmir. |
+| **düz düzbucaq** | heç bir emojidə naxışsız düz düzbucaq yoxdur (📕-də səhifə, 🚪-da dəstək, 🧱-də tikiş, 🧧-da qızıl naxış). |
+| **qara siluet** | emojilər rənglidir; bu tamamilə qaradır. |
+| **qar buludu** | 🌨 ilə **yaxşı uyğun gəlir** ✓ |
+| **😂** | 😂 ilə uyğundur ✓ |
+
+**Nəticə: bu şəkillər hazır emoji dəsti deyil — çoxu xüsusi çəkilmiş klip-artdır.**
+Bəziləri emojiyə oxşayır (🌨, 😂, 🇺🇸, 🇴🇲, 🦋), bəziləri isə ümumiyyətlə
+emoji kimi mövcud deyil (anbar, düz düzbucaq, qara siluet).
+
+**Bunun modelə təsiri:** "hər şəklin emoji adının ilk hərfini götür" mexanizmi
+**belə işləyə bilməz**, çünki şəkillərin bir hissəsinin Unicode adı yoxdur.
+Əgər hərf mexanizmi varsa, o, **adi ingilis sözü** ilə işləməlidir
+("BARN", "BUTTERFLY", "SNOW"…), Unicode adı ilə yox.
+
+Yan qeyd — **pəncərə** üçün yeni namizəd: 🗄️ **sənəd şkafı** (tünd çərçivə,
+**iki üfüqi bölmə**). Şəkildə məhz qalın tünd çərçivə və üfüqi tirlə ayrılmış
+iki panel var. Otaq arxiv qutuları ilə doludur, mövzuya da uyğundur.
+Pəncərə (iki şüşəli) da hələ mümkündür.
