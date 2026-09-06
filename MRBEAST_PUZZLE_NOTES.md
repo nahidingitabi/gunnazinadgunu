@@ -9695,3 +9695,24 @@ Oman `flag: Oman`(8) ilə işləyir. Əgər bu kart da 🦋 `butterfly`(9)-dursa
 ⇒ **Üstünlük verilən oxunuş: 🦋 kəpənək** (qəti deyil). Bu, mənim gözlə etdiyim
 "düzəlişi" geri qaytarır — mexanizmin filtri gözdən daha etibarlı çıxdı.
 Yeganə qalan CLDR istisnası: **yaşıl papaqlı fiqur** (≥12).
+
+### ⚑ Dörd kart adlandırıldı — və mavi hərflər **F, O, O, D** verir
+
+```
+QIRMIZI : ? ? ? ? E ? ? ? E ? M ? H ? ?
+MAVI    : ? ? ? ? F ? ? ? O ? O ? D ? ?
+```
+(kepenek→E/F · 😂→E/O · Oman→M/O · qar→H/D; sıra **mənim kataloq sıramdır**)
+
+Mavi hərflər kataloq sırasında **F(5) → O(9) → O(11) → D(13)** = **`FOOD`**.
+
+⚠ **Bunu iddia kimi yazmıram.** Səbəblər:
+1. Kataloq sıram **ləğv edilmiş tarix oxunuşundan** gəlir — yəni əsassızdır.
+2. Adları özüm seçmişəm (`butterfly`-ı `hair bow`-dan üstün tutdum) ⇒ çoxsaylı
+   müqayisə riski var.
+3. Təsadüf ehtimalı kiçikdir, amma sıfır deyil: 4 hərfin təsadüfən ümumi bir sözə
+   düşməsi ≈ **1/230**.
+
+Yenə də qeyd olunur: **əgər həqiqi sıra mavi sətirdə `FOOD` alt-ardıcıllığını
+saxlayırsa**, bu, sıranı yoxlamaq üçün istifadə edilə bilər. Növbəti adlar gələndə
+bu naxışın davam edib-etmədiyinə baxılmalıdır.
