@@ -5951,3 +5951,31 @@ Faktı qeyd edirəm, model qurmuram.
 
 **Qeyd:** dörd kartda (kəpənək, düzbucaq, I-VII, fiqur) mavi rəqəm tapılmadı —
 onların mavisi tək nazik ştrixdir və ya renderin kart kəsimindən kənarda qalır.
+
+---
+
+## 2026-09-06 10:30Z — `ISOLATED.png`: şəkilləri kartdan ayırmaq
+
+Yeni alət `tools/pieces/isolate.py`: ağ balansdan sonra "mürəkkəb və ya rəngli"
+pikselləri saxlayır, kağızı ağ edir, sonra böyüdür. Məqsəd — kartın kənarını,
+rəqəmləri və qonşu kartları çıxarıb yalnız **rəsmi** göstərmək.
+
+**Qismən işləyir.** Kartın kənarları da tünddür, ona görə bəzi kadrlarda qalır:
+
+| şəkil | nəticə |
+|---|---|
+| #7 terrakotta düzbucaq | **təmiz** — yuvarlaq künclü düz düzbucaq |
+| #13 boz iki panelli | **təmiz** — tünd çərçivə + üfüqi tir + iki panel |
+| #1 fiqur | yaxşılaşdı: yaşıl konus papaq → çəhrayı üz → bej gövdə → qırmızı alt → **altda iki yumru ayaqqabı** |
+| #6 iki obyekt | yaxşılaşdı: **tünd navy sivriləşən** obyekt + **açıq mavi, üstü çəhrayı** obyekt |
+| #14 | iki forma ayrıldı: solda **açıq bej-zeytunu, yuxarısı sivri, aşağıya doğru genişlənən** forma; sağda **tünd quş** |
+| #3 siluet | **alınmadı** — silüet çox tünd olduğu üçün "ən böyük 3 komponent" seçimi onu yox, kartın kənarlarını saxladı. Yalnız yaşıl bitki qaldı. |
+| #15 paz | qismən — paz görünür, yanında kartın kənarı qalıb |
+
+### Yeni müşahidə (#14)
+
+Kartdan ayrılanda soldakı forma **oval/daş kimi görünmür** — **açıq bej-zeytunu,
+yuxarısı sivri, aşağıya doğru genişlənən** bir formadır. Yanındakı **quş** ilə
+birlikdə bu, **lələk + quş** və ya **yumurta/pup + quş** kimi mənalı bir cüt
+ola bilər. **Təxmindir**, ölçmə deyil — amma "boz daş" oxunuşundan daha
+uyğundur (rəng ölçməsi də daşı istisna etmişdi).
