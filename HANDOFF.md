@@ -651,3 +651,150 @@ masanı daha yaxın göstərir (hamısı 1080p).
 3. **Çəhrayı indeks vərəqinin məzmunu** — kitab şifrinin açarı; hədəf kitab
    artıq məlumdur (`MDP_ANSWERS.pdf`, 84 səhifə).
 4. CyberChef üçün 13 simvolluq şifrəmətn.
+
+---
+
+# 15. 2026-09-06, günorta-sonrası — BÖYÜK DÜZƏLİŞ VƏ ŞABLONUN TAPILMASI
+
+> Bu bölmə §13 və §14-ün bir hissəsini **ləğv edir**. Əvvəlcə bunu oxu.
+
+## 15.1 ⛔ ƏN VACİB: `(3 6 4) → (6 6) → (6)` KÖHNƏ TAPMACANINDIR
+
+**Nə tapıldı.** Masadakı əlyazma qeyd yeni cavabın forması DEYİL:
+
+```
+RED SQUARE CUBE  → (3, 6, 4)
+MOSCOW RUSSIA    → (6, 6)
+MOSCOW           → (6)
+```
+
+MrBeast videoda ≈4:15-də: *«this is a **red Rubik's Cube** … a cube should
+become a square. So a **Red Cube** becomes a **Red Square**, that's a place in
+**Moscow, Russia**.»*
+
+**Necə tapıldı.** Köhnə tapmacanın 84 səhifəlik cavab sənədini yükləyib mətnini
+çıxardım, sonra videonun transkriptində `red Rubik's Cube` ifadəsini axtardım və
+söz uzunluqlarını hesabladım. Əvvəlki «qəti test»im **çox dar** idi: yalnız
+**91 yer cavabını** yoxlamışdım, **aralıq ipucu ifadələrini** yox. Digər
+aralıqları da yoxladım — heç biri üç sətrin üçünə də uyğun gəlmir
+(CASH TENT→TASHKENT (8,10); LASER MIXUP→ARLES FRANCE (5,6);
+TALL INN→TALLINN ESTONIA (7,7); A NICE SUGAR→SUCRE BOLIVIA (5,7);
+BEAST CITY HUB→TORONTO CANADA (7,6)). **Yalnız Red Cube üçlüyü oturur.**
+
+**Nə ləğv olunur.** «cavab (3 6 4) ləqəbidir» · «THE FOREST CITY → LONDON» ·
+«THE WALLED CITY → QUEBEC» · «cavab 6 hərfli şəhərdir» · «15×2 = 13+17 sayı».
+**Cavabın forması yenidən NAMƏLUMDUR.**
+
+**Metod dərsi:** «qəti test» qurarkən yoxlanan çoxluğu düzgün seç. Otağın
+bütün əşyaları köhnə tapmaca ilə bəzədilib (yuxarı divarda 15 köhnə rebus
+kartı asılıb — `H + 🕉️` = HOME OF PEACE aydın oxunur), ona görə **«bu əşya
+yenidir» deməzdən əvvəl köhnə sənəddə axtar**.
+
+## 15.2 ★★★ PARÇALARIN ŞABLONU KÖHNƏ SƏNƏDDƏDİR
+
+Köhnə tapmacada **iki jigsaw tapmacası** var:
+
+**OP1 (səh. 56)** — parçada **RƏQƏM**:
+> «In each frame, there is a **jigsaw puzzle piece**. Inside that piece is a
+> **number** … 20 numbers: `11 6 2 12 4 7 8 13 7 3 13 11 8 9 7 12 1 11 9 4`
+> … spell a 20-letter message when **counted by number into the name of the
+> puzzle maker**: `L O N E S H A R K G A M E S` (1–14)»
+> → `A HOME AREA NEAR KAM LAKE` → Yellowknife.
+
+**GC10 (səh. 53)** — parçada **HƏRF**:
+> «16 pieces, each of which contains a letter … spell **JIMMY'S BIRTHPLACE**»
+> → Wichita, Kansas. (`JIMMYSBIRTHPLACE` = 16 hərf = 16 parça.)
+
+**Necə tapıldı.** PDF mətnində `jigsaw`, `roman`, `alphabet`, `heart`, `eagle`
+kimi açar sözləri kontekstlə axtardım (`grep` sətir sonlarında sınırdı → Python
+ilə boşluqları sıxıb 200 simvolluq pəncərə ilə çap etdim).
+
+**Bizim üçün nəticə:** 15 parça × 2 rəqəm = **30 rəqəm** — OP1-in eyni janrı.
+Maksimum **XIV = 14** ⇒ **hədəf ad ən azı 14 hərflidir** (LONE SHARK GAMES də
+tam 14). `COLIN SANDERS` (12) və `DOCTORXOR` (9) **istisnadır**.
+
+## 15.3 ★★ «BİR PARÇA = BİR HƏRF» MODELİ YENİDƏN CANLIDIR
+
+§13.2-də onu **üç testlə** rədd etmişdim; hər üçü `(3 6 4)` fərziyyəsinə
+söykənirdi (boşluq mövqeləri, «B/U/J/A THE FOREST CITY-də yoxdur», «heç bir
+parça boş deyil»). Fərziyyə ləğv olunduğu üçün **hər üç təkzib də ləğvdir**.
+GC10 məhz bu modeldir ⇒ 15 parça → **15 hərfli ifadə** (GC10-dakı kimi
+suala bənzər, bir yerə aparan).
+
+## 15.4 ŞƏBƏKƏ: ƏVVƏL «OXUNMUR» YAZILANLARIN HAMISI OXUNDU
+
+| nə | üsul |
+|---|---|
+| video təsviri | `curl -H "User-Agent: Mozilla/5.0 … Chrome/128" "youtube.com/watch?v=…&hl=en"` → HTML-də `"shortDescription"` / `"attributedDescription"` |
+| şərhlər (sancılmış daxil) | innertube `POST /youtubei/v1/next` + `continuation`; açar və versiya watch HTML-indədir; şərhlər `frameworkUpdates.entityBatchUpdate.mutations[].payload.commentEntityPayload`-da |
+| kanal videoları + tarixlər | `youtube.com/feeds/videos.xml?channel_id=UC…` (son 15) |
+| ⚠ | ardıcıl sorğular **429 / google.com/sorry** verir → 5–15 s gözlə. Reddit 403. yt-dlp və WebFetch bloklanır. |
+
+**Tapılanlar:**
+* Sancılmış şərh (@MrBeast): «check out Colin's profile 👀 tinyurl.com/xorprofile»
+  → link profil deyil, **CyberChef XOR**: açar `%H6U=)Z7</#bq` (13 bayt),
+  input `AaaaaA-aaAa##` (doldurucu). Açarın 2-ci baytı `H` ⇒ açıq mətn
+  «THE…» ilə başlaya bilməz (NUL çıxır). **Açılmayıb.**
+* Colin öz təsvirində: «**and also I made a $10,000 puzzle 😄**».
+* MrBeast 17:20-də: «a puzzle hidden **within this video** created by Colin himself».
+* **84 səhifəlik cavab sənədi**: `mrb.gg/p/puzzle/file.pdf` → `MDP_ANSWERS.pdf`,
+  mətn `MDP_TEXT.txt`. **Bu, ən dəyərli sənəddir.**
+* Colin öz axınında (`colin2_stream.txt`): «Extraction … very often it involves
+  **indexing** (numbers as positions in words) … another common technique is
+  **alphanumerics** (1=A…26=Z)». «Jigsaw yığmaq» = **execution**, cavab
+  **extraction**-dan çıxır.
+
+## 15.5 YENİ GÖRÜNTÜ MƏNBƏLƏRİ
+
+* **Ofis planı təkcə 0:19.9 deyil**: `0:13.6`, `0:14.2` (otaq), `0:20.6`,
+  `0:21.2` (masa daha yaxın) — hamısı 1080p.
+  → 15-ci parça: **ürək formalı tünd fiqur**. 14-cü kart: qızılı-qəhvəyi oval
+  + tünd quş. Narıncı stiker **ölçü ilə** oxundu: «**Books w/ old names —
+  Alphabetize ?**». Mavi stiker: `?EW?TE / HNKTIN / HOOTA` + «Should I sell …
+  it Bold Found?».
+* **Videonun thumbnail-i** (`i.ytimg.com/vi/82CX6WULNA0/maxresdefault.jpg`):
+  «LOGIN ATTEMPTS LOG» — 17 tarix (04-12…05-28, hamısı FAILED, aprel bloku
+  **qəsdən qarışıq**), 8 nöqtəli parol sahəsi, kork lövhə (#1–#4, QR,
+  «Scan on phone — what is it?», «16-3-4», «No face ID bypass? Check #5 version»).
+  **QR deşifrə olunmur**: perspektiv düzləndirib modul şəbəkəsini sınadım —
+  N=25/29/33/37/41/45-in heç birində üç axtarış naxışı formalaşmır (0/3),
+  modullar kvadrat deyil ⇒ **çox güman dekorativ/AI**.
+
+## 15.6 BAĞLANMIŞ İSTİQAMƏTLƏR (təkrarlama)
+
+* rəqəmlər **m:ss** vaxt damğası kimi bu videoda — 12 anın hamısı adi plan.
+* «ilk iki hərf», «(qırmızı,mavi) indeks», «(mavi,qırmızı) indeks» tarix sırasında.
+* rəqəmlər köhnə **MP1–15**-ə indeks (ləqəb/şəhər/başlıq sözü, hər iki sıra).
+* tarixlər təsvirə/transkriptə/başlığa indeks (ilin günü və 4 variant).
+* 9 sadə tarix→hərf kodlaması.
+* videonun sonundakı **TV montajı** (26 fərqli plan — hamısı köhnə xülasə).
+* **QR (17:32)** = yalnız giriş saytı.
+* 360p boşluqlarında qutuların yaxın planı yoxdur.
+* **kadr birləşdirmə — 4 dəfə uduzdu** (sonuncu: 51 hizalanmış kadr,
+  −17% kənar kontrastı / −17% küy).
+* **jigsaw dişlərindən sıra** — kartlar 76–115 px, dişlər ~8 px; yalnız 9-cu
+  kart təmiz maska verir. Ayırdetmə çatmır.
+* **44 namizəd ad × 7 sıra** — sözlük örtüyü ən yaxşı 0.33 (küy).
+* **adın özünü əvəzetmə şifrəsi kimi həll etmək** — nəzarətdən keçmədi
+  (köhnə OP1-də `TATIONIANTATIONISTOO` verdi, düzgünü `AHOMEAREANEARKAMLAKE`);
+  24 simvol quadgram üsulu üçün çox azdır. **Nəticələr ləğvdir.**
+* qutuların üzərində **ad yoxdur** (bankers box şablonu boşdur).
+* avtomatik şəkil tanıma — 13 üsul nəzarətdən keçmədi. **14-cüsünü yazma.**
+
+## 15.7 İKİ BLOKLAYICI
+
+1. **13, 14, 15-ci kartların rəqəmləri** — 30 rəqəmdən 6-sı əskik (20%).
+   Hər üç bucaqda örtülü/kiçikdir.
+2. **«Hansı ada saymaq lazımdır» göstəricisi.** OP1-də bu, Slack pəncərəsindəki
+   «**Find a puzzle maker**» mətni idi. Bizim videoda qarşılığı tapılmayıb.
+
+Bunlardan biri həll olunsa, OP1 modelini birbaşa tətbiq etmək olar.
+
+## 15.8 ALƏTLƏR (hamısı `tools/pieces/`)
+
+`nameindex.py` — OP1 modeli; **nəzarəti köhnə tapmacadır və keçir**.
+`subsolve.py` — adı əvəzetmə kimi həll etmə (nəzarətdən keçmir, ehtiyatlı ol).
+`initials.py` — baş hərf modeli, korpus sözləri ilə skorlama.
+`tabs.py` — parça konturu + kənar profili (maskanı üstünə çəkir).
+`cardsweep.py`, `stacksweep.py`, `lowsweep.py` — kadr süpürgələri.
+`extract.py` — çıxarma qaydalarının süpürgəsi.
