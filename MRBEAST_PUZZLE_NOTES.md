@@ -7618,3 +7618,57 @@ Kvebek şəhəri Meksikadan şimalda divarları qalan yeganə şəhərdir və
 
 Əvvəl «parçalar nə kodlayır?» sualı açıq idi. İndi konkret hədəf var:
 **videoda 13 simvolluq şifrəmətn tap** — CyberChef açarı onu açacaq.
+
+## ★★★ 15 REBUS — TAPMACANIN JANRI ARTIQ MƏLUMDUR
+
+Rəsmi sənədin 70-ci səhifəsi **MP1–15 şəkilli rebuslarının özünü** göstərir.
+Bu, bizim 15 parça üçün ən vacib kəşfdir, çünki janr eynidir:
+
+**Lone Shark rebusu = rəngli kvadrat + EMOJİ + hərflər + `+` / `−` + «of the».**
+
+Deşifrə olunmuş nümunələr (sənədin öz cavabları ilə):
+
+| rebus | təsvir | cavab |
+|---|---|---|
+| FURFURACEOUS | `H` + 🕉️(om) «of» 🫛(peas) | **HOME OF PEACE** |
+| SCAPULOMANCY | 👁️(eye) + `L` + `&`(and) «of» ☠️(skull) | **ISLAND OF DEATH** |
+| OCHROLEUCOUS | 🦪(pearl) «of the» 🧭(compass=north) | **PEARL OF THE NORTH** |
+| HEKISTOTHERM | 🧢(cap) + sütunlar «of the» ✈️✈️✈️(planes) | **CAPITAL OF THE PLAINS** |
+| NEBULAPHOBIA | 🚪(gate)+⚖️(weigh) «to» dağ+ölüm | **GATEWAY TO DEATH VALLEY** |
+| RISORGIMENTO | qlobus, üstündə `1` və `2` qitə | **CITY ON TWO CONTINENTS** |
+| RECEPTACULAR | EXIT+🥚+👕 «of» 🌹gül & run yazısı | **CITY OF ROSES AND RUINS** |
+
+Şeir də bunu deyir:
+
+```
+A nickname for your destination
+(But not its name or its translation)
+```
+
+### Bu bizim parçalar üçün nə deməkdir
+
+Bizim 15 parçadakı rəsmlərin **hamısı emojidir** — 🦋, 🇺🇸, 🇴🇲, 😂, 🌨️, ⬇️,
+📊, 🛖, 🛼, 📅, 🗄️, 🦅… Yəni **parçalar bir REBUSDUR**, ləqəbi verir:
+
+```
+20 emoji  →  ŞƏHƏR LƏQƏBİ (3 6 4)  →  ŞƏHƏR + BÖLGƏ (6 6)  →  ŞƏHƏR (6)
+```
+
+Bu, əlyazma qeydindəki zəncirlə **tam eyni** quruluşdur.
+
+### Nəticələr
+
+1. **«Emoji tanımaq» artıq köməkçi iş deyil — ƏSAS İŞDİR.** Rebusda hər
+   emojinin **adı** hərf verir. 5 adsız rəsm (3, 6, 7, 14-sol, 15) indi kritik.
+2. Rebusda `+`, `−` və `&` kimi işarələr var. Bizim parçalardakı
+   **düz bordo düzbucaqlı** (7-ci parça) belə bir operator ola bilər —
+   «boş/ayırıcı» deyil.
+3. Rəqəmlərin (qırmızı/mavi) rolu yenidən açıqdır: tarix ola bilər (ABŞ
+   bayrağı = 4 iyul buna dəlildir), amma rebusda **hərf indeksi** də ola bilər.
+   Hər iki oxunuş eyni anda doğru ola bilər: **tarix = sıralama, emoji = məzmun.**
+
+### Yoxlanmış, hələ nəticəsiz
+
+Hər parça üçün «emojinin adının qırmızı-cı və mavi-ci hərfi» sınağı 12 məlum
+parçada aparıldı; 5 rəsm adsız və 2 rəqəm cütü naməlum olduğu üçün söz
+çıxmadı. Bu sınaq **5 rəsm adlandırılan kimi təkrarlanmalıdır.**
