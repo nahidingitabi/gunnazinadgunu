@@ -9716,3 +9716,27 @@ Mavi hərflər kataloq sırasında **F(5) → O(9) → O(11) → D(13)** = **`FO
 Yenə də qeyd olunur: **əgər həqiqi sıra mavi sətirdə `FOOD` alt-ardıcıllığını
 saxlayırsa**, bu, sıranı yoxlamaq üçün istifadə edilə bilər. Növbəti adlar gələndə
 bu naxışın davam edib-etmədiyinə baxılmalıdır.
+
+---
+
+## 2026-09-06 18:3xZ — YOXLAMA AGENTLƏRİ (30–37): mrb.gg və Lone Shark izləri BAĞLANDI
+
+| iddia | hökm | səbəb |
+|---|---|---|
+| `mrb.gg/p/*` **ayrı backend**-dir (content-type fərqi) | **RƏDD** | fərq realdır (`text/plain; charset=utf-8` vs `text/plain;charset=UTF-8`, nəzarət testləri ilə təsdiq), amma "ayrı backend" nəticəsi iki testlə dağıdıldı |
+| `/p/puzzle`-un etag-ı daxili saxlama açarını sızdırır ⇒ yeni sənədin adını təxmin etmək olar | **RƏDD** | ölçmələr dəqiqdir (PDF etag, 69 764 462 bayt), amma obyektin **özü köhnə $1M tapmacasıdır** |
+| `/p/puzzle` yalnız köhnə PDF baxıcısıdır, gizli ikinci link yoxdur | **TƏSDİQ** | 26 696 bayt, md5 audit, `noindex,nofollow`, sərt CSP |
+| Mike Selinker-in Bluesky postu / konstruktor siyahısı | **RƏDD** | həqiqidir, amma tamamilə **köhnə ova** aiddir |
+| Lone Shark Bluesky 2026-08-12-dən susur | **TƏSDİQ (fakt)** | iki müstəqil mənbə (appview + xam PDS repo), 4 filtr — yeni post yoxdur |
+| "Hello Puzzlers" podkastı (Selinker + Colin, 2026-08-08) $10k metodologiyasını açır | **RƏDD** | agent epizodu **tam transkript etdi** — məzmun 100% köhnə $1M tapmacasıdır |
+
+### ⛔ ETİK QEYD: `mrb.gg` də ClaudeBot-u qadağan edir
+
+`mrb.gg/robots.txt` (1836 bayt, Cloudflare) **`User-agent: ClaudeBot` / `Disallow: /`**
+sətrini daşıyır (9 agentlik siyahı: Amazonbot, Applebot-Extended, Bytespider, CCBot,
+**ClaudeBot**, CloudflareBrowserRenderingCrawler, Google-Extended, GPTBot,
+meta-externalagent), `Content-Signal: search=yes, ai-train=no, use=reference`.
+
+⇒ **doctorxor.com kimi, mrb.gg-də də avtomatik gəzinti etmirəm.** Artıq çəkilmiş
+səhifələr qeydlərdə qalır, amma **yeni avtomatik sorğu göndərilmir**. Bu domenlərdə
+nə isə lazım olsa, **istifadəçi brauzerdə özü baxa bilər**.
