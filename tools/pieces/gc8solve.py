@@ -47,9 +47,9 @@ def run_control():
 # (etiket, qirmizi, mavi, ad)   ad=None => hele adlandirilmayib
 # Qirmizi/mavi reqemler REF803-den warp + 9-16x boyutme ile oxunub.
 CARDS = [
-    ('yasil papaqli fiqur',      2,  12, None),   # mavi XII: 5 kadrda tesdiq (2026-09-06)
-    ('gizli sekilli kart',       8,   1, None),   # yigin: qirmizi VIII (VII deyil), mavi I
-    ('iki panelli cerceve',   None, None, None),   # reqemleri sag ucundadir, diaqram kartinin altinda
+    ('yasil papaqli fiqur',      2,  11, None),   # mavi XI: t=324 cekilisinde 4 kadrda qeti (X + BIR I)
+    ('gizli sekilli kart',       7,   1, None),   # qirmizi VII: t=324-de 4 kadrda qeti
+    ('demir barmaqlikli pencere', None, None, None), # ~7 SAQULI barmaqliq; reqemleri gorunmur
     ('asagi ox + sutunlar',      8,   9, None),   # namized: 'chart decreasing'(15) -> C/R
     ('kepenek (bant?)',          5,   7, 'butterfly'),  # filtr `ribbon`(6)-ni kesir
     ('narinci-qirmizi duzbucaq', 6,   8, None),   # namized: 'red square'(9) -> U/R

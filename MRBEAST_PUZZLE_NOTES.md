@@ -10175,3 +10175,32 @@ demək olar sabitdir (16 kadr yığıldı, korrelyasiya **0.999**).
 ⇒ **Metodoloji nəticə:** REF803 «ən yaxşı kadr» deyil — **hər kart üçün ən yaxşı
 ÇƏKİLİŞ ayrıca tapılmalıdır.** Bütün 1080p kliplər üç şablonla (tövlə, Oman, diaqram)
 0.5–2.4 miqyas aralığında skan edilir (`scan1080.py`).
+
+## ★★★★ 2026-09-06 ~22:2xZ — YENİ ÇƏKİLİŞDƏN İKİ DÜZƏLİŞ VƏ BİR YENİ ŞƏKİL
+
+Eyni çəkilişin ikinci hissəsində (kadr 68–85, t ≈ 324.8–325.3) kamera MrBeast-in
+başının **üstündəki qutuya** baxır və **üst qutunun kartları indiyə qədərki ən
+aydın halda** görünür (`TOPCARDS2.png`, `TOPZOOM.png`).
+
+### ⚠ Düzəliş 1 — kart 1-in mavi rəqəmi **XI = 11**, XII deyil
+Dörd müstəqil kadrda (76, 77, 78, 80) 26× böyütmədə `X` + **BİR** `I` görünür
+(`K1_XI.png`). Bu gün REF803 yığınından «XII» oxumuşdum — **səhv idi**: orada
+kartın kənar xətti ikinci `I` kimi oxunurdu. ⇒ **Kart 1-in adı ≥ 11 hərf**
+(≥12 deyil). Bu, `GARDEN GNOME`(11) namizədini yenidən oyuna qaytarır.
+
+### ⚠ Düzəliş 2 — kart 2-nin qırmızı rəqəmi **VII = 7**, VIII deyil
+`K2_NUM3.png`, dörd ardıcıl kadr: mavi `I`, sonra qırmızı `V` + **İKİ** ştrix.
+Qeydlərin ilkin dəyəri (VII/I) düzgün imiş; bu günkü «VIII» oxunuşum səhv idi.
+
+### ★ Kart 3-ün şəkli: **DƏMİR BARMAQLIQLI PƏNCƏRƏ / QƏFƏS**
+Əvvəl «qalın çərçivə, iki panelə bölünmüş» yazılmışdı. Yeni çəkilişdə şəkil
+qətidir: **düzbucaqlı çərçivə və içində ~7 ŞAQULİ qara barmaqlıq**.
+Ən yaxın oxunuşlar: **qəfəs**, **həbsxana pəncərəsi**, **darvaza/hasar paneli**.
+(Diqqət: firuzəyi şifr kartının alt yazısı «bird **fence**» idi.)
+
+### ★ Kart 1-in fiquru
+Yaşıl şiş papaq, **qırmızı gödəkçə/palto**, **yaşıl şalvar**, tünd ayaqqabı,
+narıncı saç; bir əli **yuxarı qaldırılıb (salamlayır)**, o biri əlində
+tünd-qırmızı bir əşya var. ⇒ **Milad elfi / cırtdan** oxunuşu gücləndi.
+Namizədlər (≥11): `GARDEN GNOME`(11), `CHRISTMAS ELF`(12), `SANTAS HELPER`(12),
+`ELF ON THE SHELF`(13).
