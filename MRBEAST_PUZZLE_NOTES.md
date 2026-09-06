@@ -7214,3 +7214,34 @@ məhz buna görə rəng ölçüsündə maskalar birləşirdi.)
 
 Rəng imzası dəyişmir: **iki ucu çəhrayı, ortası soyuq** — və bu imza
 **1326 nişanın heç birində yoxdur** (yoxlanılıb).
+
+## ★ İKİNCİ BUCAQ 3, 10 və 13-cü kartlar üçün REF803-dən YAXŞIDIR
+
+Qeydlərdə «üçüncü bucaq (ofis) yuxarı qutu üçün h803-dən pisdir» yazılıb — doğrudur,
+**amma ikinci bucaq (REF765) bu üç kart üçün heç vaxt sistemli yoxlanmamışdı.**
+Kadrdakı bütün kart ölçülü ağ ləkələri proqramla siyahıladım (gözlə axtarmaq
+əvəzinə) və iki yeni yer tapdım. `ANGLE2_CARDS.png`:
+
+**Yuxarı sahə (1240,26–1330,118) — 13-cü və 10-cu kart yan-yana:**
+* **13-cü kart** indiyə qədərki ən aydın halı: tünd konturlu hündür çərçivə,
+  ortada üfüqi ayırıcı, **iki YUMRU-DÜZBUCAQLI panel**, hər panelin içi açıq.
+  Bu, «iki siyirməli kartoteka» oxunuşunu **gücləndirir** (siyirmə üzləri məhz
+  yumru düzbucaqdır).
+* **10-cu kart**: qırmızı `VIII`, solda **tünd aşağı OX** (uzun sap + ucluq),
+  sonra **üç sütun: çəhrayı (qısa) → sarı (orta) → yaşıl (hündür)**, artan sırada;
+  sağda mavi `IX`. Yəni **ox və diaqram ayrı-ayrı iki rəsmdir** — sütunlar
+  ARTIR, ox isə AŞAĞI baxır, deməli bu tək bir «azalan diaqram» nişanı deyil.
+
+**Aşağı sahə (1250,538–1312,614) — 3-cü kart, çox daha aydın:**
+mavi `VIII`, qırmızı `IV`, **qara siluet** və sağ altda **yaşıl bitki**.
+Siluetin quruluşu indi gözlə görünür və **ölçdüyüm profilə tam uyğundur**:
+```
+yuxarıda yumru BAŞ → dar BOYUN → aşağıda daha enli GÖVDƏ → aşağı-sola incələn UC
+```
+(ölçmə: 30%-də qabar, 45%-də bel, 65%-də ikinci qabar, 95%-də incəlmə;
+solidity 0.82, uzanma 2.78, zəif qövs.)
+
+**Dərs:** «görüntü işi tükənib» qeydini çox geniş yazmışam. Tükənən **REF803
+üzərindəki** işdir; ikinci bucaq bəzi kartlar üçün daha yaxşıdır və sistemli
+yoxlanmamışdı. Bundan sonra hər kart üçün **hansı bucaq daha yaxşıdır** ayrıca
+soruşulmalıdır.
