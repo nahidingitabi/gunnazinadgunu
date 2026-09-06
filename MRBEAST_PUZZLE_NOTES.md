@@ -7451,3 +7451,44 @@ CƏMİ = 5×2 + 10×1 = 20 RƏSM
 **Amma eyni etiraz qalır:** hərflər üçün 17 rəsm kifayətdir, 20 deyil; üçü
 boşluq olmalıydı, halbuki bütün 20-si dolu rəsmdir. Yəni **say uyğunluğu
 diqqətəlayiqdir, model deyil.** Dəlil kimi deyil, müşahidə kimi yazıram.
+
+## ✗ MƏNFİ NƏTİCƏ — TARİXLƏRİN SADƏ HƏRF KODLAMALARI (9 üsul, hamısı boş)
+
+12 məlum (ay, gün) cütü üzərində sadə "tarix → hərf" kodlamalarını yoxladım.
+Sual: parçaların çıxışı birbaşa hərfdirmi?
+
+```
+gün → hərf              DKHGEFHADIEN
+ay → hərf               BBDEFFFGGHIJ
+ay+gün                  FMLLKLNHKQNX
+ay*gün                  HVFIDJVGBTSJ
+ilin günü               IPTWZACZCMNA
+ilin günü mod 26        IPTWZACZCMNA
+gün − ay                BIDBAZBFCADD
+gün → hərf, mavi əvvəl  ADDEEFGHHIKN
+ay → hərf,  mavi əvvəl  GBGFIFEDFHBJ
+```
+
+**Heç birində LONDON / CANADA / ONTARIO / FOREST / CITY sözlərindən biri
+(və ya hər hansı ingilis sözü) keçmir.** Nə ardıcıl, nə də alt-yığın kimi.
+
+Əlavə iki ölçü:
+
+```
+ardıcıl parçalar arasındakı tarix fərqi: 7 · 56 · 29 · 29 · 1 · 2 · 23 · 3 · 36 · 27 · 39
+ilin günü mod 7 (eyni dəyər = eyni həftə günü): 0 0 0 1 2 3 5 0 3 4 3 0
+```
+
+Fərqlərdə nə sabit addım, nə də ASCII/hərf oxunuşu var. Həftə günü qalığında
+12-dən 5-i eynidir (0) — bu, təsadüfi paylanmada gözləniləndən çox deyil
+(12 tarix, 7 qalıq → gözlənilən ən böyük qrup ≈ 3–4). **Siqnal deyil.**
+
+### Nə deməkdir
+
+Tarixlər **birbaşa hərfə çevrilmir**. Bu, artıq bağlanmış "bir parça = bir hərf"
+modelinin ikinci, müstəqil təkzibidir: birincisi say sınağı idi (15 parça ≠ 17
+hərf), bu isə məzmun sınağıdır. Tarixlər ya **sıralama açarıdır** (parçaları
+düzmək üçün), ya da **rəsmləri** göstərir — hərfləri yox.
+
+Qalan yeganə canlı variant: **tarix = sıra**, **rəsm = məzmun**. Yəni 20 rəsmin
+adları lazımdır. 5 rəsm hələ adsızdır (3, 6, 7, 14-sol, 15).
