@@ -10335,3 +10335,30 @@ onun şəxsi qeydləri olmaya bilər. Yəni «sənəddə yoxdur» arqumenti mavi
 üçün işləyir (o, PG3-ün MƏZMUNUDUR), amma firuzəyi kart üçün zəifdir.
 Buna baxmayaraq `LAST WORD THEN NINTH` heç bir köhnə tapmacanın çıxarma
 qaydası kimi də sənəddə görünmür.
+
+### ⛔ SIRA RƏQƏMLƏRDƏN ÇIXA BİLMƏZ — dörd sadə sıralama da təkrarlar verir
+
+13 kartın rəqəmləri ilə yoxlandı; hər dördündə **bərabər qiymətlər** var, yəni
+sıra birmənalı təyin olunmur:
+
+| sıralama açarı | qiymətlər | təkrar |
+|---|---|---|
+| qırmızı | 2,7,8,5,6,2,6,10,8,6,4,9,7 | 2×2, 6×3, 7×2, 8×2 |
+| mavi | 11,1,9,7,8,4,6,14,9,5,8,5,4 | 4×2, 5×2, 8×2, 9×2 |
+| qırmızı+mavi | 13,8,17,12,14,6,12,24,17,11,12,14,11 | 11×2, 12×3, 14×2, 17×2 |
+| qırmızı−mavi | −9,6,−1,−2,−2,−2,0,−4,−1,1,−4,4,3 | −1×2, −2×3, −4×2 |
+
+⇒ Sıra **yalnız fiziki formadan** (və ya hələ tapılmamış üçüncü mənbədən) gələ bilər.
+Bu, müəllifin «yapbozu YIĞ» ipucusu ilə tam uyğundur.
+
+### Sınanacaq sıra fərziyyəsi: **ƏLİFBA SIRASI**
+Masadakı narıncı yapışqan qeyd: *«Books w/ old names. **Alphabetize?**»*
+Adlar tam bilinən kimi ilk yoxlanacaq sıra budur — ucuzdur və yapbozdan asılı deyil.
+(Qeyd: bu, «əvvəlcə sıranı müstəqil tap» qaydasını pozmur, çünki əlifba sırası
+hərflərdən deyil, **adlardan** çıxır və adlar müstəqil təyin olunur.)
+
+### Kənar seqmentasiyasının HƏDDİ
+`profiles2.py` (deşikləri doldurmaqla) kart 13, 12, 11, 9 üçün inandırıcı kontur
+verir, amma kart 14-də maska bütün karton səthini udur — karton ağ kağız qədər
+parlaqdır. ⇒ **1080p-də tam avtomatik kənar uyğunlaşdırması alınmır.**
+Ən yaxşı alət insan gözüdür (`EDGES_STACK.png` istifadəçidədir).
