@@ -9417,3 +9417,51 @@ Kitabın üzərində **BOO** (3 hərf) yazılıb və altında **"Five of these"*
 `5 × 3 = 15` — parça sayı və cavab uzunluğu ilə eynidir. Bu, ehtimalla təsadüfdür
 (mən naxış axtarmağa meyilliyəm və bunu artıq bir dəfə səhv etmişəm), amma
 kartın kameraya baxan yerdə olması onu qeyd etməyə dəyər edir.
+
+---
+
+## ★★ 2026-09-06 17:4xZ — KÖHNƏ MP1–15 REBUSLARI 200 dpi-də AÇILDI: BİZİMKİLƏR FƏRQLİDİR
+
+`MDP_ANSWERS.pdf` səhifə 70 pymupdf ilə 200 dpi-də render edildi (`PDFP70.png`) —
+orijinal 15 rebusun **şəkilləri tam görünür**.
+
+### Köhnə MP1–15 necə qurulub
+
+**Rəngli kvadrat lövhələr**, üzərində **emoji + HƏRF + əməliyyat işarələri**:
+
+| rebus | tərkibi | cavab |
+|---|---|---|
+| NEBULAPHOBIA | 🚪qapı **+** ⚖tərəzi **"to"** 🏔+💀 | Gateway to Death Valley |
+| ULTRAMONTANE | **V +** lampa **"of the"** CFL loqosu + "Point!" | Valley of the Rouge |
+| BARODYNAMICS | 🛢neft **+** 😊 **− K +** ☕ | Oil City |
+| FURFURACEOUS | **H +** 🕉️ **"of"** 🫛noxud | Home of Peace |
+| SALAMANDROID | 🛷xizək **− S + D "of the"** 🌱 **− D** | Lady of the Sea |
+| SCAPULOMANCY | 👁 **+ L + & "of"** ☠ | Island of Death |
+| INCLINOMETER | 🎲 + 🗓 **− A / S +** 🍳 **− P +** 🟦 **− L "of"** İndiana **−** Şekspir | Diamond City of India |
+
+Yəni **hərf arifmetikası** (`+`, `−`, `of the`) və **rəngli fon**.
+
+### ⇒ BİZİM KARTLAR BU SİNİFDƏN DEYİL
+
+Bizim 15 kart: **ağ fon**, **yapboz/vımpel formalı kənar**, üzərində **1–2 emoji** və
+**iki Roma rəqəmi** — **heç bir hərf yoxdur, heç bir `+`/`−`/`of the` yoxdur**.
+
+⇒ **Struktur təsdiq:** yeni kartlar MP1–15 üslubunda rebus **deyil**. Onlar
+**GC8 sinfindəndir** (şəkil + rəqəm cütü). Bu, "kartlar rebusdur, uzun ləqəb verir"
+fərziyyəsini **zəiflədir** və "şəkil bir adı bildirir, rəqəmlər o ada indekslənir"
+oxunuşunu **gücləndirir**.
+
+### ★ Bundan çıxan praktik düzəliş: emoji adları CLDR formasındadır
+
+Bayraq emojilərinin CLDR qısa adı **`flag: Oman`**-dır (sadəcə `Oman` deyil).
+Bu, Oman kartının uğursuzluğunu **həll edir**:
+
+| kart | (q, m) | CLDR adı | uzunluq | q-hərfi | m-hərfi |
+|---|---|---|---|---|---|
+| Oman bayrağı | (6, 5) | `flag: Oman` → `FLAGOMAN` | 8 ✓ | **M** | **O** |
+| ABŞ bayrağı | (7, 4) | `flag: United States` → `FLAGUNITEDSTATES` | 16 ✓ | **I** | **G** |
+
+⇒ **Emoji-adı fərziyyəsinin iki uğursuzluğundan biri (Oman) aradan qalxdı.**
+Qalan tək problem **yaşıl papaqlı fiqur** kartıdır (mavi XI/XII = 11–12; heç bir
+insan/elf emojisinin adı bu uzunluqda deyil) — bu, ya şəklin səhv oxunması,
+ya da emoji olmaması deməkdir.
