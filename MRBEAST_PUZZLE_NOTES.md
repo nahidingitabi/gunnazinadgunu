@@ -8540,3 +8540,81 @@ tutulmuş çətinliyi** olduğunu göstərir — səhv oxunuş bütün zənciri 
 > "I can't discuss it until someone solves it and team beast announces a winner."
 
 ⇒ Parçalar (bizim 13–15 kart) **doğru giriş nöqtəsidir** — müəllif özü təsdiqləyir.
+
+---
+
+## 2026-09-06 14:1xZ — ÖZ İDDİAMA DÜZƏLİŞ + 2 YENİ AGENT NƏTİCƏSİ
+
+### ⚠ DÜZƏLİŞ: "şablon cavabın maskasıdır" iddiası ZƏİFDİR
+
+Yuxarıda `AaaaaA-aaAa##`-in 2/4/7 mövqelərinin XOR şərti ilə üst-üstə düşməsini
+"★★★ təsadüfi deyil" adlandırmışdım. **Ehtimalı hesabladım: bu, təsadüfən də olur.**
+Şablonda 3 böyük hərf var (1, 6, 10). 13 mövqedən 3-nün böyük olmasının
+C(13,3)=286 yolu var; 2/4/7-nin heç birinin böyük olmadığı hallar C(10,3)=120.
+⇒ **p ≈ 0.42** — yəni sırf təsadüf ehtimalı 42%-dir. Bu, sübut deyil, zəif işarədir.
+
+**Qüvvədə qalan sərt nəticə** (dəyişməz): əgər şifrəmətn çap oluna bilən ASCII-dirsə,
+**cavabın 2-ci, 4-cü və 7-ci simvolu böyük hərf ola bilməz**, və çıxarılan 13 simvol
+`L?L?LL?LLLL??` formasında qarışıq alfanumerik olmalıdır. Bu, açardan birbaşa çıxır.
+Yalnız "şablon qəsdən maskadır" nəticəsi geri götürülür.
+
+### Agent 8 — CAVAB PDF-i TAM SÖKÜLDÜ: TƏMİZDİR
+
+84 səhifə, 200 və 400 dpi, zxing-cpp + OpenCV, 151 daxili şəkil, 1123 xref obyekti:
+
+| yoxlanan | nəticə |
+|---|---|
+| QR / ştrix-kod | **0** (hər iki dpi, bütün formatlar, bütün şəkillər) |
+| gizli/görünməz mətn qatı | **yox** (ağ doldurma 0, alfa 0 yox, `Tr` operatoru 0, səhifədən kənar mətn 0) |
+| daxili fayl / JS / OpenAction / OCG qatı | **0** |
+| sahibsiz obyekt | **0** (216 şəkil xref = 151 çəkilən + 65 SMask) |
+| PNG tEXt/zTXt/iTXt/eXIf, JPEG EXIF | **təmiz** |
+| MDP_TEXT.txt-in tamlığı | **təsdiqləndi** (88 300 simvol, fərq sıfır) |
+
+- Metadata: `producer: macOS … Quartz PDFContext`, yaradılma **2026-08-12 19:10:35Z** —
+  yeni tapmacanın elanından (2026-09-02) **3 həftə əvvəl**. Sadə "Print to PDF".
+- **32 unikal xarici URL** — hamısı köhnə ovun istinadlarıdır (15 YouTube, 2 Instagram,
+  windtrilogy.com, ascii-code.com, lonesharkgames.com, 11 Wikipedia şifrə səhifəsi).
+- **Tək anomaliya:** səhifə 10-da EP4-ün linki `tWYsfOSY9vY` ("I Survived 7 Days In An
+  Abandoned City"), halbuki lövbər mətni "$1 to $500,000 Experiences!"-dir (səhifə 6-da
+  həmin başlıq düzgün `Xj0Jtjg3lHQ`-yə gedir). Sənəddəki **yeganə** uyğunsuz URL —
+  çox güman redaktə səhvi, amma qeydə alınır.
+- `mrbeast.salesforce.com` indi yazır: **"We have a winner! 🙌 … The game is now closed
+  and the vault is empty."** + İpucu #1–#23 arxivi.
+
+### Agent 9 — 2 SENTYABRDAN SONRA HEÇ BİR "İKİNCİ MƏRHƏLƏ" DROP-U YOXDUR
+
+- 6 MrBeast kanalında 2026-09-02-dən sonra **cəmi 1 video**: `gTKS8SAwUzE`
+  (2026-09-05). Təsviri və bərkidilmiş şərhi **tamamilə təmizdir** (80 şərh süzüldü —
+  tapmaca/Colin/10,000/sweepstakes sıfır).
+- **Colin-in hər iki videosunda bərkidilmiş şərh YOXDUR** (proqramla yoxlandı:
+  `pinnedText` boş; eyni kod `82CX6WULNA0`-da `['Pinned by @MrBeast2']` qaytarır).
+- `82CX6WULNA0`-ın **bərkidilmiş şərhi və təsviri 4 gündə dəyişməyib**.
+- Köhnə ovun 1-ci mərhələ şablonu (**pleylist təsviri + bərkidilmiş şərh**)
+  **təkrarlanmır**: hər iki kanalın yeganə pleylistinin təsviri **boşdur**.
+- Community: MrBeast-in ən yeni postu 2026-09-01 (Patterson kitabı), MrBeast 2 — 6 aylıq,
+  Gaming — 12 günlük. **Pəncərədə heç nə yoxdur.**
+- ⚠ **Kanal ID xəritəsində səhv düzəldildi:** `UCIPPMRA040LQr5QPyJEbmXA` = **MrBeast
+  Gaming** (MrBeast 2 deyil); `UC4-79UOlP48-QNGgCko5p2g` = **MrBeast 2** (82CX6WULNA0
+  buradadır); `UCUaT_39o1x6qWjz7K2pWcgw` = Beast Reacts; `UCAiLfjNXkNv24uhpzUgPa6A` =
+  Beast Philanthropy; `UCZzvDDvaYti8Dd8bLEiSoyQ` = Beast Animations.
+- İzləyici təxminləri (müəllif siqnalı DEYİL, amma qeydlərdə yox idi):
+  `INDIANAIONSLEAD` (**15 hərf — bizim 15 parça ilə eyni say**), "**closed-loop
+  solution! Just figuring out the order**", "The Third Level exists",
+  "treron vernans" (çəhrayı boyunlu yaşıl göyərçin — 14-cü kartın quşu?), "OMG BIRD FENCE".
+
+### Media marşrutu YENİDƏN yoxlandı və QAPALIDIR
+
+`googlevideo` 403 (8 cəhd). Invidious/Piped proksiləri: yewtu.be və invidious.f5.si
+**anti-bot səhifəsi** verir, inv.nadeko.net "Endpoint disabled", nerdvpn.de 401,
+privacyredirect 404, kavin.rocks 526. ⇒ Bu mühitdən video kadrı ALINMIR.
+
+### Ölçmə: 13–15-ci kartlar 1080p-də NİYƏ oxunmur
+
+Homoqrafiya dördbucaqlarından ölçdüm:
+- **15-ci parça** (ofis kadrı): ekranda cəmi **33 × 47 piksel**.
+- **Qartal kartı** (t=806.5): **68 × 68 piksel**.
+Rəqəmin özü bu ölçüdə ≈ **5 × 10 piksel**-dir — bu, hər hansı oxunuş üçün fiziki
+həddin altındadır (13 avtomatik təsnifatçının hamısının uğursuzluğunun səbəbi budur).
+2160p-də həmin sahələr **66 × 94** və **136 × 136** piksel, rəqəm isə ≈ **10 × 20**
+piksel olardı — bu, oxunan diapazondur.
