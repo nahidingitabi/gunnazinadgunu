@@ -8145,3 +8145,57 @@ qəsdən qoyulmuş ipucu olma ehtimalını AZALDIR — amma tam sıfırlamır
 (rəqəmlər təmiz rəqəmsal şriftlə yazılıb).
 
 Fayllar: `TH_LOG.png`, `TH_LOG2.png`, `TH_BOARD2.png`, `QR_full.png`, `QR_warp.png`.
+
+# ★★★ PARÇALARIN ŞABLONU KÖHNƏ SƏNƏDDƏ VAR — «RƏQƏM → ADA İNDEKS»
+
+Köhnə cavab sənədində **iki jigsaw tapmacası** var və biri bizim parçaların
+mexanizmini birbaşa verir.
+
+## OP1 (səh. 56) — jigsaw parçası + RƏQƏM
+
+> «Jimmy's Slack popup "Find a puzzle maker" appears, containing a **jigsaw
+> puzzle piece** … In each frame, there is a jigsaw puzzle piece. **Inside that
+> piece is a number** … the 20 numbers are:
+> `11 6 2 12 4 7 8 13 7 3 13 11 8 9 7 12 1 11 9 4`
+> **ANSWER** These tiny jigsaw numbers spell out a 20-letter message when
+> **counted by number into the name of the puzzle maker**:
+> ```
+> 1 2 3 4 5 6 7 8 9 10 11 12 13 14
+> L O N E S H A R K  G  A  M  E  S
+> ```
+> → `A HOME AREA NEAR KAM LAKE` → Kam Lake, Yellowknife.
+
+## GC10 (səh. 53) — jigsaw parçası + HƏRF
+
+> «a framed painting … **16 pieces, each of which contains a letter**.
+> The pieces go together to spell **JIMMY'S BIRTHPLACE**» → Wichita, Kansas.
+
+## Bu bizim üçün nə deməkdir
+
+1. **Lone Shark jigsaw parçalarını məhz belə işlədir.** Bizim 15 parçada
+   **30 rəqəm** var (hər birində qırmızı + mavi) — OP1-in eyni janrı.
+2. **Ən böyük rəqəm XIV = 14** ⇒ hədəf ad **ən azı 14 hərflidir**
+   (LONE SHARK GAMES də tam 14-dür).
+3. Rəqəmlərin çıxışı bir **mesaj** olmalıdır (OP1-də 20 hərflik cümlə).
+
+## Nəzarət testi KEÇDİ
+
+`tools/pieces/nameindex.py`: köhnə 20 rəqəm + «LONE SHARK GAMES» →
+`AHOMEAREANEARKAMLAKE` — **hərfi hərfinə düz**. Üsul doğru qurulub.
+
+## ✗ Namizəd adların hamısı boş çıxdı
+
+38 ad × 7 sıra = 142 kombinasiya (JIMMY DONALDSON, MRBEAST YOUTUBE, BEAST
+INDUSTRIES, COLIN SANDERS XOR, DOCTORXOR COLIN, MIKE SELINKER, SALESFORCE
+SLACK, THE MILLION DOLLAR PUZZLE, PUZZLE VIDEO SWEEPSTAKES və s.).
+Heç birində oxunaqlı ingilis mesajı yoxdur.
+
+**İki səbəb ola bilər:** (a) ad siyahıda deyil, (b) **3 parçanın rəqəmləri
+əskikdir** — 30 rəqəmdən 6-sı yoxdur (20%), bu, istənilən oxunuşu pozar.
+
+## → Adı da axtarışa çevirdim
+
+Fərqli mövqe dəyərləri yalnız **11-dir** (1,2,4,5,6,7,8,9,10,11,14) ⇒ bu,
+**11 simvollu sadə əvəzetmə şifrəsidir** və birbaşa həll edilə bilər:
+ingilis quadgram statistikası ilə təpə-dırmanma. Nəzarət kimi köhnə OP1
+ardıcıllığı işlədilir. (`tools/pieces/subsolve.py`, işləyir.)
