@@ -5461,3 +5461,30 @@ tam qara → **ölkə/ada xəritəsi** ehtimalı gücləndi.
 **Bitki:** aşağıda sıx yaşıl kütlə (a\* −12), yuxarıda daha açıq nazik
 yarpaqlar (a\* −5.9). Yəni **kolluq/ot dəstəsi** — aşağısı dolğun, yuxarısı
 şüalanan incə yarpaqlar.
+
+---
+
+## 2026-09-06 07:45Z — ŞƏKİLLƏRİN ÖLÇÜLMÜŞ XASSƏLƏRİ (bir cədvəldə)
+
+Yalnız **ölçülmüş** dəyərlər. Etiketlər ayrı sütundadır və onlara güvənmək olmaz.
+
+| # | parça | ölçülmüş xassələr | etiket (nə qədər əminəm) |
+|---|---|---|---|
+| 1 | 11 fev | papaq a\*=−3.8 (**yaşıl**) → üz +2.8 → gövdə +4.0 → alt **+6.8 (qırmızı)** → topuq −1.2; altda **iki tünd disk** | elf/cırtdan + rolik? **zəif** |
+| 2 | 4 fev | spiral halqalar; ortada tünd qırmızı-qəhvəyi işarə | təqvim **güclü**; işarə "25"/"&" **zəif** |
+| 3 | 8 apr | siluet **32×11 px**, uzanma **2.87–2.98** (3 astana), solidity 0.85, **L=50, a\*≈0, b\*≈0 → tam qara**; iki lob + bel; yanında bitki **a\*=−12 (güclü yaşıl)**, yuxarısı nazik yarpaqlar | **AD YOXDUR**; Afrika **istisna** |
+| 4 | 7 may | dörd lob **2×2** + mərkəzi bənd + iki yuxarı əyri; mürəkkəb tünd mavi | **kəpənək — güclü** |
+| 5 | 5 iyun | qırmızı a\*=+22 / +15, **yaşıl a\*=−7.4**, ağ ≈0; şaquli qırmızı zolaq + emblem | **Oman bayrağı — şübhəsiz** |
+| 6 | 6 iyun | tünd cisim **b\* mənfi (navy)**; açıq cisim **uclarında a\*=+6.1 və +5.0 (qırmızı), ortası solğun** | **AD YOXDUR**; raket/qələm? **zəif** |
+| 7 | 8 iyun | **a\*=+16.4, b\*=+13.8, tam bircins** (qradiyent yox), **22×47 px = 1:2.14**, nazik tünd kontur | qapı? **zəif**; kitab/kərpic **istisna** |
+| 8 | 1 iyul | şəkil **örtülüdür** (hər üç bucaqda) | — |
+| 9 | 4 iyul | ABŞ bayrağı (kanton b\*<0, zolaqlar a\*>0); anbar: qırmızı gövdə + boz **gambrel dam** + **qüllə** | **bayraq şübhəsiz**; anbar **güclü** (emoji yoxdur) |
+| 10 | 9 avq | qara aşağı ox + **üç sütun: bənövşəyi, sarı, yaşıl** (artan) | ox+diaqram **güclü**; 📊 rəngləri **uyğun gəlmir** |
+| 11 | 5 sen | mavi bulud + ağ dənəciklər | **qar buludu — güclü** |
+| 12 | 14 okt | sarı üz, qıyılmış gözlər, açıq ağız, **iki mavi göz yaşı** | **😂 — güclü** |
+| 13 | ? | qalın tünd çərçivə + **üfüqi tir** + iki açıq panel; rəqəm **tapılmır** | pəncərə / **sənəd şkafı** — **zəif** |
+| 14 | ? | oval: **b\* +7.5…+8.3 (isti qəhvəyi)** iki bucaqda; qartal: **b\* +0.68 (neytral tünd)**, başı **neytral ağ**; rəqəmlərin **yeri tapıldı**, dəyəri yox | **keçəl qartal — güclü**; oval **AD YOXDUR** (boz daş **istisna**) |
+| 15 | ? | **19×8 px**, uzanma **2.30–2.54** (render + xam kadr), solidity 0.88–0.92; yuxarıda iki dayaz zirvə, aşağıda nöqtə | **AD YOXDUR** |
+
+**Ölçmə ilə İSTİSNA edilənlər:** Afrika (#3), boz daş (#14), kitab və kərpic (#7),
+📊 emojisi (#10, rənglər), və ümumiyyətlə "hamısı standart emojidir" fərziyyəsi.
