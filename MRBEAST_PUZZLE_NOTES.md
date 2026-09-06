@@ -6000,3 +6000,41 @@ ayırma etibarlıdır.
   formasına uyğundur. Yarpaq/üzgəc də mümkündür.
 - **#14 sol forma:** nazik, **əyri**, altda **qarmaq**; rəngi açıq bej-zeytunu.
   Yanındakı quşla birlikdə **lələk** 🪶 ehtimalı ən uyğunudur.
+
+---
+
+## 2026-09-06 10:45Z — İtaliya fərziyyəsi kəmiyyətcə YOXLANDI və DÜŞDÜ
+
+İtaliyanın materik konturunu təxmini koordinatlardan qurdum (adalar xaric,
+uzunluq bərabərləşdirmək üçün x oxu cos42° ilə miqyaslandı), sonra eyni
+ölçmələri apardım:
+
+| | İtaliya (təxmini) | ölçülmüş siluet |
+|---|---|---|
+| uzanma | **2.03** | **2.90** |
+| **solidity** | **0.55** | **0.85** |
+| en/uzunluq, 10% | 0.40 | 0.20 |
+| 20% | 0.42 | 0.27 |
+| **30%** | 0.27 | **0.33** ← ən enli |
+| 60% | 0.15 | 0.25 |
+| 90% | 0.22 | 0.14 |
+
+Orta mütləq fərq **0.078** → **uyğun deyil**.
+
+**Həlledici göstərici solidity-dir: 0.55 vs 0.85.** Mənim İtaliya konturum
+təxminidir, amma bu qədər böyük fərqi təxminilik yarada bilməz — İtaliyanın
+"çəkmə" forması daban ilə burun arasındakı dərin oyuq səbəbindən **çox
+qabarıqsızdır**.
+
+### ★ Bundan çıxan ümumi nəticə (faydalı daralma)
+
+**Ölkə xəritələrinin solidity-si aşağı olur** — sahil xətti qırıq-qırıqdır,
+körfəzlər və yarımadalar konveks örtükdən böyük sahə çıxarır. Tipik dəyər
+0.5–0.7.
+
+Bizim siluetin solidity-si **0.85**-dir — yəni **hamar, az girintili** formadır.
+→ **Bu, böyük ehtimalla ümumiyyətlə XƏRİTƏ DEYİL.** Afrika (ölçmə ilə),
+İtaliya (indi) düşdü; eyni səbəblə digər ölkə xəritələri də çətin ki uysun.
+
+Daha uyğun sinif: **hamar təbii və ya süni obyekt** — çəkmə, fıstıq, keqli,
+quş, butulka, balqabaq, damcı. (Uzanma 2.9, solidity 0.85, iki lob + bel.)
