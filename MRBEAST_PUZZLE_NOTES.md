@@ -5590,3 +5590,20 @@ Bu, xüsusi çəkilmiş klip-artdır.
 
 → **Sarı üz + güclü mavi göz yaşı + tünd açıq ağız.** 😂 **ölçmə ilə təsdiqləndi**
 (mavi göz yaşı b\* −21 — bu, ən güclü rəng siqnallarından biridir).
+
+---
+
+## 2026-09-06 08:30Z — "I VII" kartının şəkli: ÜÇÜNCÜ bucaqda da açılmır (bağlandı)
+
+Ofis bucağının **fərqli örtüşməsi** ola bilər ki, h803-də gizli qalan şəkli
+açsın deyə yoxladım. İki ofis kadrında (lövbər t=13.6 və t=19.9) yuxarı qutunu
+15× böyütdüm (`OFFTOP_anchor.png`, `OFFTOP_t19.png`).
+
+**Açılmır.** Ofis bucağında yuxarı qutu daha uzaqdadır və kartlar daha kiçikdir;
+üstəlik örtüşmə fərqli olsa da, "I VII" kartının şəkil sahəsi yenə qonşu kartın
+altında qalır.
+
+→ **"I VII" kartının şəkli üç müstəqil bucaqda da görünmür. Bağlayıram.**
+(15 parçadan biri həmişəlik şəkilsiz qalır — bu, hər hansı "hər şəkil bir hərf"
+modeli üçün ciddi məhdudiyyətdir: bir hərf heç vaxt birbaşa oxunmayacaq,
+yalnız qalanlardan çıxarıla bilər.)
