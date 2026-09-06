@@ -10204,3 +10204,87 @@ narıncı saç; bir əli **yuxarı qaldırılıb (salamlayır)**, o biri əlind�
 tünd-qırmızı bir əşya var. ⇒ **Milad elfi / cırtdan** oxunuşu gücləndi.
 Namizədlər (≥11): `GARDEN GNOME`(11), `CHRISTMAS ELF`(12), `SANTAS HELPER`(12),
 `ELF ON THE SHELF`(13).
+
+## 2026-09-06 ~22:5xZ — DÜZƏLDİLMİŞ RƏQƏMLƏRLƏ NAMİZƏD AD CƏDVƏLİ
+
+Süzgəc: `ad uzunluğu ≥ max(qırmızı, mavi)`. Hərflər mexanizmin özü ilə hesablanıb.
+
+| # | şəkil | q | m | namizəd ad | uzun | q-hərf | m-hərf |
+|---|---|---|---|---|---|---|---|
+| 1 | elf/cirtdan fiquru | 2 | 11 | `garden gnome` | 11 | **A** | **E** |
+| 1 | elf/cirtdan fiquru | 2 | 11 | `christmas elf` | 12 | **H** | **L** |
+| 1 | elf/cirtdan fiquru | 2 | 11 | `santas helper` | 12 | **A** | **E** |
+| 1 | elf/cirtdan fiquru | 2 | 11 | `elf on the shelf` | 13 | **L** | **E** |
+| 1 | elf/cirtdan fiquru | 2 | 11 | `lawn ornament` | 12 | **A** | **N** |
+| **2** | sekli gizli | 7 | 1 | — | | | |
+| 3 | barmaqlikli pencere/qefes | ? | ? | `birdcage` | 8 | **?** | **?** |
+| 3 | barmaqlikli pencere/qefes | ? | ? | `jail cell` | 8 | **?** | **?** |
+| 3 | barmaqlikli pencere/qefes | ? | ? | `prison bars` | 10 | **?** | **?** |
+| 3 | barmaqlikli pencere/qefes | ? | ? | `iron gate` | 8 | **?** | **?** |
+| 3 | barmaqlikli pencere/qefes | ? | ? | `picket fence` | 11 | **?** | **?** |
+| 3 | barmaqlikli pencere/qefes | ? | ? | `barred window` | 12 | **?** | **?** |
+| 3 | barmaqlikli pencere/qefes | ? | ? | `portcullis` | 10 | **?** | **?** |
+| 4 | asagi ox + sutun diaqrami | 8 | 9 | `chart decreasing` | 15 | **C** | **R** |
+| 4 | asagi ox + sutun diaqrami | 8 | 9 | `down arrow` | 9 | **O** | **W** |
+| 4 | asagi ox + sutun diaqrami | 8 | 9 | `bear market` | 10 | **K** | **E** |
+| 4 | asagi ox + sutun diaqrami | 8 | 9 | `stock market` | 11 | **R** | **K** |
+| 4 | asagi ox + sutun diaqrami | 8 | 9 | `downward trend` | 13 | **D** | **T** |
+| 5 | bant | 5 | 7 | `butterfly` | 9 | **E** | **F** |
+| 5 | bant | 5 | 7 | `pretzel` | 7 | **Z** | **L** |
+| 5 | bant | 5 | 7 | `hair bow` | 7 | **B** | **W** |
+| 5 | bant | 5 | 7 | `gift bow` | 7 | **B** | **W** |
+| 5 | bant | 5 | 7 | `bowknot` | 7 | **N** | **T** |
+| 5 | bant | 5 | 7 | `reminder ribbon` | 14 | **N** | **E** |
+| 6 | kirmizi-qehveyi duzbucaq | 6 | 8 | `chocolate bar` | 12 | **L** | **T** |
+| 6 | kirmizi-qehveyi duzbucaq | 6 | 8 | `closed book` | 10 | **D** | **O** |
+| 6 | kirmizi-qehveyi duzbucaq | 6 | 8 | `credit card` | 10 | **T** | **A** |
+| 6 | kirmizi-qehveyi duzbucaq | 6 | 8 | `notebook` | 8 | **O** | **K** |
+| 6 | kirmizi-qehveyi duzbucaq | 6 | 8 | `red carpet` | 9 | **R** | **E** |
+| 6 | kirmizi-qehveyi duzbucaq | 6 | 8 | `candy bar` | 8 | **B** | **R** |
+| 7 | spiral teqvim 25 | 2 | 4 | `calendar` | 8 | **A** | **E** |
+| 7 | spiral teqvim 25 | 2 | 4 | `spiral calendar` | 14 | **P** | **R** |
+| 7 | spiral teqvim 25 | 2 | 4 | `desk calendar` | 12 | **E** | **K** |
+| 7 | spiral teqvim 25 | 2 | 4 | `tear off calendar` | 15 | **E** | **R** |
+| **8** | paz + hundur obyekt | 6 | 6 | — | | | |
+| 9 | sevinc uzu | 10 | 14 | `face with tears of joy` | 18 | **E** | **O** |
+| 9 | sevinc uzu | 10 | 14 | `crying laughing face` | 18 | **G** | **G** |
+| 9 | sevinc uzu | 10 | 14 | `tears of joy emoji` | 15 | **Y** | **J** |
+| 10 | oval + kecel qartal | 8 | 9 | `eagle rock` | 9 | **C** | **K** |
+| 10 | oval + kecel qartal | 8 | 9 | `rock eagle` | 9 | **L** | **E** |
+| 10 | oval + kecel qartal | 8 | 9 | `bald eagle` | 9 | **L** | **E** |
+| 10 | oval + kecel qartal | 8 | 9 | `american football` | 16 | **N** | **F** |
+| 11 | Oman bayragi | 6 | 5 | `flag oman` | 8 | **M** | **O** |
+| 11 | Oman bayragi | 6 | 5 | `flag of oman` | 10 | **F** | **O** |
+| 11 | Oman bayragi | 6 | 5 | `sultanate of oman` | 15 | **N** | **A** |
+| 11 | Oman bayragi | 6 | 5 | `muscat oman` | 10 | **T** | **A** |
+| 12 | siluet + dibcekli bitki | 4 | 8 | `african violet` | 13 | **I** | **V** |
+| 12 | siluet + dibcekli bitki | 4 | 8 | `potted plant` | 11 | **T** | **L** |
+| 12 | siluet + dibcekli bitki | 4 | 8 | `spider plant` | 11 | **D** | **L** |
+| 12 | siluet + dibcekli bitki | 4 | 8 | `globe showing europe africa` | 24 | **B** | **O** |
+| 13 | qar buludu | 9 | 5 | `cloud with snow` | 13 | **H** | **D** |
+| 13 | qar buludu | 9 | 5 | `snow cloud` | 9 | **D** | **C** |
+| 13 | qar buludu | 9 | 5 | ~~snowfall~~ | 8 | RƏDD | RƏDD |
+| 13 | qar buludu | 9 | 5 | `snowstorm` | 9 | **M** | **S** |
+| 14 | ABS bayragi + tovle | 7 | 4 | `american barn` | 12 | **A** | **R** |
+| 14 | ABS bayragi + tovle | 7 | 4 | `american gothic` | 14 | **A** | **R** |
+| 14 | ABS bayragi + tovle | 7 | 4 | `american farm` | 12 | **A** | **R** |
+| 14 | ABS bayragi + tovle | 7 | 4 | `flag united states` | 16 | **I** | **G** |
+| 14 | ABS bayragi + tovle | 7 | 4 | `old macdonald` | 12 | **D** | **M** |
+| **15** | tund kertikli forma | ? | ? | — | | | |
+
+### Cədvəldən çıxan üç möhkəm nəticə
+1. **Kart 14 → qırmızı `A`, mavi `R`** — `american barn`, `american gothic`,
+   `american farm` — **üçü də eyni hərfləri verir**, çünki 7 və 4 «AMERICAN»
+   sözünün içinə düşür. Ad tam bilinməsə də hərflər sabitdir.
+2. **Kart 11 → mavi `O`** — həm `flag oman`, həm `flag of oman` üçün.
+3. **Kart 1 → qırmızı `A`, mavi `E`** — `garden gnome`(11) və `santas helper`(12)
+   müstəqil olaraq eyni cütü verir.
+
+⇒ Ehtimallı qırmızı hərflər: **A(1) · E(5) · E(9) · M(11) · H(13) · A(14)**
+⇒ Ehtimallı mavi hərflər: **E(1) · F(5) · O(9) · O(11) · D(13) · R(14)**
+
+### ⚠ Adlar yalnız CLDR emoji adları OLA BİLMƏZ
+Kart 14-ün ikinci şəkli **tövlədir** — emoji yoxdur. Kart 1-in fiquru üçün də
+≥11 hərflik CLDR adı yoxdur (`elf`=3, `Santa Claus`=10). ⇒ Şəkillərin bir hissəsi
+**klipart**, adlar isə **təbii adlardır** — GC8-dəki kimi (`AMERICAN CHEESE`,
+`CENTER ICE`, `DALLAS MAVERICKS`).
