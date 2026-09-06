@@ -3773,3 +3773,29 @@ təxminən 1/10-dur — yəni tək başına güclü deyil.
 * Masa vərəqləri: (6) + (9) = 15 hərf, boşluqsuz.
 İkisi də **eyni forma** proqnozlaşdırır: boşluqsuz 15 hərf. Bu, ikisinin
 eyni tapmacanın iki üzü olması ehtimalını artırır — amma sübut etmir.
+
+## 06.09.2026 ~05:45Z — MASA VƏRƏQLƏRİ 49 KADRLIQ YIĞIMLA QƏTİLƏŞDİRİLDİ
+
+Masa planı üçün homoqrafiya keşini yenidən qurdum. **Əvvəlki cəhd səhv çıxmışdı:**
+`homo.py`-a kontekst pəncərəsini vergüllə vermişdim (`700,730,1600,1080`), alət isə
+**dörd ayrı arqument** gözləyir — ona görə sükutla öz standart pəncərəsinə
+(`1400,150,1920,1080`) düşmüşdü və bütün bölgələr "EMPTY" qayıtmışdı.
+Boşluqla verdim → düzgün keş (`hdesk2b.npz`, 49 kadr).
+
+49 kadrlıq maskalı median yığımla hər iki vərəq **qəti oxundu** (tək kadrla eyni,
+yəni oxunuş təsdiqləndi):
+```
+MAVİ:    (3 6 4)   (4 4 4 5)          QIRMIZI:  (5 2 7)
+              ↘      ↙                              ↓
+                (6 6)                          (8 3 5 4 4)
+                  ↓                                 ↓
+                 (6)                            M̶R̶ (9)
+```
+Qırmızı vərəqin son sətrini ayrıca böyütdüm (`MR_zoom.png`): qırmızı qələmlə
+yazılmış **"MR"** və üstündən **diaqonal xətt** çəkilib, sonra **"(9)"**.
+Yəni həll edən əvvəlcə "MR" yazıb, sonra ondan imtina edib.
+
+"$10,000!" vərəqində başqa heç nə yazılmayıb — yalnız bənövşəyi qələmlə
+"$10,000!" və qıvrım xətt.
+
+Üçüncü vərəqdə (`BIRDS_ccw.png`) yazı yoxdur — səpələnmiş **uçan quş siluetləri**.
