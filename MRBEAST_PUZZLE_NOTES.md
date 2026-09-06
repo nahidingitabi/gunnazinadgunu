@@ -5177,3 +5177,46 @@ Yan qeyd — **pəncərə** üçün yeni namizəd: 🗄️ **sənəd şkafı** (
 **iki üfüqi bölmə**). Şəkildə məhz qalın tünd çərçivə və üfüqi tirlə ayrılmış
 iki panel var. Otaq arxiv qutuları ilə doludur, mövzuya da uyğundur.
 Pəncərə (iki şüşəli) da hələ mümkündür.
+
+---
+
+## 2026-09-06 06:05Z — İki şəklin ölçülmüş rəng profili
+
+Hər ikisi üçün ağ balans **həmin kartın boş kağızına** görə quruldu, sonra Lab.
+
+### Fiqur (konki?) — yuxarıdan aşağı
+
+| y | L | a\* | b\* | oxunuş |
+|---|---|---|---|---|
+| 398–404 | 166→131 | **−0.9 … −2.3** | +1.5→+7.5 | zəif **yaşıla** meyilli — papaq |
+| 407–422 | ~137 | +3.3 … +5.0 | +5 … +10.5 | **bej/dəri** — üz və gövdə |
+| 425–431 | ~126 | **+6.1 … +6.8** | +8 … +9 | **qırmızı/çəhrayı** — alt paltar |
+| 434–437 | ~130 | +5.1 → −0.06 | +8 → +6 | neytral/yaşıla keçid |
+| 440–452 | 145–171 | ~+0.3 … +1.7 | +2 … +3 | solğun — ayaqlar |
+
+Yəni ardıcıllıq: **yaşılımtıl papaq → bej üz/gövdə → qırmızı alt → solğun ayaq**.
+(Papağın yaşılı **zəifdir**, a\* cəmi −2.3; parlaq yaşıl deyil.)
+
+### Oval (qartal kartında)
+
+| y | L | a\* | b\* |
+|---|---|---|---|
+| 832 | 125.8 | +2.25 | +6.26 |
+| 840 | 125.7 | +0.79 | **+11.08** |
+| 844 | 117.4 | +1.43 | **+11.57** |
+| 852 | 109.7 | +1.99 | +6.21 |
+| 860 | 108.5 | +1.81 | +6.82 |
+
+**a\* aşağıdır (+0.8…+2.3) — yəni qırmızı deyil. b\* isə kağızdan +5…+11.6
+yüksəkdir — yəni İSTİ/QƏHVƏYİ-SARI.** Yuxarısı daha işıqlı və sarı, aşağısı
+daha tünd.
+
+**Bu, "daş" oxunuşu ilə ziddiyyət təşkil edir**: 🪨 daş **bozdur** (b\* ≈ 0
+olmalıydı). Ölçülən isə açıq şəkildə istidir. Yəni ya cisim **qəhvəyi çəkilib**
+(kartof, çörək, amerikan futbolu, kokos kimi), ya da mənim ağ balansım hələ də
+volfram istiliyini tam kompensasiya etmir.
+
+**Nəzarət qeydi:** istinad kağızı elə həmin kartdan götürülüb, ona görə qalıq
+istilik hər iki sahədə eyni olmalıdır — bu, ölçmənin lehinədir, amma tək
+çəkilişdir. **İstifadəçi bunu "daş" kimi görür; mən onların oxunuşunu inkar
+etmirəm, sadəcə ölçünün nə dediyini yazıram.**
