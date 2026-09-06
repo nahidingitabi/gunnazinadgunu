@@ -106,4 +106,26 @@ deşifrəsi. 15 simvol. Zəif tərəfi: qeydin heç bir sətrinə uymur.
 
 Yapboz zənciri bağlananda bu siyahı **ehtimallar siyahısı olmaqdan çıxıb bir
 sətrə çevriləcək**. Onun üçün lazım olan tək şey qalıb: **şəkillərin dəqiq
-adları**. Ölçüləcək hər şey ölçülüb.
+adları**.
+
+---
+
+## 6) 2026-09-06 gecəsinin bu fayla təsiri
+
+Siyahının **özü dəyişmir** — yeni hərf çıxmadı. Amma üç şey dəyişdi:
+
+1. **Tarix sırası dəyişdi.** Təqvim parçası III·IV yox, **II·IV** oxunur
+   (nəzarəti keçən ölçmə) → **4 fevral**, yəni sıranın **başına** keçir.
+   Əgər hərflər tapılsa, sıralama bu yeni versiya ilə qurulmalıdır.
+2. **Şəkillər standart emoji dəsti DEYİL** — anbarın emojisi ümumiyyətlə yoxdur,
+   diaqramın rəngləri Noto ilə uyğun gəlmir, düz düzbucaq və qara siluet heç bir
+   emojiyə oxşamır. Deməli "emoji adının ilk hərfi" mexanizmi işləyə bilməz;
+   hərf qaydası varsa, **adi ingilis sözü** ilə işləməlidir (BARN, BUTTERFLY…).
+3. **Ölçmə ilə bir neçə etiket istisna olundu:** Afrika (siluet 32×11 px,
+   uzanma 2.9), boz daş (oval isti qəhvəyidir, iki bucaqda), kitab/kərpic
+   (düzbucaq tam bircins terrakottadır), Noto pəncərəsi (çərçivə isti deyil).
+
+Bir düzəliş: əvvəlki versiyada *"ölçüləcək hər şey ölçülüb"* yazmışdım.
+**Doğru deyil idi** — həmin gecə ölçülməmiş onlarla şey ölçüldü
+(rənglər, uzanmalar, kənar profilləri, üçüncü kamera bucağı).
+Detallar `MRBEAST_PUZZLE_NOTES.md`-dədir.
