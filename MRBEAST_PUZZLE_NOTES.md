@@ -9316,3 +9316,55 @@ Mexanizmi kod halında sabitləşdirdim ki, adlar gələn kimi cavab dərhal ç�
   sətirlər yenidən düzülməlidir.
 
 Bu, tapmacanın son addımını **mexaniki** edir: qalan yeganə giriş **15 ad** və **sıra**.
+
+---
+
+## 2026-09-06 17:1xZ — ★ MEXANİZM İLK DƏFƏ REAL İŞ GÖRDÜ: BİR NAMİZƏD RƏDD EDİLDİ
+
+### Namizəd necə yarandı
+
+34 006 şəhərlik bazada **uzunluğu 15/15 olan (şəhər, region) cütü CƏMİ BİRDİR**:
+**`Charlotte Amalie, U.S. Virgin Islands`** (CHARLOTTEAMALIE=15, USVIRGINISLANDS=15).
+Üstəlik onun **dəqiq bir eyni-hərf mövqeyi** var (12) — bizdə də **dəqiq bir kartda
+qırmızı = mavi** (8-ci kart, VI/VI). İki müstəqil uyğunluq.
+
+### ...və mexanizm onu öldürdü
+
+😂 kartı: qırmızı **X=10**, mavi **XIV=14**, ad `face with tears of joy`(18).
+`FACEWITHTEARSOFJOY`[10] = **E**, [14] = **O**.
+- Şəhərdə **E** var ✓
+- Regionda **O** var? — `USVIRGINISLANDS` → U,S,V,I,R,G,I,N,I,S,L,A,N,D,S — **YOXDUR** ✗
+
+⇒ **`Charlotte Amalie, U.S. Virgin Islands` RƏDD EDİLDİ.** Bu, mexanizmin ilk dəfə
+müstəqil bir iddianı kəsməsidir — və göstərir ki, alət işləyir.
+
+### Bundan çıxan iki hərf məhdudiyyəti
+
+Adlandırdığım iki kartdan (😂 və qar buludu) alınan hərflər **bütün namizədləri**
+süzür:
+- **qırmızı sətirdə mütləq `E` və `H` olmalıdır**
+- **mavi sətirdə mütləq `O` və `D` olmalıdır**
+
+297 bərabər-uzunluqlu cütdən yalnız **17-si** keçir — və **demək olar hamısı Britaniya**
+şəhərləridir (çünki `UNITED KINGDOM` həm O, həm D daşıyır):
+`Southend-on-Sea` · `Wolverhampton` · `Middlesbrough` · `Great Yarmouth` ·
+`Littlehampton` · `Merthyr Tydfil` · `Northallerton` … (hamısı **N=13**).
+
+### ⚠ Amma bu, "cavab şəhər+ölkədir" fərziyyəsini də sarsıdır
+
+Süzgəcdən keçən **heç bir N=15 cütü qalmadı** (yeganəsi rədd olundu), halbuki
+parça sayı və forma sahəsi **15** deyir. Bu, köhnə ovun sübutu ilə birləşəndə —
+oradakı **meta-cavab yer adı deyil, seyf kodu idi** — daha ehtiyatlı çərçivə tələb edir:
+
+> **Ehtiyatlı çərçivə:** qırmızı 15 hərf, mavi 15 hərf verir. Bunlardan **biri**
+> (və ya ikisinin birləşməsi) 15 simvolluq cavabdır. **Şəhər+ölkə olması artıq
+> fərziyyədir, tələb deyil.** GC8-də belə idi, çünki O TAPMACANIN cavabı yer idi.
+
+### Hazırkı təsdiqlənmiş hərflər
+
+| kart | ad | qırmızı hərf | mavi hərf |
+|---|---|---|---|
+| 😂 | `face with tears of joy` | **E** | **O** |
+| qar buludu | `cloud with snow` | **H** | **D** |
+
+Qalan 13 kart adlandırılmalıdır.
