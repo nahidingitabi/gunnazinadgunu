@@ -6072,3 +6072,85 @@ təxmin kimi işarələnir.
 oxşarlıq ölçüləri işləmir**. İşləyən yalnız **birbaşa ölçmələrdir**:
 kartın öz kağızına nisbətdə rəng, maska çəkilib yoxlanmış forma ölçüsü,
 en profili. Onlar da **adı vermir** — yalnız namizədləri istisna edir.
+
+---
+
+## Rəqəmləri yenidən yoxlama — nəzarətindən keçən İLK oxuyucu
+
+Təqvimin `III → II` düzəlişi göstərdi ki, **dəyər səhv ola bilər**. 12 dəyərdən
+10-u köhnə üsullarla oxunmuşdu, ona görə hamısını yenidən yoxladım.
+
+### Üsul: eyni rəqəmi İKİ müstəqil ölçü ilə oxumaq
+
+**(a) Ləkə sayı və eni.** Hər hərf adətən öz mürəkkəb ləkəsidir: `I` ən dar,
+`V` və `X` təxminən üç dəfə enli. Ölçü sabit deyil — eyni rəqəmin ən dar
+ləkəsinə görə hesablanır, ona görə miqyasdan asılı deyil.
+
+**(b) Ştrix imzası.** Rəqəmin **üst / orta / alt** üçdə birindən keçən şaquli
+ştrixlərin sayı:
+
+```
+I = 1/1/1      V = 2/2/1      X = 2/1/2
+```
+
+Rəqəmin imzası hərflərinin cəmidir. Orta zolaq vacibdir: onsuz `II` ilə `X`
+ayırd edilmir (ikisi də 2/2), çünki `X` ortada bir nöqtəyə yığılır, `II` yox.
+
+**Kod açması:** `n_I` dar və `k` enli ləkə varsa,
+`MID = n_I + 2·n_V + n_X` və `n_V + n_X = k`, deməli **`n_V = MID − n_I − k`**.
+Sonra `TOP` mütləq `n_I + 2k` olmalıdır — **uyğunluq yoxlaması** budur.
+İki ölçü uyğun gəlmirsə rəqəm `UNRESOLVED` yazılır, dəyər verilmir.
+
+### Nəzarət — keçdi
+
+ABŞ bayrağı kartı (yeganə kart ki, hərfləri ayrılır):
+
+```
+QIRMIZI  3 ləkə e=[9.9, 3.6, 4.1]  slots=WII  peaks 4/4/3  ->  VII   ✓
+MAVİ     2 ləkə e=[3.2, 9.8]       slots=IW   peaks 3/3/2  ->  IV    ✓
+```
+
+`3/3/2` imzası həm `IV`, həm `VI` deməkdir; **sıra testi** ayırır — alt zolaqda
+`I` üst zolaqdakı bir zirvə ilə üst-üstə düşür, `V`-nin ucu isə iki zirvənin
+**arasına** düşür. Nəticə `IW` = **IV**. Doğru.
+
+Bu, ovda **nəzarətindən keçən ilk təsnifatçıdır**. Səbəbi aydındır: bu bir
+təsnifatçı deyil — **birbaşa ölçmədir** (ştrix sayılır, şablona
+oxşadılmır). 11 uğursuz təsnifatçının nümunəsi pozulmur, təsdiqlənir.
+
+### Ölçülmüş hədd: yalnız 9-cu kartın hərfləri ayrılır
+
+Qalan bütün kartlarda rəqəmin hərfləri **bir ləkəyə birləşir** (məs. qar
+buludu: mavi ləkə 12.9×16.1 px — bütöv rəqəm, tək hərf yox). Deməli
+**hərf saymaq yalnız 9-cu kartda mümkündür**; bu, rəqəmlər üçün ayırdetmə
+həddinin rəqəmlə ifadəsidir.
+
+### 12 dəyər yenidən baxıldı — hamısı uyğundur
+
+`tools/pieces/numsheet.py` → **`NUMSHEET.png`**: hər kart 10× Lanczos,
+öz kağızına görə ağ balansı, aşkarlanan ləkələr çərçivəyə alınmış.
+Bu görüntüdə **12 rəqəmin hamısı oxunur və əvvəlki dəyərlərlə üst-üstə düşür**,
+o cümlədən təqvimin **`II`**-si — yəni düzəliş bir daha təsdiqləndi.
+
+Səhv `III` oxunuşu bu üsuldan gəlməmişdi: o, **şəbəkəsiz genişləndirilmiş
+kəsikdə blankın çap olunmuş xətlərini** ölçməkdən gəlmişdi.
+
+### 13 və 14 — rəqəmləri REF803-də görünmür
+
+- **13**: kart yuxarıdan və aşağıdan qonşu kartlarla örtülüb; yalnız şəkli görünür.
+- **14**: bu kadrda hərəkət bulanıqlığı var.
+
+Deməli 3 oxunmamış mövqe **hələ də oxunmamışdır** — yeni dəyər yoxdur.
+
+### ★ Maska yoxlaması növbəti səhv ölçməni tutdu (3-cü dəfə)
+
+13-cü kartın şəklini düzləndirib (`rect1.py`) sətir/sütun profilini ölçdüm:
+`en/hündürlük 2.81`, üfüqi elementlər `10/48/69/85%`-də. Sonra `maskchk.py`
+ilə **ölçdüyüm maskanı çəkdim** → ən böyük tünd komponent **şəkil deyil**,
+**kartın öz kənar kölgəsidir** (sağda və aşağıda L-şəkilli zolaq).
+
+**Bu rəqəmləri geri götürürəm.** Qayda bir daha təsdiqləndi: *ölçdüyünü çək.*
+
+13-cü şəkil haqqında proyeksiyadan asılı olmayan yeganə faktlar dəyişmir:
+qapalı düzbucaqlı kontur, **təxminən ortada bir üfüqi ayırıcı**, iki açıq
+panel, təxminən 2:1 uzunsov, mürəkkəbi kağızdan **soyuq** (b\* −5.8…−8.1).
