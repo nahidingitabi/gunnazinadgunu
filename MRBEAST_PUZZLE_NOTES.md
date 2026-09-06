@@ -4592,3 +4592,36 @@ yuxarı sağ boşdur. Bu kartda bir rəqəm ~6×8 doğma pikseldir.
 **Ümumi dərs (üçüncü dəfə təsdiqləndi):** IBP-də aşağı ayırdetmə şəbəkəsi
 parçanın **doğma piksel ölçüsünə bərabər** olmalıdır. Böyük olsa küy artır,
 kiçik olsa məlumat itir. `canon/S ≈ dördbucağın piksel ölçüsü`.
+
+---
+
+## 2026-09-06 03:10Z — Şəkillərin ən yaxşı atlası (`PICTURES_ONLY.png`, 20×)
+
+Xam kadr + koordinat şəbəkəsi (`TOPBOX_grid.png`) ilə hər şəklin dəqiq yerini
+çıxardım, sonra 20× Lanczos + kartın öz kağızına görə ağ balans + yumşaq xroma.
+17 şəkil. `tools/pieces/PICTURES_ONLY.png`.
+
+### Bu render ilə TƏSDİQLƏNƏNLƏR
+| # | şəkil | vəziyyət |
+|---|---|---|
+| 5 | **kəpənək** 🦋 | dörd qanad + bığcıqlar — şübhəsiz |
+| 11 | **anbar** — boz damlı qırmızı tövlə, üstündə kiçik qüllə (cupola), ağ qapılar | şübhəsiz |
+| 14 | **keçəl qartal** — tünd bədən, ağ baş, əyri dimdik | şübhəsiz |
+| 15 | **Oman bayrağı** | şübhəsiz |
+| 2 | **pəncərə** — qalın tünd çərçivə, iki şüşə gözü | çox güman |
+| 12 | **😂** — sarı üz, qıyılmış gözlər, açıq gülən ağız, **iki mavi göz yaşı axını** | təsdiqləndi |
+| 3+4 | **⬇ aşağı ox** + **📊 sütun diaqramı** (bənövşəyi, sarı, yaşıl — artan) | təsdiqləndi |
+
+### HƏLƏ ADSIZ
+- **#1 fiqur**: tünd yaşıl konusvari papaq → çəhrayı zolaq → yumru baş → bej
+  gövdə → tünd bordo uzun paltar → solğun ayaqlar → **iki qara təkər**.
+  Aşağıda açıq rəngli çəkmə + iki qara təkər aydın görünür → **rolikli konki**
+  ola bilər. Amma yaşıl konusvari papaq buna uyğun gəlmir (elf? cırtdan? sehrbaz?).
+- **#6 qırmızı-qəhvəyi düzbucaq** 22×47 px, nisbət 2.1; solda nazik açıq kənar.
+  Kitab? Qapı? Şokolad? Kərpic?
+- **#8 təqvimdəki işarə**: iki tünd kütlə yuxarıda, aşağı sola enən əyri və qarmaq.
+  "25" ola bilər, "&" də ola bilər.
+- **#9 iki uzun obyekt**: tünd tünd-göy (yuxarısı iti) + açıq mavi/ağ (yuxarı və
+  aşağı **çəhrayı zolaq**, yuxarıda firuzəyi ləkə, içində tünd şaquli zolaqlar).
+- **#13 oval**: qəhvəyi-boz oval, ortasında qızılı ləkə. Daş? Amerikan futbolu?
+- **#16 siluet** (uzanma 2.9) və **#17 yaşıl bitki** (dik yarpaqlı dəstə).
