@@ -5018,3 +5018,34 @@ Bu, **yoxlanmamış yeni istiqamətdir**. Üstünlüyü: tarix modelindən asıl
 oxunmayan 3 parçanın rəqəmlərinə ehtiyac yoxdur — yalnız kənarların formasına.
 Çətinliyi: kartlar 50×70 pikseldir, və qonşu kartlar üst-üstə düşür, ona görə
 kənarların bir hissəsi görünmür.
+
+---
+
+## 2026-09-06 05:20Z — Şəkil ⟷ emoji yan-yana müqayisə (`EMOCMP.png`)
+
+Noto Color Emoji şrifti ilə namizəd emojiləri eyni ölçüdə render edib hər adsız
+şəklin **yanına** qoydum. **Bu avtomatik uyğunlaşdırıcı DEYİL** — bu ovda
+7 avtomatik uyğunlaşdırıcı nəzarətindən keçməyib. Bu, sadəcə gözlə müqayisə
+üçün vərəqdir. Alət: `tools/pieces/emocmp.py`.
+
+### Müqayisədən çıxan qeydlər (heç biri qəti deyil)
+
+- **oval**: 🌰 şabalıd (tünd qəhvəyi üst + açıq alt) və 🥔 kartof ən yaxındır;
+  🪨 daş **boz**dur, şəkil isə qəhvəyi-qızılıdır → daş ehtimalı zəiflədi.
+  🥥 kokosun içi ağdır, şəkildə isə qızılı.
+- **iki obyekt**: 🖊 qələm (tünd göy + gümüşü) rəng baxımından yaxındır.
+  🥢 çubuqlar çox nazikdir. Şəkildəki obyektlər enlidir.
+- **yaşıl bitki**: 🌿 və 🌾 ən yaxındır (dik, şüalanan yarpaqlar).
+- **fiqur**: heç biri tam oturmur. 🧙 (şiş papaq) və 🪆 (yumru gövdə, üz) qismən.
+  Şəkildə papaq **tünd yaşıl/zeytunu**, gövdə bej, alt hissə tünd bordo.
+
+### ★ Vacib müşahidə: bəzi şəkillər **emoji olmaya bilər**
+
+- **düz qırmızı-bordo düzbucaq** heç bir emojiyə oxşamır: 📕-də səhifələr görünür,
+  🚪-da dəstək var, 🧱-də tikiş xətləri, 🧧-da qızıl naxış, 🎴-də ağ dairə.
+  Şəkildəki düzbucaq **tamamilə düzdür** — naxışsız.
+- **qara siluet** də rəngsizdir; emojilər rənglidir.
+
+Deməli "hər şəkil bir emojidir, adının ilk hərfini götür" modeli **hamısı üçün
+işləməyə bilər**. Bəzi şəkillər sadə klip-art forma ola bilər (xəritə, rəng
+ləkəsi, həndəsi fiqur). Bunu modeldə nəzərə almaq lazımdır.
