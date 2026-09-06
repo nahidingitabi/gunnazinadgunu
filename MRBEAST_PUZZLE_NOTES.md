@@ -11243,3 +11243,24 @@ Təsadüf ehtimalı yoxdur: 27 hərfin hamısı eyni anda oturur.
 
 ★ Mənim **rəng ölçmüm haqlı çıxdı**: icma bu parçanı «red square» adlandırırdı,
 mən ölçüb «brown» dedim — düzgün növ **Brown boobook**dur.
+
+## ⚠ Qırmızı yarımı MÜSTƏQİL YOXLAYA BİLMƏDİM (dürüst qeyd)
+
+Yapboz **BIRDS OF AMERICA** verir — bu şübhəsizdir. Deməli növbəti addım Audubon-un
+lövhələridir. Bütün 435 lövhəni **Audubon-un ORİJİNAL adları ilə** əldə etdim
+(`tools/pieces/audubon_plates.json`; adlar həqiqətən köhnədir: «Towee Bunting»,
+«Wood Ibiss», «Kildeer Plover», «Uria Brunnichi» — narıncı stikerin «Books w/ **old
+names**» yazısı ilə uyğun).
+
+Çəhrayı vərəqin iki icma transkripsiyasını sınadım (`tools/pieces/audubon.py`):
+- A → `WEARRGR?AUDIOWERNC?DACB`
+- B → `WANYARGL?DUOIEWNE?CADBC`
+
+**MRBEASTSAND alınmır.** Amma bu, icma marşrutunu təkzib etmir — transkripsiyanın
+özü səhvdir: iki sətir **mümkünsüzdür** (lövhə 83 «House Wren» 9 hərfdir, rəqəm XI;
+lövhə 253 «Jager» 5 hərfdir, rəqəm XIV). Transkripsiya X-dəki lövhə şəklindən
+götürülüb və həmin lövhənin başqa yerlərində də transkripsiya səhvləri aşkarlanmışdı.
+
+⇒ **Vəziyyət:** yapboz mərhələsini özüm tam yoxladım (27/27 hərf). Audubon mərhələsini
+yoxlaya bilmirəm, çünki çəhrayı vərəqi videodan oxuya bilmirəm (hər işarə ~2 px).
+Alət hazırdır: düzgün transkripsiya gələn kimi bir əmrlə yoxlanır.
