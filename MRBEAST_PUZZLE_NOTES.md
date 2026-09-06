@@ -6232,3 +6232,129 @@ açıq ləkə** 🪨 emojisinin işıq düşən üzünə uyğundur.
 və gülən üz (#12) tapılıb. **Daş çox güman elə budur — #14-ün sol formasıdır.**
 Tək gərginlik: 2.63 uzanma əksər vendorların çəkdiyi daşdan uzundur. Köhnə
 «boz daş deyil» sətri yalnız **rəngə** əsaslanırdı və indi zəifləyir.
+
+## 06.09.2026 ~04:30Z — "15 SİMVOL" MÜSTƏQİL OLARAQ TƏKRAR ÖLÇÜLDÜ
+
+Bu fakt bütün qalan mühakimənin altında dayandığı üçün onu sıfırdan yenidən
+ölçdüm — və az qala səhv nəticə çıxaracaqdım.
+
+Videonun sonunda (t≈1046–1047.4) ekranda forma göstərilir və cavab **yazılır**;
+sahə hərfləri ulduzla maskalayır. Yazı **animasiyalıdır** — ulduz sayı artır.
+Bir aralıq kadrda saydım: **13**. Əgər orada dayansaydım, "cavab 13 simvoldur"
+deyəcəkdim (və bu, "13 parça / (3 6 4) = 13 hərf" ilə cazibədar şəkildə
+uyğun gəlirdi).
+
+Bütün planı kadr-kadr taradım (`t=1045.8…1047.7`, addım 1/30 s), hər kadrda
+ulduz mərkəzlərini ölçdüm və addımı çıxardım:
+```
+addım (pitch) = 45.75 px  (sabit)
+t=1046.84  ilk 610  son 1161  → 13
+t=1046.91  ilk 611  son 1206  → 14
+t=1046.97  ilk 612  son 1250  → 15   ← sabitləşir
+…13 kadr boyu 15 olaraq qalır, sonra plan kəsilir
+```
+→ **Cavab 15 simvoldur.** Əvvəlki sessiyanın ölçümü (addım ≈45.7 px) təsdiqləndi,
+indi isə həm də **sabitləşən kadrdan**, aralıq kadrdan yox.
+
+Dərs: animasiyalı yazıda "ən kəskin kadr" ≠ "son kadr". Sayımı hərəkət bitəndən
+sonrakı platoda etmək lazımdır.
+
+## 06.09.2026 ~04:35Z — 4K ÜÇÜN BİR ƏMRLİK BORU XƏTTİ HAZIRDIR
+
+`tools/pieces/pipe4k.py CLIPID T0 T1 [OUT]` — yeni klip gələn kimi:
+1. aralıqdakı **ən kəskin kadrı** seçir (referens),
+2. bütün plan üçün homoqrafiya keşi qurur,
+3. referens kadrda **bütün parça konturlarını avtomatik tapır**
+   (piksel sahəsi həlledicilik dərəcəsinə görə miqyaslanır — 4K-da da işləyir),
+4. hər parçanı ayrıca super-rezolyusiya edir,
+5. `OUT/ATLAS.png` yazır: hər parça, xam və kontrastı açılmış, yanaşı.
+
+1080p klipdə uçdan-uca sınadım: **11 parça avtomatik tapıldı və emal olundu**.
+Yəni 4K gələn anda bütün parçalar bir əmrlə yenidən oxunacaq.
+Bütün alətlər `tools/pieces/`-ə köçürüldü (scratchpad sessiya ilə birlikdə itir).
+
+---
+
+## 2026-09-06 02:25Z — Xam kadr 16× lanczos, bütün IBP-dən yaxşıdır. İki düzəliş.
+
+Sadə bir şey sınadım: `REF803.png` (t=803.527 xam kadr) üzərində parçaları
+birbaşa **9–16× Lanczos** ilə böyüdüb ağ balansı kartın öz kağızına görə
+düzəltdim. Nəticə bütün super-ayırdetmə boru xəttimdən **daha oxunaqlıdır**.
+(Səbəb: IBP dördbucaq səhvinə çox həssasdır; xam böyütmə isə heç nə fərz etmir.)
+
+### Düzəliş 1 — "bant/fiyonk" əslində **KƏPƏNƏKDİR** 🦋
+
+`ZOOM_bow.png` (16×): dörd qanad (iki üst, iki alt), ortada **seqmentli gövdə**
+və yuxarı qalxan **iki bığcıq** aydın görünür. Bu bant deyil, **kəpənəkdir**.
+Əvvəlki qeydimdə "bant vs kəpənək — bant xeyrinə həll olundu" yazmışdım —
+**o səhv idi**, geri götürürəm. Rəqəmlər təsdiqləndi: qırmızı **V**, mavi **VII**
+→ 7 may.
+
+### Düzəliş 2 — "Afrika + Madaqaskar" **Afrika deyil**
+
+Qara siluetin uzanma nisbətini iki müstəqil yolla ölçdüm:
+- düzəldilmiş kanonda (656×1152): minAreaRect 505×170 → **elongation 2.97**
+- **əyilməmiş xam kadrda** (7× böyütmə): minAreaRect 224×75 → **elongation 2.99**
+
+Afrikanın siluetinin uzanma nisbəti **~1.05–1.15**-dir. Cənubi Amerika ~1.4,
+Hindistan ~1.15. Ölçülən 3.0 bunların **hamısını istisna edir**.
+solidity 0.83, doluluq 0.64, və ucunda **ayrıca kiçik ada** var.
+→ Etiketi "Afrika + Madaqaskar" kimi saxlamaq olmaz. **Adı bilinmir.**
+
+Həmçinin: `sp_afr.json`-un dördbucağı yalnız dartılmış deyil, **səhv yerdə idi** —
+[[1675.9,926.0]…] iki kartın **arasından** keçirdi. `allquads.py` ilə düzgün
+dördbucaqlar çıxarıldı:
+- silüet kartı: [[1697.0,910.2],[1753.1,954.2],[1726.9,987.4],[1670.9,943.4]] (42.3×71.3)
+- Oman kartı:  [[1644.5,889.1],[1705.1,924.9],[1684.5,959.9],[1623.9,924.1]] (40.7×70.4)
+
+### Təsdiqlənənlər (dəyişməyənlər)
+
+- **Oman bayrağı** — xam böyütmədə şübhəsizdir: qırmızı şaquli zolaq + xəncər
+  emblemi + ağ/qırmızı/yaşıl üfüqi zolaqlar. Qırmızı **VI**, mavi **V** → 5 iyun.
+- **"I VII" kartı** — xroma gücləndirildikdə: "I" **boz-mavi**, "VII" **qırmızı**.
+  Yəni qırmızı VII, mavi I → **1 iyul**. Cədvəl doğru idi.
+  (Yanındakı pəncərəli şəkil **başqa kartındır** — bu kartın öz şəkli gizlidir.)
+- **ABŞ bayrağı + anbar** — mavi IV yuxarıda, qırmızı VII aşağı solda → 4 iyul.
+- **Ox + sütun diaqramı** — aşağı yönəlmiş qara ox ⬇ + rəngli sütunlar 📊.
+- **Qar buludu**, **göz yaşlı gülən üz**, **təqvim "25"** — dəyişmədi.
+
+### Yeni artefaktlar
+`tools/pieces/PIECES_RAW803.png` (9×, bütün kart) və
+`tools/pieces/PICS_MAX.png` (15×, yalnız şəkil sahələri).
+
+### `axiscurve`-ə bir düzəliş: qövs ilə «bir ucu qarmaqlı» eyni deyil
+
+6-cı kartın tünd obyekti `bow +7.4%` verdi — «əyri» kimi. Amma sapmalara
+baxanda əyrilik **yalnız birinci iki bölmədən** gəlir, sonra düz plato:
+bu qövs deyil, **bir ucda qarmaqdır**. Nəzarət qövsündə iki uc bərabər sapır
+(−11.7 / −11.7). Ona görə `asym = |ilk uc − son uc|` əlavə edildi:
+
+```
+qövs                asym ≈ 0        → ARC (bütöv əyilir)
+bir ucu qarmaqlı    asym ≈ bow      → gövdə düz, bir ucu qarmaq
+```
+
+**6-cı kartın tünd obyektinin ölçüsü etibarsızdır** — maska iki obyekti
+birləşdirmişdi (maska panelində göründü). Geri götürürəm. Obyektlərin hər biri
+~8 px enindədir, yəni ayırdetmə həddindədir.
+
+**3-cü qara siluet, düzgün kəsiklə** (əvvəlki kəsik aşağıdan kəsilmişdi):
+`uzunluq 30.7 px · en 11.0 · uzanma 2.78 · solidity 0.82 · bow −5.6%, asym 1.3`
+→ **zəif, bütöv qövs** (nəzarət qövsünün ¼-i). 20× şəbəkəli görüntüdə
+(`Z03.png`): yuxarı-solda yumru kütlə → boyun → sağa doğru enlənən gövdə →
+aşağı-sola daralan quyruq, **sağda ~65%-də kiçik çıxıntı**.
+
+## 15-ci parça — rəqəmləri yenə oxunmur (yeni üsulla da)
+
+Ofis bucağında (t≈19.9) 26× və 34× böyütmə, kartın öz kağızına görə ağ balans,
+sonra **rəngə görə ayırma**: `a*` kağızdan yuxarı (qırmızı mürəkkəb) və `b*`
+kağızdan aşağı (mavi mürəkkəb) ayrıca göstərildi — `P15INK.png`.
+
+Solda gördüyüm solğun çəhrayı izlər **ştrix deyil**, yumşaq ləkədir. Qırmızı
+kanalda yalnız kağız toxuması var. **Nəticə dəyişmir: 15-ci parçanın rəqəmləri
+oxunmur** — indi bir müstəqil üsulla da təsdiqləndi (bu üsul bu karta əvvəl
+tətbiq olunmamışdı).
+
+**Şəkli isə əvvəlkindən aydındır** (`P15MAX.png`, 4 gücləndirmə səviyyəsi):
+yuxarı kənarında **ortada çuxur (iki yumru dilim)**, oradan aşağı daralır,
+altda yumru uc, aşağı-solda az qarmaq. Ölçü: uzanma 2.36, solidity 0.91.

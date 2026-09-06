@@ -34,8 +34,15 @@ def report(tag,mask):
     # difference; on a straight shape it is ~0.  This is what the controls set.
     mid=np.nanmean(offs[3:7]); end=np.nanmean([offs[0],offs[-1]])
     sag=mid-end
+    # An arc bends both ends the same way, so its two end offsets match; a shape
+    # with a hook at ONE end does not.  Without this the two look alike on 'bow'
+    # alone, and a hooked pen reads as an arc.
+    asym=abs(offs[0]-offs[-1])
+    v=('straight' if abs(sag)<=6 else
+       'ARC (bends as a whole)' if asym<0.45*abs(sag) else
+       'hook at ONE end, body straight')
     print(f'   {tag:22s} len={L:5.1f} wid={W:5.1f} elong={L/max(W,.1):4.2f}  '
-          f'bow={sag:+5.1f}%  {"CURVED" if abs(sag)>6 else "straight"}')
+          f'bow={sag:+5.1f}% asym={asym:4.1f}  {v}')
     print(f'   {"":22s} offsets ' + ' '.join(f'{x:+5.1f}' for x in offs))
 # --- synthetic controls at the real scale -------------------------------------
 for name,curve in (('CONTROL straight bar',0.0),('CONTROL arc (banana-like)',0.30)):
