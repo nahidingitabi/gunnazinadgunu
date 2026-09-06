@@ -6670,3 +6670,24 @@ solidity 0.91 · ən enli ~20%-də · uzanma 2.36 (kart əyilib — poza-invaria
 Bu, əvvəlki «paz/damcı» təsvirindən xeyli dəqiqdir. **Ürək deyil** (ürəkdə
 yanlar paralel olmur, 25%-dən aşağı davamlı daralır). **Diş deyil** (rəngi).
 Adı hələ verilmir.
+
+## Yenilənmiş lövhə: `BOARD2.png`
+
+15 parça **(qırmızı, mavi) sırası** ilə, hər birinin altında **ölçülənlər**.
+Ad yalnız qazanıldığı yerdə verilir; qalanları açıq işarələnir.
+
+```
+adı var (5) : 1 təqvim · 4 kəpənək · 5 Oman · 9 ABŞ+anbar · 10 ox+diaqram
+              11 qar buludu · 12 😂
+bu gecə (1) : 13 🗄️ kartoteka
+çox güman(1): 2 rolik konkidə fiqur
+açıq (5)    : 3 qara siluet · 6 iki nazik obyekt · 7 terrakota düzbucaq
+              14-ün sol kütləsi · 15 tünd çuxurlu forma
+heç vaxt(1) : 8 şəkil gizli
+```
+
+**Kəpənək haqqında dürüst qeyd:** bu ölçüdə forma **dörd qapalı ilmədir**.
+Kəpənəkdə arxa qanadlar ön qanadlardan kiçikdir — uyğun gəlir; bantda isə
+aşağıdakılar **açıq lent** olardı, qapalı ilmə yox. Ona görə kəpənək qalır,
+amma **«şübhəsiz» deyil, «çox güman»dır**. (Qeydlərimdə bu ad iki dəfə
+əks istiqamətdə dəyişib — indiki dayaq: dörd **qapalı** ilmə.)
