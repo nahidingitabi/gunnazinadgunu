@@ -6989,3 +6989,34 @@ qırılır** (DULUTH + 6 hərfli söz yoxdur). Forest isə üçünü də ödəyi
 * Formanın öz mətni: **çoxlu təxmin etmək olar**. Yəni namizədləri yoxlamaq ucuzdur.
 
 **Mən heç nə göndərmirəm** — bu sənin qərarındır.
+
+## Parçalar `(3 6 4)` cavabına BİRBAŞA uyğunlaşmır — ölçülə bilən ziddiyyət
+
+Əgər cavab `XXX XXXXXX XXXX` formasındadırsa, **4-cü və 11-ci simvollar
+BOŞLUQdur**. 15 parça 15 simvola bir-bir uyğun gəlirsə, həmin mövqelərdəki
+parçalar boşluq kodlamalıdır. İki mümkün sıralamanın hər ikisini yoxladım:
+
+```
+(qırmızı, mavi) sırası:   4-cü = KƏPƏNƏK       11-ci = QAR BULUDU
+(mavi, qırmızı) sırası:   4-cü = OMAN BAYRAĞI  11-ci = ROLİK FİQUR
+```
+
+**Heç biri boşluq deyil** — dördü də dolu, aydın şəkillərdir. Gizli şəkilli
+8-ci parça boş ola bilərdi, amma o, hər iki sıralamada 4 və 11-ci mövqeyə düşmür
+(sırasıyla 8-ci və 1-ci olur).
+
+Digər sətirlərlə də tutmur:
+```
+(4 4 4 5) → 17 hərf + 3 boşluq = 20 simvol   ≠ 15
+(6 6)     → 12 hərf + 1 boşluq = 13 simvol   ≠ 15
+(6)       →  6 simvol                        ≠ 15
+```
+
+### Nəticə (məntiqi, ölçülərə söykənir)
+
+**Ya cavabın `(3 6 4)` forması səhvdir, ya da 15 parça cavabın simvollarına
+sıra ilə bir-bir uyğun gəlmir.** Üçüncü variant yoxdur.
+
+Yəni parçalar çox güman **ayrı bir qatdır** — çıxışı ya aralıq sətirlərdən
+biridir, ya da tamam başqa şeydir (söz, marşrut, təsdiq). «Hər parça bir hərf»
+modelini artıq **sübut olunmuş kimi işlətmə**.
