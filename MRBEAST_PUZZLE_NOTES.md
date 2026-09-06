@@ -9368,3 +9368,30 @@ oradakı **meta-cavab yer adı deyil, seyf kodu idi** — daha ehtiyatlı çər�
 | qar buludu | `cloud with snow` | **H** | **D** |
 
 Qalan 13 kart adlandırılmalıdır.
+
+---
+
+## 2026-09-06 17:2xZ — 15-Cİ PARÇA DAHA YAXŞI GÖRÜNTÜDƏ + İNVENTAR TƏSDİQLƏNDİ
+
+`pink_index_sheet_A_full_*.png` kadrları (t≈16–22 s) **bütün ofisi** göstərir və sağdakı
+qutu yığını **REF803-dən fərqli bucaqdadır**. Bu bucaqdan bütün inventar yenidən sayıldı:
+
+**Nəticə: 15 kart — yeni kart YOXDUR.** (Yuxarı qutu: fiqur, sarı, pəncərə, diaqram;
+altında: bant, düzbucaq; sağda: qar; aşağıda: təqvim, iki obyekt, ABŞ+tövlə;
+alt qutu: 😂, daş+qartal, Oman, Afrika; ayrı taxta qutuda: **15-ci parça**.)
+Sol tərəfdə kart yoxdur (əvvəl də təsdiqlənmişdi).
+
+### 15-ci parçanın forması (ən kəskin kadr: t=19.8, `P15_BEST.png`, 20×)
+
+Ağ kartın üzərində **tünd, uzunsov forma**: yuxarısı enli və **ortadan çuxurlu
+(iki qabarıq)**, aşağıya doğru daralıb **sivri ucla** bitir. Solunda **solğun qırmızı
+rəqəm** var (oxunmur).
+
+Namizədlər (heç biri təsdiqlənməyib):
+- **ürək ♥** — amma forma ürək üçün çox dar/uzundur
+- **qalxan** / **pik ♠** (tərs) / **diş** / **mizrab** / **yarpaq** / **lələk**
+- ★ **Hindistanın silueti** — yuxarısı enli, cənuba doğru sivrilən. Afrika kartının
+  mövcudluğu ikinci qitə/ölkə siluetini **inandırıcı** edir.
+
+⇒ Bu kart və `daş + keçəl qartal` kartı — hər ikisinin rəqəmi oxunmur; **hər ikisi
+tünd siluet üslubundadır**.
