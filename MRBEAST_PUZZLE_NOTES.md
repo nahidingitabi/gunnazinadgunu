@@ -10362,3 +10362,31 @@ hərflərdən deyil, **adlardan** çıxır və adlar müstəqil təyin olunur.)
 verir, amma kart 14-də maska bütün karton səthini udur — karton ağ kağız qədər
 parlaqdır. ⇒ **1080p-də tam avtomatik kənar uyğunlaşdırması alınmır.**
 Ən yaxşı alət insan gözüdür (`EDGES_STACK.png` istifadəçidədir).
+
+## ✔ 2026-09-06 ~23:1xZ — «CAVAB 15 SİMVOLDUR» ÖLÇÜSÜ MÜSTƏQİL TƏSDİQLƏNDİ
+
+Bu ölçü bütün işin daşıyıcısıdır, ona görə sıfırdan yenidən ölçdüm.
+
+**Formanın dəqiq yeri:** `dd608937` klipi (offset 1008.3), **t = 1045.8 – 1047.8**
+(17:25.8 – 17:27.8). Yazma animasiyası **t = 1046.5 → 1047.4** arasında gedir,
+sonra ekran «Policy / SUBMIT» görünüşünə sürüşür. Kadrlar: `burst/` (78 kadr,
+`-ss 37.5 -t 2.6 -vsync 0`).
+
+**Üsul:** `g[500:585, 480:1250]` zolağında sütun proyeksiyası; işıq eşiyi
+86/88/90/92-ci faizlərdə ayrıca sınandı; yalnız **aralıqların std/orta < 0.12**
+olduğu (yəni həqiqətən nizamlı) sətirlər sayıldı.
+
+| kadr | t | eşik | ulduz | orta aralıq | std |
+|---|---|---|---|---|---|
+| 40 | 1047.13 | 88% | **15** | 44.8 | 2.37 |
+| 43 | 1047.23 | 88% | **15** | 44.7 | 2.05 |
+| 45 | 1047.30 | 86% | **15** | 44.3 | 2.30 |
+| 45 | 1047.30 | 88% | **15** | 44.6 | 1.89 |
+| 47 | 1047.37 | 86% | **15** | 44.5 | 1.92 |
+| 48 | 1047.40 | 86% | **15** | 44.3 | 1.91 |
+
+⇒ **Altı müstəqil (kadr, eşik) cütündə dəqiq 15 ulduz.** Daha aşağı eşiklərdə
+sayğac 16–21 verir, çünki ulduzun altı şüası ayrı-ayrı «qaçış» kimi bölünür —
+bu, nizamsız aralıq (std 10–40) ilə özünü büruzə verir və atılır.
+
+⇒ **Cavab 15 simvoldur** (əvvəlki ölçü təsdiqləndi; «16» oxunuşu səhv idi).
