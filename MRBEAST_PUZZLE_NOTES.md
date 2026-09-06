@@ -9217,3 +9217,48 @@ gəldiyi üçün seçirdim** — bu, dairəvi mühakimədir.
 
 **Qüvvədə qalan:** GC8-in orijinal qaydası — rəqəmlər **hərf indeksidir**, ad isə
 `max(qırmızı, mavi)`-dən uzun olmalıdır. Bu, hələ də bütün kartlarla uyğundur.
+
+---
+
+## 2026-09-06 16:4xZ — WORKFLOW-UN YOXLAMA AGENTLƏRİ: 6 İZ RƏDD OLDU, 1 TƏSDİQLƏNDİ
+
+Workflow-da hər tapıntı üçün **əks-yoxlama agenti** işlədi. Nəticələr:
+
+| iz | hökm | səbəb |
+|---|---|---|
+| Riddle #0-dakı **"View corrections" info-kartı** | **RƏDD** | Bu, YouTube-un **A/B eksperiment artefaktıdır**, `playabilityStatus: OK` olan **hər videoda** var. Müəllif qeydi deyil. |
+| Riddle #0-ın **əl ilə yüklənmiş altyazı trekı** | **RƏDD** | Metadata doğrudur (`.en-US`, `kind` yoxdur), amma $10k üçün əhəmiyyəti dörd müstəqil əsasla rədd olundu. |
+| Riddle #0-ın **"düymə ilə açılır"** izahı | **RƏDD** | Müəllifin öz yazılı bəyanatı: *"This is not part of the 10k puzzle."* |
+| **2018 videosunun 2026-da redaktəsi** (#-1 → #0 → #1) | **RƏDD (bölünmüş hökm)** | Sitat hərfi-hərfinə doğrudur, amma əhəmiyyəti yoxdur — ölü uc. |
+| `Bi1JgugJEw8` təsvirindəki **8 sözlük siyahı** (STANCES, CHIN, ARMCHAIR, FISHERMEN, TEMPERS, RIVALLED, REDWOOD, ITCH) | **RƏDD** | Transkripsiya dəqiq təsdiqləndi, amma $10k ilə əlaqəsi yoxdur (Paradox Puzzlehunt 2-yə aiddir). |
+| `XCOkRKUe3Nc` təsvirindəki **"$10,000 puzzle" sətri + 82CX6WULNA0 linki** | **TƏSDİQ** | Canlı oEmbed + canlı RSS ilə yoxlandı. ⇒ **Tapmaca MrBeast-in videosunun içindədir**, Colin-in videosunda yox. |
+
+### ★ Köhnə ovun GİRİŞ NAXIŞI tam sənədləşdirildi (və yeni ovda TƏKRARLANMIR)
+
+1. Teaser videosunun (`OBQELGS13XA`, 7 fev 2026) təsvirində playlist **düz mətn kimi yox,
+   `browseEndpoint` kimi** gizlədilmişdi: *"Missing a playlist? Use this one: • MILLION
+   DOLLAR PLAYLIST"* → `PLj-VLkYRjRxm5HVGFVpPP5W7jkvvzd1q7`.
+2. Playlist **siyahılardan gizlədilib (unlisted)**, sahibi **@MrBeast2** — yəni
+   `82CX6WULNA0`-ı yerləşdirən **eyni kanal**. 9 video, təsviri boş.
+3. Doqquz videonun **hamısının sancılmış şərhi** `BeastForce67` adlı şəkil hostlarına
+   link verir.
+
+⚠ **Qeydlərimizdə DÜZƏLİŞ:** bizdə həmin linklərin yalnız **7-si** var idi; əslində **9**-dur.
+Çatışmayan ikisi: `https://imgur.com/gallery/puzzle-mD2eHYD` və `https://500px.com/p/beastforce67`.
+Həmçinin qeyddəki `pin.it/3DljEcxdY` **səhvdir** — həmin simvol kiçik L yox, **BÖYÜK I**-dir:
+doğrusu **`pin.it/3DIjEcxdY`**.
+
+★ **Yeni videonun təsvirində heç bir playlist endpoint-i YOXDUR** — bütün daxili linklər
+çıxarıldı: 1 watchEndpoint (Colin-in `XCOkRKUe3Nc`-i) + 7 kanal browseEndpoint-i + xarici
+URL-lər (mrb.gg/p/puzzle, official-rules, mrbeast.store, viewstats, extrememusic, sosial).
+⇒ **Köhnə giriş naxışı təkrarlanmır.**
+
+### `82CX6WULNA0`-ın metadata-sı: üç kanal daha bağlandı
+
+- **Fəsil yoxdur** (`macroMarkersListRenderer`, `chapterRenderer`, `heatMarker` — heç biri).
+- **Info-kart yoxdur** (7 klient yoxlanıldı; `cardCollectionRenderer` = 0).
+- **Teq/heşteq yoxdur** (`videoDetails.keywords` = null, `tags` = [], heşteq 0).
+- **Endscreen**: cəmi **bir** element — `dGCdYtk9fHQ` "A Week In The Life of MrBeast",
+  17:39.09–17:47.09 arası, mərkəzdə. ★ Kiçik maraq: həmin videonun öz uzunluğu
+  **"17:20"**-dir və MrBeast bu videoda tapmaca cümləsini məhz **17:20.2**-də deyir.
+  Təsadüf ola bilər; ucuz yoxlanışdır, qeyd olunur.
