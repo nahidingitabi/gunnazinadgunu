@@ -4786,3 +4786,38 @@ parça olmadığına dəlildir, amma sübut deyil.
 | **kəpənək** | dörd lobu **2×2** düzülüşdə (yuxarı-sol, yuxarı-sağ, aşağı-sol, aşağı-sağ) + mərkəzdə üfüqi bənd + yuxarı qalxan iki nazik əyri. Bant (🎀) olsaydı loblar yalnız **solda və sağda** olardı, quyruqlar isə **aşağıda**. 2×2 düzülüş **kəpənəyə** işarə edir. Saxlayıram, amma "çox güman" səviyyəsində. |
 | **fiqur** | konusvari **yaşıl-zeytunu papaq**, çəhrayı üz, tünd bordo gövdə, aşağıda tünd ayaqqabılar. |
 | **iki obyekt** | bu bucaqda kart kənardan görünür, faydalı əlavə yoxdur. |
+
+---
+
+## 2026-09-06 04:15Z — ⚠ Öz "III təsdiqləndi" nəticəmi geri götürürəm
+
+Yuxarıda (03:00Z) yazmışdım: *"Təqvim kartı: qırmızı III təsdiqləndi, üç paralel
+diaqonal ştrix aydın görünür."* **Bu etibarsızdır.**
+
+Səbəb: həmin oxunuş `CAL_Q.png` renderindən gəlirdi. İndi həmin renderin üzərinə
+koordinat şəbəkəsi qoydum (`CALQ_grid.png`) və gördüm ki, **dördbucağı 16 px sağa
+uzatmağım kartı sürüşdürüb**: təqvimin şəkli kanonun sol kənarından kəsilib, və
+mənim "üç ştrix" kimi oxuduğum sahə (kanon 170–330, 850–1060) əslində **qutunun
+kartonundakı çap xətlərinə** düşür, kartın rəqəminə yox.
+
+**Xam kadrdan yenidən ölçdüm** (20× Lanczos, kartın öz kağızı ilə müqayisə):
+
+| rəqəm | yeri (kadr) | dL | da\* | db\* | ştrix |
+|---|---|---|---|---|---|
+| yuxarı | 1667–1682, 661–682 | −14.9 | −0.40 | **−11.33** | **2** |
+| aşağı  | 1671–1684, 693–714 | −9.8 | +0.41 | −0.81 | **2** |
+
+- Yuxarı rəqəm kağızdan **açıq şəkildə daha az sarıdır** (db\* = −11.3) → **MAVİ**.
+  İki ştrix → **IV** (I + V) ilə uyğundur. ✓ (mavi IV qalır)
+- Aşağı rəqəm rəngcə kağızdan demək olar fərqlənmir, sadəcə tündür → rəng testi
+  burada **heç nə demir** (yenə nəzarətsiz). Ştrix sayı **2** çıxdı.
+
+**Yəni təqvimin qırmızı rəqəmi indi II ilə III arasında qeyri-müəyyəndir**
+(2 ştrix II-yə uyğundur, amma bu ölçüdə — rəqəm ~4×15 piksel — ştrix sayı
+etibarlı deyil). Tarix **4 mart** yoxsa **4 fevral** — açıqdır.
+
+101 kadrlıq düzgün dördbucaqla (`sp_qCAL2.json`, bütün kartı əhatə edir) yenidən
+render gedir; nəticəni gözləyirəm.
+
+**Dərs (dördüncü dəfə):** renderin üzərinə koordinat şəbəkəsi qoymadan onun
+hansı sahəni göstərdiyini fərz etmə. Bu gecə iki dəfə səhv sahəni ölçmüşəm.
