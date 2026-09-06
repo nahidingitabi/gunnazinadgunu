@@ -6545,3 +6545,30 @@ gövdə var — güzgü kimi, quruluş eynidir. Rəngi də **neytral qara**.
 **#1 (fiqur)** — bu gecə ölçdüyüm «ayaqların altında iki tünd disk» köhnə
 qeyddəki oxunuşla üst-üstə düşür: **ağ rolik konkilər, tünd təkərlər**.
 Yəni fiqur **rolik konkidə duran adamdır**, papağı yaşıl konusdur.
+
+### Hansı vendor? — qar dənəciklərini saymaqla (zəif nəticə)
+
+Fikir: 🌨 buludun altındakı dənəciklərin **sayı vendorlara görə fərqlidir**, ona
+görə saymaq rəssamın hansı dəsti köçürdüyünü göstərə bilər.
+
+```
+Twemoji   buludun altında 6 ayrı işarə, İKİ SIRA
+Noto      5
+OpenMoji  4
+RƏSM      12 parçadan qruplaşdıranda ~7 (±2), İKİ SIRA
+```
+
+**Nəticə zəifdir.** Mənim sayım ±2 dəqiqliyindədir, vendorlar isə cəmi 4–6
+arasındadır — yəni ölçü onları ayırmır. Yalnız OpenMoji (4) bir az kənara
+düşür. İki sıra düzülüşü Twemoji ilə üst-üstə düşür. **Təsdiq deyil.**
+
+Qeyd: vendor sualı **mexanizm üçün əhəmiyyətsizdir** (emojinin **adı**
+vendordan asılı deyil) — yalnız **tanımaq** üçün lazımdır.
+
+### #7-nin içində detal yoxdur (yoxlandı)
+
+24× böyütmə, dörd üsul (CLAHE 3, CLAHE 6, yerli unsharp, rəng sapması) —
+`P7DET.png`. Nəticə: nazik tünd kontur, içi düz terrakota, **dəstək yoxdur,
+panel yoxdur**; yalnız yuxarı/aşağı arasında zəif ton fərqi var.
+Bu, qapını **istisna etmir** (22×47 px-də xırda detal həll olunmur), amma
+təsdiq də etmir. `#7` adsız qalır.
