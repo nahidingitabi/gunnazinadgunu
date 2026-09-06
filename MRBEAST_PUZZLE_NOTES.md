@@ -7304,3 +7304,29 @@ YAŞIL sivri konus papaq → ağ/çəhrayı kənar zolağı → sarımtıl gövd
 → QIRMIZI/şabalıdı alt geyim → topuqlarda yaşıl zolaq
 → aşağıda İKİ AYRI TÜND QƏHVƏYİ DİSK (təkərlər)
 ```
+
+### 7-ci düzbucaq: iki bucaqda ÖLÇÜ ÜST-ÜSTƏ DÜŞÜR — «qırmızı görünür» yalnız gözün aldanışı idi
+
+Yuxarıda yazmışdım ki, ikinci bucaqda düzbucaq «açıq-aydın qırmızıdır» və bu,
+«terrakota» etiketini zəiflədir. **Ölçdüm — belə deyil.**
+
+Birinci cəhd səhv yerə düşdü (qutu kartın ağ hissəsinə oturdu, `hue = −70°`).
+Onun əvəzinə kəsikdə **ən qırmızı bağlı bölgəni** avtomatik tapıb **onu** ölçdüm
+və maskanı çəkdim (`RECT7b.png`):
+
+```
+REF803 (1-ci bucaq):  da* = +15.0   db* = +13.3   hue = 41.6°   ölçü 22×47 px
+REF765 (2-ci bucaq):  da* = +15.8   db* = +10.6   hue = 33.7°   ölçü 22×40 px
+```
+
+**İki müstəqil bucaq, iki müstəqil işıq — `a*` demək olar eyni (+15.0 / +15.8),
+ölçü də eyni.** Rəng: **isti kərpic-qırmızısı** (təmiz qırmızı 25°, qəhvəyi-qırmızı
+45°; bizimki 34–42° arası).
+
+**İki nəticə:**
+1. «Terrakota» etiketi qalır; «ikinci bucaqda qırmızıdır» müşahidəm **gözün
+   aldanışı idi**, ölçü onu təsdiqləmir.
+2. Daha vacibi: **kartın öz kağızına görə ölçmək bucaqdan asılı deyil.** Bu,
+   bütün rəng ölçmələrimin dayağını gücləndirir — gözlə baxış isə iki bucaqda
+   fərqli nəticə verdi. (Papaq məsələsində də eyni: göz «çəhrayı» dedi, dar
+   qutu ilə ölçü `a* −2.6` = yaşıl verdi.)
