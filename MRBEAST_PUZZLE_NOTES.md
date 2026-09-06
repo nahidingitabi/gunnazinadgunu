@@ -4719,3 +4719,38 @@ mavi rəqəmi ilə eynidir. Ona görə **hərfi-hərfinə qeyd edirəm, şərh e
 Şkafın aşağısı kadrdan kənarda qalır — daha aşağıda başqa qeydlər ola bilər.
 
 Artefaktlar: `tools/pieces/HAND765.png`, `HAND_wide.png`, `CABINET.png`.
+
+### Əlyazma: 82 kadrlıq yığın (ən yaxşı oxunuş)
+
+hn765b keşinin bütün 82 kadrını əlyazma sahəsinə görə IBP ilə yığdım
+(kanon 1440×848, S=16). `tools/pieces/HANDIBP_g.png` — indiyə qədər ən aydını:
+
+```
+"July?"
+   Jun▌      ← qutunun qatlanma kənarı burada kəsir
+```
+
+- 1-ci sətir **dırnaq içindədir**: `"July?"` — sual işarəsi aydın görünür.
+- 2-ci sətir `J`, `u`, `n` və dördüncü hərfin başlanğıcı; qalanı qutunun
+  kənarında itir. Ən ehtimallı tamamlanma **"June"**.
+- 2-ci sətirdə açan dırnaq görünmür.
+
+**Bütün bucaqlarda kəsilir.** h803-də yazının yalnız `"Ju` hissəsi kadra düşür
+(kadrın sağ kənarı), h806-da tamamilə kadrdan kənardadır. Yəni **davamı bu
+görüntüdə mövcud deyil** — bağlayıram.
+
+**Nə deməkdir:** kimsə kartların yanına ay adları yazıb və birinci sətri
+**dırnaq + sual işarəsi** ilə yazıb — yəni bu bir **təxmindir**, təsdiq deyil.
+Qonşu kart VII·IV-dür. Əgər VII = iyul isə, "July?" ona uyğun gəlir; ikinci
+sətirdəki "Jun…" isə ya həmin kart üçün alternativ təxmindir (VII = iyun?),
+ya da başqa karta aiddir. **Hər iki halda qırmızı rəqəmin AY olduğu oxunuşunu
+gücləndirir.**
+
+### Sarı sahələr parça deyil (say 15 qalır)
+
+Yuxarı qutuda ağ kartların arasındakı iki sarı-zeytunu dördbucaq 22× böyüdüldü
+(`tools/pieces/YELLOWCARDS.png`): **nə rəqəm var, nə şəkil** — bunlar üst-üstə
+düşən kartların arasından görünən **qutunun öz kartonudur** (üstdəki kartın
+kölgəsi tünd sərhəd yaradır). Bilinən 15 parçanın hamısı ağdır; iki boş sarı
+parça dizayn baxımından da uyğunsuz olardı.
+→ **Parça sayı 15 olaraq qalır.**
