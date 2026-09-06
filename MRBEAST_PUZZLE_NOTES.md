@@ -6869,3 +6869,71 @@ FORMA  → keçmir (rəssam yenidən çəkir: qartal 3.43, vendorlarda 1.0–1.5
 Bu, ovda nəzarətdən keçməyən **13-cü avtomatik üsuldur**. Qalan yol yalnız
 ikisidir: **gözlə görünən quruluş** (kartotekanı belə tapdım) və **insanın
 tanıması**. Yeni avtomatik təsnifatçı yazmaq — artıq 13 dəfə sınanmış səhvdir.
+
+---
+
+## ★ SƏHV GERİ GÖTÜRMƏ: «15 simvol» mənim çıxarışım DEYİL — videoda ölçülür
+
+Bu səhər rəsmi qaydalara baxıb «cavab 15 simvoldur — bu fakt deyil, mənim
+çıxarışımdır» yazmışdım. **Həddindən artıq geri götürmüşəm.** Öz köhnə
+qeydlərimdə bunun **piksel ölçüsü** vardı; indi onu **müstəqil şəkildə yenidən
+ölçdüm**.
+
+### Ulduzları özüm saydım (yazılma animasiyası)
+
+Video sonunda ekranda **yeni müsabiqənin formasıdır** (`FORM_STARS.jpg`):
+«BEAST SWEEPSTAKES · Guess the answer · You can guess multiple times, but there
+is only 1 correct answer». Sahəyə ulduzlar bir-bir yazılır.
+
+İki səhv üsuldan keçdim (dürüstlük üçün yazıram):
+* **sətir üzrə parlaq axınları saymaq** → 30–36 verdi. Səbəb: `*` altı ştrixdən
+  ibarətdir, üfüqi kəsik hər nişanı 2–3 axına bölür — **artıq sayır**.
+* **morfoloji bağlama + komponentlər** → 2–6 verdi. Səbəb: qonşu ulduzlar
+  birləşir — **az sayır**.
+* **`span/period + 1`** → 15.8 ≈ 16 verdi. **Düstur səhvdir**: `span` kənardan
+  kənara ölçülür, yəni bir tam nişan eni artıqdır:
+  `span = (n−1)·period + w`.
+
+Düzgün hesab (`w ≈ 30–41 px`, `period 45–46 px`):
+
+```
+kadr     span   → simvol
+n_0084   453      10.2
+n_0085   499      11.2
+n_0086   588      13.1
+n_0087   632      14.1
+n_0088   673      15.0
+n_0089   671      15.2
+n_0090   668      15.2   ← dörd kadrda SABİT
+n_0091   665      15.1
+```
+
+n=16 olsaydı nişan eni **mənfi** çıxardı (671 − 15×45 = −4). n=14 olsaydı 86 px
+enində nişan lazım olardı. **Yalnız n = 15 mümkündür.**
+
+### Eyni səhnədəki əlyazma vərəqi: `(3 6 4) → (6 2…) → (6)`
+
+`SHEET364.png` (7×, dörd gücləndirmə). Birinci sətir birmənalıdır: **(3 6 4)**.
+İkincisi «(6 2…» kimi başlayır və karton qutu ilə örtülüb. Üçüncüsü **(6)**.
+
+```
+3 + 6 + 4 = 13 hərf + 2 boşluq = 15 simvol   ← ulduzların sayı ilə TAM UYĞUN
+```
+
+### Dürüst vəziyyət (iki oxunuş da mümkündür)
+
+1. **Yeni tapmacaya aiddir**: forma yeni müsabiqənindir, demo 15 simvol yazır,
+   vərəq də 15 verir → cavab **`XXX XXXXXX XXXX`** formasındadır.
+2. **Köhnə dekordur**: video köhnə $1M tapmacası haqqındadır, vərəqlər səhnə
+   bəzəyidir, demo köhnə cavabı yazır. (Köhnə cavab açıq mənbələrdə yoxdur —
+   yoxladım, ona görə bu yolla ayırd etmək mümkün olmadı.)
+
+**Ona görə: «15 simvol» artıq DƏSTƏKLƏNƏN iş fərziyyəsidir** — nə sadəcə mənim
+çıxarışım (səhvən belə yazmışdım), nə də qaydalarda yazılmış şərt.
+`(3 6 4)` söz uzunluqları eyni statusdadır.
+
+### Bir də: səhv təxmin heç nəyi itirmir
+
+Formanın öz mətni: **«You can guess multiple times, but there is only 1 correct
+answer»**. Yəni namizədləri bir-bir yoxlamaq təhlükəsizdir.
+(Mən **heç nə göndərmirəm** — bu, sənin qərarındır.)
