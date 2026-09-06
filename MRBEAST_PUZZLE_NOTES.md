@@ -4279,3 +4279,32 @@ görünür, dimdiyi qarmaqlıdır (qartal). Şəkil təsdiqləndi.
 dördbucağım oradan kəsilirdi. Dördbucağı sağa 30% uzadıb təkrar işlədirəm.
 Qeyd: sağdakı çəhrayı ləkə **qonşu parçaya** da aid ola bilər — ehtiyatlı olmaq
 lazımdır, onu bu parçanın rəqəmi kimi oxumaq səhv olardı.
+
+## 2026-09-06 02:30Z — RƏQƏMLƏRİN OXUNMASI BAĞLANDI: 15-dən 12-si
+
+Daş+qartal parçasının rəqəmlərini son cəhdlə də çıxara bilmədim: dördbucağı
+sağa 30% uzadıb (rəqəmlər parçanın sağ ucundadır) 72 kadrla IBP etdim, sonra
+xromanı 70 vahidə qədər gücləndirdim (`EAG_NUM2.png`) — yalnız iki bulanıq
+ləkə görünür, ştrix strukturu yoxdur.
+
+**Bu suala son:**
+```
+oxunan rəqəm cütü      : 12 parça
+oxunmayan              :  3 parça
+  · pəncərə/qapı       — rəqəmləri fiziki olaraq qonşu parçanın ALTINDADIR
+                          (heç bir emal bunu aça bilməz)
+  · daş + qartal       — 1080p-nin altında (ən yaxşı halda 124×50 piksel)
+  · ən aşağı 15-ci     — 1080p-nin altında (31×42 piksel)
+```
+Hər üçü **fərqli səbəbdən** oxunmur və heç biri alqoritmlə həll olunan deyil.
+Daha vaxt sərf etmirəm.
+
+### Bunun modelə birbaşa nəticəsi
+Tarix modelinin yeganə **yoxlanıla bilən proqnozu** bu idi: "oxunmayan üç parça
+1…12 aralığında yeni aylar (yanvar/noyabr/dekabr) gətirməlidir".
+**Bu proqnoz artıq sınana bilməz** — heç biri oxunmur.
+
+Yəni tarix modeli **nə təsdiqlənə, nə də təkzib edilə bilər** mövcud materialla.
+Onu "aparıcı, amma sınanmamış fərziyyə" statusunda dondururam və bundan sonra
+onun üzərinə **yeni nəticə qurmuram**. Bu, ovda ölən altı modelin səbəbi idi:
+sınanmamış fərziyyənin üstünə tikinti.
