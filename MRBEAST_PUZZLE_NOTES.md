@@ -5758,3 +5758,42 @@ dayanır. Bu, fərqli bir statusdur — qeydə alıram:
   dəstdə təqvim şəklinin olması
 - **əleyhinə:** 12 mavi dəyərin hamısı ≤ 14 (p ≈ 7×10⁻⁵), və "July?" dayağının
   əslində qutunun maliyyə ili etiketi olması
+
+---
+
+## 2026-09-06 09:30Z — İki yoxlama: biri nəzarətdən keçmədi, biri faydalı mənfi
+
+### 1) Rəngə görə emoji sıralayıcısı — NƏZARƏTDƏN KEÇMƏDİ (10-cu təsnifatçı)
+
+İndi hər şəklin dəqiq rəngi ölçülüb, ona görə **rəqəmsal** sıralayıcı yazdım
+(`tools/pieces/emorank.py`): şəklin fon olmayan piksellərinin a\*/b\* orta və
+yayılması + güclü isti/soyuq/yaşıl piksel payı; namizəd emojilər eyni üsulla
+imzalanır və məsafəyə görə sıralanır.
+
+**Nəzarəti əvvəlcə qurdum** — kimliyi bilinən üç şəkil:
+
+| şəkil | ilk beş | nəticə |
+|---|---|---|
+| qar buludu (🌨) | 🪨 ☁ **🌨** 🌧 📉 | HIT |
+| gülən üz (😂) | 🥥 🪨 🕯 🏚 🪞 | **MISS** |
+| kəpənək (🦋) | 🪨 ☁ 🌨 🌧 📉 | **MISS** |
+
+**Nəzarət: 3-dən 1.** Üstəlik **🪨 demək olar hər şey üçün birinci gəlir** —
+yəni sıralayıcı deqenerativdir (sadəcə "bozumtul/az doymuş"u tapır).
+→ **Atıram.** Bu, bu ovda nəzarətindən keçməyən **10-cu avtomatik təsnifatçıdır**.
+Nümunə dəyişmir: bu ölçüdə **dolayı** ölçmələr işləmir; işləyən yeganə rəng testi
+`numcheck`/`colorbox` kimi **birbaşa, kartın öz kağızına nisbətdə** olanlardır.
+
+### 2) Video şərhləri: icmada tapmaca müzakirəsi ÜMUMİYYƏTLƏ YOXDUR
+
+Şərhləri yenidən çəkmək istədim — YouTube **429 / bot yoxlaması** verdi.
+Amma əlimdə 05.09.2026 04:36-a qədər olan **1500 şərhlik** çəkiliş var
+(cəmi ~24 saat fərq). Onu tam süzdüm:
+
+- **Colin/DoctorXOR-un şərhi: 0**
+- **rum rəqəmi / kart / qutu / təqvim / kəpənək / anbar sözlərini keçən şərh: 0**
+- ən çox bəyənilən şərh MrBeast-in bərkidilmiş şərhidir (11 000 bəyənmə),
+  qalanları ümumi heyranlıq ifadələridir
+
+→ **İcma hələ tapmacanın mexanikasına toxunmayıb.** Nə rəqəmləri, nə kartları
+müzakirə edən var. Yəni biz geridə deyilik — **irəlidəyik**.
