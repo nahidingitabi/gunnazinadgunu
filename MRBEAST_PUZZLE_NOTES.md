@@ -8295,3 +8295,82 @@ məhdudlaşdırılmalıdır (edildi).
 2. **«Hansı ada saymaq lazımdır» göstəricisi** — OP1-də bu, Slack pəncərəsindəki
    «Find a puzzle maker» mətni idi. Bizim videoda qarşılığı hələ tapılmayıb
    (qutularda ad yoxdur).
+
+---
+
+## 40-AGENTLİ WORKFLOW — İLK 7 AGENTİN NƏTİCƏLƏRİ (wf_41fa0b18-81b)
+
+İstifadəçinin "videoxarici başqa videoda vəya saytda ipucu olma ehtimalını da araşdır"
+tapşırığına cavab olaraq buraxılan sorğunun ilk 7 agenti bitdi. Nəticələr
+`journal.jsonl` faylından oxundu (**sahə adı `result`-dur, `value` DEYİL** — bu səhv
+əvvəl bir dövr itirdi).
+
+### A. Colin-in "Riddle #0" videosu (aFo8P073eSY) — QAPILIDIR, PRİORİTETDƏN ÇIXARILDI
+
+- Videonun **əsl uzunluğu 708 saniyə (11:48)**-dir. Bizim lokal nüsxə cəmi 360 saniyə idi
+  ⇒ **əlimizdəki surət yarımçıqdır**.
+- Təsvirində birbaşa yazılıb:
+  > "Also there is a **hat trick of riddles** in there somewhere.
+  > **You won't be able to solve them until I push a button somewhere.**
+  > Let's call the collection… Riddle #0."
+  ⇒ Riddle #0 **müəllif tərəfindən qapadılıb**; Colin bir düymə basmayana qədər həll
+  oluna bilməz. Bu, $10,000 tapmacasının qapısı ola bilməz. **Prioritetdən çıxarıldı.**
+- Fəsillər: 0:00 Introduction / 0:56 **The Fedora** / 2:52 **The Field Cap** /
+  5:04 **The Newsboy** / 7:50 The Point. ("hat trick" = 3 papaq — sözün üstündə oyun.)
+- Videoda YouTube info-kartı var: "**View corrections**", headerText "From DoctorXOR",
+  0–5000 ms aralığında işə düşür, hədəfi `engagement-panel-error-corrections`.
+  **Panelin mətni anonim şəkildə çıxarıla bilmir** — açıq qalan yeganə uc budur.
+- Videonun **əl ilə yüklənmiş** altyazı trekı var (`.en-US`, `kind` sahəsi yoxdur, yəni
+  ASR deyil) və defolt trekdir. Mətn yüklənə bilmir (timedtext bloklanıb).
+
+### B. Colin 2018-ci il videosunun təsvirini 2026-da geriyə dönük redaktə edib
+
+Nömrələmə sxemi quraşdırıb: **Riddle #-1 (2018) → Riddle #0 → Riddle #1**.
+Yəni "Riddle #1" (XCOkRKUe3Nc-dəki) bu silsilənin davamıdır, təsadüfi ad deyil.
+
+### C. Bağlanan kanallar (bir daha yoxlamağa dəyməz)
+
+| Kanal | Nəticə |
+|---|---|
+| Colin-in Community tab-ı | **SIFIR post** — tamamilə boş |
+| Kanal banneri (şifrə ehtimalı) | piksel analizi ilə rədd edildi |
+| 22 video təsvirinin hamısı | nə qısaldıcı link, nə CyberChef, nə docs linki |
+| `82CX6WULNA0` altyazıları | **dəqiq 25 trek** (24 müəllif + 1 ASR). Gizli trek yoxdur |
+| Altyazı rəng qatı (19 qələm rəngi) | danışana görə rəngləmədir, şifrə deyil |
+| 10 162 ədəd U+200B | YouTube karaoke doldurmasıdır, steqanoqrafiya deyil |
+| Trek tarixi | 2026-09-04-dən bəri dəyişməyib |
+
+### D. Müsabiqə saytı (yalnız oxundu — heç nə göndərilmədi)
+
+- Qaydalarda: "Clues to solving the Puzzle will be available in the **Video**"
+  ⇒ **rəsmi mətn tapmacanın videonun içində olduğunu təsdiqləyir.**
+- Cavab xanası sərbəst mətndir, `maxLength=500`.
+- API uçları **yalnız klient kodundan** müəyyən edildi, **çağırılmadı**:
+  `POST /api/entries`, `/api/entries/verify`, `/api/entries/resend`.
+- Təxmin sayı limitsizdir; müsabiqə **2027-09-02**-yə qədər davam edir.
+
+### E. mrb.gg və mrbeast.salesforce.com
+
+- `mrb.gg/p/<slug>` real ad məkanıdır; 48 slug yoxlanıldı, yalnız `puzzle` mövcuddur.
+- `mrbeast.salesforce.com` indi brauzer UA ilə 200 qaytarır (giriş qatı dəyişib;
+  məzmun 2026-03-09-da dondurulub). Qeydlərimizdə olmayan iki səhifə:
+  `/behindthescenes`, `/terms`.
+
+### F. Lone Shark sosial şəbəkələri — SUSUR (mühüm mənfi nəticə)
+
+- Mike Selinker (Bluesky) videonu 2026-09-04-də paylaşıb, amma yalnız **köhnə ovun
+  təhlili** kimi təsvir edib — **$10,000 tapmacası haqqında bir kəlmə də yox**.
+- Rəsmi Lone Shark Bluesky hesabı **2026-08-12-dən bəri heç nə paylaşmayıb**.
+- Köhnə ovda İpucu #5–#23 məhz bu hesablardan damcı-damcı verilmişdi.
+  **Bu dəfə bunu etmirlər** ⇒ xarici ipucu axını gözləmək əbəsdir; cavab videodadır.
+- Köhnə ovun tam müəllif siyahısı bərpa olundu: Elisa Teague, Eric Harshbarger,
+  Tyler Hinman, Thomas Snyder, William Zambole, Shane Steed, Chad Brown,
+  Ana Visneski, Damian Puggelli.
+
+### NƏTİCƏ — istiqamət dəyişmir
+
+D və F bəndləri birlikdə **videonun içinə qayıtmağı** tələb edir. Xarici mənbələr
+(Community, banner, altyazı, sosial şəbəkə, Riddle #0) **bağlandı**. Qalan iki maneə
+dəyişməz olaraq qalır:
+1. 13, 14, 15 nömrəli kartların rəqəmləri (30 rəqəmdən 6-sı çatışmır);
+2. "hansı ada saymalı" göstəricisi (OP1-də bu "Find a puzzle maker" idi).
