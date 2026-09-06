@@ -9149,3 +9149,56 @@ rəqəmləri çəkir. ⇒ **Videodakı iki qlobus köhnə tapmacanın rekvizitid
 - `geonamescache` bazasından **eyni uzunluqlu (şəhər, region) cütləri** çıxarıldı
   (`eqpairs.json`, 297 ədəd) — 15/15 uzunluqda cəmi bir cüt var. Bu, "cavab şəhər+ölkə
   deyil" nəticəsini müstəqil şəkildə dəstəkləyir.
+
+---
+
+## 2026-09-06 16:2xZ — EMOJİ ADLARI ÜZƏRİNDƏ NİZAMLI SÜZGƏC
+
+`pip install emoji` → **5225 giriş, 1918 unikal ad** (əvvəlki `emoji_index.json` natamam
+idi: yalnız Flags/Objects/Symbols/Travel/Animals/Food/Activities — **üz və insan emojiləri
+yox idi**, buna görə 😂 və fiqur kartı tapılmırdı).
+
+Hər kart üçün `len(ad) ≥ max(qırmızı, mavi)` süzgəci ilə namizədlər çıxarıldı.
+
+### ⛔ Bir kart emoji adı ilə İŞLƏMİR
+
+**Oman bayrağı kartı** (qırmızı VI=6, mavi V=5): 🇴🇲-nin emoji adı sadəcə **`Oman` (4 hərf)** —
+**6-dan kiçikdir** ⇒ bu kartın adı emoji adı **ola bilməz**. Ya bayraq başqa ölkənindir,
+ya ad başqa formadadır (`SULTANATE OF OMAN`?), ya da kartda ikinci element var.
+Bu, "hər kart = bir emoji adı" fərziyyəsinin **ilk sərt uğursuzluğudur**.
+
+### ★★ YENİ FƏRZİYYƏ: hər kartda İKİ element var, hər rəqəm BİR elementə aiddir
+
+Çox kartda iki şəkil var. Əgər **qırmızı rəqəm bir elementin adına, mavi rəqəm o birinin
+adına** indekslənirsə, iki müstəqil yoxlama dəqiq oturur:
+
+| kart | elementlər | rəqəm | ad uzunluğu | nəticə |
+|---|---|---|---|---|
+| ↓ox + sütunlar | `bar chart` / `down arrow` | q **8** / m **9** | **8** / **9** | **hər ikisi DƏQİQ** |
+| qar buludu | `snowflake` / `cloud` | q **9** / m **5** | **9** / **5** | **hər ikisi DƏQİQ** |
+
+İki kartda dörd rəqəmin dördü də adın **tam uzunluğuna** bərabərdir ⇒ çıxarılan hərf
+həmişə **sonuncu hərfdir**. Bu, ya real dizayn qaydasıdır (rəqəm "hansı adı seçdiyini
+təsdiqləyir"), ya da mənim naxış axtarmağımdır. **Digər kartlarda yoxlanmalıdır.**
+
+Bu oxunuşla alınan hərflər: `bar chart`→**T**, `down arrow`→**W**, `snowflake`→**E**,
+`cloud`→**D**.
+
+### Süzgəcdən keçən əsas namizədlər (tam cədvəl `emoji` paketindən)
+
+| kart | (q,m) | keçən adlar (uzunluq) → q-hərfi / m-hərfi |
+|---|---|---|
+| 😂 | (10,14) | `face with tears of joy`(18) → **E** / **O** |
+| qar buludu | (9,5) | `cloud with snow`(13) → H/D · `snowflake`(9) → E/F |
+| ox+sütunlar | (8,9) | `chart increasing`(15) və `chart decreasing`(15) → hər ikisi **C/R** |
+| Afrika+bitki | (4,8) | `globe showing Europe-Africa`(24) → B/O · `seedling`(8) → D/G · `shamrock`(8) → M/K |
+| ABŞ+tövlə | (7,4) | `United States`(12) → **S**/**T** |
+| təqvim | (2,4) | `spiral calendar`(14) → P/R · `calendar`(8) → A/E |
+| düzbucaq | (6,8) | `red square`(9) → U/R · `chocolate bar`(12) · `closed book`(10) → D/O |
+| bant | (5,7) | ⛔ `ribbon`(6) DÜŞÜR · keçənlər: `rosette`,`glasses`,`goggles`,`necktie`(7) |
+| iki obyekt | (6,6) | q=m ⇒ **eyni hərf**: `candle`→E · `pencil`→L · `rocket`→T · `battery`→R |
+| sarı kart | (7,1) | `yellow square`(12) → S/Y · `placard`(7) → D/P |
+| fiqur | (2,11) | **heç bir insan/elf emojisi 11 hərfə çatmır** ⇒ emoji deyil |
+
+⇒ İki kart (**Oman bayrağı** və **yaşıl papaqlı fiqur**) emoji adı ilə **prinsipcə** işləmir.
+Deməli ya adlandırma emoji adı deyil, ya da o iki kartın şəkli səhv oxunub.
