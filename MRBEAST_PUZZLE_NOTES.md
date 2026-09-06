@@ -8019,3 +8019,70 @@ tək kadr : kənar kontrastı 272.0   küy 10.94
 −17% kənar müqabilində −17% küy — **xalis qazanc yoxdur**. Kamera tam sabit
 deyil. **Kadr birləşdirmə bağlı qalır (4-cü uğursuzluq).** Ən kəskin TƏK kadrı
 seç.
+
+# ⛔⛔ CİDDİ DÜZƏLİŞ — `(3 6 4) → (6 6) → (6)` QEYDİ KÖHNƏ TAPMACANINDIR
+
+Bu, gecə boyu qurduğum ən böyük fərziyyəni **ləğv edir**. Səhvim: «qəti test»
+kimi yalnız köhnə tapmacanın **91 YER cavabını** yoxlamışdım. Amma qeyd yer
+adlarını yox, **aralıq ipucu sözlərini** saya bilər — və onlar uyğun gəlir.
+
+MrBeast videoda (≈4:15) deyir:
+
+> «this is a **red Rubik's Cube**. And if you looked at the commercial, this clue
+> tells us a **cube should become a square**. So a **Red Cube** becomes a
+> **Red Square**, that's a place in **Moscow, Russia**.»
+
+Söz uzunluqları:
+
+```
+RED SQUARE CUBE  →  (3, 6, 4)     ✓ qeydin birinci sətri
+MOSCOW RUSSIA    →  (6, 6)        ✓ qeydin ikinci sətri
+MOSCOW           →  (6)           ✓ qeydin üçüncü sətri
+```
+
+**Üç sətrin üçü də tam uyğun gəlir**, üstəlik qeyd köhnə tapmacanı həll edən
+adamın **masasındadır** (otağın hər yeri köhnə tapmacanın əşyaları ilə
+bəzədilib — yuxarı divarda 15 köhnə rebus kartı asılıb).
+
+### Nəticələr (hamısı geri alınır)
+
+| əvvəl yazılan | indi |
+|---|---|
+| «(3 6 4) yeni cavabın ləqəbidir» | **LƏĞV** — köhnə Red Cube ipucudur |
+| «THE FOREST CITY → LONDON CANADA → LONDON» | **əsassız qaldı** |
+| «THE WALLED CITY → QUEBEC QUEBEC → QUEBEC» | **əsassız qaldı** |
+| «cavab 6 hərfli şəhərdir» | **əsassız qaldı** |
+| «15 parça × 2 hərf = 13+17» say uyğunluğu | **əsassız qaldı** |
+
+Əvvəlki «(6 2) oxunuşu ləğvdir, (6 6)-dır» düzəlişi isə **doğru çıxdı** —
+MOSCOW RUSSIA (6 6)-dır.
+
+### Metod dərsi
+
+«Qəti test» qurarkən **yoxlanan çoxluğu düzgün seç**. Mən yalnız yekun yer
+adlarını yoxladım; aralıq ipucu ifadələrini (CASH TENT, LASER MIXUP,
+RED SQUARE, TALL INN, A NICE SUGAR, BEAST CITY HUB…) yoxlamamışdım.
+Onları da yoxladım: **yalnız RED SQUARE CUBE / MOSCOW RUSSIA / MOSCOW üçlüyü
+hər üç sətrə uyğun gəlir** (LASER MIXUP→ARLES FRANCE (5,6) ✗,
+CASH TENT→TASHKENT UZBEKISTAN (8,10) ✗, A NICE SUGAR→SUCRE BOLIVIA (5,7) ✗,
+TALL INN→TALLINN ESTONIA (7,7) ✗, BEAST CITY HUB→TORONTO CANADA (7,6) ✗).
+
+### Nə sağ qalır
+
+* Tapmacanı **Colin** düzəldib və o, **videonun içindədir** (MrBeast 17:20).
+* **15 parça**, hər birində qırmızı+mavi Roma rəqəmi, cəmi **20 rəsm**.
+* Colin-in üsulları: **indexing** və **alphanumerics**.
+* Masadakı obyektlər: «Boo! / Five of these», «Books w/ old names / Alphabetize?»,
+  çəhrayı indeks vərəqi (≈28 cüt) — bunlar **köhnə də ola bilər**, ehtiyatlı ol.
+* Sancılmış şərhdəki **CyberChef XOR açarı** (13 bayt) — hələ açılmayıb.
+* **Cavabın forması yenidən NAMƏLUMDUR.**
+
+## ✗ İki hərfli parçalarla şəhər axtarışı — nəticəsiz
+
+Bilinən 59 ehtimallı «ilk iki hərf» parçasından 1732 şəhərlik hovuzda tam
+yığılan yalnız dördü var: ELBA, HEARNE, HOPE, OMRO. Heç biri məqsədə uyğun deyil.
+
+## ✗ 15-ci parçanın rəqəmləri açılış kadrlarında da oxunmur
+
+Ən kəskin kadr t=13.61; kart ~30×40 px, rəqəmlər ~6×8 px. Mürəkkəb xəritəsində
+solda **qırmızı ləkə** görünür (2–3 ştrix), amma hansı rəqəm olduğu seçilmir.
