@@ -4384,3 +4384,63 @@ edirəm, tək dəyər kimi yox.
 Qalan 11 parçanın rəqəmləri isə atlasda birbaşa oxunur — bu, cədvəlin
 müstəqil təsdiqidir, çünki indiyə qədər onları ayrı-ayrı görüntülərdə
 oxumuşdum, ilk dəfə hamısını eyni miqyasda yan-yana gördüm.
+
+---
+
+## 2026-09-06 02:09Z — "İki obyekt" parçasının qırmızı rəqəmi bağlandı: **VI**
+
+Bu, cavab verilə bilən son rəqəm sualı idi. VI/VII qeyri-müəyyənliyi həll olundu.
+
+### Necə ölçdüm
+
+Əvvəlki uğursuz cəhdin səbəbi **kanonik en/boy nisbətinin yanlış olması** idi:
+`sp_two.json` dördbucağı 46×64 px (portret) idi, amma kanon 950×650 (landşaft) —
+yəni şəkil x oxunda ~2× dartılırdı. Düzəltdim: kanon **736×1024**, S=16, beləliklə
+aşağı ayırdetmə şəbəkəsi 46×64 = parçanın öz doğma piksel ölçüsü ilə **eynidir**.
+
+İki müstəqil çəkilişdə ayrıca IBP:
+- `TWO_A.png` — h803.npz (101 kadr), rms 27.7
+- `TWO_B.png` — hn765b.npz (82 kadr, **başqa kamera bucağı**), rms 48.5
+
+### Ölçmə üsulu: yuxarı/aşağı zolaq profili
+
+Rəqəmin **yuxarı üçdəbiri** və **aşağı üçdəbiri** üzrə sütun-qaralıq profili
+çıxarıb zirvələri saydım. Ayırd edici əlamət belədir:
+
+- **V**-nin iki qolu yuxarıda uzaq, aşağıda birləşir → *aşağı doğru YAXINLAŞIR*
+- **I** şaquli qalır (yalnız parçanın öz əyilməsi qədər sürüşür)
+- Deməli VI = 3 ştrix, VII = 4 ştrix olmalıdır
+
+Ölçülən (kanon x koordinatları):
+
+| render | rəqəm | YUXARI zolaq | AŞAĞI zolaq |
+|---|---|---|---|
+| TWO_A | qırmızı | 581 · [649–689 birləşmiş] | 600 · 642 · 692 |
+| TWO_B | qırmızı | 571 · [635–683 birləşmiş] | 629 · 696 |
+| TWO_A | mavi | 142 · 216 · 262 | 190 · 274 |
+| TWO_B | mavi | 120 · 196 · 248 | 170 · 268 |
+
+Hər dörd halda **eyni topologiya**:
+- sol cüt aşağı doğru **yaxınlaşır** (TWO_A qırmızı: 70 px → 42 px) = **V**
+- sağ cüt aşağı doğru **uzaqlaşır** (TWO_A qırmızı: 26 px → 50 px) = V-nin sağ qolu
+  ilə ondan ayrılan şaquli **I**
+- Yuxarıda 611–613-də **tam boşluq** (dəyər 0) var, aşağıda həmin yerdə yalnız 22-yə
+  enir — məhz V-nin davranışı.
+
+**Dördüncü ştrix yoxdur.** x=708–719-dakı qaralıq kartın kənarıdır, mürəkkəb deyil:
+onun ardınca x=721–723-də parlaq zolaq (kənarın işıqlanan tili), sonra fon gəlir.
+
+### Nəticə
+
+**"İki obyekt" parçası: qırmızı VI · mavi VI → 6 iyun.**
+
+Bu, 15 parça arasında **qırmızı ilə mavinin eyni olduğu yeganə parçadır**.
+(Digərləri: II·XI, III·IV, IV·VIII, V·VII, VI·V, VI·VIII, VII·I, VII·IV,
+VIII·IX, IX·V, X·XIV — heç birində qırmızı = mavi deyil.)
+
+### Rədd etdiyim ölçmə
+
+Mürəkkəb rəngi testini (Δa\*) burada **işlətmədim**, çünki nəzarət testi uğursuz
+oldu: ştrixlər arasındakı **boş kağız da** "QIRMIZI" verdi (Δa\* = +6.11) və karton
+da (+8.09). Kartın öz istiliyi kompensasiya olunmurdu. Bu, bu ovda nəzarətindən
+keçməyən **8-ci avtomatik təsnifatçıdır** — atdım, qərarı yalnız həndəsə ilə verdim.
