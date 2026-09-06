@@ -10153,3 +10153,25 @@ qaydasıdır** və indiyə qədər yalnız Colin-in bio-suna (Steinbeck) tətbiq
 o qol bağlanıb. **Yapbozun nəticəsinə heç vaxt tətbiq edilməyib.**
 Müəllif deyir yapboz **birinci addımdır** ⇒ ehtimal: `yapboz → mətn → LAST WORD
 THEN NINTH → cavab`. Yapbozun sırası tapılan kimi ilk yoxlanacaq qayda budur.
+
+## ★★★ 2026-09-06 ~22:0xZ — YENİ ÇƏKİLİŞ TAPILDI: t = 323.5–325.4 (masanın yaxın planı)
+
+`a16ce518` klipində, CRT-nin «Maputo, Mozambique» izahından dərhal sonra kamera
+masaya yaxınlaşır. Bu çəkilişdə **kartlar REF803-dəkindən İRİDİR** və kamera
+demək olar sabitdir (16 kadr yığıldı, korrelyasiya **0.999**).
+
+### Bu çəkilişdən yeni oxunanlar
+- **Kart 14 (ABŞ bayrağı + tövlə)** — indiyə qədərki ən yaxşı görüntü:
+  mavi **IV**, qırmızı **VII**; şəkil qəti **qırmızı tövlə, boz gambrel dam, kupola**.
+  **SOL kənar = üç iri mişar dişi** (əvvəlki kataloqu təsdiqləyir).
+  **SAĞ kənar = hamar yumru qabarıq.**
+- **Kart 12** — qırmızı **IV**; bitki artıq şübhəsizdir: **kiçik dibçəkdə uzun sivri
+  yaşıl yarpaqlar** (spider plant / aqava tipli), «sadəcə ot» deyil.
+  **SAĞ kənar = dərin V-kəsikli QARANQUŞ QUYRUĞU (iki dişli).**
+- **Mavi vərəqin yuxarı sətri `(3 6 4)`** bu kadrda tam aydın oxunur (`N364b.png`) —
+  köhnə oxunuş piksel səviyyəsində təsdiqləndi.
+- Qutunun üzərində əl yazısı «July 1st 1988 : June 30 1989» — maliyyə ili, dekorasiya.
+
+⇒ **Metodoloji nəticə:** REF803 «ən yaxşı kadr» deyil — **hər kart üçün ən yaxşı
+ÇƏKİLİŞ ayrıca tapılmalıdır.** Bütün 1080p kliplər üç şablonla (tövlə, Oman, diaqram)
+0.5–2.4 miqyas aralığında skan edilir (`scan1080.py`).
