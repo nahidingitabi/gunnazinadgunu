@@ -6609,3 +6609,32 @@ onu əhatə etmir (~3600 emoji var, mən 125-ə baxdım).
 
 **Diqqət:** «uzanma 2.63» rəqəmini bundan sonra **sərt süzgəc kimi işlətmə** —
 kartın əyilməsi onu dəyişir. Solidity 0.97 və düz onurğa etibarlıdır.
+
+## Kadrları birləşdirmə — üçüncü dəfə, bu dəfə DÜZGÜN ÖLÇÜ ilə: yenə uduzur
+
+`tools/pieces/localstack.py`: hər kadrın qutusu qlobal homoqrafiya ilə
+gətirilir, sonra **elə həmin qutu üzərində ECC ilə dəqiqləşdirilir** (qlobal
+uyğunlaşdırma kadrın sağ yarısına görə qurulub, kiçik kartda parallaks xətası
+verir), sonra median. 101 kadrdan **52-si uyğunlaşdı**.
+
+### Əvvəlcə ölçü səhv idi
+
+Laplasian dispersiyası ilə ölçdüm → «bərabərdir» dedi. **Bu ölçü səhvdir:
+o, küyü MÜKAFATLANDIRIR** — yığım isə məhz küyü silir. Ona görə iki şey ayrıca
+ölçülür: **güclü kənarlarda kontrast** və **düz sahələrdə səpələnmə**.
+
+```
+tək kadr (REF803)        kənar kontrastı 35.8   düz sahə küyü 0.24
+52 kadrın medianı        28.5  (−20.5%)         0.22  (−8.8%)   → PİS mübadilə
+ən kəskin 13 kadr        33.5  ( −6.5%)         0.26  (+8.1%)   → yenə qazanc yox
+```
+
+«Lucky imaging» (yalnız ən kəskin dörddəbir) itkini 20%-dən 6%-ə saldı, amma
+**heç bir variant tək kadrı üstələmir**.
+
+**Nəticə: REF803 bu kart üçün onsuz da ən yaxşısıdır** — o, ən yaxşı kadr kimi
+seçilmişdi. Kadr birləşdirmə bu materialda işləmir; bu, üçüncü müstəqil
+təsdiqdir. **Bu istiqamət bağlanır.**
+
+**Ölçü dərsi:** kəskinliyi Laplasian dispersiyası ilə ölçmə — küy onu qaldırır.
+Kənar kontrastı + düz sahə küyü cütü düzgündür.
