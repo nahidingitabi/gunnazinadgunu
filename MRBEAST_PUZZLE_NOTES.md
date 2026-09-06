@@ -4328,3 +4328,34 @@ aydın çıxdı, çünki tile-lar kağızın öz ağına görə balanslanmışd�
 * Qartal parçasının rəqəmləri bu bucaqda **ilk dəfə görünür** (əvvəl heç
   görünmürdü): sağ ucda mavi bir rəqəm, altında çəhrayı bir rəqəm. Formaları
   hələ ayırd olunmur — ona fokuslanmış IBP işlədirəm.
+
+## 2026-09-06 03:00Z — YUXARI SIRA QEYRİ-MÜƏYYƏNLİYİ HƏLL OLDU: PARÇA SAYI 15 QALIR
+
+Əvvəl açıq qoymuşdum: "I VII" rəqəmləri pəncərə parçasınamı aiddir, yoxsa ayrıca
+parçaya? IBP görüntüsündə tikişi böyüdüb kənar xəritəsi ilə baxdım (`SEAM.png`):
+
+**İki ayrı parçadır.** "VII" yazılan ağ parçanın **aşağı-sağ kənarı pilləvari
+kəsilib və aşağı enir** (altında sarı kart görünür), pəncərə qrafiki isə
+**öz ayrıca ağ parçasındadır** — onun sol kənarı və kənar boyu kölgə xətti
+aydın seçilir. Aralarında fasiləsiz kağız yoxdur.
+
+**Nəticələr:**
+1. **Parça sayı 15 olaraq qalır** (sarı kart parça deyil, sadəcə kağızdır —
+   üzərində nə rəqəm, nə şəkil var).
+2. **"I VII" şəkli gizli olan parçaya aiddir**, pəncərəyə yox. Yəni əvvəlki
+   cədvəlim düzgün idi.
+3. **Pəncərə parçasının rəqəmləri sol tərəfdə deyil** — onun sol ucu görünür və
+   orada rəqəm yoxdur. Deməli rəqəmləri **sağ ucundadır** və sütun-diaqram
+   parçasının altında qalır. (15-ci parçada da dişlər sağda idi — yəni
+   parçaların istiqaməti sabit deyil, bu da uyğun gəlir.)
+
+## 2026-09-06 03:05Z — MASADAKI SARI VƏ FİRUZƏYİ KARTLAR: BOŞDUR
+
+12:45 planındakı hər iki rəngli kartı 49 kadrla çıxardım (`DESK_CARDS.png`):
+**hər ikisi tamamilə boşdur** — nə yazı, nə rəqəm, nə şəkil. Sadəcə rəngli
+kağızdır. Bu xətt bağlandı.
+
+## 2026-09-06 03:10Z — QARTAL PARÇASININ RƏQƏMLƏRİ: QƏTİ BAĞLANDI
+Rəqəm sahəsinə fokuslanmış dördbucaqla (47×50 piksel) 72 kadr IBP: kəskinlik
+**1.1** — heç bir ştrix strukturu yoxdur. Üç ayrı cəhd (çox plan, uzadılmış
+dördbucaq, fokuslanmış dördbucaq) — üçü də düşdü. **Bağlıdır.**
