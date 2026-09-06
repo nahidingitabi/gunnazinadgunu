@@ -896,3 +896,95 @@ avtomatik seqmentasiyası · düzbucağın rənginin ölçülməsi (qutunun nar�
    yumru) 12×-də oxunaqlıdır — `EDGES_SHEET.png`. Çıxıntı ↔ kəsik cütləşir.
    İzləyici şərhi: *"closed-loop solution! Just figuring out the order."*
 3. **3 kartın rəqəmi** (10, 3, 15) — hər kadrda örtülü və ya çox maili.
+
+---
+
+## 17. 2026-09-06 evening — a better instrument, and four corrections
+
+### 17.1 The instrument: multi-frame stacking finally works `[MEASURED]`
+
+Frame stacking had failed four times in earlier sessions and was written off.
+The missing step was **rejecting frames whose ECC correlation to the reference
+falls below 0.90**. Without that filter the stack averages in motion blur and
+comes out *worse* than the sharpest single frame; with it, it is much better.
+
+`tools/pieces/stackwin.py DIR x0 y0 x1 y1 OUT.png [S]`
+
+1. Extract **every** frame of the shot (`ffmpeg -vsync 0`).
+2. Keep the sharpest 70 % by Laplacian variance **inside that window**.
+3. Register each to the sharpest with `findTransformECC`, `MOTION_HOMOGRAPHY`,
+   300 iterations, eps 1e-8, 5 px Gaussian.
+4. **Drop any frame with correlation < 0.90.**
+5. Mean (not median), then 14 iterations of back-projection at 3×.
+
+Measured gain: card 10's numeral strip, Laplacian variance **55.6 → 350.2**.
+On a locked-off camera it keeps almost everything (46 of 46 frames at 0.998).
+On a handheld shot it keeps 7–16 — still a clear gain. It does **not** converge
+when a person moves through the window; there, use the sharpest single frame.
+
+### 17.2 REF803 is *not* the best frame — find the best shot per piece `[MEASURED]`
+
+A new shot was found at **t = 323.5 – 325.4** (clip `a16ce518`, right after the
+CRT's "Maputo, Mozambique" card). The camera pushes in on the desk and then
+looks up at the top box. In it:
+
+* the **US flag + barn** piece and the **silhouette + plant** piece are *larger*
+  than in REF803, and the camera is nearly locked (16 frames at 0.999);
+* frames 68–85 give **the clearest view of the top box in the whole video**.
+
+Other shots that show pieces: t ≈ 19–22 (office wide), t ≈ 337.0–339.2
+(46 frames, locked off), t ≈ 765–807 (the box stack, REF803).
+
+### 17.3 Four corrections to the read table `[MEASURED]`
+
+| piece | was | **now** | how |
+|---|---|---|---|
+| **1** figure | blue XII | **blue XI = 11** | 4 frames at 26× in the t=324 shot: `X` + **one** `I`. In REF803 the card's own edge line reads as a second stroke. Name needs **≥ 11**, not ≥ 12 — `garden gnome` (11) is viable again. |
+| **2** hidden picture | red VIII | **red VII = 7** | 4 consecutive frames; the notes' original value was right |
+| **8** two objects | VII/VII | **VI/VI** | stacked render; again the notes' original value was right. Still equal, so this position carries the same letter in both strings |
+| **3** window | "thick frame, two panels" | **a rectangle filled with ~7 vertical bars** — a cage, a barred window or a gate | t=324 shot, unambiguous |
+
+Also newly certain: the barn is a **red barn with a grey gambrel roof and a
+cupola**; the plant on piece 12 is a **potted plant with long spiky leaves**,
+not loose grass; piece 1's figure wears a **red coat and green trousers** with
+a green pointed hat and is **waving**.
+
+### 17.4 Two hypotheses killed `[DEAD]`
+
+* **Domino chain.** With both numerals known for 13 pieces the value multiset has
+  **eight odd-degree values**; an Eulerian path needs 0 or 2 and the two unread
+  pieces can fix at most four. The pairs cannot chain like dominoes.
+* **"Numeral tracks name length" as evidence.** Spearman 0.648 over 10 pieces
+  looks supportive, but the names were *chosen* to pass the `len ≥ max(numeral)`
+  filter, so the correlation is manufactured. Recorded, not relied on.
+
+### 17.5 The desk notes split into old and new `[MEASURED]`
+
+Each of the four desk papers was searched in the 84-page answer document:
+
+* **blue sheet** `(3 6 4) → (6 6) → (6)` — **found**, verbatim: puzzle PG3, the
+  all-red Rubik's cube, cube = square → Red Square → Moscow, Russia. Old.
+* **teal cipher card** `LSWRTE / NNHTIN / HDOTA` + "bird fence" → rail fence →
+  **LAST WORD THEN NINTH** — **absent**, zero hits for any of its terms.
+* **red sheet** `(5 2 7) → (8 3 5 4 4) → (9)` — **absent**.
+* **mint sticky** `YouTube / link / watch?` — **absent**.
+
+Controls (`Moscow`, `Wichita`, `Algiers`, `Sucre`) all extract, so the search is
+sound. The document is a summary and not a prop inventory, so absence is not
+proof — but the asymmetry is sharp, and it corrects the earlier note that
+lumped all four together as old-puzzle decoration.
+
+**`LAST WORD THEN NINTH` is a decoded instruction that has never been applied to
+the jigsaw.** The author says the jigsaw is only the *first* step. The obvious
+chain to test the moment the order is known is
+`jigsaw → text → LAST WORD THEN NINTH → answer`.
+
+### 17.6 Where it stands
+
+Both numerals are known for **13 of 15** pieces. Missing: piece 3 (numerals hidden
+under the chart piece) and piece 15 (too far in every shot). Piece 2's picture is
+covered by piece 3 in every angle.
+
+Still open, in order: **the order** (edge shapes; the catalogue in
+`MRBEAST_PUZZLE_NOTES.md` now covers eight pieces from stacked renders), then
+**the names**, then the `LAST WORD THEN NINTH` step.
