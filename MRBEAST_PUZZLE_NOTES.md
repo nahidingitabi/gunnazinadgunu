@@ -4625,3 +4625,44 @@ Xam kadr + koordinat şəbəkəsi (`TOPBOX_grid.png`) ilə hər şəklin dəqiq 
   aşağı **çəhrayı zolaq**, yuxarıda firuzəyi ləkə, içində tünd şaquli zolaqlar).
 - **#13 oval**: qəhvəyi-boz oval, ortasında qızılı ləkə. Daş? Amerikan futbolu?
 - **#16 siluet** (uzanma 2.9) və **#17 yaşıl bitki** (dik yarpaqlı dəstə).
+
+---
+
+## 2026-09-06 03:25Z — Rəqəmlərin paylanması: iki yeni struktur müşahidəsi
+
+### Müşahidə 1 — çatışmayan aylar oxunmayan parçaların sayına **dəqiq** bərabərdir
+
+Oxunmuş 12 parçanın qırmızı rəqəmləri: 2,3,4,5,6,6,6,7,7,8,9,10.
+1–12 aralığında **çatışmayan: 1, 11, 12** — yəni **üç** ay.
+Oxunmayan parça sayı da **üç**dür.
+
+Əgər üç oxunmayan parça məhz I, XI, XII daşıyırsa, onda 12 ayın **hamısı** təmsil
+olunur (iyun 3 dəfə, iyul 2 dəfə, qalanlar bir dəfə) = 12 + 3 = **15 parça**.
+Bu, çox səliqəli dizayn olardı.
+
+**Bunu ölçməyə çalışdım və ALINMADI.** Fikir belə idi: rəqəmin mürəkkəb enini
+ölçüb ştrix sayına çevirmək (I dar, XI/XII geniş). Məlum 9 rəqəm üzərində
+kalibrləmə cəhdi: ştrixə düşən en 2.5–8.5 px arasında **dağıldı** (orta 6.0,
+amma faydasız yayılma ilə). Səbəb: bu ölçüdə pəncərəni rəqəmin ətrafına kifayət
+qədər dar qoymaq mümkün deyil, ona görə kartın kənarı və qonşu şəkil də mürəkkəb
+kimi sayılır. → **Ölçmə mümkün deyil.** Fərziyyə yoxlanılmamış qalır.
+
+### Müşahidə 2 — bütün rəqəmlər 1..14 aralığındadır (15 parça var)
+
+- mavi: 1,4,4,5,5,6,7,8,8,9,11,14 → **maksimum 14**
+- qırmızı: 2,3,4,5,6,6,6,7,7,8,9,10 → **maksimum 10**
+
+Əgər mavi **ayın günü** olsaydı, 12 müstəqil seçimin hamısının ≤14 olması
+ehtimalı `(14/31)^12 ≈ 7×10⁻⁵` — təxminən **12 000-də 1**. Bu, "mavi = gün"
+modelinə qarşı **kəmiyyətcə ölçülmüş dəlildir**.
+(Qırmızı üçün eyni hesab zərərsizdir: `(10/12)^12 ≈ 0.11`.)
+
+Alternativ oxunuş: hər iki rəqəm **1..15** aralığındadır, yəni **parçaların
+özünə istinad edir** (mövqe/indeks), tarix deyil.
+Amma "mavi = mövqe" modelini bu sessiyada artıq ölçüb rədd etmişdim: üç
+təkrar var (IV, VIII, V ikiqat), və toqquşan mavi V-lərin ikisi də üç müstəqil
+renderdə təmiz, tək V çıxdı.
+
+**Vəziyyət:** tarix modeli hələ də ən yaxşısıdır (ABŞ bayrağı = VII·IV = 4 iyul
++ "July?" əlyazması), amma indi ona qarşı ölçülmüş bir dəlil var. Dondurulmuş
+saxlayıram, üzərinə heç nə qurmuram. Hər iki halda **şəkillərin adları** lazımdır.
