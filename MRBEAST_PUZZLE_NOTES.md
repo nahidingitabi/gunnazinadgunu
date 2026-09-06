@@ -7422,3 +7422,32 @@ REF803 (örtülü) · REF765/REF767 (örtülü) · ofis (yuxarı qutu üçün ə
 **Bu mövqeni bağlayıram** — 13, 14, 15-in mövqeləri fiziki olaraq oxunmur.
 
 Rəsm isə aydındır və «iki siyirməli kartoteka» oxunuşunu saxlayır.
+
+## ★ RƏSMLƏRİN SAYI = 20 (10-cu kart konturla həll olundu)
+
+REF767-də 10-cu kartın konturu qəti nəticə verir (`CL10b.png`, 16×):
+qırmızı `VIII`, **tünd aşağı ox** (sap + ucluq + altlıq), **üç sütun**
+(çəhrayı → sarı → yaşıl, artan), mavi `IX` — **hamısı eyni fasiləsiz ağ
+sahədədir** və qrupun ətrafında kartın öz tünd kənarı görünür. **Ox və diaqram
+arasında kart kənarı YOXDUR.** → 10-cu kartda **iki rəsm**.
+
+REF803-də bu sual bağlanmırdı, çünki orada kartlar üst-üstə düşür və ağ ləkələr
+birləşir. REF767-də kart təkdir.
+
+### Yekun say
+
+```
+iki rəsmli kartlar (5): 3 · 6 · 9 · 10  (dördü də KONTURLA təsdiq) · 14 (gözlə)
+bir rəsmli kartlar (10): 1 · 2 · 4 · 5 · 7 · 8 · 11 · 12 · 13 · 15
+CƏMİ = 5×2 + 10×1 = 20 RƏSM
+```
+
+### Bu, vərəqin ikinci sətri ilə üst-üstə düşür
+
+```
+(4 4 4 5) = 17 hərf + 3 boşluq = 20 simvol   =   20 rəsm
+```
+
+**Amma eyni etiraz qalır:** hərflər üçün 17 rəsm kifayətdir, 20 deyil; üçü
+boşluq olmalıydı, halbuki bütün 20-si dolu rəsmdir. Yəni **say uyğunluğu
+diqqətəlayiqdir, model deyil.** Dəlil kimi deyil, müşahidə kimi yazıram.
