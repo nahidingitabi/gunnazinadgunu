@@ -10097,3 +10097,29 @@ yəni ən yaxşı halda **4 tək dərəcəli dəyər** qalır. ⇒ **Domino oxun
 
 Bu, GC8 mexanizmi ilə də uyğundur: orada sıra səhifə düzümündən gəlirdi, rəqəmlərdən yox.
 Bizdə sıra **fiziki yapbozun yığılmasından** gəlməlidir — müəllifin ipucu da məhz bunu deyir.
+
+## 2026-09-06 ~21:1xZ — ★ SEQMENTASİYA YIĞIN ÜZƏRİNDƏ İŞLƏYİR (`SILHOUETTES.png`)
+
+Əvvəl «kart siluetlərinin avtomatik ayrılması İŞLƏMİR» kimi bağlanmışdı — o,
+**tək kadrda** sınanmışdı. **Yığın üzərində işləyir**: L\* və xroma birgə eşiklə
+(L > 62-ci faiz, xroma < 55-ci faiz) + morfoloji bağlama.
+
+| parça | ölçü (px) | sahə | kontur |
+|---|---|---|---|
+| **13 qar** | 99×71 | 5103 | **tam və təmiz** — ən yaxşı siluet |
+| **12 siluet+bitki** | 55×87 | 2185 | təmiz |
+| **11 Oman** | 53×84 | 1684 | təmiz |
+| 9 😂 | 70×84 | 2868 | qonşuya bir az sızır |
+| 10 daş+qartal | 71×112 | 3804 | qismən sızır |
+| 7, 8, 14 | — | — | qonşu kartlara sızır (üst-üstə düşürlər) |
+
+Kart 13-ün forması: **sol uc iri yumru qabarıq**, üst kənar sağa doğru **pillə ilə
+qalxır**, sağ uc **kəsik + sivri**, alt kənar demək olar düz.
+
+## ⚠ ÖZ ARQUMENTİMİ ZƏİFLƏDİRƏM: «rəqəm ↔ ad uzunluğu» korrelyasiyası ÇİRKLİDİR
+
+10 kart üçün max(rəqəm) ilə ehtimal olunan ad uzunluğu arasında Spearman **0.648**
+(30 uyğun cüt, 7 ziddiyyətli) çıxdı və bu, GC8 mexanizminin xeyrinə görünür.
+**Amma bu dəlil deyil:** adları məhz `ad ≥ max(rəqəm)` süzgəcindən keçsin deyə
+seçmişəm — yəni korrelyasiya konstruksiya ilə yaradılıb. Bu, bu gün artıq bir dəfə
+düşdüyüm tələnin (adı rəqəmə uyğun seçmək) eynisidir. **Qeyd olunur, istinad edilmir.**
