@@ -11079,3 +11079,81 @@ hamısı A verir. `feastables` istifadəçi tərəfindən təsdiqlənib, deməli
 Paralel axtarış: X-də parçaların adlarını verən **heç bir paylaşım tapılmadı**;
 r/MrBeast mövzunun mərkəzidir amma orada da adlandırma yoxdur; tapmaca icması
 mənbələrində dörd gün ərzində **sıfır** identifikasiya var.
+
+# ★★★★★ 2026-09-07 — MEXANİZM TAPILDI: ŞƏKİLLƏR BAYQUŞ NÖVLƏRİDİR
+
+Paralel axtarış r/MrBeast icmasını tapdı (reddit.com robots ilə bağlıdır; agent
+**Arctic Shift** arxiv API-si ilə oxudu). Nəticələr:
+
+## 1. Açar: hər şəkil bir BAYQUŞ NÖVÜNÜN adıdır
+
+u/Rocket_Dog27 (2026-09-05): *«those seemingly random pictures on the jigsaw pieces
+are all just names of owl types (well, all except 5, which are boobooks)»*.
+u/JayLapse: *«They weren't all owls. Including the boobooks, there were 14 owls.»*
+
+Bu, indiyə qədərki bütün uğursuzluqları izah edir: mən adları **adi əşya adları**
+kimi axtarırdım (calendar, glasses, brown square…). Əslində:
+Oman bayrağı → **Omani Owl** · eynək → **Spectacled Owl** · ABŞ bayrağı + tövlə →
+**Barn Owl** · barmaqlıqlı qapı → **Barred Owl** · qar buludu → **Snowy Owl** ·
+elf/gnome → **Elf Owl** · gülən emoji → **Laughing Owl** · daş + qartal →
+**Eagle-Owl** · Afrika + ot → **African Grass Owl** · Tasmaniya →
+**Tasmanian Boobook** · təqvim 25 (Milad) → **Christmas Boobook** · Feastables/şokolad
+→ **Chocolate Boobook**.
+
+★ Beş «boobook» olması masadakı **«Boo!» kitabı — "five of these"** ipucu ilə bağlıdır:
+**boo + book = boobook**.
+
+## 2. Müəllifin ERRATASI (öz Reddit hesabından, 2026-09-06)
+
+DoctorXOR: *«Two errors in the puzzle... **The jigsaw piece with grass has an extra
+blue 'i'. The red paper on the desk is missing a 2.** Neither error is intentional.»*
+
+⇒ Afrika+ot parçasının mavi rəqəmi **VIII deyil, VII**-dir.
+⇒ Qırmızı qeyddəki **(8 3 5 4 4)** əslində **(8 3 5 2 4 4)**-dür — altı söz.
+
+Mənim öz oxumalarım bu iki nöqtədə səhv deyildi; kartda həqiqətən VIII yazılıb və
+qeyddə həqiqətən 83544 yazılıb — **səhv müəllifin özünündür**.
+
+## 3. Masa qeydlərinin tam açılışı (icma + mənim müstəqil təsdiqim)
+
+| imza | ifadə | kim tapıb |
+|---|---|---|
+| **(5 2 7)** | **BIRDS OF AMERICA** (Audubon) | icma |
+| **(4 4 4 5)** | **LAST WORD THEN NINTH** | mən müstəqil tapmışdım ✓ |
+| **(3 6 4)** | **XOR SUPERB OWLS** («superb owls» = «Super Bowls») | icma |
+| **(6 6)** | **FOURTH UPLOAD** | icma |
+| **(6)** | **HEDWIG** | icma |
+| **M̶R̶ (9)** | **FANTASTIC** | icma |
+
+★ `(3 6 4)` = XOR(3) SUPERB(6) OWLS(4) — müəllifin ləqəbi **DoctorXOR**-dur.
+★ Mənim əvvəl «THE ZENITH CITY» təxminim **səhv idi**; düzgünü XOR SUPERB OWLS.
+★ `M̶R̶ (9)`: qırmızı yol **MRBEASTSAND** verir → «MR» pozulur → **BEASTS AND** →
+«**Fantastic** Beasts and Where to Find Them» → 9 hərflik **FANTASTIC**.
+Mənim «MR pozulub, deməli 9 hərflik ad» oxunuşum düzgün istiqamətdə idi
+(DONALDSON təxminim isə səhv).
+
+## 4. CAVAB: **FANTASTIC HEDWIG** — SHA-256 ilə özüm yoxladım
+
+u/CiviledXI (2026-09-05) açıq şəkildə öz cavabının SHA-256-sını dərc edib:
+`b74ded47baecf147821e2bcaa97c4735d5002cc37dc7e7fe93ea3845872dde22`
+(«9 hərflik və 6 hərflik sözlər, hamısı böyük hərflə, arada bir boşluq»).
+
+**Özüm hesabladım:** `SHA256("FANTASTIC HEDWIG")` = həmin hash. **Tam uyğunluq.**
+(Digər variantlar — kiçik hərf, boşluqsuz, tərs sıra — uyğun gəlmir.)
+
+Hər iki tərəf Harry Potter kainatındandır: **Hedwig** Harry-nin qar bayquşudur,
+**Fantastic Beasts** isə eyni kainatın filmidir. Bayquş mövzusu ilə tam uyuşur.
+
+## ⚠ Nələr hələ də açıqdır
+
+1. **15 ≠ 16.** Formada saydığım **15 simvol** (klaviş-klaviş, yenidən yoxladım:
+   f044–f051 kadrlarında sabit 15, əvvəlində və sonrasında sıfır). `FANTASTIC HEDWIG`
+   isə **16 simvoldur**. Uyğunlaşdırma: ya animasiya nümunə mətndir, ya da cavab
+   boşluqsuz **`FANTASTICHEDWIG`** (düz **15** simvol) yazılır.
+2. **Qalib elan olunmayıb.** Ən son arxivlənmiş şərh (2026-09-06 22:48 UTC) qalib
+   olmadığını göstərir; DoctorXOR cavabları təsdiqləməkdən imtina edir.
+3. **İcmada fikir ayrılığı var:** u/DeadpoolxChimi «I genuinely don't think it's
+   Fantastic Hedwig»; u/JayLapse plitələrin «mrbeastsand»dan artığını verdiyini deyir.
+   Rəqib cavab `BEASTSANDSTUNTS` rədd edilib.
+4. Hər parçanın **hansı bayquş** olduğu **heç kim tərəfindən açıq yazılmayıb** —
+   icma bunu qəsdən saxlayıb.
