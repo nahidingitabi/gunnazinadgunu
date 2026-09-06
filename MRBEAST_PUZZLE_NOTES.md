@@ -4257,3 +4257,25 @@ SAĞ   : AÇIQ MAVİ gövdə, içində tünd-mavi ləkələr/detallar,
 Açıq mavi gövdə + iki qırmızı zolaq + içəridə tünd detallar — bu, düz rəngli
 sadə obyekt deyil, **üzərində naxış/yazı olan bir şeydir** (qutu? paket? bilet?
 əskinas? kitab?). Adlandırmıram — istifadəçiyə göndərirəm.
+
+## 2026-09-06 02:20Z — DAŞ+QARTAL PARÇASI: ƏL DÖRDBUCAĞI İLƏ 72× QAZANC
+
+Bu parçada çox planlı IBP **heç nə vermirdi** (median 1.4 → IBP 1.2). Səbəbi
+qeydiyyat idi, alqoritm yox. Ona görə **tək plandan (13:26, h806, 72 kadr) və
+dördbucağı əl ilə** verdim — parçanın həqiqi künclərini kadrda ölçüb.
+
+```
+çox planlı IBP        kəskinlik =  1.2
+tək plan + əl quad    kəskinlik = 86.3     → 72×
+```
+Bu, indiyə qədərki ən böyük fərqdir və qaydanı təsdiqləyir: **məhdudlaşdırıcı
+amil qeydiyyatdır.** Alət eyni, kadrlar eyni — yalnız dördbucaq düzgün verildi.
+
+**İndi görünən:** solda **qızılı-qəhvəyi uzunsov obyekt** (istifadəçinin
+"daş" dediyi), sağında **tünd qəhvəyi quş** — başı daha açıq rəngdə, ayaqları
+görünür, dimdiyi qarmaqlıdır (qartal). Şəkil təsdiqləndi.
+
+**Rəqəmlər hələ də kəsilir:** parçanın rəqəmləri sağ ucundadır və mənim
+dördbucağım oradan kəsilirdi. Dördbucağı sağa 30% uzadıb təkrar işlədirəm.
+Qeyd: sağdakı çəhrayı ləkə **qonşu parçaya** da aid ola bilər — ehtiyatlı olmaq
+lazımdır, onu bu parçanın rəqəmi kimi oxumaq səhv olardı.
