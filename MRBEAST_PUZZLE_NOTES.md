@@ -4094,3 +4094,24 @@ iki şəkil birləşib **bir söz/rebus** verir. İkinci variant daha ehtimallı
 
 Bu, şəkil adlarının niyə kritik olduğunu göstərir: iki şəkilli parçalarda
 **birləşmiş məna** lazımdır (məs. bayraq+anbar → ?), tək şəkil kifayət etmir.
+
+## 2026-09-06 01:00Z — YENİ ATLAS (IBP) + IBP-nin HƏDDİ
+
+`PIECE_PICTURES2.png` — 15 parça, mümkün olan yerdə **iterativ geri-proyeksiya**
+ilə, hər tilenin üstündə rəqəmlər və tarix oxunuşu. `tools/pieces/atlas2.py`.
+
+**IBP hər yerdə qazanc vermir — ölçdüm:**
+```
+ABŞ bayrağı parçası   median  8.7 → IBP 49.9   (5.7×)   ✓
+iki obyekt parçası    median  5.4 → IBP 13.7   (2.5×)   ✓
+daş+qartal parçası    median  1.4 → IBP  1.2   (qazanc yox) ✗
+təqvim parçası        nəticə sürüşdü — qeydiyyat pozuldu   ✗
+```
+Qanunauyğunluq aydındır: **IBP yalnız qeydiyyat yaxşı olanda işləyir.**
+Bayraq parçasında planlararası korrelyasiya 0.55–0.78 idi → böyük qazanc.
+Qartalda parça kiçik və çox maili olduğu üçün qeydiyyat zəifdir → qazanc yoxdur.
+Yəni IBP sehr deyil: **məhdudlaşdırıcı amil artıq alqoritm yox, qeydiyyatdır.**
+
+Bu, növbəti addımı da göstərir: qartal, təqvim və 15-ci parça üçün
+**dördbucaqları əl ilə, eyni fiziki küncdən başlayaraq** vermək lazımdır —
+avtomatik künc sırası bu üç parçada uyğun gəlmir.
