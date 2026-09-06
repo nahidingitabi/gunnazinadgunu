@@ -4232,3 +4232,28 @@ sayıram, daha vaxt sərf etmirəm.
 
 Deməli tarix modelinin "qalan üç parça yanvar/noyabr/dekabr gətirməlidir"
 proqnozu **ən azı bu parça üçün sınana bilməz**.
+
+## 2026-09-06 02:05Z — TƏK PLAN vs ÇOX PLAN: QAYDA YOXDUR, ÖLÇMƏK LAZIMDIR
+
+"İki obyekt" parçası üçün təqvimdə işə yarayan resepti təkrarladım — tək plan
+(12:45, 82 kadr) + əl dördbucağı. **Nəticə tərsinə çıxdı:**
+```
+tək planlı IBP   kəskinlik =  1.1
+çox planlı IBP   kəskinlik = 13.7    → çox plan 12× yaxşıdır
+```
+Halbuki təqvimdə **tam əksi** olmuşdu (çox plan sürüşmüşdü, tək plan qazanmışdı).
+
+Yəni **ümumi qayda yoxdur**: hansı variantın yaxşı olduğu parçanın iki plandakı
+bucaq fərqindən asılıdır və hər parça üçün **ayrıca ölçülməlidir**. Bunu qeyd
+edirəm ki, gələcəkdə "tək plan həmişə daha etibarlıdır" kimi yanlış qayda
+çıxarılmasın.
+
+### İki obyekt — ağ balansdan sonra ən dəqiq təsvir
+```
+SOL   : tünd qəhvəyi/qara, yuxarıda enli, aşağıya doğru daralan forma
+SAĞ   : AÇIQ MAVİ gövdə, içində tünd-mavi ləkələr/detallar,
+        yuxarı və aşağı uclarında QIRMIZI-moruğu zolaqlar
+```
+Açıq mavi gövdə + iki qırmızı zolaq + içəridə tünd detallar — bu, düz rəngli
+sadə obyekt deyil, **üzərində naxış/yazı olan bir şeydir** (qutu? paket? bilet?
+əskinas? kitab?). Adlandırmıram — istifadəçiyə göndərirəm.
