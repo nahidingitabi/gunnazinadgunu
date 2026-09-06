@@ -7825,3 +7825,19 @@ REF803 və REF806-da 12×–20× böyütmədə qara siluetin forması Afrika qit
 (şimal-qərbdə enli kütlə, şərqdə buynuz çıxıntısı, cənuba doğru daralma).
 Yanındakı yaşıl obyekt bitki/koldur. Bu, əvvəlki ölçmələrlə uzlaşır
 (uzanma 2.78, solidity 0.82, neytral qara).
+
+## ★ REF767 ÜST QUTU — ALTI KART BİR YERDƏ, 9×–22×
+
+`R767_TOP.png` və `R767_THREE.png`. Bu görüntü bir neçə oxunuşu düzəltdi:
+
+| kart | əvvəl yazılan | indi görünən |
+|---|---|---|
+| **1** (r.II b.XI) | «rolikli fiqur» | **sivri boz-yaşıl papaqlı, qırmızı paltarlı fiqur**, mavi-ağ ayaqlar, altda **iki tünd disk** → cırtdan / elf / Şaxta baba tipli fiqur (rolik deyil) |
+| **4** (r.V b.VII) | «kəpənək» | **tünd göy konturlu iki ilgəkli forma** — bant/lent də ola bilər, kəpənək də |
+| **8** (r.VII b.I) | «şəkil gizli» | qırmızı **VII** aydın; şəkli hələ də qonşu kartın altındadır |
+| **13** (rəqəmlər gizli) | «pəncərə/kartoteka» | **çərçivəli düzbucaq, üfüqi bölgü ilə İKİ panel** — pəncərə / qapı / kartoteka |
+| **10** (r.VIII b.IX) | «aşağı ox + diaqram» | **tünd başlıq → nazik sap → boz enli altlıq** olan obyekt (coystik? bel? aşağı ox?) + **çəhrayı→sarı→yaşıl artan üç sütun** |
+| **9** (r.VII b.IV) | «ABŞ + anbar» | təsdiq: ABŞ bayrağı + **silosu olan qırmızı anbar** |
+
+⚠ 10-cu kartdakı tünd obyekt sadə «aşağı ox» deyil: başlığı var, sapı nazikdir,
+altlığı boz və enlidir. Ad açıq qalır.
