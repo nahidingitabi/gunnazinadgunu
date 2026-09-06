@@ -9491,3 +9491,32 @@ QIRMIZI : ????????E?M?H??
 MAVI    : ????????O?O?D??
 ```
 (sıra mənim kataloq sıramdır; yapboz sırası hələ naməlumdur)
+
+---
+
+## 2026-09-06 17:5xZ — YOXLAMA AGENTLƏRİNİN İKİNCİ DƏSTİ (22–29)
+
+| iddia | hökm | qeyd |
+|---|---|---|
+| 25 altyazı trekı (24 müəllif + 1 ASR) | **TƏSDİQ** | iki müstəqil mənbədən yenidən parse edildi |
+| Altyazı **stil qatı** (58 pen, 19 rəng) gizli data kanalıdır | **RƏDD** | rəqəmlər doğru, şərh səhv |
+| Rəng qatı = **danışana görə rəngləmə** | **TƏSDİQ** | `#00BCE7` = MrBeast (2943 seqment); **`#E64783` = Colin Sanders** (101 seqment — köhnə seyf kodunu `R-62… L-39… R… 0-5… L-73…` oxuduğu yer də daxil); `en.json3` və `en.srv3` pen cədvəlləri bayt-bayt eynidir ⇒ data həqiqidir |
+| Cavab xanası sərbəst mətn, `maxLength=500` | **TƏSDİQ** | yalnız GET; heç bir POST edilməyib |
+| API səthi: `POST /api/entries`, `/verify`, `/resend`; leaderboard yoxdur | **TƏSDİQ** | bayt-bayt; heç bir POST edilməyib |
+| IOS + təzə visitorData "yeganə işləyən üsuldur" | **QİSMƏN RƏDD** | üsul işləyir (200 OK, 92 format), amma iddianın iki konkret hissəsi yanlışdır |
+
+### ⚠ ÇƏRÇİVƏ DÜZƏLİŞİ — mən qaydaları həddindən artıq güclü oxumuşam
+
+Qeydlərdə dəfələrlə yazmışam: *"Rəsmi qaydalar ipucuların **hamısının** videoda
+olduğunu deyir."* **Bu, dəqiq deyil.** Qaydaların 16-cı sətri hərfi olaraq belədir:
+
+> **"Clues to solving the Puzzle will be available in the Video."**
+
+Bu cümlə "**ipucular videoda mövcud olacaq**" deməkdir — "**yalnız** videoda" və
+"**hamısı** videoda" **demir**. ⇒ Xarici səthlər rəsmi olaraq **istisna edilmir**.
+(Praktikada onlar bir-bir yoxlanılıb və boş çıxıb — amma bu, qaydadan çıxan
+nəticə deyil, ölçmədən çıxan nəticədir.)
+
+Eyni cür: səhifədə *"You can guess multiple times, but there is only 1 correct answer"*
+yazılıb — sözügedən "**limitsiz**" sözü **heç yerdə yoxdur**. Qeydlərdəki
+"təxmin sayı limitsizdir" ifadəsi də **həddindən artıq güclüdür**.
