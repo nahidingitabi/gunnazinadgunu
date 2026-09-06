@@ -10425,3 +10425,14 @@ Rəqəmlər: qırmızı **VIII** (yuxarıda), mavi **IX** (aşağı-sağda).
 ⇒ Kart 4 = **⬇ + artan sütun diaqramı**, ad **≥9 hərf**.
 Namizədlər: `down arrow`(9) · `downgrade`(9) · `bear market`(10) · `bottom line`(10) ·
 `chart decreasing`(15, amma sütunlar ARTIR — zəif).
+
+### Kart 8 — ən yaxşı görüntü (`K7_BEST.png`, 767 çəkilişi, 11 kadr)
+İki şəkil aydın seçilir:
+1. **Qara paz** — yuxarısı enli, aşağı doğru sivrilir; solda, mavi obyektin arxasında.
+2. **Hündür açıq-mavi/firuzəyi düzbucaq** — **yuxarı ucunda və aşağı ucunda moruğu
+   zolaq**, içərisində sağa yaxın **tünd şaquli xətt**.
+İkisi bir yerdə **tək obyektin işıqlı və kölgəli tərəfi** kimi də oxuna bilər
+(obelisk / qüllə / lövhə). Ad hələ yoxdur.
+
+**Kartın forması:** sol kənarda **dördbucaq çıxıntı (tab)** var və onun üstündə
+**kəsik**; sağ kənar **dalğavari/əyri**.
