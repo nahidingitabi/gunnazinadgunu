@@ -4496,3 +4496,29 @@ oxşayır. Bu etiketə güvənmək olmaz. Təqvim üçün də eyni (yaxşı ki `
 düzgün idi — "25" oxunuşu ondan gəlir, o etibarlıdır).
 
 Düzəldilmiş kanonlarla hamısını yenidən render edirəm (`sp_fix_*.json`).
+
+---
+
+## 2026-09-06 02:40Z — Qartal kartı: şəkillər açıldı, rəqəmlər yox
+
+`sp_eagle3.json`-un h803 dördbucağı **düzgün idi** (90.7×34.2, dartılma 1.02) —
+problem sadəcə ölçü idi. Düzgün kanonla (1456×560, S=16) yenidən render etdim.
+
+**Şəkillər indi aydındır:**
+- Sağdakı quş: **tünd bədən + ağ baş və ağ quyruq, əyri dimdik** →
+  **keçəl qartal (bald eagle) 🦅**. Etiket təsdiqləndi.
+- Soldakı: şaquli **oval/yumurtavari** cisim, boz-qəhvəyi, ortasında açıq qızılı
+  ləkə. Daş 🪨 / kartof 🥔 / yumurta 🥚 ola bilər — dəqiq deyil.
+
+**Rəqəmlər açılmadı.** Kartın sağ ucundakı çəhrayı rəqəmi 5× böyütdüm: forma
+yoxdur, yalnız ləkə. Səbəb ölçüdür — bu kartda bir rəqəm təxminən **5×8 doğma
+piksel**dir. Bu, 1080p-nin fiziki həddidir, alqoritm məsələsi deyil.
+→ Qartal kartı **oxunmaz olaraq qalır**. Bağlayıram.
+
+## 2026-09-06 02:38Z — Daha yaxın çəkiliş yoxdur (bağlandı)
+
+Bütün otaq seqmenti (722–1066 s) üçün kontakt vərəqləri düzəltdim. Qutu yığını
+yalnız **761–770** və **800–810** saniyələrdə görünür — yəni mövcud keşlərimin
+(h803, h806, h807, hn765b) əhatə etdiyi yerlərdə. Qalan hissə köhnə tapmacanın
+xülasəsi, qlobus, BEAST TRAVEL və qalibin hekayəsidir.
+→ **Oxunmayan üç parça üçün daha yaxşı kadr mövcud deyil.**
