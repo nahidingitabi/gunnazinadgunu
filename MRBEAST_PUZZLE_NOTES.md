@@ -10414,3 +10414,14 @@ REF803-dən 10% BÖYÜK göstərir.**
    ortasından **nazik tünd şaquli xətt** keçir.
 Rəqəmlər təsdiq: qırmızı **VI**, mavi **VI** (bərabər).
 Ad hələ tapılmayıb; istifadəçiyə göndərildi.
+
+### Kart 4-ün şəkli qəti oldu (`K4_ARROW.png`, `S767_K4.png`, 767 çəkilişi, 21–22 kadr)
+Sol obyekt **qəti aşağı oxdur (⬇)**: boz-tünd şaquli gövdə + aydın **aşağı yönəlmiş
+üçbucaq uc**. Onun altındakı kiçik mavi-boz düzbucaq **diaqramın ən qısa sütunudur**
+(oxun «altlığı» deyil).
+Diaqram: **dörd artan sütun** — mavi-boz (ən qısa) → moruğu → sarı → yaşıl (ən uzun).
+Rəqəmlər: qırmızı **VIII** (yuxarıda), mavi **IX** (aşağı-sağda).
+
+⇒ Kart 4 = **⬇ + artan sütun diaqramı**, ad **≥9 hərf**.
+Namizədlər: `down arrow`(9) · `downgrade`(9) · `bear market`(10) · `bottom line`(10) ·
+`chart decreasing`(15, amma sütunlar ARTIR — zəif).
