@@ -50,17 +50,17 @@ CARDS = [
     ('yasil papaqli fiqur',      2,  11, None),   # mavi XI/XII qeti deyil
     ('sari kart (sekli gizli)',  7,   1, None),
     ('iki panelli cerceve',   None, None, None),
-    ('asagi ox + sutunlar',      8,   9, None),
+    ('asagi ox + sutunlar',      8,   9, None),   # namized: 'chart decreasing'(15) -> C/R
     ('bant / lent',              5,   7, None),
-    ('narinci-qirmizi duzbucaq', 6,   8, None),
-    ("teqvim '25'",              2,   4, None),
+    ('narinci-qirmizi duzbucaq', 6,   8, None),   # namized: 'red square'(9) -> U/R
+    ("teqvim '25'",              2,   4, None),   # namized: 'spiral calendar'(14) -> P/R
     ('iki obyekt',               6,   6, None),   # qirmizi == mavi
     ('sevinc uzu',              10,  14, 'face with tears of joy'),
     ('das + kecel qartal',    None, None, None),
-    ('Oman bayragi',             6,   5, None),   # emoji adi 'Oman'(4) SIGMIR
-    ('Afrika + yasil bitki',     4,   8, None),
+    ('Oman bayragi',             6,   5, 'flag: Oman'),  # CLDR adi, 8 herf
+    ('Afrika + yasil bitki',     4,   8, None),   # namized: 'globe showing Europe-Africa'(24) -> B/O
     ('qar buludu',               9,   5, 'cloud with snow'),
-    ('ABS bayragi + tovle',      7,   4, None),
+    ('ABS bayragi + tovle',      7,   4, None),   # namized: 'flag: United States'(16) -> I/G
     ('ureyeoxsar tund fiqur', None, None, None),
 ]
 
