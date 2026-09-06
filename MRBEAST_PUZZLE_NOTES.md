@@ -10499,3 +10499,18 @@ Ehtimal ki, dekorasiyadır (mükafatı elan edir), amma qeydə alınır.
 
 ⇒ Nə (5,2,7), nə (8,3,5,4,4) köhnə sənəddə qarşılığını tapmır. Mavi qeyd isə
 tapır. Bu asimmetriya bu gün ikinci dəfə təsdiqləndi.
+
+## ★★ 2026-09-07 ~00:2xZ — ÜST SIRANIN ƏN AYDIN GÖRÜNTÜSÜ (`TOPROW_MAX.png`, 14×)
+
+`st324` kadr 72, pəncərə (858,0)-(1250,72), 14× Lanczos + kağız balansı.
+Soldan sağa dörd parça bir kadrda, demək olar üzbəüz:
+
+| sıra | parça | görünən |
+|---|---|---|
+| 1 | **elf** | qırmızı `II` yuxarıda, mavi `XI` aşağı-solda. Fiqur: yaşıl şiş papaq, **qırmızı palto**, **yaşıl şalvar**, narıncı saç, **bir qol yuxarı qaldırılıb**, əlində qırmızımtıl əşya. **SOL kənarda iri yumru çıxıntı (tab).** |
+| 2 | **«I VII»** | mavi `I`, qırmızı `VII`. **Şəkil tamamilə 3-cü parçanın altındadır.** Alt-sağ kənarı pilləvari kəsilib; altından krem/sarı kağız görünür. |
+| 3 | **barmaqlıqlı** | qalın qara çərçivə + **6–7 ŞAQULİ barmaqlıq**, yuxarıda üfüqi element. Ayrı ağ parçadır — konturu 2-ci parçadan aydın ayrılır (əvvəlki sessiyanın «iki ayrı parçadır» nəticəsi təsdiqləndi). **Rəqəmləri hər iki ucdan örtülüdür.** |
+| 4 | **diaqram** | rəngli sütunlar (mavi, bənövşəyi, sarı, yaşıl), mavi `IX` sağda |
+
+★ Kart 3 üçün ən yaxın oxunuşlar: **həbsxana pəncərəsi / qəfəs / darvaza (portcullis) /
+hasar paneli / radiator**. Qeyd: firuzəyi şifr kartının alt yazısı «bird **fence**» idi.
