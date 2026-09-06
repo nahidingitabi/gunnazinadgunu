@@ -10986,3 +10986,47 @@ miqyas aralığında şablon uyğunlaşdırması ilə axtarıldı, eşik 0.62.
 əlidir**, yanlış uyğunluq.
 
 ⇒ Yapboz şəkilləri otaqda **unikaldır**; etiketdən ad almaq yolu bağlıdır.
+
+## ★★★ 2026-09-07 — İSTİFADƏÇİ: #6 = FEASTABLES; #7-nin rəngi ÖLÇÜLDÜ
+
+İstifadəçi #6-nı (VI/VI) **FEASTABLES** kimi təyin etdi (MrBeast-in şokolad markası),
+#7-də əlavə detal olmadığını təsdiqlədi, #8 və 14-cü parçanın mavi rəqəmini bilmir.
+Öz rekonstruksiyasını **X (Twitter)**-dan götürdüyünü dedi — deməli icma paylaşımı var.
+
+`FEASTABLES` (10 hərf) → qırmızı[6] = **A**, mavi[6] = **A**.
+
+### #7 düzbucağın rəngi ölçüldü — «brown square» qazanır
+
+Kartın öz ağ kağızına görə ağ balansı düzəldildikdən sonra düzbucağın median rəngi
+**#BF7B65**. Namizədlərlə məsafə:
+
+| namizəd | rəng | məsafə |
+|---|---|---|
+| Twemoji brown square | #C1694F | **28.8** |
+| terracotta | #E2725B | 37.5 |
+| brick | #B55A46 | 46.7 |
+| Twemoji red square | #DD2E44 | 89.1 |
+| firebrick | #B22222 | 112.4 |
+| chocolate | #7B3F00 | 136.1 |
+
+⇒ `BROWN SQUARE` (11 hərf, ≥8 şərtini ödəyir) → qırmızı[6]=**S**, mavi[8]=**U**.
+Ad siyahısında 0-cı sıraya qaldırıldı.
+
+⚠ Bu, «şəkillər Twemoji deyil» nəticəmi **ləğv etmir** — bant hələ də dolğusuz qara
+konturdur (Twemoji-də dolu qırmızı, palitra məsafəsi 92.7) və tövlə emojisi yoxdur.
+Dəst **qarışıqdır**; hər şəkil ayrıca adlandırılmalıdır.
+
+## ★★★★ Yeni metod: adlandırma «bahalılığı» ilə sıralama
+
+Əvvəl ölçmüşdüm ki, «parçalar bu ifadəni yığa bilərmi?» sualı hər şeyə «hə» deyir.
+Həlli: hər namizəd ada **inandırıcılıq dərəcəsi** vermək (0 = adi adam ilk bunu yazar)
+və namizəd cavab üçün **minimum-xərcli təyinatı** (Hungarian) həll etmək. Ən az
+qondarma adlandırma tələb edən cavab ən inandırıcısıdır.
+
+Alətlər: `tools/pieces/naming.py` (dərəcələnmiş ad cədvəli), `mincost.py`,
+`sweep.py` (bütün iki sözlü 14 hərflik ifadələr), `places.py` (14 hərflik yer adları),
+`bothcolours.py` (hər iki rəngi eyni anda, xərc büdcəsi ilə).
+
+★ **Vacib nəticə:** büdcə = 2 (yəni demək olar yalnız ən təbii adlar) olanda
+**heç bir sıralama hər iki rəngi eyni anda iki sözə bölmür** (2 543 874 düyün, 0 nəticə).
+Deməli ya adlardan biri hələ də səhvdir, ya da mavi sətir söz kimi oxunmur.
