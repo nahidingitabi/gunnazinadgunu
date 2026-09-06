@@ -7869,3 +7869,41 @@ deyil, ya (b) rəsmlərin adları səhvdir, ya da (c) mexanizm hərf yox,
 aşkarlaması ilə süzüldü (26 fərqli plan). Hamısı köhnə tapmacanın xülasəsidir
 (17:02.99-da `R62L39R05L7360662309 3121200300` planşetdə görünür). **Yeni ipucu yoxdur.**
 QR kod da yalnız giriş saytıdır.
+
+## ★★ COLIN ÖZ ÜSULLARINI ADI İLƏ DEYİR (axın transkripti, `colin2_stream.txt`)
+
+> «Exploration is finding patterns… Execution is putting together a jigsaw…
+> **Extraction** is finding or decoding the answer, a secret word or phrase.
+> …very often it involves **INDEXING, which means using numbers as positions
+> in words**. So, if I have the word *fox* and the number three, I can combine
+> them to take the third letter, **X**. Another very common technique is to get
+> letters from numbers directly by using **ALPHANUMERICS**, where one is A,
+> two is B… all the way down to 26, which is Z.»
+
+⇒ Tapmacanı **məhz Colin** düzəldib və o, iki texnikanı sadalayır:
+1. **INDEXING** — rəqəm sözdəki hərfin mövqeyidir. Roma rəqəmlərinin ən
+   ehtimallı rolu budur.
+2. **ALPHANUMERICS** — rəqəm birbaşa hərfdir (1=A … 14=N).
+
+Üstəlik «jigsaw yığmaq» **execution** mərhələsi kimi adlanır — yəni parçaları
+düzmək işin ORTASIDIR, cavab deyil; cavab **extraction**-dan çıxır.
+
+### Sınanan və uğursuz olan indeksləmələr (hamısı tarix sırasında)
+
+```
+qırmızı = ad indeksi        A O I E M ? L ? T ? H E
+mavi   = ad indeksi         E E ? F O ? T ? T ? D O
+qırmızı+mavi alfanumerik    BK BD DH EG FE FF FH GA GD HI IE JN
+mavi+qırmızı alfanumerik    KB DB HD GE EF FF HF AG DG IH EI NJ
+```
+
+Heç biri söz vermir. **Ya adlar səhvdir, ya sıra tarix sırası deyil.**
+
+### Mövqe sınağı (qəti)
+
+Əgər bir rəqəm cavabdakı mövqe olsaydı, dəyərlər təkrarsız olmalıydı:
+```
+qırmızı: 2 2 4 5 6 6 6 7 7 8 9 10   → təkrarlar var ✗
+mavi   : 1 4 4 5 5 6 7 8 8 9 11 14  → təkrarlar var ✗
+```
+⇒ **Nə qırmızı, nə mavi cavabdakı mövqe deyil.** Onlar ya indeksdir, ya tarix.
