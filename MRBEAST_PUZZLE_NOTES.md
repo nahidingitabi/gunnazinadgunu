@@ -10666,3 +10666,69 @@ fərziyyəsini irəli sürmüşdü. **Yoxlandı, tutmur:**
 ⇒ **Boru stikerləri kartlarla əlaqələndirilə bilmir.** Ən ehtimallı izah:
 bunlar həqiqi dekorasiyadır (nömrələnmiş elektrik paylayıcı qutuları real şeydir).
 Qeydə alınır, amma **açıq istiqamət kimi saxlanmır**.
+
+## ★★★★★ 2026-09-07 ~02:xxZ — PARÇA SAYI 14, CAVAB DƏQİQ İKİ SÖZDÜR
+
+### ⛔ ÖZ NƏTİCƏMİ GERİ GÖTÜRÜRƏM: «boşluqlar sayılır» səhvdir
+
+Əvvəlki qeyd deyirdi ki, adlarda **boşluq da sayılır**, çünki «LAUGHING EMOJI»
+13 hərfdir, mavi rəqəm isə XIV=14-dür. Amma o dəlil **adın özündən** asılı idi.
+Şəklin əsl adı **«face with tears of joy»** = 18 hərf; boşluqsuz da XIV rahat
+oturur (`FACEWITHTEARSOFJOY`[14] = **O**, [10] = **E**).
+«AMERICAN BARN» hər iki konvensiyada eyni A/R verir, yəni **heç vaxt fərq
+göstərməyib**. Deməli tək dəlil yıxıldı → **yalnız hərflərlə, 1-dən indeksləmə**.
+
+### Parçaları özüm saydım: 14
+
+t=803 qutu kadrında (BOX803.png) görünən 13 parça:
+elf II/XI · çərçivələr VII/I · ox+diaqram VIII/IX · bant V/VII · düzbucaq VI/VIII ·
+qar buludu IX/V · təqvim II/IV · iki nazik obyekt VI/VI · ABŞ+tövlə VII/IV ·
+😂 X/XIV · daş+qartal VII/IX · Oman VI/V · siluet+bitki IV/VIII.
+Ofis geniş planında (t≈17–25, klip 94b4d23f) aşağı-solda **kiçik qutunun**
+üstündə **14-cü parça** var — istifadəçinin «Swimsuit» dediyi.
+⛔ Mənim əvvəlki «15 parça» sayım **çərçivə parçasını iki dəfə saymışdı**
+(cədvəldəki #8 «PICTURE HIDDEN» və #13 «FILE CABINET» eyni parçadır; kəsik
+koordinatları x1660–1700 və x1676–1718 üst-üstə düşür).
+
+### ★ Buradan çıxan sərt məhdudiyyət
+
+Formada **15 xana** ölçmüşdüm (altı müstəqil kadr/eşik cütü, aralıq 44.3–44.8 px).
+14 parça = 14 hərf. 15 = 14 + 1 → **cavab dəqiq İKİ sözdür**, ortada bir boşluq.
+Üç söz 16 xana verərdi, bir söz 14. Deməli söz uzunluqları (x, 14−x).
+
+### 14-cü parçanın ən yaxşı görüntüsü
+
+`stackwin.py p15f 1652 832 1706 882` → 168 kadrdan 41-i yığıldı (orta korr. 0.995).
+Şəkil: ağ parçanın ortasında **tünd, yuxarısı iki loblu, aşağı doğru sivrilən**
+forma. Rəqəmlər bu məsafədə **oxunmur** — nə qırmızı, nə mavi kanal ayrılığında.
+Deməli «VII» rəqəmi mənim ölçmüm deyil, istifadəçinin oxumasıdır.
+
+### ⛔ İki yol bağlandı
+
+1. **Çəkilmiş sıra oxunmur.** İstifadəçinin zəncir sırası + onun adları ilə
+   qırmızı `?AL??TESCIAAST` və mavi `?EL??NISH?RLAM` sətirləri lüğət sözlərinə
+   **heç cür** bölünmür (`patsplit.py`, hər iki sətir üçün 0 variant).
+2. **Şəhər+ölkə formatı ölüdür.** `place14.py`: geonamescache-dən 14 simvollu
+   **4113** yer sətri; parçaların tələb etdiyi hərf yığınına uyğun **0** namizəd
+   (qırmızı üçün də, mavi üçün də). GC8-dəki «Algiers, Algeria» şablonu burada yoxdur.
+
+### ⚠ Kobud ad siyahısı ilə axtarış mənasızdır — ölçdüm
+
+`feas.c` (C, 13 s): hər parça üçün ehtimal olunan adların verdiyi hərf çoxluğu ilə
+6 332 769 iki sözlü 14-hərfli ifadə yoxlandı → **3 684 330-u mümkündür (58 %)**.
+Yəni geniş ad siyahısı ilə uyğunluq testi **heç nə süzmür**. Növbəti addım
+axtarış deyil, **şəkillərin dəqiq adlandırılmasıdır**.
+
+### Uzunluq filtri (ad uzunluğu ≥ max(qırmızı, mavi)) — ən güclü daxili dəlil
+
+| parça | tələb | nəticə |
+|---|---|---|
+| 😂 | **≥14** | yalnız `FACEWITHTEARSOFJOY` (18) təbii görünür → (E, O) |
+| figür | **≥11** | `GARDENGNOME`(11) və `SANTASHELPER`(12) — **hər ikisi (A, E)** |
+| qartal | ≥9 | 🦅 «eagle»(5) **kəsilir** → parça saf CLDR emoji adı DEYİL |
+| diaqram | ≥9 | 📊 «bar chart»(8) **kəsilir**; `COLUMNCHART`(11)→(H,A), `CHARTDECREASING`(15)→(E,C) |
+| çərçivələr | ≥7 | 🪟 «window»(6) kəsilir; `FILECABINET`→(B,F), `FRAMEDPICTURE`→(P,F), `MOSQUITONET`→(T,M) |
+| qar | ≥9 | `CLOUDWITHSNOW`(13)→(H,D) |
+
+★ Qartal və diaqram parçaları CLDR emoji adlarını kəsdiyi üçün **«hamısı emoji adıdır»
+fərziyyəsi yanlışdır** — adlar qarışıqdır (bir qismi emoji, bir qismi adi ingilis adı).
