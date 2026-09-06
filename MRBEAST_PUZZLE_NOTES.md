@@ -9740,3 +9740,24 @@ meta-externalagent), `Content-Signal: search=yes, ai-train=no, use=reference`.
 ⇒ **doctorxor.com kimi, mrb.gg-də də avtomatik gəzinti etmirəm.** Artıq çəkilmiş
 səhifələr qeydlərdə qalır, amma **yeni avtomatik sorğu göndərilmir**. Bu domenlərdə
 nə isə lazım olsa, **istifadəçi brauzerdə özü baxa bilər**.
+
+### ⚑⚑ `FOOD` naxışı SINANDI və ÖZÜNÜ DAĞITDI — qeyd edilir ki, təkrarlanmasın
+
+Yuxarıda mavi hərflərin kataloq sırasında `F O O D` verdiyini qeyd etmişdim.
+Onu **sınaqdan keçirdim** və nəticə naxışın **artefakt olduğunu** göstərir:
+
+1. **Adlandırılan dörd kart 5, 7?, 9, 11, 13 — hamısı TƏK mövqedədir.**
+   Yəni "FOOD" **hər ikinci kartdan** oxunur. Bu, sıra deyil, **süzgəcdir**.
+2. Beşinci kartı (təqvim, mövqe 7) əlavə etsəm, naxış dərhal pozulur:
+   `spiral calendar` → m4=**R** ⇒ `F R O O D` ✗ · `calendar` → m4=**E** ⇒ `F E O O D` ✗
+3. Naxışı **saxlamaq** üçün ad seçmək mümkündür: `wall calendar`(12) → m4=**L** ⇒
+   `F L O O D` ✓ — **amma bu, tam olaraq həddindən artıq uyğunlaşdırmadır**:
+   sözü çıxarmaq üçün adı seçirəm, özü də **əsassız bir sırada**.
+
+⇒ **`FOOD`/`FLOOD` naxışı sübut deyil və ondan istifadə edilmir.**
+Kataloq sıram ləğv edilmiş tarix oxunuşundan gəlir; ondan söz çıxarmaq
+**təsadüf generatorudur**. Bu, bu gün rədd etdiyim **üçüncü** özümün naxışıdır
+(əvvəlkilər: "rəqəm = adın uzunluğu" və "qara = mövqe yerdəyişməsi").
+
+★ Doğru yanaşma: **əvvəlcə sıranı müstəqil şəkildə tap** (yapboz kənarlarından),
+sonra hərfləri oxu. Söz axtararaq sıra seçmək — geri istiqamətdir.
