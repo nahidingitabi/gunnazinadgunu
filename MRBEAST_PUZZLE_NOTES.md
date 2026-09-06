@@ -7725,3 +7725,53 @@ Bu ikinci fikir **12 tarixə birbaşa məna verir** və indiyə qədər sınanma
 Forma `maxLength=500`, saytda uzunluq göstərişi yoxdur; 15 ulduz yalnız
 demoda yazılanın uzunluğudur. **Cavab istənilən sayda hərf/rəqəm ola bilər** —
 15 rəqəmini sərt filtr kimi işlətmə.
+
+## ★★ COLIN-İN ÖZ TƏSDİQİ VƏ VİDEONUN SONU
+
+Colin-in «I Solved MrBeast's $1,000,000 Puzzle» videosunun təsvirindən:
+
+```
+MrBeast's video explanation (and also I made a $10,000 puzzle 😄):
+   • How 1 Person Solved A $1,000,000 Puzzle!
+```
+
+⇒ **$10,000 tapmacasını Colin düzəldib və o, MrBeast-in videosunun içindədir.**
+
+MrBeast-in öz sözləri (17:20):
+> «there is a puzzle hidden **within this video** created by Colin himself,
+>  and the first person to answer correctly wins $10,000. So if you think
+>  you've solved it, **scan this QR code** and enter your final answer.»
+
+**QR kod deşifrə olundu** (t=1052.0 s, 1080p, OpenCV):
+`https://puzzle-video-sweepstakes.mrbeast.app/` — yalnız giriş saytı,
+əlavə parametr yoxdur. **Bu istiqamət bağlandı.**
+
+Colin-in eyni gün ikinci videosu: **«The Ramblings of a Million Dollar Winner
+(Riddle #0: The Hat Trick)»** — üç hekayə şəklində üç tapmaca (adı «hat trick»
+= üçlük). Bunlar **ayrı seriyadır**; özü deyir: «Don't worry about solving them
+yet. I'm going to need to give you a little bit more information.»
+Transkript `colin_asr.json`-dadır. $10k tapmacası ilə birbaşa əlaqəsi görünmür.
+
+## ★★ İSTİFADƏÇİNİN «BAŞQA VİDEO + DƏQİQƏ» FİKRİ — BU ÜSUL SƏNƏDLİDİR
+
+MrBeast köhnə tapmacanı izah edərkən eynən bunu deyir:
+
+> «There's a letter "I" and a painted picture of a person screaming… sounds
+> like "ice cream". And **in 2021, I did a video where I ate a $100,000 golden
+> ice cream. And at the 8:20 mark**, there is an image of a receipt which shows
+> 36,348 dollars and 26 cents…»
+
+⇒ **«Başqa videonun filan dəqiqəsi» bu tapmaca ailəsinin təsdiqlənmiş üsuludur.**
+Deməli parçalardakı (qırmızı, mavi) cütü **m:ss vaxt damğası** ola bilər və
+rəsm hansı videonu göstərdiyini deyir.
+
+### Yoxlandı: bu videonun özündə m:ss — MƏNFİ
+
+12 cütü bu videoda dəqiqə:saniyə kimi oxuyub kadrları çıxardım
+(`tsgrab.py` → `TS12.png`): 2:11, 2:04, 4:08, 5:07, 6:05, 6:06, 6:08, 7:01,
+7:04, 8:09, 9:05, 10:14. **Heç birində xüsusi nə isə yoxdur** — adi danışıq
+planları və köhnə tapmacanın izahı. Bu videonun içində m:ss oxunuşu **işləmir**.
+
+Qalan variant: **başqa videolar**. Rəsm videonu göstərir, rəqəmlər dəqiqəni.
+Kanalların tam yükləmə tarixçəsini çəkmək cəhdi YouTube sürət limitinə düşdü;
+təkrar ediləcək.
