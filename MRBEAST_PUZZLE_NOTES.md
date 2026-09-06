@@ -8086,3 +8086,17 @@ yığılan yalnız dördü var: ELBA, HEARNE, HOPE, OMRO. Heç biri məqsədə u
 
 Ən kəskin kadr t=13.61; kart ~30×40 px, rəqəmlər ~6×8 px. Mürəkkəb xəritəsində
 solda **qırmızı ləkə** görünür (2–3 ştrix), amma hansı rəqəm olduğu seçilmir.
+
+## ✗ JIGSAW DİŞLƏRİNDƏN SIRA ÇIXARMAQ — AYIRDETMƏ ÇATMIR
+
+`tools/pieces/tabs.py` → `TABS.png`. 11 kartın konturu öz oxuna döndərilib,
+maskası **üstünə çəkilib** (qaydaya uyğun), sağda hər kartın sol/sağ kənar
+profili verilib.
+
+Nəticə: yalnız **9-cu kart** (ABŞ+anbar) tam təmiz maska verir — sol kənarda
+**3 diş**, sağ kənarda qabarıq + çuxur aydın görünür. Qalan kartların maskası
+qonşu kartla və ya masa ilə çirklənir; kartlar 76–115 px, dişlər ~8 px.
+**15 parçanı bir-birindən ayırmaq üçün lazım olan alt-piksel dəqiqliyi yoxdur.**
+
+⇒ «Kənar profilləri ilə zənciri yığmaq» **bu ayırdetmədə mümkün deyil**.
+Bu, HANDOFF-dakı «(d) kənar profilləri ilə yığma» maddəsini bağlayır.
