@@ -10057,3 +10057,27 @@ Həmin yayımdan digər təsdiqlər:
 
 ⚠ «Birinci addım» sözü vacibdir: yapbozu yığmaq **son cavab deyil**, ondan sonra
 başqa addım(lar) var. Yəni 15 hərflik sətir özü hələ forma cavabı olmaya bilər.
+
+## 2026-09-06 ~20:5xZ — KƏNAR KATALOQU, YIĞINLA (`EDGES_STACK.png`)
+
+Hər parça öz pəncərəsində 3–46 kadrlıq yığınla açıldı (kart 13 üçün 14 kadr,
+üst qutu üçün **46 kadr, korrelyasiya 0.998** — həmin çəkilişdə kamera sabitdir).
+Konturlar indi **gözlə oxunaqlıdır**. İlk kataloq:
+
+| kart | SOL kənar | SAĞ kənar | qeyd |
+|---|---|---|---|
+| **7** təqvim | düz (şaquli) | **iki pilləli çıxıntı (nərdivan)** | kontur tam görünür |
+| **8** iki obyekt | **düzbucaqlı çıxıntı (tab)** | **dalğavari/əyri** | tam görünür |
+| **9** 😂 | **pilləli kəsik** | uc hissəsi **paz kimi daralır** | |
+| **10** daş+qartal | **yumru qabarıq** | daralan uc | uzun-alçaq parça |
+| **11** Oman | düz | **sivri uc (vımpel)** | sağ ucu Afrika kartının altındadır |
+| **12** siluet+bitki | maili düz | **pilləli** | aşağıda bitkinin yerində qabartı |
+| **13** qar | **iri yumru qabarıq (sola)** | **pillə + sivri uc** | ən aydın kontur |
+| **14** ABŞ+tövlə | **mişar dişi (3 üçbucaq)** | yumru | (əvvəlki oxunuş; bu yığında yalnız 3 kadr keçdi) |
+
+★ **Kənarlar klassik yapboz «düymələri» deyil** — **pillə, paz, dalğa, sivri uc,
+mişar dişi** kimi əl ilə kəsilmiş formalardır. Deməli uyğunluq
+«çıxıntı↔kəsik» prinsipi ilə, amma **forma-forma** yoxlanmalıdır.
+
+⚠ Hələ də bağlı: parçalar 1×15 zolaq düzülür, yoxsa şəbəkə? Kart 13, 9, 10
+**enli-alçaq**, kart 7, 8, 12 daha **kvadratdır** — bu, tək zolağın xeyrinə deyil.
