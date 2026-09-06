@@ -8978,3 +8978,53 @@ mişar dişlidir**, 13-cü kartın (qar) **sol kənarı dalğavaridir**, 4-cü k
 14 kartın hamısı, hər birinin qırmızı/mavi rəqəmi və **adın minimum uzunluğu**
 şərti ilə bir vərəqdə. İstifadəçiyə göndərildi — adlandırma indi tapmacanın
 yeganə açıq addımıdır.
+
+---
+
+## 2026-09-06 15:4xZ — HƏDƏF SİYAHISI QURULDU: eyni uzunluqlu (şəhər, region) cütləri
+
+`pip install geonamescache` (oflayn baza: **34 006 şəhər**, 252 ölkə, 51 ABŞ ştatı;
+Kanada əyalətləri əl ilə əlavə edildi). Köhnə ovun yer adı qaydası tətbiq olundu:
+**"şəhər, ölkə" — ABŞ və Kanadada isə "şəhər, ştat/əyalət"**.
+
+Uzunluğu bərabər olan cütlər (N ≥ 10): **297 ədəd** → `eqpairs.json`.
+
+| N | cüt sayı | nümunələr |
+|---|---|---|
+| 10 | 154 | **Los Angeles, California** · Wellington, New Zealand · Chattogram, Bangladesh |
+| 11 | 83 | **Ouagadougou, Burkina Faso** · Vereeniging, South Africa |
+| 12 | 10 | **Philadelphia, Pennsylvania** · Williamsport, Pennsylvania |
+| 13 | 43 | Wolverhampton / Middlesbrough / Southend-on-Sea, United Kingdom · **Mount Pleasant, South Carolina** |
+| 14 | 2 | yalnız Hollandiya şəhərləri |
+| 15 | 1 | Charlotte Amalie, U.S. Virgin Islands |
+
+⚠ Baza əhaliyə görə süzgəclidir; köhnə ovun cavablarında **Toad Suck, Arkansas** və
+**Kam Lake** kimi kiçik yerlər var idi ⇒ bu siyahı **hədəf verir, sübut vermir**.
+
+### ★ İkinci filtr: `qırmızı == mavi` olan kart
+
+8-ci kartda **qırmızı VI = mavi VI** ⇒ o mövqedə **şəhər və region eyni hərfə malik
+olmalıdır**. Hər cüt üçün eyni-hərf mövqelərinin sayını hesabladım:
+
+```
+0 uygunluq: 126 cüt    1: 99    2: 51    3: 16    4: 3
+```
+
+**Dəqiq 1 uyğunluğu olan ən böyük namizədlər:**
+`Ouagadougou, Burkina Faso` (N=11, mövqe 2) · `Nouakchott, Mauritania` (N=10, m.3) ·
+`Wellington, New Zealand` (N=10, m.2) · `Southend-on-Sea, United Kingdom` (N=13, m.4) ·
+`Vereeniging, South Africa` (N=11, m.9).
+(Əgər oxunmayan 3 kartdan birində də qırmızı=mavi çıxsa, filtr 2 uyğunluğa keçir:
+`Sacramento, California` · `Wolverhampton, United Kingdom` · `Chula Vista, California`.)
+
+### Parça sayı: **15** (14 + 1)
+
+REF803-də qutu yığınında **14 kart** yerləşdirildi. Sol tərəfdəki qutular (x 1040–1480)
+tam süpürüldü — **orada kart yoxdur** (yalnız qlobus və stul). 15-ci kart
+**REF_OFFICE.png**-də (t=19.9) aşağı qutuda görünür: ağ kart üzərində **tünd, yuxarısı
+iki qabarıqlı, aşağısı sivri forma** — **ürək ♥** (və ya pik ♠ / qalxan). Rəqəmi oxunmur.
+OP_20.6/20.9/21.2 kadrlarında həmin sahə kadrdan kənardadır.
+
+⇒ **N = 15** ⇒ 15 hərfli şəhər + 15 hərfli region. Bazada belə cəmi bir cüt var
+(`Charlotte Amalie, U.S. Virgin Islands`) ⇒ ya cavab bazada olmayan kiçik yerdir,
+ya da parçaların bir neçəsi hər iki sətrə getmir (GC8-də tək rəqəmli şəkillər kimi).
