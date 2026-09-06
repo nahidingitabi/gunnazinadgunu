@@ -5297,3 +5297,31 @@ iki qara təkər** kimi görünürdü → **rolikli konki** 🛼.
 Yəni bu kartda **iki şəkil ola bilər**: fiqur **+** rolikli konki.
 (Və ya fiqur konkini geyinib.) Bu, "iki şəkilli kartlar" siyahısını dəyişir —
 qeyd edirəm, amma qəti demirəm.
+
+---
+
+## 2026-09-06 06:50Z — Siluetin ölçüsü ÜÇÜNCÜ dəfə təsdiqləndi (maska yoxlanışı ilə)
+
+`BOARD.png`-də kiçik ölçüdə baxanda silüet yenə Afrikaya oxşayır, ona görə
+ölçməni **maskanı şəklin üzərinə çəkərək** yoxladım (`SIL_MASKCHK.png`),
+üç fərqli astana ilə:
+
+| astana | minAreaRect (doğma px) | uzanma | bbox | sahə |
+|---|---|---|---|---|
+| 18% | 31.9 × 10.7 | **2.98** | 14.0 × 32.0 | 220 |
+| 26% | 32.4 × 11.1 | **2.92** | 14.5 × 32.4 | 235 |
+| 34% | 32.6 × 11.4 | **2.87** | 14.8 × 32.6 | 243 |
+
+Üç astananın konturu **praktiki olaraq üst-üstə düşür** və bütün qara sahəni
+əhatə edir — yəni maska heç nə itirmir. Ölçü sabitdir: **32 × 11 doğma piksel**.
+
+Afrika 32 px hündür olsaydı, **29 px enində** olardı. Bu forma **14 px** enindədir.
+→ **Afrika deyil.** (Üçüncü müstəqil təsdiq.)
+
+**Formanın quruluşu** (kontura görə): yuxarıda yumru lob → **təxminən 45%-də dar
+bel** → daha enli aşağı hissə → altda yumru pəncə.
+
+İki lob + bel + 2.9 uzanma. Namizədlər: fıstıq/yerfındığı forması, çəkmə/ayaq,
+kegli, və ya **uzun ölkə xəritəsi** — Vyetnam (enli şimal, çox dar mərkəz, enli
+cənub, ~3:1) bu quruluşa yaxşı uyğun gəlir; İtaliya, İsveç, Malavi də mümkündür.
+**Ad hələ bilinmir**, amma ölçü artıq mübahisəsizdir.
