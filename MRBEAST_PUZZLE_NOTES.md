@@ -7367,3 +7367,27 @@ REF803-də 26× şəbəkəli görüntü (`Z803N7.png`) məsələni həll edir:
 
 Dördüncü saydığım ştrix **düzbucağın sol kənarı imiş**. **Qırmızı VI qalır**,
 lövhədəki dəyər dəyişmir, tarix **8 iyun** olaraq qalır.
+
+## ★ REF806-da 6-cı kart bütün bucaqlardan BÖYÜKDÜR — ən yaxşı görüntü
+
+`findcards.py` REF806-nı da taradı. Saxladığım `sp_eag806` dördbucağı «qartal»
+kimi etiketlənmişdi, **amma orada 6-cı kart var** (qırmızı `VI` + mavi `VI` ilə
+təsdiqləndi) və o, REF803-dəkindən **xeyli böyükdür**.
+
+`C6_806b.png` (20×, dörd gücləndirmə) — indiyə qədərki ən aydın görüntü:
+
+```
+SOL   : tünd (qara/lacivərd) PAZ — yuxarısı enli, aşağı daralır, sağa mail
+SAĞ   : solğun MAVİ/FİRUZƏYİ hündür düzbucaq
+        yuxarı kənarında qalın MAGENTA zolaq
+        aşağı kənarında qalın MAGENTA zolaq
+        içində şaquli tünd quruluş və aşağıda kiçik tünd oval
+İkisi ÜST-ÜSTƏ düşür (REF765-də də belə idi).
+```
+
+Ölçü: mürəkkəb bölgəsi bütöv 32.7×58.6 px (iki obyekt bir komponentə birləşir),
+`da* +3.4, db* −0.8` — yəni **ümumi rəng neytrala yaxın**, magenta zolaqlar isə
+ayrıca güclü çəhrayıdır.
+
+**Etiket dərsi:** saxladığım dördbucaq adlarına güvənmə — `sp_eag806` «eagle»
+adlanır, amma 6-cı kartı göstərir. Hər dördbucağı açanda **rəqəmlərlə yoxla**.
