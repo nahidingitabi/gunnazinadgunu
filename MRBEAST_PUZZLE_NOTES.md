@@ -7409,3 +7409,16 @@ REF765-də masada **bir qlobus**, REF806-da **iki qlobus** var (`REF806_map.png`
 Bu, `THE FOREST CITY → LONDON CANADA` kimi **coğrafi** cavab üçün zəif tematik
 dayaqdır — Zenith televizoru qədər spesifik deyil (qlobus istənilən şəhər/ölkə
 cavabına uyğun gəlir), amma qeyd edilməyə dəyər.
+
+### 13-cü kartın rəqəmləri ÜÇÜNCÜ bucaqda da yoxdur — mövqe bağlanır
+
+REF767-də 13-cü kart 22×-də çox aydındır (`Z767C13.png`): qalın tünd konturlu
+hündür çərçivə, **45%-də bir üfüqi ayırıcı**, iki açıq panel, ayırıcının sağında
+kiçik çıxıntı. **Amma kartın öz rəqəmləri görünmür** — hər iki yandan qonşu
+kartlarla örtülüb, REF803-dəki kimi.
+
+Beləliklə 13-cü kartın rəqəmləri **üç bucağın hamısında** oxunmur:
+REF803 (örtülü) · REF765/REF767 (örtülü) · ofis (yuxarı qutu üçün ən pisi).
+**Bu mövqeni bağlayıram** — 13, 14, 15-in mövqeləri fiziki olaraq oxunmur.
+
+Rəsm isə aydındır və «iki siyirməli kartoteka» oxunuşunu saxlayır.
