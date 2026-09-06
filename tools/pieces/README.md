@@ -30,3 +30,33 @@ Run these from a directory containing `clipmap.json`, with the clips in
   and from fusing more shots per piece.
 * Region coordinates passed to `warpreg.py` must lie inside the cache's `ctx`
   window, or the region comes back EMPTY.
+
+## 2026-09-06 additions
+
+**Use these first — they beat the super-resolution pipeline for these cards.**
+
+- `clean.py IN.png OUT.png [k]` — white-balance a render on the card's own paper,
+  stretch L, amplify chroma. Writes `[raw | balanced | chroma]` side by side.
+- `picatlas.py` — 20x Lanczos crops of every drawing from `REF803.png`, one tile
+  each, white-balanced per tile. Produces `PICTURES_ONLY.png`. **The best view of
+  the pictures so far.**
+- `sheet803.py` — the same idea but one tile per whole card (`PIECES_RAW803.png`).
+- `quads2.py FRAME x0,y0,x1,y1 [minarea] [erode]` — like `allquads.py` but erodes
+  before labelling, to pull touching cards apart. Does **not** separate the top
+  box, whose cards physically overlap; hand-place those from a grid overlay.
+- `gapsheet.py CID T0 T1 N OUT [cols]` — contact sheet over a time span.
+- `cardsweep.py CID [step]` — ranks frames by the largest card-like white blob.
+  Blunt: its size cap saturates on the desk sheets. Of limited use.
+
+### Two rules that decided results on 2026-09-06
+
+1. **The canonical canvas must match the quad's aspect ratio.** Compare
+   `W/H` against the quad's own measured `w/h` before trusting any render.
+   Three specs were stretched 2-5x; the "Africa" one was also in the wrong
+   place, straddling two cards.
+2. **The low-resolution grid must equal the piece's native pixel size**:
+   `canon/S` must equal the quad's measured size. `sp_15.json` ran with a grid
+   4.7x too large and produced noise; at S=16 the picture appeared.
+
+Also: a quad must fully **contain** the numerals. A clipped stroke turned the
+calendar's III into a II and nearly moved its date by a month.
