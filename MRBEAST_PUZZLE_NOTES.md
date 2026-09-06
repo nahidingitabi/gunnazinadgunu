@@ -3841,3 +3841,13 @@ qalanlarını yoxlamaq lazımdır.
 tamamilə buraxır** — səhv oturmuş kadrlar medianı korlayır, yəni pis birləşdirmə
 heç birləşdirməməkdən pisdir. (Ofis planını qartal parçasına əlavə etmək cəhdi
 məhz bu səbəbdən uğursuz oldu: ən yaxşı fırlanma cəmi 0.16 verdi.)
+
+## ⚠ QEYD: BU SESSİYANIN VAXT DAMĞALARI SƏHVDİR
+
+Yuxarıdakı "06.09.2026 ~01:30Z … ~06:30Z" damğalarını saata baxmadan, təxmini
+yazmışam və hamısı **3–6 saat irəlidir**. Həqiqi aralıq:
+**2026-09-05 ~22:20Z → 2026-09-06 ~00:15Z**.
+
+Yəni bu sessiyadakı bütün girişlər təxminən iki saatlıq bir pəncərədə baş verib,
+altı saatlıq deyil. Ardıcıllıq (hansı tapıntının hansından sonra gəldiyi) düzgündür,
+yalnız mütləq vaxtlar yanlışdır. Bundan sonra damğaları `date -u` ilə yazıram.
