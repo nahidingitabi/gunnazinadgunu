@@ -3958,3 +3958,20 @@ və yeni aylar (yanvar/noyabr/dekabr) gətirməlidir.
    həm tarix modeli, həm hərf modeli dərhal yoxlanıla bilər.
 2. **2160p kliplər** — 13:22–13:27, 12:44–12:48, 0:18–0:22. `pipe4k.py` hazırdır.
 3. Qalan üç parçanın rəqəmləri — tarix modelinin proqnozunu sınayacaq.
+
+## 2026-09-06 00:50Z — YUXARI SIRANIN HƏNDƏSƏSİ: BİR QEYRİ-MÜƏYYƏNLİK
+
+Yuxarı qutunun sırasını kənar xəritəsi ilə açdım (`TOPROW_EDGES.png`). Görünən:
+```
+[rolik parçası] [ "I VII" + gizli şəkil ] [SARI kart] [pəncərə parçası] [diaqram]
+```
+* **Sarı kart** ayrıca bir obyektdir — üzü tam gizlidir, rəqəm görünmür.
+  Ya 16-cı parçadır, ya sadəcə sarı kağızdır. **Ayırd edə bilmirəm.**
+* **Pəncərə parçasının rəqəmləri görünmür.** Pəncərə parçası üstdədir, yəni
+  onun sol ucu (rəqəmlərin yeri) görünməli idi — amma orada rəqəm yoxdur.
+  Yəni ya onun sol ucu "I VII" parçasının **altındadır**, ya da "I VII"
+  həqiqətən **pəncərə parçasının** rəqəmləridir və mənim "I VII parçası"
+  adlandırdığım ayrıca parça yoxdur.
+
+Bu, parça sayına təsir edir (15 yoxsa 16?) və "I VII" rəqəmlərinin hansı şəklə
+aid olduğuna. 1080p-də həll olunmur — **4K-nın həll edəcəyi konkret sual budur.**
