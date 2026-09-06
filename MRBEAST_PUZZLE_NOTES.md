@@ -7245,3 +7245,30 @@ solidity 0.82, uzanma 2.78, zəif qövs.)
 üzərindəki** işdir; ikinci bucaq bəzi kartlar üçün daha yaxşıdır və sistemli
 yoxlanmamışdı. Bundan sonra hər kart üçün **hansı bucaq daha yaxşıdır** ayrıca
 soruşulmalıdır.
+
+## İkinci bucaqdan üç kart daha: 4, 7 və 1
+
+`A2_CARDS2.png` (REF765, 20×). Yuxarı qutunun demək olar bütün kartları bu
+bucaqdan görünür (`Z765TOP.png`): 1, 4, 7, 8, 10, 13 və sağda 11.
+
+**#4 KƏPƏNƏK — üçüncü dəfə, indi İKİNCİ bucaqdan təsdiq.**
+Rəsm birmənalıdır: **yuxarıda iki böyük ilmə, aşağıda iki kiçik ilmə**, ortada
+kiçik gövdə; mürəkkəbdə firuzəyi çalar var. Kəpənəyin ön qanadları arxa
+qanadlarından böyükdür — məhz belədir. **Bant deyil**: bantda aşağıdakılar
+**açıq lent** olardı, burada isə hər dördü **qapalı ilmədir**.
+
+**#7 — bu bucaqda rəng açıq-aydın QIRMIZIDIR** (REF803-də terrakota ölçmüşdüm:
+`a* +16.4, b* +13.8`). Yəni **rəngin görünüşü işıqdan asılıdır**; forma isə
+dəyişmir: **nazik tünd konturlu, tam dolu, hündür düzbucaq**, içində detal yox.
+Bu, «terrakota» etiketini zəiflədir — rəngi kartın öz kağızına görə ölçmək
+lazımdır, gözlə deyil. (REF803 ölçüsü qalır, amma tək bucağa əsaslanır.)
+
+**#1 FİQUR — quruluşu indi aydındır:**
+```
+sivri papaq → üz → QIRMIZI palto → yanlara açılmış QOLLAR → açıq rəngli ayaqlar
+→ ayaqların altında İKİ TÜND TƏKƏR (aydın iki dairə)
+```
+İki təkər «rolik konki» oxunuşunu gücləndirir.
+⚠ **Ziddiyyət:** bu bucaqda papaq **solğun çəhrayı/ağ** görünür, REF803-də isə
+«yaşıl» yazmışdım. İkisi bir yerdə ola bilməz — **papağın rəngi açıq qalır**,
+hər iki bucaqda kartın öz kağızına görə ayrıca ölçülməlidir.
