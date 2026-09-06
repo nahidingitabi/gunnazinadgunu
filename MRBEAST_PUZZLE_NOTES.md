@@ -8782,3 +8782,39 @@ REF803-də açıq-qəhvəyi uzunsov obyekt (**daş?**) və tünd-qəhvəyi uzuns
 (**qartal?**) demək olar ki, kənardan görünür; warp bunu düzəltmir (məlumat kadrda yoxdur).
 REF806 hərəkət bulanıqlığı daşıyır, REF_OFFICE isə çox uzaqdır. ⇒ **Bu üç kart üçün
 tələb olunan yeganə şey: onları daha üzbəüz göstərən kadr və ya daha yüksək ayırdetmə.**
+
+---
+
+## 2026-09-06 15:0xZ — ★★★ "OXUNMAZ" KART AÇILDI: DAŞ + KEÇƏL QARTAL
+
+REF803-də qutu yığınının **4× plitə** görüntüsü (`TILE_T1.png`, orig 1450–1800 × 700–1080)
+əvvəllər "çox maili, oxunmur" saydığım kartı göstərdi. Sonra 12× yaxınlaşdırma
+(`EAGCARD12.png`, orig 1487–1605 × 800–915):
+
+**Kart iki elementlidir:**
+- **sol**: qızılı-qəhvəyi, uzunsov, yumru obyekt, altı tünd — **DAŞ** (istifadəçinin
+  "daş" oxunuşu ilə uyğun); alternativlər: kartof / qoz / çörək.
+- **sağ**: tünd bədənli, **açıq (ağ) başlı quş** — **KEÇƏL QARTAL 🦅**
+  (istifadəçinin "qartal" oxunuşu ilə uyğun).
+
+⇒ İstifadəçinin gördüyü **"daş" və "qartal" AYRI kartlar deyil — EYNİ kartın iki
+elementidir.** Bu, kartların **iki elementli rebus** olması nəticəsini gücləndirir.
+Rebus namizədləri: `ROCK EAGLE` / `EAGLE ROCK` / `STONE EAGLE`
+(Eagle Rock — Los Angeles məhəlləsi; Rock Eagle — Corciyada effigy kurqanı).
+
+**Rəqəmləri hələ də qəti deyil:** qartalın sağında mavi ≈ **IX** və ya **X**;
+aşağı-sağ küncdə qırmızı ≈ **VII / VI / III**. (Yuxarıdakı 😂 kartında eyni
+böyütmədə `XIV` mavi və `X` qırmızı **tam aydın** oxunur — deməli məhdudiyyət
+kartın maili duruşundadır, üsulda deyil.)
+
+### Digər təsdiqlər bu plitədən
+
+- **"İki obyekt" kartı: qırmızı VI, mavi VI** — 14× yaxınlaşdırma ilə təsdiqləndi
+  (`TWO_ZOOM.png`). Təkrar realdır.
+  Şəkil: **tünd-qəhvəyi paz** + **boz-mavi şaquli obyekt, hər iki ucunda
+  qırmızı/çəhrayı qapaq**. (Raket? Termometr? Batareya? — adlandırılmayıb.)
+- **Qutunun üzərində əl yazısı "PUZZLE CLUES"** 4× böyütmədə tam oxunur —
+  parçaların doğru obyekt olduğunun səhnə-daxili təsdiqi.
+- ⚠ Oman/Afrika kartlarının altındakı yazı **"SEPT." DEYİL, "DEPT."**-dir — bu,
+  arxiv qutusunun **çap olunmuş standart sahəsidir** (CONTENTS / FROM / DEPT.),
+  ay adı deyil. (Bir anlıq "aylar qutuların üstündədir" fərziyyəsi yarandı — düşdü.)
