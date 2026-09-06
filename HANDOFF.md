@@ -24,12 +24,12 @@ in the office wide shot (t = 20.30), where the whole stack is visible at once:
 | where on the stack | pieces |
 |---|---|
 | top dark box, upper row | 4 — skater · "I VII" · window · arrow+bar-chart |
-| top dark box, lower row | 2 — ribbon/bow · red-brown rectangle |
+| top dark box, lower row | 2 — **butterfly** · red-brown rectangle |
 | right of the top box | 1 — cloud with snow |
 | middle box | 2 — calendar · two tall objects |
 | right box | 1 — US flag + barn |
 | tilted "CONTENTS FROM … DEPT" box | 2 — 😂 · rock + eagle |
-| lower box | 2 — Oman flag · Africa + green plant |
+| lower box | 2 — Oman flag · **unidentified silhouette** + green plant |
 | lowest small box | 1 — not yet read |
 
 The big foreground "PUZZLE CLUES" box carries **no** pieces, and nothing
@@ -65,13 +65,13 @@ angles**, so these are not single-frame artefacts:
 | figure on roller skates | II (2) | XI (11) |
 | "I VII" — picture hidden behind another piece | VII (7) | I (1) |
 | down arrow + bar chart | VIII (8) | IX (9) |
-| ribbon / tied bow | V (5) | VII (7) |
+| **butterfly** 🦋 | V (5) | VII (7) |
 | red-brown rectangle | VI (6) | VIII (8) |
 | calendar (spiral, large "25") | III (3) | IV (4) |
-| two tall objects | VII (7) | VI (6) |
+| two tall objects | **VI (6)** | VI (6) |
 | 🇺🇸 US flag + red barn | VII (7) | IV (4) |
 | 🇴🇲 Oman flag | VI (6) | V (5) |
-| Africa silhouette + green plant | IV (4) | VIII (8) |
+| **unidentified silhouette** (elongation 3.0) + green plant | IV (4) | VIII (8) |
 | cloud with snow | IX (9) | V (5) |
 | 😂 face with tears of joy | X (10) | XIV (14) |
 
@@ -216,8 +216,12 @@ automatically. Two corollaries, both measured:
 1. **The pictures still need names** — that is the critical path. Several of my
    labels have already been wrong (the user corrected rock, eagle and the
    laughing face; back-projection then retired "red square", which is a
-   *vertical* rectangle, and settled the bow against butterfly). `PIECE_PICTURES2.png`
-   is the current atlas.
+   *vertical* rectangle). Two more fell on 2026-09-06: the "bow" is a
+   **butterfly**, and the "Africa" silhouette is **not Africa** (its elongation
+   measures 3.0 against Africa's 1.1). `tools/pieces/PICS_MAX.png` (15x) and
+   `PIECES_RAW803.png` (9x) are the current atlas — and note that **plain
+   Lanczos zoom on the raw frame beat the whole back-projection pipeline**,
+   because back-projection is only as good as its quad.
 2. Two-picture pieces must yield **one** thing between them: seven pieces carry
    one picture, four carry two, which totals ~20 pictures against 15 pieces, so
    first-letter-per-picture cannot be the mechanism as it stands.
@@ -227,3 +231,32 @@ automatically. Two corollaries, both measured:
 submission is the user's. Never probe the entry endpoint. Keep the old $1M
 puzzle's material out of this work. **There is no 4K of this video; do not ask
 again.** Answer the user in Azerbaijani.
+
+---
+
+## 10. Added 2026-09-06 (overnight)
+
+Four things changed since §9 was written:
+
+1. **The last open numeral is closed.** The two-objects piece reads **VI in both
+   colours** → 6 June, not 6 July. Measured on two shots from different camera
+   angles, and confirmed a third time on the h806 shot at 12x raw zoom. It is the
+   only piece whose red and blue numerals are equal.
+
+2. **A systematic bug in the piece specs.** Each spec's canonical canvas was
+   compared against its own quad's aspect ratio. Three were badly stretched — the
+   "Africa" renders 3.0–3.9x too wide, the first calendar spec up to 5.1x — and
+   the "Africa" quad was also in the wrong place, straddling two cards. Nine
+   other specs are sound. **Check this ratio before trusting any render.**
+
+3. **Raw Lanczos zoom beats the pipeline.** 9–16x Lanczos on the raw frame,
+   white-balanced against each card's own paper and chroma-amplified, is more
+   legible than any super-resolved render for these cards. Use it first.
+
+4. **Two questions are now closed for good:**
+   - *Is 1080p footage missing?* No. The three spans with no 1080p (72–300,
+     420–551, 640–722 s) are all recap of the earlier puzzle; no piece appears in
+     them.
+   - *Is there a closer shot of the unread pieces?* No. Contact sheets over the
+     whole room segment (722–1066 s) show the box stack only around 761–770 and
+     800–810 s, which is what the existing caches already cover.
