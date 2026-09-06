@@ -162,11 +162,16 @@ piece, and the I-VII numerals belong to the hidden-picture piece.
 
 `[MEASURED]` **Also closed:** both coloured cards on the desk are blank.
 
-`[RETRACTED 2026-09-06]` This section used to say there was no second piece of
-month handwriting on the boxes. **There is.** The hn765b angle at t=767.62 shows
-two lines beside the US-flag piece: `"July?"` and, below it, `Jun` cut off by the
-box's fold. Every angle clips the second line, so it cannot be finished from this
-footage.
+`[RETRACTED, then CORRECTED 2026-09-06]` This section used to say there was no
+second piece of month handwriting on the boxes. There are two lines — but they
+are **not** what I first read them as. Widened, they read **`July 1…`** (a
+numeral 1, not a question mark) and **`Jun…`**, matching an earlier session's
+independent reading of **"July 1st 1988 – June 30 89"**: an archive box's
+contents date range, i.e. set dressing.
+
+**This removes the date model's only external support.** "July?" beside a piece
+numbered VII·IV was the one thing outside the numerals themselves that argued
+red = month. Do not cite it again.
 
 `[RETRACTED 2026-09-06]` It also gave the calendar's numerals as III·IV. A
 controlled measurement on the hn765b render (each stroke's a* against the card's
@@ -340,10 +345,13 @@ not work at this resolution; this has to be done by eye.
 
 ### Where the date reading now stands
 
-Strengthened by the second handwritten month; weakened by a measurement: every
+Weaker than it was. Its only external support — the "July?" note — turned out to
+be a box's fiscal-year label (see §6). What is left is internal: red ≤ 12,
+blue ≤ 31, a calendar in the set, twelve distinct pairs. Against it: every
 numeral read falls in 1..14 while there are 15 pieces, and twelve draws of a
-day-of-month all landing at 14 or below has probability about 7×10⁻⁵. It remains
-the leading hypothesis and remains frozen.
+day-of-month all landing at 14 or below has probability about 7×10⁻⁵. Still the
+leading hypothesis, still frozen, but now with nothing outside the numerals
+supporting it.
 
 ### Added later the same night
 
