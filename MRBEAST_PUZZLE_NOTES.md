@@ -9780,3 +9780,16 @@ Namizədlər (hamısı ≥6, yəni filtri keçir): `rocket`(6) → **T** ·
 ★ **Raket 🚀** ən yaxşı uyğunluqdur (çəhrayı burun, firuzəyi pəncərə, boz gövdə,
 çəhrayı qanadcıqlar) — amma **təsdiqlənməyib**. Qərar bu kart üçün xüsusilə vacibdir,
 çünki onun hərfi **şəhər və region sətirlərinin hər ikisində** görünür.
+
+### Kartlar 2 və 3, 26× (`WIN_YEL.png`)
+
+**Kart 3** — indi aydındır: **hündür düzbucaq, qalın çərçivə, İKİ panelə bölünmüş**
+(yuxarı və aşağı, hər ikisi solğun-boz). Nisbətləri hündür və dardır.
+⇒ Ən yaxşı uyğunluq **qapı 🚪** (qapılar məhz panelli çəkilir), sonra **pəncərə 🪟**
+(adətən 4 şüşəli olur — bizdə 2), sonra **çərçivəyə salınmış şəkil 🖼️**.
+Rəqəmləri qonşu kartın altında qalır ⇒ **filtr yoxdur**, ad seçimi sərbəstdir.
+
+**Kart 2** — rəqəmlər təsdiqləndi: mavi **I** (nazik), qırmızı **VII**.
+Şəkil sahəsində **sarı-narıncı blok** görünür, amma onun kartın öz rəsmi, yoxsa
+arxadakı qutu olduğu **seçilmir** — kartın böyük hissəsi qonşu kartın altındadır.
+Əgər rəsm sadə sarı bloksa: 🟨 `yellow square`(12) → q7=**S**, m1=**Y**.
