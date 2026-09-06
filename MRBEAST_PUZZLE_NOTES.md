@@ -6774,3 +6774,60 @@ Yəni **vaxt təzyiqi bir ildir**, amma **hər an kimsə qazana bilər**.
 
 Qaydalar: «Clues to solving the Puzzle will be available in the Video» —
 **sayı göstərilməyib**. Yəni 15 parçadan başqa ipucu da ola bilər.
+
+---
+
+## ★★ BÜTÜN Twemoji dəsti süzüldü (1326 nişan) — SONRA NƏZARƏT ONU LƏĞV ETDİ
+
+Unicode `emoji-test.txt`-dən bütün Obyekt / Yemək / Heyvan / Yer / Simvol /
+Fəaliyyət / Bayraq nişanları çıxarıldı (dəri tonları xaric) → **1345 namizəd**,
+**1326-sı yükləndi və rəsmlərlə eyni üsulla ölçüldü** (`tools/pieces/bigsweep.py`).
+
+İlk nəticələr çox təmiz görünürdü:
+
+```
+#3  (neytral qara, uzanma>2, solidity 0.74–0.90, qabar–bel–qabar–incəlmə)
+      1326-dan 5 qalır — hamısı Twemoji-nin İNTERFEYS OXLARI (eyni palitra)
+#6R (uzun-nazik, iki ucu a*>+6, ortası HƏQİQƏTƏN soyuq)      →  0 qalır
+#15 (neytrala yaxın VƏ TÜND, solidity 0.86–0.96, öndən incəlmə) → 0 qalır
+#7  → 12 qalır (həb, gələn/gedən qutu, kərpic, qapı, plastır…)
+#14L→ 18 qalır (xətkeş, plastır, fleyta, baget, karandaş, tabut…)
+```
+
+### Sonra nəzarəti qurdum — və üsul KEÇMƏDİ
+
+Kimliyi **bilinən** iki rəsmi eyni üsulla ölçüb öz nişanı ilə tutuşdurdum:
+
+```
+                 RƏSM        Noto      Twemoji    OpenMoji     (uzanma / solidity)
+kəpənək       1.25 / 0.82  1.30/0.73  1.11/0.75  1.43/0.82     yaxın ✓
+QARTAL        3.43 / 0.83  1.00/0.66  1.18/0.89  1.49/0.70     UZAQ ✗✗
+```
+
+Qartal rəsmi **3.43 uzanmadadır; heç bir vendorun qartalı 1.5-i keçmir.**
+Maska yoxlanıldı (`K_eagle2.png`) — maska forma­ya düzgün oturur, səhv orada
+deyil. 22× şəbəkəli görüntüdə (`ZEAG.png`) rəsm **hündür, dar, ayaq üstə duran
+tünd fiqurdur**; vendorlarda isə qartal **enli kompozisiyadır** (baş + qanadlar).
+
+### Nəticə: forma ölçüsü ilə emoji tanımaq PRİNSİPCƏ mümkün deyil
+
+**Rəssam nişanı köçürmür — öz üslubunda yenidən çəkir.** Kəpənəkdə forma
+təsadüfən yaxın çıxıb, qartalda isə iki dəfədən çox fərqlənir. Deməli forma
+ölçüsü nə təsdiq edə bilir, nə istisna.
+
+→ **1326 nişanlıq süzgəcin BÜTÜN nəticələrini geri götürürəm** (#3, #6R, #15
+üçün «0 qalır» daxil). O süzgəc kəpənəyi və qartalı da atardı.
+Bu, nəzarətindən keçməyən **12-ci avtomatik üsuldur**.
+
+### Nə QALIR (bu nəticə onlara toxunmur)
+
+1. **#13 = 🗄️ kartoteka** — bu, forma ölçüsünə yox, **gözlə görünən quruluşa**
+   söykənir: hər üç vendorda iki siyirmə + dəstək, rəsmdə də bir üfüqi ayırıcı,
+   iki panel, ayırıcıda çıxıntılar. Qalır.
+2. **Rəsmin ÖZ rəngi** (kartın öz kağızına görə) — bu, vendorla müqayisə deyil,
+   birbaşa ölçmədir. Üstəlik **rəng bilinən rəsmlərdə KEÇDİ** (😂 sarı+mavi,
+   iki bayraq, qar buludu). Yəni rəngə görə istisna formaya görə istisnadan
+   xeyli möhkəmdir. `#15 bənövşəyi deyil` və `#14L isti qəhvəyidir` qalır.
+3. **Kəpənək TƏSDİQLƏNDİ** — maska (`KCTRL.png`) rəsmi dəqiq tutur:
+   **dörd qapalı ilmə + ortada gövdə**. Bantda iki ilmə + iki açıq lent olardı.
+   «Çox güman» yox, artıq **şübhəsiz**.
