@@ -8758,3 +8758,27 @@ Masadakı iki qonşu kart (açıq-qəhvəyi uzunsov obyekt = **daş?**, tünd-q�
 forma = **qartal?**) REF803-də **çox maili bucaqdadır**; warp da onları oxunaqlı etmir.
 REF806 hərəkət bulanıqlığı daşıyır. Bu üç kart üçün fərqli kadr və ya daha yüksək
 ayırdetmə lazımdır.
+
+### Yuxarı qutudakı 6 kart warp ilə tam açıldı (`W_TOPBOX.png`, 9×)
+
+`sp_topbox` dördbucağı düzbucağa warp edildi. Altı kart aydın görünür:
+
+| # | şəkil | qırmızı | mavi |
+|---|---|---|---|
+| a | **yaşıl şiş papaqlı, narıncı-qırmızı paltarlı insan fiquru** (elf/cırtdan?) | **II** | **XI** və ya **XII** (həll olunmur) |
+| b | sarı kart (qismən örtülü) | **VII** | **I** |
+| c | **çərçivəli, iki bölməli düzbucaq** (pəncərə/qapı/çərçivə) | — | — (rəqəmləri qonşu kartın altındadır) |
+| d | **↓ tünd ox + 4 artan sütun** (çəhrayı, narıncı, sarı, yaşıl) | **VIII** | **IX** |
+| e | **bant/lent 🎀** | **V** | **VII** |
+| f | **narıncı-qırmızı şaquli düzbucaq** | **VI** | **VIII** |
+
+Rəqəmlərin hamısı ayrıca 5–7× böyüdülüb təsdiqləndi (`ZOOM_NUMS.png`).
+Yeganə həll olunmayan: (a) kartının mavi rəqəmi — mavi kanal ayırması da
+**XI/XII** arasında qərar verə bilmir.
+
+### Masadakı 3 kart — HƏR KADRDA ÇOX MAİLİ BUCAQDADIR
+
+REF803-də açıq-qəhvəyi uzunsov obyekt (**daş?**) və tünd-qəhvəyi uzunsov forma
+(**qartal?**) demək olar ki, kənardan görünür; warp bunu düzəltmir (məlumat kadrda yoxdur).
+REF806 hərəkət bulanıqlığı daşıyır, REF_OFFICE isə çox uzaqdır. ⇒ **Bu üç kart üçün
+tələb olunan yeganə şey: onları daha üzbəüz göstərən kadr və ya daha yüksək ayırdetmə.**
