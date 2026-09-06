@@ -7391,3 +7391,21 @@ ayrıca güclü çəhrayıdır.
 
 **Etiket dərsi:** saxladığım dördbucaq adlarına güvənmə — `sp_eag806` «eagle»
 adlanır, amma 6-cı kartı göstərir. Hər dördbucağı açanda **rəqəmlərlə yoxla**.
+
+### REF806-nın qalan hissəsi: 5 və 3-cü kartlar, amma 14 və 15 YOXDUR
+
+`Z806LOW.png` (x 1690–1920, y 770–1020): **Oman kartı** (`VI`/`V`) və
+**3-cü kart** (`VIII`/`IV`, qara siluet + yaşıl bitki) yaxşı ölçüdə görünür.
+3-cü kartın silueti burada da eyni quruluşu göstərir: yuxarı-solda yumru kütlə,
+dar boyun, aşağı-sağa enlənən gövdə.
+
+**14 və 15-ci kartlar nə REF806-da, nə REF767-də tapılmadı** — onlar REF803-ün
+sol-aşağı masasındadır və bu iki kadrda kamera oraya baxmır.
+Yəni **14 və 15 üçün hələ də ən yaxşısı REF803 (və 15 üçün ofis bucağı)**.
+
+### Səhnədə QLOBUSLAR var
+
+REF765-də masada **bir qlobus**, REF806-da **iki qlobus** var (`REF806_map.png`).
+Bu, `THE FOREST CITY → LONDON CANADA` kimi **coğrafi** cavab üçün zəif tematik
+dayaqdır — Zenith televizoru qədər spesifik deyil (qlobus istənilən şəhər/ölkə
+cavabına uyğun gəlir), amma qeyd edilməyə dəyər.
