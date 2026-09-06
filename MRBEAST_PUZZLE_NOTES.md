@@ -5820,3 +5820,36 @@ Yəni: **ölçmə "Afrika deyil" deyir, gözüm kiçik ölçüdə "Afrikadır" d
 Bunu dörd dəfə yoxlamışam və hər dəfə ölçmə eyni çıxıb. Ziddiyyəti olduğu kimi
 qeyd edirəm — istifadəçi bu şəkilləri məndən yaxşı oxuyur və onun oxunuşu
 ölçmədən üstün ola bilər (əvvəl də üç etiketimi düzəldib).
+
+### ★ Siluetin EN PROFİLİ — Afrika məsələsi qəti bağlandı
+
+Formanı uzun oxu üzrə düzləndirib **hər 5%-də enini** ölçdüm, iki müstəqil
+bucaqda ayrıca:
+
+| dərinlik | h803 en (px) | hn765 en (px) |
+|---|---|---|
+| 5% | 5.31 | 4.77 |
+| 20% | 8.77 | 8.54 |
+| **30%** | **10.58** ← ən enli | **10.12** ← ən enli |
+| 40% | 8.38 | 7.81 |
+| **45%** | **7.19** ← **BEL** | **6.69** ← **BEL** |
+| 55% | 7.77 | 7.23 |
+| **65%** | **8.88** ← ikinci qabarıq | **8.27** ← ikinci qabarıq |
+| 80% | 6.15 | 6.08 |
+| 95% | 3.50 | 3.62 |
+
+**İki bucaq praktiki olaraq eyni profili verir** — yəni çıxarma etibarlıdır.
+
+Forma: **30%-də birinci qabarıq → 45%-də BEL → 65%-də ikinci qabarıq →
+95%-də nöqtəyə daralma.** Hündürlük 30–32 px, **maksimum en hündürlüyün cəmi
+33%-i**.
+
+**Afrika ilə müqayisə:** Afrikanın çəkilmiş siluetində maksimum en
+hündürlüyün **~95%-idir** və 25%-dən sonra **monoton daralır** (bel yoxdur).
+Burada maksimum en **33%** və **aydın bel var**.
+→ **3× fərq. Afrika deyil — qəti.** (Beşinci və sonuncu yoxlama.)
+
+**Formanın dəqiq təsviri (adlandırma üçün):** uzun, nazik, iki qabarıqlı,
+belli, aşağısı nöqtəyə daralan qara siluet; yuxarı qabarıq aşağıdakından
+enlidir. (Fıstıq, qarpız-balqabaq, keqli, skripka/gitara gövdəsi, quş,
+şahmat fiquru, uzun ölkə xəritəsi — hamısı bu profilə uyğun gələ bilər.)
