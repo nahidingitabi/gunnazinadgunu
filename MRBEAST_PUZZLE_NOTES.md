@@ -6154,3 +6154,81 @@ ilə **ölçdüyüm maskanı çəkdim** → ən böyük tünd komponent **şəki
 13-cü şəkil haqqında proyeksiyadan asılı olmayan yeganə faktlar dəyişmir:
 qapalı düzbucaqlı kontur, **təxminən ortada bir üfüqi ayırıcı**, iki açıq
 panel, təxminən 2:1 uzunsov, mürəkkəbi kağızdan **soyuq** (b\* −5.8…−8.1).
+
+---
+
+## Adsız şəkillər: iki yeni birbaşa ölçü, dörd tutulmuş səhv
+
+### Alət: `bandcalor` — rəngi zolaqlarla ölçmək, zolaqları çəkməklə
+
+`tools/pieces/bandcolor.py` şəkli yuxarıdan aşağı N zolağa bölür, hər zolağın
+a\*/b\* fərqini **kartın öz kağızına** görə verir və **zolaqları şəklin üstünə
+çəkir**.
+
+**Birinci qaçış etibarsız çıxdı.** «Mürəkkəb = kağız olmayan piksel» qaydası
+bütün kəsiyi seçdi — maska paneli bunu göstərdi. Düzəliş: mürəkkəb =
+**kağızdan rəng fərqi** (`hypot(da,db) > 7`) və ya xeyli tünd piksel.
+
+### 1-ci fiqur (11 fev) — 7 zolaq, papaq **YAŞIL** (öz təxminimi geri götürürəm)
+
+Düzəldilmiş maska fiqurun siluetini dəqiq tutur. 26× görüntüdə ardıcıllıq:
+
+```
+yaşıl sivri papaq → solğun ağ zolaq (papaq kənarı / saç) → sarımtıl gövdə,
+içində açıq kvadrat → tünd şabalıdı en zolaq (kəmər?) → qırmızı alt geyim
+(ən qırmızı zolaq, da* +10) → yaşıl ayaq nahiyəsi → **aşağıda iki ayrı tünd disk**
+```
+
+`PICMAX.png`-ə baxıb «papaq **çəhrayı**dır» demişdim — **səhvdir, geri
+götürürəm**: o kəsik sürüşmüşdü. Köhnə qeyddəki «yaşıl papaq → ... → qırmızı
+alt» ardıcıllığı **doğrudur və indi 26×-də təsdiqləndi**.
+
+### Alət: `axiscurve` — onurğa əyridirmi?
+
+`tools/pieces/axiscurve.py` formanın maskasını götürür, uzun oxu PCA ilə tapır,
+ox boyu 10 addımda yerli mərkəzin oxdan sapmasını verir. Ox mərkəzdən keçdiyi
+üçün **qövsdə orta bir tərəfə, iki uc o biri tərəfə** düşür; «bow» = orta mənfi
+uclar.
+
+**Sintetik nəzarətlər əvvəlcə (eyni ölçüdə çəkilir):**
+
+```
+düz zolaq        bow  +0.8%   →  düz
+qövs (banan tipli) bow +20.7%  →  ƏYRİ
+```
+
+Ayırdetmə təmizdir, ona görə ölçü mənalıdır.
+
+### ★ Maska yoxlaması bu gecə **4-cü** səhv ölçməni tutdu
+
+14-cü kartın sol formasını iki dəfə ölçdüm (REF803 və REF806) — hər ikisində
+«düz» çıxdı. **Maskaya baxdım: hər ikisi yanlış idi** — maska formanı yox,
+fonu/qonşu kartı tuturdu; REF806 kəsiyi ümumiyyətlə başqa yerdə idi.
+**Hər iki rəqəmi geri götürürəm.**
+
+Səbəb: «ən böyük komponenti götür» qaydası. Bu kartlarda ən böyük rəngli
+komponent adətən **masa və ya qonşu kartdır**. Düzəliş: kəsiyin **mərkəzinə ən
+yaxın**, sahəsi kəsiyin 3–55%-i olan komponent seçilir.
+
+### 14-cü kartın sol forması — təmiz ölçü (maska yoxlanılıb, dəqiq oturur)
+
+Əvvəlcə şəbəkə (`Z14b.png`, 20×) çəkildi, sonra dar qutu:
+
+```
+uzunluq 39.7 px   en 15.1 px   uzanma 2.63
+solidity 0.97     bow +4.0%  →  ONURĞASI DÜZ
+rəng: tünd isti qəhvəyi, içində yuxarı-sağda parlaq QIZILI ləkə
+```
+
+**Nə istisna edir:** banan, kruassan, aypara, bumeranq — hamısının onurğası
+əyridir, bunda əyrilik yoxdur. Köhnə qeyddəki «əyri, aşağı-sağda qarmaq»
+təsviri **bu təmiz ölçü ilə əvəz olunur**.
+
+**Nə uyğun gəlir:** `solidity 0.97` — hamar, demək olar qabarıq kütlə. Ovdakı
+şəkillər arasında **yeganə hamar qabarıq kütlə budur**. Üstəlik **yuxarı-sağdakı
+açıq ləkə** 🪨 emojisinin işıq düşən üzünə uyğundur.
+
+**Sən demişdin ki, şəkillərdə «daş, qartal, gülmək» görürsən.** Qartal (#14 sağ)
+və gülən üz (#12) tapılıb. **Daş çox güman elə budur — #14-ün sol formasıdır.**
+Tək gərginlik: 2.63 uzanma əksər vendorların çəkdiyi daşdan uzundur. Köhnə
+«boz daş deyil» sətri yalnız **rəngə** əsaslanırdı və indi zəifləyir.
