@@ -11304,3 +11304,47 @@ Rəqib oxunuş (u/gg4999): «…→ **stunts** (9) → **beastsand** (6)». Amma
 qırmızı zəncir **(9)** ilə, mavi **(6)** ilə bitir; STUNTS 6, BEASTSAND 9 hərfdir —
 yəni gg4999-un yerləri qarışıb. CiviledXI-in hash-i isə «9 hərflik və 6 hərflik»
 ardıcıllığı ilə uyğundur.
+
+# ★★★★★ YENİ: ÇƏHRAYI VƏRƏQ TAM AÇILDI — O, HƏRF→RƏQƏM AÇARIDIR
+
+İcmanın lövhəsindəki çəhrayı qeydin təmiz transkripsiyası (X paylaşımındakı
+`red.png`) iki sütunda, sətir-sətir oxunur:
+
+```
+029 III   039 VI      101 II    102 III      245 VIII  246 VIII      358 IX   X VI
+042 V     061 II      112 IX    162 V        253 XIV   275 III           424-6
+074 IX    076 IV      184 V     216 I        329 X     337 VI
+081 XIV   083 XI      225 VI    235 VIII
+```
+
+23 sətir. Hər nömrəni Audubon-un *Birds of America* lövhəsi kimi açıb quşun adının
+**BAŞ HƏRFİNİ** götürəndə:
+
+`T C O G I V F H R B D Z M W K S U E J N Y A P`
+
+★★★ **23 baş hərfin hamısı FƏRQLİDİR** — əlifba, **L, Q, X** çıxmaqla. Bu təsadüf deyil.
+
+### Vərəqin iki «qəribə» sətri məhz bunu tamamlayır
+
+- **`X VI`** — Audubon-da **X** hərfi ilə başlayan lövhə **yoxdur**, ona görə vərəq
+  X-i birbaşa yazır: **X = 6**.
+- **`424-6`** — lövhə **424 = «Lazuli Finch, …»**, yəni **L** ilə başlayır → **L = 6**.
+- **Q** üçün də lövhə yoxdur və vərəq onu vermir → **Q istifadə olunmur**.
+
+⇒ Vərəq **26 hərfdən 25-i üçün bir rəqəm** təyin edir:
+
+```
+A6  B3  C6  D9  E8  F14 G2  H11 I9  J14 K6  L6  M5
+N3  O5  P9  R2  S8  T3  U8  V4  W1  X6  Y10 Z5      (Q yoxdur)
+```
+
+Alət: `tools/pieces/pinkkey.py` (Audubon lövhə siyahısı ilə birlikdə repoda).
+
+★ Bu, **mənim öz tapıntımdır**: icma qeydlərində vərəq yalnız «Roman numbers for
+Roman words?» kimi təsvir olunub; **«X VI» və «424-6» sətirlərini heç kim izah
+etməmişdi**, 23 baş hərfin fərqli olması da qeyd olunmayıb.
+
+⚠ Açar nə üçündür — hələ bilinmir. Rəqəmlər 1,2,3,4,5,6,8,9,10,11,14-dür
+(7, 12, 13 yoxdur) — hamısı mümkün **Super Bowl** nömrələridir, «XOR SUPERB OWLS»
+ilə uyuşa bilər. Zibil qabındakı `251634` bu açarla `_ _ W _ _ V` verir — hələ
+mənalı deyil. Bu, indi əsl cəbhədir.
