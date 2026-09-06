@@ -10436,3 +10436,35 @@ Namizədlər: `down arrow`(9) · `downgrade`(9) · `bear market`(10) · `bottom 
 
 **Kartın forması:** sol kənarda **dördbucaq çıxıntı (tab)** var və onun üstündə
 **kəsik**; sağ kənar **dalğavari/əyri**.
+
+## ★★ 2026-09-06 ~23:5xZ — MAVİ QEYD TAM OXUNDU: İKİ GİRİŞ VAR, BİR YOX
+
+767 çəkilişindən 42 kadrlıq yığın + 90° dönmə (`NOTE_FULL.png`). Qeyd indi
+tam və şübhəsiz oxunur:
+
+```
+( 3 6 4 )        ( 4 4 4 5 )
+       ↘            ↙
+          ( 6 6 )
+             ↓
+            ( 6 )
+```
+
+⚠ Bütün əvvəlki sessiyalar yalnız **`(3 6 4)`** girişini qeyd etmişdi.
+**İkinci giriş `(4 4 4 5)` indiyə qədər heç kim tərəfindən görülməyib.**
+
+`(3 6 4)` = **RED SQUARE CUBE** (köhnə tapmaca PG3) ✓
+`(6 6)` = **MOSCOW RUSSIA** ✓ · `(6)` = **MOSCOW** ✓
+
+`(4 4 4 5)` — 84 səhifəlik sənəddə 4/4/4/5 söz uzunluqlu heç bir mənalı ifadə
+tapılmadı (avtomatik axtarış: 10 nəticə, hamısı təsadüfi söz ardıcıllığı).
+⇒ İkinci girişin nə olduğu **açıq sualdır**.
+
+★ **Qeydin FORMASI şablondur:** `A ↘ (nəticə) ↙ B → (son)`. Bu, köhnə ovun
+«iki cavab bir yeri bağlayır» quruluşuna uyğundur. **Qırmızı qeyd də eyni
+şablonda ola bilər** — orada da ikinci giriş gözdən qaçmış ola bilər.
+
+### ★ Masada YENİ obyekt: əl ilə yazılmış «**$10,000!**»
+Eyni yığından, qeydin solunda, iri bənövşəyi markerlə **`$10,000!`** yazılmış
+ayrıca vərəq var (`RN767_ccw.png`). Heç bir sessiyada qeyd olunmayıb.
+Ehtimal ki, dekorasiyadır (mükafatı elan edir), amma qeydə alınır.
