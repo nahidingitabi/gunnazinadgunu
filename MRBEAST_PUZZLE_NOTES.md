@@ -5540,3 +5540,53 @@ qısalıb. Super-ayırdetmə itirilmiş bucaq ayırdetməsini geri qaytara bilm�
 → **Ofis bucağı qartal kartının rəqəmləri üçün h803-dən PİSDİR.** Bu istiqaməti
 bağlayıram. (Ofis bucağı yalnız ovalın rəngini ikinci dəfə təsdiqləmək və
 15-ci parça üçün faydalı oldu.)
+
+---
+
+## 2026-09-06 08:20Z — Qalan şəkillərin rəngləri ölçüldü (hamısı nəzarətli)
+
+`colorbox.py`, qutular hər dəfə çəkilib gözlə yoxlanıb.
+
+### Ox + sütun diaqramı (#10)
+
+| sahə | da\* | db\* | oxunuş |
+|---|---|---|---|
+| ox | +0.33 | +0.45 | **neytral qara/boz** |
+| 1-ci sütun | **+8.40** | +0.69 | **çəhrayı/magenta** |
+| 2-ci sütun | −0.84 | **+22.08** | **güclü sarı** |
+| 3-cü sütun | **−7.17** | +10.12 | **yaşıl** |
+
+Üç sütun: **çəhrayı → sarı → yaşıl**, hündürlük artan. Fon **ağdır, şəbəkə yoxdur**.
+Noto 📊-də sütunlar **yaşıl/qırmızı/mavi** və **şəbəkə var** → **uyğun gəlmir**.
+Bu, xüsusi çəkilmiş klip-artdır.
+
+### Anbar (#9-un ikinci şəkli)
+
+| sahə | da\* | db\* | oxunuş |
+|---|---|---|---|
+| gövdə | **+6.50** | +0.39 | **qırmızı** |
+| dam | +2.28 | **−8.98** | **boz-mavi** |
+| üstdəki qüllə | −0.06 | **−9.77** | **boz** |
+| qapılar | **+7.62** | +0.86 | **qırmızı** |
+
+→ **Qırmızı gövdə + boz dam + boz qüllə.** Klassik amerikan anbarı. Təsdiqləndi.
+
+### Qar buludu (#11)
+
+| sahə | da\* | db\* |
+|---|---|---|
+| bulud | −3.15 | **−5.06** |
+| dənəciklər | −3.02 | −4.47 |
+
+→ **Solğun mavi-boz bulud + solğun mavi-ağ dənəciklər.** 🌨 ilə uyğun. Təsdiqləndi.
+
+### Göz yaşlı gülən üz (#12)
+
+| sahə | da\* | db\* | oxunuş |
+|---|---|---|---|
+| üz | −0.85 | **+11.28** | **sarı** |
+| sol göz yaşı | +1.44 | **−21.05** | **güclü MAVİ** |
+| ağız | +3.72 | +1.22 | tünd/qırmızımtıl |
+
+→ **Sarı üz + güclü mavi göz yaşı + tünd açıq ağız.** 😂 **ölçmə ilə təsdiqləndi**
+(mavi göz yaşı b\* −21 — bu, ən güclü rəng siqnallarından biridir).
