@@ -798,3 +798,101 @@ Bunlardan biri həll olunsa, OP1 modelini birbaşa tətbiq etmək olar.
 `tabs.py` — parça konturu + kənar profili (maskanı üstünə çəkir).
 `cardsweep.py`, `stacksweep.py`, `lowsweep.py` — kadr süpürgələri.
 `extract.py` — çıxarma qaydalarının süpürgəsi.
+
+---
+
+# §16. MEXANİZM TAPILDI — GC8. AIRRACK (2026-09-06)
+
+Bu bölmə əvvəlki bölmələrin **çoxunu ləğv edir**. Əvvəlcə bunu oxu.
+
+## 16.1 Mexanizm
+
+Köhnə cavab sənədinin (`MDP_ANSWERS.pdf`) **51-ci səhifəsi, GC8. AIRRACK**:
+
+> "…seven pictures… **There's a number or pair of numbers in the corner of each photo**…
+> **ANSWER** Airrack is identified by **the item in the picture that contains the letters
+> in his real name, ERIC**. Here are those items, **with the letters indexed into those
+> names by the numbers given**… After the first three letters, **the letters diverge to
+> spell a city and country: Algiers, Algeria.**"
+
+**Qayda:**
+1. Hər şəkil bir **AD** bildirir (obyektin özünün adı olmaya bilər — assosiativ ad).
+2. Rəqəmlər həmin **ada hərf indeksidir**.
+3. Bir rəngin rəqəmləri **bir sətri**, o birinin rəqəmləri **ikinci sətri** yığır.
+4. Tək rəqəmli şəkil hər iki sətrə **eyni hərfi** verir (bizdə: qırmızı = mavi olan kart).
+5. Ad `max(qırmızı, mavi)`-dən **qısa ola bilməz** — mexanizmin öz filtri.
+
+**Necə tapıldı:** masanın ön üzünə yapışdırılmış **"Boo! / Five of these"** kartı →
+PDF-də `Boo` sözü yoxdur, amma **`horror bookshelf`** var → o, GC8-dir.
+
+**Nəzarət:** `tools/pieces/gc8solve.py` — GC8-in yeddi adı ilə **ALGIERS / ALGERIA**
+verməlidir. Nəzarət düşsə proqram dayanır və heç bir nəticə vermir. **Hazırda KEÇİR.**
+
+## 16.2 Ölçülmüş sabitlər
+
+| kəmiyyət | dəyər | necə |
+|---|---|---|
+| parça sayı | **15** | iki fərqli bucaqdan iki dəfə sayıldı (REF803 + ofis kadrı) |
+| rəsm sayı | **20** | 10 kart tək rəsm + 5 kart iki rəsm |
+| **cavabın uzunluğu** | **15 simvol** | CRT formasındakı maskada **dəqiq 15 ulduz**, 45.7 px bərabər aralıq, 3 kadrda eyni (köhnə "16" səhv idi) |
+| rəqəm diapazonu | I…XIV | qırmızı 2–10, mavi 1–14 |
+
+## 16.3 Görüntü üsulu (bu gün tapıldı — köhnə üsulu əvəz edir)
+
+⛔ Ox-paralel kəsik (bounding box) **işləmir**.
+✅ **Dördbucağı warp et**: `cv2.getPerspectiveTransform` + `warpPerspective`
+(`INTER_LANCZOS4`), **9–26× böyütmə**, rəng doyması 1.5–2×.
+- Masa kartları üçün ən kəskin kadr: **`REF803.png`** (t=803.53).
+- Otağın ən aydın geniş planı: **`pink_index_sheet_A_full_19.8.png`** (t=19.8).
+- Konturu (yapboz kənarını) görmək üçün dördbucağı **35% genişləndir**.
+- Rəqəmi oxumazdan əvvəl eyni səhnənin bütün kadrlarını **kəskinliyə görə sırala**
+  (`np.percentile(|diff|,95)`) — çoxunda hərəkət bulanıqlığı var.
+
+## 16.4 Rəqəmlər (warp ilə yenidən oxundu)
+
+| # | şəkil | qırmızı | mavi |
+|---|---|---|---|
+| 1 | yaşıl şiş papaqlı fiqur | II | **XII** (9 kadr müqayisə edilib) |
+| 2 | sarı kart (şəkli örtülü) | VII | I |
+| 3 | iki panelli çərçivə | ? | ? (örtülü) |
+| 4 | ↓ ox + 4 sütun | VIII | IX |
+| 5 | kəpənək/bant | V | VII |
+| 6 | narıncı-qırmızı düzbucaq | VI | VIII |
+| 7 | spiral təqvim "25" | II | IV |
+| 8 | tünd paz + qapaqlı çubuq | **VI** | **VI** (bərabər!) |
+| 9 | 😂 | X | XIV |
+| 10 | daş + keçəl qartal | ? | ? |
+| 11 | Oman bayrağı | VI | V |
+| 12 | Afrika + yaşıl bitki | IV | VIII |
+| 13 | qar buludu | IX | V |
+| 14 | ABŞ bayrağı + qırmızı tövlə | VII | IV |
+| 15 | tünd uzunsov siluet | ? | ? |
+
+## 16.5 Adlandırılan 4 kart
+
+| kart | ad | qırmızı | mavi |
+|---|---|---|---|
+| 😂 | `face with tears of joy`(18) | **E** | **O** |
+| qar buludu | `cloud with snow`(13) | **H** | **D** |
+| Oman | `flag: Oman`(8, CLDR) | **M** | **O** |
+| kəpənək | `butterfly`(9) | **E** | **F** |
+
+⇒ qırmızı sətirdə mütləq **E, E, M, H**; mavi sətirdə mütləq **F, O, O, D**.
+
+## 16.6 Bu gün RƏDD OLUNANLAR (təkrarlama)
+
+tarix oxunuşu (qırmızı=ay, mavi=gün) · mavi=cavabdakı mövqe (yerdəyişmə nəzarəti) ·
+"rəqəm = adın uzunluğu" · `Charlotte Amalie, U.S. Virgin Islands` · ay adlarına
+indeksləmə (1082 CLDR dili) · MP1–15 rebus üslubu (kartlar rəngli deyil, hərf
+arifmetikası yoxdur) · rəqəmlərin ayrı-ayrı elementlərə aid olması · kart siluetlərinin
+avtomatik seqmentasiyası · düzbucağın rənginin ölçülməsi (qutunun narıncı fonu çirkləndirir).
+
+## 16.7 Qalan üç iş
+
+1. **11 kartın adı.** Qərar cədvəli `MRBEAST_PUZZLE_NOTES.md`-in sonundadır: hər kart
+   üçün süzgəcdən keçən namizədlər və verdikləri hərflər.
+   Ən çətini: **yaşıl papaqlı fiqur** (ad ≥12; heç bir insan/elf emojisi uyğun gəlmir).
+2. **Sıra.** Kartların **yapboz kənarları** (mişar dişi / dalğa / pillə / çıxıntı / sivri uc /
+   yumru) 12×-də oxunaqlıdır — `EDGES_SHEET.png`. Çıxıntı ↔ kəsik cütləşir.
+   İzləyici şərhi: *"closed-loop solution! Just figuring out the order."*
+3. **3 kartın rəqəmi** (10, 3, 15) — hər kadrda örtülü və ya çox maili.
