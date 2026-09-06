@@ -9822,3 +9822,34 @@ Sənəddəki (4,4) formalı yer adları: **`Toad Suck`** (yeganə real namizəd)
 Bu dövrədə qeydi yenidən oxumağa çalışdım: REF767 və REF765-də kamera hərəkət etdiyi
 üçün eyni koordinat fərqli obyektə düşür (REF765-də `000,000` yazısı çıxdı).
 ⇒ **Qeydin dəqiq yeri kadr-kadr izlənməlidir.** Açıq iş kimi qeyd olunur.
+
+### ★★ QIRMIZI QEYD TAPILDI VƏ OXUNDU — əvvəlki oxunuşum **SƏHV İDİ**
+
+Qırmızı mürəkkəbi rəng maskası ilə axtardım (`R−G>45, R−B>35, R>110`) və onu
+**REF765.png**-də tapdım: kağız **90° çevrilmişdir**, ona görə əvvəllər tanınmırdı.
+Düzgün istiqamətə çevirib 9× böyütdüm (`REDNOTE_r90.png`).
+
+**Oxunan mətn:**
+```
+( … )          ← yuxarısı kadrdan kənarda qalır
+   ↓
+( 8  3  5  4  4 )
+        ↓
+   ~~M R~~  ( 9 )      ← iki hərf ÜSTÜNDƏN XƏTLƏNİB
+```
+
+⛔ **DÜZƏLİŞ:** qeydlərdə bu, **`(5 2 7) ↓ (4 4…)`** kimi yazılmışdı — **yanlışdır**.
+Orta qrupda **beş rəqəm** var (≈ 8, 3, 5, 4, 4) və sonuncu enumerasiya **(9)**-dur,
+ondan əvvəl **üstündən xətlənmiş iki hərf** (`MR`? `AR`?) durur.
+
+**Köhnə sənəddə yoxlandı:** (8,3,5,4,4) söz uzunluğu naxışı 84 səhifədə **3 dəfə**
+keçir və hamısı təsadüfi söz ardıcıllığıdır (`entirely red SUPER BOWL CLUE`…).
+9 hərfli köhnə yer adları: `Krasnodar`, `Marquette`, `Marrakesh`, `Velingrad`.
+⇒ **Bu qeyd hələ də köhnə sənəddə izah tapmır.**
+
+★ Maraqlı paralel: köhnə PG7-də **`KANSAS + AR = ARKANSAS`** var idi ("Talk Like a
+Pirate Day" → **AR!**). Üstündən xətlənmiş hərflər `AR` ola bilər — amma bu, sadəcə
+ehtimaldır, iddia deyil.
+
+⇒ Qeyd **açıq qalır**, amma indi **düzgün rəqəmlərlə**. Rəqəmlərin özləri hələ
+qəti deyil (kağız maili və kiçikdir) — istifadəçinin gözü kömək edə bilər.
