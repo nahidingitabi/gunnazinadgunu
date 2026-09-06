@@ -9761,3 +9761,22 @@ Kataloq sıram ləğv edilmiş tarix oxunuşundan gəlir; ondan söz çıxarmaq
 
 ★ Doğru yanaşma: **əvvəlcə sıranı müstəqil şəkildə tap** (yapboz kənarlarından),
 sonra hərfləri oxu. Söz axtararaq sıra seçmək — geri istiqamətdir.
+
+### 8-ci kart 26×-də: dəqiq təsvir (bu kart iki qat dəyərlidir — q=m ⇒ hərfi HƏR İKİ sətrə gedir)
+
+`TWO_MAX.png` (sp_two dördbucağı, 26× warp):
+
+- **solda**: tünd-şabalıdı/bordo, bucaqlı forma (qismən arxada, ehtimalla ikinci obyekt
+  və ya kölgə);
+- **sağda**: **boz-mavi uzunsov şaquli obyekt**, üzərində yuxarıdan aşağı:
+  **çəhrayı/moruq uc** → **firuzəyi (cyan) zolaq** → uzun boz gövdə (ortasında açıq
+  boz xətt) → **çəhrayı/moruq alt**.
+
+Namizədlər (hamısı ≥6, yəni filtri keçir): `rocket`(6) → **T** ·
+`candle`(6) → E · `pencil`(6) → L · `crayon`(6) → N · `battery`(7) → R ·
+`test tube`(8) → U · `toothbrush`(10) → B · `thermometer`(11) → O ·
+`fountain pen`(11) → A · `kitchen knife`(12) → E · `straight ruler`(13) → G.
+
+★ **Raket 🚀** ən yaxşı uyğunluqdur (çəhrayı burun, firuzəyi pəncərə, boz gövdə,
+çəhrayı qanadcıqlar) — amma **təsdiqlənməyib**. Qərar bu kart üçün xüsusilə vacibdir,
+çünki onun hərfi **şəhər və region sətirlərinin hər ikisində** görünür.
