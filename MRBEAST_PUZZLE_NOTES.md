@@ -4666,3 +4666,56 @@ renderdə təmiz, tək V çıxdı.
 **Vəziyyət:** tarix modeli hələ də ən yaxşısıdır (ABŞ bayrağı = VII·IV = 4 iyul
 + "July?" əlyazması), amma indi ona qarşı ölçülmüş bir dəlil var. Dondurulmuş
 saxlayıram, üzərinə heç nə qurmuram. Hər iki halda **şəkillərin adları** lazımdır.
+
+---
+
+## 2026-09-06 03:40Z — ★ İKİ YENİ TAPINTI (hn765b bucağı, t=767.62)
+
+hn765b keşinin **ən kəskin kadrını** tapdım (Laplasian variansı ilə 82 kadr
+arasından): **t = 767.62**. Bu kadrda kamera daha yaxındır və iki şey açıldı.
+
+### ★ 1) Əlyazma BİR sətir deyil, **İKİ sətirdir**
+
+Qutunun sarı üzündə, ABŞ bayrağı kartının sağında:
+```
+"July?"
+ Jun…
+```
+Birinci sətir aydın **"July?"**, ikinci sətir **"Ju…"** ilə başlayır və sağ
+tərəfdən kəsilir — böyük ehtimalla **"June"**.
+
+**Bu, əvvəlki qeydimi təkzib edir.** Qeydlərimdə açıq yazmışdım:
+*"Qutularda ikinci ay əlyazması yoxdur."* — **SƏHV İDİ**, geri götürürəm.
+(Səbəb: h803 bucağında əlyazma kadrın sağ kənarında qalır və ikinci sətir
+görünmür. hn765b bucağı onu açır.)
+
+**Niyə vacibdir:** tarix modelinin (qırmızı = ay) yeganə birbaşa dəstəyi
+"July?" idi və o tək qalırdı. İndi **iki ay adı** var. Bu, modeli
+gücləndirir — üstəlik qonşu ABŞ bayrağı kartı VII·IV = **4 iyul**dur.
+Amma diqqət: "June" hansı karta aiddir, bilinmir; yaxınlıqda başqa kart yoxdur.
+Model hələ də dondurulmuş qalır, sadəcə indi əleyhinə və lehinə dəlil var.
+
+### ★ 2) Sağdakı qara şkafın yapışqan qeydləri — indiyə qədər qeyd etməmişəm
+
+Yuxarıdan aşağı, hərfi-hərfinə:
+
+| rəng | mətn |
+|---|---|
+| sarı | **`081 XIV`** *(altında qısa tire)* **`Seahawks?`** |
+| mavi | **`# #`** (iki xanalı işarə) / **`How many?`** |
+| sarı | **`QX=TH`** |
+| mavi | **`251634`** |
+| sarı | **`PLATES`** |
+| mavi | **`YouTube link / Watch?`** *(aşağıdan kəsilir)* |
+
+Bunlar monitorun üstündəki qeydlərdən (`LSWRTE / NNRTIN / HDOTA`,
+`Books w/ old name. Alphabetize?`) **fərqlidir** — yeni qeydlərdir.
+
+**Şərh (ehtiyatlı):** böyük ehtimalla köhnə $1M tapmacasının dedektiv-lövhə
+dekorudur — otaq elə həmin xülasə dekorasiyasıdır, "Seahawks"/"Super Bowl" köhnə
+tapmacanın mövzusudur, `QX=TH` isə onun əvəzləmə şifrələri üslubundadır.
+**Amma sübut edilməyib**, və `XIV` Roma rəqəmi yeni tapmacanın 😂 parçasının
+mavi rəqəmi ilə eynidir. Ona görə **hərfi-hərfinə qeyd edirəm, şərh etmirəm.**
+Şkafın aşağısı kadrdan kənarda qalır — daha aşağıda başqa qeydlər ola bilər.
+
+Artefaktlar: `tools/pieces/HAND765.png`, `HAND_wide.png`, `CABINET.png`.
