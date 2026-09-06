@@ -385,3 +385,31 @@ supporting it.
   pieces, dated), `PICTURES_ONLY.png` (20× drawings), `EMOCMP.png` +
   `EMOCMP2.png` (drawings beside candidate emoji), `EDGESTRIPS.png` (edge
   profiles).
+
+---
+
+## 12. The seven unnamed drawings, as measurements
+
+Everything below is measured, not judged by eye. Six of my eye-judged labels
+were wrong on 2026-09-06, so the measurements are the primary record and the
+label column is only a hint.
+
+| # | date | measured shape | measured colour | eye-label (weak) |
+|---|---|---|---|---|
+| 1 | 11 Feb | not profilable — multi-coloured, mask fragments (solidity 0.23) | hat **a\* −3.8 (green)** → face +2.8 → torso +4.0 → lower **+6.8 (red)** → ankles −1.2; **two dark discs below the feet** | elf / gnome, possibly on a roller skate |
+| 3 | 8 Apr | **32 × 11 px**, elong 2.87–2.98 (3 thresholds, 2 angles). Width by depth: 30% **10.6** → 45% **7.2 (waist)** → 65% **8.9** → 95% 3.5. Max width = **⅓ of height** | **neutral black**, L 50, a\* −0.25, b\* +0.22. Plant beside it **a\* −12 (strong green)**, finer blades above | **not Africa** (Africa: max width ≈ 95% of height, no waist) |
+| 6 | 6 Jun | dark object **35.3 × 8.7**, elong 4.06, **solidity 0.95**, widest at 30%, tapering to a fine point. Light object not profilable (solidity 0.36) | dark object **b\* negative → navy**; light object **a\* +6.1 top, +5.0 bottom, pale middle** | pen/brush + something red-tipped |
+| 7 | 8 Jun | **22 × 47 px = 1 : 2.14**, flat, no gradient | **a\* +16.4, b\* +13.8, uniform** — terracotta, not pure red (Oman's red is a\* +22) | door? |
+| 13 | ? | thick frame, horizontal bar, two panels | **whole drawing cooler than paper, frame included** (b\* −5.8 to −8.1) | file cabinet — **not** Noto's window, whose frame is warm |
+| 14 | ? | left shape **28–38 × 9–12**, elong 3.05–3.20, solidity 0.74–0.82, **curved, widening downward, hook at lower right** — *not* an ovoid. Bird beside it: elong 3.5–3.7, solidity 0.89–0.92 | left shape **warm brown** (b\* +7.5…+8.3 on two angles); bird body **neutral dark** (b\* +0.68), its head **neutral white** | bald eagle is firm; left shape unnamed, **not a grey rock** |
+| 15 | ? | **19.4 × 8.2 px**, elong 2.36, solidity 0.91, widest at 20%, **monotone taper to a point, no waist** | — | wedge/teardrop: leaf, flame, feather, fin |
+
+Note #3 and #15 are **different families**: #3 has a waist, #15 does not.
+
+### Tools that earned their place
+
+`colorbox.py` draws the boxes it measures — misplacement was the failure mode in
+every colour test. `wprof.py` reports width by depth and prints solidity, which
+is what rejects a fragmented mask. `numcheck.py`'s db\* column is its own
+control. Ten automated classifiers have failed their controls here; only direct
+measurements against a card's own paper have held.
