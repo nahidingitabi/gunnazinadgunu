@@ -5671,3 +5671,15 @@ həll olunduğuna dair **heç bir işarə yoxdur**, forma hələ açıqdır,
 Cavab sahəsində uzunluq göstəricisi yoxdur.
 
 → **Tapmaca hələ həll olunmayıb və başqa heç kim bizdən irəlidə deyil.**
+
+### "Puzzle Clues" etiketi oxundu — sadəcə etiketdir
+
+İcma videosu tapmacanın **"Puzzle Clues" yazılı qutudan** başladığını deyir,
+ona görə həmin etiketi özünü oxudum (REF765, kadr 1065–1165 × 230–280, 14×):
+`tools/pieces/LABEL_pc2.png`.
+
+Əlyazma ilə yalnız **"Puzzle Clues"** yazılıb. **Əlavə sətir, rəqəm və ya
+təlimat yoxdur.** Qutunun üzərindəki çap isə standart arxiv qutusu mətnidir
+("CONTENTS FROM … DEPT …"), Bankers Box dizaynı.
+
+→ Etiketdə gizli məzmun yoxdur; "ipuçları" elə qutunun **üstündəki kartlardır**.
