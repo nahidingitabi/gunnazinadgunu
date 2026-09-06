@@ -67,7 +67,7 @@ angles**, so these are not single-frame artefacts:
 | down arrow + bar chart | VIII (8) | IX (9) |
 | **butterfly** 🦋 | V (5) | VII (7) |
 | red-brown rectangle | VI (6) | VIII (8) |
-| calendar (spiral, large "25") | III (3) | IV (4) |
+| calendar (spiral, large "25") | **II (2)** | IV (4) |
 | two tall objects | **VI (6)** | VI (6) |
 | 🇺🇸 US flag + red barn | VII (7) | IV (4) |
 | 🇴🇲 Oman flag | VI (6) | V (5) |
@@ -160,10 +160,19 @@ edge steps away with a yellow card beneath it, the second has its own left
 margin and shadow line. So the count stays **fifteen**, the yellow card is not a
 piece, and the I-VII numerals belong to the hidden-picture piece.
 
-`[MEASURED]` **Also closed:** both coloured cards on the desk are blank; there is
-no second piece of month handwriting anywhere on the boxes; the calendar's glyph
-is **25**, which does *not* echo that piece's own numerals (III·IV), so it is
-stock art rather than a confirmation of anything.
+`[MEASURED]` **Also closed:** both coloured cards on the desk are blank.
+
+`[RETRACTED 2026-09-06]` This section used to say there was no second piece of
+month handwriting on the boxes. **There is.** The hn765b angle at t=767.62 shows
+two lines beside the US-flag piece: `"July?"` and, below it, `Jun` cut off by the
+box's fold. Every angle clips the second line, so it cannot be finished from this
+footage.
+
+`[RETRACTED 2026-09-06]` It also gave the calendar's numerals as III·IV. A
+controlled measurement on the hn765b render (each stroke's a* against the card's
+own paper, with the neighbouring cardboard edge as a passing control) gives
+**two** red strokes, so the calendar is **II·IV — 4 February**. The glyph is
+still read as **25** and still does not echo the piece's own numerals.
 
 ## 7. The date reading — leading, and frozen
 
