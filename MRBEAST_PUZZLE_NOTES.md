@@ -5437,3 +5437,27 @@ Terrakotta rəngli, tam düz, 1:2 nisbətli şaquli düzbucaq + nazik tünd kont
 Ən uyğun namizəd: **qapı 🚪** (Noto-da qəhvəyi-terrakotta, təxminən 1:2, sadə).
 Kitab 📕 daha qırmızıdır və səhifələri görünür; kərpic 🧱 üfüqidir və tikişləri var.
 Bu ölçüdə qapı dəstəyi (~2 piksel) görünməyə bilər.
+
+---
+
+## 2026-09-06 07:35Z — Siluet **TƏMİZ QARADIR**, bitki **güclü yaşıl**
+
+`colorbox.py`, qutular şəklin daxilinə düzgün yerləşdirilib (`CB_PLANT2.png`):
+
+| sahə | L | da\* | db\* |
+|---|---|---|---|
+| **siluetin mərkəzi** | **50.2** | **−0.25** | **+0.22** |
+| siluetin yuxarısı | 92.9 | −0.47 | −2.95 |
+| bitkinin nazik yarpaqları | 141.9 | −5.92 | −5.03 |
+| **bitkinin gövdəsi** | 111.6 | **−12.00** | +9.75 |
+
+**Siluet: L=50, a\* ≈ 0, b\* ≈ 0 → tam neytral QARA.** Rəngli tünd cisim deyil,
+həqiqi qara siluetdir.
+
+**Bu vacibdir:** emojilər rənglidir. Düz qara siluet **xəritə** və ya
+**stilizə olunmuş ikon** üçün xarakterikdir. Uzanma 2.9 + iki lob + bel +
+tam qara → **ölkə/ada xəritəsi** ehtimalı gücləndi.
+
+**Bitki:** aşağıda sıx yaşıl kütlə (a\* −12), yuxarıda daha açıq nazik
+yarpaqlar (a\* −5.9). Yəni **kolluq/ot dəstəsi** — aşağısı dolğun, yuxarısı
+şüalanan incə yarpaqlar.
