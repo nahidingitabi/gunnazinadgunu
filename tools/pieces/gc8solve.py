@@ -47,14 +47,14 @@ def run_control():
 # (etiket, qirmizi, mavi, ad)   ad=None => hele adlandirilmayib
 # Qirmizi/mavi reqemler REF803-den warp + 9-16x boyutme ile oxunub.
 CARDS = [
-    ('yasil papaqli fiqur',      2,  11, None),   # mavi XI: t=324 cekilisinde 4 kadrda qeti (X + BIR I)
+    ('elf fiquru',               2,  11, None),   # ISTIFADECI: elf. Ad >=11 olmalidir -> 'CHRISTMAS ELF'(12) / 'ELF ON THE SHELF'(13) / 'SANTAS HELPER'(12)
     ('gizli sekilli kart',       7,   1, None),   # qirmizi VII: t=324-de 4 kadrda qeti
-    ('demir barmaqlikli pencere', None, None, None), # ~7 SAQULI barmaqliq; reqemleri gorunmur
+    ('barmaqliq',             None, None, None), # ISTIFADECI: barmaqliq. reqemleri gorunmur
     ('asagi ox + sutunlar',      8,   9, None),   # namized: 'chart decreasing'(15) -> C/R
     ('kepenek (bant?)',          5,   7, 'butterfly'),  # filtr `ribbon`(6)-ni kesir
     ('narinci-qirmizi duzbucaq', 6,   8, None),   # namized: 'red square'(9) -> U/R
     ("teqvim '25'",              2,   4, None),   # namized: 'spiral calendar'(14) -> P/R
-    ('iki obyekt',               6,   6, None),   # yigin: VI/VI (kohne oxunus dogru idi); beraber
+    ('paz + firuzeyi obyekt',    6,   6, 'FEASTABLES'),  # ISTIFADECI: Feastables baton; 6-ci herf A -> her iki setre A
     ('sevinc uzu',              10,  14, 'face with tears of joy'),
     ('das + kecel qartal',       8,   9, None),   # yigin: qirmizi ~VIII, mavi ~IX (ilk defe gorunur)
     ('Oman bayragi',             6,   5, 'flag: Oman'),  # CLDR adi, 8 herf

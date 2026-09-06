@@ -10627,3 +10627,42 @@ materialıdır.
 
 ⚠ Hələ də açıq: parçalar üst-üstə yapışdırıldığına görə bəzi kənarlar örtülüdür
 (5-in sağı, 12-nin solu, 14-ün solu qismən). Tam zəncir üçün istifadəçinin gözü lazımdır.
+
+## 2026-09-07 ~02:0xZ — «BORU SİRRİ» YENİDƏN ÖLÇÜLDÜ (istifadəçinin sualı)
+
+Əvvəlki sessiyalar divar stikerlərini **başqa sessiyanın oxunuşundan** götürmüşdü.
+İndi özüm ölçdüm — ofis çəkilişindən (`st020`, 149 kadr) yığınla.
+
+### Sağ divar (`WALL_R_IBP.png`, 45 kadr, korr. 0.989) — QƏTİ
+Şaquli konduit üzərində üç paylayıcı qutu, hər birində dairəvi nömrəli stiker,
+yuxarıdan aşağı:
+
+| mövqe | disk rəngi | rəqəm |
+|---|---|---|
+| yuxarı | **açıq mavi** | **6** |
+| orta | **qırmızı/salmon** | **7** |
+| aşağı | **ağ** | **4** |
+
+Hər üç rəqəm 3× IBP-dən sonra tam aydındır — şübhə yoxdur.
+
+### Sol divar (`WALL_L2/L3_IBP.png`, 24–29 kadr) — qismən
+Üç disk: **yuxarı tünd-göy (navy)**, **aşağı-sol krem/ağ**, **aşağı-sağ salmon**.
+Krem diskin rəqəmi qəti **1**; salmon diskin rəqəmi **4** kimi oxunur;
+navy diskin rəqəmi kadrda kəsilir, forma **2**-yə uyğundur, amma **qəti deyil**.
+
+⇒ **Sol: navy 2 · krem 1 · salmon 4** (əvvəlki sessiyanın iddiası təsdiqlənir,
+amma navy rəqəmi hələ də ehtimaldır).
+
+### ⛔ Kartlarla ƏLAQƏ TAPILMIR
+Hər klasterdə **bir mavi, bir qırmızı, bir ağ** var — bu, kartların
+«qırmızı + mavi» konvensiyasına oxşayır və əvvəlki sessiya «ağ = parçanın nömrəsi»
+fərziyyəsini irəli sürmüşdü. **Yoxlandı, tutmur:**
+- Sağ klaster (qırmızı 7, mavi 6): **heç bir kartın rəqəm cütü {6,7} deyil.**
+- Sol klaster (qırmızı 4, mavi 2): kartların **heç birində mavi 2 yoxdur**
+  (mavi dəyərlər: 11,1,9,7,8,4,6,14,9,5,8,5,4). Kart 7 {2,4}-dür, amma
+  **rəngləri tərsdir** (qırmızı 2 / mavi 4).
+- «Ağ = mövqe» oxunuşu da tutmur: «1-ci parçada mavi 2» — belə parça yoxdur.
+
+⇒ **Boru stikerləri kartlarla əlaqələndirilə bilmir.** Ən ehtimallı izah:
+bunlar həqiqi dekorasiyadır (nömrələnmiş elektrik paylayıcı qutuları real şeydir).
+Qeydə alınır, amma **açıq istiqamət kimi saxlanmır**.
