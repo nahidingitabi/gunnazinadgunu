@@ -9793,3 +9793,32 @@ Rəqəmləri qonşu kartın altında qalır ⇒ **filtr yoxdur**, ad seçimi sə
 Şəkil sahəsində **sarı-narıncı blok** görünür, amma onun kartın öz rəsmi, yoxsa
 arxadakı qutu olduğu **seçilmir** — kartın böyük hissəsi qonşu kartın altındadır.
 Əgər rəsm sadə sarı bloksa: 🟨 `yellow square`(12) → q7=**S**, m1=**Y**.
+
+---
+
+## 2026-09-06 18:5xZ — ★ MASADAKI **QIRMIZI** SAYĞAC QEYDİ köhnə sənəddə UYĞUNLUQ TAPMIR
+
+Masada iki "enumerasiya" qeydi var:
+- **mavi**: `(3 6 4) → (6 6) → (6)` — **KÖHNƏDİR**, təsdiqlənib:
+  `RED SQUARE CUBE`(3,6,4) → `MOSCOW RUSSIA`(6,6) → `MOSCOW`(6).
+- **qırmızı**: `(5 2 7) ↓ (4 4…)` — **indiyə qədər yoxlanılmamışdı.**
+
+Bu gün yoxladım: 84 səhifəlik cavab sənədinin **bütün mətnində** söz uzunluqları
+**(5, 2, 7)** olan ardıcıllıq axtarıldı — **20 nəticə, hamısı təsadüfi söz cütləri**
+(`group of letters`, `types of puzzles`, `array of options`…), **heç biri tapmaca
+ifadəsi deyil**. Köhnə ləqəblərin heç biri də (5,2,7) formasında deyil
+(`Home of Peace` 4,2,5 · `Island of Death` 6,2,5 · `City of Winds` 4,2,5 · `Oil City` 3,4).
+
+Sənəddəki (4,4) formalı yer adları: **`Toad Suck`** (yeganə real namizəd),
+`York City`, `East Nasu`.
+
+⇒ **Qırmızı qeyd köhnə sənəddə izah tapmır.** Üç ehtimal:
+1. **YENİdir** — yeni tapmacanın ara mərhələsini göstərir: (5,2,7) ifadə → (4,4) yer.
+   ⚠ Amma bu, ölçdüyüm **15 simvolluq cavabla ziddiyyət təşkil edir** ((4,4) = 9 simvol).
+   O halda (4,4) **ara nəticədir**, son cavab deyil.
+2. Rəqəmləri **səhv oxumuşam** (qeyd 1080p-də çox kiçikdir).
+3. Köhnə ovun sənəddə açıqlanmayan hissəsinə aiddir.
+
+Bu dövrədə qeydi yenidən oxumağa çalışdım: REF767 və REF765-də kamera hərəkət etdiyi
+üçün eyni koordinat fərqli obyektə düşür (REF765-də `000,000` yazısı çıxdı).
+⇒ **Qeydin dəqiq yeri kadr-kadr izlənməlidir.** Açıq iş kimi qeyd olunur.
