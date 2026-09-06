@@ -6738,3 +6738,39 @@ Bu, indiyə qədər 6-cı kartın ən aydın görüntüsüdür. Obyektlərin tə
 * **sağ**: hündür **solğun mavi-boz düzbucaq**; yuxarı və aşağı kənarında
   **çəhrayı zolaq**, hər çəhrayının içində **firuzəyi xətt**, gövdəsinin içində
   **iki paralel tünd şaquli çubuq**
+
+---
+
+## Rəsmi qaydalar oxundu — bir fərziyyəmi geri götürürəm
+
+**Heç nə göndərmədim** — yalnız oxudum.
+
+### 1. ★ «Cavab 15 simvoldur» — bu FAKT DEYİL, mənim çıxarışımdır
+
+Rəsmi qaydalarda **cavabın formatı ümumiyyətlə göstərilməyib**: nə uzunluq,
+nə simvol dəsti, nə nümunə. Saytdakı formada da yalnız «Guess the answer\*»
+yazısı var — nə yer tutucu mətn, nə simvol limiti, nə ipucu.
+
+Yəni qeydlərimdə və saatlıq tapşırığımda daşıdığım **«cavab 15 simvoldur»**
+sətri **15 parçadan çıxardığım nəticə idi**, verilmiş şərt deyil.
+**Bunu məhdudiyyət kimi işlətmə.** Cavab söz, ifadə, rəqəm və ya başqa formada
+ola bilər — bu, mexanizm axtarışını genişləndirir, daraltmır.
+
+### 2. Müsabiqə hələ açıq görünür
+
+Sayt (2026-09-06 ~08:10Z) **cavab göndərmə formasını göstərir**, qalib elanı
+və ya bağlanma bildirişi yoxdur. Qaydalara görə:
+
+```
+başlanğıc : 02.09.2026, 12:00 ET
+son       : 02.09.2027, 11:59 ET — VƏ YA qalib cavab gələn kimi
+qalib     : DÜZGÜN CAVABI BİRİNCİ göndərən
+mükafat   : $10,000, bir nəfər
+```
+
+Yəni **vaxt təzyiqi bir ildir**, amma **hər an kimsə qazana bilər**.
+
+### 3. Videoda «ipucular» sözü çoxluqdadır
+
+Qaydalar: «Clues to solving the Puzzle will be available in the Video» —
+**sayı göstərilməyib**. Yəni 15 parçadan başqa ipucu da ola bilər.
