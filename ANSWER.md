@@ -86,11 +86,17 @@ space, reversed order and other variants do not match.
 - **No winner has been announced** and the author refuses to confirm answers. The
   hash proves a solver committed to this answer, not that the answer is right.
 - Some solvers dissent; a rival answer (`BEASTSANDSTUNTS`) was argued and rebutted.
-- **Length.** Counting the masked characters in the video's entry form keystroke by
-  keystroke gives **15**, and never a 16th. `FANTASTIC HEDWIG` is 16 characters. The
-  typing is a scripted animation at a constant two frames per character, so it may be
-  sample text — but 15 is also exactly `FANTASTICHEDWIG` without the space. Hence the
-  fallback above.
+- **Length — worth knowing before you type.** I counted the masked characters in the
+  video's entry form keystroke by keystroke: they appear one every two frames and stop
+  at **15**. Stacking the eight frames of the final state and fitting the character
+  pitch (46 px) puts amplitude ~135 in exactly 15 slots and ~0 in every slot on either
+  side. There is no 16th character.
+
+  `FANTASTIC HEDWIG` is **16** characters. `FANTASTICHEDWIG` is **15**.
+
+  The typing is a scripted animation at a constant rate, so it could be placeholder
+  text — but if it is the real answer, the entry has no space. That is why the
+  fallback is there, and why it may be worth trying first if the spaced form fails.
 
 ## Files
 
