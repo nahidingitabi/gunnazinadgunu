@@ -9104,3 +9104,48 @@ yerlər var idi.)
 301 Location-da **yalnız iki parametr** (`recipe`, `input`) — `&ieol`, `&oeol`, `&args` yoxdur.
 15 qonşu slug yoxlanıldı: yalnız `xorclue` (köhnə Wattpad linki) və `xorcipher`
 (silinmiş Google Docs, 410) mövcuddur — ikisi də əlaqəsizdir. UA-cloaking yoxdur.
+
+---
+
+## 2026-09-06 16:0xZ — KÖHNƏ SƏNƏDDƏN ÜÇ KONTEKST DÜZƏLİŞİ
+
+### 1. ⚠ Köhnə ovun TƏQDİM EDİLƏN cavabı yer adı DEYİL, KOD idi
+
+MM3-ün cavabı: **`R62L39R05L73606623093121200300`** — seyf kombinasiyası.
+Ayrı-ayrı tapmacalar yerlərə aparırdı, amma **meta-cavab alfanumerik kod idi**.
+⇒ Bizim 15 simvolluq cavab da **yer adı olmaya bilər**; "15 hərfli şəhər" istiqaməti
+yeganə variant deyil. (Colin izləyicinin *"söz, cümlə, yoxsa kod?"* sualını
+cavabsız qoyub — bu, indi daha mənalı görünür.)
+
+### 2. MP1–15 rebuslarının cavabları **ŞƏHƏR LƏQƏBLƏRİ**dir — uzunluqları 7–21 hərf
+
+`Gateway to Death Valley` (Beatty, Nevada) · `Valley of the Rouge` · `Queen City of the
+North` · `Oil City` · `City of 33 Churches` · `City of Roses and Ruins` · `Lady of the
+Sea` · **`Home of Peace`** · `Pearl of the North` · `City on Two Continents` ·
+`Motherland of Cherry` · `City of Winds` · `Diamond City of India` · **`Island of Death`** ·
+`Capital of the Plains`.
+
+★ Bu, bizim rəqəm diapazonunu (I…XIV) **təbii izah edir**: indekslənən şey qısa obyekt
+adı deyil, **uzun ifadədir**. Bizim kartların adları da bu sinifdən olmalıdır —
+GC8-in `GEORGE FRIDERIC HANDEL`(20) / `DALLAS MAVERICKS`(15) adları ilə eyni ölçüdə.
+
+### 3. Köhnə ovda **Omanda bir yer var**: `MP28 LIGNIPERDOUS → Natif Waterfalls, Oman`
+
+Bizdə **Oman bayrağı kartı** var. Bu, təsadüf ola bilər, amma qeyd olunur —
+Colin-in "**found/stumbled-onto connections**" sözü ilə birlikdə, yeni kartların köhnə
+ovun yerlərinə istinad etməsi **yoxlanası fərziyyədir**.
+
+### 4. Köhnə metanın mexanizmi: **qlobus üzərində böyük dairələr**
+
+MM2: cavab-yerləri qlobus üzərində (düz xəritədə yox) xətlərlə birləşdirirsən, xətlər
+rəqəmləri çəkir. ⇒ **Videodakı iki qlobus köhnə tapmacanın rekvizitidir**, yeni deyil.
+
+---
+
+### Bu dövrün digər nəticələri
+
+- Videonun ən yeni şərhləri innertube ilə çəkildi (20 ədəd, `cmt_list.json`):
+  **hamısı ümumi tərifdir**, tapmaca irəliləyişi yoxdur. İcma açıq şəkildə heç nə paylaşmır.
+- `geonamescache` bazasından **eyni uzunluqlu (şəhər, region) cütləri** çıxarıldı
+  (`eqpairs.json`, 297 ədəd) — 15/15 uzunluqda cəmi bir cüt var. Bu, "cavab şəhər+ölkə
+  deyil" nəticəsini müstəqil şəkildə dəstəkləyir.
