@@ -7330,3 +7330,40 @@ REF765 (2-ci bucaq):  da* = +15.8   db* = +10.6   hue = 33.7°   ölçü 22×40 
    bütün rəng ölçmələrimin dayağını gücləndirir — gözlə baxış isə iki bucaqda
    fərqli nəticə verdi. (Papaq məsələsində də eyni: göz «çəhrayı» dedi, dar
    qutu ilə ölçü `a* −2.6` = yaşıl verdi.)
+
+## REF767 daha kəskindir — amma RƏQƏMLƏR orada oxunmur (nəzarətlə sübut)
+
+`findcards.py` (kadrdakı bütün kart ölçülü ağ ləkələri siyahılayır) REF767-də
+(t=767.62, bu bucağın ən kəskin kadrı) yuxarı qutunu tapdı: `(1240,30,1400,260)`.
+Orada **1, 4, 7, 8, 10, 13-cü kartlar birlikdə** görünür və REF765-dən **daha
+böyükdür** (ABŞ kartı 122×72, REF765-də 102×63).
+
+### Rəqəm oxuyucusu bu bucaqda nəzarətdən KEÇMİR
+
+ABŞ kartının qırmızı `VII`-si (dəyəri dəqiq bilinən nəzarət) REF767-də:
+
+```
+strokes3, düz qutu        →  imza 0/4/3   (TOP-da sıfır zirvə)   ✗
+qutunu daraltdım          →  1/4/3                                ✗
+strokes4 ilə −24°…+24° arası 13 bucaqda döndərdim → HEÇ BİRİ 4/4/3 vermir  ✗
+```
+
+Səbəb: bu bucaqda kart maildir, rəqəmlər **sürüşdürülmüşdür (shear)**, ona görə
+«üst/orta/alt üçdəbir» zolaqları ştrixləri kəsir. Sadə döndərmə bunu düzəltmir.
+
+**Nəticə: rəqəmlər yalnız REF803-də (demək olar frontal) oxunur.** İkinci
+bucaqdan rəqəm oxumaq üçün əvvəlcə kartı düzləndirmək lazımdır.
+
+### ★ Öz gözümü düzəldirəm: 7-ci kartın qırmızı rəqəmi VI-dır, VII deyil
+
+REF767-də rəsmə baxıb «dörd ştrix görünür, bəlkə VII-dir» demişdim.
+REF803-də 26× şəbəkəli görüntü (`Z803N7.png`) məsələni həll edir:
+
+```
+1688–1695  V  (iki yaxınlaşan ştrix)
+1696–1698  I  (bir şaquli ştrix)
+1700+      QIRMIZI DÜZBUCAQ (şəkil) — bu, rəqəm ştrixi DEYİL
+```
+
+Dördüncü saydığım ştrix **düzbucağın sol kənarı imiş**. **Qırmızı VI qalır**,
+lövhədəki dəyər dəyişmir, tarix **8 iyun** olaraq qalır.
