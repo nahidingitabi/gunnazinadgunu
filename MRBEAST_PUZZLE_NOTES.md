@@ -9262,3 +9262,37 @@ URL-lər (mrb.gg/p/puzzle, official-rules, mrbeast.store, viewstats, extrememusi
   17:39.09–17:47.09 arası, mərkəzdə. ★ Kiçik maraq: həmin videonun öz uzunluğu
   **"17:20"**-dir və MrBeast bu videoda tapmaca cümləsini məhz **17:20.2**-də deyir.
   Təsadüf ola bilər; ucuz yoxlanışdır, qeyd olunur.
+
+---
+
+## 2026-09-06 16:5xZ — İKİ KİÇİK, AMMA DƏQİQ NƏTİCƏ
+
+### 1. "Boo! / Five of these." köhnə sənəddə YOXDUR
+
+84 səhifəlik cavab PDF-ində `Boo`, `five of these`, `black book`, `ghost`, `five books`,
+`library` — **hamısı 0 nəticə**. Yalnız `bookshelf` bir dəfə keçir (GC8-in
+"horror bookshelf"-i). ⇒ Masadakı **"Boo!" kartı köhnə tapmacanın izahında yoxdur** —
+ya izah edilməmiş köhnə rekvizitdir, ya da **yeni tapmacanın obyektidir**.
+(Onun məni GC8-ə aparması təsadüf ola bilər, amma qeyd olunur.)
+
+### 2. ⚠ XOR açarı 15 simvollu giriş üçün DƏ işləyir — əvvəlki mühakiməmi genişləndirirəm
+
+CyberChef-in XOR əməliyyatı açarı **dövri təkrarlayır**. Açar 13 baytdır, amma giriş
+15 simvol ola bilər: 14-cü mövqe açarın 1-ci baytını (`%`), 15-ci mövqe 2-ci baytını
+(`H`) istifadə edir.
+
+⇒ **Mövqe şərti genişlənir:** şifrəmətn çap oluna bilən ASCII olduqda, cavabın
+**2, 4, 7 və 15-ci simvolu böyük hərf ola bilməz** (açarın `H`, `U`, `Z`, `H` baytları).
+
+Amma bu, eyni zamanda bir ziddiyyət yaradır: **parçalardan çıxan 15 hərf böyük
+hərflərdirsə, onlar XOR-un girişi OLA BİLMƏZ** (2-ci mövqe idarəedici simvol verər).
+⇒ Ya parçaların hərfləri **birbaşa cavabdır** və XOR ayrı/yalançı izdir,
+ya da XOR-un girişi başqa yerdən gəlir (çəhrayı indeks vərəqi?).
+
+### 3. Kart siluetlərinin avtomatik ayrılması İŞLƏMİR
+
+`W_TOPBOX.png` üzərində HSV ilə seqmentasiya (parlaq + az doymuş = ağ kağız) cəhd edildi:
+36 komponent, yalnız 5-i 4000 pikseldən böyük və heç biri bütöv kart deyil — işıqlandırma
+kartları qutunun narıncı fonundan ayırmır. ⇒ **Yapboz sırasını kənar formalarından
+avtomatik çıxarmaq bu ayırdetmədə mümkün deyil** (bu, 14-cü bağlanan avtomatik ölçmədir).
+Sıra ya gözlə, ya da daha yüksək ayırdetmə ilə tapılmalıdır.
