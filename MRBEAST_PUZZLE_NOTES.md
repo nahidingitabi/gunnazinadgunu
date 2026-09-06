@@ -4138,3 +4138,27 @@ nə təsdiqləyir, nə də təkzib edir — sadəcə klipartın öz rəqəmidir.
 
 Metod qeydi: **çox-planlı IBP həmişə tək-planlıdan yaxşı deyil.** Qeydiyyat
 zəifdirsə, ikinci plan zərər verir. Təqvimdə tək plan + əl dördbucağı qalib gəldi.
+
+## 2026-09-06 01:20Z — KƏNAR PROFİLLƏRİ: İLK REAL ÖLÇÜ
+
+IBP görüntüləri konturları ilk dəfə izləməyə imkan verdi (`outlines.py`,
+`OUT_usflag.png`, `OUT_topbox.png`).
+
+**ABŞ bayrağı parçası — tam görünən yeganə kontur:**
+* **sol kənar: 3 mişar dişi** (sola baxan üç V oyuğu)
+* **sağ kənar: yumru qabarıq** (dışa çıxan qövs)
+* yuxarı və aşağı kənarlar düzdür
+
+**Diaqram parçası:** sağ kənarı **içəri əyilmiş qövsdür** (oyuq), qabarıq deyil.
+Yəni **kənarlar parçadan-parçaya dəyişir** — bu vacibdir: əgər hamısında eyni
+olsaydı, forma bəzək olardı; dəyişirsə, **bir-birinə keçmə ehtimalı var**
+(qabarıq = dil, oyuq = yuva — klassik yapboz).
+
+**Amma bir uyğunsuzluq var:** sol kənardakı **mişar dişi** yumru qabarığa
+uymur. Ya sol kənar bütün parçalarda eynidir və sırf bəzəkdir (bilet kötüyü
+görkəmi), ya da birləşmə yalnız sağ kənarlarla olur.
+
+**Məhdudiyyət:** parçalar bir-birinin üstünə düşdüyü üçün seqmentləmə onları
+tək blob kimi birləşdirir — 15 konturdan yalnız **biri** (ABŞ bayrağı) tam
+görünür. Yəni kənar profili yolu **tam yığma verə bilməz**, amma "hansı parçada
+dil, hansında yuva var" sualı bəzi parçalar üçün cavablana bilər.
