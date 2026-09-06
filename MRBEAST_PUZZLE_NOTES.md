@@ -4858,3 +4858,51 @@ mühakimələrinə nə qədər az güvənmək lazım olduğunu göstərir.
 
 Həmçinin: indi **fevral iki dəfə** var (11 fevral — konkili fiqur, 4 fevral —
 təqvim). Tarixlər hələ də fərqlidir, ziddiyyət yoxdur.
+
+---
+
+## 2026-09-06 04:35Z — `numcheck.py`: nəzarəti keçən qırmızı/mavi testi
+
+Təqvimdə işləyən üsulu alətə çevirdim: `tools/pieces/numcheck.py`.
+
+**Necə işləyir.** Kartı tapır (ən böyük parlaq, az doymuş sahə), onun **qabarıq
+örtüyünü aşındırıb** yalnız kartın **içindəki** mürəkkəb ləkələrini götürür —
+beləliklə ətrafdakı **karton qırmızı mürəkkəb kimi sayıla bilmir** (əvvəlki
+uğursuz testlərin səbəbi məhz bu idi). Sonra hər ləkənin Δa\*/Δb\*-ını həmin
+**kartın öz kağızına** görə verir.
+
+Ayırd edici qayda: **qırmızı mürəkkəb** a\*-ı qaldırır, amma b\*-ı çox
+qaldırmır (da\* > 2 və db\* < 6); **karton** hər ikisini qaldırır (db\* ≈ +10…+16);
+**mavi mürəkkəb** b\*-ı endirir (db\* < −3). Nəticədə db\* sütunu **nəzarətdir** —
+gözlə görünür ki, test işləyir, yoxsa yox.
+
+### Nəticələr — bütün yoxlanan kartlarda cədvəl TƏSDİQLƏNDİ
+
+| kart | qırmızı rəqəm (da\*) | mavi rəqəm (db\*) |
+|---|---|---|
+| təqvim | +4.70 | −7.14 |
+| iki obyekt | +2.97 | −3.80 |
+| Oman | +5.77 | −6.03 |
+| Afrika/siluet | +5.23, +5.79 | −3.12, −4.89 |
+| qar buludu | +9.48 | −6.79, −5.10 |
+| ABŞ bayrağı | +4.14 | — |
+
+Heç bir kartda qırmızı/mavi təyinatı dəyişmədi. (Bu vacibdir: əgər bir kartda
+rənglər tərs olsaydı, ay və gün yerini dəyişər, tarix dəyişərdi.)
+
+### ★ Qartal kartının rəqəmləri TAPILDI (amma hələ oxunmur)
+
+Əvvəllər "qartal kartında rəqəm görünmür" yazmışdım. Alət **iki müstəqil
+render**də onları tapdı:
+
+| render | mavi rəqəm | qırmızı rəqəm |
+|---|---|---|
+| FIX_EAG0 (h803) | (744, 69) 159×105, db\* = **−5.77** | (1145, 369) 238×133, da\* = **+4.37** |
+| IBP_eag806 (h806) | (681, 66) 57×90, db\* = **−5.49** | (973, 340) 199×111, da\* = **+4.39** |
+
+Yəni: **mavi rəqəm yuxarı-ortada, qırmızı rəqəm aşağı-sağda.** İki fərqli
+çəkiliş razılaşır.
+
+7× böyüdüb baxdım (`EAGNUMS.png`): hər ikisi **diaqonal ləkə** kimi görünür,
+ştrix quruluşu **yoxdur**. Yəni yeri və rəngi bilinir, **dəyəri bilinmir**.
+Bu, "ümumiyyətlə tapılmır"dan irəliləyişdir, amma həll deyil.
