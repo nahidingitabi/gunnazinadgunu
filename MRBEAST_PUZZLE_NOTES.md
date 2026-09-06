@@ -10468,3 +10468,34 @@ tapılmadı (avtomatik axtarış: 10 nəticə, hamısı təsadüfi söz ardıcı
 Eyni yığından, qeydin solunda, iri bənövşəyi markerlə **`$10,000!`** yazılmış
 ayrıca vərəq var (`RN767_ccw.png`). Heç bir sessiyada qeyd olunmayıb.
 Ehtimal ki, dekorasiyadır (mükafatı elan edir), amma qeydə alınır.
+
+## ★★ 2026-09-07 ~00:0xZ — QIRMIZI QEYD YÜKSƏK KEYFİYYƏTLƏ TƏSDİQLƏNDİ
+
+767 çəkilişindən 22–25 kadrlıq yığın + 90° dönmə (`REDN2_ccw.png`, `REDN3_ccw.png`).
+
+```
+( 5 2 7 )
+    ↓
+( 8 3 5 4 4 )
+    ↓
+~~M R~~  ( 9 )
+```
+
+- Rəqəmlər **qəti**: (5 2 7) · (8 3 5 4 4) · (9). Bugünkü ilk oxunuşum təsdiqləndi;
+  köhnə qeydlərdəki «(5 2 7) → (4 4)» **səhv idi**.
+- Son sətirdə **üstündən xətt çəkilmiş `MR`** aydın görünür, sonra `(9)`.
+- **Mavi qeyddən fərqli olaraq qırmızı qeyd XƏTTİDİR** — ikinci giriş yoxdur.
+
+### Oxunuş cəhdləri (hamısı FƏRZİYYƏDİR, təsdiq yoxdur)
+- `(5 2 7)` = üç sözlü ifadə, 14 hərf. Namizəd: **WHEEL OF FORTUNE** (5,2,7) —
+  amma köhnə 84 səhifəlik sənəddə `wheel` və `fortune` sözləri **sıfır dəfə** keçir.
+  Digər (5,2,7) namizədləri: `HOUSE OF WINDSOR`, `CHAIN OF COMMAND`,
+  `PIECE OF HISTORY`, `TOWER OF BABYLON`, `TASTE OF FREEDOM`.
+- `(8 3 5 4 4)` = beş sözlü ifadə, 24 hərf. Köhnə sənəddə bu naxışa uyğun
+  mənalı ifadə yoxdur (avtomatik axtarış: 2 nəticə, hər ikisi təsadüfi).
+- `~~MR~~ (9)` — yazan əvvəlcə **MR** yazıb, sonra pozub və **9 hərflik** söz
+  qoyub. MrBeast-in soyadı **DONALDSON = 9 hərfdir**; bu, cazibədar bir
+  uyğunluqdur, amma **sübut deyil** — qeyd olunur, istinad edilmir.
+
+⇒ Nə (5,2,7), nə (8,3,5,4,4) köhnə sənəddə qarşılığını tapmır. Mavi qeyd isə
+tapır. Bu asimmetriya bu gün ikinci dəfə təsdiqləndi.
