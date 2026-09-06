@@ -9628,3 +9628,33 @@ verir: **q=A, m=R**. Bu, ikinci "özü bağlanan" qeyri-müəyyənlikdir.
 Kart 14-ün **sol kənarı mişar dişlidir (5 diş)**, **sağ kənarı yumrudur**.
 Bu, sıranı tapmaq üçün real siqnaldır — avtomatik seqmentasiya alınmadı, amma
 **gözlə kənar tipini kataloqlaşdırmaq mümkündür**.
+
+---
+
+## ★ 2026-09-06 18:2xZ — KƏNAR KATALOQU: sıra üçün canlı yol (`EDGES_SHEET.png`)
+
+Kartlar dördbucaqları **35% genişləndirilib** warp edildi ki, **konturun özü** görünsün
+(12×). Nəticə: kənarlar **oxunaqlıdır** — avtomatik seqmentasiya alınmasa da, **gözlə
+təsnifat mümkündür**.
+
+| kart | SOL kənar | SAĞ kənar |
+|---|---|---|
+| **14** ABŞ + tövlə | **mişar dişi (3 iri üçbucaq, içəri kəsik)** | **yumru qabarıq** |
+| **13** qar buludu | **hamar içbükey dalğa** | pilləli kəsik |
+| **9** 😂 | dalğavari | pilləli kəsik |
+| **8** paz + çubuq | **düzbucaqlı çıxıntı (tab)** | dalğavari |
+| **4** ↓ox + sütunlar | tab | **dalğavari/qarmaqlı** |
+| **11** Oman | düz | **sivri uc (vımpel)** |
+| **12** Afrika | düz | **sivri uc (vımpel)** |
+| **7** təqvim | pilləli | pilləli/çıxıntılı |
+| **6** düzbucaq | maili (trapesiya) | maili |
+| **5** bant | düz | tab |
+
+★★ **Mexanika:** yapbozda **çıxıntı (tab)** ↔ **kəsik (blank)** cütləşir. Deməli
+14-ün **sol mişar kəsiyi** ↔ hansısa kartın **sağ mişar çıxıntısı** ilə oturmalıdır.
+Oman və Afrikanın **sivri ucları** eyni cür bir kəsiyə oturur.
+
+⚠ Məhdudiyyət: kartlar bir-birinin üstünə qoyulub, ona görə **bəzi kənarlar örtülüdür**.
+Tam kataloq üçün ya kartların örtülməyən kadrı, ya da daha yüksək ayırdetmə lazımdır.
+Bununla belə, bu, **sıranı tapmaq üçün indiyə qədərki ən yaxşı yoldur** — və
+izləyicinin "**closed-loop solution! Just figuring out the order**" şərhi ilə üst-üstə düşür.
