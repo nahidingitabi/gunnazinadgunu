@@ -10581,3 +10581,18 @@ qrammatikası uyğundur («FIRST PART…», «LAST PART…» ↔ «LAST WORD… 
 ⇒ Firuzəyi kartın açılışının **yeni tapmacanın 2-ci addım təlimatı** olması ehtimalı
 artır. Yapbozdan çıxan mətn əldə olan kimi ilk tətbiq ediləcək qayda budur.
 (Qeyd: bu, əlaqə arqumentidir, sübut deyil.)
+
+### ⚠ ÖZ İDDİAMI DƏQİQLƏŞDİRİRƏM: mavi qeyd DƏ tam köhnə deyil
+
+`NOTE_TOP.png` (maksimum böyütmə) hər iki girişi şübhəsiz göstərir:
+**`( 3 6 4 )`** və **`( 4 4 4 5 )`**.
+
+- `(3 6 4)` = RED SQUARE CUBE → köhnə sənəddə **var** (PG3).
+- `(4 4 4 5)` = dörd sözlü, 17 hərflik ifadə → köhnə sənəddə **YOXDUR**.
+  Sənəddə MOSCOW RUSSIA-ya aparan **yalnız bir** tapmaca var (PG3), yəni ikinci giriş
+  başqa köhnə tapmacadan da gələ bilməz.
+
+⇒ Əvvəl «mavi qeyd tamamilə köhnədir» yazmışdım. **Dəqiqləşdirmə: mavi qeydin
+YARISI köhnədir, ikinci girişi isə izah olunmur.** Bu, «masadakı qeydlərin bir hissəsi
+yeni tapmacaya aiddir» oxunuşunu **gücləndirir**, çünki indi dörd qeyddən
+üçü tam, biri isə qismən izahsızdır.
