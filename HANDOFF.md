@@ -564,3 +564,90 @@ cavabda `LONDON CANADA` var — **yoxlana bilməz, dəlil kimi işlətmə.**)
 3. Kartı düzləndirib (perspektiv warp) ikinci bucaqdan rəqəm oxumağa cəhd.
 4. Rəsmlərin dəqiq sayı (10 və 14 açıqdır; 20 olarsa `(4 4 4 5)` sətrinə uyğun).
 5. Parçaların çıxışı nədir — `LONDON`/`CANADA`/`ONTARIO`/`FOREST` alt-çoxluğu?
+
+---
+
+# 14. 2026-09-06, günorta — BLOKLAR AÇILDI, JANR MÜƏYYƏNLƏŞDİ
+
+Bu bölmə əvvəlki «oxuna bilmir» qeydlərinin çoxunu **ləğv edir**.
+
+## 14.1 ★★★ ŞƏBƏKƏ ARTIQ BAĞLI DEYİL — nə işləyir
+
+| nə | necə |
+|---|---|
+| YouTube watch səhifəsi (təsvir, başlıq, uzunluq) | `curl -H "User-Agent: Mozilla/5.0 … Chrome/128"` — yt-dlp və WebFetch bloklanır, adi curl işləyir |
+| şərhlər (o cümlədən sancılmış) | innertube: `POST /youtubei/v1/next` + `continuation` (açar və versiya watch HTML-indədir); şərhlər `frameworkUpdates.entityBatchUpdate.mutations[].payload.commentEntityPayload`-dadır |
+| kanal videoları + tarixlər | `https://www.youtube.com/feeds/videos.xml?channel_id=UC…` (son 15) |
+| ⚠ məhdudiyyət | ardıcıl sorğular **429 / google.com/sorry** verir — sorğular arasında 3–15 s gözlə |
+
+## 14.2 ★★★ SANCILMIŞ ŞƏRH = CyberChef XOR (hələ açılmayıb)
+
+```
+@MrBeast: «Make sure you check out Colin's profile 👀  https://tinyurl.com/xorprofile»
+→ gchq.github.io/CyberChef/#recipe=XOR({'option':'UTF8','string':'%H6U=)Z7</#bq'},'Standard',false)
+                                &input=QWFhYWFBLWFhQWEjIw
+açar  = %H6U=)Z7</#bq   (13 bayt)     input = AaaaaA-aaAa##  (13 bayt, doldurucu)
+```
+İkisinin XOR-u mənasızdır. **Struktur təhlili:** açarın 5 baytı hərf
+(H,U,Z,b,q), 8-i 0x20–0x3F aralığındadır — bu, «bir tərəf hərf, digər tərəf
+hərf/boşluq» olan XOR-a **uyğundur**, yəni açar təsadüfi görünmür.
+⚠ **Çıxarış:** açarın 2-ci baytı `H`-dir; deməli açıq mətnin 2-ci hərfi `H`
+olsa, girişdə yazıla bilməyən NUL alınır → **cavab «THE…» ilə başlamır.**
+Ehtimal ki, zarafatdır (Colin = Dr. XOR), amma bağlanmayıb.
+
+## 14.3 ★★★ 84 SƏHİFƏLİK RƏSMİ CAVAB SƏNƏDİ
+
+`https://mrb.gg/p/puzzle/file.pdf` → `MDP_ANSWERS.pdf` (70 MB), mətn `MDP_TEXT.txt`.
+Buradan çıxan **janr**: MP1–15 = **15 şəkilli rebus**, hər biri **şəhər ləqəbi**
+verir; rebuslar **emoji + hərf + `+`/`−` + «of the»** ilə qurulur
+(👁️+L+& / ☠️ = ISLAND OF DEATH). Bizim 15 parça eyni janrdadır.
+
+⚠ Sənədin yer adı qaydası: «city then country, **except US and Canada → state,
+province, or territory**» ⇒ `LONDON ONTARIO` = **(6 7)**, `(6 6)` deyil.
+Bu, FOREST CITY oxunuşunu zəiflədir; qaydaya uyğun namizəd:
+**THE WALLED CITY → QUEBEC QUEBEC → QUEBEC**.
+
+**Qəti test:** köhnə 91 yer cavabında `(3 6 4)` və tək `(6)` **yoxdur**
+⇒ əlyazma zənciri **yeni tapmacaya aiddir**.
+
+## 14.4 ★★ COLIN-İN ÜSULLARI (öz sözləri, `colin2_stream.txt`)
+
+> «Exploration … **Execution** is putting together a jigsaw … **Extraction** …
+> very often it involves **indexing — using numbers as positions in words**
+> (fox + 3 = X). Another common technique is **alphanumerics** (1=A … 26=Z).»
+
+Colin öz videosunun təsvirində: «**and also I made a $10,000 puzzle 😄**».
+MrBeast 17:20-də: «a puzzle hidden **within this video** created by Colin himself».
+
+## 14.5 Sınanmış və ÖLMÜŞ oxunuşlar (təkrarlama)
+
+* rəqəmlər m:ss vaxt damğası **bu videoda** — 12 anın hamısı adi plan.
+* «ilk iki hərf», «(qırmızı,mavi) indeks», «(mavi,qırmızı) indeks» tarix sırasında — söz yox.
+* rəqəmlər köhnə **MP1–15**-ə indeks (ləqəb/şəhər/başlıq, hər iki sıra) — söz yox.
+* tarixlər (ilin günü və 4 variant) təsvirə/transkriptə/başlığa indeks — söz yox.
+* tarixlərin sadə hərf kodlamaları (9 üsul) — söz yox.
+* nə qırmızı, nə mavi **cavabdakı mövqe** ola bilməz (təkrarlar var).
+* videonun sonundakı TV montajı (26 plan) — köhnə xülasə.
+* QR kod — yalnız giriş saytı.
+* 360p boşluqlarında qutuların yaxın planı — yoxdur.
+* **kadr birləşdirmə 4-cü dəfə uduzdu** (51 kadr: −17% kənar / −17% küy).
+
+## 14.6 ★ YENİ GÖRÜNTÜ MƏNBƏYİ: 0:13.6–0:21.2
+
+Ofis planı təkcə 0:19.9 deyil. **0:13.6 və 0:14.2** otağı, **0:20.6–0:21.2**
+masanı daha yaxın göstərir (hamısı 1080p).
+* **15-ci parça**: tünd fiqur — iki qabarıq + çuxur, aşağı ucu sivri → **ürək**.
+* **14-cü kart**: qızılı-qəhvəyi oval (🏈/🥔/🪨?) + tünd quş.
+* **narıncı stiker ölçüldü**: «**Books w/ old names — Alphabetize ?**»
+* mavi stiker: `?EW?TE / HNKTIN / HOOTA` + «Should I sell … it Bold Found?»
+* otağın yuxarı divarı = **köhnə 15 rebus kartı** (H+🕉️ aydın oxunur).
+* **çəhrayı indeks vərəqi**: ~4 sətir × ~6 qrup görünür, **rəqəmlər oxunmur**;
+  üstəlik vərəq kadrın **sol kənarından kəsilir** — bu, sərt maneədir.
+
+## 14.7 İndi nə lazımdır
+
+1. **6-cı və 15-ci rəsmin adı** (istifadəçidən; `PICKME.png`/`PICKME2.png` hazırdır).
+2. **13/14/15-ci kartların rəqəmləri** — 3 tarix əskikdir.
+3. **Çəhrayı indeks vərəqinin məzmunu** — kitab şifrinin açarı; hədəf kitab
+   artıq məlumdur (`MDP_ANSWERS.pdf`, 84 səhifə).
+4. CyberChef üçün 13 simvolluq şifrəmətn.
