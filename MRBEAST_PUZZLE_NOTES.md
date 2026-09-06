@@ -9658,3 +9658,21 @@ Oman və Afrikanın **sivri ucları** eyni cür bir kəsiyə oturur.
 Tam kataloq üçün ya kartların örtülməyən kadrı, ya da daha yüksək ayırdetmə lazımdır.
 Bununla belə, bu, **sıranı tapmaq üçün indiyə qədərki ən yaxşı yoldur** — və
 izləyicinin "**closed-loop solution! Just figuring out the order**" şərhi ilə üst-üstə düşür.
+
+### ⛔ Bant kartı: mavi **VII** təsdiqləndi ⇒ "CLDR emoji adı" konvensiyası UNİVERSAL DEYİL
+
+26× böyütmə, iki ən kəskin kadrda (`BOW_NUMS.png`): qırmızı **V** (bir qlif),
+mavi qlif qrupu **~2.5 qlif eni** — `VII` (7), `VI` (6) deyil.
+CLDR indeksi yoxlandı: 🎀-nın adı **`ribbon` = 6 hərf** (təsdiq: `reminder ribbon`(14),
+`bow and arrow`(11), `wrapped gift`(11), `knot`(4) — bunlardan heç biri sadə bant deyil).
+
+⇒ **6 < 7 ⇒ bu kart CLDR adı ilə İŞLƏMİR.** Şəkil qəti bantdır (18×-də yoxlanıldı).
+
+★ Bu, mühüm mənfi nəticədir: **adlandırma konvensiyası "CLDR emoji adı" ola bilməz** —
+ən azı bir kartda sınır. Deməli `flag: Oman` düzəlişi də **şərtidir**, qəti deyil.
+
+Sağ qalan konvensiya namizədləri:
+- **təsviri ifadə** ("hair bow"(7), "the flag of Oman"(13), "Christmas elf"(12));
+- **assosiativ xüsusi ad** (GC8-dəki `ANNE RICE`, `DALLAS MAVERICKS` üslubu) —
+  bant üçün? Oman üçün `MUSCAT`(6)?
+Hər iki halda **konvensiyanı bir kartda təsbit etmək** lazımdır ki, qalanlar açılsın.
