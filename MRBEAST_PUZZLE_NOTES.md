@@ -7775,3 +7775,53 @@ planları və köhnə tapmacanın izahı. Bu videonun içində m:ss oxunuşu **i
 Qalan variant: **başqa videolar**. Rəsm videonu göstərir, rəqəmlər dəqiqəni.
 Kanalların tam yükləmə tarixçəsini çəkmək cəhdi YouTube sürət limitinə düşdü;
 təkrar ediləcək.
+
+## ★★★ MEXANİZM TAPILDI — «EMOJİ → ADININ İLK İKİ HƏRFİ»
+
+İstifadəçinin «bəlkə stikerlərin baş hərfləri?» sualı düz idi, amma dəqiq
+üsul videonun öz transkriptindədir (MrBeast köhnə tapmacanı izah edərkən):
+
+> «And if you convert **these emojis** on my phone to text, **the first two
+>  letters of each** spell the city name of **Casablanca**, which is in Morocco.»
+
+`CASABLANCA = CA · SA · BL · AN · CA` — beş emoji, hər birindən **iki hərf**.
+
+Bu üsul köhnə tapmacada **üç dəfə** işlənir (transkriptdə «first two letters»
+üç yerdə keçir: emojilər, kompas istiqamətləri, monitor şəkilləri).
+
+⇒ **Bizim 15 parçadakı 20 rəsm də emojidir və hər birindən iki hərf verir.**
+Bu, «bir parça = bir hərf» modelinin niyə uğursuz olduğunu da izah edir:
+**bir rəsm = İKİ hərf**, bir hərf yox.
+
+### Say hesabı
+
+20 rəsm × 2 hərf = **40 hərf**. Vərəqin sətirləri: `(3 6 4)`=13 hərf,
+`(4 4 4 5)`=17 hərf, `(6 6)`=12 hərf, `(6)`=6 hərf. `(6 6)` = **6 rəsm**,
+`(6)` = **3 rəsm** — yəni bütün rəsmlər bir sətrə getmir, bölünür.
+
+### Tarix sırası ilə bilinən ilk-iki-hərflər
+
+```
+4 Fev   təqvim              CA
+11 Fev  rolikli fiqur       RO / SK
+8 Apr   AFRİKA + bitki      AF + (SE/PO/HE/BR)
+7 May   kəpənək             BU
+5 İyun  Oman bayrağı        OM
+6 İyun  ??  +  ??           ?? + ??
+8 İyun  şokolad (Feastables) CH / FE
+1 İyul  gizli               ??
+4 İyul  ABŞ bayrağı + anbar UN + BA
+9 Avq   aşağı ox + diaqram  DO + BA
+5 Sen   qar buludu          CL / SN
+14 Okt  😂                  FA / JO
+?  13   kartoteka           FI
+?  14   daş + qartal        RO + EA
+?  15   ??                  ??
+```
+
+## ★ 3-cü KART AYDINLAŞDI: QARA FİQUR = AFRİKA KONTURU
+
+REF803 və REF806-da 12×–20× böyütmədə qara siluetin forması Afrika qitəsidir
+(şimal-qərbdə enli kütlə, şərqdə buynuz çıxıntısı, cənuba doğru daralma).
+Yanındakı yaşıl obyekt bitki/koldur. Bu, əvvəlki ölçmələrlə uzlaşır
+(uzanma 2.78, solidity 0.82, neytral qara).
