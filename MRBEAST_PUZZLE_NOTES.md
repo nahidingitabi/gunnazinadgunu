@@ -7980,3 +7980,42 @@ yükləndi**:
 ⇒ **Açar sual dəyişməyib: çəhrayı vərəqin məzmunu.** İndi hədəf kitab da
 məlumdur (PDF `MDP_ANSWERS.pdf`, 84 səhifə — bildirilən səhifə dəyərləri
 029/039 hamısı 84-dən kiçikdir).
+
+## ★★ NARINCI STİKER ÖLÇÜ İLƏ OXUNDU — «Books w/ old names — Alphabetize ?»
+
+t=13.58 (ən kəskin tək kadr, 20×, `STICKY_BEST.png`). Monitorun altındakı iki
+stiker:
+
+```
+NARINCI:   Books  w/
+           old  names
+           Alphabetize
+           ?
+MAVI:      ? E W ? T E        (böyük hərflər)
+           H N K T I N        (və ya M N K T I N)
+           H O O T A          (və ya M O O T A / W O O T A)
+           Should I sell      (əl yazısı)
+           it Bold Found?     (və ya «call it Bold Found?»)
+```
+
+Narıncı stikerin mətni indiyə qədər **[BORROWED]** (başqa mənbədən) idi —
+**indi öz ölçməmizlə təsdiqləndi.** Mavi stikerin böyük hərfləri hələ qeyri-müəyyəndir.
+
+## ★ OTAĞIN YUXARI DİVARI = KÖHNƏ 15 REBUS KARTI
+
+Yuxarı rəfdə kitab yoxdur; orada **köhnə tapmacanın rebus kartları** asılıb.
+Tanınanlar: `K` (BARODYNAMICS), sarı şəhər (EBULLIOSCOPE), `S D` (SALAMANDROID),
+**`H + 🕉️` (FURFURACEOUS = HOME OF PEACE)**, sonra GeoGuessr küçə görüntüləri.
+⇒ Otaq köhnə tapmacanın əşyaları ilə bəzədilib; bu, «hansı əşya yenidir»
+sualında ehtiyatlı olmağı tələb edir.
+
+## ✗ KADR ORTALAMASI YENİDƏN SINANDI — YENƏ UDUZUR
+
+Demək olar sabit planda (t=13.58–15.24, 51 kadr ECC ilə hizalanıb):
+```
+tək kadr : kənar kontrastı 272.0   küy 10.94
+51 kadr  : kənar kontrastı 225.8   küy  9.10
+```
+−17% kənar müqabilində −17% küy — **xalis qazanc yoxdur**. Kamera tam sabit
+deyil. **Kadr birləşdirmə bağlı qalır (4-cü uğursuzluq).** Ən kəskin TƏK kadrı
+seç.
