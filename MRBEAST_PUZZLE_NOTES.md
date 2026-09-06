@@ -9296,3 +9296,23 @@ ya da XOR-un girişi başqa yerdən gəlir (çəhrayı indeks vərəqi?).
 kartları qutunun narıncı fonundan ayırmır. ⇒ **Yapboz sırasını kənar formalarından
 avtomatik çıxarmaq bu ayırdetmədə mümkün deyil** (bu, 14-cü bağlanan avtomatik ölçmədir).
 Sıra ya gözlə, ya da daha yüksək ayırdetmə ilə tapılmalıdır.
+
+---
+
+## 2026-09-06 17:0xZ — `tools/pieces/gc8solve.py` yazıldı (nəzarətli)
+
+Mexanizmi kod halında sabitləşdirdim ki, adlar gələn kimi cavab dərhal çıxsın.
+
+- **Nəzarət faylın içindədir və əvvəl işləyir**: GC8-in yeddi adı ilə
+  `ALGIERS / ALGERIA` çıxmalıdır. Çıxmasa proqram **dayanır** və heç bir nəticə vermir.
+  (İndi: **KEÇDİ** ✓)
+- Kartlar cədvəli: hər sətir `(etiket, qırmızı, mavi, ad)`. Ad `None` ikən boşluq
+  `?` kimi göstərilir; ad `max(qırmızı, mavi)`-dən qısadırsa **avtomatik rədd edilir**
+  (mexanizmin öz filtri).
+- Hazırkı vəziyyət: **15 kartdan 2-si adlandırılıb**
+  (`face with tears of joy`, `cloud with snow`), 3-ünün rəqəmi yoxdur.
+  Çıxış: `QIRMIZI ????????E???H??` / `MAVI ????????O???D??`.
+- ⚠ Cədvəldəki sıra **mənim kataloq sıramdır, yapboz sırası deyil** — sıra tapılanda
+  sətirlər yenidən düzülməlidir.
+
+Bu, tapmacanın son addımını **mexaniki** edir: qalan yeganə giriş **15 ad** və **sıra**.
