@@ -7907,3 +7907,36 @@ qırmızı: 2 2 4 5 6 6 6 7 7 8 9 10   → təkrarlar var ✗
 mavi   : 1 4 4 5 5 6 7 8 8 9 11 14  → təkrarlar var ✗
 ```
 ⇒ **Nə qırmızı, nə mavi cavabdakı mövqe deyil.** Onlar ya indeksdir, ya tarix.
+
+## ✗ MƏNFİ NƏTİCƏ — TARİXLƏR MƏTNƏ İNDEKS DEYİL
+
+Colin-in «indexing» üsulunu tarixlərə tətbiq etdim: ilin günü (35, 42, 98, 127,
+156, 157, 159, 182, 185, 221, 248, 287), ay·31+gün, ay+gün, ay, gün —
+hər biri **videonun təsvirinə**, **tam transkriptə** və **başlığa** hərf və söz
+indeksi kimi tətbiq olundu (30 kombinasiya).
+
+```
+təsvir, ilin günü, hərf     TNNCFTEULENL
+transkript, ilin günü, hərf VDELEMNNFNIE
+transkript, söz baş hərfi   WOTGTYTHOVTT
+başlıq, ay                  OOPERRRSSONS
+```
+Heç birində məna yoxdur. **Tarixlər xarici mətnə indeks deyil.**
+
+## ✗ 360p BOŞLUQLARINDA PARÇALARIN DAHA YAXIN PLANI YOXDUR
+
+1080p olmayan aralıqlar (70.6–304.5, 420–551, 640.6–721.2) 360p kliplərdə
+kart-ölçülü ağ ləkə klasteri üzrə süzüldü. Bütün yüksək bal alan kadrlar
+**stüdiyanın lövhəsidir** (91 yer, «serial killer wall»), qutu yığını deyil.
+⇒ **Qutu yığını yalnız 12:44–13:30 və 0:19.9-da görünür.** Görüntü mənbəyi
+bununla tükənib.
+
+## ★ SEÇİM VƏRƏQLƏRİ HAZIRLANDI
+
+`PICKME.png` / `PICKME2.png`: şübhəli hər rəsm **namizəd Twemoji-lərlə
+yan-yana**. Bu, təsnifatçı deyil — namizədlər əl ilə seçilib, qərar insanındır.
+Rəssam köçürmədiyi (yenidən çəkdiyi) üçün **rəng deyil, forma** müqayisə edilir.
+
+Ofis planında masanın üstündə **iki əlyazma vərəqi** də tapıldı (`DESK_PAPERS.png`):
+biri dairələr və birləşən oxlarla diaqram, digərində mötərizəli rəqəmlər.
+0:19.9-da çox kiçikdir; daha yaxın plan tapılmadı.
