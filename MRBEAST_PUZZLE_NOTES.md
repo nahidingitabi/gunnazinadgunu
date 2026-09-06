@@ -6638,3 +6638,35 @@ təsdiqdir. **Bu istiqamət bağlanır.**
 
 **Ölçü dərsi:** kəskinliyi Laplasian dispersiyası ilə ölçmə — küy onu qaldırır.
 Kənar kontrastı + düz sahə küyü cütü düzgündür.
+
+## 15-ci parçanın şəkli: 🍆 istisna edildi, təsviri isə xeyli dəqiqləşdi
+
+Eyni süzgəc (`solidity` + profil forması, **uzanmaya görə sərt süzgəc yox**)
+125 nişandan **16-nı** buraxdı. Ölçülərə ən yaxını **🍆 badımcan** idi:
+uzanma 2.44 (rəsm 2.36), solidity 0.90 (rəsm 0.91), ən enli 25%-də, sonra
+monoton incəlmə — dörd xassənin dördü də uyğun. Üstəlik badımcanın **yaşıl
+çanaqcığı** «enli ucda iki dilim + çuxur» təsvirinə uyurdu.
+
+**Rənglə yoxlandı və düşdü:**
+
+```
+rəsm, öz kağızına görə:  da* +3.5   db* +3.3   (kağızdan 76 L tünd)
+yuxarı üçdəbir:          da* +3.9   db* +4.6
+badımcan olsaydı:        db* aydın MƏNFİ (bənövşəyi) + yuxarıda a* mənfi (yaşıl çanaq)
+```
+
+Nə bənövşəyi var, nə yaşıl. **🍆 istisna.** Rəsm **neytrala yaxın tünd
+mürəkkəbdir** — yəni #3-lə eyni ailədən (o da neytral qara).
+
+### Maska ilə dəqiq təsvir (`P15MASK.png` — maska formaya tam oturur)
+
+```
+yuxarı kənar:  SOLDA hündür yumru zirvə → ORTADA çuxur → SAĞDA alçaq çiyin
+gövdə:         25%–70% arası yanları demək olar PARALEL
+aşağı:         daralır, dibi yumru uc, azca SOLA əyilir
+solidity 0.91 · ən enli ~20%-də · uzanma 2.36 (kart əyilib — poza-invariant deyil)
+```
+
+Bu, əvvəlki «paz/damcı» təsvirindən xeyli dəqiqdir. **Ürək deyil** (ürəkdə
+yanlar paralel olmur, 25%-dən aşağı davamlı daralır). **Diş deyil** (rəngi).
+Adı hələ verilmir.
