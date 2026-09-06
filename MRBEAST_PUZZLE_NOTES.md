@@ -10288,3 +10288,24 @@ Kart 14-ün ikinci şəkli **tövlədir** — emoji yoxdur. Kart 1-in fiquru ü�
 ≥11 hərflik CLDR adı yoxdur (`elf`=3, `Santa Claus`=10). ⇒ Şəkillərin bir hissəsi
 **klipart**, adlar isə **təbii adlardır** — GC8-dəki kimi (`AMERICAN CHEESE`,
 `CENTER ICE`, `DALLAS MAVERICKS`).
+
+### ⛔ «İki sətir = 15/15 hərflik ŞƏHƏR + ÖLKƏ/ƏYALƏT» oxunuşu SÜZGƏCDƏN KEÇMİR
+
+`pairsearch2.py`: geonamescache-dən **3762** ədəd 15 hərflik yer sətri quruldu
+(şəhər adları · şəhər+ölkə · şəhər+ştat · ölkələr · ABŞ ştatları). Sonra altı
+kartın hər biri üçün mümkün (qırmızı hərf, mavi hərf) cütləri verildi və
+**iki hörgü uyğunluğu (bipartite matching)** ilə axtarıldı: 15 mövqedən altısı
+elə seçilməlidir ki, hər kartın cütü öz mövqeyində otursun, üstəgəl kart 8 üçün
+qırmızı = mavi olan yeddinci mövqe qalsın.
+
+Kartlar və icazə verilən cütlər:
+`😂 (E,O)` · `Oman (M,O)|(F,O)` · `qar (H,D)|(D,C)` · `bant (E,F)|(Z,L)|(B,W)|(N,T)` ·
+`elf (A,E)|(H,L)|(L,E)|(A,N)` · `ABŞ+tövlə (A,R)|(I,G)`
+
+**Nəticə: 0 uyğunluq.** (Əvvəlki, yalnız dörd kartlı versiyada minlərlə uyğunluq var idi.)
+
+⇒ Cavab, ehtimal ki, **şəhər+ölkə cütü deyil**. Bu, artıq qeyd olunmuş ehtiyatlı
+çərçivə ilə üst-üstə düşür: köhnə ovun meta-cavabı da yer adı yox, **kod** idi.
+
+⚠ Məhdudiyyət: nəticə mənim ad namizədlərimdən asılıdır. Əgər altı kartdan
+birinin adı siyahıda yoxdursa, süzgəc yanlış olaraq hər şeyi kəsir.
