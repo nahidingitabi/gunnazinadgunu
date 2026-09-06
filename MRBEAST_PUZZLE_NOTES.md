@@ -9395,3 +9395,25 @@ Namizədlər (heç biri təsdiqlənməyib):
 
 ⇒ Bu kart və `daş + keçəl qartal` kartı — hər ikisinin rəqəmi oxunmur; **hər ikisi
 tünd siluet üslubundadır**.
+
+### Ofis kadrları otağın ƏN AYDIN görüntüsüdür (`pink_index_sheet_A_full_19.8.png`)
+
+Bu kadr (t=19.8 s) bütün otağı geniş planda göstərir və indiyə qədərki ən kəskin
+masa görüntüsüdür. Təsdiqlənənlər:
+
+- **"Boo! / Five of these" kartı masanın ÖN ÜZÜNƏ yapışdırılıb** — masanın üstündə yox,
+  kameraya baxan tərəfdə. Bu, **qəsdən görünən yerdədir**, təsadüfi rekvizit deyil.
+  Şəkil: qara cildli kitab, üzərində əl yazısı ilə **"Boo!"**; altında **"Five of these"**.
+- Monitorun sağındakı **iki stiker** təsdiqləndi (yeni məlumat yoxdur):
+  yaşıl/firuzəyi — böyük hərflərlə sətirlər (`LSWRTE / NNHTIN / HDOTA` — bu, icmada
+  artıq açıq olan "Rail Fence → LAST WORD THEN NINTH" qeydidir);
+  narıncı — **"Books w/ old names … Alphabetize ?"**.
+- Çəhrayı vərəq masanın sol tərəfində, kağızların altındadır — hələ oxunmur.
+- Monitor: Salesforce "MrBeast **XP**" yüklənmə ekranı.
+
+### ⚑ Qeyd (sübut deyil): "Five of these" × "Boo" = 15
+
+Kitabın üzərində **BOO** (3 hərf) yazılıb və altında **"Five of these"**.
+`5 × 3 = 15` — parça sayı və cavab uzunluğu ilə eynidir. Bu, ehtimalla təsadüfdür
+(mən naxış axtarmağa meyilliyəm və bunu artıq bir dəfə səhv etmişəm), amma
+kartın kameraya baxan yerdə olması onu qeyd etməyə dəyər edir.
