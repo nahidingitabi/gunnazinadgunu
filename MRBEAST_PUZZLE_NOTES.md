@@ -4821,3 +4821,40 @@ render gedir; nəticəni gözləyirəm.
 
 **Dərs (dördüncü dəfə):** renderin üzərinə koordinat şəbəkəsi qoymadan onun
 hansı sahəni göstərdiyini fərz etmə. Bu gecə iki dəfə səhv sahəni ölçmüşəm.
+
+### Təqvim həll olundu: qırmızı **II** (III deyil) → **4 fevral**
+
+Ən yaxşı render artıq mövcud idi: `IBP_cal765.png` (hn765b bucağı, dördbucaq
+sağlam, dartılma 1.06). Orada **nəzarəti keçən** ölçmə apardım — kartın öz
+kağızını istinad götürüb hər namizəd ştrixin Δa\*-ını ayrıca ölçdüm:
+
+| sahə (kanon x) | dL | **da\*** | db\* | hökm |
+|---|---|---|---|---|
+| ştrix 1 (545–570) | −32.6 | **+4.26** | +2.24 | **qırmızı mürəkkəb** |
+| ştrix 2 (596–625) | −33.3 | **+4.30** | +3.19 | **qırmızı mürəkkəb** |
+| sağdakı qabarıq (676–700) | −24.2 | **−1.00** | +10.82 | **mürəkkəb DEYİL** (karton/kənar) |
+| aralıqdakı boşluq (578–592) | −17.6 | +3.77 | +1.05 | bulanıqlığın körpüsü |
+
+**Bu dəfə nəzarət işlədi**: kənar (−1.00) mürəkkəbdən (+4.3) aydın ayrıldı.
+Deməli qırmızı rəqəm **iki ştrixdən** ibarətdir → **II**.
+
+İkinci, müstəqil yoxlama — eninin nisbəti: qırmızı rəqəm 120 kanon px, həmin
+kartdakı mavi **IV** 156 px. Nisbət **0.77**. II/IV üçün gözlənilən ≈ 0.67,
+III/IV üçün ≈ 1.0 → **II**-yə uyğundur.
+
+**Təqvim kartı: qırmızı II · mavi IV → 4 fevral.** Cədvəldəki III·IV (4 mart)
+**səhv idi**, düzəldirəm.
+
+### ⚠ Bunun nəticəsi: "bütün 12 ay" fərziyyəsi ÖLDÜ
+
+Düzəlişdən sonra oxunmuş aylar: **2, 2, 4, 5, 6, 6, 6, 7, 7, 8, 9, 10**.
+1–12 arasında çatışmayan: **1, 3, 11, 12** — yəni **dörd** ay.
+Oxunmayan parça isə **üç**dür. Üç parça dörd ayı örtə bilməz.
+
+→ 03:25Z-də qeyd etdiyim "çatışmayan aylar oxunmayan parçaların sayına dəqiq
+bərabərdir" müşahidəsi **artıq doğru deyil**. Onu ləğv edirəm. Səliqəli görünən
+struktur, bir rəqəm düzəlişi ilə dağıldı — bu, həmin növ "gözəl nümunə"
+mühakimələrinə nə qədər az güvənmək lazım olduğunu göstərir.
+
+Həmçinin: indi **fevral iki dəfə** var (11 fevral — konkili fiqur, 4 fevral —
+təqvim). Tarixlər hələ də fərqlidir, ziddiyyət yoxdur.
