@@ -10818,3 +10818,42 @@ Alət: `tools/pieces/datetest.py`.
 
 ⛔ Deməli adlar CLDR emoji adları deyil — şəkillər adi klipart/vektor
 ikonlarıdır və adlandırma yalnız təsvirlə mümkündür.
+
+## ★★★★ 2026-09-07 — MAVİ QEYD 17:01-də TAM OXUNDU (+ bir düzəliş, bir xəbərdarlıq)
+
+YouTube şərhi (@RexN1Fan): «$10,000 clue is in this frame 17:01, below the TV there
+is an equation». Yoxladım: t=1021-də ekranda **«PAUSE ⏸»**, televizorun altında isə
+**mavi masa qeydi** görünür. Yəni bu qeyd təsadüfi dekor deyil — video onu
+göstərəndə «PAUSE» yazır.
+
+`notef/` (378 kadr, t=1019.5–1032) → ən çox görünən pəncərə (kadr 88–118) →
+`stackwin.py … 4` (21/21 kadr, orta korr. 0.999). Nəticə `NOTEW_IBP.png`:
+
+```
+        ( 3   6   4 )
+                   ↘
+              ( 6   ? )     <- karton qutu ilə örtülü
+                 ↓
+              ( 6 )
+```
+
+★ **Üst sətir tam aydındır: (3 6 4).**
+⛔ **DÜZƏLİŞ:** əvvəlki qeyd orta sətri **(6 6)** yazmışdı. Yeni yığında ikinci rəqəm
+örtülüdür və qalan ştrixlər **3 / 9 / 6** ola bilər. Məzmun baxımından ən uyğunu
+**(6 9)**-dur, çünki zəncir köhnə tapmacanın cavabıdır:
+
+`THE ZENITH CITY` (3, 6, 4) → `DULUTH MINNESOTA` (6, 9) → `DULUTH` (6)
+
+Bu, mavi qeydin **köhnə tapmaca materialı** olduğunu təsdiqləyir (əvvəlki
+«yarısı köhnədir» oxunuşundan daha güclü: bütün zəncir köhnədir).
+
+### ⚠ BUNUN CAVAB UZUNLUĞUNA TƏSİRİ — ciddi xəbərdarlıq
+
+`DULUTHMINNESOTA` = **düz 15 hərf**. Formada saydığım **15 simvol** skriptlə
+yazılan animasiyadır. Deməli ehtimal var ki, videoda **köhnə cavab nümunə kimi**
+yazılıb, yeni cavab deyil. Bu halda «15 = 14 hərf + 1 boşluq» nəticəm dayaqsız qalır.
+
+**Vəziyyət:** 14 parça → 14 hərf faktdır. 15 simvol isə artıq **iki cür oxuna bilər**:
+1. yeni cavab = 14 hərf + 1 boşluq (iki söz), və ya
+2. nümunə mətn `DULUTHMINNESOTA` — yəni yeni cavabın uzunluğu **naməlum**.
+İkinci ehtimal birinciyə bərabər çəkidədir; artıq «iki söz» kimi qəti danışmıram.
