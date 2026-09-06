@@ -6358,3 +6358,66 @@ tətbiq olunmamışdı).
 **Şəkli isə əvvəlkindən aydındır** (`P15MAX.png`, 4 gücləndirmə səviyyəsi):
 yuxarı kənarında **ortada çuxur (iki yumru dilim)**, oradan aşağı daralır,
 altda yumru uc, aşağı-solda az qarmaq. Ölçü: uzanma 2.36, solidity 0.91.
+
+---
+
+## Parçaların KƏNARLARI — yeni struktur tapıntı
+
+Bir sual yarandı: bəzi kartlarda **iki şəkil** var (ABŞ bayrağı + anbar, ox +
+diaqram, qara siluet + bitki, qızılı forma + qartal). Parçalar üst-üstə
+düşdüyünə görə bu «cüt» əslində **iki ayrı kartın** yan-yana düşməsi ola bilərdi.
+Bunu yalnız **kartın konturu** həll edir — əl ilə çəkilmiş qutu yox.
+
+`tools/pieces/cardline.py` ağ kart ləkələrinin konturunu tapıb **görüntünün
+üstünə çəkir**.
+
+### 1. «İki şəkil» doğrudur — bir kartda iki rəsm var
+
+ABŞ bayrağı kartı: **tək bağlı ağ ləkə** mavi `IV`, qırmızı `VII`, bayraq **və
+anbarı** əhatə edir (`CL9.png`). Eyni şey masadakı 3-cü kartda: bir kontur içində
+`VIII`, `IV`, qara siluet **və yaşıl bitki** (`CLDESK.png`).
+→ **Kartda iki rəsm ola bilər. Bu, iki kartın üst-üstə düşməsi deyil.**
+
+### 2. Parçaların KONTURLARI bir-birindən FƏRQLİDİR
+
+```
+kart 9  (bayraq): sağ ucu YUMRU yarımdairə, sol ucu ÜÇBUCAQ dişli (3 diş)
+kart 5  (Oman)  : düz kənarlar, sağ yuxarıda böyük DÜZBUCAQLI çıxıntı
+kart 3  (siluet): yuxarıda pilləli çuxur, aşağı-sağda pilləli kənar
+kart 11 (qar)   : sol kənar hamar əyri, sağ kənar pilləli
+```
+
+Bunlar **fərdi kəsilmiş, bir-birinə oxşamayan formalardır** — yəni parçalar
+həqiqətən **yığıla bilən tayl**lardır. Qutuların üstündəki düzülüş (üst-üstə
+düşən) sadəcə nümayişdir; bu, həndəsənin birləşməməsi demək deyil.
+
+### 3. Kənar profili ÖLÇÜLƏ BİLİR — iki müstəqil bucaqda təkrarlanır
+
+`tools/pieces/edgeprof.py` kartın hər sətri üçün seçilmiş tərəfin ən kənar ağ
+pikselini götürür, düz meyli (kartın əyilməsi) çıxarır, qalan sapmanı verir.
+Küncləri atmaq vacibdir — ilk qaçışda künc sətirləri düz xətt uyğunlaşdırmasını
+pozmuşdu.
+
+ABŞ bayrağı kartının **sol dişli kənarı**, iki ayrı kadrda, ayrı kameradan:
+
+```
+REF803:  pik-pik 8.8 px   rms 2.60 px   (kənar uzunluğunun 16%-i)   3 diş
+REF765:  pik-pik 8.5 px   rms 2.20 px   (17%)                        3 diş
+```
+
+**Eyni profil, iki bucaqdan.** Deməli kənar profili ~1 px dəqiqliklə
+ölçülə bilir — parçaları kənarlarına görə uyğunlaşdırmaq üçün kifayətdir.
+Maneə həndəsə deyil, **örtülmədir**: əksər kartın kənarları qonşularının altında
+qalır. (Qar buludu kartının «sağ kənarı» 82 px sıçrayır — o, kənar deyil,
+**örtülmə sərhədidir**; belə ölçünü kənar kimi qəbul etmə.)
+
+### 4. ★ Sıralama tarix modelindən ASILI DEYİL
+
+Diqqət: parçaları **(qırmızı, mavi) cütünə görə leksikoqrafik** sıralamaq
+tarixə görə sıralamaqla **eyni nəticəni verir** — çünki tarix modeli də elə
+(ay, gün) = (qırmızı, mavi) sıralamasıdır.
+
+Yəni «qırmızı = ay» oxunuşunun zəifləməsi **sıralamanı sarsıtmır**. Sıralama
+üçün lazım olan yeganə şey (qırmızı, mavi) cütünün **sıralana bilən açar**
+olmasıdır — 12 cütün hamısı fərqlidir, bu şərt ödənir. Yeganə açıq sual
+sıralamanın `(qırmızı, mavi)` yoxsa `(mavi, qırmızı)` olmasıdır.
