@@ -5220,3 +5220,44 @@ volfram istiliyini tam kompensasiya etmir.
 istilik hər iki sahədə eyni olmalıdır — bu, ölçmənin lehinədir, amma tək
 çəkilişdir. **İstifadəçi bunu "daş" kimi görür; mən onların oxunuşunu inkar
 etmirəm, sadəcə ölçünün nə dediyini yazıram.**
+
+---
+
+## 2026-09-06 06:20Z — ★ Rəng ölçməsinin NƏZARƏTİ QURULDU (və keçdi)
+
+Əvvəlki dövrədə rəng nəzarəti uğursuz olmuşdu (Oman bayrağının **yaşıl** zolağı
+müsbət a\* verirdi). Səbəbi tapdım: **qutuları göz qərarı ilə qoymuşdum.**
+Bu ölçüdə bir zolaq 6–8 pikseldir; 3 piksel sürüşmə qonşu rəngə düşür.
+
+**Düzəliş: əvvəlcə kartın üzərinə koordinat şəbəkəsi qoy, sonra qutuları
+şəbəkədən oxu.** (`OMAN_grid.png`, `EAGLE_grid.png`.)
+
+### Oman bayrağı ilə kalibrləmə — indi keçir
+
+| sahə | gözlənilən | ölçülən da\* | ölçülən db\* |
+|---|---|---|---|
+| ağ zolaq | a\* ≈ 0 | **+2.04** ✓ | −18.98 |
+| qırmızı şaquli zolaq | a\* ≫ 0 | **+22.04** ✓✓ | +0.73 |
+| qırmızı üfüqi zolaq | a\* ≫ 0 | **+15.28** ✓✓ | +1.66 |
+| **yaşıl zolaq** | **a\* ≪ 0** | **−7.41** ✓✓ | −5.72 |
+
+Qırmızı güclü müsbət, **yaşıl güclü mənfi**, ağ neytral. **Üsul işləyir.**
+
+### Qartal kartı — nəzarətli ölçmə
+
+| sahə | L | da\* | db\* |
+|---|---|---|---|
+| kart kağızı (sağ, **nəzarət**) | 141.9 | **+0.44** | **−1.87** ✓ neytral |
+| qartalın başı/yuxarısı | 118.2 | +0.40 | −1.61 → **ağ/neytral** ✓ keçəl qartal |
+| qartalın gövdəsi | 82.2 | +2.91 | +0.43 → **tünd** ✓ |
+| ovalın tünd halqası | 98.8 | +2.17 | +6.57 |
+| **ovalın içi** | 103.4 | +1.64 | **+13.65** |
+| ovalın altı | 97.1 | +1.80 | +3.44 |
+
+**Nəticə: oval = tünd isti halqa + içərisi GÜCLÜ SARI/QIZILI** (b\* kağızdan
++13.7 yuxarı). Nəzarət neytral çıxdığına görə bu **etibarlıdır**.
+
+🪨 boz daş olsaydı b\* ≈ 0 olardı (kağız kimi). **Deyil.**
+Namizədlər: qızılı içli tünd cisim — kokos? şabalıd? çörək? sikkə? zınqırov?
+**Ad hələ bilinmir**, amma "boz daş" oxunuşu ölçmə ilə uyğun gəlmir.
+(İstifadəçi bunu "daş" kimi görür — ola bilər ki, daş qəhvəyi/oxra çəkilib.)
