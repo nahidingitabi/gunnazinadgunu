@@ -4906,3 +4906,40 @@ Yəni: **mavi rəqəm yuxarı-ortada, qırmızı rəqəm aşağı-sağda.** İki
 7× böyüdüb baxdım (`EAGNUMS.png`): hər ikisi **diaqonal ləkə** kimi görünür,
 ştrix quruluşu **yoxdur**. Yəni yeri və rəngi bilinir, **dəyəri bilinmir**.
 Bu, "ümumiyyətlə tapılmır"dan irəliləyişdir, amma həll deyil.
+
+---
+
+## 2026-09-06 04:45Z — Mürəkkəb sahəsi/eni ilə rəqəm təxmini: NƏZARƏTİ KEÇMƏDİ
+
+Fikir: oxunmayan rəqəmlərin **dəyərini** ştrix sayından təxmin etmək; ştrix sayı
+isə mürəkkəbin **sahəsi** və ya **eni** ilə mütənasib olmalıdır. Alət:
+`tools/pieces/inkarea.py` (numcheck-in maskasını işlədir, ölçüləri **doğma
+piksel**ə çevirir).
+
+**Əvvəlcə nəzarəti ölçdüm — və test elə orada dağıldı:**
+
+| kart | rəqəm | sahə (doğma px²) | en (doğma px) | hündürlük |
+|---|---|---|---|---|
+| Oman | qırmızı **VI** | **76.5** | **14.53** | 11.26 |
+| iki obyekt | qırmızı **VI** | **10.2** | **2.73** | 5.53 |
+| təqvim | mavi IV | 67.3 | 9.11 | 11.39 |
+| təqvim | qırmızı II | 13.3 | 2.72 | 9.75 |
+| Oman | mavi V | 44.2 | 8.81 | 11.32 |
+| siluet | mavi **VIII** | 52.5 (3 hissə) | 7.78 | 9.56 |
+| siluet | qırmızı IV | 33.4 (2 hissə) | 8.16 | 10.63 |
+
+İki dağıdıcı ziddiyyət:
+1. **Eyni rəqəm (VI) iki kartda 7.5× fərqli sahə** və 5.3× fərqli en verir.
+2. **VIII (5 ştrix) VI-dən (3 ştrix) DAR çıxır** (7.78 vs 14.53).
+
+Səbəb aydındır: zəif mürəkkəb astanadan keçmir, ona görə rəqəm **parçalanır** və
+ölçülən şey rəqəmin dəyəri yox, mürəkkəbin nə qədərinin sağ qaldığıdır.
+
+→ **Testi atıram.** Qartalın və 15-ci parçanın rəqəmləri həndəsə ilə də
+təxmin edilə bilməz.
+
+Bu, bu ovda nəzarətindən keçməyən **9-cu avtomatik təsnifatçıdır**. Nümunə
+aydındır: bu ölçüdə (rəqəm ≈ 5×10 doğma piksel) **heç bir dolayı ölçü işləmir**;
+yalnız ştrixin özünü görmək işləyir, o da yalnız kifayət qədər böyük kartlarda.
+(Müqayisə üçün: `numcheck.py`-ın rəng testi işlədi, çünki o, **orta rəng**
+ölçür — parçalanmaya həssas deyil.)
