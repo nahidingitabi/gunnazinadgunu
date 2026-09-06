@@ -10027,3 +10027,33 @@ joy`(18) praktiki olaraq məcburidir. Kart 1 üçün ≥12 hərflik ad tapılmal
 ### Kart 3 daha aydın göründü (`K2NUM.png`)
 Qalın tünd çərçivə, **üfüqi bölgü ilə iki panel**, panellərin içi **açıq boz-lavanda**.
 Ən yaxın oxunuşlar: **pəncərə**, **iki panelli qapı**, **çərçivəyə salınmış şəkil**.
+
+---
+
+## ★★★★★ 2026-09-06 ~20:3xZ — MÜƏLLİFİN ÖZ BAŞLANĞIC İPUCU (Twitch VOD 2864667604)
+
+Workflow agenti Colin Sanders-in 2026-09-03 Twitch yayımını ASR ilə açıb. Müəllif
+**$10,000 tapmacası üçün rəsmi başlanğıc ipucunu** verib:
+
+> [131:04] *"So the starting hint is — you know, or maybe it's just a — it's a question.
+> But the initial question is: **have you solved the jigsaw puzzle?**"*
+> [132:47] *"**The jigsaw puzzle in MrBeast's video — the first thing you should do is
+> look for a jigsaw puzzle.**"*
+> [133:00] *"And that's as far as I'm going to say right now. It's just to get you started."*
+
+⇒ **İşlədiyimiz istiqamət müəllif tərəfindən təsdiqləndi.** 15 kağız yapboz parçası
+tapmacanın **giriş nöqtəsidir**. «Solve the jigsaw» = **parçaları YIĞMAQ** ⇒ **sıra**
+mexanizmin öz addımıdır, əlavə fərziyyə deyil.
+
+Həmin yayımdan digər təsdiqlər:
+- *"I made it by myself. Yeah, it is not as big as the Super Bowl puzzle."* ⇒ tək
+  nəfərlik, kiçik miqyaslı, **tək zəncir** (jigsaw → çıxarma → cavab) gözlənilir.
+- *"I don't want to bother myself and go out of my way to add weird elements"* (LLM-lər
+  haqda) ⇒ **süni AI-əleyhinə tələ yoxdur**; standart tapmaca mexanikası işləyir.
+- Riddle #0 / Hat Trick videosunu **üç dəfə** inkar edib: *"This is not part of the 10k
+  puzzle."* ⇒ artıq bağlı olan istiqamət bir daha təsdiqləndi.
+- Rəsmi qaydalarda **cavabın uzunluğu/formatı göstərilmir** ⇒ formadan ölçdüyümüz
+  **15 simvol** yeganə uzunluq məhdudiyyətidir.
+
+⚠ «Birinci addım» sözü vacibdir: yapbozu yığmaq **son cavab deyil**, ondan sonra
+başqa addım(lar) var. Yəni 15 hərflik sətir özü hələ forma cavabı olmaya bilər.
