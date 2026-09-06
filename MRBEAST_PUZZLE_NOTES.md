@@ -6724,3 +6724,17 @@ görə **məhz axtardığım namizədlər atılırdı**. Öz oxuna döndərənd�
 Düzəldilmiş qaçışda da ən yaxın məsafə 10.3-dür və fərq **tamamilə a\*-dan**
 gəlir: rəsmdə iki uc `a* ≈ +10`, namizədlərdə `−1…−3`.
 **155 nişanın heç birində «iki ucu qırmızı, ortası soyuq» yoxdur.**
+
+### 6-cı kart: konturu çəkildi — iki obyekt EYNİ kartdadır
+
+`CL6.png` (11×, kontur çəkilmiş). Tək bağlı ağ ləkə **qırmızı VI**, **mavi VI**
+və **hər iki obyekti** əhatə edir. Yəni bu da «bir kartda iki rəsm» halıdır
+(9-cu və 3-cü kimi). Kartın konturu yenə fərdi formadır: sol tərəfdə pillə,
+aşağı-solda çuxur.
+
+Bu, indiyə qədər 6-cı kartın ən aydın görüntüsüdür. Obyektlərin təsviri:
+
+* **sol**: tünd şabalıdı/qəhvəyi **paz** — yuxarısı enli, aşağı daralır, sağa mail
+* **sağ**: hündür **solğun mavi-boz düzbucaq**; yuxarı və aşağı kənarında
+  **çəhrayı zolaq**, hər çəhrayının içində **firuzəyi xətt**, gövdəsinin içində
+  **iki paralel tünd şaquli çubuq**
