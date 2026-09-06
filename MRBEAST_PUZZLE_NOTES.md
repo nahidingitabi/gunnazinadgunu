@@ -9533,3 +9533,55 @@ Sağ qalan namizədlər: `CHRISTMAS ELF`(12), `NESTING DOLLS`(12), `ELF ON THE S
 `PERSON STANDING`(14)… — heç biri təsdiqlənməyib.
 Şəkil: **tünd-yaşıl şiş papaq · çəhrayı üz · narıncı gödəkçə · qırmızı şalvar ·
 aşağıda iki qəhvəyi yumru (ayaqqabı?)**.
+
+---
+
+## 2026-09-06 18:0xZ — ★ QƏRAR CƏDVƏLİ: hər kart üçün namizəd adlar və verdikləri hərflər
+
+Uzunluq filtri (`ad ≥ max(qırmızı, mavi)`) tətbiq olunub; **✗ QISA** yazılanlar
+mexanizm tərəfindən **avtomatik rədd edilir**.
+
+| kart | (q, m) | ad namizədi | uz. | q-hərfi | m-hərfi |
+|---|---|---|---|---|---|
+| **1** yaşıl şiş papaqlı fiqur | (2, 12) | `Christmas elf` | 12 | H | F |
+| | | `nesting dolls` | 12 | E | S |
+| | | `elf on the shelf` | 13 | L | L |
+| | | `person standing` | 14 | E | I |
+| | | ✗ `man in tuxedo`(11), ✗ `snowboarder`(11), ✗ `garden gnome`(11) | | | |
+| **2** sarı kart | (7, 1) | `yellow square` | 12 | S | Y |
+| | | `placard` | 7 | D | P |
+| | | `yellow heart` | 11 | H | Y |
+| **4** ↓ox + 4 sütun | (8, 9) | `chart decreasing` | 15 | **C** | **R** |
+| | | `chart increasing` | 15 | **C** | **R** |
+| | | `down arrow` | 9 | O | W |
+| | | ✗ `bar chart`(8) | | | |
+| **5** bant/lent | (5, 7) | `butterfly` | 9 | E | F |
+| | | `glasses` | 7 | S | S |
+| | | `rosette` / `necktie` | 7 | T | E |
+| | | `reminder ribbon` | 14 | N | E |
+| | | ✗ `ribbon`(6) | | | |
+| **6** narıncı-qırmızı düzbucaq | (6, 8) | `chocolate bar` | 12 | L | T |
+| | | `red square` | 9 | U | R |
+| | | `closed book` | 10 | D | O |
+| **7** spiral təqvim "25" | (2, 4) | `spiral calendar` | 14 | **P** | **R** |
+| | | `calendar` | 8 | A | E |
+| | | `tear-off calendar` | 15 | E | R |
+| **8** tünd paz + qapaqlı çubuq | (6, 6) | **q = m ⇒ eyni hərf** | | | |
+| | | `candle`/`kitchen knife` | | E | E |
+| | | `pencil` L · `rocket` T · `battery` R · `thermometer` O · `toothbrush` B · `test tube` U · `straight ruler`/`triangular ruler` **G** · `crayon` N · `fountain pen` A | | | |
+| **12** Afrika + yaşıl bitki | (4, 8) | `globe showing Europe-Africa` | 24 | B | O |
+| | | `seedling` | 8 | D | G |
+| | | `shamrock` | 8 | M | K |
+| | | `potted plant` | 11 | T | L |
+| | | ✗ `herb`(4) | | | |
+| **14** ABŞ bayrağı + tövlə | (7, 4) | `flag: United States` | 16 | I | G |
+| | | `Americana` | 9 | A | R |
+| | | `rural America` | 12 | M | A |
+| | | ✗ `barn`(4), ✗ `house`(5) | | | |
+
+**Artıq təsdiqlənmiş üç kart:**
+`face with tears of joy` → **E / O** · `cloud with snow` → **H / D** · `flag: Oman` → **M / O**
+
+★ Diqqətəlayiq: **`chart decreasing` və `chart increasing` eyni hərfləri verir (C/R)** —
+yəni o kartda hansı variantın seçilməsi fərq etmir. Bu, cədvəldəki ilk "bağlanmış"
+qeyri-müəyyənlikdir.
