@@ -4162,3 +4162,27 @@ görkəmi), ya da birləşmə yalnız sağ kənarlarla olur.
 tək blob kimi birləşdirir — 15 konturdan yalnız **biri** (ABŞ bayrağı) tam
 görünür. Yəni kənar profili yolu **tam yığma verə bilməz**, amma "hansı parçada
 dil, hansında yuva var" sualı bəzi parçalar üçün cavablana bilər.
+
+## 2026-09-06 01:35Z — TARİX SIRASI İLƏ FİZİKİ SIRA: QISMƏN UYĞUNLUQ
+
+Xarici məlumat tələb etməyən bir sınaq: **parçaların qutu üzərindəki fiziki
+sırası tarix sırası ilə üst-üstə düşürmü?**
+
+```
+yuxarı qutu, 1-ci sıra (soldan sağa): rolik(11 fev) · "I VII"(1 iyul) · pəncərə(?) · diaqram(9 avq)   → ARTAN ✓
+yuxarı qutu, 2-ci sıra:               bant(7 may) · düzbucaq(8 iyun)                                  → ARTAN ✓
+orta qutu:                            təqvim(4 mart) · iki obyekt(6 iyul)                             → ARTAN ✓
+aşağı qutu:                           Oman(5 iyun) · Afrika(8 aprel)                                  → AZALAN ✗
+```
+
+Üç sıra artan, biri azalan. Yuxarı sıradakı üç məlum tarixin artan olması
+təsadüfən 1/6 ehtimallıdır; qalanları 2 elementlidir, yəni 1/2. Ümumilikdə
+**zəif müsbət işarə** — amma aşağı qutu açıq şəkildə pozur, ona görə
+"parçalar qutularda tarix sırası ilə düzülüb" **demək olmaz**.
+
+İki oxunuş mümkündür və hansının doğru olduğunu bilmirəm:
+1. Tarixlər həqiqətən sıra açarıdır və fiziki düzülüş qismən təsadüfidir;
+2. Uyğunluq tamamilə təsadüfdür (4 sıradan 3-ü, hər biri kiçik).
+
+Qeyd edirəm ki, bu, **modelin lehinə sayılan dəlil kimi istifadə olunmasın** —
+sadəcə ölçülmüş faktdır.
