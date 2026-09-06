@@ -9520,3 +9520,16 @@ nəticə deyil, ölçmədən çıxan nəticədir.)
 Eyni cür: səhifədə *"You can guess multiple times, but there is only 1 correct answer"*
 yazılıb — sözügedən "**limitsiz**" sözü **heç yerdə yoxdur**. Qeydlərdəki
 "təxmin sayı limitsizdir" ifadəsi də **həddindən artıq güclüdür**.
+
+### Fiqur kartının mavi rəqəmi: **XII (12)** daha ehtimallıdır
+
+Eyni səhnənin **9 kadrı** kəskinliyə görə sıralandı (`REF803` 46.0 və `F803` 41.5 —
+qalanları 15-dən aşağı, yəni hərəkət bulanıqlığı var). Ən kəskin ikisində 22×
+böyütmə ilə rəqəm **üç qlifdən** ibarət görünür: `X` + `I` + `I` ⇒ **XII = 12**.
+(`XI` tam istisna deyil, amma en üç qlifə uyğundur.)
+
+⇒ Bu kartın adı **≥ 12 hərf** olmalıdır. `GARDEN GNOME`(11) **düşür**.
+Sağ qalan namizədlər: `CHRISTMAS ELF`(12), `NESTING DOLLS`(12), `ELF ON THE SHELF`(13),
+`PERSON STANDING`(14)… — heç biri təsdiqlənməyib.
+Şəkil: **tünd-yaşıl şiş papaq · çəhrayı üz · narıncı gödəkçə · qırmızı şalvar ·
+aşağıda iki qəhvəyi yumru (ayaqqabı?)**.
