@@ -4070,3 +4070,27 @@ Yəni IBP təkcə kəskinlik ölçüsünü deyil, **məzmunu** da dəyişdi: bir
   **Ən yaxşı təqvim görüntüsü hələ də `sr765/V_mid.png`-dir** (median, 12:45 planı).
   Uğursuzluğu qeyd edirəm ki, təkrarlanmasın: bu parça üçün dördbucaqları
   **əl ilə, eyni fiziki küncdən başlayaraq** vermək lazımdır.
+
+## 2026-09-06 00:50Z — HƏR PARÇADA NEÇƏ ŞƏKİL VAR (dəqiq sayım)
+
+IBP görüntülərindən şəkil saylarını dəqiqləşdirdim — bu, modelə birbaşa təsir edir,
+çünki "hər parça bir simvol verir" fərziyyəsi ancaq şəkil sayı sabitdirsə işləyir.
+
+```
+1 şəkil:  rolik fiquru · pəncərə · bant · şaquli düzbucaq · 🇴🇲 Oman ·
+          qar buludu · 😂                                    (7 parça)
+2 şəkil:  🇺🇸 bayraq + anbar · Afrika + yaşıl bitki ·
+          daş + qartal · iki hündür obyekt                   (4 parça)
+şübhəli:  ox + sütun diaqramı — ox **ən qısa sütunun üstünə dirənir**, yəni
+          bu, iki ayrı şəkil yox, **bir kompozit qrafik** ola bilər
+naməlum:  "I VII" (şəkli tam gizli) · 15-ci parça · (sarı kart, əgər parçadırsa)
+```
+
+**Nəticə modelə:** ümumi şəkil sayı ~19–20-dir, parça sayı isə 15. Yəni
+"hər parça = bir hərf, şəklin baş hərfi" sadə oxunuşu **birbaşa işləmir** —
+iki şəkilli parçalarda ya iki hərf çıxır (onda ümumi say 15-i keçir), ya da
+iki şəkil birləşib **bir söz/rebus** verir. İkinci variant daha ehtimallıdır,
+çünki cavab 15 simvoldur və parça 15-dir.
+
+Bu, şəkil adlarının niyə kritik olduğunu göstərir: iki şəkilli parçalarda
+**birləşmiş məna** lazımdır (məs. bayraq+anbar → ?), tək şəkil kifayət etmir.
