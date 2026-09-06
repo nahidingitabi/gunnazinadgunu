@@ -4943,3 +4943,40 @@ aydındır: bu ölçüdə (rəqəm ≈ 5×10 doğma piksel) **heç bir dolayı �
 yalnız ştrixin özünü görmək işləyir, o da yalnız kifayət qədər böyük kartlarda.
 (Müqayisə üçün: `numcheck.py`-ın rəng testi işlədi, çünki o, **orta rəng**
 ölçür — parçalanmaya həssas deyil.)
+
+---
+
+## 2026-09-06 04:55Z — Düzəlişdən sonra TAM tarix siyahısı
+
+Təqvimin III → **II** düzəlişindən sonra sıralama dəyişdi (təqvim indi
+siyahının **başına** keçir).
+
+| # | parça | qırmızı (ay) | mavi (gün) | tarix |
+|---|---|---|---|---|
+| 1 | təqvim (spiral, "25") | II | IV | **4 fevral** |
+| 2 | fiqur (rolik?) | II | XI | 11 fevral |
+| 3 | qara siluet + yaşıl bitki | IV | VIII | 8 aprel |
+| 4 | **kəpənək** 🦋 | V | VII | 7 may |
+| 5 | Oman bayrağı 🇴🇲 | VI | V | 5 iyun |
+| 6 | iki uzun obyekt | VI | VI | 6 iyun |
+| 7 | qırmızı-bordo düzbucaq | VI | VIII | 8 iyun |
+| 8 | "I VII" (şəkli gizli) | VII | I | 1 iyul |
+| 9 | ABŞ bayrağı + anbar | VII | IV | **4 iyul** |
+| 10 | ⬇ ox + 📊 diaqram | VIII | IX | 9 avqust |
+| 11 | qar buludu 🌨 | IX | V | 5 sentyabr |
+| 12 | 😂 | X | XIV | 14 oktyabr |
+| — | pəncərə | ? | ? | oxunmur |
+| — | oval + keçəl qartal | ? | ? | oxunmur (yeri tapıldı) |
+| — | 15-ci parça | ? | ? | oxunmur |
+
+### Bu dövrədə `numcheck.py` ilə əlavə təsdiqlər
+
+| kart | tapılan |
+|---|---|
+| ⬇+📊 diaqram | qırmızı VIII (da\*=+6.61) **və** mavi IX (db\*=−3.39) — ikisi də ✓ |
+| "I VII" | qırmızı VII (da\*=+5.07) ✓ (mavi "I" tək nazik ştrixdir, astanadan keçmir) |
+| fiqur | qırmızı II (da\*=+3.78) ✓ |
+| düzbucaq | qırmızı VI-nin iki ştrixi (da\*=+4.06, +5.39) ✓ |
+| **pəncərə** | **heç bir rəqəm tapılmadı** — qeydlərdəki "rəqəmləri qonşu kartın altındadır" ilə uyğundur ✓ |
+
+Heç bir kartda qırmızı/mavi təyinatı ziddiyyət vermədi.
