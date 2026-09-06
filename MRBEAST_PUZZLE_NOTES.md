@@ -10081,3 +10081,19 @@ mişar dişi** kimi əl ilə kəsilmiş formalardır. Deməli uyğunluq
 
 ⚠ Hələ də bağlı: parçalar 1×15 zolaq düzülür, yoxsa şəbəkə? Kart 13, 9, 10
 **enli-alçaq**, kart 7, 8, 12 daha **kvadratdır** — bu, tək zolağın xeyrinə deyil.
+
+### ⛔ DOMİNO ZƏNCİRİ RƏDD EDİLDİ (sayğac sübutu)
+
+Əvvəlki sessiyalar rəqəm cütünü **domino** kimi oxumağı təklif etmişdi (bir parçanın
+sağ rəqəmi növbətinin sol rəqəminə bərabər olsun ⇒ sıra avtomatik çıxsın).
+İndi 13 kartın hər iki rəqəmi məlum olduğu üçün bunu **sayğacla** yoxlamaq olur.
+
+Dəyərlərin təkrar sayı: `1:1 · 2:2 · 4:3 · 5:3 · 6:4 · 7:2 · 8:5 · 9:3 · 10:1 · 12:1 · 14:1`
+
+**Tək dərəcəli dəyərlər: 1, 4, 5, 8, 9, 10, 12, 14 — səkkiz ədəd.**
+Eyler yolu (domino zənciri) üçün tək dərəcəli təpə sayı **0 və ya 2** olmalıdır.
+Qalan iki naməlum kart (3 və 15) ən çoxu **dörd** dəyərin parity-sini dəyişə bilər,
+yəni ən yaxşı halda **4 tək dərəcəli dəyər** qalır. ⇒ **Domino oxunuşu mümkün deyil.**
+
+Bu, GC8 mexanizmi ilə də uyğundur: orada sıra səhifə düzümündən gəlirdi, rəqəmlərdən yox.
+Bizdə sıra **fiziki yapbozun yığılmasından** gəlməlidir — müəllifin ipucu da məhz bunu deyir.
