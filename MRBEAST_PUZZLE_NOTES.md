@@ -4056,3 +4056,17 @@ ilk dəfə **birmənalı** etdi:
 
 Yəni IBP təkcə kəskinlik ölçüsünü deyil, **məzmunu** da dəyişdi: bir şəkil adım
 (red square) düşdü, bir şübhəm (bant/kəpənək) həll oldu.
+
+## 2026-09-06 00:45Z — IBP: İKİ NƏTİCƏ, BİR UĞURSUZLUQ
+
+* **İki obyekt parçası** — IBP kəskinliyi 5.4 → **13.7** (2.5×). Görünən: solda
+  **tünd qəhvəyi/qara maili lövhə**, sağda **açıq-mavi/boz gövdə**, onun
+  **üstündə və altında çəhrayı-qırmızı zolaq**, aşağıda tünd hissə.
+  Nə olduğu hələ açıq. Rəqəmlər təsdiqləndi: qırmızı **VII** · mavi **VI**.
+* **Təqvim parçası** — IBP **uğursuz oldu**: nəticə sürüşmüş və yayılmış çıxdı.
+  Səbəb məlumdur — bu parçanın iki plandakı avtomatik dördbucaqları **fərqli
+  künc konvensiyası** ilə çıxıb (parça bir görüntüdə ~40° dönük, digərində
+  demək olar düz), ona görə fırlanma axtarışı düzgün uyğunluğu tapa bilmir.
+  **Ən yaxşı təqvim görüntüsü hələ də `sr765/V_mid.png`-dir** (median, 12:45 planı).
+  Uğursuzluğu qeyd edirəm ki, təkrarlanmasın: bu parça üçün dördbucaqları
+  **əl ilə, eyni fiziki küncdən başlayaraq** vermək lazımdır.
