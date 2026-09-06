@@ -6831,3 +6831,41 @@ Bu, nəzarətindən keçməyən **12-ci avtomatik üsuldur**.
 3. **Kəpənək TƏSDİQLƏNDİ** — maska (`KCTRL.png`) rəsmi dəqiq tutur:
    **dörd qapalı ilmə + ortada gövdə**. Bantda iki ilmə + iki açıq lent olardı.
    «Çox güman» yox, artıq **şübhəsiz**.
+
+## 13-cü üsul: RƏNG ÇALARINA görə tanıma — nəzarət 0/5, atıldı
+
+Forma keçmədiyi üçün **çalar (hue)** sınadım. Nəzəri əsası var: 10 pikselli rəsm
+mürəkkəbi kağızla qarışdırır, kağız isə neytraldır — qarışma `(a*,b*)` nöqtəsini
+**başlanğıca doğru DÜZ XƏTT boyunca** çəkir. Yəni **böyüklük itir, bucaq qalır**.
+Rəsm və nişan hər ikisi çalar histoqramı kimi təsvir olunur (xroma ilə çəkilir,
+neytral piksellər səs vermir), sonra histoqram kəsişməsi ilə tutuşdurulur.
+
+**Bu dəfə nəzarəti ƏVVƏLCƏ işlətdim və nəticəsini nəticələrdən əvvəl yazdım.**
+
+```
+😂 sevinc üzü     öz nişanı ilk 6-da YOX  → yumşaq dondurma, burrito, banan, yağ
+🌨 qar buludu     YOX                     → vulkan, ay çörəyi, halqalı planet
+🇴🇲 Oman           YOX                     → hamster, kapkeyk, ət kəsimi
+🇺🇸 ABŞ            YOX                     → Dominikan bayrağı, Sloveniya, Monqolustan
+🦋 kəpənək        YOX                     → tac, kart ayırıcısı, taksi
+
+nəzarət: 5-dən 0-ı. → ÜSUL ATILIR, nəticə çap edilmir.
+```
+
+Səbəb aydındır: çalar **rəng ailəsini** tapır, obyekti yox — sarı üzü sarı
+banandan ayıra bilmir. Amma bir şey diqqətəlayiqdir: **ABŞ bayrağının bütün üst
+uyğunluqları BAYRAQ çıxdı** (Dominikan, Sloveniya, Monqolustan). Deməli çalar
+ailəni düzgün seçir, fərdi obyekti yox.
+
+### ★ Bununla AVTOMATİK TANIMA BAĞLANIR
+
+İki **ortoqonal** invariant ayrıca sınandı və hər ikisi nəzarətdən keçmədi:
+
+```
+FORMA  → keçmir (rəssam yenidən çəkir: qartal 3.43, vendorlarda 1.0–1.5)
+ÇALAR  → keçmir (ailəni tapır, obyekti yox: 0/5)
+```
+
+Bu, ovda nəzarətdən keçməyən **13-cü avtomatik üsuldur**. Qalan yol yalnız
+ikisidir: **gözlə görünən quruluş** (kartotekanı belə tapdım) və **insanın
+tanıması**. Yeni avtomatik təsnifatçı yazmaq — artıq 13 dəfə sınanmış səhvdir.
