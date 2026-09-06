@@ -5607,3 +5607,40 @@ altında qalır.
 (15 parçadan biri həmişəlik şəkilsiz qalır — bu, hər hansı "hər şəkil bir hərf"
 modeli üçün ciddi məhdudiyyətdir: bir hərf heç vaxt birbaşa oxunmayacaq,
 yalnız qalanlardan çıxarıla bilər.)
+
+---
+
+## 2026-09-06 08:40Z — Qalan naməlumların SAYIMI (və şəkilçəkmənin bitdiyi nöqtə)
+
+Görüntü tərəfi **tükəndi**. Bu gecə bağlanan suallar: əskik 1080p yoxdur,
+daha yaxın çəkiliş yoxdur, üçüncü bucaq tapıldı və həddi ölçüldü, gizli şəkil
+üç bucaqda da açılmır, oxunmayan üç rəqəm fiziki olaraq mümkün deyil.
+
+Model **"hər parça bir hərf, tarixlə sıralanır"** olarsa, qalan sərbəst
+parametrlər:
+
+| | say |
+|---|---|
+| parça | 15 |
+| tarixi məlum | 12 |
+| **tarixi naməlum** | **3** |
+| şəkli **möhkəm** adlanmış | 7 (təqvim, kəpənək, Oman, ABŞ+anbar, ox+diaqram, qar buludu, 😂) |
+| şəkli **adsız** | 7 |
+| şəkli **əldə edilə bilməyən** | 1 (I-VII kartı) |
+| → **naməlum hərf** | **8 / 15** |
+| → **naməlum mövqe** | **3 / 15** |
+
+**Yeni görüntü olmadan bunu həll etmək üçün minimum lazım olan:**
+1. **7 adsız şəklin adı** — bunu yalnız istifadəçi verə bilər; ölçmə tərəfi bitib.
+2. Gizli hərf **heç vaxt oxunmayacaq** — yalnız qalanlardan çıxarıla bilər.
+3. Tarixi bilinməyən 3 parça **rəqəmlərindən başqa bir şeylə** yerləşdirilməlidir
+   (kənar profilləri? şəklin özü?).
+
+### Bir yoxlama (zəif, amma qeyd edirəm)
+
+Əgər cavab `THE ______ CITY` formasındadırsa və hər parça öz şəklinin ingilis
+adının **ilk hərfini** verirsə, tarix sırasında **1-ci mövqe T** olmalıdır.
+Ən erkən tarix **4 fevral = təqvim** → "calendar" → **C**, "T" deyil.
+Ovqat: ya təqvimin adı başqadır, ya sıra tərsdir, ya oxunmayan parçalardan biri
+yanvardadır və birinci gəlir, ya da model səhvdir.
+**Bu, model üçün zəif mənfi siqnaldır** — 7 ad hələ bilinmədiyi üçün qəti deyil.
