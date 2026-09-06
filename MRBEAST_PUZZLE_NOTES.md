@@ -10732,3 +10732,48 @@ axtarış deyil, **şəkillərin dəqiq adlandırılmasıdır**.
 
 ★ Qartal və diaqram parçaları CLDR emoji adlarını kəsdiyi üçün **«hamısı emoji adıdır»
 fərziyyəsi yanlışdır** — adlar qarışıqdır (bir qismi emoji, bir qismi adi ingilis adı).
+
+## ★★★★ 2026-09-07 — CAVAB SAHƏSİ: 15 SİMVOL, KLAVİŞ-KLAVİŞ SAYILDI
+
+Əvvəlki «15» ölçüsü sütun proyeksiyası + eşik idi. İndi **daha güclü ölçmə**:
+`dd608937` klipindən (offset 1008.3) t=1045.5–1047.2 arası **78 kadr** çıxarıldı,
+hər kadrda sahə zolağı yüksək-keçid süzgəcdən keçirilib **46 px addımlı şəbəkə**
+üzərində amplituda ölçüldü. Simvollar bir-bir görünür:
+
+```
+t=1046.00  0     t=1046.43   7     t=1046.77  12
+t=1046.03  1     t=1046.47   8     t=1046.84  13
+t=1046.10  2     t=1046.57   9     t=1046.90  14
+t=1046.17  3     t=1046.63  10     t=1046.97  15   <- son
+t=1046.23  4     t=1046.70  11     ...       15
+t=1046.30  5                        16-cı MÖVQE HEÇ VAXT GÖRÜNMÜR
+t=1046.37  6
+```
+
+★ **15 simvol, təsdiqləndi.** 16-cı mövqedə amplituda daim ≈0.
+⚠ Amma yazılış **hər 2 kadrda bir** (15 simvol/san, tam bərabər) baş verir —
+bu **skriptlə yazılma animasiyasıdır**, canlı klaviatura deyil. Deməli 15
+uzunluğu *animasiya edilən sətrin* uzunluğudur; həqiqi cavab olması ehtimallıdır,
+amma sübut deyil. Bunu belə qeyd edirəm.
+
+Forma mətni tam: `BEAST SWEEPSTAKES` / `Guess the answer*` /
+`You can guess multiple times, but there is only 1 …` / `Type your answer here…` /
+`Your email*` / `We'll send a verification code to confirm your ent…` /
+`I confirm I am 18` / `Policy.` / `SUBMIT` / **`$10,000`**.
+
+## ★★★ Parça sayı 14 — ikinci bucaqdan da təsdiq (REF806)
+
+`TOPBOX806.png` (t≈806, 9× böyütmə) üst qara qutunu şübhəsiz göstərir:
+- **A**: «II» (qırmızı) + papaqlı figür + «XI» (mavi), ayaqlarında **təkərlər**
+- **B**: «I VII» + **iki üst-üstə çərçivə** — rəqəmlər və şəkil EYNİ parçadadır
+- **C**: «VIII» + aşağı ox + 3 sütun (bənövşəyi/sarı/yaşıl) + «IX»
+- **D**: «V» + **dörd loblu** kəpənək/bant konturu + «VII»
+- **E**: «VI» + kərpic rəngli düzbucaqlı + «VIII»
+
+★ B parçası mənim köhnə cədvəlimdəki #8 və #13-ün **eyni parça** olduğunu
+gözlə təsdiqləyir. Aralardakı sarı-krem formalar parça deyil — **qutunun
+kartonu**dur (TAN2.png).
+
+⚠ **D parçası «eynək» deyil, ehtimalla KƏPƏNƏKdir**: dörd simmetrik lob və
+ortada nazik gövdə görünür; eynəkdə iki linza + düz körpü olardı.
+`BUTTERFLY`(9) → qırmızı[5]=**E**, mavi[7]=**F**.
