@@ -5261,3 +5261,39 @@ Qırmızı güclü müsbət, **yaşıl güclü mənfi**, ağ neytral. **Üsul i�
 Namizədlər: qızılı içli tünd cisim — kokos? şabalıd? çörək? sikkə? zınqırov?
 **Ad hələ bilinmir**, amma "boz daş" oxunuşu ölçmə ilə uyğun gəlmir.
 (İstifadəçi bunu "daş" kimi görür — ola bilər ki, daş qəhvəyi/oxra çəkilib.)
+
+---
+
+## 2026-09-06 06:35Z — `colorbox.py`: ölçmə qutularını GÖRÜNƏN etmək
+
+Rəng ölçmələrində əsas nasazlıq **qutunun yerləşdirilməsi** idi. Ona görə alət
+yazdım: `tools/pieces/colorbox.py` — qutuları ölçür **və eyni zamanda böyüdülmüş
+şəklin üzərinə çəkir**, ki, yerləşdirmə gözlə yoxlansın.
+
+Dərhal fayda verdi: fiqur üçün ilk "kağız" istinadım əslində **kartın üstündə
+deyil, kartonun üstündə** idi (`CB_FIGURE2.png`-də bənövşəyi qutu kartdan
+kənarda görünür). Yəni mütləq dəyərlər sürüşüb; **nisbi sıralama isə etibarlıdır**.
+
+### Fiqurun ölçülən rəng ardıcıllığı (yuxarıdan aşağı)
+
+| hissə | da\* | oxunuş |
+|---|---|---|
+| papaq | **−3.82** | **yaşıl** (ən mənfi) |
+| üz | +2.80 | çəhrayı/dəri |
+| gövdə | +3.95 | bej/isti |
+| alt paltar | **+6.79** | **qırmızı/çəhrayı** (ən müsbət) |
+| topuqlar | −1.24 | yenidən yaşıla meyilli |
+
+Yəni: **yaşıl şiş papaq → çəhrayı üz → bej gövdə → qırmızı alt → yaşıl topuq**.
+Bu, **elf / cırtdan (gnome)** tipli fiqura uyğun gəlir (yaşıl papaq + yaşıl
+ayaqqabı + qırmızı paltar).
+
+### Kartın altında **iki tünd yumru forma**
+
+Fiqurun ayaqlarının altında, kartın ən altında **iki ayrıca tünd dairə** var
+(`round-L` L=130.5). Əvvəlki renderdə (T_SKATER) bunlar **ağ çəkmənin altındakı
+iki qara təkər** kimi görünürdü → **rolikli konki** 🛼.
+
+Yəni bu kartda **iki şəkil ola bilər**: fiqur **+** rolikli konki.
+(Və ya fiqur konkini geyinib.) Bu, "iki şəkilli kartlar" siyahısını dəyişir —
+qeyd edirəm, amma qəti demirəm.
