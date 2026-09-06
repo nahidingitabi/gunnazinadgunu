@@ -8475,3 +8475,68 @@ uyğunluğuna görə yoxlanmalıdır.
   vp8). **Tam ffmpeg** buradadır:
   `/usr/local/lib/python3.11/dist-packages/imageio_ffmpeg/binaries/ffmpeg-linux-x86_64-v7.0.2`
   (h264, vp9, libdav1d/AV1 hamısı var). PyAV (`av` 18.1.0) da quraşdırılıb.
+
+### 5. Videodakı bütün OCR mətnində 13 simvollıq şifrəmətn AXTARILDI — YOXDUR
+
+Əlimdəki bütün OCR nəticələri (15 fayl), transkript, rəsmi qaydalar mətni və
+`allcodes.txt` — cəmi ~600 KB mətn — üzərində 13 simvollıq sürüşən pəncərə ilə
+XOR tətbiq edildi (317 çap oluna bilən namizəd). **Heç bir namizəd oxunaqlı çıxış
+vermədi.** ⇒ Şifrəmətn OCR-ə düşən mətndə deyil; o, ya parçalardan çıxarılmalıdır,
+ya da hələ oxunmamış obyektdədir (çəhrayı indeks vərəqi, 13–15-ci kartlar).
+
+---
+
+## 2026-09-06 14:0xZ — COLIN-in DÜNƏNKİ TWITCH YAYIMI (v2866522208) TRANSKRİPT EDİLDİ
+
+`Chroma Zero, Part 2 (except I talk a lot about other random puzzles)` — 7773 s,
+tam ASR (76 444 simvol). $10k tapmacası haqqında **birbaşa ipucu yoxdur**, amma
+**metodoloji** dəyəri böyükdür — Colin Lone Shark üslubunu açıq izah edir:
+
+### ★ "Oyunun adı kalambur tapmaqdır"
+> "a lot of the **loan shark folks really like word play for the sake of word play**…
+> the **name of the game is find the pun**."
+
+Nümunələr onun öz dilindən: TARANTULA + ARABESQUE → ortaq **ARA** → **Ankara**;
+**CASH TENT → Tashkent**; **LASER MIX UP** (kriptik krossvord üslubu).
+⇒ Çıxarılan ifadə birbaşa yer adı olmaya bilər; **səsləndikdə** yer adına çevrilir.
+("Try saying it out loud" ipucusu ilə eyni xətdir.)
+
+### ★★ Colin-in "kod vərəqi" siyahısı — istifadə olunan şifrələrin SONLU bazası
+> "there is generally a **finite base of stuff** you're working with… they give you this
+> reference sheet with **Morse code, pig pen, braille, semaphore flags, NATO alphabet,
+> … periodic tables**… periodic elements, even without the numbers, it's kind of fun to
+> make words out of periodic elements."
+
+Bu, bizim iki rəqəmli kartlar üçün namizədləri süzür:
+
+| şifrə | tələb | bizim rəqəmlər (qırmızı 2–10, qara 1–14) |
+|---|---|---|
+| Brayl (6 nöqtə) | 1–6 | ✗ |
+| Semafor (2 qol × 8 mövqe) | 1–8 | ✗ (qara 11, 14) |
+| Polybius 5×5 / 6×6 | 1–6 | ✗ |
+| Telefon çoxvurma (düymə, təkrar) | düymə 2–9, təkrar ≤4 | ✗ |
+| NATO əlifbası | 1–26 | ✓ (amma məhdudlaşdırmır) |
+| A1Z26 | 1–26 | ✓ |
+| **Dövri cədvəl (atom nömrəsi)** | **1–14 = H…Si** | **✓✓ hər iki rəng tam sığır** |
+
+⇒ **Dövri cədvəl** rəqəm diapazonuna ən yaxşı oturan namizəddir (maks. XIV = Si).
+
+### ★ "Rəqəmləri düzgün saymaq özü çətin işdir"
+> "first you have to **count the numbers correctly**, which is kind of actually a tough
+> thing… but then you also have to be like, I trust that this is correct and I will go
+> randomly [try a cipher]."
+
+Bu, bizim 13/14/15-ci kartların rəqəmlərini oxumaq maneəsinin **tapmacanın nəzərdə
+tutulmuş çətinliyi** olduğunu göstərir — səhv oxunuş bütün zənciri sındırır.
+
+### ★ Köhnə ovda what3words istifadə olunub
+> "Phase two, Beast Travel… with those triples of clues and you had to go to
+> **what3words.com**" — kriptik krossvord ipucuları üçün.
+
+### Yenidən təsdiq: Colin-in RƏSMİ BAŞLANĞIC İPUCUSU (əvvəlki yayımdan)
+> "**The jigsaw puzzle in MrBeast's video. The first thing you should do is look for a
+> jigsaw puzzle.** And that's as far as I'm going to say right now."
+> "I made it by myself… it is not as big as the Super Bowl puzzle."
+> "I can't discuss it until someone solves it and team beast announces a winner."
+
+⇒ Parçalar (bizim 13–15 kart) **doğru giriş nöqtəsidir** — müəllif özü təsdiqləyir.
