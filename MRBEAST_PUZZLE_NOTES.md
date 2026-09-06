@@ -10309,3 +10309,29 @@ Kartlar və icazə verilən cütlər:
 
 ⚠ Məhdudiyyət: nəticə mənim ad namizədlərimdən asılıdır. Əgər altı kartdan
 birinin adı siyahıda yoxdursa, süzgəc yanlış olaraq hər şeyi kəsir.
+
+### ✔ FİRUZƏYİ KARTIN RAIL-FENCE AÇILIŞINI MÜSTƏQİL YOXLADIM — DOĞRUDUR
+
+Bu iddia daşıyıcıdır, ona görə özüm yenidən hesabladım:
+
+```
+LASTWORDTHENNINTH   (17 hərf)
+rels 1 (cüt mövqelər):  L S W R T E N N H   -> "LSWRTENNH"
+rels 2 (tək mövqelər):  A T O D H N I T     -> tərsinə "TINHDOTA"
+birləşdir:              LSWRTENNH + TINHDOTA = LSWRTENNHTINHDOTA
+kartdakı üç sətir:      LSWRTE + NNHTIN + HDOTA = LSWRTENNHTINHDOTA   ✓ EYNİ
+```
+
+⇒ Kart doğrudan da **`LAST WORD THEN NINTH`** yazır (iki relsli rail fence,
+alt rels tərsinə). Alt yazının «bird **fence**» olması da bunu göstərir.
+
+**Hədəfi hələ də naməlumdur.** Yoxlanıb və nəticə vermədi: video təsviri
+(son söz «com»), altyazıların sonu (son söz «video»), 84 səhifəlik sənəd
+(son «CONTENTS»). Köhnə sənəddə nə `ninth`, nə `last word` keçir.
+
+⚠ Ehtimal: masadakı qeydlər **Colin-in KÖHNƏ tapmacanı həll edərkən öz iş
+qeydləridir** (otaq onun həll otağı kimi bəzədilib) — rəsmi cavab sənədində
+onun şəxsi qeydləri olmaya bilər. Yəni «sənəddə yoxdur» arqumenti mavi qeyd
+üçün işləyir (o, PG3-ün MƏZMUNUDUR), amma firuzəyi kart üçün zəifdir.
+Buna baxmayaraq `LAST WORD THEN NINTH` heç bir köhnə tapmacanın çıxarma
+qaydası kimi də sənəddə görünmür.
