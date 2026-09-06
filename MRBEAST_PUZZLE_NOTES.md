@@ -4308,3 +4308,23 @@ Yəni tarix modeli **nə təsdiqlənə, nə də təkzib edilə bilər** mövcud 
 Onu "aparıcı, amma sınanmamış fərziyyə" statusunda dondururam və bundan sonra
 onun üzərinə **yeni nəticə qurmuram**. Bu, ovda ölən altı modelin səbəbi idi:
 sınanmamış fərziyyənin üstünə tikinti.
+
+## 2026-09-06 02:45Z — QUTU SÜPÜRMƏSİ: TƏQVİMDƏKİ QLİF "25"-dir
+
+Qutuların bütün üzlərini üç kadrdan 18 tile-a bölüb süpürdüm (`BOXSWEEP.png`).
+Məqsəd əlavə ay/tarix əl yazısı tapmaq idi. **Əlavə ay yazısı TAPILMADI** —
+otaqda yalnız bir dənə var: ABŞ bayrağı parçasının yanındakı "July?" / "Jun…".
+Yəni tarix modelinin yeganə dayağı **tək qalır**, ikinci müstəqil dayaq yoxdur.
+
+Amma süpürmə **başqa şey verdi**: bəzi parçalar bu tile-larda əvvəlkindən
+aydın çıxdı, çünki tile-lar kağızın öz ağına görə balanslanmışdı.
+* **Təqvim parçasındakı qlif = "25"** (`cal803zoom.png`). Spiral halqalar,
+  qırmızı başlıq, altında **25**. Bu, tək plandan IBP ilə oxuduğum "25 yoxsa 3"
+  şübhəsini **25 lehinə** həll edir.
+  Qeyd: bu, tarix modelini **təsdiqləmir** — parçanın rəqəmləri III·IV = 4 mart
+  verir, təqvimin şəkli isə 25 göstərir. Yəni şəkil öz rəqəmini təkrarlamır,
+  sadəcə hazır klipartdır (əvvəl də bunu ehtimal etmişdim).
+* **"PUZZLE CLUES"** etiketi əl yazısı ilə, qutunun üzərində — təsdiq.
+* Qartal parçasının rəqəmləri bu bucaqda **ilk dəfə görünür** (əvvəl heç
+  görünmürdü): sağ ucda mavi bir rəqəm, altında çəhrayı bir rəqəm. Formaları
+  hələ ayırd olunmur — ona fokuslanmış IBP işlədirəm.
