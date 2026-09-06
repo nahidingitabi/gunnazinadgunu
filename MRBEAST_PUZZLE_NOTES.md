@@ -5389,3 +5389,24 @@ Bir düzəliş: h803-də ölçdüyüm **güclü qızılı iç** (b\* +13.65) bu 
 təkrarlanmır (iç +7.55, kənar +8.32 — iç daha isti **deyil**).
 → Həmin "qızılı iç" böyük ehtimalla **işıq parıltısı** idi, cismin öz rəngi yox.
 Cismin özü **bütövlükdə isti qəhvəyi**dir.
+
+### Ofis bucağının həddi (ölçüldü)
+
+Ofis klipini (94b4d23f, 0–70 s) süzdüm: hər 0.5 saniyədə kadrın sağ hissəsindəki
+ağ kart sahəsini və kəskinliyini ölçdüm. Ən böyük sahəli kadrlar (t=53.9, 54.9,
+62.4) **qutu yığını deyil** — onlar **mantar lövhəsidir** (köhnə tapmacanın
+divarı; uzun şaquli emoji zolağı, krossvord, qlobuslar). Detektor lövhədəki ağ
+kağızları kart sanıb.
+
+**Qutu yığını üçün ən yaxşı ofis kadrı hələ də t ≈ 19.9-dur** (kəskinlik 89).
+Və orada yuxarı qutunun kartları **h803-dəkindən kiçik və bulanıqdır**
+(`OFF_TOPBOX.png`) — rəqəmlər oxunmur.
+
+**Ofis bucağı nəyə yarayır:**
+- bütün yığının düzülüşünü **soldan** təsdiqləmək
+- **15-ci parçanın** ən yaxşı görüntüsü (yalnız burada var)
+- **DEPT qutusunda fərqli örtüşmə** — oval/qartal kartı burada başqa cür görünür
+  (bu, ovalın rəngini ikinci bucaqdan təsdiqləməyə imkan verdi)
+
+**Nəyə yaramır:** yuxarı qutunun rəqəmlərini oxumağa. Pəncərə kartının
+rəqəmləri burada da açılmır.
