@@ -5895,3 +5895,29 @@ solidity 0.89–0.92** — daha hamar, daha qabarıq forma.
 **Bu, bu gecə düzəltdiyim 6-cı etiketdir** (kəpənək, Afrika, konki-fiquru,
 pəncərə→şkaf, "July?", indi də oval). Nümunə aydındır: **kiçik ölçüdə gözlə
 qoyduğum hər etiket ölçmə ilə yoxlanmalıdır.**
+
+### En profili: hansı formalarda işləyir, hansında yox (nəzarət = solidity)
+
+Qalan iki adsız şəkli də ölçdüm. **Solidity nəzarət rolunu oynadı:**
+maska parçalanırsa solidity aşağı düşür və nəticə etibarsızdır.
+
+| şəkil | ölçü (px) | uzanma | **solidity** | vəziyyət |
+|---|---|---|---|---|
+| **#6 tünd obyekt** | 35.3 × 8.7 | 4.06 | **0.95** ✓ | **etibarlı** |
+| #1 fiqur | 57.2 × 23.2 | 2.47 | **0.23** ✗ | **parçalanıb — etibarsız** |
+| #6 açıq obyekt | 68.8 × 17.5 | 3.93 | **0.36** ✗ | **parçalanıb — etibarsız** |
+
+Səbəb aydındır: fiqur və açıq obyekt **çoxrəngli**dir, ona görə qaralıq
+astanası onları bir neçə hissəyə bölür. Onlar üçün düzgün alət **rəng
+zolaqları**dır (artıq ölçülüb), forma profili yox.
+
+**#6-nın tünd obyekti (etibarlı ölçmə):**
+
+| dərinlik | 10% | 20% | **30%** | 40% | 50% | 60% | 70% | 80% | 90% |
+|---|---|---|---|---|---|---|---|---|---|
+| en (px) | 6.3 | 8.3 | **8.7** | 8.2 | 7.1 | 5.9 | 5.1 | 3.9 | 2.7 |
+
+**30%-də ən enli, sonra monoton daralaraq nazik uca bitir; solidity 0.95
+(çox hamar, qabarıq).** Yəni **uzun, hamar, aşağıya doğru sivriləşən** forma.
+Rəng ölçməsi ilə birləşdirəndə (**tünd göy/navy gövdə**) bu, **qələm/fırça
+tipli sivri ucu olan alətə** uyğun gəlir.
