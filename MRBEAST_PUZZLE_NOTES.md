@@ -4773,3 +4773,16 @@ Sayın 15 olması **ağ kartların sayılmasına** əsaslanır və formadakı 15
 üst-üstə düşür — dayaq budur, sarı sahələr deyil. Əgər sarılar da parçadırsa,
 say 17 olardı və 15 ulduzla uyğunsuzluq yaranardı; bu, dolayı yolla onların
 parça olmadığına dəlildir, amma sübut deyil.
+
+---
+
+## 2026-09-06 04:00Z — İkinci bucaqdan şəkillər (`ANGLE2.png`, hn765b t=767.62, 24×)
+
+| şəkil | ikinci bucaqda nə əlavə oldu |
+|---|---|
+| **düzbucaq** | tünd **bordo/şabalıdı** düzbucaq, ətrafında nazik açıq haşiyə və qara kontur; nisbət ~1.5. Düz rəngdir, naxış yoxdur. |
+| **pəncərə** | qalın **qara çərçivə**, içəridə **üfüqi qara tir** və iki açıq boz panel. Pəncərə 🪟 və ya qapı 🚪 üçün uyğundur. Rəqəmləri bu bucaqda da örtülüdür. |
+| **təqvim** | spiral halqalar aydındır; ortadakı işarə tünd qırmızı-qəhvəyi, "25" və ya "&" kimi oxunur — hələ qəti deyil. |
+| **kəpənək** | dörd lobu **2×2** düzülüşdə (yuxarı-sol, yuxarı-sağ, aşağı-sol, aşağı-sağ) + mərkəzdə üfüqi bənd + yuxarı qalxan iki nazik əyri. Bant (🎀) olsaydı loblar yalnız **solda və sağda** olardı, quyruqlar isə **aşağıda**. 2×2 düzülüş **kəpənəyə** işarə edir. Saxlayıram, amma "çox güman" səviyyəsində. |
+| **fiqur** | konusvari **yaşıl-zeytunu papaq**, çəhrayı üz, tünd bordo gövdə, aşağıda tünd ayaqqabılar. |
+| **iki obyekt** | bu bucaqda kart kənardan görünür, faydalı əlavə yoxdur. |
