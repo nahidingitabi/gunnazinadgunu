@@ -4115,3 +4115,26 @@ Yəni IBP sehr deyil: **məhdudlaşdırıcı amil artıq alqoritm yox, qeydiyyat
 Bu, növbəti addımı da göstərir: qartal, təqvim və 15-ci parça üçün
 **dördbucaqları əl ilə, eyni fiziki küncdən başlayaraq** vermək lazımdır —
 avtomatik künc sırası bu üç parçada uyğun gəlmir.
+
+## 2026-09-06 01:10Z — TƏQVİM PARÇASI: TƏK PLANLA IBP İŞLƏDİ
+
+Təqvimin çox-planlı IBP-si sürüşmüşdü. Səbəbini aradan qaldırdım: **tək plandan**
+(12:45, 82 kadr) dördbucağı **əl ilə** verib IBP etdim (`IBP_cal765.png`).
+İndi aydın görünür:
+
+* **spiral bağlı təqvim/blok** — yuxarıda **3 halqa**, altında **qırmızı başlıq
+  zolağı**, ortada **iri tünd-qırmızı qlif**, aşağıda tünd üfüqi xətt
+* rəqəmlər: mavi **IV** (yuxarı sağ), qırmızı **III** — **üç ştrix aydın sayılır** ✓
+
+**Qlif nədir — açıq saxlayıram.** Forması: yuxarıda sağa gedən qövs, sonra
+sola enən diaqonal, aşağıda yumru ilgək. Bu, ya **"25"** (üst-üstə düşən iki
+rəqəm), ya da əl yazısı **"3"**/**"&"** ola bilər. Birmənalı deyil.
+
+**Vacib xəbərdarlıq özümə:** hazır təqvim klipartlarında rəqəm adətən
+**təsadüfidir** (Apple-ın 📅 emojisi həmişə "17 iyul" göstərir). Yəni bu qlifi
+tarix modelinin təsdiqi kimi oxumaq **cazibədar, amma əsassız** olardı.
+Modelin proqnozu bu parça üçün **4 mart**-dır; qlif "25"-dirsə, bu, modeli
+nə təsdiqləyir, nə də təkzib edir — sadəcə klipartın öz rəqəmidir.
+
+Metod qeydi: **çox-planlı IBP həmişə tək-planlıdan yaxşı deyil.** Qeydiyyat
+zəifdirsə, ikinci plan zərər verir. Təqvimdə tək plan + əl dördbucağı qalib gəldi.
