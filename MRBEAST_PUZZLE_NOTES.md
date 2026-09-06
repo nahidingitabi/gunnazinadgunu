@@ -8818,3 +8818,79 @@ kartın maili duruşundadır, üsulda deyil.)
 - ⚠ Oman/Afrika kartlarının altındakı yazı **"SEPT." DEYİL, "DEPT."**-dir — bu,
   arxiv qutusunun **çap olunmuş standart sahəsidir** (CONTENTS / FROM / DEPT.),
   ay adı deyil. (Bir anlıq "aylar qutuların üstündədir" fərziyyəsi yarandı — düşdü.)
+
+---
+
+# ★★★★★ 2026-09-06 15:2xZ — MEXANİZM TAPILDI: **GC8. AIRRACK** (səh. 51)
+
+Köhnə cavab sənədində bizim kartların **dəqiq şablonu** var. Onu axtarmağa aparan iz:
+masadakı **"Boo!" qara kitabı** kartı → köhnə sənəddə "**horror bookshelf**" ifadəsi.
+
+## Orijinal mətn (GC8, səh. 51)
+
+> Airrack receives a gift from Jimmy containing **seven pictures**… Each is a photo of a
+> tiny version of himself hiding in weird places. **There's a number or pair of numbers
+> in the corner of each photo.** These are the places he hides:
+> • On a **horror bookshelf** (1) • In a Pathfinder RPG character array (2)
+> • On a barge with King George I (5) • **Amid some hamburgers (5/14)**
+> • On the rink of an electronic hockey game (2/6) • In a pile of comic books (1/5)
+> • On the court in a retro basketball videogame (6/8)
+>
+> **ANSWER** Airrack is identified by **the item in the picture that contains the letters
+> in his real name, ERIC**. Here are those items, **with the letters indexed into those
+> names by the numbers given**:
+> • ANNE RICE (A) • KYRA THE CLERIC (L) • GEORGE FRIDERIC HANDEL (G)
+> • AMERICAN CHEESE (I/E) • CENTER ICE (E/R) • RICHIE RICH (R/I) • DALLAS MAVERICKS (S/A)
+> After the first three letters, **the letters diverge to spell a city and country:
+> Algiers, Algeria.**
+
+## NƏZARƏT KEÇDİ ✓ (kod: yuxarıdakı `idx()`)
+
+```
+ANNE RICE              [1]     -> A
+CLERIC                 [2]     -> L
+GEORGE FRIDERIC HANDEL [5]     -> G
+AMERICAN CHEESE        [5,14]  -> I / E
+CENTER ICE             [2,6]   -> E / R
+RICHIE RICH            [1,5]   -> R / I
+DALLAS MAVERICKS       [6,8]   -> S / A
+SƏTİR A = ALGIERS   ✓      SƏTİR B = ALGERIA   ✓
+```
+(Yalnız "KYRA THE CLERIC" sətri PDF mətnində natamamdır; `CLERIC`[2]=L düzgün verir.)
+
+## ⇒ BİZİM TAPMACAYA TƏTBİQİ — bütün müşahidələri izah edir
+
+| müşahidə | GC8 ilə izahı |
+|---|---|
+| hər kartda **iki** rəqəm | GC8-dəki "**cüt** rəqəm" — iki paralel sətir üçün |
+| rəqəmlərin **təkrarlanması** (mavi V iki dəfə, VIII iki dəfə, qırmızı VI üç dəfə) | **gözləniləndir** — bunlar hərf indeksləridir, mövqe deyil |
+| ən böyük rəqəm **XIV = 14** | GC8-də `AMERICAN CHEESE` = 14, `DALLAS MAVERICKS` = 15 — adlar məhz bu uzunluqdadır |
+| kartların **iki elementli rebus** olması | GC8-də şəkil "barge with King George I" idi → ad **GEORGE FRIDERIC HANDEL** |
+| iki **fərqli rəng** | ★ yeni: rəng hansı sətrə getdiyini deyir (GC8-də bunu `a/b` sırası edirdi) |
+
+### Mexanizmin QAYDALARI (indi təsdiqlənmiş)
+
+1. Hər şəkil **birbaşa obyektin adını yox, onunla ƏLAQƏLİ bir ADI** verir.
+   (horror bookshelf → **ANNE RICE**; hamburger → **AMERICAN CHEESE**;
+   komiks yığını → **RICHIE RICH**; xokkey oyunu → **CENTER ICE**;
+   retro basketbol oyunu → **DALLAS MAVERICKS**; King George I-in barjası →
+   **GEORGE FRIDERIC HANDEL** — Water Music məhz o barjada ifa olunub.)
+2. Rəqəmlər həmin **ada hərf indeksidir**.
+3. **Bir rəngin rəqəmləri bir sətri, digərinin rəqəmləri ikinci sətri yığır.**
+4. **Sətir A = ŞƏHƏR, sətir B = ÖLKƏ** (ABŞ/Kanadada — ştat/əyalət).
+   ⇒ İkisi **eyni uzunluqdadır** (GC8: ALGIERS 7 / ALGERIA 7).
+   Bizdə 15 parça ⇒ **hər iki sətir 15 hərf** (əgər hamısında iki rəqəm varsa).
+5. GC8-də adları **seçən açar** var idi: *"hər ad **ERIC** hərflərini ehtiva edir"*.
+   ⇒ Bizdə də belə bir **açar söz** olmalıdır (JIMMY? BEAST? COLIN? XOR?) — bu,
+   "hansı adı götürməli" sualının cavabıdır və hələ tapılmayıb.
+
+### İNDİ NƏ ETMƏLİ
+
+- Hər kartın **ƏLAQƏLİ ADINI** tap (obyektin adını yox). Məsələn:
+  😂 → ? · qar buludu → ? · Oman bayrağı → ? · ABŞ bayrağı + tövlə → ? ·
+  daş + keçəl qartal → ? · bant → ? · Feastables batonu → ? · Afrika + bitki → ?
+- Adları seçən **açar sözü** tap (GC8-də ERIC idi).
+- Qırmızı sətir və mavi sətir **eyni uzunluqda iki yer adı** verməlidir.
+
+**Bu, sessiyanın ən böyük tapıntısıdır** — indiyə qədərki bütün "ad namizədi"
+cəhdlərim səhv sinifdə idi (obyektin öz adını götürürdüm; əslində assosiativ ad lazımdır).
