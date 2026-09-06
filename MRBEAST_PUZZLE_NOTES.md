@@ -4186,3 +4186,24 @@ təsadüfən 1/6 ehtimallıdır; qalanları 2 elementlidir, yəni 1/2. Ümumilik
 
 Qeyd edirəm ki, bu, **modelin lehinə sayılan dəlil kimi istifadə olunmasın** —
 sadəcə ölçülmüş faktdır.
+
+## 2026-09-06 01:45Z — ŞÜBHƏLİ ŞƏKİLLƏRİN RƏNGLƏRİ ÖLÇÜLDÜ (gözlə yox)
+
+Şəkilləri "gözümə belə gəlir" deyə adlandırmaqdan çəkinmək üçün rəngləri
+k-means ilə ölçdüm və kağızın öz ağına görə balansladım (kağız RGB(177,145,134)
+→ (238,238,238), yəni R×1.35, G×1.64, B×1.78):
+
+```
+şaquli düzbucaqlı  — sahənin 70%-i tək rəngdir → balanslanmış RGB ≈ (200,133,114)
+                     yəni **kərpic/terrakota**, qırmızı deyil, qəhvəyi də deyil
+iki obyekt, SOL    — RGB ≈ (120,103,105)  → **tünd boz-qəhvəyi, demək olar qara**
+iki obyekt, SAĞ    — RGB ≈ (163,181,208)  → **açıq MAVİ-boz** (üstündə və altında
+                     çəhrayı-qırmızı zolaqlar var)
+```
+
+Yəni "iki hündür obyekt" = **tünd qəhvəyi obyekt + açıq mavi obyekt, sonuncunun
+uc hissələri çəhrayı-qırmızı**. Bu, əvvəl yazdığım "iki hündür obyekt" ifadəsindən
+xeyli konkretdir və istifadəçiyə göndərilən atlasda da görünür.
+
+Düzbucaqlının 70% tək rəng olması vacibdir: içində naxış, yazı, detal **yoxdur** —
+tam düz, konturlu bir kərpic rəngli düzbucaqdır.
