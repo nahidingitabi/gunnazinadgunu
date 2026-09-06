@@ -7940,3 +7940,43 @@ Rəssam köçürmədiyi (yenidən çəkdiyi) üçün **rəng deyil, forma** müq
 Ofis planında masanın üstündə **iki əlyazma vərəqi** də tapıldı (`DESK_PAPERS.png`):
 biri dairələr və birləşən oxlarla diaqram, digərində mötərizəli rəqəmlər.
 0:19.9-da çox kiçikdir; daha yaxın plan tapılmadı.
+
+## ★★ AÇILIŞ KADRLARI (0:13.6 / 0:14.2 / 0:20.6 / 0:21.2) — YENİ GÖRÜNTÜ MƏNBƏYİ
+
+«Görüntü tükənib» yenə çox geniş yazılmışdı. Ofis planı **yalnız 0:19.9 deyil**:
+kamera 0:13.6–0:14.2-də otağı, 0:20.6–0:21.2-də isə **masanı daha yaxından**
+göstərir. Bunlar 1080p-dir və bəzi parçalar orada daha aydındır.
+
+| obyekt | ən yaxşı an | nə görünür |
+|---|---|---|
+| **15-ci parça** | 0:13.6 və 0:14.2 | tünd fiqur: **üstündə iki qabarıq + çuxur, aşağı ucu sivri** → **ÜRƏK** formasına çox oxşayır (🖤/♠). Əvvəlki ölçmə ilə uzlaşır: «solda hündür zirvə → çuxur → sağda alçaq çiyin», solidity 0.91 |
+| **14-cü kart** | 0:14.2 | oval **qızılı-qəhvəyi**, tünd konturlu; yanında **tünd quş**. Oval üçün yeni namizəd: **🏈 amerikan futbol topu** (qəhvəyi oval), ya 🥔 / 🥚 / 🪨 |
+| **6-cı kart** | 0:14.2 | **tünd paz + açıq-mavi şaquli zolaq**, zolağın üstü və altı **çəhrayı** — iki obyekt yan-yana dayanıb |
+| **«Boo!» kartı** | 0:21.2 | indiyə qədərki ən aydın: tünd cildli kitab, ağ əl yazısı ilə **«Boo!»**, altında **«Five of these»** |
+
+## ✗ MƏNFİ NƏTİCƏ — RƏQƏMLƏR KÖHNƏ MP1–15-ə İNDEKS DEYİL
+
+«15 parça = 15 köhnə rebus» uyğunluğunu sınadım: (qırmızı = MP nömrəsi,
+mavi = hərf indeksi) və əksi, üç mətn dəsti üzərində — ləqəblər, şəhər adları,
+12 hərfli başlıq sözləri, boşluqlu və boşluqsuz.
+
+```
+ləqəb   qırmızı=MP  EL?COFOLYALI      şəhər  qırmızı=MP  QCYSYSEGORLY
+ləqəb   mavi=MP     OIEOFFFYYTUE      şəhər  mavi=MP     IAIAASINWAU?
+başlıq  qırmızı=MP  NRAOPTCSAEO?      başlıq mavi=MP     HAFMITRPNUCN
+```
+Heç birində söz yoxdur. **Bu uyğunluq ölüdür.**
+
+## ★ MASADAKI OBYEKTLƏR — KİTAB ŞİFRİ XƏTTİ CANLIDIR (PDF ARTIQ ƏLDƏDİR)
+
+`BRIEFING.md §7`-dəki fərziyyə indi yoxlana bilər, çünki **84 səhifəlik PDF
+yükləndi**:
+* narıncı kart: «Books w/ old names… / Alphabetize?»
+* çekmecə kartı: **«Boo!» kitabı + «Five of these»** (ölçüldü, təsdiq)
+* çəhrayı indeks vərəqi: **≈28 cüt (səhifə nömrəsi + Roma rəqəmi)** — məzmun
+  1080p-də bərpa olunmur (nişanlar ~2 px)
+* Colin öz şərhində: *«you had to do an **evil little book cipher**»*
+
+⇒ **Açar sual dəyişməyib: çəhrayı vərəqin məzmunu.** İndi hədəf kitab da
+məlumdur (PDF `MDP_ANSWERS.pdf`, 84 səhifə — bildirilən səhifə dəyərləri
+029/039 hamısı 84-dən kiçikdir).
