@@ -148,9 +148,10 @@ pictures first, then re-run this check — not the other way round.
 shot in the video was scanned — **there is no closer frame**. Multi-frame
 super-resolution buys about 3× and then stops.
 
-→ **Get 2160p (4K) of these moments: 13:22–13:27, 12:44–12:48, 0:18–0:22.**
-At 4K a piece is ~90 px and both the numerals and the pictures become
-unambiguous. This is worth more than any further processing of the 1080p.
+**There is no 4K.** The user has confirmed this video maxes out at 1080p, so
+higher-resolution source is not coming and must not be asked for again. Every
+remaining gain has to come from processing: more frames per piece, better
+registration, and a real super-resolution estimator instead of a median.
 
 ## 7. Tools built for this (in the session scratchpad)
 

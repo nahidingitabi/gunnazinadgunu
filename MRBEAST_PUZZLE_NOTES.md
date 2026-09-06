@@ -3975,3 +3975,22 @@ Yuxarı qutunun sırasını kənar xəritəsi ilə açdım (`TOPROW_EDGES.png`).
 
 Bu, parça sayına təsir edir (15 yoxsa 16?) və "I VII" rəqəmlərinin hansı şəklə
 aid olduğuna. 1080p-də həll olunmur — **4K-nın həll edəcəyi konkret sual budur.**
+
+## 2026-09-06 00:55Z — 4K YOXDUR: ARTIQ SORUŞMURAM, EMALDAN ÇIXARIRAM
+
+İstifadəçi təsdiqlədi: **bu video üçün maksimum 1080p-dir, 4K ümumiyyətlə yoxdur.**
+Deməli "daha yüksək həlledicilik gözləyirik" xətti bağlıdır və bir daha
+qaldırılmayacaq. Bütün qazanc **emaldan** gəlməlidir.
+
+Bunun üçün maskalı **median**-dan imtina edirəm. Median dayanıqlıdır, amma
+**alt-piksel məlumatını atır**: hər kadrı ayrıca yuxarı çevirib ortasını götürür,
+halbuki kadrlar bir-birindən alt-piksel qədər sürüşdüyü üçün onların **cəmi**
+tək kadrdan artıq məlumat daşıyır.
+
+Əvəzinə **iterativ geri-proyeksiya (IBP)** yazıram — həqiqi super-rezolyusiya:
+```
+x ← x + α · Σ_k Wᵀ_k Bᵀ D↑ ( y_k − D↓ B W_k x )
+```
+yəni yüksək həllli təxmini hər kadra geri proyeksiya et, fərqi ölç, fərqi
+yenidən yuxarı qaytar və topla. Qeydiyyat (ECC ilə kilidlənmiş, korrelyasiya
+0.9) yaxşı olduğu üçün bu üsul medianı ciddi üstələyə bilər.
