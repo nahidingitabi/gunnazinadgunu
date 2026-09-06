@@ -4014,3 +4014,20 @@ rəqəmlərin kənarları kəskinləşir (`IBP_CMP.png`).
 ya da şum gücləndirir.
 
 Bütün mühüm parçalar bununla yenidən çıxarılır. Alət `tools/pieces/`-dədir.
+
+## 2026-09-06 01:15Z — TARİX MODELİ ÜÇÜN BİR DAHA ZƏRURİ ŞƏRT ÖDƏNİR
+
+Əvvəl yoxlamadığım sadə şərt: **əgər (qırmızı, mavi) cütü tarixdirsə və tarix
+sıralama açarıdırsa, iki parçanın eyni tarixi olmamalıdır.**
+
+12 parçanın 12 cütü də **fərqlidir** ✓ — heç bir təkrar yoxdur.
+Halbuki "mavi = mövqe" modelində mavi **üç dəfə** təkrarlanırdı (4, 5, 8) və bu,
+həmin modeli öldürən şey idi. Eyni məlumat tarix oxunuşunda **problemsizdir**,
+çünki təkrarlanan yalnız ay və yalnız gündür, cüt yox.
+
+Diapazonlar da yenidən yoxlandı: heç bir ay > 12, heç bir gün > 31, ay 2…10,
+gün 1…14.
+
+Qeyd: 12 cütün fərqli olması təsadüfən də baş verə bilərdi (ehtimal yüksəkdir),
+yəni bu **güclü dəlil deyil** — amma **zəruri şərtdir** və ödənir. Rədd etmək
+üçün əsas vermir.
