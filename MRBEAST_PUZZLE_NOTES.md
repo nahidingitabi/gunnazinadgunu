@@ -10390,3 +10390,27 @@ sayğac 16–21 verir, çünki ulduzun altı şüası ayrı-ayrı «qaçış» k
 bu, nizamsız aralıq (std 10–40) ilə özünü büruzə verir və atılır.
 
 ⇒ **Cavab 15 simvoldur** (əvvəlki ölçü təsdiqləndi; «16» oxunuşu səhv idi).
+
+## 2026-09-06 ~23:4xZ — HƏR KART ÜÇÜN ƏN YAXŞI ÇƏKİLİŞ CƏDVƏLİ
+
+REF803-ün şablonları bütün namizəd kadrlara çox-miqyaslı uyğunlaşdırıldı
+(`TM_CCOEFF_NORMED`, miqyas 0.4–2.6). Nəticə: **REF806 və REF767 kartları
+REF803-dən 10% BÖYÜK göstərir.**
+
+| kart | ən yaxşı kadr | uyğ. | miqyas |
+|---|---|---|---|
+| 5 bant | **REF806** | 0.954 | **1.1** |
+| 6 düzbucaq | **REF806** | 0.985 | **1.1** |
+| 7 təqvim | **REF806** | 0.988 | **1.1** |
+| 8 iki obyekt | **REF806** | 0.976 | **1.1** |
+
+⇒ REF767 (t≈767) **ayrıca çəkilişdir** və **85 kadrlıq** uzun bir plandır
+(t = 764.93 – 767.77, `1bc10ec4` klipi, `-ss 43 -t 6`). Kartlar 5–8 üçün
+15–35 kadr yığıldı (`S767_K5/6/7/8.png`, `S767_SHEET.png`).
+
+### Kart 8-in iki şəkli — indiyə qədərki ən aydın görüntü (`K8_ZOOM.png`)
+1. **Qara paz** — yuxarısı enli, aşağı doğru sivrilir (üçbucaq/qəlpə).
+2. **Hündür mavi-firuzəyi düzbucaq** — **yuxarı və aşağı ucunda çəhrayı zolaq**,
+   ortasından **nazik tünd şaquli xətt** keçir.
+Rəqəmlər təsdiq: qırmızı **VI**, mavi **VI** (bərabər).
+Ad hələ tapılmayıb; istifadəçiyə göndərildi.
