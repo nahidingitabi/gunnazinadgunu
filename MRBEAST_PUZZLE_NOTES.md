@@ -10777,3 +10777,44 @@ kartonu**dur (TAN2.png).
 ⚠ **D parçası «eynək» deyil, ehtimalla KƏPƏNƏKdir**: dörd simmetrik lob və
 ortada nazik gövdə görünür; eynəkdə iki linza + düz körpü olardı.
 `BUTTERFLY`(9) → qırmızı[5]=**E**, mavi[7]=**F**.
+
+## ★★★★★ 2026-09-07 — TARİX MODELİ NƏHAYƏT ÖLDÜ (statistik, ad tələb etmir)
+
+Qeydlərdə tarix modeli (**qırmızı = ay, mavi = gün**) uzun müddət «nə təsdiqlənə,
+nə təkzib edilə bilər» kimi qalmışdı. Amma onun heç kimin yoxlamadığı bir
+proqnozu var: **ayın günü 1…31 arasına yayılmalıdır.**
+
+Məlum 13 mavi rəqəm: **1, 4, 4, 5, 5, 6, 7, 8, 8, 9, 9, 11, 14**
+
+- **Hamısı ≤ 14.** 1…31 bərabər paylanmada bunun ehtimalı **3.3 × 10⁻⁵**.
+- Orta **7.00**, gözlənilən **16.0** → **z = −3.63**.
+
+⛔ **Mavi rəqəmlər ayın günü OLA BİLMƏZ.** Model ölür.
+(Qırmızı ay kimi problemsizdir — orta 6.14, gözlənilən 6.5, z = −0.39 — amma
+model üçün hər iki yarım lazımdır.)
+
+★ Eyni məlumat **hərf-indeksi modelinə mükəmməl oturur**: ~11–13 hərflik adlarda
+indeks kimi hər iki rəngin z-i |z| ≤ 1.2. Yəni rəqəmlərin böyüklük paylanması
+hərf-indeksi oxunuşunun **müstəqil, addan asılı olmayan dəstəyidir**.
+
+⚠ ABŞ bayrağı parçasının VII·IV = **4 iyul** oxunuşu tarix modelinin yeganə
+birbaşa dayağı idi: 13 parçadan birində təsadüf. Hərf modelində də
+`AMERICANBARN`[7]=**A**, [4]=**R** problemsiz alınır.
+
+Alət: `tools/pieces/datetest.py`.
+
+## Şəkillər Twemoji DEYİL — yoxlandı
+
+32 Twemoji 72×72 aktivi endirildi (`TWESHEET.png`) və parça şəkilləri ilə
+(`PIECEPIX.png`) müqayisə olundu:
+
+| parça | Twemoji | uyğunluq |
+|---|---|---|
+| qar buludu | `1f328` boz-ağ bulud + mavi qar dənəcikləri | ✗ parçada bulud **açıq mavi** |
+| sütun diaqramı | `1f4ca` boz şəbəkə fonu, yaşıl/qırmızı/mavi sütunlar | ✗ parçada **fon yoxdur**, sütunlar çəhrayı/sarı/yaşıl + ayrıca **qara aşağı ox** |
+| bant/kəpənək | `1f380` dolu qırmızı bant | ✗ parçada **dolğusuz qara kontur** |
+| tövlə | Twemoji-də tövlə emojisi **yoxdur** | ✗ |
+| düzbucaq | `1f7e5` parlaq qırmızı **kvadrat** | ✗ parçada tünd kərpic rəngli **portret düzbucaq** |
+
+⛔ Deməli adlar CLDR emoji adları deyil — şəkillər adi klipart/vektor
+ikonlarıdır və adlandırma yalnız təsvirlə mümkündür.
