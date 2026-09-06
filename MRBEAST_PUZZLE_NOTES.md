@@ -6572,3 +6572,40 @@ vendordan asılı deyil) — yalnız **tanımaq** üçün lazımdır.
 panel yoxdur**; yalnız yuxarı/aşağı arasında zəif ton fərqi var.
 Bu, qapını **istisna etmir** (22×47 px-də xırda detal həll olunmur), amma
 təsdiq də etmir. `#7` adsız qalır.
+
+## #14-ün sol forması: 125 nişanlıq süzgəc — və bir metodik düzəliş
+
+125 emoji nişanı rəsmlərlə **eyni üsulla** ölçüldü (siluet, uzun ox, en profili,
+uzanma, solidity, orta a\*/b\*).
+
+**Birinci süzgəc səhv idi.** «uzanma 2.30–3.00 VƏ solidity ≥0.92» qoydum, 3 nişan
+qaldı (🌭 2.50/0.98 · 🥒 2.84/0.93 · 🧪 2.94/1.00). Amma:
+
+> **Uzanma poza-invariant DEYİL.** Kart əyilib; ön-qısalma bir oxu sıxır.
+> **Solidity isə sahələr nisbətidir** — affin çevrilməyə qarşı davamlıdır.
+
+Yəni uzanmaya görə sərt süzgəc **haqsız yerə namizəd atır**. Düzəliş: yalnız
+**solidity + rəng** süzgəci, uzanma isə kontekst kimi.
+
+### Düzgün süzgəc: solidity ≥ 0.93 və isti rəng
+
+125-dən **44-ü** solidity şərtini keçir; onlardan **isti** olanlar:
+
+```
+🌭 hot dog 2.50/0.98   🥖 baguette 4.29/0.99   🖍 crayon 3.93/0.97
+🖊 pen 3.95/0.93       🚪 door 1.72/1.00       🧱 brick 1.77/0.97
+🥩 meat 1.67/0.94      🍫 chocolate 1.63/0.95  🥔 potato 1.59/0.96
+🥚 egg 1.48/0.98
+```
+
+**Heç biri təsdiq deyil.** Formaca ən yaxını 🌭 (solidity 0.98 ≈ 0.97,
+uzanma 2.50 ≈ 2.63, iki ucu yumru, düz onurğa) — amma **ton düzülüşü tərsdir**:
+hot dog **açıq gövdə + tünd detal**, rəsm isə **tünd gövdə + parlaq qızılı ləkə**
+(yuxarı-sağda, təxminən 35% dərinlikdə). `C14.png`-də üç vendorda yan-yana.
+
+**Nəticə: 125 namizəddən heç biri uymur.** Bu, mənfi nəticədir, amma
+əsl nəticədir: forma **adi əşya emojisi olmaya bilər**, ya da namizəd dəstim
+onu əhatə etmir (~3600 emoji var, mən 125-ə baxdım).
+
+**Diqqət:** «uzanma 2.63» rəqəmini bundan sonra **sərt süzgəc kimi işlətmə** —
+kartın əyilməsi onu dəyişir. Solidity 0.97 və düz onurğa etibarlıdır.
