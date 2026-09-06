@@ -4568,3 +4568,27 @@ oxunmayan 3 parçadan biri boş ola bilər — ona görə tam bağlamıram.
 
 Praktik nəticə: **hansı model doğrudursa da, şəkillərin adları lazımdır.**
 Kritik yol dəyişmir.
+
+---
+
+## 2026-09-06 03:00Z — 15-ci parçanın ŞƏKLİ açıldı (rəqəmləri yox)
+
+`sp_15.json`-da kanon 620×840, dördbucaq isə 33.2×43.2 idi → S faktiki olaraq
+**18.7** olmalı ikən render 4 ilə işlədilmişdi, yəni aşağı ayırdetmə şəbəkəsi
+doğma ölçüdən **4.7× böyük** idi. Bu, IBP-ni **küruşa uyğunlaşdırır** (noise fitting).
+
+Kanon 528×688, S=16 (şəbəkə 33×43 = doğma ölçü) ilə yenidən render etdim.
+**Şəkil indi görünür.** Əvvəl ümumiyyətlə forma yox idi.
+
+Forma: yuxarıda **iki zirvə** (sol zirvə hündür, sağ alçaq, aralarında çuxur),
+aşağıya doğru daralıb **nöqtəyə** bitir. Uzanma **2.54**, solidity **0.88**.
+`tools/pieces/P15_SHAPE.png` — təmiz kontur.
+Ad bilinmir (köpəkbalığı üzgəci? yarpaq? xəritə? pişik başı?).
+
+**Rəqəmlər açılmadı**: sol tərəfdə iki tünd ləkə var, amma ştrix quruluşu yoxdur;
+yuxarı sağ boşdur. Bu kartda bir rəqəm ~6×8 doğma pikseldir.
+→ 15-ci parçanın rəqəmləri **oxunmaz olaraq qalır**.
+
+**Ümumi dərs (üçüncü dəfə təsdiqləndi):** IBP-də aşağı ayırdetmə şəbəkəsi
+parçanın **doğma piksel ölçüsünə bərabər** olmalıdır. Böyük olsa küy artır,
+kiçik olsa məlumat itir. `canon/S ≈ dördbucağın piksel ölçüsü`.
