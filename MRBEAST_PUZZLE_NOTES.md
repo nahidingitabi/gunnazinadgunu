@@ -5725,3 +5725,36 @@ dəstdə təqvim şəkli var, 12 cütün hamısı fərqlidir.
 
 → **Tarix modeli indi əvvəlkindən xeyli zəifdir.** Hələ də ən yaxşısıdır,
 amma "July?" dəlilini bir daha istinad kimi işlətmək olmaz.
+
+---
+
+## 2026-09-06 09:15Z — Tarix OLMAYAN modellər sınandı: dördü də düşdü
+
+"July?" dayağı düşdüyünə görə alternativ modelləri sistematik yoxladım.
+Ölçülmüş cütlər (qırmızı, mavi), təqvim düzəlişindən sonra:
+
+`(2,11) (2,4) (4,8) (5,7) (6,5) (6,6) (6,8) (7,1) (7,4) (8,9) (9,5) (10,14)`
+
+| model | yoxlama | nəticə |
+|---|---|---|
+| **A. mavi = cavabdakı mövqe** | mavi dəyərlərdə **təkrar var**: 4, 5, 8 ikiqat | ✗ mövqe təkrarlana bilməz |
+| **B. qırmızı+mavi birlikdə 1..15-i iki dəfə örtür** (15×2 = 30) | hələ 12 parça sayılıb, amma **6 artıq 4 dəfə**, 4/5/7/8 isə 3 dəfə görünür | ✗ artıq həddi aşıb |
+| **C. mavi = hərf indeksi (A=1…Z=26)** | maks mavi = **14** → bütün hərflər **A–N** aralığında olmalıdır | ✗ hər namizəd cavabda N-dən sonrakı hərf var: ZENITH→T,Y,Z · FOREST→O,R,S,T,Y · PEARLOFTHENORTH→O,P,R,T |
+| **D. qırmızı→mavi kənarları bir zəncir/dövr qurur** | 6-nın çıxış dərəcəsi **3**-dür (6→5, 6→6, 6→8) və **6→6 öz-üzərinə ilgəkdir** | ✗ zəncir ola bilməz |
+
+**C-nin uğursuzluğu xüsusilə məlumatlıdır:** nə mavi (maks 14 → A–N), nə də
+qırmızı (maks 10 → A–J) **birbaşa hərf ola bilməz** — çünki bütün namizəd
+cavablarda "T" var.
+
+### Nəticə: tarix modeli **eliminasiya ilə** sağ qalır
+
+Rəqəmlər birbaşa hərf vermir və tək başına sıralama da vermir (təkrarlar).
+Amma **(qırmızı, mavi) CÜTÜ 12 parçada təkrarsızdır** — və qırmızı ≤ 12,
+mavi ≤ 31 olan, təkrarsız olmalı olan cüt üçün ən təbii oxunuş **tarixdir**.
+
+Yəni tarix modeli artıq **xarici dəlillə deyil, alternativlərin düşməsi ilə**
+dayanır. Bu, fərqli bir statusdur — qeydə alıram:
+- **lehinə:** cütün təkrarsızlığı, hər iki diapazon, hər rəngdəki təkrarlar,
+  dəstdə təqvim şəklinin olması
+- **əleyhinə:** 12 mavi dəyərin hamısı ≤ 14 (p ≈ 7×10⁻⁵), və "July?" dayağının
+  əslində qutunun maliyyə ili etiketi olması
