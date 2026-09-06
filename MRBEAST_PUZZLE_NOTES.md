@@ -8233,3 +8233,37 @@ parçaların üstündəki hər hansı yazı, otaqdakı ad lövhəsi.
 ⚠ Diqqət: hədəf ad **ən azı 14 hərf** olmalıdır (mavi XIV=14).
 `COLIN SANDERS` = 12 ✗ · `DOCTORXOR` = 9 ✗ · `JIMMY DONALDSON` = 14 ✓ ·
 `LONE SHARK GAMES` = 14 ✓ · `MRBEAST YOUTUBE` = 14 ✓
+
+## ✗ QUTULARIN ÜZƏRİNDƏ AD YOXDUR
+
+`BOXTEXT.png`: qutular adi «bankers box»-dur, üzərində çap olunmuş
+`CONTENTS ___ / FROM ___ / DEPT. ___` sahələri **boşdur** — heç bir ad
+yazılmayıb. MrBeast-in 0:13.6-da daşıdığı qutuda «PUZZLE CLUES» yazısı var,
+amma o da ad deyil. **Bu istiqamət bağlandı.**
+
+# ★★ MƏNTİQİ NƏTİCƏ: «BİR PARÇA = BİR HƏRF» MODELİ YENİDƏN CANLIDIR
+
+13.2-də bu modeli **üç testlə** rədd etmişdim. İndi hər üçünə baxıram:
+
+| təkzib | əsası | vəziyyət |
+|---|---|---|
+| «(3 6 4)-də 4-cü və 11-ci simvol boşluqdur, orada isə dolu şəkil var» | cavab (3 6 4)-dür | **LƏĞV** — (3 6 4) köhnə tapmacanındır |
+| «ilk hərflər B, U, J, A verir; THE FOREST CITY-də bunlar yoxdur» | cavab THE FOREST CITY-dir | **LƏĞV** |
+| «heç bir parça boş deyil, halbuki ikisi boşluq olmalıydı» | cavab (3 6 4)-dür | **LƏĞV** |
+
+⇒ **Hər üç təkzib eyni, indi geri götürülmüş fərziyyəyə söykənirdi.
+«Bir parça = bir hərf» modeli yenidən açıqdır.**
+
+Üstəlik köhnə sənəddəki **GC10** məhz bu modeldir:
+> «16 pieces, each of which contains a letter. The pieces go together to spell
+> **JIMMY'S BIRTHPLACE**» → Wichita, Kansas.
+
+`JIMMYSBIRTHPLACE` = **16 hərf = 16 parça**. Bizdə **15 parça** var ⇒
+gözlənilən çıxış **15 hərfli bir ifadə**, özü də **suala bənzər** və bir
+**yerə** aparan (məsələn `WHEREDIDIGROWUP`, `COLINSBIRTHDAY`…).
+
+Bizim parçalarda hərf yazılmayıb — deməli hərf **çıxarılmalıdır**:
+(a) rəsmin adının baş hərfi, (b) rəqəmin rəsmin adına indeksi,
+(c) rəqəmin alfanumerik qarşılığı. Üçü də yenidən sınanmalıdır — bu dəfə
+**hədəf sətir naməlum** olduğu üçün «filan sözə uyğun gəlmir» arqumenti
+istifadə edilə bilməz.
