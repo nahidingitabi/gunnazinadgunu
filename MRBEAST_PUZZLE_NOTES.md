@@ -5797,3 +5797,26 @@ Amma əlimdə 05.09.2026 04:36-a qədər olan **1500 şərhlik** çəkiliş var
 
 → **İcma hələ tapmacanın mexanikasına toxunmayıb.** Nə rəqəmləri, nə kartları
 müzakirə edən var. Yəni biz geridə deyilik — **irəlidəyik**.
+
+---
+
+## 2026-09-06 09:40Z — `TRIANGLES.png`: hər adsız şəkil BÜTÜN bucaqlardan yan-yana
+
+Adı bilinməyən 7 şəkli, hər birini onu göstərən **bütün kadrlardan** kəsib
+yan-yana qoydum (`tools/pieces/TRIANGLES.png`). İki-üç müstəqil baxış bucağı
+formanı üçölçülü təsəvvür etməyə kömək edir.
+
+### ⚠ Dürüst qeyd: siluet KİÇİK ölçüdə yenə Afrikaya oxşayır
+
+Bu vərəqdə kiçik ölçüdə baxanda #3-dəki qara forma **açıq-aydın Afrika kimi
+görünür** — yuxarı-solda qabarıq, ortada çuxur, aşağıda daralma.
+
+Amma tam böyütmədə, kontur çəkilmiş halda (`SIL_MASKCHK.png`) ölçü budur:
+**14 × 32 doğma piksel, uzanma 2.87–2.98** (üç astanada eyni), altda **yumru
+pəncə**. Afrikanın çəkilmiş silueti təxminən **1 : 1.05**-dir və aşağısı
+**nöqtə** ilə bitir (Qərbi Burun), yumru pəncə ilə deyil.
+
+Yəni: **ölçmə "Afrika deyil" deyir, gözüm kiçik ölçüdə "Afrikadır" deyir.**
+Bunu dörd dəfə yoxlamışam və hər dəfə ölçmə eyni çıxıb. Ziddiyyəti olduğu kimi
+qeyd edirəm — istifadəçi bu şəkilləri məndən yaxşı oxuyur və onun oxunuşu
+ölçmədən üstün ola bilər (əvvəl də üç etiketimi düzəldib).
