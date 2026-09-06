@@ -5325,3 +5325,28 @@ bel** → daha enli aşağı hissə → altda yumru pəncə.
 kegli, və ya **uzun ölkə xəritəsi** — Vyetnam (enli şimal, çox dar mərkəz, enli
 cənub, ~3:1) bu quruluşa yaxşı uyğun gəlir; İtaliya, İsveç, Malavi də mümkündür.
 **Ad hələ bilinmir**, amma ölçü artıq mübahisəsizdir.
+
+### 15-ci parçanın şəkli: xam kadrda ölçü təsdiqləndi
+
+Ofis çəkilişinin (hcache_office, 283 kadr) **ən kəskin kadrını** tapdım:
+**t = 19.904** (Laplasian variansı 237.5). Şəkli dar pəncərədə 40× böyüdüb
+üç astana ilə ölçdüm (`P15_MASKCHK2.png`):
+
+| astana | minAreaRect | uzanma | solidity |
+|---|---|---|---|
+| 20% | 18.3 × 7.5 | **2.45** | 0.88 |
+| 30% | 19.4 × 8.2 | **2.36** | 0.91 |
+| 40% | 20.5 × 8.9 | **2.30** | 0.92 |
+
+Render əsaslı əvvəlki ölçmə (uzanma **2.54**, solidity **0.88**) ilə uyğundur —
+**iki müstəqil yol eyni nəticəni verir**. Şəkil təxminən **19 × 8 doğma piksel**.
+
+Forma: yuxarıda **iki dayaz zirvə**, aşağıya doğru **nöqtəyə** daralır,
+solidity ~0.9 (yəni dərin girinti yoxdur).
+Namizədlər: yarpaq, lələk, alov, ox ucu, damla, üzgəc. **Ad bilinmir.**
+
+**Qeyd — ilk cəhd səhv sahəni tutdu:** maska kartın üstündəki **tünd fonu**
+seçmişdi (`P15_MASKCHK.png`), çünki kamera bu keş boyu hərəkət edir və
+dördbucağın gözlədiyi yerlə bu kadrdakı yer üst-üstə düşmür. Maskanı çəkib
+gözlə yoxlamasaydım, bunu görməzdim. **`colorbox`/maska-çəkmə vərdişi
+işə yarayır.**
