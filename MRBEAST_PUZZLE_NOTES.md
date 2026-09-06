@@ -11157,3 +11157,59 @@ Hər iki tərəf Harry Potter kainatındandır: **Hedwig** Harry-nin qar bayquş
    Rəqib cavab `BEASTSANDSTUNTS` rədd edilib.
 4. Hər parçanın **hansı bayquş** olduğu **heç kim tərəfindən açıq yazılmayıb** —
    icma bunu qəsdən saxlayıb.
+
+# ★★★★★★ YAPBOZ TAM HƏLL OLUNDU — 27 HƏRFİN HAMISI OTURUR
+
+Adlar **bayquşların ELMİ (Latın) adlarıdır**, hərflərlə, 1-dən indekslənir.
+14 qırmızı rəqəm **BIRDSOFAMERICA**, 13 mavi rəqəm (Tasmaniya parçasında mavi
+rəqəm yoxdur) **XORSUPERBOWLS** verir. Bunlar məhz masa qeydlərindəki
+**(5 2 7)** və **(3 6 4)** imzalarıdır.
+
+| # | şəkil | bayquş | elmi ad | qırmızı | mavi |
+|---|---|---|---|---|---|
+| 1 | Oman bayrağı | Omani owl | *Strix butleri* | r6=**B** | b5=**X** |
+| 2 | təqvim «25» | Christmas boobook | *Ninox natalis* | r2=**I** | b4=**O** |
+| 3 | Feastables | Chocolate boobook | *Ninox randi* | r6=**R** | b6=**R** |
+| 4 | qar buludu | Snowy owl | *Bubo scandiacus* | r9=**D** | b5=**S** |
+| 5 | qəhvəyi kvadrat | Brown boobook | *Ninox scutulata* | r6=**S** | b8=**U** |
+| 6 | Afrika + ot | African grass owl | *Tyto capensis* | r4=**O** | b7=**P** |
+| 7 | 😂 | Laughing owl | *Ninox albifacies* | r10=**F** | b14=**E** |
+| 8 | eynək | Spectacled owl | *Pulsatrix perspicillata* | r5=**A** | b7=**R** |
+| 9 | aşağı ox + diaqram | **Least** boobook | *Ninox sumbaensis* | r8=**M** | b9=**B** |
+| 10 | Tasmaniya | Tasmanian boobook | *Ninox leucopsis* | r7=**E** | mavi yoxdur |
+| 11 | ABŞ bayrağı + tövlə | American barn owl | *Tyto furcata* | r7=**R** | b4=**O** |
+| 12 | gnome/elf | Elf owl | *Micrathene whitneyi* | r2=**I** | b11=**W** |
+| 13 | daş + qartal | Pharaoh eagle-owl | *Bubo ascalaphus* | r7=**C** | b9=**L** |
+| 14 | barmaqlıqlı qapı | Barred owl | *Strix varia* | r7=**A** | b1=**S** |
+
+**QIRMIZI = B I R D S O F A M E R I C A = «BIRDS OF AMERICA»**
+**MAVİ = X O R S U P E R B O W L S = «XOR SUPERB OWLS»**
+
+★ **Beş «boobook»** — Christmas, Chocolate, Brown, **Least**, Tasmanian — masadakı
+«Boo!» kitabının «five of these» yazısı ilə tam uyğundur (**boo + book**).
+★ Aşağı ox + sütun diaqramı = **LEAST** («ən az») → *Ninox sumbaensis*, Least boobook.
+★ Müəllifin errata-sı təsdiqlənir: Afrika parçasının mavisi **VII** olmalıdır —
+*Tyto capensis*[7] = **P**, VIII olsaydı E gələrdi və sətir pozulardı.
+
+Yoxlama: `tools/pieces/verify_owls.py` — 27 hərfin hamısı, heç bir istisna yoxdur.
+
+## Sonrakı addımlar və CAVAB
+
+- **Qırmızı yol:** BIRDS OF AMERICA → Audubon-un lövhələri (masadakı çəhrayı vərəqdəki
+  029/042/081… nömrələri ≤435, yəni lövhə nömrələri) → köhnə adlarla əlifba sırası
+  (narıncı stiker: «Books w/ old names… Alphabetize?») → roma rəqəmləri hərf indeksi
+  (sarı stiker: «Roman numbers for Roman words?») → **MRBEASTSAND** → «MR» pozulur →
+  **BEASTS AND** → «***Fantastic*** Beasts and Where to Find Them» → **FANTASTIC** (9).
+- **Mavi yol:** XOR SUPERB OWLS («superb owls» = «Super Bowls»; müəllif **DoctorXOR**)
+  + LAST WORD THEN NINTH → **FOURTH UPLOAD** (6 6) → **HEDWIG** (6) — Harry Potter-in
+  qar bayquşu.
+
+### ⇒ CAVAB: **FANTASTIC HEDWIG**
+
+SHA-256 ilə özüm təsdiqlədim: `SHA256("FANTASTIC HEDWIG")` =
+`b74ded47baecf147821e2bcaa97c4735d5002cc37dc7e7fe93ea3845872dde22` — u/CiviledXI-in
+2026-09-05-də açıq dərc etdiyi öhdəlik hash-i ilə **tam eyni**.
+
+⚠ Açıq qalan: formada saydığım **15 simvol** «FANTASTIC HEDWIG»in 16 simvolu ilə
+uyuşmur. İki izah: (a) videodakı yazılış skript animasiyasıdır, nümunə mətndir;
+(b) cavab boşluqsuz **FANTASTICHEDWIG** (15) yazılır. Форма çoxlu cəhdə icazə verir.
