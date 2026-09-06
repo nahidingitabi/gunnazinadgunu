@@ -4980,3 +4980,41 @@ siyahının **başına** keçir).
 | **pəncərə** | **heç bir rəqəm tapılmadı** — qeydlərdəki "rəqəmləri qonşu kartın altındadır" ilə uyğundur ✓ |
 
 Heç bir kartda qırmızı/mavi təyinatı ziddiyyət vermədi.
+
+---
+
+## 2026-09-06 05:05Z — ★ Parçaların KƏNAR PROFİLLƏRİ fərqlidir (yeni sıralama açarı ola bilər)
+
+Yeni fikir: parçalar əsl **puzzle** parçalarıdır. Əgər kənar profilləri fərqlidirsə,
+onlar yalnız müəyyən ardıcıllıqla birləşir — və bu, **tarixlərdən asılı olmayan
+müstəqil sıralama açarı** verər. 15 parça, 15 simvol.
+
+Kənarları 13× böyüdüb yan-yana qoydum (`tools/pieces/EDGES.png`). Profillər
+**həqiqətən fərqlidir**:
+
+| kart | sol kənar | sağ kənar |
+|---|---|---|
+| ABŞ bayrağı | **3 iti üçbucaq diş** | hamar yumru qabarıq |
+| təqvim | düz | **pilləli oyuq** (puzzle dili) |
+| iki obyekt | **yumru dil (tab)** | dalğalı |
+| qar buludu | yumru qabarıq | **oyuq/dişli** |
+| siluet | düz/yumru | **dişli** |
+| 😂 | **dişli** (yuxarı-sol) | — |
+
+Yəni "bir tərəfi mişar dişi, o biri tərəfi yumru" **hamısında eyni deyil** —
+dişlərin sayı, forması (iti üçbucaq / yumru dil / pilləli) və tərəfi dəyişir.
+
+### Nə ALINMADI
+
+Kartların konturunu avtomatik çıxarmağa çalışdım (`(b*<16)&(L>135)` maskası,
+xam kadr). **Alınmadı**: maska parçalanır — kartın içindəki şəkillər maskanı
+kəsir, işıqlanma dəyişir. `CARDSHAPES.png`-də 7 kartın maskası göstərilib,
+hamısı yararsızdır. → Diş sayını **avtomatik** saymaq bu ayırdetmədə mümkün deyil;
+yalnız gözlə, böyüdülmüş xam kadrdan.
+
+### Vəziyyət
+
+Bu, **yoxlanmamış yeni istiqamətdir**. Üstünlüyü: tarix modelindən asılı deyil və
+oxunmayan 3 parçanın rəqəmlərinə ehtiyac yoxdur — yalnız kənarların formasına.
+Çətinliyi: kartlar 50×70 pikseldir, və qonşu kartlar üst-üstə düşür, ona görə
+kənarların bir hissəsi görünmür.
