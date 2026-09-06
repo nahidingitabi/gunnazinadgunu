@@ -8894,3 +8894,57 @@ SƏTİR A = ALGIERS   ✓      SƏTİR B = ALGERIA   ✓
 
 **Bu, sessiyanın ən böyük tapıntısıdır** — indiyə qədərki bütün "ad namizədi"
 cəhdlərim səhv sinifdə idi (obyektin öz adını götürürdüm; əslində assosiativ ad lazımdır).
+
+## ⇒ TAPMACANIN TAM MODELİ (ilk dəfə uçdan-uca)
+
+GC8 + Colin-in öz ipucusu + icmanın vəziyyəti bir yerə oturur:
+
+1. **Parçaları tap.** Colin: *"The jigsaw puzzle in MrBeast's video. **The first thing you
+   should do is look for a jigsaw puzzle.**"* → 15 kart, "PUZZLE CLUES" qutularının üstündə.
+2. **Hər şəklin ƏLAQƏLİ ADINI tap** (obyektin adını yox — GC8-dəki ANNE RICE / AMERICAN
+   CHEESE / DALLAS MAVERICKS üslubunda).
+3. **Rəqəmləri həmin ada indeksə**: qırmızı → bir hərf, mavi → bir hərf.
+4. **Sırasını yapbozu YIĞMAQLA tap.** ← Colin: yığma = *execution*; cavab *extraction*-dan.
+   ★ İzləyici şərhi bunu təsdiqləyir: *"**closed-loop solution! Just figuring out the
+   order**"* — yəni icma da məhz bu nöqtədədir: hərflər var, sıra yoxdur.
+5. **Qırmızı hərflər ŞƏHƏRİ, mavi hərflər ÖLKƏNİ (ABŞ/Kanadada ştatı) yığır**,
+   ikisi **eyni uzunluqda**.
+
+### ⚠ Bunun ləğv etdiyi şeylər
+
+- **"Qırmızı = ay, mavi = gün" (tarix) oxunuşu artıq lazım deyil və çox güman səhvdir.**
+  15 "tarix" siyahısı, xronoloji sıralama və ondan çıxan bütün nəticələr — hamısı
+  bu modeldə **yersizdir**. (Rəqəmlərin 1–14 diapazonu tarixlə deyil, **ad uzunluqları**
+  ilə izah olunur.)
+- Bütün əvvəlki "ad namizədi" cəhdlərim **səhv sinifdə** idi: obyektin öz adını
+  (`BUTTERFLY`, `CLOUD WITH SNOW`, `FLAG OMAN`) götürürdüm. Lazım olan **assosiativ addır**.
+
+### İlkin assosiativ ad namizədləri (yoxlanmayıb)
+
+| kart | (qırmızı, mavi) | assosiativ ad namizədi | uzunluq şərti |
+|---|---|---|---|
+| Afrika siluet + yaşıl bitki | (4, 8) | **AFRICAN VIOLET** (13) | ✓ |
+| yaşıl şiş papaqlı fiqur | (2, 11/12) | ELF ON THE SHELF (13) / GARDEN GNOME (11) | ✓ |
+| sarı kart (şəkli gizli) | (7, 1) | **YELLOW CARD** (10) | ✓ |
+| Feastables batonu | (6, 8) | **FEASTABLES** (10) | ✓ |
+| 😂 | (10, 14) | FACE WITH TEARS OF JOY (18) | ✓ |
+| təqvim "25" | (2, 4) | ADVENT CALENDAR (14) / CHRISTMAS | ✓ |
+| daş + keçəl qartal | (?, ?) | EAGLE ROCK / ROCK EAGLE | — |
+| ürək formalı tünd fiqur | (?, ?) | QUEEN OF HEARTS / BLEEDING HEART | — |
+| ↓ ox + artan sütunlar | (8, 9) | STOCK MARKET (11) | ✓ |
+| qar buludu | (9, 5) | SNOWSTORM (9) / ? | sərhəddə |
+| bant 🎀 | (5, 7) | ⚠ `RIBBON`(6) DÜŞÜR (mavi 7 > 6) ⇒ ad ≥7 hərf olmalıdır |
+| Oman bayrağı | (6, 5) | ? | — |
+| ABŞ bayrağı + tövlə | (7, 4) | AMERICAN GOTHIC (14)? | ✓ |
+| iki obyekt (paz + qapaqlı çubuq) | (6, 6) | ? | — |
+| iki panelli çərçivə | (?, ?) | ? | — |
+
+★ Diqqət: **`RIBBON` düşür** — mavi VII=7 adın uzunluğunu aşır. Bu, mexanizmin
+**real filtr** verdiyinin ilk nümunəsidir: hər namizəd ad `max(qırmızı, mavi)`-dən
+uzun olmalıdır.
+
+### GC8-in "açar sözü" — bizdə hansıdır?
+
+GC8-də adları seçən qayda var idi: *hər ad **ERIC** hərflərini ehtiva edir*.
+Bizdə analoji açar hələ tapılmayıb. Namizədlər: **JIMMY**, **BEAST**, **COLIN**,
+**XOR**, **MRBEAST**. Bunu tapmaq adların hamısını bir anda təsdiqləyərdi.
