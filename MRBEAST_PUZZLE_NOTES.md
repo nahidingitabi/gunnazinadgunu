@@ -9202,3 +9202,18 @@ Bu oxunuşla alınan hərflər: `bar chart`→**T**, `down arrow`→**W**, `snow
 
 ⇒ İki kart (**Oman bayrağı** və **yaşıl papaqlı fiqur**) emoji adı ilə **prinsipcə** işləmir.
 Deməli ya adlandırma emoji adı deyil, ya da o iki kartın şəkli səhv oxunub.
+
+### ⛔ ...və "rəqəm = adın uzunluğu" fərziyyəsi DƏRHAL DÜŞDÜ
+
+Yuxarıdakı naxışı genişləndirməyə çalışdım və özümü tutdum: adları **rəqəmə uyğun
+gəldiyi üçün seçirdim** — bu, dairəvi mühakimədir.
+
+**Nəzarət:** əgər rəqəm adın uzunluğudursa, onda
+- **2-ci kartın mavi rəqəmi I = 1** ⇒ **bir hərfli ad** lazımdır — mümkün deyil;
+- **1-ci kartın qırmızı rəqəmi II = 2** ⇒ **iki hərfli ad** lazımdır — mümkün deyil.
+
+⇒ Qayda **öz nəzarətindən keçmir**. `bar chart`/`down arrow`, `snowflake`/`cloud`,
+`America`/`barn` uyğunluqları **mənim ad seçimimin artefaktıdır**, dizayn qaydası deyil.
+
+**Qüvvədə qalan:** GC8-in orijinal qaydası — rəqəmlər **hərf indeksidir**, ad isə
+`max(qırmızı, mavi)`-dən uzun olmalıdır. Bu, hələ də bütün kartlarla uyğundur.
