@@ -4207,3 +4207,28 @@ xeyli konkretdir və istifadəçiyə göndərilən atlasda da görünür.
 
 Düzbucaqlının 70% tək rəng olması vacibdir: içində naxış, yazı, detal **yoxdur** —
 tam düz, konturlu bir kərpic rəngli düzbucaqdır.
+
+## 2026-09-06 01:55Z — 15-Cİ PARÇA: ŞƏKİL AÇILDI, RƏQƏMLƏR AÇILMADI (qəti)
+
+Ofis planından **283 kadr** və 26 iterasiya IBP:
+```
+maskalı median  kəskinlik = 0.74
+IBP             kəskinlik = 10.85     → 14.7×  (indiyə qədər ən böyük qazanc)
+```
+Kadr sayı çox olduğu üçün IBP burada ən güclü nəticəni verdi — bu, metodun
+kadr sayı ilə necə yaxşılaşdığını da göstərir.
+
+**Görünən:** ağ parça, **sağ kənarında 3 mişar dişi** (ABŞ bayrağı parçasında
+dişlər SOLDA idi — yəni diş kənarı bütün parçalarda eyni tərəfdə deyil).
+Şəkil: **tünd solid siluet** — yuxarıda **iki uc**, ortada bir qədər genişlənir,
+aşağıda **bir nöqtəyə daralır**. Pişik/tülkü başı? yarasa? qalxan? ox ucu?
+Adlandırmıram.
+
+**Rəqəmlər: 283 kadrdan sonra da oxunmur.** Xromanı 60 vahidə qədər gücləndirib
+ayrıca çıxardım (`P15_NUM.png`) — yalnız iki solğun ləkə görünür, forma yoxdur.
+Bu parça ofis planında cəmi **~31×42 piksel**dir və başqa planda görünmür.
+→ **1080p-də bu parçanın rəqəmləri prinsipcə oxunmazdır.** Bunu bağlı sual
+sayıram, daha vaxt sərf etmirəm.
+
+Deməli tarix modelinin "qalan üç parça yanvar/noyabr/dekabr gətirməlidir"
+proqnozu **ən azı bu parça üçün sınana bilməz**.
