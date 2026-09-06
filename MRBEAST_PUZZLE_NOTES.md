@@ -3909,3 +3909,32 @@ sıralandıqdan sonra bir simvol verir. Hansı simvolu verdiyi hələ məlum dey
 hər iki rəqəm tarixə sərf olunduğu üçün hərf indeksi qalmır, yəni simvol
 **şəklin özündən** gəlməlidir (adının baş hərfi, yaxud şəklin bildirdiyi
 gün/bayramın adı). Bunu şəkil adları dəqiqləşəndən sonra sınayacağam.
+
+## 2026-09-06 00:32Z — SINAQ: RƏQƏMLƏR VİDEO VAXTI DEYİL (RƏDD)
+
+Tarix oxunuşunun yanında ikinci, daha cazibədar variant vardı: **dəqiqə:saniyə**.
+Diapazonlar buna da uyurdu (qırmızı 2…10 = dəqiqə, mavi 1…14 = saniyə) və video
+17:47 uzunluğundadır, yəni bütün 12 vaxt keçərlidir. Üstəlik yoxlaması asandır.
+
+**Dərhal yoxladım** — 12 vaxtın hamısından kadr çıxardım (`TIMESTAMP_TEST.png`):
+```
+2:11 → əlində qara lövhə   3:04 → sarı-qara zolaqlı otaq   4:08 → söhbət planı
+5:07 → köhnə ovun sxemi    6:05 → söhbət planı             6:08 → söhbət planı
+7:01 → hədiyyə qutusu      7:04 → hədiyyə qutusu           7:06 → hədiyyə qutusu
+8:09 → PAUSE ekranı        9:05 → söhbət planı             10:14 → qırmızı təyyarə
+```
+**Heç biri öz parçasının şəkli ilə uyğun gəlmir** — nə ABŞ bayrağı 7:04-də,
+nə gülən üz 10:14-də, nə qar 9:05-də. 12-dən 12-si düşür. **Rədd edildi.**
+
+Modeli irəli sürdükdən **dərhal sonra** yoxladım və düşdü — bu, düzgün ardıcıllıqdır.
+
+### Tarix modelinin statusu (dürüst qiymətləndirmə)
+Sağ qalır, amma **tək dayağı** ABŞ bayrağı parçasının yanındakı "July?" qeydidir.
+Zəif tərəfi: həmin qutu **arxiv qutusudur** və "July?"/"Jun…" sadəcə qutunun
+içindəkilərin ay etiketi ola bilər — yəni parça ilə əlaqəsi təsadüfi ola bilər.
+Güclü tərəfi: diapazonlar (qırmızı ≤12, mavi ≤31) və hər iki rəngdəki təkrarlar
+tarixlə **tam** uyuşur, başqa heç bir oxunuşla uyuşmurdu.
+
+Ona görə: **aparıcı fərziyyə, sübut deyil.** Növbəti sınaq — qalan üç parçanın
+rəqəmləri: tarix modelidirsə, qırmızıları 1…12, maviləri 1…31 aralığında olmalıdır
+və yeni aylar (yanvar/noyabr/dekabr) gətirməlidir.
