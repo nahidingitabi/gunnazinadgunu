@@ -8267,3 +8267,31 @@ Bizim parçalarda hərf yazılmayıb — deməli hərf **çıxarılmalıdır**:
 (c) rəqəmin alfanumerik qarşılığı. Üçü də yenidən sınanmalıdır — bu dəfə
 **hədəf sətir naməlum** olduğu üçün «filan sözə uyğun gəlmir» arqumenti
 istifadə edilə bilməz.
+
+## ✓ 12-ci KARTIN MAVİ RƏQƏMİ TƏSDİQLƏNDİ: XIV = 14
+
+`C12_BLUE.png` (REF803, 14×): mavi «**XIV**» aydın oxunur (X-I-V), qırmızı «X»
+kartın aşağısındadır. ⇒ **maksimum indeks 14-dür**, deməli hədəf ad ən azı
+14 hərflidir. `COLIN SANDERS` (12) və `DOCTORXOR` (9) **istisna olunur**.
+
+## ✗ GENİŞLƏNDİRİLMİŞ AD SİYAHISI DA BOŞ ÇIXDI
+
+44 ad (Lone Shark kitabları, Beast Travel səhifələri, «FIND A PUZZLE MAKER»,
+«JIMMYS BIRTHPLACE», «TEN THOUSAND DOLLARS», «MRBEAST YOUTUBE LLC» və s.)
+× 7 sıra. Sözlük örtüyü ən yaxşı halda **0.33** (12 hərfdə bir söz) — küy
+səviyyəsi. **Ad indeksi modeli 24/30 rəqəmlə həll olunmur.**
+
+## ✗ BAŞ HƏRF MODELİ — ALTİ MÜƏYYƏN (nə təsdiq, nə təkzib)
+
+276 480 adlandırma kombinasiyası; heç birində ingilis ifadəsi çıxmır.
+Amma **2 parça naməlum, hər rəsmin adı da alternativlidir** — sərbəstlik
+dərəcəsi çox yüksəkdir, ona görə bu, **təkzib deyil**. Qeyd: `words_alpha.txt`
+çox qeyri-adi 3 hərfli sözlər saxlayır; skorlama korpus sözləri ilə
+məhdudlaşdırılmalıdır (edildi).
+
+## → İKİ BLOKLAYICI DƏYİŞMƏDİ
+
+1. **13, 14, 15-ci kartların rəqəmləri** (30 rəqəmdən 6-sı əskik).
+2. **«Hansı ada saymaq lazımdır» göstəricisi** — OP1-də bu, Slack pəncərəsindəki
+   «Find a puzzle maker» mətni idi. Bizim videoda qarşılığı hələ tapılmayıb
+   (qutularda ad yoxdur).
