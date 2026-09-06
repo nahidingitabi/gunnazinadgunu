@@ -7492,3 +7492,129 @@ düzmək üçün), ya da **rəsmləri** göstərir — hərfləri yox.
 
 Qalan yeganə canlı variant: **tarix = sıra**, **rəsm = məzmun**. Yəni 20 rəsmin
 adları lazımdır. 5 rəsm hələ adsızdır (3, 6, 7, 14-sol, 15).
+
+# ★★★ 2026-09-06 səhər — BLOK AÇILDI: TƏSVİR, SANCILMIŞ ŞƏRH VƏ RƏSMİ CAVAB SƏNƏDİ
+
+Gecə boyu "oxuna bilmir" kimi yazdığım hər şey **oxundu**. Əngəl yt-dlp və
+WebFetch idi; adi `curl` + brauzer User-Agent isə işləyir.
+
+```
+curl -H "User-Agent: Mozilla/5.0 ... Chrome/128" "https://www.youtube.com/watch?v=82CX6WULNA0&hl=en"
+→ "shortDescription" JSON-un içindədir.
+```
+
+## 1. Videonun təsviri (tam)
+
+Əsas sətirlər:
+
+```
+Check out our detailed breakdown of the puzzle here: https://mrb.gg/p/puzzle
+See Official Rules at https://puzzle-video-sweepstakes.mrbeast.app/official-rules
+Check out Colin: https://www.youtube.com/@doctorxor   |   https://youtu.be/XCOkRKUe3Nc
+Takes place from 12:00 p.m. ET on 9/2/26 to 11:59 a.m. ET on 9/2/27
+```
+
+## 2. ★★★ SANCILMIŞ ŞƏRH — YENİ TAPMACANIN GİRİŞİ
+
+```
+@MrBeast:  Make sure you check out Colin's profile 👀
+           https://tinyurl.com/xorprofile
+```
+
+**Bu link Colin-in profilinə getmir.** O, CyberChef-ə yönləndirir:
+
+```
+https://gchq.github.io/CyberChef/#recipe=XOR({'option':'UTF8','string':'%H6U=)Z7</#bq'},'Standard',false)
+                                  &input=QWFhYWFBLWFhQWEjIw
+```
+
+Deşifrə:
+
+| sahə | dəyər | uzunluq |
+|---|---|---|
+| **XOR açarı** (UTF8) | `%H6U=)Z7</#bq` | **13 bayt** |
+| input (base64 açılmış) | `AaaaaA-aaAa##` | **13 bayt** |
+| ikisinin XOR-u | `d)W4\hwV]nBAR` | mənasız |
+
+Yəni **verilmiş input həqiqi şifrəmətn deyil** — o, yalnız formanı göstərən
+doldurucu şablondur (`Böyük·kiçik×4·Böyük·defis·kiçik×2·Böyük·kiçik·rəqəm×2`).
+**Açar videodadır; şifrəmətni biz tapmalıyıq.**
+
+⚠ Vacib üst-üstə düşmə: açar **13 baytdır**, əlyazma qeydindəki `(3 6 4)` isə
+**13 hərfdir** (boşluqlarla 15 simvol = formadakı 15 ulduz).
+
+Yoxlanmış və uğursuz olan girişlər (hamısı zibil verir):
+`THEFORESTCITY`, `THEWALLEDCITY`, `THEGARDENCITY`, `THEZENITHCITY`,
+`LONDONONTARIO`, `QUEBECQUEBEC `, `MRBEASTPUZZLE`, `DOCTORXORXORX`.
+Qeyd: açarın 2-ci baytı `H`-dir, ona görə çıxışın 2-ci hərfi `H` olsa,
+input-da yazıla bilməyən NUL alınır → **cavab «THE…» ilə başlamır**
+(yazıla bilən ASCII fərz etsək).
+
+## 3. ★★ 84 SƏHİFƏLİK RƏSMİ CAVAB SƏNƏDİ ƏLDƏDİR
+
+`https://mrb.gg/p/puzzle/file.pdf` (70 MB, 84 səh., 1 sentyabr 2026).
+Köhnə $1M tapmacasının **tam açar sənədi**. Yerli nüsxə: `MDP_ANSWERS.pdf`,
+mətn: `MDP_TEXT.txt`.
+
+Köhnə cavab təsdiqləndi: `R62L39R05L73606623093121200300`.
+
+### Lone Shark-ın üsul lüğəti (yeni tapmaca üçün ən dəyərli hissə)
+
+* «Hər tapmaca **dünyadakı bir yerə** çevrilir — şəhər, məkan və ya coğrafi
+  obyekt.»
+* **MP1–15 = 15 ŞƏKİLLİ REBUS**, hər biri bir **ŞƏHƏR LƏQƏBİ** verir
+  («Oil City → Casper, Wyoming», «City of Winds → Baku, Azerbaijan»).
+  ⇒ Bizim tapmacada da **15 parça** var və hər parçada şəkil(lər) var.
+* **«Trips by Boat»**: bütün cavablar **boş xanalarla** göstərilir, bəzi
+  xanalar nəqliyyat işarəsi ilə əvəzlənir və o işarələr hərfdir; onlar
+  `IN JIMMY'S VAULT FIRST PART STICKS ROAMY RESULTS IN BETWEEN STAGE ONE
+  ANSWER PAIRS LAST PART HE SHOWED AT START` cümləsini yazır.
+  **Mavi vərəqdəki söz uzunluğu qeydi məhz bu janrdandır.**
+* Qlobusda böyük dairələr rəqəm şəklində çəkilir.
+* Hər MP-nin 12 hərfli qəribə başlıq sözü var; sıraya düzüləndə baş
+  hərfləri gizli mesaj verir.
+
+### ★ Yerlərin YAZILIŞ QAYDASI (sənədin öz disklaymeri)
+
+> «Names of locations are given in the format of **city then country**, except
+> in the **United States and Canada**, where **state, province, or territory**
+> is used instead of country.»
+
+## 4. ★★★ QƏTİ TEST — ƏLYAZMA QEYDİ KÖHNƏ TAPMACAYA AİD DEYİL
+
+Sənədin 80-ci səhifəsindəki **91 yer cavabının** hamısını çıxarıb söz
+uzunluqlarına baxdım (nəqliyyat hərfləri düzgün mesajı verdiyi üçün ayrıştırma
+təsdiqlidir):
+
+| qeyddəki naxış | köhnə cavablarda varmı? |
+|---|---|
+| `(3 6 4)` | **YOX — heç biri** |
+| `(4 4 4 5)` | **YOX — heç biri** |
+| `(6 6)` | var — 5 ədəd (BEATTY NEVADA, MANAUS BRAZIL, ITURUP RUSSIA, ANKARA TURKEY, MOSCOW RUSSIA) |
+| `(6)` tək söz | **YOX — heç biri** |
+
+Üstəlik **15 köhnə rebus ləqəbinin heç biri (3 6 4) deyil**.
+
+⇒ **Mavi vərəqdəki `(3 6 4) → (6 ?) → (6)` zənciri köhnə tapmacada mövcud
+deyil.** Bu, «bunlar köhnə dekordur» şübhəsinin **üçüncü müstəqil təkzibidir**
+(əvvəlkilər: 15 ulduz ≠ 30 simvol; köhnə cavabda söz yoxdur).
+
+## 5. ⚠ LONDON OXUNUŞU ÜÇÜN YENİ PROBLEM
+
+Sənədin öz qaydasına görə Kanada şəhəri **əyalətlə** yazılır:
+`LONDON ONTARIO` = **(6 7)**, `(6 6)` DEYİL.
+`LONDON CANADA` yalnız Vikipediya siyahısının konvensiyasıdır, Lone Shark-ın
+deyil. Yeni tapmaca eyni qaydanı saxlayırsa, **FOREST CITY oxunuşu orta
+sətirdə qırılır.**
+
+Həmin qaydaya uyğun gələn namizəd:
+
+> `THE WALLED CITY` (3 6 4) → `QUEBEC QUEBEC` (6 6) → `QUEBEC` (6)
+
+Kvebek şəhəri Meksikadan şimalda divarları qalan yeganə şəhərdir və
+«the walled city» adlanır; əyaləti də Kvebekdir → (6 6). **Təsdiq lazımdır.**
+
+## 6. Növbəti hədəf artıq dəqiqdir
+
+Əvvəl «parçalar nə kodlayır?» sualı açıq idi. İndi konkret hədəf var:
+**videoda 13 simvolluq şifrəmətn tap** — CyberChef açarı onu açacaq.
