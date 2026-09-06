@@ -11213,3 +11213,33 @@ SHA-256 ilə özüm təsdiqlədim: `SHA256("FANTASTIC HEDWIG")` =
 ⚠ Açıq qalan: formada saydığım **15 simvol** «FANTASTIC HEDWIG»in 16 simvolu ilə
 uyuşmur. İki izah: (a) videodakı yazılış skript animasiyasıdır, nümunə mətndir;
 (b) cavab boşluqsuz **FANTASTICHEDWIG** (15) yazılır. Форма çoxlu cəhdə icazə verir.
+
+## Təkliyin yoxlanması — 254 bayquş növünə qarşı
+
+Tam növ siyahısı (`tools/pieces/owllist.txt`, 254 növ) ilə hər mövqedə tələb olunan
+(qırmızı hərf, mavi hərf) cütünü ödəyən növlərin sayı:
+
+| mövqe | şəkil | uyğun gələn növ sayı | seçilən |
+|---|---|---|---|
+| 4 | qar buludu | **1** | *Bubo scandiacus* |
+| 7 | 😂 | **1** | *Ninox albifacies* |
+| 9 | aşağı ox + diaqram | **1** | *Ninox sumbaensis* |
+| 12 | elf | **1** | *Micrathene whitneyi* |
+| 5 | qəhvəyi kvadrat | 2 | *Ninox scutulata* (digəri *N. squamipila*, Seram) |
+| 13 | daş + qartal | 2 | *Bubo ascalaphus* (digəri *Strix ocellata*) |
+| 1 | Oman bayrağı | 3 | *Strix butleri* |
+| 14 | barmaqlıqlı qapı | 4 | *Strix varia* |
+| 6 | Afrika + ot | 5 | *Tyto capensis* |
+| 8 | eynək | 5 | *Pulsatrix perspicillata* |
+| 11 | ABŞ bayrağı + tövlə | 6 | *Tyto furcata* |
+| 3 | Feastables | 14 | *Ninox randi* |
+| 10 | Tasmaniya | 14 | *Ninox leucopsis* |
+| 2 | təqvim «25» | 37 | *Ninox natalis* |
+
+★ Dörd mövqedə **bütün siyahıda yalnız bir növ** oturur. Qalanlarında şəkil özü
+birmənalı seçir (Oman bayrağı → Omani owl, eynək → Spectacled owl, Tasmaniya →
+Tasmanian boobook, 25 → Christmas boobook, qəhvəyi kvadrat → Brown boobook…).
+Təsadüf ehtimalı yoxdur: 27 hərfin hamısı eyni anda oturur.
+
+★ Mənim **rəng ölçmüm haqlı çıxdı**: icma bu parçanı «red square» adlandırırdı,
+mən ölçüb «brown» dedim — düzgün növ **Brown boobook**dur.
