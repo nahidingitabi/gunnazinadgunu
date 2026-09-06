@@ -5125,3 +5125,23 @@ Bu iki cür oxuna bilər:
 Bunu ayırd etmək üçün digər qonşu cütlərin kənarlarını da yoxlamaq lazımdır
 (məs. kəpənək↔düzbucaq, Oman↔siluet, 😂↔qartal). **Bu, növbəti sessiya üçün
 konkret, ölçülə bilən sualdır.**
+
+### Yoxlandı: parçalar qutuların üstündə BİRLƏŞDİRİLMƏYİB — sadəcə ÜST-ÜSTƏ DÜŞÜB
+
+Yuxarıdakı "təqvim oyuğu ↔ iki obyekt dili" təsadüfünü yoxladım: bütün qonşu
+cütlərin birləşmə yerini 24× kəsdim (`tools/pieces/JUNCTIONS.png`):
+təqvim|iki-obyekt, kəpənək|düzbucaq, Oman|siluet, konki|I-VII, I-VII|pəncərə,
+pəncərə|diaqram.
+
+**Nəticə aydındır: hər cütdə bir kart digərinin ÜSTÜNƏ düşür** — kölgə xətti
+üstdəki kartın kənarını izləyir, dişlər bir-birinə oturmur. Yəni:
+
+→ **Qutuların üstündəki düzülüş yığılmış puzzle deyil.** Parçalar sadəcə
+üst-üstə yapışdırılıb. "Təqvimin oyuğu iki obyektin dilinə oturur" görüntüsü
+**örtüşmənin yaratdığı illüziya idi** — geri götürürəm.
+
+**Amma kənar profillərinin fərqli olması faktı qalır** (5 fərqli tip ölçüldü).
+Yəni "kənarlar yığılma sırasını verir" fikri hələ də mümkündür; sadəcə həmin
+sıranı qutulardan **oxumaq olmaz**, formaları bir-birinə uyğunlaşdırmaq lazımdır.
+Və bunun üçün hər parçanın **hər dörd kənarını** görmək lazımdır — hazırda
+örtüşmə səbəbindən bir çoxu görünmür. **Bu, ciddi məhdudiyyətdir.**
