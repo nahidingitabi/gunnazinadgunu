@@ -10889,3 +10889,25 @@ zibili «söz» edir: `AIMED TO LEADING | EOS FDA WHO ROUTE` tipli 20 000+ nəti
 dəqiq adlandırılmasıdır.** Gələcək sessiyalar bu süzgəcləri təkrar qurmasın.
 
 Alətlər: `tools/pieces/feas.c`, `feas527.c`, `joint.c`, `joint2w.py`.
+
+## ⛔ 2026-09-07 — ÖZ ÖLÇÜMÜ DÜZƏLDİRƏM: ÇOX-ÇƏKİLİŞ BİRLƏŞDİRMƏSİ CƏMİ ~1.1×
+
+`multiview.py`: eyni kartı dörd fərqli çəkilişdə (REF803/806/765/767) çoxmiqyaslı
+şablon uyğunlaşdırması ilə tapır, 8× böyüdür, ECC + homoqrafiya ilə üst-üstə salır
+(ECC 0.98–0.995) və ortalayır. Kart müstəvi olduğu üçün homoqrafiya dəqiqdir.
+
+⛔ İlk çap etdiyim «kəskinlik 13 → 100» kimi rəqəmlər **yanlış idi**: kəskinləşdirmə
+filtri yalnız birləşdirilmiş yarıya tətbiq olunurdu, tək çəkilişə yox. Eyni emalı
+hər iki tərəfə tətbiq edəndə həqiqi qazanc:
+
+| parça | tək + kəskinləşdirmə | birləşmiş + kəskinləşdirmə | nisbət |
+|---|---|---|---|
+| twothin | 89.9 | 100.4 | **1.12×** |
+| rect | 36.8 | 41.3 | **1.12×** |
+| frames | 122.7 | 124.9 | **1.02×** |
+| bow | 132.5 | 147.5 | **1.11×** |
+
+Yəni çox-çəkiliş birləşdirməsi **küyü azaldır**, amma **yeni detal vermir**. Səbəb
+görünür ki, REF* şəkillərinin özləri artıq çəkiliş-daxili yığındır — piksel-altı
+müxtəliflik onsuz da istifadə olunub. Bu yol **bağlanır**: görüntü keyfiyyəti
+1080p mənbədə tavana çatıb.
