@@ -10548,3 +10548,20 @@ Süzgəc sözü verilsə, yalnız həmin sözü ehtiva edən qırmızı ifadəl�
 ⚠ Alət **sıranı özü tapmır** — o, yalnız «hər iki sətir mənalıdır» şərtini ödəyən
 sıraları sayır. Yapboz kənarlarından gələn müstəqil sıra hələ də lazımdır; bu alət
 onu **yoxlamaq** və namizədləri kəskin daraltmaq üçündür.
+
+## ⛔ 2026-09-07 ~01:0xZ — ÇƏHRAYI İNDEKS VƏRƏQİ: 1080p-də OXUNMUR (qapanır)
+
+Bu, açıq qalan son «bəlkə» idi. İndi işləyən yığın üsulu ilə sınandı və bağlanır.
+
+**Üsul:** ofis çəkilişindən (`st020`, 149 kadr) 29 kadrlıq yığın, pəncərə
+(35,828)-(175,892), 4× IBP + 16× Lanczos (`PINK_IBP.png`). Sonra vərəqin dördbucağı
+**perspektivlə düzəldildi** (üç fərqli künc təxmini ilə, `PINK_WA/B/C.png`) və mürəkkəb
+maskası çıxarıldı.
+
+**Nəticə:** vərəqin **quruluşu** görünür — çəhrayı kağız üzərində **sətirlər və sağ
+tərəfdə daha sıx işarə bloku**, yəni bir cədvəl/siyahı. Amma **ayrı-ayrı işarələr
+mənbədə ~2 piksel** olduğuna görə warp-dan sonra amorf ləkələrə çevrilir.
+Heç bir simvol oxunmur.
+
+⇒ **Çəhrayı vərəq bağlanır.** İcmanın «~28 səhifə + rum rəqəmi cütü» iddiasının
+*forması* təsdiqlənir, məzmunu isə bu mənbədən çıxarıla bilməz.
