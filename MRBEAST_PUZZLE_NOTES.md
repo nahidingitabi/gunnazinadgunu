@@ -5683,3 +5683,45 @@ təlimat yoxdur.** Qutunun üzərindəki çap isə standart arxiv qutusu mətnid
 ("CONTENTS FROM … DEPT …"), Bankers Box dizaynı.
 
 → Etiketdə gizli məzmun yoxdur; "ipuçları" elə qutunun **üstündəki kartlardır**.
+
+---
+
+## 2026-09-06 09:00Z — ⚠⚠ ÖZ GECƏ TAPINTIMI DÜZƏLDİRƏM: əlyazma `"July?"` DEYİL, **"July 1…"**
+
+Gecə saat 03:40-da yazmışdım ki, əlyazma **dırnaq içində `"July?"`** və altında
+`Jun…`-dur, və bunu *"kimsə ayı təxmin edib"* kimi şərh etmişdim — yəni
+qırmızı = ay oxunuşunun **yeganə birbaşa dayağı**.
+
+Öz köhnə qeydlərimi yenidən oxuyanda (sətir 88) gördüm ki, **əvvəlki sessiya
+eyni yazını başqa cür oxuyub**: `"July 1st 1988 – June 30 89"`.
+
+Kəsimi **xeyli genişləndirib** yenidən baxdım (`tools/pieces/HAND_WIDE3.png`,
+REF767, kadr 1395–1625 × 385–470, 9×):
+
+```
+July 1…      ← "July"-dan sonra RƏQƏM 1 var, sual işarəsi DEYİL
+  Jun…       ← qutunun kənarı kəsir
+```
+
+- "July"-dan sonrakı işarə **"1"**dir (üstündə kiçik ştrixlə — "1st"-in
+  yuxarı indeksi ola bilər). Mənim "?" kimi oxuduğum budur.
+- Əvvəl "açan dırnaq" saydığım şey "J"-dan əvvəlki kiçik ştrixdir.
+- İkinci sətir `Jun…` — **"June …"** ilə tam uyğundur.
+
+**Deməli ən ehtimallı oxunuş: `July 1st 1988 – June 30 89`** — yəni **arxiv
+qutusunun məzmununun TARİX ARALIĞI** (maliyyə ili). Bu, arxiv qutusunda tam
+normal yazıdır və **dekorasiyadır**.
+
+### Bunun modelə təsiri — ciddidir
+
+"July?" **qırmızı = ay** oxunuşunun **yeganə birbaşa xarici dayağı** idi
+(yanındakı kart VII·IV = 4 iyul). O dayaq **düşür**: yazı kartın rəqəmlərinə
+aid deyil, qutunun öz etiketidir.
+
+Tarix modelinin qalan dayaqları yalnız **daxili**dir: qırmızı ≤ 12, mavi ≤ 31,
+dəstdə təqvim şəkli var, 12 cütün hamısı fərqlidir.
+Əleyhinə isə ölçülmüş dəlil var: 12 mavi dəyərin **hamısı ≤ 14**
+(gün olsaydı ehtimalı ≈ 7×10⁻⁵).
+
+→ **Tarix modeli indi əvvəlkindən xeyli zəifdir.** Hələ də ən yaxşısıdır,
+amma "July?" dəlilini bir daha istinad kimi işlətmək olmaz.
