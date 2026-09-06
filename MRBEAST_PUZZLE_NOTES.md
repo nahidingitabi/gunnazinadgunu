@@ -3938,3 +3938,23 @@ tarixlə **tam** uyuşur, başqa heç bir oxunuşla uyuşmurdu.
 Ona görə: **aparıcı fərziyyə, sübut deyil.** Növbəti sınaq — qalan üç parçanın
 rəqəmləri: tarix modelidirsə, qırmızıları 1…12, maviləri 1…31 aralığında olmalıdır
 və yeni aylar (yanvar/noyabr/dekabr) gətirməlidir.
+
+## 2026-09-06 00:45Z — DÖVR YEKUNU
+
+* **Qar buludu parçası** iki bucaqdan 95 kadrla birləşdirildi (`PSR_snow.png`,
+  korrelyasiya 0.91): açıq-mavi bulud, altında düşən qar dənəcikləri; qırmızı **IX**
+  (aşağı sol), mavi **V** (yuxarı sağ). Tək şəkil. Qətiləşdi.
+* **Afrika parçası**: ikinci bucaq avtomatik **rədd edildi** (ən yaxşı fırlanma
+  cəmi 0.16) — parça iki görüntüdə çox fərqli bucaqla yatdığı üçün dördbucaqlar
+  eyni fiziki sahəni örtmür. Tək plan qaldı. Yeni qoruyucu işlədi: pis
+  birləşdirmə heç birləşdirməməkdən pisdir.
+* **Tarix modeli üçün ad tələb etməyən sınaq**: bütün 12 tarixin eyni həftə gününə
+  düşüb-düşmədiyini yoxladım (2024/2025/2026). Ən yaxşı halda 2026-da 12-dən 5-i
+  çərşənbədir — təsadüf üçün gözlənilən həddin içindədir (P≈20%). **Nə təsdiq,
+  nə də təkzib.** Model aparıcı fərziyyə olaraq qalır.
+
+### Səhər üçün açıq suallar (prioritet sırası ilə)
+1. **Şəkillərin adları** — `PIECE_PICTURES.png` istifadəçidədir. Adlar dəqiqləşəndə
+   həm tarix modeli, həm hərf modeli dərhal yoxlanıla bilər.
+2. **2160p kliplər** — 13:22–13:27, 12:44–12:48, 0:18–0:22. `pipe4k.py` hazırdır.
+3. Qalan üç parçanın rəqəmləri — tarix modelinin proqnozunu sınayacaq.
