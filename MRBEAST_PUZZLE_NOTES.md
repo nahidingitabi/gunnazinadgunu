@@ -10596,3 +10596,34 @@ artır. Yapbozdan çıxan mətn əldə olan kimi ilk tətbiq ediləcək qayda bu
 YARISI köhnədir, ikinci girişi isə izah olunmur.** Bu, «masadakı qeydlərin bir hissəsi
 yeni tapmacaya aiddir» oxunuşunu **gücləndirir**, çünki indi dörd qeyddən
 üçü tam, biri isə qismən izahsızdır.
+
+## ★★★ 2026-09-07 ~01:3xZ — KƏNAR KATALOQU, HƏR PARÇA ÖZ ƏN YAXŞI ÇƏKİLİŞİNDƏN
+
+`edges2.py` → `EDGES_BEST.png`. 12 parça, hər biri **öz** ən yaxşı çəkilişindən
+yığıldı (7–46 kadr), geniş kənar payı ilə. Bu, indiyə qədərki ən yaxşı kənar
+materialıdır.
+
+| parça | SOL kənar | SAĞ kənar | kadr |
+|---|---|---|---|
+| **1** elf | **iri yumru lob (tab)** | əyri | 11 |
+| **4** ox+diaqram | kəsik + tab | **yumru içbükey buxta (blank)** + pillə | 31 |
+| **5** bant | aşağı-solda yumru qabar | (6-cı kart örtür) | **46** |
+| **6** düzbucaq | pillə | maili | 35 |
+| **7** təqvim | **düzbucaqlı dişləm (kəsik)** + alt-solda pillə | maili/əyri | 12 |
+| **8** paz+obyekt | **düzbucaqlı tab, üstündə kəsik** | **hamar S-dalğa** | 28 |
+| **9** joy | pilləli kəsik | uc **sivrilir** | 8 |
+| **10** oval+qartal | yumru | sivrilir | 8 |
+| **11** Oman | düz şaquli, yuxarıda kiçik pillə | **SİVRİ UC (vımpel)** | 7 |
+| **12** siluet+bitki | uzun diaqonal (sol ucu örtülü) | ★ **QARANQUŞ QUYRUĞU — iki diş, arada dərin V-kəsik** | 15 |
+| **13** qar | **iri yumru qabar** | pillə + sivri | 15 |
+| **14** ABŞ+tövlə | **mişar dişi (3 üçbucaq)** | hamar əyri | 15 |
+
+★ **Ən xarakterik iki kənar:** kart 12-nin **qaranquş quyruğu** və kart 11-in
+**sivri ucu**. Yapbozda çıxıntı↔kəsik cütləşdiyinə görə:
+- kart 11-in sivri ucu → **V şəkilli kəsiyi olan sol kənar** axtarır;
+- kart 12-nin ikidişli sağ ucu → **iki kəsikli («M» profilli») sol kənar** axtarır;
+- kart 4-ün sağındakı **yumru buxta (blank)** → **yumru tab**-lı sol kənar axtarır,
+  və bizdə **üç yumru tab var: kart 1, kart 13, kart 10**.
+
+⚠ Hələ də açıq: parçalar üst-üstə yapışdırıldığına görə bəzi kənarlar örtülüdür
+(5-in sağı, 12-nin solu, 14-ün solu qismən). Tam zəncir üçün istifadəçinin gözü lazımdır.
