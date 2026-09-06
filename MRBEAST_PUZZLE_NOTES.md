@@ -9028,3 +9028,79 @@ OP_20.6/20.9/21.2 kadrlarında həmin sahə kadrdan kənardadır.
 ⇒ **N = 15** ⇒ 15 hərfli şəhər + 15 hərfli region. Bazada belə cəmi bir cüt var
 (`Charlotte Amalie, U.S. Virgin Islands`) ⇒ ya cavab bazada olmayan kiçik yerdir,
 ya da parçaların bir neçəsi hər iki sətrə getmir (GC8-də tək rəqəmli şəkillər kimi).
+
+---
+
+## ★★★ 2026-09-06 15:5xZ — CAVAB **15 SİMVOLDUR** (ölçüldü) — və 15 parça var
+
+Videonun sonundakı CRT ekranında müsabiqə forması göstərilir:
+`BEAST SWEEPSTAKES / **Guess the answer*** / "You can guess multiple times, but there is
+only 1…" / [maskalanmış sahə] / Your email* / "We'll send a verification code…"`
+
+Maskalanmış sahədəki ulduzları **komponent analizi ilə saydım** (yerli fon çıxarılıb,
+morfoloji açılış, sahəyə görə süzgəc):
+
+| kadr | ulduz sayı | mövqelər (piksel) |
+|---|---|---|
+| `FORM_max.png` | **15** | 51, 96, 141, 187, 232, 278, 324, 370, 416, 462, 508, 554, 599, 645, 691 |
+| `full_form.png` | **15** | 53, 98, 143, 188, 233, 279, 324, 370, 416, 461, 507, 553, 598, 643, 688 |
+| `FORM.png` | **15** | eyni (kursor iki artefakt əlavə edir) |
+
+Aralıq **45.7 piksel, tam bərabər** ⇒ sayım etibarlıdır.
+⚠ Qeydlərdəki köhnə "16 ulduz" rəqəmi **səhv idi — düzəldilir: 15**.
+
+### ⇒ 15 parça = 15 hərf = 15 simvolluq cavab
+
+Bu, üç müstəqil ölçünün üst-üstə düşməsidir:
+1. Kartların sayı: **15** (14 qutu yığınında + 1 ofis kadrında).
+2. Formadakı ulduz: **15**.
+3. GC8 mexanizmi: sətir uzunluğu = şəkil sayı.
+
+### Bundan çıxan sərt nəticə
+
+Əgər cavab `Şəhər, Ölkə` formatında olsaydı və GC8-dəki kimi iki ad **eyni uzunluqda**
+olsaydı, ümumi uzunluq `2n + 2` — **həmişə cüt** olardı. 15 **təkdir** ⇒
+**cavab "Şəhər, Ölkə" cütü DEYİL.** O, **tək 15 hərfli sətirdir** — böyük ehtimalla
+şəhərin özü (ölkə/ştat sətri isə yoxlama rolunu oynayır).
+
+15 hərfli şəhər namizədləri: `SAINT PETERSBURG` · `COLORADO SPRINGS` · `HUNTINGTON BEACH` ·
+`SANTIAGO DE CHILE` (16) · `CHARLOTTE AMALIE` · `FRANKFURT AM MAIN`…
+(⚠ Bu, siyahı deyil, istiqamətdir — köhnə ovda `Toad Suck` və `Kam Lake` kimi kiçik
+yerlər var idi.)
+
+---
+
+## Agent 10–12 nəticələri
+
+### ★★ YENİ OBYEKT: **doctorxor.com CANLIDIR**
+
+- HTTP 200 (Apache/Ubuntu, Cloudflare arxasında). Səhifə cəmi **1314 bayt**: saytın
+  bitmədiyinə görə üzr, **bir orijinal tapmaca**, **bir Hobbit tapmacası**, və
+  "modern riddles" + AI əleyhinə qısa esse. Link yoxdur, HTML şərhi yoxdur, skript yoxdur.
+- `last-modified: **Wed, 02 Sep 2026 04:17:07 GMT**` — **videonun çıxdığı gün**.
+- ⛔ **ETİK/TEXNİKİ MƏHDUDİYYƏT:** saytın `robots.txt` faylı **ClaudeBot-u adı ilə
+  qadağan edir** (həmçinin GPTBot, CCBot, Google-Extended, Bytespider, Amazonbot,
+  Applebot-Extended, meta-externalagent) və ümumi `Disallow: /` var;
+  `Content-Signal: search=yes, ai-train=no, use=reference`.
+  ⇒ **Bu saytı avtomatik gəzmirəm.** Agent yalnız `/`, `/robots.txt`, `/sitemap.xml`
+  çəkib dayanıb — düzgün davranış. **İstifadəçi özü brauzerdə baxa bilər.**
+- Kontekst: Colin yayımda deyib ki, riddle çağırışının "düyməsini" *"maybe like the day
+  I officially open a website"* basacaq ⇒ sayt **Riddle #0-a aiddir, $10k tapmacasına yox.**
+
+### Colin-in yeni sitatları (2026-09-04 yayımı, 41:30–42:53 — əvvəl baxılmamış pəncərə)
+
+- Tapmacanın hissələrinin çoxu **dizayn edilməyib, təsadüfən tapılmış əlaqələrdir**
+  ("found/stumbled-onto connections"). ⇒ Mexanizm mövcud kadrlardakı təsadüfləri
+  istifadə edir — bu, GC8 üslubuna ("assosiativ ad") uyğundur.
+- @redwalltaker soruşub: *"is the answer a word or sentence or code?"* —
+  **Colin CAVAB VERMƏYİB.** ⇒ Cavabın formatı müəllif tərəfindən açıqlanmayıb;
+  **15 ulduz yeganə uzunluq dəlilidir.**
+- Tapmacada **AI əleyhinə xüsusi tələ yoxdur**.
+- Twitch paneli: cəmi 1 panel ($1,000,000 foto → MrBeast-in shorts-u). **Gizli heç nə yoxdur.**
+- 2026-09-06 yayımı (v2866522208) tam transkript edilib: **$10k haqqında yeni məlumat yoxdur.**
+
+### tinyurl tam bağlandı
+
+301 Location-da **yalnız iki parametr** (`recipe`, `input`) — `&ieol`, `&oeol`, `&args` yoxdur.
+15 qonşu slug yoxlanıldı: yalnız `xorclue` (köhnə Wattpad linki) və `xorcipher`
+(silinmiş Google Docs, 410) mövcuddur — ikisi də əlaqəsizdir. UA-cloaking yoxdur.
