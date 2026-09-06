@@ -5853,3 +5853,45 @@ Burada maksimum en **33%** və **aydın bel var**.
 belli, aşağısı nöqtəyə daralan qara siluet; yuxarı qabarıq aşağıdakından
 enlidir. (Fıstıq, qarpız-balqabaq, keqli, skripka/gitara gövdəsi, quş,
 şahmat fiquru, uzun ölkə xəritəsi — hamısı bu profilə uyğun gələ bilər.)
+
+---
+
+## 2026-09-06 09:55Z — En profili digər formalara tətbiq edildi; "oval" etiketi də düşdü
+
+`tools/pieces/wprof.py` — formanı uzun oxu üzrə düzləndirib hər 10%-də enini
+doğma pikseldə verir. Siluetdə qəti nəticə verdiyi üçün digərlərinə tətbiq etdim.
+
+### 15-ci parça — təmiz ölçüldü
+
+**19.4 × 8.2 px, uzanma 2.36, solidity 0.91.**
+
+| dərinlik | 10% | 20% | 30% | 40% | 50% | 60% | 70% | 80% | 90% |
+|---|---|---|---|---|---|---|---|---|---|
+| en (px) | 2.4 | **7.9** | 7.9 | 7.4 | 7.0 | 6.6 | 5.9 | 4.9 | 3.3 |
+
+**20%-də ən enli, sonra monoton daralaraq nöqtəyə bitir. Bel YOXDUR.**
+Yəni **paz/damcı formasıdır** (yarpaq, alov, lələk, üzgəc, damcı).
+Bu, əvvəlki ölçmə (uzanma 2.30–2.54, solidity 0.88–0.92) ilə uyğundur.
+⚠ Siluetdən (#3) **fərqlidir** — orada bel var, burada yoxdur.
+
+### ⚠ "Oval" etiketini geri götürürəm (#14, qartal kartının sol şəkli)
+
+Onu "oval / yumurtavari" adlandırmışdım. **Maska ilə yoxlayanda belə çıxmır:**
+
+| astana | ölçü | uzanma | solidity |
+|---|---|---|---|
+| 24% | 27.8 × 9.1 | **3.05** | 0.82 |
+| 32% | 37.9 × 11.8 | **3.20** | 0.74 |
+
+Konturu şəklin üzərinə çəkdim (`CHK_ovoid.png`): **uzun, əyri, aşağıya doğru
+genişlənən forma, sağ altda qarmaq/çuxur var.** Oval deyil.
+→ Etiket: **"uzun əyri tünd forma, altda qarmaqlı"** (uzanma ~3.1).
+Rəng ölçməsi (isti qəhvəyi, b\* +7.5…+8.3, iki bucaqda) **qüvvədə qalır** —
+sadəcə forma oval deyil.
+
+Həmin kartın sağ şəkli (qartal): **31.6–33.8 × 8.6–9.7, uzanma 3.5–3.7,
+solidity 0.89–0.92** — daha hamar, daha qabarıq forma.
+
+**Bu, bu gecə düzəltdiyim 6-cı etiketdir** (kəpənək, Afrika, konki-fiquru,
+pəncərə→şkaf, "July?", indi də oval). Nümunə aydındır: **kiçik ölçüdə gözlə
+qoyduğum hər etiket ölçmə ilə yoxlanmalıdır.**
