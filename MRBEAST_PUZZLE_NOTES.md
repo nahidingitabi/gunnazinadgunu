@@ -7133,3 +7133,33 @@ imzadır.
 Aparıcı cavabda isə `LONDON **CANADA**` var. Bu, gözəl uyğunluqdur, amma
 **yoxlana bilmir** — şəkil heç vaxt görünmür. Ona görə **fərziyyə kimi qeyd
 edirəm, dayaq kimi yox.**
+
+## Rəsmlərin SAYI — «(3 6 4)» yoxsa «(4 4 4 5)»?
+
+Fikir: vərəqdə iki başlanğıc sətir var — `(3 6 4)` = 15 simvol və `(4 4 4 5)` =
+17 hərf + 3 boşluq = **20 simvol**. Əgər beş kartda iki rəsm varsa,
+**ümumi rəsm sayı 5×2 + 10×1 = 20** olur. Ona görə rəsmləri dəqiq saymaq lazımdır.
+
+### 1-ci kartda İKİ yox, BİR rəsm var
+
+`CL01.png`: kontur təqvim rəsmini, mavi `IV` və qırmızı `II`-ni əhatə edir.
+Əvvəl «təqvim + 25 və ya & qlifi» kimi iki şey saymışdım — **səhv idi**:
+qlif **təqvimin öz səhifəsinin üstündədir**, ayrıca rəsm deyil.
+
+24× və 34× görüntüdə (`ZCAL.png`, `ZCALG.png`) təqvimin quruluşu:
+```
+yuxarıda 2–3 kiçik SPİRAL halqa   → 🗓️ (spiral təqvim), 📅 deyil
+altında qalın TÜND BAŞLIQ zolağı  → vendorların təqvimindəki qırmızı başlıq
+səhifədə böyük ŞABALIDI QLİF      → iki ilmə: yuxarı-sağda və aşağı-solda,
+                                     diaqonal birləşir. «25» və ya «&» kimi oxunur
+```
+
+### 10-cu kartda kontur MƏSƏLƏNİ HƏLL ETMİR
+
+`CL10.png`: kontur ox və diaqramı birlikdə əhatə edir, **amma bu, dəlil deyil** —
+orada kartlar üst-üstə düşdüyü üçün ağ ləkələr **birləşir**. 9-cu kartda kontur
+qəti idi, çünki o kart masaya qarşı təkdir. **10-cu kart açıq qalır.**
+
+Ona görə hazırda dəqiq bilinən: **9, 3, 6-cı kartlarda iki rəsm var** (kontur ilə
+təsdiq), 1-ci kartda **bir**. 10 və 14 açıqdır, 8-in şəkli gizlidir.
+**20 rəsm fərziyyəsi hələ nə təsdiqlənir, nə də istisna olunur.**
