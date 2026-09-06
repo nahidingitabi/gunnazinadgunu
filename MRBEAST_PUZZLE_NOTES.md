@@ -4444,3 +4444,55 @@ Mürəkkəb rəngi testini (Δa\*) burada **işlətmədim**, çünki nəzarət t
 oldu: ştrixlər arasındakı **boş kağız da** "QIRMIZI" verdi (Δa\* = +6.11) və karton
 da (+8.09). Kartın öz istiliyi kompensasiya olunmurdu. Bu, bu ovda nəzarətindən
 keçməyən **8-ci avtomatik təsnifatçıdır** — atdım, qərarı yalnız həndəsə ilə verdim.
+
+---
+
+## 2026-09-06 02:05Z — 1080p əhatəsi: boşluqlar yoxlandı, hamısı köhnə montajdır
+
+1080p kliplərim videonun bu hissələrini örtür: 0–70, 304–420, 551–640,
+721–~854, 854–1072 s. Örtülməyən üç boşluq var idi: **72–300**, **420–551**,
+**640–722** (cəmi ~446 s = videonun 42%-i). Bu boşluqlarda yeni tapmacanın
+otağı görünürsə, mən kor işləyirdim.
+
+360p kopyadan hər üç boşluğa kontakt vərəqi düzəltdim (`gapsheet.py`, 90 kadr).
+
+**Nəticə: üç boşluğun HAMISI köhnə $1M tapmacasının xülasəsidir.**
+- 72–300: Beast City, LIMA PERU, FDVNK, MIXUP, Casablanca, Accra, Tallinn, New Orleans
+- 420–551: "A Nice Sugar", Dimtu/Nome, "Key Toe Heck", Silver Coast, BEAST TRAVEL
+- 640–722: krossvord (STEW/TAGINE/BROTH/RAMEN/UDON/MISO/CURRY/PHO/GUMBO/STOCK/SOUP), qlobus
+
+Yeni tapmacanın parçaları bu boşluqlarda **heç yerdə görünmür**.
+
+**Deməli: yeni tapmacanın otağının 1080p əhatəsi tamdır. Əskik kadr yoxdur.**
+Bu sualı birdəfəlik bağlayıram — bir daha yoxlamağa dəyməz.
+(Köhnə tapmacanın məzmununu bu işə qatmıram.)
+
+---
+
+## 2026-09-06 02:12Z — Sistematik səhv tapdım: kanonik en/boy nisbəti
+
+`sp_two.json`-dakı dartılma təsadüfi deyilmiş. Bütün `sp_*.json` fayllarını
+yoxladım: hər dördbucağın öz en/boy nisbətini kanonun nisbəti ilə tutuşdurdum.
+
+| spec | dördbucaq | kanon | x-dartılması |
+|---|---|---|---|
+| sp_cal #0 | 32.6×73.4 | 1050×460 | **5.14×** |
+| sp_africa #1 | 38.5×86.1 | 1020×580 | **3.93×** |
+| sp_afr #1 | 38.5×86.1 | 1000×580 | **3.86×** |
+| sp_cal #1 | 38.5×63.1 | 1050×460 | **3.75×** |
+| sp_africa #0 | 41.4×72.0 | 1020×580 | **3.06×** |
+| sp_afr #0 | 41.4×72.0 | 1000×580 | **3.00×** |
+| sp_two #1 | 40.8×62.8 | 950×650 | 2.25× |
+| sp_two #0 | 45.8×64.4 | 950×650 | 2.06× |
+| sp_oman #1 | 56.2×39.3 | 980×560 | 1.22× |
+| sp_eagle3 #2 | 62.6×19.3 | 1274×476 | 0.83× |
+
+Qalanları (usflag, snow, joy, topbox, 15, eag806, eagnum, two765, cal765) 0.92–1.06
+arasındadır — onlar sağlamdır.
+
+**Bu o deməkdir ki, "Afrika + bitki" etiketi 3–3.9× ENİNƏ DARTILMIŞ təsvirə
+əsaslanır.** Uzun, dar bir şəkil 3.5× enə dartılanda tamamilə başqa bir şeyə
+oxşayır. Bu etiketə güvənmək olmaz. Təqvim üçün də eyni (yaxşı ki `cal765`
+düzgün idi — "25" oxunuşu ondan gəlir, o etibarlıdır).
+
+Düzəldilmiş kanonlarla hamısını yenidən render edirəm (`sp_fix_*.json`).
