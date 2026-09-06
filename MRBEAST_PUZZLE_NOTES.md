@@ -9909,3 +9909,44 @@ kadrın kənarında olduğu üçün üçüncü sətir yalnız `n766`-da görün�
 Ən yaxın köhnə obyekt **PG13. VIDEO PLAYLIST LINK**-dir (təsvirdəki
 *"Missing a playlist? Use this one"* → baş hərflər **MAPUTO**). Yəni stiker köhnə
 PG13 üzərində işləyən "həlledicinin qeydi" ola bilər — amma **mətni köhnə sənəddə yoxdur**.
+
+---
+
+## 2026-09-06 ~19:0xZ — RƏQƏMLƏRİN YENİDƏN OXUNMASI (32×, ən kəskin kadr seçilərək)
+
+Hər rəqəm üçün `REF803 / F803 / REF767 / n807 / REF806` arasından həmin pəncərədə
+**Laplasian dispersiyası ən yüksək** kadr seçildi, sonra 32× Lanczos + kağızın öz
+ağına görə balans + xroma gücləndirmə. Nəticələr:
+
+| kart | əvvəl | **indi** | qeyd |
+|---|---|---|---|
+| **1** papaqlı fiqur | II / XI–XII (həll olunmurdu) | **II / XII** | 5 müstəqil kadrda (REF803, REF806, n805, n807, REF767) eyni: `X`+`I`+`I` |
+| **6** düzbucaq | VI / VIII | **VI / VIII** ✓ təsdiq | mavi qəti `V`+`III` |
+| **8** iki obyekt | VI / VI | **VII / VII** | hər ikisi `V`+`I`+`I`; **bərabər olması dəyişmir** |
+| **7** təqvim | II / IV | mavi **IV** ✓ təsdiq | |
+| **12** siluet+bitki | IV / VIII | ✓ təsdiq | |
+| **2** gizli şəkil | VII / I | ✓ təsdiq | «I VII» kartı; şəkli tam örtülü |
+| **3** pəncərə | — | hələ də oxunmur | rəqəmləri sağ ucda, diaqram kartının altında |
+| **10** daş+qartal | — | mavi ≈ **IX/X**, qırmızı ≈ **VII/VIII** | hələ qəti deyil |
+
+⚠ Öz səhvimi düzəldirəm: bir ara «kart 3-ün qırmızısı VII» yazmışdım — o `VII`
+əslində **gizli şəkilli kartın** rəqəmidir (qeydlərdə 2026-09-06 03:00Z-də artıq
+həll olunmuşdu). Kart 3-ün rəqəmləri hələ də naməlumdur.
+
+### Kart 8-in mavi = qırmızı olması vacibdir
+GC8-də **tək rəqəmli** şəkillər hər iki sətrə **eyni hərfi** verirdi (ALG- prefiksi
+belə yaranmışdı). Bizdə kart 8-in iki rəqəmi **bərabərdir** ⇒ həmin mövqedə
+qırmızı və mavi sətirlər **eyni hərfi** daşıyır. Bu, sətirlərin bir yerdə
+üst-üstə düşən hissəsi olduğunu göstərir — ALGIERS/ALGERIA quruluşu ilə eyni.
+
+### Şəkillərdə yeni görünənlər (`ASK_CARDS.png`, 15–19×, REF803)
+- **Kart 5** — dörd ilgəkli, ortası düyünlü qara kontur. `ribbon`(6) mavi VII=7-ni
+  keçmir; **`butterfly`(9)** həm forma, həm süzgəclə uyğundur.
+- **Kart 4** — sol tərəfdə **qara aşağı ox**, sağda **artan sütunlar**
+  (bənövşəyi → sarı → yaşıl). Qırmızı VIII yuxarıda, mavi IX aşağı-sağda.
+- **Kart 3** — qalın qara çərçivə, **iki panelə bölünmüş**, içi açıq-boz.
+- **Kart 8** — **qara paz/üçbucaq** + **açıq-mavi hündür obyekt, uc-uca çəhrayı zolaqlarla**.
+- **Kart 6** — kirəmit-qırmızı, künclər yumru, ağır dolu düzbucaq.
+- **Kart 1** — tünd-yaşıl şiş papaq, ağ/çəhrayı üz-saqqal zolağı, tünd-qırmızı
+  paltar, açıq ayaqlar, qara ayaqqabı. Ad **≥12 hərf** olmalıdır.
+
