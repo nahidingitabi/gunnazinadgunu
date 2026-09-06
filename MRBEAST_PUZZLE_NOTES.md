@@ -8100,3 +8100,48 @@ qonşu kartla və ya masa ilə çirklənir; kartlar 76–115 px, dişlər ~8 px.
 
 ⇒ «Kənar profilləri ilə zənciri yığmaq» **bu ayırdetmədə mümkün deyil**.
 Bu, HANDOFF-dakı «(d) kənar profilləri ilə yığma» maddəsini bağlayır.
+
+## ★ VİDEONUN THUMBNAIL-İ ARAŞDIRILDI (yeni səth)
+
+`i.ytimg.com/vi/82CX6WULNA0/maxresdefault.jpg` (1280×720 — YouTube-un maksimumu).
+Səhnə: MrBeast «ACCESS DENIED / INCORRECT PASSWORD» ekranı qarşısında, arxada
+kork lövhə.
+
+### Oxunanlar
+
+**«LOGIN ATTEMPTS LOG» — 17 tarix, hamısı FAILED** (MM-DD-YY, 2026):
+```
+04-12  04-12  04-23  04-29  04-27  04-23  04-27
+05-01  05-05  05-06  05-10  05-12  05-15  05-20  05-21  05-23  05-28
+```
+⚠ Aprel bloku **qəsdən qarışıqdır** (29 → 27 → 23 → 27). Təkrarlar: 04-12 ×2,
+04-23 ×2, 04-27 ×2. Parçaların tarixləri ilə **kəsişmir**.
+Gün→hərf (1=A) alınmır (27, 28, 29 > 26).
+
+**«ENTER PASSWORD:»** sahəsində **8 nöqtə**.
+
+**Kork lövhə**: `#1 #2 #3 #4` etiketləri · böyük **QR kod** + stiker
+«**Scan on phone — what is it?**» · «Emma, Boston server logs? access logs?» ·
+«Brass, Bank. I saw one like it in dream, or was it not real?» ·
+«**No face ID bypass? Check #5 version**» · «**16-3-4**» · «Key f… fro… 2…» ·
+«…olors vs …?» · qızıl seyf · $1,000,000 · Rubik kubu · «SMOKE 1+1=1» ·
+Salesforce loqosu · telefon.
+
+### ⚠ QR KOD DEŞİFRƏ OLUNMUR — və çox güman DEKORATİVDİR
+
+* OpenCV bütün miqyaslarda (3–16×) və ön-emallarda (otsu/adaptiv/kəskin)
+  **deşifrə edə bilmir**; yalnız 4× miqyasda «aşkarladı, oxumadı» verir.
+* Kod sahəsini perspektiv düzləndirib **modul şəbəkəsini** sınadım:
+  N = 25, 29, 33, 37, 41, 45 — **heç birində üç axtarış naxışı (finder pattern)
+  düzgün formalaşmır (0/3)**.
+* Düzləndirilmiş görüntüdə modullar **düzgün kvadrat deyil** — əyri ştrixlər və
+  üzvi ləkələr; ortada dairəvi loqo var.
+* Stikerlərdəki əl yazısı da qrammatik olaraq qəribədir («Brass, Bank. I saw one
+  like it in dream, or was it not real?»).
+
+⇒ **Ehtimal yüksəkdir ki, thumbnail süni intellektlə birləşdirilmiş bədii
+şəkildir və QR ilə qeydlər dekorativdir.** Bu, login-log tarixlərinin də
+qəsdən qoyulmuş ipucu olma ehtimalını AZALDIR — amma tam sıfırlamır
+(rəqəmlər təmiz rəqəmsal şriftlə yazılıb).
+
+Fayllar: `TH_LOG.png`, `TH_LOG2.png`, `TH_BOARD2.png`, `QR_full.png`, `QR_warp.png`.
