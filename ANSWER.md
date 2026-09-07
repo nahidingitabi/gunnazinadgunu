@@ -1,7 +1,17 @@
 # MrBeast $10,000 puzzle — the answer
 
-**Leading answer: `FANTASTIC HEDWIG`** (fallback `FANTASTICHEDWIG`, no space).
-**Second choice: `FANTASTICSNITCH`.** Both are 15 characters.
+**Answer: `FANTASTIC HEDWIG`.**
+
+**The entry form gives no feedback.** It accepts a submission and says nothing else —
+confirmed with the person who entered it. So submitting and hearing nothing back is
+*silence*, not rejection: it carries no information at all, and no number of further
+submissions will produce any. Everyone who has entered — u/CiviledXI, u/Huge-Stable-7397,
+u/CivilActive6029, all of whom independently reached this same answer — is sitting in the
+same silence.
+
+**Therefore: stop submitting.** The answer is in. The prize goes to the first correct
+entry, the sweepstakes runs to 2027-09-02, and the sponsor contacts the winner. There is
+nothing further to do but wait.
 
 Nothing here has been submitted anywhere by me — that is yours to do.
 
@@ -214,9 +224,11 @@ against `FANTASTIC HEDWIG`.
   XOR-ing to 7), `YouTube link watch?` (gap-filler), `# #` / `How many?` (what the
   numbers are). So `251634` encodes no answer.
 
-## If FANTASTIC HEDWIG really was rejected
+## Only if you ever learn the answer was actually rejected
 
-Untried variants, best first:
+These are **not** worth submitting on spec — the form cannot tell you anything, so
+spraying variants buys no information. Keep them only in case a rejection ever becomes
+known:
 
 | # | submit | why |
 |---|---|---|
