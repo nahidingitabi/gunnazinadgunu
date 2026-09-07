@@ -118,6 +118,20 @@ text.** So this stays a curiosity, not a result. It is recorded because if anyon
 the intended 13-character plaintext, the ciphertext is forced to be `v=` + an 11-character
 ID, and the search collapses instantly.
 
+### One thing you can check that I cannot
+
+`planetminecraft.com` is blocked from this machine at three levels (Cloudflare 403 on
+curl, egress block on web.archive.org, TLS reset in Chromium). Two pages matter:
+
+- the **second** upload's last word: `planetminecraft.com/mod/123-quidcraft-quidditch-mod/`
+- the **third** upload's last word: `planetminecraft.com/mod/minecraft-boxy-tools-mod-146/`
+
+If FOURTH → link → third upload → *its* last word is the boxy-tools page, the chain
+continues there. And if the reading is SECOND instead, the QuidCraft page is where
+"THEN NINTH" would land. **Open either in a browser and count to the ninth word of the
+mod description.** A six-letter word there settles the blue half. On the QuidCraft page
+the six-letter candidate is `snitch`.
+
 ---
 
 ## Why
