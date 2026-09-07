@@ -11477,3 +11477,32 @@ MRBEASTSANDWHERETOFINDTHEM
 
 Qalan tək `?` — **L** sətri (icma onu «424-6» kimi yazır; lövhə 424 altı quşluq
 «Lazuli Finch, …» lövhəsidir). Onun hərfi məcburən **W**-dir.
+
+## 10. ★★★ ŞKAFIN YAPIŞQANLARI RƏNGƏ GÖRƏ İKİ ZƏNCİRƏ BÖLÜNÜR
+
+`tools/pieces/CABINET.png` — altı qeyd, yuxarıdan aşağı:
+
+| rəng | mətn | hansı zəncir |
+|---|---|---|
+| **sarı** | `081 XIV` / `-` / `Seahawks?` | QIRMIZI (lövhə 81 = *Fish Hawk, or Osprey* — «sea hawk») |
+| mavi | `# #` / `How many?` | MAVİ |
+| **sarı** | `QX=TH` | QIRMIZI (vərəqin Q və X sətirləri — §9) |
+| mavi | `251634` | MAVİ |
+| **sarı** | `PLATES` | QIRMIZI (Audubon lövhələri) |
+| mavi | `YouTube link` / `Watch?` *(altdan kəsilir)* | MAVİ |
+
+★ **Hər üç SARI qeyd qırmızı zəncirə aiddir və indi hamısı izahlıdır.** Bu, rəng
+kodunu təsdiqləyir və `QX=TH`-in qırmızı material olduğunu müstəqil dəstəkləyir.
+
+★ Deməli MAVİ zəncirin alətləri bunlardır: **bir YouTube videosu** («Watch?»),
+**bir sayma** («How many?» — iki xanalı `# #`, yəni iki rəqəmli ədəd) və
+**`251634`**.
+
+★ **`251634` 1–6 rəqəmlərinin hər birini tam bir dəfə işlədir** ⇒ bu, altı
+elementlik **yerdəyişmə (permutasiya) açarıdır**, ədəd deyil. Son cavab 6
+hərflikdir — yəni sonuncu addım altı hərfi bu sıra ilə düzmək ola bilər.
+(Qeyd: çəhrayı vərəqin hərf→rəqəm açarı ilə `251634` → `_ _ W _ _ V` verir,
+yəni mənasızdır — və bu düzgündür, çünki vərəq QIRMIZI materialdır.)
+
+⇒ Növbəti hədəf: şkafın **aşağı hissəsini** göstərən kadr tapmaq (bu çəkilişdə
+kəsilir) — orada mavi zəncirin YouTube göstəricisi ola bilər.
