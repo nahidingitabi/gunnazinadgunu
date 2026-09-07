@@ -11794,3 +11794,37 @@ bayquşa aparır.
 
 ⇒ Cavab dəyişmir, amma **SECOND-a inamım azaldı**: XOR hesabı onu seçmir, seçən
 yalnız «hansı video 6 hərflik cavab verir» arqumentidir.
+
+## 21. ⛔ «12 yol nişanı» da düşür — o, YENİ videoda yoxdur
+
+Reddit-də iki solver ayrı-ayrı yazır ki, yol nişanları şəkli **videoda ümumiyyətlə
+yoxdur**:
+
+- u/milar111 (09-04): *«where did you find the image with the usa road number signs
+  as i've rewatched the video and cannot find it anywhere?»*
+- u/johnlamb2002 (09-05): *«One of the pictures you posted is not in the video at
+  all… I have watched it 10-15 times already.»*
+
+⇒ «12 road signs» köhnə ovun **GC9** materialıdır (orada **10** yol nişanı var),
+yeni otaqda deyil. Deməli ikinci sayın bu mənbəsi də düşür.
+
+### Yekun dürüst mövqe: ordinal ÇIXARILA BİLMİR
+
+`# #` «How many?» üçün ikinci sayın **təsdiqlənmiş mənbəyi yoxdur**. Yoxladığım
+bütün namizədlər:
+
+| namizəd | say | 14 ⊕ ? | nəticə |
+|---|---|---|---|
+| köhnə ovun SB qrupu | 12 | 2 | ⛔ müəllif «$1M lazım deyil» dedi |
+| otaqdakı yol nişanları | 12 | 2 | ⛔ şəkil videoda yoxdur |
+| XOR(qırmızı rəqəmlər) | 12 | 2 | ⚠ ayırd etmir (mavi 10, hamısı 6 verir) |
+| boobook sayı | 5 | 11 | ✗ |
+| cins sayı | 6 | 8 | EIGHTH — heç yerə düşmür |
+| mavi rəqəm sayı | 13 | 3 | ✗ |
+| oynanmış Super Bowl | 60 | 50 | ✗ |
+| Audubon-dakı bayquş lövhələri | 11 | 5 | ✗ |
+
+⇒ **Ordinalı hesabla çıxara bilmirəm.** SECOND-u seçən yeganə arqument budur:
+üç mümkün ordinaldan (SECOND/FOURTH/EIGHTH) **yalnız SECOND altı hərflik bir
+cavaba düşür** (Harry Potter → HEDWIG). Bunu belə də yazıram — daha güclü
+göstərməyəcəyəm.
