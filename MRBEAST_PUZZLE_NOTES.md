@@ -11613,3 +11613,23 @@ Bunlar nüfuzlu mənbədir və bir neçə istiqaməti bağlayır:
    Harry Potter-in bayquşu) — hər iki yarımın son addımı elə belədir.
 5. Errata ikidir və **hər ikisi mənim modelimlə üst-üstə düşür** (VIII→VII və
    83544→835244).
+
+## 14. `251634` — quruluşu tapıldı: üç tamamlayıcı cüt, hər biri 7 verir
+
+```
+2 ⊕ 5 = 7      1 ⊕ 6 = 7      3 ⊕ 4 = 7
+2 + 5 = 7      1 + 6 = 7      3 + 4 = 7
+```
+
+Yəni `251634` = `25 | 16 | 34` — bunlar 1…6-nın **üç tamamlayıcı cütüdür**
+({1,6}, {2,5}, {3,4}); üç bitdə tamamlayıcı olduqları üçün cəm və XOR eynidir.
+Təsadüfi yerdəyişmələrin yalnız **6.7%-i** bu xassəyə malikdir.
+
+⇒ Bu, çox güman **XOR əməliyyatının işlənmiş nümunəsidir** — masadakı dedektiv
+öz-özünə «XOR belə işləyir» deyə yazıb, ya da nəticə **7**-ni kodlayır.
+Məqsədi hələ də açıqdır, amma bu, mavi zəncirin mərkəzində XOR-un durduğunu
+müstəqil təsdiqləyir (qeyd MAVİ mürəkkəblədir, yəni mavi zəncirə aiddir).
+
+⛔ Rədd edilir: `251634`-ün 6 hərflik sözü başqa 6 hərflik sözə çevirməsi
+(29 874 ingilis sözü üzərində sınadım — heç bir söz cütü yoxdur), və
+`PLATES` üzərində tətbiqi (`LEPSAT` / `APESLT`).
