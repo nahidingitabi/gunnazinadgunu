@@ -187,6 +187,49 @@ sweepstakes form, not a checker — it does not tell you that you are wrong. So 
 form explicitly rejected the answer, submitting and hearing nothing is **not** evidence
 against `FANTASTIC HEDWIG`.
 
+## The "watch?" sticky resolves — and the nine
+
+`YouTube link / watch?` has a literal referent. MrBeast's Super Bowl teaser is
+`OBQELGS13XA`, and its title *begins with the word* **Watch**: "Watch My Super Bowl Ad To
+Win $1,000,000!" The main video names it explicitly — *"you first had to watch my Super
+Bowl teaser titled Watch My Super Bowl Ad to Win a Million Dollars"*. It is also the one
+video the whole Super Bowl half of the hunt hangs off, which is what `XOR SUPERB OWLS`
+points at.
+
+Its description carries a playlist — `PLj-VLkYRjRxm5HVGFVpPP5W7jkvvzd1q7` — holding
+**exactly nine videos**, which is what the main video means by *"looked at the pinned
+comments of all of these videos, you would get nine puzzles"*. All nine pinned comments,
+recovered here for the first time:
+
+| # | video | pinned comment ends with |
+|---|---|---|
+| 1 | I Built 100 Wells In Africa | `pin.it/3DIjEcxdY` |
+| 2 | Changing the Lives of 600 Strangers | `reddit.com/user/BeastForce67/…` |
+| 3 | I Cleaned The World's Dirtiest Beach | `imgur.com/gallery/puzzle-mD2eHYD` |
+| 4 | $1 vs $500,000 Experiences! | `imageshack.com/user/BeastForce67` |
+| 5 | POKEMON GO STEREOTYPES | `photobucket.com/share/753ba093…` |
+| 6 | $10,000 Every Day You Survive In The Wilderness | `medium.com/@beastforce67/puzzle-…` |
+| 7 | I Adopted 100 Dogs! | `pixelfed.social/BeastForce67` |
+| 8 | I Spent 100 Hours Inside The Pyramids! | `imgpile.com/u/beastforce67` |
+| 9 | Anything You Can Fit In The Circle I'll Pay For | `500px.com/p/beastforce67` |
+
+A **nine**-video playlist is the most literal referent "THEN NINTH" has anywhere in the
+material. But the extraction still does not land: tested and failed on the teaser's own
+captions (9th word `Well,`, last `this.`), the nine titles, the nine pinned comments, the
+nine-word sentence they spell (*Every Challenge Leads Towards Location Name Somewhere
+Around World* — its ninth word **is** its last word, "World"), the twelve Super Bowl
+locations (verified verbatim from the transcript), and the main video's description.
+
+## More closed doors
+
+- **`251634` is not atomic numbers.** Worth testing because the video *teaches* this
+  trick — the tenth Super Bowl puzzle is La+Ho+Re = **LAHORE**. Every split of `251634`
+  into atomic numbers gives either the wrong length or nonsense; the only six-letter
+  readings are `He B S Se` → HEBSSE and `Mn H C Se` → MNHCSE.
+- **No pair of YouTube IDs XORs to a real video.** The main video against the teaser, the
+  Colin video, the wilderness video and all nine playlist entries, in base64url index
+  space: not one result is an ID MrBeast has ever published.
+
 ## Every clue, used and unused
 
 The right question, once an answer stalls, is which props the solve never consumed. A
