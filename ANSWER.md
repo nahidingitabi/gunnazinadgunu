@@ -187,6 +187,34 @@ sweepstakes form, not a checker — it does not tell you that you are wrong. So 
 form explicitly rejected the answer, submitting and hearing nothing is **not** evidence
 against `FANTASTIC HEDWIG`.
 
+## Only one chain still reaches a living page
+
+Four of MrBeast's early uploads end their description with an external link. Fetched
+through the `r.jina.ai` reader (which gets past the Cloudflare block that stops curl,
+the Wayback Machine and Chromium here):
+
+| upload | last word of description | state today |
+|---|---|---|
+| **2nd** — Harry Potter Mod In Minecraft! | `planetminecraft.com/mod/123-quidcraft-quidditch-mod/` | **live** |
+| 3rd — Boxy item mod | `planetminecraft.com/mod/minecraft-boxy-tools-mod-146/` | **404** |
+| 4th — More birds IN MINECRAFT!! | `youtube.com/watch?v=Z8nEEdXTaX0` (→ the 3rd upload) | live video, but its own last word is the 404 above |
+| 8th — Emerald tool mod! | `planetminecraft.com/mod/emeralds-mod-146147/` | **404** |
+
+If following "LAST WORD" to a destination is the intended step, a setter building this in
+2026 would have checked that the destination still exists. **Only the second upload's
+does.** The fourth upload's link — the one with the best surface evidence, being a literal
+`watch?v=` — leads to a video whose own trail dead-ends at a missing page.
+
+That, plus two independent routes to the number 2 (`14 owls ⊕ 12 = 2` from the video's own
+`N/12` counter, and `blue 6 ⊕ white 4 = 2` from the conduit, the only pairing of those
+three stickers giving a six-letter ordinal), is the case for **SECOND UPLOAD**.
+
+What still does not follow is the last step. On the QuidCraft page the Elements list has
+**exactly nine** entries — Broom, Quaffle, Bludger, Snitch, Beater Bat, Bludger/Snitch
+Gloves, Jersey/Headband, Goal Block, Quidditch Chest — so "THEN NINTH" has a clean
+referent there, but the ninth is *Quidditch Chest*, not a six-letter word. `Snitch` is the
+only six-letter item on the page, and it sits fourth.
+
 ## The "watch?" sticky resolves — and the nine
 
 `YouTube link / watch?` has a literal referent. MrBeast's Super Bowl teaser is
