@@ -151,6 +151,65 @@ Note also that the page carries four `youtube.com/watch?v=` links and a
 `youtube.com/user/GamersDissent?feature=watch` link — more "watch?" than anywhere else
 in either chain.
 
+## The hash matches — and "no reply" is not "wrong"
+
+u/CiviledXI published a SHA-256 of their answer on 5 September, before anyone posted
+words publicly, precisely so answers could be compared without revealing them:
+
+```
+b74ded47baecf147821e2bcaa97c4735d5002cc37dc7e7fe93ea3845872dde22
+```
+
+Computed here:
+
+```
+sha256("FANTASTIC HEDWIG") = b74ded47baecf147821e2bcaa97c4735d5002cc37dc7e7fe93ea3845872dde22
+```
+
+**Exact match.** So three solvers who worked independently — CiviledXI, u/Huge-Stable-7397
+and u/CivilActive6029 — all arrived at `FANTASTIC HEDWIG`, and CiviledXI is the one who
+derived the red half correctly and unaided.
+
+That matters for how a non-response should be read. **Nobody has received any reply at
+all.** Huge-Stable-7397 entered on 4 September, CiviledXI on 5 September; as of
+7 September neither has heard anything, and no winner has been announced. The entry is a
+sweepstakes form, not a checker — it does not tell you that you are wrong. So unless the
+form explicitly rejected the answer, submitting and hearing nothing is **not** evidence
+against `FANTASTIC HEDWIG`.
+
+## Ruled out today
+
+- **(6 6) → (6) is not a letter-XOR.** All 17,468 six-letter words were XOR-paired
+  (packed 5 bits per letter, every field ≤ 25): 5,949 valid triples exist, and not one
+  involves HEDWIG, SNITCH, GOLDEN, SUPERB, SECOND, FOURTH or UPLOAD.
+- **(6 6) is not a MrBeast video title.** None of the 1,536 titles across his six
+  channels is two six-letter words.
+- **(6 6) is not two owl names.** Ordered by the red string `BIRDSOFAMERICA`, the
+  fourteen pieces run 1–14; the **last** is the Barred owl and the **ninth** is the
+  Least boobook. `BARRED` is six letters — and it is the *only* six-letter owl name
+  among the fourteen — but `LEAST` is five, so the pair does not fit (6 6).
+- **`251634` is a worked example, not data.** The six stickies split three red / three
+  blue, and each colour has the same three roles: a worked example, a gap-filler, and a
+  statement of what the numbers are. Red: `081 XIV → Seahawks?` (worked example),
+  `QX = TH` (gap-filler), `PLATES` (what the numbers are). Blue: `251634` (worked
+  example — 25|16|34 are the three complementary pairs of 1–6, each summing *and*
+  XOR-ing to 7), `YouTube link watch?` (gap-filler), `# #` / `How many?` (what the
+  numbers are). So `251634` encodes no answer.
+
+## If FANTASTIC HEDWIG really was rejected
+
+Untried variants, best first:
+
+| # | submit | why |
+|---|---|---|
+| 1 | `HEDWIG FANTASTIC` / `HEDWIGFANTASTIC` | the teal card says **LAST WORD THEN NINTH** — read as an assembly rule that is *six then nine*, i.e. blue before red. Huge-Stable-7397 flagged this exact ambiguity and never resolved it. |
+| 2 | `FANTASTICBARRED` | the **last** of the fourteen pieces is the Barred owl, and `BARRED` is the only six-letter owl name in the set |
+| 3 | `FANTASTICUPLOAD` | the literal last word of the (6 6) |
+| 4 | `FANTASTICBEASTS` | completes the title the red half is punning on |
+| 5 | `FANTASTICSTUNTS` | the answer the AI-assisted writeups converged on |
+
+---
+
 ---
 
 ## Why
