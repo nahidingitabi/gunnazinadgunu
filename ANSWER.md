@@ -172,8 +172,41 @@ space, reversed order and other variants do not match.
   text — but if it is the real answer, the entry has no space. That is why the
   fallback is there, and why it may be worth trying first if the spaced form fails.
 
+## What is actually left, concretely
+
+The desk's clue inventory is on a black cabinet to the right, six sticky notes,
+and they are **colour-coded by chain**:
+
+| colour | note | chain |
+|---|---|---|
+| yellow | `081 XIV` — `Seahawks?` | red — plate 81 is *Fish Hawk, or Osprey*, a sea hawk |
+| blue | `# #` / `How many?` | blue |
+| yellow | `QX = TH` | red — the pink sheet's Q and X rows |
+| blue | `251634` | blue |
+| yellow | `PLATES` | red — Audubon's plates |
+| blue | `YouTube link` / `Watch?` (cut off at the frame edge) | blue |
+
+All three yellow notes are now explained. So the blue chain has exactly three
+tools: **a YouTube video**, **a count** (two digit boxes — most likely 14, the
+number of owls), and **`251634`**, which uses each of the digits 1–6 exactly
+once and is therefore a six-element **permutation**, not a number. The blue
+answer is six letters, so the last step may well be arranging six letters in
+that order.
+
+Ruled out here, so nobody need redo them: the fourth upload of each of MrBeast's
+six channels and of the author's own (dated — the Harry Potter Minecraft video is
+his *second* upload, not his fourth); the old hunt's fourth playlist video (its
+word is *Towards*); the pinned comment's wording; the CyberChef XOR key from the
+profile link against every phrase the desk produces; and `251634` as a permutation
+of any six-letter English word (no pair of real words maps to another).
+
+The one observation still missing is the **bottom of that cabinet**, which is out
+of frame in every shot examined so far — the blue "YouTube link / Watch?" note is
+cut off there.
+
 ## Files
 
-- `tools/pieces/verify_owls.py` — recomputes all 27 letters and the hash
+- `tools/pieces/verify_owls.py` — recomputes all 27 jigsaw letters and the hash
+- `tools/pieces/red_chain.py` — recomputes the red half from the Audubon plates
 - `tools/pieces/owllist.txt` — the 254-species list used for the uniqueness check
 - `MRBEAST_PUZZLE_NOTES.md` — the full working log, including everything refuted
