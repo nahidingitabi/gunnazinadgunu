@@ -118,19 +118,38 @@ text.** So this stays a curiosity, not a result. It is recorded because if anyon
 the intended 13-character plaintext, the ciphertext is forced to be `v=` + an 11-character
 ID, and the search collapses instantly.
 
-### One thing you can check that I cannot
+### Both mod pages read — and the two chains end very differently
 
-`planetminecraft.com` is blocked from this machine at three levels (Cloudflare 403 on
-curl, egress block on web.archive.org, TLS reset in Chromium). Two pages matter:
+`planetminecraft.com` blocks this machine directly (Cloudflare 403), and
+`web.archive.org` is blocked at the egress layer, but the `r.jina.ai` reader proxy
+reaches both pages.
 
-- the **second** upload's last word: `planetminecraft.com/mod/123-quidcraft-quidditch-mod/`
-- the **third** upload's last word: `planetminecraft.com/mod/minecraft-boxy-tools-mod-146/`
+**The third upload's link is dead.** `planetminecraft.com/mod/minecraft-boxy-tools-mod-146/`
+returns *"Oops, this page is missing or temporarily down"*. So the FOURTH → link →
+third upload chain cannot continue past that video by following links.
 
-If FOURTH → link → third upload → *its* last word is the boxy-tools page, the chain
-continues there. And if the reading is SECOND instead, the QuidCraft page is where
-"THEN NINTH" would land. **Open either in a browser and count to the ninth word of the
-mod description.** A six-letter word there settles the blue half. On the QuidCraft page
-the six-letter candidate is `snitch`.
+**The second upload's link is live**, and its Elements list is:
+
+| # | element | letters |
+|---|---|---|
+| 1 | Broom | 5 |
+| 2 | Quaffle | 7 |
+| 3 | Bludger | 7 |
+| 4 | **Snitch** | **6** |
+| 5 | Beater Bat | — |
+| 6 | Bludger/Snitch Gloves | — |
+| 7 | Jersey/Headband | — |
+| 8 | Goal Block | — |
+| 9 | Quidditch Chest | — |
+
+**`Snitch` is the only six-letter item in the entire mod.** The ninth element is
+"Quidditch Chest", the ninth recipe is "Headband", and the ninth word of the About
+paragraph is "could" — so "THEN NINTH" still does not point at it. SNITCH is the only
+six-letter word the page offers, not a word the page's ninth position yields.
+
+Note also that the page carries four `youtube.com/watch?v=` links and a
+`youtube.com/user/GamersDissent?feature=watch` link — more "watch?" than anywhere else
+in either chain.
 
 ---
 
