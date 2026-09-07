@@ -11660,3 +11660,22 @@ signs**». Yəni videoda sayıla bilən ikinci bir «12» var. Beləliklə
 üçün lazım olan «12» ya köhnə ovun **SB1–SB12** qrupudur, ya da otaqdakı **12 yol
 nişanı**. Hər ikisi eyni ordinala aparır. (Yol nişanlarının sayını özüm
 təsdiqləyə bilmirəm — videonu endirə bilmirəm, YouTube bot-limiti.)
+
+## 16. Arxadakı boru — nömrələr RƏNGLİDİR (istifadəçinin sualı)
+
+`tools/pieces/PIPE_NUMBERS.png` (kadr `wall/w_015`, 6× böyüdülüb). Kərpic divardakı
+elektrik borusunda yuxarıdan aşağı **üç dairəvi stiker** var:
+
+| sıra | rəng | rəqəm |
+|---|---|---|
+| yuxarı | **MAVİ** | **6** |
+| orta | **QIRMIZI** | **7** |
+| aşağı | **AĞ** | **4** |
+
+⇒ Ardıcıllıq **6 7 4** — icmanın «+674 → Nauru» izi məhz budur (u/HoldingAdvisory
+«674-ə baxma» deyir). Yeni məlumat **rənglərdir**: mavi 6 və qırmızı 7.
+
+Maraqlı, amma tam oturmur: masadakı **mavi** qeyd `(6)` ilə bitir — mavi stiker də
+**6**-dır ✓. Amma **qırmızı** qeyd `(9)` ilə bitir, qırmızı stiker isə **7**-dir ✗.
+Ona görə «rənglər cavab uzunluqlarını təkrarlayır» fərziyyəsi **yarımçıq qalır**;
+ehtimal ki boru köhnə tapmacanın dekorudur.
