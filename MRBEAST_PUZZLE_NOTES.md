@@ -11705,3 +11705,40 @@ Baş hərflər `T N B` — mənasız. ⇒ Bu istiqamət bağlanır.
   oynanmış Super Bowl sayı (60 ⇒ 50 ✗), MrBeast reklamının Super Bowl nömrəsi
   (59 ⇒ 53 ✗), Audubon-dakı bayquş lövhələri (11 ⇒ 5 ✗).
   ⇒ **Yalnız 12 işləyir və yalnız SB1–SB12 qrupu 12 verir.**
+
+## 18. ★★★ MAVİ ZƏNCİRİN HƏR İKİ DAYAĞI TƏSDİQLƏNDİ (03:36 dövrü)
+
+### 1. «12» ilkin mənbədən təsdiqləndi
+Köhnə ovun **rəsmi cavab sənədi** (məndə: `MDP_TEXT.txt`, səh. 4) hərfən yazır:
+
+> «1. **12 puzzles are solvable from the Super Bowl video (SB1 – SB12)**
+>  2. 13 puzzles … (PG1–PG13)  3. 9 easy Pregame puzzles (EP1–EP9)
+>  4. 11 gift clues (GC1–GC11)  5. 14 outreach puzzles (OP1–OP14) …»
+
+⇒ «SUPERB OWLS»-un göstərdiyi qrup **tam 12**-dir. Bu artıq mənim fərziyyəm deyil,
+tapmacanı hazırlayanların öz sənədidir. Deməli **14 (bayquş) ⊕ 12 (Super Bowl) = 2**.
+
+### 2. MrBeast-in İLK videosu təsdiqləndi
+«**Worst Minecraft Saw Trap Ever???**», **2012-02-20** — bir neçə müstəqil mənbə
+onu MrBeast-in *ilk* videosu kimi göstərir (IMDb-də ayrıca yazı, MrBeast Wiki,
+UNILAD Tech). Deməli **2012-03-09 «Harry Potter Mod In Minecraft!» onun İKİNCİ
+videosudur** — MrBeast Wiki də onu «2nd gaming video» adlandırır.
+
+⇒ `(6 6)` = **SECOND UPLOAD** oxunuşunun sayma təməli tamamilə sağlamdır.
+
+### 3. Videonun İÇİNDƏ bayquş YOXDUR — və bu, gözlənilən nəticədir
+Həmin videodakı mod **QuidCraft Quidditch**-dir; nə əlavə edir: **broom, quaffle,
+bludger, snitch, beater bat** — **bayquş yoxdur**. Yəni cavab videonun *içindən*
+çıxmır; «Harry Potter» assosiasiyasından çıxır və Google ilə tapılır — müəllifin
+öz sözü ilə tam üst-üstə düşür: *«Google is always an option»*.
+
+⇒ Şkafdakı `YouTube link / watch?` qeydi sadəcə «get o videoya bax» deməkdir.
+
+### Yekun mavi zəncir
+```
+14 bayquş  ⊕  12 Super Bowl tapmacası  =  2
+   → (6 6) = SECOND UPLOAD
+   → MrBeast-in ikinci videosu = «Harry Potter Mod In Minecraft!» (2012-03-09)
+   → Harry Potter-in bayquşu (Google)
+   → (6) = HEDWIG
+```
