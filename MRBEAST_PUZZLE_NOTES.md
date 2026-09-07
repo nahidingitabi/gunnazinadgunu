@@ -11979,3 +11979,37 @@ Google *məcburi* deyil, sadəcə mümkündür.
 
 ⇒ Sıralama: **1) FANTASTICHEDWIG · 2) FANTASTIC HEDWIG · 3) FANTASTICSNITCH ·
 4) FANTASTIC SNITCH**.
+
+## 27. Mavi zəncirin təmiz oxunuşu — və bir dürüst zəiflik
+
+### Təmiz hissə
+`XOR SUPERB OWLS` yalnız söz oyunu deyil, **əməliyyatı və hər iki operandı
+adlandırır**, hər ikisinin sayı isə videodadır:
+
+```
+Super Bowls = 12   (ekrandakı sayğac 1/12 … 12/12)
+Owls        = 14   (yapbozun 14 parçası)
+12 ⊕ 14 = 2  →  (6 6) = SECOND UPLOAD
+```
+
+Şkafdakı `# #` / «How many?» məhz bu iki sayı istəyir. Bu artıq tam
+öz-özünə yetərlidir: köhnə ovu bilmək lazım deyil.
+
+### ⚠ Zəiflik: `(4 4 4 5)` istifadəsiz qalır
+Krem qeyddə `(3 6 4)` və `(4 4 4 5)` **hər ikisi** `(6 6)`-ya ox atır. Yuxarıdakı
+oxunuşda `(6 6)`-nı təkcə `(3 6 4)` verir; `LAST WORD THEN NINTH` heç yerdə
+işlənmir. Yoxladıqlarım (hamısı ✗): ikinci yükləmənin başlığı və təsviri
+(hər ikisi düz 9 sözdür, sonuncu = doqquzuncu), 12 məkanın şəhər/ölkə adları,
+qırmızı və mavi jigsaw sətirləri, pinned şərh, video təsviri.
+
+Yeganə oxunuş ki `LAST WORD`-ü işlədir: `(6 6)`-dan **son sözü götür** →
+`UPLOAD` (6). Onda `(6)` = UPLOAD, cavab `FANTASTICUPLOAD` (yenə 15 simvol).
+Amma bu, təlimatı cavaba çevirir və `THEN NINTH` yenə boşda qalır.
+
+### Namizədlərin sıralaması (hamısı 15 simvol)
+1. **FANTASTICHEDWIG** — bütün tapmaca bayquşdur; qırmızı yarım *Fantastic
+   Beasts*-ə düşür; iki müstəqil solver hash ilə buna bağlanıb.
+2. **FANTASTIC HEDWIG** (boşluqlu, 16) — hash məhz bu formadadır.
+3. **FANTASTICSNITCH** — «watch?» qeydi videoya baxmağı tələb edir; videoda
+   görünən yeganə 6 hərflik şey snitch-dir, bayquş isə yoxdur.
+4. **FANTASTICUPLOAD** — `LAST WORD` təlimatını hərfi oxusaq.
