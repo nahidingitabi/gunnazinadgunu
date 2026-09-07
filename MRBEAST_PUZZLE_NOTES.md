@@ -11348,3 +11348,79 @@ etməmişdi**, 23 baş hərfin fərqli olması da qeyd olunmayıb.
 (7, 12, 13 yoxdur) — hamısı mümkün **Super Bowl** nömrələridir, «XOR SUPERB OWLS»
 ilə uyuşa bilər. Zibil qabındakı `251634` bu açarla `_ _ W _ _ V` verir — hələ
 mənalı deyil. Bu, indi əsl cəbhədir.
+
+# ★★★★★ QIRMIZI YOL TAM SÜBUT OLUNDU (7 sentyabr)
+
+Bundan əvvəl «Audubon → MRBEASTSAND» icmanın iddiası idi və mən onu təkrar
+istehsal edə bilmirdim. İndi edirəm — **26 hərfin hamısı**.
+
+## 1. Qeydin quruluşu (şəkillərdən qəti)
+
+```
+qırmızı vərəq:              krem vərəq:
+   (5 2 7)                  (3 6 4)   (4 4 4 5)
+      ↓                          ↘   ↙
+ (8 3 5 2 4 4)                   (6 6)
+      ↓                            ↓
+   M̶R̶  (9)                        (6)
+```
+
+## 2. (8 3 5 2 4 4) = «MRBEASTS AND WHERE TO FIND THEM»
+
+8+3+5+2+4+4 = **26 hərf**. `MRBEASTS(8) AND(3) WHERE(5) TO(2) FIND(4) THEM(4)`.
+`M̶R̶` pozulanda → «BEASTS AND WHERE TO FIND THEM» → filmin adını tamamlayan
+əskik söz **FANTASTIC** = **9 hərf** = qeyddəki `(9)`. ✓
+
+Müəllifin öz erratası («qırmızı vərəqdə bir 2 əskikdir») məhz bunu tələb edir:
+vərəqdə 83544 yazılıb, olmalıdır 835244.
+
+## 3. Mexanizm (u/CivilActive6029-un təsvirindən, mən yoxladım)
+
+Çəhrayı vərəqin hər sətri `<Audubon lövhə nömrəsi> <Roma rəqəmi>`.
+
+1. Lövhəni aç, quşun adını **Audubonun öz yazdığı kimi** götür (masadakı narıncı
+   yapışqan: *«Books w/ old names»*).
+2. Sətirləri həmin ada görə **əlifba sırasına düz** — baş hərflər A…Z, hər hərfə
+   bir sətir. Sıra məhz buna görə birmənalıdır.
+3. Roma rəqəmi quşun **ORİJİNAL ELMİ (latın) ADINA** hərf indeksidir — jigsaw-da
+   olduğu qaydanın eynisi. (Mənim əvvəlki uğursuz cəhdim adi adı istifadə edirdi.)
+
+## 4. Nəticə
+
+`tools/pieces/red_chain.py` — transkripsiyada olan **23 sətrin 23-ü də** hədəfə
+düşür, sıfır uyğunsuzluq:
+
+```
+MRBEASTSAND?HERE?OFINDT?EM
+MRBEASTSANDWHERETOFINDTHEM
+```
+
+Üç `?` — icmanın transkripsiyasında olmayan **L, Q, X** sətirləridir (vərəqdə
+L və X qəribə formada yazılıb: «424-6», «X VI»; Q sətri isə heç köçürülməyib).
+Deməli vərəqdə **26 sətir** var, 23 yox.
+
+### Bir düzəliş də mən tapdım
+İcma `235 VIII` yazır — bu, *Sterna fuliginosa*-nın 8-ci hərfi `U`-nu verir.
+Hədəf `F`-dir və `F` həmin adın **7-ci** hərfidir ⇒ vərəqdə `235 VII` yazılıb.
+Bu, müəllifin jigsaw üçün etiraf etdiyi «əlavə i» səhvinin eyni növüdür.
+
+⇒ **(9) = FANTASTIC — artıq icmanın iddiası deyil, hesablanmış nəticədir.**
+
+## 5. Mavi kart da təsdiqləndi
+
+`LSWRTE / NNHTIN / HDOTA` (17 hərf) = **LASTWORDTHENNINTH**-in cüt mövqeləri
+irəli, tək mövqeləri geri oxunuşu (2 relsli ziqzaq):
+`LSWRTENNH` + `TINHDOTA` = `LSWRTENNHTINHDOTA` → 6/6/5. Anaqram da eynidir. ✓
+
+## 6. Hələ açıq: mavi (6 6) → (6)
+
+Yoxlanıb və **işləmir**:
+- EP1–EP9-un gizli sözləri: `Every Challenge Leads Towards Location Name
+  Somewhere Around World` — «son söz» və «doqquzuncu» hər ikisi `World`, (5 5).
+- SB qrupu: SB12 = Tallinn (7), SB9 = Yellowstone (11).
+- OP9 = «South Pole» (5 4).
+- Super Bowl reklamının subtitr mətni: son söz `code`(4), 9-cu söz `vault`(5).
+- Videonun şərhindəki `tinyurl.com/xorprofile` → CyberChef XOR resepti,
+  açar `%H6U=)Z7</#bq` (13 bayt). `XORSUPERBOWLS` ilə XOR = zibil; açarın
+  1-ci, 3-cü, 6-cı baytları heç bir girişlə böyük hərf vermir ⇒ hərf→hərf
+  şifrə deyil. Bu, Colin-in şəxsi profil zarafatıdır.

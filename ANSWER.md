@@ -10,9 +10,11 @@ so do it; but do not expect it to win on its own.
 
 Nothing here has been submitted anywhere by me — that is yours to do.
 
-**What is certain is the jigsaw**, verified here letter by letter: it yields
-**BIRDS OF AMERICA** and **XOR SUPERB OWLS**. Everything after that is the community's
-work and is unconfirmed. That is where the real remaining opportunity is.
+**Certain, verified here letter by letter:** the jigsaw yields **BIRDS OF AMERICA**
+and **XOR SUPERB OWLS**; the teal card yields **LAST WORD THEN NINTH**; and the red
+chain yields **MRBEASTS AND WHERE TO FIND THEM**, so its nine-letter answer is
+**FANTASTIC**. The only step still taken on trust is the blue half's last hop to
+**HEDWIG**. That is where the remaining opportunity is.
 
 ---
 
@@ -63,21 +65,62 @@ The author has publicly posted an erratum: the grass piece has an extra blue "i"
 Its blue numeral is **VII**, not VIII — and *Tyto capensis*[7] = **P**, which is what
 the string needs. VIII would give E and break it.
 
-### 2. The two instructions the jigsaw hands you
+### 2. The red half — also solved and verified, letter by letter
 
-**RED — "BIRDS OF AMERICA"** → Audubon's plates. The pink desk sheet lists plate
-numbers with Roman numerals (029 III, 042 V, 081 XIV … all ≤ 435, the plate count).
-Orange sticky: *"Books w/ old names… Alphabetize?"*; yellow sticky: *"Roman numbers
-for Roman words?"*. That yields **MRBEASTSAND**; the red desk note shows **M̶R̶ (9)**,
-so strike MR and you have **BEASTS AND** → ***Fantastic** Beasts and Where to Find
-Them* → the nine-letter word **FANTASTIC**.
+The red note is a chain: **(5 2 7) → (8 3 5 2 4 4) → M̶R̶ (9)**.
 
-**BLUE — "XOR SUPERB OWLS"** ("superb owls" = "Super Bowls"; the author is
-**DoctorXOR**), combined with **LAST WORD THEN NINTH** from the teal rail-fence card,
-gives **FOURTH UPLOAD** — the blue note's (6 6) — and then the six-letter **HEDWIG**,
-Harry Potter's snowy owl. The blue note ends at (6).
+**(8 3 5 2 4 4)** is a six-word, twenty-six-letter phrase. It is
 
-Both halves are the same universe, and the whole puzzle is owls.
+> **MRBEASTS(8) AND(3) WHERE(5) TO(2) FIND(4) THEM(4)**
+
+Strike the MR, as the note itself does, and you are left with *Beasts and Where
+to Find Them*. The nine-letter word that completes the title — the note's **(9)** —
+is **FANTASTIC**.
+
+How the phrase is built: every row of the pink desk sheet is
+`<Audubon plate number> <Roman numeral>`. Open the plate in *The Birds of
+America*, take the bird's name **as Audubon printed it** (the orange sticky:
+*"Books w/ old names"*), sort the rows alphabetically by that name — the initials
+run A–Z, one row per letter — and read the Roman numeral as a letter index into
+that bird's **original scientific name**, the same rule the jigsaw uses.
+
+`tools/pieces/red_chain.py` does this. All twenty-three transcribed rows land on
+target, with no mismatches:
+
+```
+MRBEASTSAND?HERE?OFINDT?EM      computed
+MRBEASTSANDWHERETOFINDTHEM      target
+```
+
+The three `?` are the L, Q and X rows, which the community transcription of the
+sheet does not carry (its L and X rows are written oddly — "424-6", "X VI" — and
+no Q row was copied at all). So the sheet has twenty-six rows, not twenty-three.
+
+One further erratum falls out of this: the sheet's Sooty Tern row is transcribed
+"235 VIII", which gives U; the string needs F, which is *Sterna fuliginosa*[**7**].
+The row reads VII — the same VIII/VII misreading the author has already admitted
+to on the jigsaw's grass piece.
+
+### 2b. The blue half — the first two steps verified, the last one not
+
+The cream note is **(3 6 4) + (4 4 4 5) → (6 6) → (6)**.
+
+- **(3 6 4)** is **XOR SUPERB OWLS**, which the jigsaw's blue numerals spell
+  ("superb owls" = "Super Bowls"; the author is DoctorXOR).
+- **(4 4 4 5)** is **LAST WORD THEN NINTH**, and this is now proved rather than
+  assumed. The teal card on the desk reads `LSWRTE / NNHTIN / HDOTA`. Those
+  seventeen letters are LASTWORDTHENNINTH written on a two-rail zigzag: the
+  even positions read forward (`LSWRTENNH`), then the odd positions read back
+  (`TINHDOTA`). Concatenated and split 6/6/5 they reproduce the card exactly.
+
+What that instruction is applied to, and therefore the **(6 6)** and the final
+**(6)**, is the one thing on the desk still unverified here. The community's
+answer is **FOURTH UPLOAD** and then **HEDWIG** — Harry Potter's snowy owl, which
+keeps the whole puzzle in one universe with FANTASTIC. Checked here and ruled
+out as the source of the (6 6): the nine playlist words of the old hunt (*Every
+Challenge Leads Towards Location Name Somewhere Around World* — last word and
+ninth word are both "World"), the twelve Super Bowl puzzles (SB12 = Tallinn,
+SB9 = Yellowstone), OP9 ("South Pole"), and the Super Bowl ad's caption script.
 
 ### 3. Independent confirmation
 
