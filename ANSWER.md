@@ -237,7 +237,28 @@ what SUPERB OWLS points at. That is a reading, not a proof (the 12 is not confir
 independently), but three separate lines — the ordinal's length, the XOR, and
 MrBeast's own upload history — meet on the same answer.
 
-`251634` is the one blue tool still unexplained.
+`251634` turns out to be `25 | 16 | 34` — the three complementary pairs of 1–6, so
+each pair both sums and XORs to **7**. Only 6.7% of permutations do that, so it reads
+as a worked example of the XOR operation rather than a scramble; its purpose is still
+open.
+
+### What the author himself has said
+
+Colin Sanders answers questions from his own Reddit account, and three of his answers
+matter here:
+
+- *"anything I post on Reddit, Instagram, or YouTube is **not relevant** to the MrBeast
+  puzzle"* — which kills the CyberChef link people found on his profile (it decodes
+  nothing here either), and means the UPLOAD has to be MrBeast's own.
+- *"If you haven't solved a jigsaw puzzle, MrBeast's video is the **only one** you
+  should be watching 🙂"* — so once you have, another video is exactly what you need.
+  That is the cabinet's "YouTube link / watch?" note.
+- *"There may be other things you need on the internet (**Google is always an
+  option!**)"* — outside knowledge is expected, which is how both halves finish.
+
+He has also confirmed the challenge is completable and that his two errata (the grass
+piece's extra blue "i", the red paper's missing 2) are the only real mistakes — and
+both of them are exactly what the reconstruction here needs.
 
 Ruled out here, so nobody need redo them: the fourth upload of each of MrBeast's
 six channels and of the author's own (dated — the Harry Potter Minecraft video is
