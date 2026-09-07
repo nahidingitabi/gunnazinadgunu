@@ -11531,15 +11531,22 @@ Harry Potter videosudur, qeyd isə 6 hərflik söz istəyir. Alət:
 ⚠ Hələ çıxarılmayıb: **niyə məhz İKİNCİ**? Yəni «LAST WORD THEN NINTH» bu sıra
 sayını necə seçir. Mavi yapışqanlar (`# # How many?`, `251634`) burada işə düşür.
 
-### §10 düzəlişi — qeyd `## ##`-dir, `# #` deyil
+### §10 düzəlişi — ŞKAF TAM OXUNDU (icmanın fotosundan)
 
-3× böyüdülmüş kadrda (`HOWMANY.png`) aydın görünür: **`## ##`** — iki cüt xana,
-yəni **iki ikirəqəmli ədəd** istənir, bir dənə yox. Bu, «XOR SUPERB OWLS»
-təlimatı ilə birləşəndə təbii oxunuş verir: **iki ədədi tap və XOR et.**
+⛔ **Öz «## ##» düzəlişimi geri götürürəm** — o, videonun bulanıq kadrından
+çıxarılmış səhv oxunuş idi.
 
-`251634` qeydində də (`NUM251634.png`) «25»-dən sonra gözlə görünən aralıq var:
-`25 16 34` (üç ədəd) və ya `2:51` + `6:34` (iki vaxt kodu — video 17:47-dir, hər
-ikisi videonun içindədir) kimi oxuna bilər. u/CiviledXI də `251634`-ü vaxt kodu
-kimi sınadığını yazır.
+Reddit-də bir istifadəçinin fotosunu tapdım (`rdimg/1w768xr_45.jpeg`, 2304×1440,
+şkaf yaxşı işıqlanıb) — orada **bütün altı qeyd tam görünür**, kəsilmir. Artefakt:
+`tools/pieces/CABINET_FULL.png`.
 
-Maraqlı: **25 XOR 16 = 9** — və təlimat «…THEN **NINTH**» deyir.
+Dəqiq oxunuş:
+- qeyd **`# #`**-dir (iki simvol), `## ##` deyil → «iki ədəd» deməkdir;
+- **`251634`** bərabər aralıqlı altı rəqəmdir, qruplaşma yoxdur (yəni
+  `25 16 34` və ya `2:51`/`6:34` oxunuşları üçün vizual əsas YOXDUR);
+- alt qeyd tam olaraq **«YouTube link / watch?»**-dur və **altında başqa heç nə
+  yoxdur** — gizli URL yoxdur, şkaf orada bitir.
+
+⇒ Mavi zəncirin alətləri: **iki ədəd say** (`# #` «How many?»), **`251634`**
+(1–6-nın yerdəyişməsi), və **bir YouTube linkinə bax**. «XOR SUPERB OWLS»
+əməliyyatı verir.

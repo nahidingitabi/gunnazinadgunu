@@ -210,7 +210,7 @@ and they are **colour-coded by chain**:
 | yellow | `QX = TH` | red — the pink sheet's Q and X rows |
 | blue | `251634` | blue |
 | yellow | `PLATES` | red — Audubon's plates |
-| blue | `YouTube link` / `Watch?` (cut off at the frame edge) | blue |
+| blue | `YouTube link` / `watch?` | blue |
 
 All three yellow notes are now explained. So the blue chain has exactly three
 tools: **a YouTube video**, **a count** (two digit boxes — most likely 14, the
@@ -226,9 +226,11 @@ word is *Towards*); the pinned comment's wording; the CyberChef XOR key from the
 profile link against every phrase the desk produces; and `251634` as a permutation
 of any six-letter English word (no pair of real words maps to another).
 
-The one observation still missing is the **bottom of that cabinet**, which is out
-of frame in every shot examined so far — the blue "YouTube link / Watch?" note is
-cut off there.
+The cabinet is fully read now — a community photo of the shot
+(`tools/pieces/CABINET_FULL.png`) shows all six notes unclipped, and the bottom one
+says only "YouTube link / watch?" with nothing under it. There is no hidden URL
+there; `251634` is six evenly-spaced digits with no grouping; and the hash note is
+`# #`, two number placeholders.
 
 ## Files
 
