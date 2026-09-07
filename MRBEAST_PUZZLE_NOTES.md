@@ -11828,3 +11828,18 @@ bütün namizədlər:
 üç mümkün ordinaldan (SECOND/FOURTH/EIGHTH) **yalnız SECOND altı hərflik bir
 cavaba düşür** (Harry Potter → HEDWIG). Bunu belə də yazıram — daha güclü
 göstərməyəcəyəm.
+
+## 22. Qırmızı zəncirin latın adları xarici mənbələrlə yoxlandı
+
+`red_chain.py`-dakı binomiallar mənim öz biliyimdən gəlmişdi — yəni «cavabı bilib
+ada uyğunlaşdırdım» şübhəsi qalırdı. Dördünü müstəqil mənbələrlə yoxladım:
+
+| lövhə | Audubonun adı | binomial | mənbə | verdiyi hərf | hədəf |
+|---|---|---|---|---|---|
+| 253 | Jager | ***Lestris pomarinus*** | audubon.org, NY Historical | [14] = **N** | N ✓ |
+| 329 | Yellow-breasted Rail | ***Rallus noveboracensis*** | Univ. of Pittsburgh (pitt:aud0329) | [10] = **E** | E ✓ |
+| 216 | Wood Ibiss | ***Tantalus loculator*** | Digital Commonwealth («Wood ibis : Tantalus loculator … plate 216») | [1] = **T** | T ✓ |
+| 184 | Mango Hummingbird | ***Trochilus mango*** | audubon.org, birdandbee (AUD184) | [5] = **H** | H ✓ |
+
+⇒ Adlar uydurulmayıb, sənədlidir; hər dördü hədəf hərfə düşür. Bu, qırmızı
+zəncirin «uyğunlaşdırma» yox, **çıxarış** olduğunu gücləndirir.
