@@ -11861,3 +11861,18 @@ qeydiyyatdan keçirib yığdım (`tools/pieces/CABINET_STACK.png`,
 
 ⚠ **Çəhrayı vərəq bu klipdə yoxdur** — rəng axtarışı yalnız kərpic divarı tapdı.
 Onun üçün **1:10–1:25** aralığı lazımdır.
+
+### §23 əlavəsi — parça rəqəmləri öz kadrımdan təsdiqləndi
+
+İstifadəçinin klipindəki masa kadrından (11.95 san) qutulardakı parçaları 9×
+böyütdüm (`tools/pieces/PIECES_OMAN_AFRICA.png`):
+
+- **Oman bayrağı**: qırmızı **VI**, mavi **V** — cədvəlimlə eyni
+  (*Strix butleri*[6]=B, [5]=X).
+- **Afrika + ot**: mavi **VIII**, qırmızı **IV** — müəllifin «əlavə mavi *i*»
+  errata-sı məhz bu VIII-ə aiddir ⇒ VII, və *Tyto capensis*[7]=**P**, sətir
+  məhz onu tələb edir. ✓
+- Qar buludu: qırmızı **IX**, mavi **V** ✓; təqvim-25: qırmızı **II**, mavi **IV** ✓;
+  ABŞ bayrağı + tövlə: qırmızı **VII**, mavi **IV** ✓.
+
+Həmçinin görünür: qutulardan birinin etiketi «**PUZZLE CLUES**».
