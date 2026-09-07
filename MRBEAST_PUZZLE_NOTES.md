@@ -11550,3 +11550,37 @@ Dəqiq oxunuş:
 ⇒ Mavi zəncirin alətləri: **iki ədəd say** (`# #` «How many?»), **`251634`**
 (1–6-nın yerdəyişməsi), və **bir YouTube linkinə bax**. «XOR SUPERB OWLS»
 əməliyyatı verir.
+
+## 12. ★★ «XOR SUPERB OWLS» ƏMƏLİYYATIN İKİ OPERANDINI ADLANDIRIR
+
+İndiyə qədər hamı (mən də) bunu sadəcə söz oyunu sayırdı: «superb owls» =
+«Super Bowls». Amma mavi qeydlərlə birlikdə oxunanda daha çox şey deyir:
+
+> **XOR** *[nəyi?]* **SUPERB** *[= Super Bowls]* **OWLS** *[= bayquşlar]*
+
+yəni **Super Bowls ⊕ Owls**. Və şkafdakı mavi qeyd `# #` «How many?» məhz həmin
+**iki sayı** istəyir.
+
+### Nəticə hansı ola bilər — cəbri məhdudiyyət
+
+`(6 6)` üçün sıra sayı **6 hərflik** olmalıdır. Bütün ingilis sıra saylarından
+yalnız üçü altı hərflikdir: **SECOND (2)**, **FOURTH (4)**, **EIGHTH (8)** —
+təsadüfən hamısı **ikinin qüvvəti**. Bayquşların sayı 14-dür, deməli:
+
+```
+14 XOR 12 = 2  -> SECOND    ← yeganə HEDWIG-ə düşən
+14 XOR 10 = 4  -> FOURTH    (icmanın oxunuşu; heç yerə düşmür)
+14 XOR  6 = 8  -> EIGHTH    (heç yerə düşmür)
+```
+
+⇒ İkinci say **12** olmalıdır. Köhnə ovun **Super Bowl qrupu tam 12 tapmacadan
+ibarətdir (SB1–SB12)** — «SUPERB OWLS»-un göstərdiyi şey elə odur.
+
+⚠ **Bu sübut deyil, oxunuşdur**: «12»-nin məhz o qrupun sayı olduğunu təsdiq edən
+müstəqil dəlilim yoxdur. Amma zəncir bütövdür və müstəqil olaraq HEDWIG-ə düşür:
+
+```
+14 bayquş ⊕ 12 Super Bowl = 2 → SECOND UPLOAD
+  → MrBeast-in ikinci videosu = «Harry Potter Mod In Minecraft!»
+  → Harry-nin bayquşu = HEDWIG (6)
+```
