@@ -11424,3 +11424,34 @@ Yoxlanıb və **işləmir**:
   açar `%H6U=)Z7</#bq` (13 bayt). `XORSUPERBOWLS` ilə XOR = zibil; açarın
   1-ci, 3-cü, 6-cı baytları heç bir girişlə böyük hərf vermir ⇒ hərf→hərf
   şifrə deyil. Bu, Colin-in şəxsi profil zarafatıdır.
+
+## 7. Rəqib cavab RƏDD EDİLDİ
+
+`BEASTSANDSTUNTS` və `BEASTSANDUPLOAD` qeydin `(9)`-unu **BEASTSAND** kimi oxuyur —
+yəni çıxarışın ilk 11 hərfindən MR-i atıb. Amma çıxarış **26 hərfdir** və söz
+uzunluqları tam olaraq qeyddəki (8 3 5 2 4 4)-dür. `BEASTSAND` həmin ifadənin
+sözü deyil. Deməli (9) ancaq adı tamamlayan söz ola bilər: **FANTASTIC**.
+
+## 8. Mavi yol üçün yoxlanılıb və İŞLƏMİR (təkrarlamayın)
+
+- MrBeast əsas kanalının 4-cü yükləməsi = `More birds IN MINECRAFT!!`
+  (2013-01-12). Tarixlərlə təsdiqləndi: 1) 2012-02-20 `Worst Minecraft Saw Trap
+  Ever???` 2) 2012-03-09 `Harry Potter Mod In Minecraft!` 3) 2013-01-12 `Boxy
+  item mod` 4) 2013-01-12 `More birds IN MINECRAFT!!`. **Harry Potter videosu
+  2-cidir, 4-cü deyil.** Təsvirində Hedwig/bayquş yoxdur (mod = QuidCraft).
+- Digər kanalların 4-cü yükləmələri: MrBeast2 `Unlimited Money Machine`;
+  MrBeast Gaming `Last to Survive Random Blocks…`; Beast Reacts `Super Satisfying
+  Kinetic Sand DIY`; Beast Philanthropy `Giving Away 50,000 Cookies!`;
+  Beast Animations `MrBeast Lab - Ep 2`; DoctorXOR `140 - Mirror Level 3
+  Walkthrough (No deaths)`. Heç biri (6) vermir.
+- Pinned şərh tam mətni: «Make sure you check out Colin's profile 👀
+  https://tinyurl.com/xorprofile» — 7 söz, doqquzuncu söz yoxdur.
+- EP4 (köhnə ovun 4-cü videosu) = `$1 to $500,000 Experiences!`, gizli sözü
+  **Towards** (7). ✗
+- CyberChef açarı ilə XOR: `FOURTH UPLOAD` (tam 13 simvol, açar da 13 bayt,
+  şablonun 7-ci mövqeyində ayırıcı) → çap olunmayan zibil. `FANTASTIC HEDWIG`,
+  `XOR SUPERB OWLS`, `BIRDS OF AMERICA`, `MRBEASTSANDWHERETOFINDTHEM` — hamısı
+  zibil. Yalnız şablonun öz girişi oxunaqlı çıxır ⇒ giriş nümunədir, açar isə
+  başqa bir 13 simvolluq sətir üçündür (hələ tapılmayıb).
+- Colin-in 6 sentyabr yayımı (2 saat 9 dəq, tam transkript): $10K tapmacası
+  haqqında **heç nə** yoxdur, sadəcə oyun oynayır.

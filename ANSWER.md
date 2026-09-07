@@ -136,8 +136,23 @@ space, reversed order and other variants do not match.
 ## What is not settled
 
 - **No winner has been announced** and the author refuses to confirm answers. The
-  hash proves a solver committed to this answer, not that the answer is right.
-- Some solvers dissent; a rival answer (`BEASTSANDSTUNTS`) was argued and rebutted.
+  hash proves a solver committed to this answer, not that the answer is right. Two
+  solvers reached it independently, though (one had entered it before the other
+  published the hash), and the author's own stream on 6 September still says he
+  cannot discuss it "until someone solves it and Team Beast announces a winner".
+- **The blue half's last hop is the one thing nobody has shown their work for.**
+  Every public account of it — including the one that reports "manually counting
+  transcripts" — asserts FOURTH UPLOAD and then HEDWIG without deriving either,
+  and another solver flatly says the fourth upload "involved no transcripts".
+  HEDWIG is nonetheless the natural six-letter answer: the red half lands on
+  *Fantastic Beasts and Where to Find Them*, and the only six-letter owl in that
+  universe is Harry Potter's.
+- ~~A rival answer (`BEASTSANDSTUNTS`).~~ **Refuted here.** It rests on reading the
+  note's (9) as `BEASTSAND` — the first eleven letters of the extraction, minus MR.
+  But the extraction is twenty-six letters, not eleven, and its word lengths are
+  exactly the note's (8 3 5 2 4 4). So `BEASTSAND` is not a word of that phrase at
+  all; the (9) has to be the word that completes the title, i.e. FANTASTIC. The
+  same argument kills `BEASTSANDUPLOAD`.
 - **Length — worth knowing before you type.** I counted the masked characters in the
   video's entry form keystroke by keystroke: they appear one every two frames and stop
   at **15**. Stacking the eight frames of the final state and fitting the character
