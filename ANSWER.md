@@ -212,12 +212,32 @@ and they are **colour-coded by chain**:
 | yellow | `PLATES` | red — Audubon's plates |
 | blue | `YouTube link` / `watch?` | blue |
 
-All three yellow notes are now explained. So the blue chain has exactly three
-tools: **a YouTube video**, **a count** (two digit boxes — most likely 14, the
-number of owls), and **`251634`**, which uses each of the digits 1–6 exactly
-once and is therefore a six-element **permutation**, not a number. The blue
-answer is six letters, so the last step may well be arranging six letters in
-that order.
+It is the *ink* that splits them — red pen on the yellow notes, blue pen on the
+blue ones — and all three red-ink notes are now explained. So the blue chain has
+exactly three tools: **a YouTube video** ("watch?"), **two counts** (`# #`,
+"How many?"), and **`251634`**, which uses each of the digits 1–6 exactly once
+and so is a six-element **permutation**, not a number.
+
+And that "How many?" is what makes **XOR SUPERB OWLS** more than wordplay: read
+together, the phrase names the two operands — *Super Bowls* ⊕ *owls* — and the
+note asks you to count them.
+
+The arithmetic then closes almost by itself. The (6 6) needs a **six-letter
+ordinal**, and English has exactly three: SECOND, FOURTH, EIGHTH — 2, 4 and 8,
+all powers of two. There are 14 owls, so the second count can only be 12, 10 or 6:
+
+```
+14 ⊕ 12 = 2  → SECOND    ← the only one that lands on anything
+14 ⊕ 10 = 4  → FOURTH    (the community's reading; lands nowhere)
+14 ⊕  6 = 8  → EIGHTH    (lands nowhere)
+```
+
+The old hunt's Super Bowl group is **exactly twelve puzzles, SB1–SB12** — which is
+what SUPERB OWLS points at. That is a reading, not a proof (the 12 is not confirmed
+independently), but three separate lines — the ordinal's length, the XOR, and
+MrBeast's own upload history — meet on the same answer.
+
+`251634` is the one blue tool still unexplained.
 
 Ruled out here, so nobody need redo them: the fourth upload of each of MrBeast's
 six channels and of the author's own (dated — the Harry Potter Minecraft video is
