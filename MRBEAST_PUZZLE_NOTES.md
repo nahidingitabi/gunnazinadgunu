@@ -11679,3 +11679,10 @@ Maraqlı, amma tam oturmur: masadakı **mavi** qeyd `(6)` ilə bitir — mavi st
 **6**-dır ✓. Amma **qırmızı** qeyd `(9)` ilə bitir, qırmızı stiker isə **7**-dir ✗.
 Ona görə «rənglər cavab uzunluqlarını təkrarlayır» fərziyyəsi **yarımçıq qalır**;
 ehtimal ki boru köhnə tapmacanın dekorudur.
+
+### §16 əlavəsi — boru rəqəmlərini yapbozla kəsişdirdim: nəticə YOX
+
+`6 7 4` parça nömrələri kimi: 6 = *Tyto capensis*, 7 = *Ninox albifacies*,
+4 = *Bubo scandiacus* (**qar bayquşu — Hedwig-in növü**, maraqlı amma zəif).
+Həmin sıra ilə qırmızı hərflər `O F D`, mavi hərflər `P E S` — mənasız.
+Baş hərflər `T N B` — mənasız. ⇒ Bu istiqamət bağlanır.
