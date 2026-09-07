@@ -11706,17 +11706,31 @@ Baş hərflər `T N B` — mənasız. ⇒ Bu istiqamət bağlanır.
   (59 ⇒ 53 ✗), Audubon-dakı bayquş lövhələri (11 ⇒ 5 ✗).
   ⇒ **Yalnız 12 işləyir və yalnız SB1–SB12 qrupu 12 verir.**
 
-## 18. ★★★ MAVİ ZƏNCİRİN HƏR İKİ DAYAĞI TƏSDİQLƏNDİ (03:36 dövrü)
+## 18. MAVİ ZƏNCİR — BİR DAYAQ TƏSDİQLƏNDİ, BİRİ ⛔ LƏĞV OLUNDU
 
-### 1. «12» ilkin mənbədən təsdiqləndi
+### 1. ⛔ «12 = SB1–SB12» LƏĞV EDİLDİ (müəllifin özü tərəfindən)
+
+**2026-09-07 04:11, u/DoctorXOR:** *«Not directly — I very intentionally **avoided
+references**, so you **don't have to know anything about the $1M**. But of course,
+anyone who made progress in the $1M may be more prepared in a general sense, as
+there are some tactics in common.»*
+
+⇒ Köhnə ovun daxili quruluşunu (SB1–SB12) bilmək **tələb olunmur**, deməli
+«ikinci say = 12 Super Bowl tapmacası» oxunuşum **səhvdir**. Geri götürürəm.
+İkinci say videodan/otaqdan sayıla bilən bir şey olmalıdır. Namizədlər:
+otaqdakı **12 yol nişanı** (u/tehKJM sayır) və ya yapbozun rəqəmlərinin XOR-u
+(aşağıya bax). Hər halda `(6 6)` = SECOND UPLOAD nəticəsi dəyişmir, çünki onu
+seçən əsas arqument ordinalın uzunluğu və Harry Potter videosudur.
+
+### 1b. Köhnə sənəddəki «12» (artıq dayaq deyil, sadəcə qeyd)
 Köhnə ovun **rəsmi cavab sənədi** (məndə: `MDP_TEXT.txt`, səh. 4) hərfən yazır:
 
 > «1. **12 puzzles are solvable from the Super Bowl video (SB1 – SB12)**
 >  2. 13 puzzles … (PG1–PG13)  3. 9 easy Pregame puzzles (EP1–EP9)
 >  4. 11 gift clues (GC1–GC11)  5. 14 outreach puzzles (OP1–OP14) …»
 
-⇒ «SUPERB OWLS»-un göstərdiyi qrup **tam 12**-dir. Bu artıq mənim fərziyyəm deyil,
-tapmacanı hazırlayanların öz sənədidir. Deməli **14 (bayquş) ⊕ 12 (Super Bowl) = 2**.
+Rəqəm doğrudur, amma müəllifin yuxarıdakı sözündən sonra **bu, tapmacanın yolu
+ola bilməz**. Sadəcə arxiv qeydi kimi saxlayıram.
 
 ### 2. MrBeast-in İLK videosu təsdiqləndi
 «**Worst Minecraft Saw Trap Ever???**», **2012-02-20** — bir neçə müstəqil mənbə
@@ -11742,3 +11756,18 @@ bludger, snitch, beater bat** — **bayquş yoxdur**. Yəni cavab videonun *içi
    → Harry Potter-in bayquşu (Google)
    → (6) = HEDWIG
 ```
+
+## 19. Yapboz rəqəmlərinin XOR-u — hesablandı, amma AYIRD ETMİR
+
+Super Bowl-lar Roma rəqəmi ilə nömrələnir, yapbozun rəqəmləri də Romadır, ona görə
+«XOR SUPERB OWLS»-u «bayquşların Roma rəqəmlərini XOR et» kimi oxumaq mümkündür:
+
+```
+XOR(bütün 14 qırmızı) = 12      12 ⊕ 14 = 2  -> SECOND
+XOR(bütün 13 mavi)    = 10      10 ⊕ 14 = 4  -> FOURTH
+XOR(hamısı, 27 rəqəm) =  6       6 ⊕ 14 = 8  -> EIGHTH
+```
+
+⚠ **Bu, seçim etmir**: üç təbii XOR variantı düz üç mümkün ordinalın hamısını
+verir (çünki 12⊕10=6). Yəni bu hesab «SECOND»-u **sübut etmir**; onu yalnız
+Harry Potter videosunun mövcudluğu seçir. Uydurma dəlil kimi təqdim etmirəm.

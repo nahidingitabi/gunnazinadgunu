@@ -232,10 +232,14 @@ all powers of two. There are 14 owls, so the second count can only be 12, 10 or 
 14 ⊕  6 = 8  → EIGHTH    (lands nowhere)
 ```
 
-The old hunt's Super Bowl group is **exactly twelve puzzles, SB1–SB12** — which is
-what SUPERB OWLS points at. That is a reading, not a proof (the 12 is not confirmed
-independently), but three separate lines — the ordinal's length, the XOR, and
-MrBeast's own upload history — meet on the same answer.
+Where the 12 comes from is **not settled**. The old hunt's Super Bowl group is
+exactly twelve puzzles, but the author has since said he *"very intentionally avoided
+references, so you don't have to know anything about the $1M"* — so that cannot be the
+route, and I have withdrawn it. Twelve road signs have been counted in the room, and
+the fourteen red numerals happen to XOR to 12; neither is confirmed. Note also that
+this arithmetic does not by itself pick SECOND — the red numerals XOR to 12, the blue
+to 10 and all of them to 6, which give 2, 4 and 8 respectively, i.e. all three
+candidate ordinals. What picks SECOND is that only it lands on a video.
 
 `251634` turns out to be `25 | 16 | 34` — the three complementary pairs of 1–6, so
 each pair both sums and XORs to **7**. Only 6.7% of permutations do that, so it reads
