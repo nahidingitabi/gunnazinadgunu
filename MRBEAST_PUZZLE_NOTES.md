@@ -11708,7 +11708,8 @@ Baş hərflər `T N B` — mənasız. ⇒ Bu istiqamət bağlanır.
 
 ## 18. MAVİ ZƏNCİR — BİR DAYAQ TƏSDİQLƏNDİ, BİRİ ⛔ LƏĞV OLUNDU
 
-### 1. ⛔ «12 = SB1–SB12» LƏĞV EDİLDİ (müəllifin özü tərəfindən)
+### 1. ⛔→✅ «12» ƏVVƏL LƏĞV EDİLDİ, SONRA BAŞQA ƏSASLA BƏRPA OLUNDU
+*(§24-ə bax: rəqəm videonun EKRANINDA yazılıb, köhnə ovun sənədində deyil)*
 
 **2026-09-07 04:11, u/DoctorXOR:** *«Not directly — I very intentionally **avoided
 references**, so you **don't have to know anything about the $1M**. But of course,
@@ -11876,3 +11877,37 @@ böyütdüm (`tools/pieces/PIECES_OMAN_AFRICA.png`):
   ABŞ bayrağı + tövlə: qırmızı **VII**, mavi **IV** ✓.
 
 Həmçinin görünür: qutulardan birinin etiketi «**PUZZLE CLUES**».
+
+## 24. ★★★★ «12» VİDEONUN EKRANINDADIR — «How many?» bağlandı
+
+İstifadəçinin göndərdiyi ikinci klipdə (59 san, 1080p) kadrın **sağ üstündə yaşıl
+sayğac** var, yanında qırmızı **yer nişanı**:
+
+```
+t = 21.00 s   →   1/12
+t = 39.75 s   →   2/12
+```
+
+(`tools/pieces/COUNTER_12.png`) MrBeast lövhənin qarşısında dayanıb, hər ~19
+saniyədən bir sayğac irəliləyir — yəni video **12 məkanı** ardıcıl sayır.
+
+### Niyə bu vacibdir
+
+Müəllif 09-07 04:11-də yazmışdı ki, köhnə $1M ovunu bilmək **lazım deyil**, və
+mən buna görə «ikinci say = SB1–SB12» oxunuşumu geri götürmüşdüm. **İndi rəqəm
+köhnə ovun sənədindən yox, MrBeast-in öz videosunun ekranından gəlir** — yəni
+müəllifin şərti pozulmur: solver sadəcə videoya baxır və «12» rəqəmini görür.
+
+Şkafdakı mavi qeyd `# #` / «How many?» məhz iki sayı istəyir, «XOR SUPERB OWLS»
+isə operandları adlandırır:
+
+```
+14 bayquş  ⊕  12 Super Bowl məkanı (ekranda: 1/12, 2/12, …)  =  2
+   → (6 6) = SECOND UPLOAD
+   → MrBeast-in ikinci videosu = «Harry Potter Mod In Minecraft!» (2012-03-09)
+   → Harry Potter-in bayquşu  →  (6) = HEDWIG
+```
+
+⚠ Hələ də dürüst qeyd: XOR-un hansı dəst üzərində aparılacağı (bayquş sayı vs
+rəqəmlərin XOR-u) tam birmənalı deyil, amma indi **hər iki operandın da mənbəyi
+videodadır** və nəticə SECOND-dur.
