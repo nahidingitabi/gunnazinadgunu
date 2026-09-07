@@ -11633,3 +11633,17 @@ müstəqil təsdiqləyir (qeyd MAVİ mürəkkəblədir, yəni mavi zəncirə aid
 ⛔ Rədd edilir: `251634`-ün 6 hərflik sözü başqa 6 hərflik sözə çevirməsi
 (29 874 ingilis sözü üzərində sınadım — heç bir söz cütü yoxdur), və
 `PLATES` üzərində tətbiqi (`LEPSAT` / `APESLT`).
+
+## 15. «1000 video» — SECOND UPLOAD-un təməli müstəqil təsdiqləndi
+
+r/MrBeast, 2026-09-07 01:53: *«Bro mrbeast is exactly 1000 videos as of
+September 2026»*. Mənim `yt-dlp` ilə çıxardığım yükləmə siyahısı da tam **1000**
+sətir verirdi — yəni siyahı YouTube-un 1000-lik limitinə görə kəsilməyib, əsl
+tam siyahıdır. Deməli:
+
+- ən köhnə (indeks 1000) = **2012-02-20 «Worst Minecraft Saw Trap Ever???»** —
+  onun **birinci** videosu;
+- indeks 999 = **2012-03-09 «Harry Potter Mod In Minecraft!»** — onun
+  **İKİNCİ** videosu.
+
+⇒ «SECOND UPLOAD → Harry Potter → HEDWIG» oxunuşunun sayma təməli sağlamdır.
