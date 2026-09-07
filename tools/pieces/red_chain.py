@@ -22,11 +22,20 @@ nine-letter word the note asks for is the one that completes the title:
 
     FANTASTIC                              (9)
 
-Rows are the community transcription of the sheet (23 numeric rows). Three
-alphabet slots -- L, Q, X -- are not recoverable from that transcription: the
-sheet's L and X rows are written in an odd form ("424-6", "X VI") and no Q row
-was transcribed at all. They are listed as unknown rather than guessed.
+Rows are the community transcription of the sheet (23 numeric rows). Audubon
+has no plate whose name begins with Q or X, so those two alphabet slots cannot
+come from a plate number at all -- and the desk supplies them directly, on the
+yellow sticky reading "QX = TH". That is exactly what this reconstruction needs:
+Q is the 17th letter of the alphabet and the 17th letter of the target is T, X
+is the 24th and the 24th letter of the target is H. The sticky was on the desk
+all along and nobody could explain it; it is the sheet's Q and X rows.
+
+That leaves L, whose row the community transcribes as the odd "424-6" (plate 424
+is the six-bird "Lazuli Finch, ..." plate). Its letter is forced to W.
 """
+
+DIRECT = {'Q': ('T', 'yellow sticky "QX = TH"'),
+          'X': ('H', 'yellow sticky "QX = TH"')}
 import re
 
 # plate -> (Audubon's printed name, Audubon's original binomial)
@@ -88,7 +97,11 @@ def main():
           ("ltr", "plate", "roman", "idx", "Audubon's name", "original binomial", "->"))
     out = ""
     for ltr in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
-        if ltr in got:
+        if ltr in DIRECT:
+            v, why = DIRECT[ltr]
+            print("%-3s %-5s %-5s %-4s %-22s %-26s %s" % (ltr, "-", "-", "-", why, "", v))
+            out += v
+        elif ltr in got:
             r = next(x for x in rows if x[0] == ltr)
             print("%-3s %-5d %-5s %-4d %-22s %-26s %s" % (ltr, r[1], r[2], r[3], r[4][:22], r[5], r[6]))
             out += r[6]

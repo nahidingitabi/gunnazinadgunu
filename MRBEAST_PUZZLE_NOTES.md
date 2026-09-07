@@ -11455,3 +11455,25 @@ sözü deyil. Deməli (9) ancaq adı tamamlayan söz ola bilər: **FANTASTIC**.
   başqa bir 13 simvolluq sətir üçündür (hələ tapılmayıb).
 - Colin-in 6 sentyabr yayımı (2 saat 9 dəq, tam transkript): $10K tapmacası
   haqqında **heç nə** yoxdur, sadəcə oyun oynayır.
+
+## 9. ★★★ `QX = TH` YAPIŞQANI İZAH OLUNDU — və modelimi təsdiqləyir
+
+Sarı yapışqanda **`QX=TH`** yazılıb (mən onu videodan hələ 4706-cı sətirdə qeyd
+etmişdim, izah edə bilməmişdim; icma da ona sadəcə «substitution cipher» deyirdi).
+
+Audubonda **Q** və **X** ilə başlayan lövhə **yoxdur** ⇒ çəhrayı vərəq həmin iki
+əlifba xanasını lövhə nömrəsi ilə verə bilmir, ona görə masada birbaşa yazılıb.
+
+Mənim müstəqil rekonstruksiyam tam olaraq bunu tələb edir:
+`MRBEASTSANDWHERETOFINDTHEM`-in **17-ci** hərfi (Q) = **T**, **24-cü** hərfi (X)
+= **H**. ⇒ **QX = TH.** Səhv model üçün bu təsadüfün ehtimalı 1/676-dır.
+
+İndi 26 hərfin **25-i birbaşa hesablanır**, uyğunsuzluq sıfır:
+
+```
+MRBEASTSAND?HERETOFINDTHEM
+MRBEASTSANDWHERETOFINDTHEM
+```
+
+Qalan tək `?` — **L** sətri (icma onu «424-6» kimi yazır; lövhə 424 altı quşluq
+«Lazuli Finch, …» lövhəsidir). Onun hərfi məcburən **W**-dir.

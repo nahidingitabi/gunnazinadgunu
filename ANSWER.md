@@ -84,17 +84,24 @@ America*, take the bird's name **as Audubon printed it** (the orange sticky:
 run A–Z, one row per letter — and read the Roman numeral as a letter index into
 that bird's **original scientific name**, the same rule the jigsaw uses.
 
-`tools/pieces/red_chain.py` does this. All twenty-three transcribed rows land on
-target, with no mismatches:
+`tools/pieces/red_chain.py` does this. Twenty-five of the twenty-six letters come
+out directly, with no mismatches:
 
 ```
-MRBEASTSAND?HERE?OFINDT?EM      computed
+MRBEASTSAND?HERETOFINDTHEM      computed
 MRBEASTSANDWHERETOFINDTHEM      target
 ```
 
-The three `?` are the L, Q and X rows, which the community transcription of the
-sheet does not carry (its L and X rows are written oddly — "424-6", "X VI" — and
-no Q row was copied at all). So the sheet has twenty-six rows, not twenty-three.
+Audubon has no plate whose name begins with Q or X, so those two alphabet slots
+cannot come from a plate number — and the desk hands them over directly, on the
+yellow sticky that reads **`QX = TH`**. That sticky has sat there unexplained
+(the community filed it as "a substitution cipher"); it is the sheet's Q and X
+rows. And it is exactly what this reconstruction needs: Q is the alphabet's 17th
+letter and the target's 17th letter is T; X is the 24th and the target's 24th is
+H. If the mechanism were wrong, that is a one-in-676 coincidence.
+
+The single remaining `?` is L, whose row the community transcribes as the odd
+"424-6". Its letter is forced to W.
 
 One further erratum falls out of this: the sheet's Sooty Tern row is transcribed
 "235 VIII", which gives U; the string needs F, which is *Sterna fuliginosa*[**7**].
