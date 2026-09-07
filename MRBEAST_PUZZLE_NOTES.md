@@ -12013,3 +12013,77 @@ Amma bu, təlimatı cavaba çevirir və `THEN NINTH` yenə boşda qalır.
 3. **FANTASTICSNITCH** — «watch?» qeydi videoya baxmağı tələb edir; videoda
    görünən yeganə 6 hərflik şey snitch-dir, bayquş isə yoxdur.
 4. **FANTASTICUPLOAD** — `LAST WORD` təlimatını hərfi oxusaq.
+
+---
+
+## §28 — 7 sentyabr: pinned şərh, `watch?v=` linki və geri götürmələr
+
+### 28.1 ⛔ GERİ GÖTÜRÜRƏM: pinned şərh ölü deyil, əsl açardır
+
+Videonun pinned şərhi (MrBeast özü yazıb):
+
+> Make sure you check out Colin's profile 👀
+> https://tinyurl.com/xorprofile
+
+Bu tinyurl **CyberChef**-ə yönləndirir, orada XOR resepti artıq yüklənmiş vəziyyətdədir:
+
+- açar (UTF-8): `%H6U=)Z7</#bq` — 13 simvol
+- input (base64 `QWFhYWFBLWFhQWEjIw`): `AaaaaA-aaAa##` — 13 simvol
+
+Əvvəl bunu "ölü" işarələmişdim, çünki müəllif demişdi *"Reddit, Instagram və ya
+YouTube-da yazdıqlarımın heç biri əhəmiyyətli deyil"*. **Səhv oxumuşam** — o, ÖZ
+hesablarını nəzərdə tuturdu; bu isə MrBeast-in pinned şərhidir. İki müstəqil həlledici
+də məhz bunu XOR fikrinin mənbəyi kimi göstərir.
+
+### 28.2 `(5 2 7)` = BIRDS OF AMERICA
+
+Qırmızı qeydin ilk sətri təlimat deyil — sadəcə jigsaw sözünün hərf sayıdır:
+BIRDS(5) OF(2) AMERICA(7). Deməli hər qeyd belə oxunur:
+`[açılmış ipucu ifadəsi] → [aralıq cavab] → [son cavab]`.
+
+### 28.3 ★ "LAST WORD" hərfi mənadadır — və `watch?v=` linkinə çıxır
+
+MrBeast-in yükləmə sırası (YouTube-un öz sıralaması + tarixlər ilə sübut edildi):
+
+| # | tarix | id | başlıq |
+|---|---|---|---|
+| 1 | 2012-02-20 | `2XVcLrB7B3Y` | Worst Minecraft Saw Trap Ever??? |
+| 2 | 2012-03-09 | `jP82d277Cc8` | Harry Potter Mod In Minecraft! |
+| 3 | 2013-01-12 | `Z8nEEdXTaX0` | Boxy item mod Minecraft. EPIC |
+| 4 | 2013-01-12 | `Y74b7WlcEpk` | More birds IN MINECRAFT!! |
+
+**4-cü yükləmənin** təsvirinin SON SÖZÜ:
+`download:https://www.youtube.com/watch?v=Z8nEEdXTaX0`
+
+Yəni son söz həqiqi bir **`youtube.com/watch?v=`** linkidir və başqa bir MrBeast
+videosuna aparır. Üç şey eyni anda üst-üstə düşür: (a) mavi stiker "YouTube link /
+watch?", (b) teal kartın "LAST WORD"u, (c) u/CiviledXI-in müstəqil ifadəsi:
+*"You end up getting a different YouTube URL that takes you to another MrBeast vid."*
+1–14-cü yükləmələri yoxladım — başqa heç birinin son sözü YouTube linki deyil.
+
+### 28.4 ✗ "THEN NINTH" hələ də oturmur
+
+Həmin linkə (`Z8nEEdXTaX0`) gedəndə doqquzuncu söz: transkriptdə `this`, təsvirdə `i`,
+pinned şərhdə `out`. Heç biri 6 hərf deyil. 1–14-cü yükləmələrin başlıq/təsvir/pinned
+şərhlərini süpürdüm: **heç bir yerdə doqquzuncu söz və son söz eyni anda 6 hərf deyil.**
+
+### 28.5 Maraqlı, amma təsdiqlənməmiş: `Superb Owls` → `v=`
+
+```
+"Superb Owls"  XOR  %H6U=)Z7</#bq  =  v=F0OKzxKCP
+```
+
+İlk iki simvol dəqiq **`v=`** çıxır — YouTube watch linkinin sorğu hissəsi — qalan
+doqquzu isə tamamilə qanuni video-ID simvollarıdır. Digər boşluq variantı,
+`"Super Bowls"`, sınır (boşluq idarə simvoluna düşür). Yəni tapmacanın öz zarafatı
+("superb owls", "super bowls" yox) hesabdan özü çıxır.
+
+Amma 11 yox, 9 simvoldur. Tərsini yoxladım: MrBeast-in altı kanalı + Colin-in kanalı,
+**1 536 video ID**, dörd prefiks forması və 13 açar sürüşməsi — **heç biri oxunaqlı
+mətnə açılmır.** Ona görə bu, nəticə yox, qeyd olaraq qalır.
+
+### 28.6 Müddət
+
+Rəsmi qaydalar 2026-09-02 → **2027-09-02**. Yəni bir il. Qalibin hələ elan olunmaması
+cavabın səhv olduğunu **sübut etmir**. Video isə "the first person to answer correctly"
+deyir — ona görə tez göndərmək sərfəlidir.

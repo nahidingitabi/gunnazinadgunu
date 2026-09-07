@@ -1,36 +1,122 @@
 # MrBeast $10,000 puzzle — the answer
 
 **Leading answer: `FANTASTIC HEDWIG`** (fallback `FANTASTICHEDWIG`, no space).
-
-**If that fails, try `FANTASTICSNITCH`.** The cabinet's blue note says "YouTube link /
-*watch?*", and the video it points at — MrBeast's second upload — showcases the
-QuidCraft *Quidditch* mod, whose only six-letter item is the **snitch**; no owl appears
-in it at all. Both candidates are exactly 15 characters, the length measured off the
-entry form. HEDWIG still leads, because the whole puzzle is owls and the red half lands
-in the same Wizarding World, but SNITCH is what you get from *watching* rather than
-from knowing.
-
-**Read this before you submit.** At least one solver entered `FANTASTIC HEDWIG` — and
-every permutation of it, spaced and unspaced — on about 4 September, and as of the
-morning of 7 September **no winner has been announced**. So either the sponsor simply
-has not announced, or the answer is wrong. Submitting costs nothing and takes seconds,
-so do it; but do not expect it to win on its own.
+**Second choice: `FANTASTICSNITCH`.** Both are 15 characters.
 
 Nothing here has been submitted anywhere by me — that is yours to do.
 
-**Verified here, letter by letter:** the jigsaw yields **BIRDS OF AMERICA** and
-**XOR SUPERB OWLS**; the teal card yields **LAST WORD THEN NINTH**; and the red chain
-yields **MRBEASTS AND WHERE TO FIND THEM**, so its nine-letter answer is **FANTASTIC**.
+**Submit sooner rather than later.** The video says the prize goes to *"the first
+person to answer correctly"*, and the official rules in the description run from
+2026-09-02 to **2027-09-02** — a full year. So the absence of a winner announcement
+five days in is *not* evidence that `FANTASTIC HEDWIG` is wrong. It only means nobody
+has been announced yet.
 
-**And the blue half is no longer bare assertion.** The community reads the note's
-(6 6) as "FOURTH UPLOAD" and then simply states HEDWIG. But (6 6) means *six letters
-and six letters*, and SECOND, FOURTH, EIGHTH, OLDEST and LATEST all fit it. Only one
-lands anywhere: **MrBeast's second upload ever is "Harry Potter Mod In Minecraft!"**
-(2012-03-09) — and the owl in Harry Potter is **HEDWIG**, six letters, which is
-exactly what the note asks for. So the reading is **SECOND UPLOAD**, not FOURTH.
+**Verified here, letter by letter:** the jigsaw yields **BIRDS OF AMERICA** (5 2 7) and
+**XOR SUPERB OWLS** (3 6 4); the teal card yields **LAST WORD THEN NINTH** (4 4 4 5);
+and the red chain yields **MRBEASTS AND WHERE TO FIND THEM** (8 3 5 2 4 4), so its
+nine-letter answer is **FANTASTIC**. That half is settled.
 
-What is still not derived is *why* the ordinal is second — how LAST WORD THEN NINTH
-picks it out. That is the last gap.
+The blue half's final step is *still not mechanically derived* — not by me, and, on the
+evidence below, not by anyone who has posted publicly either. HEDWIG leads on coherence,
+not on a proof.
+
+---
+
+## What was established on 7 September
+
+### The pinned comment is a real clue — I was wrong to discard it
+
+MrBeast's pinned comment on the puzzle video reads:
+
+> Make sure you check out Colin's profile 👀
+> https://tinyurl.com/xorprofile
+
+That tinyurl resolves to a **CyberChef page with an XOR recipe already loaded**:
+
+- key (UTF-8): `%H6U=)Z7</#bq`  — 13 characters
+- input (base64 `QWFhYWFBLWFhQWEjIw`): `AaaaaA-aaAa##` — 13 characters
+
+I had earlier written this off, on the grounds that the author said *"anything I post on
+Reddit, Instagram, or YouTube is not relevant"*. **That was a misreading.** He was
+disclaiming *his own* accounts; this is *MrBeast's* pinned comment on the puzzle video
+itself, and two independent solvers name it as the source of the XOR idea. Retracted.
+
+### The red note's first row is BIRDS OF AMERICA, not an instruction
+
+`(5 2 7)` = **BIRDS(5) OF(2) AMERICA(7)** — i.e. each note's first row is simply the
+decoded jigsaw/card phrase written as word lengths. So the two notes read:
+
+| note | clue phrases | intermediate | answer |
+|---|---|---|---|
+| red | (5 2 7) BIRDS OF AMERICA | (8 3 5 2 4 4) MRBEASTS AND WHERE TO FIND THEM, strike MR | (9) **FANTASTIC** |
+| cream | (3 6 4) XOR SUPERB OWLS **and** (4 4 4 5) LAST WORD THEN NINTH | (6 6) ? | (6) ? |
+
+### "LAST WORD" is literal — and it points at a `watch?v=` link
+
+MrBeast's upload order, proven from YouTube's own channel ordering plus upload dates:
+
+| # | date | id | title |
+|---|---|---|---|
+| 1 | 2012-02-20 | `2XVcLrB7B3Y` | Worst Minecraft Saw Trap Ever??? |
+| 2 | 2012-03-09 | `jP82d277Cc8` | Harry Potter Mod In Minecraft! EPIC MUST SEE MOD!!! |
+| 3 | 2013-01-12 | `Z8nEEdXTaX0` | Boxy item mod Minecraft.  EPIC |
+| 4 | 2013-01-12 | `Y74b7WlcEpk` | More birds IN MINECRAFT!! |
+
+The **fourth** upload's description ends like this:
+
+```
+Basically what this mod does is adds more birds to minecraft.
+i forgot to mention that you can find nest which have eggs in them....
+download:https://www.youtube.com/watch?v=Z8nEEdXTaX0
+```
+
+Its **last word is a literal `youtube.com/watch?v=` link, and it leads to another
+MrBeast video.** That is three separate things clicking at once:
+
+1. the cabinet's blue sticky says **"YouTube link / watch?"**;
+2. the teal card says **LAST WORD** then ninth;
+3. solver u/CiviledXI wrote, independently, *"You end up getting a different YouTube URL
+   that takes you to another MrBeast vid."*
+
+No other early upload has a YouTube link as its last word (checked, uploads 1–14). This
+is strong evidence that **(6 6) = FOURTH UPLOAD**, and that "LAST WORD" means the last
+word of that upload's description.
+
+### But "THEN NINTH" still does not land
+
+Following that link to `Z8nEEdXTaX0`, the ninth word is:
+
+| where | ninth word | length |
+|---|---|---|
+| transcript | `this` | 4 |
+| description | `i` | 1 |
+| pinned comment | `out` | 3 |
+
+None is six letters. I also swept uploads 1–14 across title, description and pinned
+comment looking for any place where the ninth word *and* the last word are both six
+letters — the shape the (6 6) node demands. **Nothing.** So the extraction rule is still
+not recovered, and any six-letter answer remains an inference rather than a derivation.
+
+### An unresolved curiosity, recorded honestly
+
+XOR-ing the phrase against Colin's key produces the prefix of a watch URL:
+
+```
+"Superb Owls"  XOR  %H6U=)Z7</#bq   =   v=F0OKzxKCP
+```
+
+The first two characters come out as exactly **`v=`** — the query string of a YouTube
+watch link — and the remaining nine are all legal video-ID characters. The *other*
+spacing, `"Super Bowls"`, breaks: its space lands on a key byte that yields a control
+character. That asymmetry is the puzzle's own joke ("superb owls", not "super bowls")
+falling out of the arithmetic.
+
+It is nine characters short of a real ID, though, so I tested the reverse: every one of
+**1,536 video IDs** across MrBeast's six channels plus Colin's, in all four prefix forms
+(`v=`, `?v=`, `watch?v=`, bare) and all 13 key alignments. **No ID decodes to readable
+text.** So this stays a curiosity, not a result. It is recorded because if anyone finds
+the intended 13-character plaintext, the ciphertext is forced to be `v=` + an 11-character
+ID, and the search collapses instantly.
 
 ---
 
@@ -136,31 +222,27 @@ The cream note is **(3 6 4) + (4 4 4 5) → (6 6) → (6)**.
   even positions read forward (`LSWRTENNH`), then the odd positions read back
   (`TINHDOTA`). Concatenated and split 6/6/5 they reproduce the card exactly.
 
-The **(6 6)** is where the community's account goes soft: it reads it as
-**FOURTH UPLOAD** and then asserts **HEDWIG** without deriving it. But "(6 6)"
-only says *six letters and six letters*, and several ordinals fit that shape —
-SECOND, FOURTH, EIGHTH, LATEST, OLDEST all pair with UPLOAD to give (6 6).
+The **(6 6)** is where every account, mine included, stops being a derivation.
+"(6 6)" only says *six letters and six letters*, and several ordinals fit that
+shape — SECOND, FOURTH, EIGHTH, LATEST, OLDEST all pair with UPLOAD to give (6 6).
 
-Checked here against MrBeast's actual upload history (dates confirmed, his first
-video is 2012-02-20), exactly one of them lands anywhere:
+Two readings survive, and **they disagree**:
 
-| reading | MrBeast's upload | gives |
+| reading | MrBeast's upload | argument for it |
 |---|---|---|
-| **SECOND UPLOAD** | *Harry Potter Mod In Minecraft!* (2012-03-09) | Harry Potter → his owl → **HEDWIG**, six letters |
-| FOURTH UPLOAD | *More birds IN MINECRAFT!!* | nothing six-lettered |
-| EIGHTH UPLOAD | *Emerald tool mod! (minecraft)* | nothing |
-| OLDEST UPLOAD | *Worst Minecraft Saw Trap Ever???* | nothing |
+| **FOURTH UPLOAD** | *More birds IN MINECRAFT!!* (2013-01-12) | its description's **last word is a literal `youtube.com/watch?v=` link to another MrBeast video** — matching the "YouTube link / watch?" sticky, the teal card's LAST WORD, and u/CiviledXI's independent description of the step. No other early upload does this. |
+| **SECOND UPLOAD** | *Harry Potter Mod In Minecraft!* (2012-03-09) | it is the only early upload that yields a six-letter word at all: Harry Potter → his owl → **HEDWIG** — and the red half's answer, FANTASTIC, comes from a Wizarding World title. |
 
-So the second video MrBeast ever uploaded is a Harry Potter video, and the note
-asks for a six-letter word. That makes **HEDWIG** a reading rather than an
-assertion, and it is almost certainly what the (6 6) is — `FOURTH` looks like a
-mis-transcription of the community's own guess. `tools/pieces/blue_chain.py`.
+FOURTH has the better *mechanical* evidence; SECOND has the only *answer*. Following
+FOURTH through its link lands on `Z8nEEdXTaX0` ("Boxy item mod Minecraft. EPIC"), whose
+ninth word is `this` (transcript), `i` (description) or `out` (pinned comment) — none
+six letters, and nothing owl-shaped anywhere in it. So the FOURTH path, despite the
+better evidence for its first step, currently dead-ends; SECOND reaches HEDWIG but
+without a derivation. That is the honest state of it. `tools/pieces/blue_chain.py`.
 
-What is still not derived is *why* the ordinal is SECOND — how LAST WORD THEN
-NINTH picks it out. Checked here and ruled
-out as the source of the (6 6): the nine playlist words of the old hunt (*Every
-Challenge Leads Towards Location Name Somewhere Around World* — last word and
-ninth word are both "World"), the twelve Super Bowl puzzles (SB12 = Tallinn,
+Checked here and ruled out as the source of the (6 6): the nine playlist words of the
+old hunt (*Every Challenge Leads Towards Location Name Somewhere Around World* — last
+word and ninth word are both "World"), the twelve Super Bowl puzzles (SB12 = Tallinn,
 SB9 = Yellowstone), OP9 ("South Pole"), and the Super Bowl ad's caption script.
 
 ### 3. Independent confirmation
@@ -235,8 +317,8 @@ ordinal**, and English has exactly three: SECOND, FOURTH, EIGHTH — 2, 4 and 8,
 all powers of two. There are 14 owls, so the second count can only be 12, 10 or 6:
 
 ```
-14 ⊕ 12 = 2  → SECOND    ← the only one that lands on anything
-14 ⊕ 10 = 4  → FOURTH    (the community's reading; lands nowhere)
+14 ⊕ 12 = 2  → SECOND    (the only ordinal that reaches a six-letter word)
+14 ⊕ 10 = 4  → FOURTH    (the reading with the better mechanical evidence)
 14 ⊕  6 = 8  → EIGHTH    (lands nowhere)
 ```
 
@@ -247,7 +329,7 @@ route, and I have withdrawn it. Twelve road signs have been counted in the room,
 the fourteen red numerals happen to XOR to 12; neither is confirmed. Note also that
 this arithmetic does not by itself pick SECOND — the red numerals XOR to 12, the blue
 to 10 and all of them to 6, which give 2, 4 and 8 respectively, i.e. all three
-candidate ordinals. What picks SECOND is that only it lands on a video.
+candidate ordinals. What picks SECOND is only that it is the one that reaches a word; the video's own on-screen counter reads `N/12` and its narration says "your first of twelve locations", which is the firmest source for the 12 and gives 14 ⊕ 12 = 2.
 
 `251634` turns out to be `25 | 16 | 34` — the three complementary pairs of 1–6, so
 each pair both sums and XORs to **7**. Only 6.7% of permutations do that, so it reads
