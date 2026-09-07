@@ -11584,3 +11584,32 @@ müstəqil dəlilim yoxdur. Amma zəncir bütövdür və müstəqil olaraq HEDWI
   → MrBeast-in ikinci videosu = «Harry Potter Mod In Minecraft!»
   → Harry-nin bayquşu = HEDWIG (6)
 ```
+
+## 13. ★★★ MÜƏLLİFİN ÖZ AÇIQLAMALARI (u/DoctorXOR, Arctic Shift arxivi)
+
+Bunlar nüfuzlu mənbədir və bir neçə istiqaməti bağlayır:
+
+| tarix | söz |
+|---|---|
+| 09-03 13:28 | «**Every jigsaw piece has something in common**… I wonder if any of the other clues you found is a hint to the pattern. Don't be afraid to **google** what you see!» |
+| 09-03 13:41 | «anything I post on **Reddit, Instagram, or YouTube is not relevant** to the MrBeast puzzle.» |
+| 09-04 12:51 | «my recent videos do not have any hints… There may be other things you need on the internet (**Google is always an option!**) but the clues from the video will tell you what those things are. **If you haven't solved a jigsaw puzzle, MrBeast's video is the only one you should be watching** 🙂» |
+| 09-05 17:34 | «the challenge **can be completed** – all clues were available the moment MrBeast's video was released.» |
+| 09-06 05:50 | errata: qrass parçasında əlavə mavi «i»; qırmızı vərəqdə bir «2» əskikdir. |
+| 09-06 14:14 | «There may be other tiny typos but nothing that impacts the puzzle's solvability.» |
+
+### Nə çıxır
+
+1. **`tinyurl.com/xorprofile` → CyberChef rəsmən ölüdür.** Müəllif öz profilinin
+   tapmacaya aid olmadığını açıq deyir. (Mən onu onsuz da hesablama ilə rədd
+   etmişdim: açar heç bir ifadəni oxunaqlı mətnə çevirmir.) İcmanın
+   «XOR CyberChef linkindən gəlir» iddiası **səhvdir**.
+2. **DoctorXOR-un öz yükləmələri kənardadır** ⇒ «SECOND UPLOAD» ancaq
+   **MrBeast-in kanalına** aid ola bilər. Bu, mənim oxunuşumu gücləndirir.
+3. «If you haven't solved a jigsaw puzzle, MrBeast's video is the **only one**
+   you should be watching» ⇒ yapbozu həll edəndən **sonra başqa video izləmək
+   lazımdır**. Şkafdakı mavi `YouTube link / watch?` qeydi məhz bunu deyir.
+4. «Google is always an option» ⇒ kənar bilik gözlənilir (Audubon lövhələri,
+   Harry Potter-in bayquşu) — hər iki yarımın son addımı elə belədir.
+5. Errata ikidir və **hər ikisi mənim modelimlə üst-üstə düşür** (VIII→VII və
+   83544→835244).
