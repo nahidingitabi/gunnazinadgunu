@@ -11843,3 +11843,21 @@ ada uyğunlaşdırdım» şübhəsi qalırdı. Dördünü müstəqil mənbələr
 
 ⇒ Adlar uydurulmayıb, sənədlidir; hər dördü hədəf hərfə düşür. Bu, qırmızı
 zəncirin «uyğunlaşdırma» yox, **çıxarış** olduğunu gücləndirir.
+
+## 23. İstifadəçi videonu verdi — masa çəkilişi öz kadrlarımla təsdiqləndi
+
+İstifadəçi 29.4 saniyəlik 1080p klip göndərdi (metatapmaca izahı bölməsi).
+Masa çəkilişi orada cəmi **16 kadrdır** (11.89–12.39 san). Onları ECC ilə
+qeydiyyatdan keçirib yığdım (`tools/pieces/CABINET_STACK.png`,
+`tools/pieces/DESKNOTES_STACK.png`).
+
+**Təsdiqləndi (indi öz kadrlarımla, icma fotosu ilə deyil):**
+- Şkaf: `081 XIV – Seahawks?` · **`# #` / `How many?`** (iki simvol, `## ##` DEYİL —
+  öz düzəlişim doğru idi) · `QX=TH` · **`251634`** (altı rəqəm, qruplaşma yoxdur) ·
+  `PLATES` · `YouTube link / watch?`
+- Qırmızı qeyd: `(5 2 7) → (8 3 5 4 4) → M̶R̶ (9)`, MR üstündən xətlə.
+- Krem qeyd: `(3 6 4)` və `(4 4 4 5)` → `(6 6)` → `(6)`; **üstündən xətt YOXDUR**
+  (u/HoldingAdvisory-nin müşahidəsi doğrudur).
+
+⚠ **Çəhrayı vərəq bu klipdə yoxdur** — rəng axtarışı yalnız kərpic divarı tapdı.
+Onun üçün **1:10–1:25** aralığı lazımdır.
