@@ -11686,3 +11686,22 @@ ehtimal ki boru köhnə tapmacanın dekorudur.
 4 = *Bubo scandiacus* (**qar bayquşu — Hedwig-in növü**, maraqlı amma zəif).
 Həmin sıra ilə qırmızı hərflər `O F D`, mavi hərflər `P E S` — mənasız.
 Baş hərflər `T N B` — mənasız. ⇒ Bu istiqamət bağlanır.
+
+## 17. Dövr 02:36 — (a)(b)(d) bloklanıb, (c) üzərində irəliləyiş
+
+- **(a)(b) Video endirilə bilmir.** yt-dlp-in bütün klientləri bot yoxlamasına
+  düşür; `curl` ilə birbaşa `watch` səhifəsi də **HTTP 302** verir (YouTube bu
+  IP-ni şəbəkə səviyyəsində məhdudlaşdırıb; `robots.txt` `/watch`-a icazə verir,
+  yəni məsələ icazə deyil, limitdir). Uzun dövr işləyir (7 dəq × 24).
+- **(d) Qalib elan olunmayıb** — 7 sentyabr üçün r/MrBeast-də cəmi 2 post var,
+  heç biri qalibə aid deyil.
+- **(c) `# #` «How many?»** — ən təbii oxunuş: qeyd bir yapboz parçasının **iki
+  rəqəmini** (qırmızı # və mavi #) təsvir edir və «neçə belə parça var?» soruşur
+  ⇒ cavab **14**. Onda «XOR SUPERB OWLS» = 14 ⊕ (Super Bowl sayı).
+
+  Sıra sayının 6 hərflik olması ikinci ədədi üç variantla məhdudlaşdırır:
+  **12 → SECOND**, 10 → FOURTH, 6 → EIGHTH. Yoxladığım namizədlər:
+  köhnə ovun qrup ölçüləri (SB **12** ✓, PG 13, EP 9, GC 11, OP 14, MP 40, MM 4),
+  oynanmış Super Bowl sayı (60 ⇒ 50 ✗), MrBeast reklamının Super Bowl nömrəsi
+  (59 ⇒ 53 ✗), Audubon-dakı bayquş lövhələri (11 ⇒ 5 ✗).
+  ⇒ **Yalnız 12 işləyir və yalnız SB1–SB12 qrupu 12 verir.**
