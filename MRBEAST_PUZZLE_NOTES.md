@@ -11530,3 +11530,16 @@ Harry Potter videosudur, qeyd isə 6 hərflik söz istəyir. Alət:
 
 ⚠ Hələ çıxarılmayıb: **niyə məhz İKİNCİ**? Yəni «LAST WORD THEN NINTH» bu sıra
 sayını necə seçir. Mavi yapışqanlar (`# # How many?`, `251634`) burada işə düşür.
+
+### §10 düzəlişi — qeyd `## ##`-dir, `# #` deyil
+
+3× böyüdülmüş kadrda (`HOWMANY.png`) aydın görünür: **`## ##`** — iki cüt xana,
+yəni **iki ikirəqəmli ədəd** istənir, bir dənə yox. Bu, «XOR SUPERB OWLS»
+təlimatı ilə birləşəndə təbii oxunuş verir: **iki ədədi tap və XOR et.**
+
+`251634` qeydində də (`NUM251634.png`) «25»-dən sonra gözlə görünən aralıq var:
+`25 16 34` (üç ədəd) və ya `2:51` + `6:34` (iki vaxt kodu — video 17:47-dir, hər
+ikisi videonun içindədir) kimi oxuna bilər. u/CiviledXI də `251634`-ü vaxt kodu
+kimi sınadığını yazır.
+
+Maraqlı: **25 XOR 16 = 9** — və təlimat «…THEN **NINTH**» deyir.
