@@ -187,6 +187,65 @@ sweepstakes form, not a checker — it does not tell you that you are wrong. So 
 form explicitly rejected the answer, submitting and hearing nothing is **not** evidence
 against `FANTASTIC HEDWIG`.
 
+## Every clue, used and unused
+
+The right question, once an answer stalls, is which props the solve never consumed. A
+puzzle this tight does not leave spare parts.
+
+### Used, and load-bearing
+
+| clue | what it does |
+|---|---|
+| 14 jigsaw pictures | each is an owl species |
+| red Roman numerals | index the scientific names → `BIRDSOFAMERICA` |
+| blue Roman numerals | index the scientific names → `XORSUPERBOWLS` |
+| pink sheet (plate № + numeral) | → `MRBEASTSANDWHERETOFINDTHEM` |
+| orange sticky "Books w/ old names… Alphabetize?" | the red chain's sort rule |
+| green sticky "LSWRTE…" + "Should I call it bird fence?" | rail fence → `LASTWORDTHENNINTH` |
+| red note `(5 2 7) → (8 3 5 2 4 4) → M̶R̶ (9)` | the red chain's skeleton |
+| yellow `081 XIV / Seahawks?` | worked example of the red mechanism |
+| yellow `QX = TH` | the two alphabet slots Audubon has no plate for |
+| yellow `PLATES` | says the numbers are plate numbers |
+| "Boo! book — five of these" | confirms five boobooks among the fourteen |
+| cream note `(3 6 4) + (4 4 4 5) → (6 6) → (6)` | the blue chain's skeleton |
+
+### Never used — this is where the missing step must live
+
+| # | clue | status |
+|---|---|---|
+| 1 | **`LAST WORD THEN NINTH`** | decoded, never successfully applied. **This is the hole itself.** |
+| 2 | **pipe stickers: blue `6`, red `7`, white `4`** | see below — the largest unexplained object |
+| 3 | **`251634`** (blue sticky) | I called it a worked XOR example. That is an inference, not a use. |
+| 4 | **`# #` / `How many?`** (blue sticky) | never resolved; "14 owls ⊕ 12 Super Bowls" is a guess |
+| 5 | **`YouTube link / watch?`** (blue sticky) | points somewhere; the destination was never pinned down |
+| 6 | **the rotary phone** on the desk | flagged by two other solvers as unused; still unused |
+| 7 | yellow note `CODE … ON … →` | physically hidden under another sheet; never read |
+| 8 | the LOGIN ATTEMPTS dates on the thumbnail | never used |
+| 9 | the pink sheet's odd `424-6` row | never read |
+
+### The pipe is not set dressing
+
+On the brick wall to MrBeast's right, a vertical conduit carries three junction boxes,
+each with a round numbered sticker: **6 (light blue)** on top, **7 (red)** in the middle,
+**4 (white)** at the bottom. Two things make it worth attention:
+
+- **The colours are the puzzle's own two chains** — blue and red — plus one neither.
+- **Neither `674` nor Nauru (whose dialling code it is, and which the community chased)
+  appears anywhere in the official $1,000,000 answer document.** So this is not left-over
+  scenery from the old hunt. It was placed, and nothing explains it.
+
+The one arithmetic that fits: **6 ⊕ 4 = 2**, the only pairing of the three that yields a
+*six-letter* ordinal — SECOND — which is exactly what the `(6 6)` slot needs, and it is
+the blue sticker that carries the 6. `6 ⊕ 7 = 1`, `7 ⊕ 4 = 3` and `6 ⊕ 7 ⊕ 4 = 5` all give
+five-letter ordinals that cannot fill `(6 6)`. That is suggestive, not conclusive — but it
+points at SECOND UPLOAD rather than FOURTH.
+
+### And the entry page says guessing is free
+
+`puzzle-video-sweepstakes.mrbeast.app` states: *"You can guess multiple times, but there
+is only 1 correct answer."* So extra guesses are explicitly allowed — they simply return
+no information, because the form never says which one was right.
+
 ## Ruled out after the three submissions failed
 
 - **(6 6) is not two words from an early upload's description.** All sixty oldest
