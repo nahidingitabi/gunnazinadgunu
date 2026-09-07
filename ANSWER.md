@@ -4,17 +4,25 @@
 
 **Read this before you submit.** At least one solver entered `FANTASTIC HEDWIG` — and
 every permutation of it, spaced and unspaced — on about 4 September, and as of the
-evening of 6 September **no winner has been announced**. So either the sponsor simply
+morning of 7 September **no winner has been announced**. So either the sponsor simply
 has not announced, or the answer is wrong. Submitting costs nothing and takes seconds,
 so do it; but do not expect it to win on its own.
 
 Nothing here has been submitted anywhere by me — that is yours to do.
 
-**Certain, verified here letter by letter:** the jigsaw yields **BIRDS OF AMERICA**
-and **XOR SUPERB OWLS**; the teal card yields **LAST WORD THEN NINTH**; and the red
-chain yields **MRBEASTS AND WHERE TO FIND THEM**, so its nine-letter answer is
-**FANTASTIC**. The only step still taken on trust is the blue half's last hop to
-**HEDWIG**. That is where the remaining opportunity is.
+**Verified here, letter by letter:** the jigsaw yields **BIRDS OF AMERICA** and
+**XOR SUPERB OWLS**; the teal card yields **LAST WORD THEN NINTH**; and the red chain
+yields **MRBEASTS AND WHERE TO FIND THEM**, so its nine-letter answer is **FANTASTIC**.
+
+**And the blue half is no longer bare assertion.** The community reads the note's
+(6 6) as "FOURTH UPLOAD" and then simply states HEDWIG. But (6 6) means *six letters
+and six letters*, and SECOND, FOURTH, EIGHTH, OLDEST and LATEST all fit it. Only one
+lands anywhere: **MrBeast's second upload ever is "Harry Potter Mod In Minecraft!"**
+(2012-03-09) — and the owl in Harry Potter is **HEDWIG**, six letters, which is
+exactly what the note asks for. So the reading is **SECOND UPLOAD**, not FOURTH.
+
+What is still not derived is *why* the ordinal is second — how LAST WORD THEN NINTH
+picks it out. That is the last gap.
 
 ---
 
@@ -226,5 +234,6 @@ cut off there.
 
 - `tools/pieces/verify_owls.py` — recomputes all 27 jigsaw letters and the hash
 - `tools/pieces/red_chain.py` — recomputes the red half from the Audubon plates
+- `tools/pieces/blue_chain.py` — the (6 6) reading, against MrBeast's upload history
 - `tools/pieces/owllist.txt` — the 254-species list used for the uniqueness check
 - `MRBEAST_PUZZLE_NOTES.md` — the full working log, including everything refuted
