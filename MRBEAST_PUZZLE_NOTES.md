@@ -11647,3 +11647,16 @@ tam siyahıdır. Deməli:
   **İKİNCİ** videosu.
 
 ⇒ «SECOND UPLOAD → Harry Potter → HEDWIG» oxunuşunun sayma təməli sağlamdır.
+
+### §12 əlavəsi — «12» üçün ikinci namizəd
+
+u/tehKJM (09-06 19:19) otaqdakı müstəqil ardıcıllığı belə sayır: «**12 road
+signs**». Yəni videoda sayıla bilən ikinci bir «12» var. Beləliklə
+
+```
+14 (bayquş) ⊕ 12 = 2 → SECOND
+```
+
+üçün lazım olan «12» ya köhnə ovun **SB1–SB12** qrupudur, ya da otaqdakı **12 yol
+nişanı**. Hər ikisi eyni ordinala aparır. (Yol nişanlarının sayını özüm
+təsdiqləyə bilmirəm — videonu endirə bilmirəm, YouTube bot-limiti.)
