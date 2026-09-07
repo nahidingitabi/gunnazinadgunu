@@ -11911,3 +11911,35 @@ isə operandları adlandırır:
 ⚠ Hələ də dürüst qeyd: XOR-un hansı dəst üzərində aparılacağı (bayquş sayı vs
 rəqəmlərin XOR-u) tam birmənalı deyil, amma indi **hər iki operandın da mənbəyi
 videodadır** və nəticə SECOND-dur.
+
+## 25. Sayğacın 12-si NƏDİR — təsdiqləndi: Super Bowl məkanları
+
+İstifadəçinin klipində sayğacla yanaşı ekranda ardıcıl olaraq bunlar görünür:
+`3 1 19 8 20 5 14 20` → **CASHTENT** (SB1, Daşkənd), sonra **LIMA PERU** (SB2),
+sonra **Accra, Ghana** (SB3). Yəni `N/12` sayğacı məhz **Super Bowl videosunun
+12 tapmacasının məkanlarını** sayır.
+
+Rəsmi sənəddən tam siyahı:
+
+| # | tapmaca | məkan |
+|---|---|---|
+| 1 | Money vault | Tashkent, Uzbekistan |
+| 2 | Belt | Lima, Peru |
+| 3 | Gold vault door | Accra, Ghana |
+| 4 | Flashing light | Kabul, Afghanistan |
+| 5 | Clipboard | Kupang, Indonesia |
+| 6 | Lasers | Arles, France |
+| 7 | Soldier screens | Toronto, Ontario (Beast City hub) |
+| 8 | Phone | Casablanca, Morocco |
+| 9 | Grenade | Yellowstone, Wyoming |
+| 10 | Sliding doors | Lahore, Pakistan |
+| 11 | Tank insignia | New Orleans, Louisiana |
+| 12 | Closed captioning | Tallinn, Estonia |
+
+⇒ **«How many?» sualının ikinci cavabı 12-dir və solver onu yalnız videoya
+baxaraq sayır.** Müəllifin «$1M-i bilmək lazım deyil» şərti pozulmur.
+
+### `251634` bu siyahıya da düşmür
+Məkanların baş hərfləri: `T L A K K A T C Y L N T`; ölkələrinki:
+`U P G A I F C M W P L E`. `251634` sırası ilə (2,5,1,6,3,4) → `LKTAAK` və
+`PIUFGA` — hər ikisi mənasız. ⛔ Bu istiqamət də bağlanır; `251634` hələ açıqdır.
