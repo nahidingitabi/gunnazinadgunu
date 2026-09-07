@@ -11506,3 +11506,27 @@ yəni mənasızdır — və bu düzgündür, çünki vərəq QIRMIZI materialdı
 
 ⇒ Növbəti hədəf: şkafın **aşağı hissəsini** göstərən kadr tapmaq (bu çəkilişdə
 kəsilir) — orada mavi zəncirin YouTube göstəricisi ola bilər.
+
+## 11. ★★★ MAVİ: `(6 6)` = «SECOND UPLOAD», «FOURTH UPLOAD» DEYİL
+
+İcma `(6 6)`-nı «FOURTH UPLOAD» kimi oxuyur və sonra HEDWIG-i **çıxarmadan iddia
+edir**. Amma `(6 6)` yalnız «altı hərf + altı hərf» deməkdir və bu formaya bir
+neçə sıra sayı uyğun gəlir: **SECOND / FOURTH / EIGHTH / LATEST / OLDEST** —
+hamısı `UPLOAD` ilə (6 6) verir.
+
+MrBeast-in əsl yükləmə tarixçəsi ilə yoxladım (tarixlər yt-dlp ilə təsdiqləndi;
+ilk videosu **2012-02-20**):
+
+| oxunuş | MrBeast-in yükləməsi | nə verir |
+|---|---|---|
+| **SECOND UPLOAD** | *Harry Potter Mod In Minecraft!* (2012-03-09) | Harry Potter → Harry-nin bayquşu → **HEDWIG** (6) |
+| FOURTH UPLOAD | *More birds IN MINECRAFT!!* | 6 hərflik heç nə |
+| EIGHTH UPLOAD | *Emerald tool mod! (minecraft)* | heç nə |
+| OLDEST UPLOAD | *Worst Minecraft Saw Trap Ever???* | heç nə |
+
+⇒ **HEDWIG artıq iddia deyil, oxunuşdur.** MrBeast-in ikinci videosu məhz bir
+Harry Potter videosudur, qeyd isə 6 hərflik söz istəyir. Alət:
+`tools/pieces/blue_chain.py`.
+
+⚠ Hələ çıxarılmayıb: **niyə məhz İKİNCİ**? Yəni «LAST WORD THEN NINTH» bu sıra
+sayını necə seçir. Mavi yapışqanlar (`# # How many?`, `251634`) burada işə düşür.

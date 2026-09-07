@@ -120,10 +120,28 @@ The cream note is **(3 6 4) + (4 4 4 5) → (6 6) → (6)**.
   even positions read forward (`LSWRTENNH`), then the odd positions read back
   (`TINHDOTA`). Concatenated and split 6/6/5 they reproduce the card exactly.
 
-What that instruction is applied to, and therefore the **(6 6)** and the final
-**(6)**, is the one thing on the desk still unverified here. The community's
-answer is **FOURTH UPLOAD** and then **HEDWIG** — Harry Potter's snowy owl, which
-keeps the whole puzzle in one universe with FANTASTIC. Checked here and ruled
+The **(6 6)** is where the community's account goes soft: it reads it as
+**FOURTH UPLOAD** and then asserts **HEDWIG** without deriving it. But "(6 6)"
+only says *six letters and six letters*, and several ordinals fit that shape —
+SECOND, FOURTH, EIGHTH, LATEST, OLDEST all pair with UPLOAD to give (6 6).
+
+Checked here against MrBeast's actual upload history (dates confirmed, his first
+video is 2012-02-20), exactly one of them lands anywhere:
+
+| reading | MrBeast's upload | gives |
+|---|---|---|
+| **SECOND UPLOAD** | *Harry Potter Mod In Minecraft!* (2012-03-09) | Harry Potter → his owl → **HEDWIG**, six letters |
+| FOURTH UPLOAD | *More birds IN MINECRAFT!!* | nothing six-lettered |
+| EIGHTH UPLOAD | *Emerald tool mod! (minecraft)* | nothing |
+| OLDEST UPLOAD | *Worst Minecraft Saw Trap Ever???* | nothing |
+
+So the second video MrBeast ever uploaded is a Harry Potter video, and the note
+asks for a six-letter word. That makes **HEDWIG** a reading rather than an
+assertion, and it is almost certainly what the (6 6) is — `FOURTH` looks like a
+mis-transcription of the community's own guess. `tools/pieces/blue_chain.py`.
+
+What is still not derived is *why* the ordinal is SECOND — how LAST WORD THEN
+NINTH picks it out. Checked here and ruled
 out as the source of the (6 6): the nine playlist words of the old hunt (*Every
 Challenge Leads Towards Location Name Somewhere Around World* — last word and
 ninth word are both "World"), the twelve Super Bowl puzzles (SB12 = Tallinn,
