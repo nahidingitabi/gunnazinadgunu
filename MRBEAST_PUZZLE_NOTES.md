@@ -11771,3 +11771,26 @@ XOR(hamısı, 27 rəqəm) =  6       6 ⊕ 14 = 8  -> EIGHTH
 ⚠ **Bu, seçim etmir**: üç təbii XOR variantı düz üç mümkün ordinalın hamısını
 verir (çünki 12⊕10=6). Yəni bu hesab «SECOND»-u **sübut etmir**; onu yalnız
 Harry Potter videosunun mövcudluğu seçir. Uydurma dəlil kimi təqdim etmirəm.
+
+## 20. ⚠ DÜRÜST QEYD: «FOURTH» oxunuşu gözlədiyimdən güclüdür
+
+MrBeast-in **dördüncü** yükləməsi «More birds IN MINECRAFT!!» (2013-01-12).
+Təsviri: *«adds more birds to minecraft… you can find nest which have eggs in
+them»*. Axtarışla tapdım: bu, böyük ehtimalla **Exotic Birds** modudur
+(Minecraft Forum yazısı 2012 aprel) — quşlar arasında **Owl** var, və modun
+əsas mexanikası məhz **yuvalar + yumurtalardır**. Yəni «FOURTH UPLOAD» da
+bayquşa aparır.
+
+Üstəlik, mavi zəncirin **mavi** rəqəmlərini götürsək:
+`XOR(mavi 13 rəqəm) = 10`, `10 ⊕ 14 = 4` → **FOURTH**, mənim SECOND-um yox.
+
+### Buna baxmayaraq SECOND hələ də öndədir
+- «FOURTH → Exotic Birds» **6 hərflik heç bir cavab vermir** (mod quşları: Owl 3,
+  Crane 5, Duck 4, Heron 5, Parrot 6, Penguin 7, Cardinal 8, Flamingo 8…;
+  «Parrot» 6-dır, amma bayquş mövzusuna dəxli yoxdur).
+- «SECOND → Harry Potter → **HEDWIG**» birbaşa 6 hərf verir və qeydin `(6)`-sı
+  ilə oturur; müəllifin «Google is always an option» sözü ilə də uyğundur.
+- İki müstəqil solver hash ilə **FANTASTIC HEDWIG**-ə bağlanıb.
+
+⇒ Cavab dəyişmir, amma **SECOND-a inamım azaldı**: XOR hesabı onu seçmir, seçən
+yalnız «hansı video 6 hərflik cavab verir» arqumentidir.
