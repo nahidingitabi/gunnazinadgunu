@@ -2,6 +2,14 @@
 
 **Leading answer: `FANTASTIC HEDWIG`** (fallback `FANTASTICHEDWIG`, no space).
 
+**If that fails, try `FANTASTICSNITCH`.** The cabinet's blue note says "YouTube link /
+*watch?*", and the video it points at — MrBeast's second upload — showcases the
+QuidCraft *Quidditch* mod, whose only six-letter item is the **snitch**; no owl appears
+in it at all. Both candidates are exactly 15 characters, the length measured off the
+entry form. HEDWIG still leads, because the whole puzzle is owls and the red half lands
+in the same Wizarding World, but SNITCH is what you get from *watching* rather than
+from knowing.
+
 **Read this before you submit.** At least one solver entered `FANTASTIC HEDWIG` — and
 every permutation of it, spaced and unspaced — on about 4 September, and as of the
 morning of 7 September **no winner has been announced**. So either the sponsor simply

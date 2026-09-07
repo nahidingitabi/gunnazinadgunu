@@ -11943,3 +11943,39 @@ baxaraq sayır.** Müəllifin «$1M-i bilmək lazım deyil» şərti pozulmur.
 Məkanların baş hərfləri: `T L A K K A T C Y L N T`; ölkələrinki:
 `U P G A I F C M W P L E`. `251634` sırası ilə (2,5,1,6,3,4) → `LKTAAK` və
 `PIUFGA` — hər ikisi mənasız. ⛔ Bu istiqamət də bağlanır; `251634` hələ açıqdır.
+
+## 26. ⚠ CİDDİ ALTERNATİV: `FANTASTICSNITCH`
+
+Öz cavabımı sındırmağa çalışarkən tapdım. Şkafdakı mavi qeyd «YouTube link /
+**watch?**» deyir — yəni videoya **baxmaq** tələb olunur. MrBeast-in ikinci
+yükləməsindəki mod **QuidCraft Quidditch**-dir və əşyaları bunlardır:
+
+| əşya | hərf |
+|---|---|
+| broom | 5 |
+| quaffle | 7 |
+| bludger | 7 |
+| **snitch** | **6** |
+| beater bat | 9 |
+
+⇒ Videonun **içində** görünən yeganə 6 hərflik şey **SNITCH**-dir. Bayquş isə
+o videoda **ümumiyyətlə yoxdur** — HEDWIG-i almaq üçün «Harry Potter-in bayquşu»
+biliyi (Google) lazımdır.
+
+```
+FANTASTIC + HEDWIG = FANTASTICHEDWIG   15 simvol
+FANTASTIC + SNITCH = FANTASTICSNITCH   15 simvol
+```
+
+Hər ikisi ölçdüyüm 15 simvola uyğundur.
+
+**HEDWIG lehinə:** bütün tapmaca 14 bayquş növündən ibarətdir; qırmızı yarım
+*Fantastic Beasts*-ə düşür; Hedwig eyni kainatın bayquşudur — mövzu sonunacan
+bayquş qalır. İki müstəqil solver hash ilə buna bağlanıb.
+
+**SNITCH lehinə:** «watch?» qeydi baxmağı tələb edir və baxanda görünən yeganə
+6 hərflik şey odur; müəllif isə «Google is always an option» deyir — yəni
+Google *məcburi* deyil, sadəcə mümkündür.
+
+⇒ Sıralama: **1) FANTASTICHEDWIG · 2) FANTASTIC HEDWIG · 3) FANTASTICSNITCH ·
+4) FANTASTIC SNITCH**.
