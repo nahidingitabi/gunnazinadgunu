@@ -177,6 +177,24 @@ sweepstakes form, not a checker — it does not tell you that you are wrong. So 
 form explicitly rejected the answer, submitting and hearing nothing is **not** evidence
 against `FANTASTIC HEDWIG`.
 
+## Ruled out after the three submissions failed
+
+- **(6 6) is not two words from an early upload's description.** All sixty oldest
+  uploads fetched and parsed: not one has a six-letter ninth word *and* a six-letter
+  last word. (Four of them do end their description in a `youtube.com/watch?v=` link —
+  #4, #17, #18, #20 — so the "LAST WORD is a watch link" observation holds, but the
+  words themselves never fit (6 6).)
+- **(6 6) is not `v=<ID>` XOR-ed with Colin's key.** This one closes by arithmetic
+  rather than by search. For a 13-character plaintext `WORD1 WORD2` (6 + space + 6) to
+  encrypt to `v=` + an 11-character video ID, the key forces:
+  - plaintext[0..1] = `Su` (that is what produces `v=`),
+  - plaintext[6] = space → ciphertext `z` ✓,
+  - **plaintext[11] ∈ {O…W, Z} and plaintext[12] ∈ {A…I}** — both *uppercase only*.
+
+  So the second word's last two letters would have to be capitals inside an otherwise
+  lower-case word. No English word does that, so this route is closed, and the `Su` →
+  `v=` coincidence is just that.
+
 ## Ruled out today
 
 - **(6 6) → (6) is not a letter-XOR.** All 17,468 six-letter words were XOR-paired
