@@ -187,6 +187,43 @@ sweepstakes form, not a checker — it does not tell you that you are wrong. So 
 form explicitly rejected the answer, submitting and hearing nothing is **not** evidence
 against `FANTASTIC HEDWIG`.
 
+## What the author said on 7 September
+
+Three statements from u/DoctorXOR, none of which I had:
+
+**Some of the room is not his.** (14:33)
+> "I will never want to intentionally have true red herrings… And sometimes it [is]
+> impossible to use everything in the environment. **In this case, MrBeast already had
+> his whole video planned, and I had to add clues without modifying anything else in the
+> room. So there are probably room elements or things Jimmy does that you have to
+> ignore.**"
+
+This **retracts** my argument that the conduit stickers must be clues because `674` and
+Nauru appear nowhere in the official $1,000,000 document. Their absence from the old hunt
+never made them Colin's; a conduit with numbered junction boxes is exactly the kind of
+fixture that was already on the wall. The same now applies to the rotary phone and the
+thumbnail's dates. With it goes the `blue 6 ⊕ white 4 = 2` argument — `14 owls ⊕ 12`
+stands on its own.
+
+What Colin *added* is the real clue set: the jigsaw pieces, the two desk notes, the pink
+sheet, the six stickies, the teal card, the orange sticky. Everything else in that room is
+MrBeast's set.
+
+**It is the video *page*, not the video.** (14:59, then 16:13)
+> "Everything you need is on the YouTube video page."
+
+A solver asked whether he meant the *page* or the *video*, saying it makes a huge
+difference. He replied: **"It does make a difference, doesn't it? 😉"**
+
+So the title, description and pinned comment are deliberately in play — which is the
+author's own confirmation that the pinned comment, and through it the CyberChef XOR key,
+belongs to the puzzle.
+
+Worth noting alongside it: **the pinned comment is exactly nine words** —
+`Make(1) sure(2) you(3) check(4) out(5) Colin's(6) profile(7) 👀(8) <tinyurl>(9)` — so its
+**last word is its ninth word**. "LAST WORD THEN NINTH" closes on itself there and points
+at the CyberChef link.
+
 ## Only one chain still reaches a living page
 
 Four of MrBeast's early uploads end their description with an external link. Fetched
@@ -294,7 +331,12 @@ puzzle this tight does not leave spare parts.
 | 8 | the LOGIN ATTEMPTS dates on the thumbnail | never used |
 | 9 | the pink sheet's odd `424-6` row | never read |
 
-### The pipe is not set dressing
+### The pipe — retracted on 8 September
+
+**The author has since said the room contains elements to ignore**, which undercuts the
+argument below. Kept for the record; see "What the author said on 7 September".
+
+### The pipe is not set dressing (superseded)
 
 On the brick wall to MrBeast's right, a vertical conduit carries three junction boxes,
 each with a round numbered sticker: **6 (light blue)** on top, **7 (red)** in the middle,

@@ -12087,3 +12087,57 @@ mətnə açılmır.** Ona görə bu, nəticə yox, qeyd olaraq qalır.
 Rəsmi qaydalar 2026-09-02 → **2027-09-02**. Yəni bir il. Qalibin hələ elan olunmaması
 cavabın səhv olduğunu **sübut etmir**. Video isə "the first person to answer correctly"
 deyir — ona görə tez göndərmək sərfəlidir.
+
+---
+
+## §29 — 8 sentyabr: müəllifin üç yeni açıqlaması (biri əvvəlki nəticəmi ləğv edir)
+
+### 29.1 ⛔ GERİ GÖTÜRÜRƏM: otaqda **məhəl qoyulmamalı** elementlər VAR
+
+u/DoctorXOR, 09-07 14:33:
+
+> "That's a tricky one - if it helps, I will never want to intentionally have true red
+> herrings in a puzzle. But sometimes they are necessary to the puzzle type (I Spy /
+> Where's Waldo?). And sometimes it impossible to use everything in the environment.
+> **In this case, MrBeast already had his whole video planned, and I had to add clues
+> without modifying anything else in the room. So there are probably room elements or
+> things Jimmy does that you have to ignore.**"
+
+Keçən turda yazmışdım ki, boru stikerləri (mavi 6 / qırmızı 7 / ağ 4) "dekorasiya deyil,
+çünki 674 və Nauru rəsmi $1M sənədində yoxdur". **Bu arqument səhv idi** — onların köhnə
+ovda olmaması onları Colin-in ipucusu etmir. Colin otaqda heç nəyi dəyişməyib, yalnız
+ipucu **əlavə edib**. Nömrələnmiş paylayıcı qutuları olan konduit tam olaraq əvvəlcədən
+mövcud olan tikinti elementidir.
+
+**Nəticə:** boru, disk telefon, thumbnail-dakı LOGIN ATTEMPTS tarixləri, "K's ON BELT" —
+çox güman MrBeast-in dekorudur, Colin-in ipucusu deyil. Beləliklə `6 ⊕ 4 = 2` arqumenti
+də düşür (14 bayquş ⊕ 12 arqumenti qalır).
+
+Colin-in **ƏLAVƏ ETDİYİ** (yəni əsl ipucu dəsti): jigsaw parçaları, masadakı iki qeyd,
+çəhrayı vərəq, altı stiker, teal/yaşıl kart, narıncı stiker. Bundan kənarı — ehtiyatla.
+
+### 29.2 ★ "YouTube **video page**", sadəcə "video" deyil
+
+u/DoctorXOR, 09-07 14:59:
+> "...**Everything you need is on the YouTube video page.**"
+
+u/SureIllustrator8375 dəqiqləşdirdi (09-07 15:55):
+> "Do you mean the YouTube **Video Page**, or do you mean, the YouTube **Video**?
+> Makes a huge difference."
+
+u/DoctorXOR (09-07 16:13):
+> "**It does make a difference, doesn't it? 😉**"
+
+Yəni **səhifə** qəsdən nəzərdə tutulur: **başlıq, təsvir, pinned şərh** oyundadır.
+Bu, pinned şərhin (→ `tinyurl.com/xorprofile` → CyberChef XOR açarı) əsl ipucu olduğunu
+müəllifin öz ağzından təsdiqləyir.
+
+Qeyd: pinned şərh **düz doqquz sözdür** —
+`Make(1) sure(2) you(3) check(4) out(5) Colin's(6) profile(7) 👀(8) <tinyurl>(9)` —
+yəni onun **son sözü elə doqquzuncu sözüdür**. "LAST WORD THEN NINTH" burada özünə
+qapanır və CyberChef linkinə işarə edir.
+
+### 29.3 Qalib hələ də yoxdur
+
+u/PartyAd2016 (09-07 23:44): *"Has anyone actually won yet? Seems like a lot of us have
+the same answer"*. 09-08 06:39-a qədər nə qalib elan olunub, nə də cavab təsdiqlənib.
