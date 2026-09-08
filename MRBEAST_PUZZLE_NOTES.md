@@ -12141,3 +12141,35 @@ qapanır və CyberChef linkinə işarə edir.
 
 u/PartyAd2016 (09-07 23:44): *"Has anyone actually won yet? Seems like a lot of us have
 the same answer"*. 09-08 06:39-a qədər nə qalib elan olunub, nə də cavab təsdiqlənib.
+
+---
+
+## §30 — 8 sentyabr axşamı: `(6 6)` oxunuşu mübahisəlidir
+
+### 30.1 ⚠ Krem qeydin orta düyünü: `(6 6)` yoxsa `(6 2)`?
+
+u/nknowner (09-04 16:30, thread `1w78rdv`):
+> "You guys missed the **(364) -> (62) -> (6)** that's visable in the last part of the vid"
+
+Yəni orta düyünü **`(6 2)`** oxuyur. **Mənim ilk 360p oxunuşum da `(6 2…)` idi** (§ köhnə qeydlər);
+sonra stacked/upright 5× böyütmədə iki qapalı halqalı rəqəm görüb `(6 6)`-ya keçdim.
+Bu gün daha güclü emal cəhdi kadr artefaktlarından başqa heç nə vermədi.
+
+**Vəziyyət: həll olunmayıb.** Əlimdəki qətnamədə 6 və 2-ni qəti ayıra bilmirəm.
+
+**Əhəmiyyəti böyükdür:** əgər `(6 2)`-dirsə, mavi aralıq cavab *6 hərfli söz + 2 hərfli söz*
+olur — məsələn **şəhər + ABŞ ştat kodu** ("DEKALB IL" tipli). Bu, bütün mavi hədəfi dəyişir
+və `(6 6) = <ordinal> UPLOAD` oxunuşunu ləğv edər.
+
+### 30.2 gg4999-un BEASTSAND→STUNTS həlli müstəqil olaraq rədd edildi
+
+u/santistu (09-08 15:52), gg4999-un yazısına cavab:
+> "I imagine you know already but just in case: **this is wrong**, if you haven't solved it
+> yet hit me up and I'll give you a hint."
+
+Mən bunu artıq öz hesablamamla rədd etmişdim; indi müstəqil təsdiq var.
+
+### 30.3 Formanın səssizliyi hamı üçündür
+
+Yeni post (09-07 19:44): *"Submitted an answer 2 days ago, no response yet — is this normal?"*
+Qalib hələ elan olunmayıb.
