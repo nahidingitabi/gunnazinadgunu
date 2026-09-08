@@ -189,6 +189,41 @@ sweepstakes form, not a checker — it does not tell you that you are wrong. So 
 form explicitly rejected the answer, submitting and hearing nothing is **not** evidence
 against `FANTASTIC HEDWIG`.
 
+## What the CyberChef box will and will not accept
+
+The placeholder is not filler. **`AaaaaA-aaAa##` is a legality template.** For the XOR
+output to be fully printable ASCII, the key forces:
+
+- **no uppercase at positions 2, 4 and 7** (`A` there XORs to a control character),
+- **no lowercase at positions 12 and 13**.
+
+The placeholder satisfies exactly those five constraints and nothing else about it is
+arbitrary — lowercase at 2 and 4, a hyphen at 7, digits at 12 and 13. So it is telling you
+the *shape* of the string you are meant to paste: **eleven characters of mixed case,
+letters/digits/hyphen, then two digits.** Eleven characters plus two digits is also, exactly,
+a YouTube video ID plus the two numbers the `# #` / `How many?` sticky asks for.
+
+**A correction.** Two turns ago I made much of `"Superb Owls"` XOR-ing to `v=F0OKzxKCP` —
+the `v=` of a watch URL. That is worth much less than I said: `'S' ^ '%' = 'v'` and
+`'u' ^ 'H' = '='`, so **any** input beginning `Su` produces `v=`. The phrase begins `Su`,
+and that is the whole of it. No coincidence, no signal.
+
+**Tested exhaustively against that template, all negative:**
+
+| test | result |
+|---|---|
+| every 13-char substring of ~2.6 MB of puzzle material (frame OCR, transcripts, descriptions, the official $1M PDF, the mod page, the Reddit corpus) | no output contains an English word of 4+ letters; none has the form `WORD WORD` |
+| all 1,024 case variants of `xorsuperbowls` (13 chars = the key's length) | nothing readable — XOR only flips bit 5, so case cannot rescue a garbage output |
+| `Superb Owls` / `Superb owls` + all 100 two-digit endings → 162 syntactically valid video IDs | **every one checked against YouTube; not one is a real video** |
+| the pinned comment's own id `UgzlKjB7zrL4QAj0AiZ4AaABAg` (26 chars = 2×13) at all 13 alignments | never printable — it has an uppercase at position 7 |
+| every candidate video ID + two digits | never printable, for the same reason |
+| `251634`, `82CX6WULNA0`, `BIRDSOFAMERICA`, `LASTWORDTHENNINTH`, `MRBEASTSANDWHERETOFINDTHEM`, `FANTASTIC`, at all 13 alignments, forwards and reversed | nothing |
+
+So if something is meant to be pasted there, **it is a string I have never read** — which is
+plausible: the room's 1080p coverage is partial, and one yellow note (`CODE … ON … →`) is
+physically hidden under another sheet. The template above is the filter to apply to any
+candidate: eleven mixed characters then two digits, with no capital in slots 2, 4 or 7.
+
 ## The XOR box cannot output HEDWIG — but it can output SNITCH
 
 Prompted by the suggestion to actually *type the random-looking thing into the box*, and
