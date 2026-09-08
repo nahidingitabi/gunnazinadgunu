@@ -1,6 +1,8 @@
 # MrBeast $10,000 puzzle — the answer
 
-**Answer: `FANTASTIC HEDWIG`.**
+**Answer: `FANTASTIC HEDWIG`** — with one real caveat, below: the CyberChef box in the
+pinned comment *cannot* output `HEDWIG` at any alignment, while it can output `SNITCH`.
+If that box is the blue chain's last step, the answer is `FANTASTICSNITCH`.
 
 **The entry form gives no feedback.** It accepts a submission and says nothing else —
 confirmed with the person who entered it. So submitting and hearing nothing back is
@@ -186,6 +188,44 @@ all.** Huge-Stable-7397 entered on 4 September, CiviledXI on 5 September; as of
 sweepstakes form, not a checker — it does not tell you that you are wrong. So unless the
 form explicitly rejected the answer, submitting and hearing nothing is **not** evidence
 against `FANTASTIC HEDWIG`.
+
+## The XOR box cannot output HEDWIG — but it can output SNITCH
+
+Prompted by the suggestion to actually *type the random-looking thing into the box*, and
+by a screenshot of the live page (which confirms the decode exactly: input
+`AaaaaA-aaAa##`, 13 chars, output `d)W4\hwV]nBAR`).
+
+The key is 13 bytes, and the placeholder is 13 characters — so the intended input is 13
+characters. XOR is its own inverse, so for any desired **output** the required **input** is
+forced. And for some outputs that required input is **not typeable**: it lands on a
+control character.
+
+**Work it through for a `(6 6)` output** — six letters, a space, six letters, which is
+exactly 13 characters:
+
+- The space at position 7 needs input `z`. Typeable ✓
+- Positions 2, 4 and 7 of the output can only be **lowercase** (their key bytes push
+  uppercase into control characters), so the **first word cannot be all-caps**.
+- Positions 12 and 13 can only be **uppercase**, so the **second word must end in two
+  capitals** — i.e. the second word is the all-caps one.
+
+Now test the two candidates as that second word:
+
+```
+HEDWIG   offsets 0..7:  -  -  -  -  -  -  -  -     never typeable
+SNITCH   offsets 0..7:  -  -  -  -  -  -  -  OK    typeable at offset 7
+```
+
+`HEDWIG` fails at **every** alignment. At offset 7 — the second-word slot — it needs
+`H ^ 0x37 = 0x7F`, which is DEL. There is no key press that produces it. `SNITCH` at that
+same offset needs the input suffix `drfw!9`, all typeable.
+
+**What this does and does not show.** It is not proof: `drfw!9` is not a natural-looking
+string, so the box may well not be the final step at all — it may only be MrBeast's way of
+telling solvers that XOR is involved. But it is the **first hard, non-aesthetic asymmetry
+between the two candidates**, and it runs against HEDWIG. If the CyberChef box is the last
+step of the blue chain, then the answer cannot be HEDWIG, and SNITCH fits the one slot the
+key leaves open.
 
 ## What the author said on 7 September
 
