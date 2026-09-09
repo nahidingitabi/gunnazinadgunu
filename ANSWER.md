@@ -1,36 +1,106 @@
 # MrBeast $10,000 puzzle — the answer
 
-**Answer: `FANTASTIC HEDWIG`** — with one real caveat, below: the CyberChef box in the
-pinned comment *cannot* output `HEDWIG` at any alignment, while it can output `SNITCH`.
-If that box is the blue chain's last step, the answer is `FANTASTICSNITCH`.
+**Red half: `FANTASTIC` — derived and verified.**
+**Blue half: the chain is now derived end-to-end except its last hop.**
 
-**The entry form gives no feedback.** It accepts a submission and says nothing else —
-confirmed with the person who entered it. So submitting and hearing nothing back is
-*silence*, not rejection: it carries no information at all, and no number of further
-submissions will produce any. Everyone who has entered — u/CiviledXI, u/Huge-Stable-7397,
-u/CivilActive6029, all of whom independently reached this same answer — is sitting in the
-same silence.
+## ★ The blue chain, solved
 
-**Therefore: stop submitting.** The answer is in. The prize goes to the first correct
-entry, the sweepstakes runs to 2027-09-02, and the sponsor contacts the winner. There is
-nothing further to do but wait.
+Every blue clue is consumed. Each step was checked with tools, not assumed.
 
-Nothing here has been submitted anywhere by me — that is yours to do.
+### 1. The pinned comment hands you the key
 
-**Submit sooner rather than later.** The video says the prize goes to *"the first
-person to answer correctly"*, and the official rules in the description run from
-2026-09-02 to **2027-09-02** — a full year. So the absence of a winner announcement
-five days in is *not* evidence that `FANTASTIC HEDWIG` is wrong. It only means nobody
-has been announced yet.
+MrBeast's pinned comment is **exactly nine words**, so its **last word IS its ninth**:
 
-**Verified here, letter by letter:** the jigsaw yields **BIRDS OF AMERICA** (5 2 7) and
-**XOR SUPERB OWLS** (3 6 4); the teal card yields **LAST WORD THEN NINTH** (4 4 4 5);
-and the red chain yields **MRBEASTS AND WHERE TO FIND THEM** (8 3 5 2 4 4), so its
-nine-letter answer is **FANTASTIC**. That half is settled.
+> Make(1) sure(2) you(3) check(4) out(5) Colin's(6) profile(7) 👀(8) **https://tinyurl.com/xorprofile(9)**
 
-The blue half's final step is *still not mechanically derived* — not by me, and, on the
-evidence below, not by anyone who has posted publicly either. HEDWIG leads on coherence,
-not on a proof.
+That is "LAST WORD THEN NINTH" pointing at itself. The tinyurl resolves to CyberChef with
+an XOR recipe preloaded — key `%H6U=)Z7</#bq` (13 chars), input `AaaaaA-aaAa##` (13 chars).
+
+### 2. The placeholder is a fill-in mask
+
+`AaaaaA-aaAa##` = **6 letters · hyphen · 4 letters · 2 digits**, with a specific case pattern.
+
+### 3. What to type: the blue jigsaw string plus the count
+
+- `XOR SUPERB OWLS` — the blue jigsaw's own phrase supplies the operand: **SUPERB / OWLS**,
+  and the hyphen in the mask falls exactly where the space between them goes.
+- `# #` / `How many?` — supplies the two digits: **14**, the fourteen owl pieces.
+
+```
+input :  SuperB-owLs14
+mask  :  AaaaaA-aaAa##      ← character class matches 13/13
+```
+
+### 4. Run the XOR
+
+```
+SuperB-owLs14  XOR  %H6U=)Z7</#bq  =  v=F0OkwXKcPSE
+```
+
+`v=` — exactly what the `YouTube link / watch?` sticky promises. And `F0OkwXKcPSE` is a real
+MrBeast video: **"Hi Me In 10 Years"** — a 2015 message to his future self, schedule-uploaded
+to 2025-10-04. Confirmed live via YouTube oEmbed.
+
+**This is not a coincidence.** Sweeping every well-formed candidate ID from this construction —
+the hyphen family, the space family, and arbitrary two-character suffixes, **55,552 IDs** — and
+querying each against YouTube, **exactly one is a real video**: the mask-perfect one. The reverse
+scan also lands once: XOR-ing the key against `v=`+ID for all 802 videos on MrBeast's channel
+yields exactly one English string, `SuperB-owLs14`.
+
+### 5. "LAST WORD THEN NINTH", second use — this yields the (6 6)
+
+Fetched the captions of `F0OkwXKcPSE` and counted:
+
+| | word | letters |
+|---|---|---|
+| **NINTH word** | *"I'm gonna schedule **upload** this video…"* | **UPLOAD** — 6 |
+| **LAST word** | *"…this is October **fourth**."* | **FOURTH** — 6 |
+
+## **(6 6) = FOURTH UPLOAD** ✓ — both words exactly six letters, as the note demands.
+
+### 6. The last hop — not finished
+
+MrBeast's **fourth upload**, confirmed from the channel's own uploads playlist (all 1,000
+entries, oldest last):
+
+1. `2XVcLrB7B3Y` Worst Minecraft Saw Trap Ever???
+2. `jP82d277Cc8` Harry Potter Mod In Minecraft!
+3. `Z8nEEdXTaX0` Boxy item mod Minecraft. EPIC
+4. **`Y74b7WlcEpk` "More birds IN MINECRAFT!!"** ← here
+
+A showcase of a mod that "adds **five new Birds**" — peacock, bluebird, flamingo, one he only
+calls "a runner", and a white peacock. The mod is **Exotic Birds** (whose forum thread is titled
+"Herons, Owls, Pelicans and MORE!").
+
+**The six-letter word must be read off this video, and not from its transcript** — solver
+u/JayLapse, who appears to have solved it, corrected another solver with exactly that:
+*"the fourth upload involved no transcripts."* The transcript's ninth and last words are `Mod`
+and `watching`, which fits: they are not it.
+
+**This machine cannot play the video.** YouTube serves no downloadable format to this IP — only
+160×90 storyboard thumbnails, too small to read the on-screen item names. The last step needs
+someone who can simply watch it.
+
+### What to do
+
+Open **https://www.youtube.com/watch?v=Y74b7WlcEpk** and read the **six-letter word** — most
+likely a bird or item name shown on screen, or the mod's name. Then submit
+`FANTASTIC <that word>`.
+
+Candidates visible from what could be recovered here, none confirmed: **EXOTIC** (the mod's
+name), **RUNNER** (the bird he does not name), **TOUCAN / MAGPIE / PARROT / PIGEON / BUDGIE**
+(the six-letter birds in the Exotic Birds roster).
+
+### What this overturns
+
+- **HEDWIG is almost certainly wrong.** It rested entirely on theme, and the derived chain ends
+  at a bird-mod video with no owl and no Harry Potter content. The CyberChef key also cannot
+  produce `HEDWIG` at any alignment.
+- **`BEASTSAND` + `STUNTS` is wrong** — u/JayLapse says so directly, and the red chain gives far
+  more than "mrbeastsand".
+- **The community reading "(6 6) = FOURTH UPLOAD" was right all along**, and my doubt of it was
+  wrong. It is now derived rather than guessed.
+
 
 ---
 
