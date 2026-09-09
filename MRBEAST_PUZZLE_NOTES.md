@@ -12173,3 +12173,51 @@ Mən bunu artıq öz hesablamamla rədd etmişdim; indi müstəqil təsdiq var.
 
 Yeni post (09-07 19:44): *"Submitted an answer 2 days ago, no response yet — is this normal?"*
 Qalib hələ elan olunmayıb.
+
+---
+
+## 09.09.2026 ~19:20Z — §31. DÖRDÜNCÜ YÜKLƏMƏNİN TAM ƏŞYA LÜĞƏTİ OXUNDU
+
+Əvvəlki skan yalnız hotbar-ın üstündəki əşya adı zolağını (`430,588,860,616`) oxumuşdu —
+yəni yalnız **ələ götürülən** 6 spawn yumurtasını. Bu dəfə inventarın açıq olduğu iki
+pəncərəni (53–60 s və 95–97 s) 15 fps ilə yenidən çıxarıb **tooltip** qutularını
+avtomatik tapdım (ağ mətn + üstündə/altında qaranlıq → Minecraft tooltip imzası).
+
+**Modun tam lüğəti:**
+
+| əşya | hərf | subtitrdə |
+|---|---|---|
+| Spawn Peacock | 7 | 6 |
+| **Spawn Peahen** | **6** | **0** |
+| Spawn Bluebird | 8 | 1 |
+| Spawn Flamingo | 8 | 3 |
+| Spawn Roadrunner | 10 | 0 |
+| Spawn White Peacock | 12 | — |
+| Peacock Feather | — | feather 0 |
+| Albino Peacock Feather | Albino 6 | albino 0 |
+| Peacock Feather Essence | Essence 7 | essence 0 |
+| Pink Feather | Pink 4 | — |
+| Imbued Stick | Imbued 6 | imbued 0 |
+| Golden Egg | Golden 6 | golden 0 |
+| Peafowl Egg | Peafowl 7 | peafowl 0 |
+| Destroy Item | (creative rejimin düyməsi) | — |
+
+**Nəticələr:**
+
+1. Bütün əşya adları subtitrlərdə **0 dəfə** keçir. u/JayLapse-in «the fourth upload
+   involved no transcripts» ifadəsi tam olaraq budur.
+2. Quş adlarından yalnız **ikisi** heç deyilmir: **Peahen** və **Roadrunner**. Bunlardan
+   yalnız biri altı hərflidir.
+3. Üç yeni altı hərfli söz çıxdı — ALBINO, IMBUED, GOLDEN — amma heç biri quş deyil.
+   Tapmaca birinci yapboz parçasından bəri quş tapmacasıdır.
+4. Mod hər üç tovuz sözünü qəsdən daşıyır: **Peacock** (erkək, 7), **Peahen** (dişi, 6),
+   **Peafowl** (növ, 7). Yəni altı hərflik yer təsadüf deyil.
+
+**Süzgəc:** quş ∧ göstərilir-amma-deyilmir ∧ altı hərf → **PEAHEN**, tək.
+
+Fayllar: `GUI1/`, `GUI2/` (15 fps kadrlar), `GUI1_TIPS.png`, `GUI2_TIPS.png`,
+`BIRD_TIPS.png`, `BIGTEXT.png`.
+
+**ANSWER.md düzəlişləri:** «(6 6) ?» / «(6) ?» sətri dolduruldu; «But THEN NINTH still
+does not land» və «2b. The blue half» bölmələri SUPERSEDED kimi işarələndi (onlar hələ
+HEDWIG deyirdi); «Every clue, used and unused» bölməsi tam yenidən yazıldı.

@@ -11,19 +11,19 @@ Nine letters and six. Both halves derived. Full derivation in `ANSWER.md`.
   LAST WORD THEN NINTH there = fourth + upload = FOURTH UPLOAD; MrBeast's fourth upload is
   "More birds IN MINECRAFT!!", whose only six-letter on-screen item name is **Spawn Peahen** —
   a word never spoken in the video.
-## The one thing left to do
+## Nothing is left to derive — only to submit
 
-1. Open **https://www.youtube.com/watch?v=Y74b7WlcEpk** — MrBeast's fourth upload,
-   *"More birds IN MINECRAFT!!"* (2013-01-12).
-2. Find the **six-letter word** in it. It is **not in the transcript** (a solver who appears to
-   have finished, u/JayLapse, said so explicitly: *"the fourth upload involved no transcripts"*).
-   Look at what is on screen: the mod's name, the bird names in tooltips and spawn eggs, the
-   items. The video shows five birds — peacock, bluebird, flamingo, one he only calls "a
-   runner", and a white peacock — from the **Exotic Birds** mod.
-3. Submit **`FANTASTIC <that word>`** at the entry form.
+Submit **`FANTASTIC PEAHEN`** at the entry form. If it is rejected, try `FANTASTICPEAHEN`
+and then the reversed order.
 
-Unconfirmed candidates, in case they help you recognise it: `EXOTIC`, `RUNNER`, `TOUCAN`,
-`MAGPIE`, `PARROT`, `PIGEON`, `BUDGIE`.
+Why PEAHEN and not another word from that video: the inventory tooltips (visible 53-60 s
+and 95-97 s) give the mod's complete vocabulary — Spawn Peacock / Peahen / Bluebird /
+Flamingo / Roadrunner / White Peacock, plus Peacock Feather, Albino Peacock Feather,
+Peacock Feather Essence, Pink Feather, Imbued Stick, Golden Egg, Peafowl Egg. **Not one of
+those words is spoken in the video** (that is u/JayLapse's "the fourth upload involved no
+transcripts"). Of the bird names, only Peahen and Roadrunner are never said aloud, and only
+Peahen is six letters, which is what the cream note's final `(6)` demands. ALBINO, IMBUED
+and GOLDEN are also six letters but are not birds.
 
 ## The full derivation (all of it checked with tools)
 

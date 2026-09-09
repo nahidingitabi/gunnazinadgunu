@@ -59,19 +59,46 @@ only here.
 **"More birds IN MINECRAFT!!"** — a showcase of the Exotic Birds mod. Reading the spawn-egg
 names off the screen at 720p:
 
-| on-screen item name | letters |
-|---|---|
-| Spawn Peacock | 7 |
-| **Spawn Peahen** | **6** |
-| Spawn Bluebird | 8 |
-| Spawn Flamingo | 8 |
-| Spawn Roadrunner | 10 |
-| Spawn White Peacock | 12 |
+| on-screen item name | letters | times spoken in the captions |
+|---|---|---|
+| Spawn Peacock | 7 | 6 |
+| **Spawn Peahen** | **6** | **0** |
+| Spawn Bluebird | 8 | 1 |
+| Spawn Flamingo | 8 | 3 |
+| Spawn Roadrunner | 10 | 0 |
+| Spawn White Peacock | 12 | 6 (as "peacock") |
 
-**`PEAHEN` is the only six-letter name — and it is never spoken.** MrBeast says "the peacock",
-"the Bluebird", "Flamingo", "a runner", "a white peacock"; the word *peahen* appears **zero**
-times in the captions. It exists only on screen. That is precisely why solver u/JayLapse
-corrected another solver with *"the fourth upload involved no transcripts."*
+That is only the hotbar. Opening the inventory (53–60 s and 95–97 s) puts tooltips on
+every other item the mod adds, and those had never been read. The complete vocabulary is:
+
+| item | letters in its distinctive word | spoken? |
+|---|---|---|
+| Peacock Feather | Peacock 7, Feather 7 | feather 0 |
+| Albino Peacock Feather | Albino 6 | albino 0 |
+| Peacock Feather Essence | Essence 7 | essence 0 |
+| Pink Feather | Pink 4 | — |
+| Imbued Stick | Imbued 6 | imbued 0 |
+| Golden Egg | Golden 6 | golden 0 |
+| Peafowl Egg | Peafowl 7 | peafowl 0 |
+| Destroy Item | — (a creative-mode GUI button, not a mod item) | — |
+
+Every one of those words scores **zero** in the transcript. Three more six-letter words
+appear — ALBINO, IMBUED, GOLDEN — but none of them is a bird, and the puzzle has been a
+bird puzzle from the first jigsaw piece: fourteen owls, *The Birds of America*, Superb
+Owls, a bird mod.
+
+Filter by the two constraints the puzzle actually supplies and only one thing survives:
+
+- **it must be a bird** (the whole chain is ornithological) → Peacock, Peahen, Bluebird,
+  Flamingo, Roadrunner, White Peacock, Peafowl
+- **it must be shown and never said** — u/JayLapse's *"the fourth upload involved no
+  transcripts"* → Peahen, Roadrunner
+- **it must be six letters** — the cream note's final `(6)` → **Peahen**
+
+Either of the last two alone leaves an ambiguity; together they are exact. And note the
+mod deliberately carries all three peafowl words — **Peacock** (male, 7), **Peahen**
+(female, 6), **Peafowl** (the species, 7) — so the six-letter slot is not an accident of
+vocabulary. It is a choice the puzzle can point at.
 
 **(6) = PEAHEN.**
 
@@ -119,7 +146,7 @@ decoded jigsaw/card phrase written as word lengths. So the two notes read:
 | note | clue phrases | intermediate | answer |
 |---|---|---|---|
 | red | (5 2 7) BIRDS OF AMERICA | (8 3 5 2 4 4) MRBEASTS AND WHERE TO FIND THEM, strike MR | (9) **FANTASTIC** |
-| cream | (3 6 4) XOR SUPERB OWLS **and** (4 4 4 5) LAST WORD THEN NINTH | (6 6) ? | (6) ? |
+| cream | (3 6 4) XOR SUPERB OWLS **and** (4 4 4 5) LAST WORD THEN NINTH | (6 6) FOURTH UPLOAD | (6) **PEAHEN** |
 
 ### "LAST WORD" is literal — and it points at a `watch?v=` link
 
@@ -152,7 +179,13 @@ No other early upload has a YouTube link as its last word (checked, uploads 1–
 is strong evidence that **(6 6) = FOURTH UPLOAD**, and that "LAST WORD" means the last
 word of that upload's description.
 
-### But "THEN NINTH" still does not land
+### But "THEN NINTH" still does not land — SUPERSEDED
+
+> Written on 7 September, before the chain closed. It is kept because the negative
+> sweep it records is still valid; its conclusion is not. "LAST WORD THEN NINTH" is
+> applied to **`F0OkwXKcPSE` ("Hi Me In 10 Years")**, the video the XOR box outputs —
+> not to `Z8nEEdXTaX0`. There it gives ninth = `upload`, last = `fourth`.
+
 
 Following that link to `Z8nEEdXTaX0`, the ninth word is:
 
@@ -455,8 +488,8 @@ locations (verified verbatim from the transcript), and the main video's descript
 
 ## Every clue, used and unused
 
-The right question, once an answer stalls, is which props the solve never consumed. A
-puzzle this tight does not leave spare parts.
+Rewritten 9 September, after the chain closed. A puzzle this tight does not leave spare
+parts — and it now has none that matter.
 
 ### Used, and load-bearing
 
@@ -468,31 +501,62 @@ puzzle this tight does not leave spare parts.
 | pink sheet (plate № + numeral) | → `MRBEASTSANDWHERETOFINDTHEM` |
 | orange sticky "Books w/ old names… Alphabetize?" | the red chain's sort rule |
 | green sticky "LSWRTE…" + "Should I call it bird fence?" | rail fence → `LASTWORDTHENNINTH` |
-| red note `(5 2 7) → (8 3 5 2 4 4) → M̶R̶ (9)` | the red chain's skeleton |
-| yellow `081 XIV / Seahawks?` | worked example of the red mechanism |
+| red note `(5 2 7) → (8 3 5 2 4 4) → M̶R̶ (9)` | the red chain's skeleton; `(5 2 7)` **is** BIRDS OF AMERICA |
+| yellow `081 XIV / Seahawks?` | worked example of the red mechanism (plate 81 = Fish Hawk) |
 | yellow `QX = TH` | the two alphabet slots Audubon has no plate for |
 | yellow `PLATES` | says the numbers are plate numbers |
 | "Boo! book — five of these" | confirms five boobooks among the fourteen |
-| cream note `(3 6 4) + (4 4 4 5) → (6 6) → (6)` | the blue chain's skeleton |
+| cream note `(3 6 4) + (4 4 4 5) → (6 6) → (6)` | the blue chain's skeleton; `(3 6 4)` **is** XOR SUPERB OWLS |
+| MrBeast's pinned comment | nine words, so its last word *is* its ninth → `tinyurl.com/xorprofile` |
+| CyberChef key `%H6U=)Z7</#bq` | the XOR key, 13 characters |
+| placeholder `AaaaaA-aaAa##` | a fill-in mask: 6 letters · hyphen · 4 letters · 2 digits |
+| blue sticky `# #` / `How many?` | the mask's two digits: **14**, the fourteen owls |
+| blue sticky `251634` | the worked XOR example: 25\|16\|34, each pair both summing and XOR-ing to 7 |
+| blue sticky `YouTube link / watch?` | the XOR output is `v=…`, the tail of a `watch?v=` URL |
+| `LAST WORD THEN NINTH` | used **twice** — on the pinned comment, then on *Hi Me In 10 Years* |
 
-### Never used — this is where the missing step must live
+Every clue in the two chains is now consumed, and the two desk notes turn out to be
+self-checks rather than instructions: `(5 2 7)` totals 14 = the red string's length, and
+`(3 6 4)` totals 13 = the blue string's length **and** the CyberChef key's length **and**
+the placeholder's length. Three independent quantities agreeing on 13 is what makes the
+mask reading safe.
+
+### Genuinely never used — and why none of it matters
 
 | # | clue | status |
 |---|---|---|
-| 1 | **`LAST WORD THEN NINTH`** | decoded, never successfully applied. **This is the hole itself.** |
-| 2 | **pipe stickers: blue `6`, red `7`, white `4`** | see below — the largest unexplained object |
-| 3 | **`251634`** (blue sticky) | I called it a worked XOR example. That is an inference, not a use. |
-| 4 | **`# #` / `How many?`** (blue sticky) | never resolved; "14 owls ⊕ 12 Super Bowls" is a guess |
-| 5 | **`YouTube link / watch?`** (blue sticky) | points somewhere; the destination was never pinned down |
-| 6 | **the rotary phone** on the desk | flagged by two other solvers as unused; still unused |
-| 7 | yellow note `CODE … ON … →` | physically hidden under another sheet; never read |
-| 8 | the LOGIN ATTEMPTS dates on the thumbnail | never used |
-| 9 | the pink sheet's odd `424-6` row | never read |
+| 1 | pipe stickers: blue `6`, red `7`, white `4` (two walls, six stickers) | unused |
+| 2 | the rotary phone and its dial markings | unused |
+| 3 | yellow note `CODE … ON … →` | physically hidden under another sheet; unreadable in any frame |
+| 4 | the LOGIN ATTEMPTS dates on the thumbnail | unused |
+| 5 | yellow note `K's ON BELT` | refers to the *old* hunt's Super Bowl 2 belt |
+| 6 | "PUZZLE CLUES" boxes: Roman-numeral picture cards (IV+flag, VII+warehouse, XI+child…) | props from the old hunt |
+| 7 | the printed "here are some … to get you started" sheet | never fully in frame |
+| 8 | the box's "July 1st 1988 – June 30 89" (= 364 days) | a coincidence with `(3 6 4)`, not a use |
+| 9 | the pink sheet's odd `424-6` row | the L slot; forced to W by the target string |
+
+Items 1–7 are covered by Colin Sanders' own statement of 7 September: he *"had to add
+clues without modifying anything else in the room… there are probably room elements or
+things Jimmy does that you have to ignore."* The room is a **summary set of the old
+$1,000,000 hunt** — corkboard photographs, a META PUZZLE card, MM2 globes, MM1
+crosswords, MP16–24 cryptic cards, string links. `K's ON BELT` and the Roman-numeral
+picture cards are demonstrably that old hunt's props, not this puzzle's.
+
+Item 8 is worth naming explicitly because it looks like a lead and is not: the cardboard
+box on the desk is labelled *July 1st 1988 – June 30 89*, an interval of exactly 364
+days, next to a note beginning `(364)`. But `(3 6 4)` matches XOR SUPERB OWLS letter for
+letter and `(5 2 7)` matches BIRDS OF AMERICA letter for letter — two independent exact
+fits — so the enumeration reading is right and the box is a coincidence or a joke.
+
+Item 9 does not touch the answer: the red chain closes at 25 of 26 letters with zero
+mismatches, and the 26th is forced.
 
 ### The pipe — retracted on 8 September
 
 **The author has since said the room contains elements to ignore**, which undercuts the
-argument below. Kept for the record; see "What the author said on 7 September".
+argument below. Kept for the record; see "What the author said on 7 September". The
+`6 ⊕ 4 = 2 → SECOND` argument it advances is also now dead on its own terms: the middle
+node was settled as `(6 6)` by ink-blob correlation, and `(6 6)` is FOURTH UPLOAD.
 
 ### The pipe is not set dressing (superseded)
 
@@ -662,7 +726,14 @@ One further erratum falls out of this: the sheet's Sooty Tern row is transcribed
 The row reads VII — the same VIII/VII misreading the author has already admitted
 to on the jigsaw's grass piece.
 
-### 2b. The blue half — the first two steps verified, the last one not
+### 2b. The blue half — SUPERSEDED, now verified end to end
+
+> Kept as the record of how the middle node was contested. The section below concludes
+> that FOURTH dead-ends and that HEDWIG is the only reachable six-letter word. **Both
+> conclusions are wrong.** FOURTH does not dead-end: the mistake was following the
+> *description link* out of the fourth upload instead of reading the fourth upload
+> itself. See "The blue half → PEAHEN" at the top of this file.
+
 
 The cream note is **(3 6 4) + (4 4 4 5) → (6 6) → (6)**.
 
