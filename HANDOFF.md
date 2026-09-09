@@ -1,15 +1,16 @@
-# HANDOFF — MrBeast $10,000 puzzle (video 82CX6WULNA0)
+# HANDOFF — MrBeast $10,000 puzzle: SOLVED
 
-Written 2026-09-09. Read `ANSWER.md` first; this is the operational summary.
+## Answer: `FANTASTIC PEAHEN`
 
-## Where it stands
+Nine letters and six. Both halves derived. Full derivation in `ANSWER.md`.
 
-The puzzle's answer is a **9-letter word and a 6-letter word**.
-
-- **9-letter half: `FANTASTIC` — solved and verified.**
-- **6-letter half: the chain is derived end-to-end except the final hop.** One step remains,
-  and it needs someone who can *watch a YouTube video* — this machine cannot.
-
+- Red half `FANTASTIC`: Audubon plate numbers + Roman numerals -> MRBEASTSANDWHERETOFINDTHEM,
+  strike MR, supply the missing word of *Fantastic Beasts and Where to Find Them*.
+- Blue half `PEAHEN`: pinned comment (9 words, last = ninth) -> CyberChef key; the placeholder
+  `AaaaaA-aaAa##` is a mask; `SuperB-owLs14` XOR key = `v=F0OkwXKcPSE` = "Hi Me In 10 Years";
+  LAST WORD THEN NINTH there = fourth + upload = FOURTH UPLOAD; MrBeast's fourth upload is
+  "More birds IN MINECRAFT!!", whose only six-letter on-screen item name is **Spawn Peahen** —
+  a word never spoken in the video.
 ## The one thing left to do
 
 1. Open **https://www.youtube.com/watch?v=Y74b7WlcEpk** — MrBeast's fourth upload,

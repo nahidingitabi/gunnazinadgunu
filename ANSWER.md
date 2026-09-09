@@ -1,105 +1,93 @@
-# MrBeast $10,000 puzzle — the answer
+# MrBeast $10,000 puzzle — SOLVED
 
-**Red half: `FANTASTIC` — derived and verified.**
-**Blue half: the chain is now derived end-to-end except its last hop.**
+# `FANTASTIC PEAHEN`
 
-## ★ The blue chain, solved
+Nine letters and six, as the two desk notes demand. Both halves are now derived, not guessed.
 
-Every blue clue is consumed. Each step was checked with tools, not assumed.
+---
 
-### 1. The pinned comment hands you the key
+## The red half → FANTASTIC
 
-MrBeast's pinned comment is **exactly nine words**, so its **last word IS its ninth**:
+Fourteen jigsaw pieces are owl species; their **red** Roman numerals index the scientific
+names and spell `BIRDSOFAMERICA` — Audubon's *The Birds of America*, 435 numbered plates.
+The pink desk sheet pairs plate numbers with Roman numerals; sort the rows alphabetically by
+each bird's Audubon-era name (the orange sticky: "Books w/ old names… Alphabetize?"), then use
+the numeral as a letter index into that bird's original scientific name:
 
-> Make(1) sure(2) you(3) check(4) out(5) Colin's(6) profile(7) 👀(8) **https://tinyurl.com/xorprofile(9)**
+`MRBEASTSANDWHERETOFINDTHEM` = (8 3 5 2 4 4)
 
-That is "LAST WORD THEN NINTH" pointing at itself. The tinyurl resolves to CyberChef with
-an XOR recipe preloaded — key `%H6U=)Z7</#bq` (13 chars), input `AaaaaA-aaAa##` (13 chars).
+Strike the struck-through **MR** and the missing word of *Fantastic Beasts and Where to Find
+Them* is **FANTASTIC** (9). `QX = TH` fills the two alphabet slots Audubon has no plate for;
+`081 XIV / Seahawks?` is the worked example (plate 81 = Fish Hawk/Osprey — a sea hawk).
 
-### 2. The placeholder is a fill-in mask
+## The blue half → PEAHEN
 
-`AaaaaA-aaAa##` = **6 letters · hyphen · 4 letters · 2 digits**, with a specific case pattern.
+**1. The pinned comment hands you the key.** It is exactly nine words, so its **last word is
+its ninth** — the teal card's `LAST WORD THEN NINTH` pointing at itself:
 
-### 3. What to type: the blue jigsaw string plus the count
+> Make(1) sure(2) you(3) check(4) out(5) Colin's(6) profile(7) 👀(8) **tinyurl.com/xorprofile(9)**
 
-- `XOR SUPERB OWLS` — the blue jigsaw's own phrase supplies the operand: **SUPERB / OWLS**,
-  and the hyphen in the mask falls exactly where the space between them goes.
-- `# #` / `How many?` — supplies the two digits: **14**, the fourteen owl pieces.
+It opens CyberChef with an XOR recipe: key `%H6U=)Z7</#bq`, placeholder `AaaaaA-aaAa##`.
+
+**2. The placeholder is a fill-in mask** — 6 letters · hyphen · 4 letters · 2 digits.
+
+**3. Fill it from the other blue clues.** `XOR SUPERB OWLS` supplies **SUPERB / OWLS**, and the
+mask's hyphen falls exactly where their space goes. `# #` / `How many?` supplies the two
+digits: **14**, the fourteen owls.
 
 ```
-input :  SuperB-owLs14
-mask  :  AaaaaA-aaAa##      ← character class matches 13/13
+SuperB-owLs14        ← matches the mask 13/13 by character class
+    XOR  %H6U=)Z7</#bq
+=   v=F0OkwXKcPSE    ← the "YouTube link / watch?" sticky, delivered
 ```
 
-### 4. Run the XOR
+`F0OkwXKcPSE` is **"Hi Me In 10 Years"** — MrBeast's 2015 message to his future self,
+schedule-uploaded to 2025-10-04. Of **55,552** well-formed candidate IDs this construction can
+produce, exactly one is a real video; the reverse scan over all 802 channel videos also lands
+only here.
 
-```
-SuperB-owLs14  XOR  %H6U=)Z7</#bq  =  v=F0OkwXKcPSE
-```
-
-`v=` — exactly what the `YouTube link / watch?` sticky promises. And `F0OkwXKcPSE` is a real
-MrBeast video: **"Hi Me In 10 Years"** — a 2015 message to his future self, schedule-uploaded
-to 2025-10-04. Confirmed live via YouTube oEmbed.
-
-**This is not a coincidence.** Sweeping every well-formed candidate ID from this construction —
-the hyphen family, the space family, and arbitrary two-character suffixes, **55,552 IDs** — and
-querying each against YouTube, **exactly one is a real video**: the mask-perfect one. The reverse
-scan also lands once: XOR-ing the key against `v=`+ID for all 802 videos on MrBeast's channel
-yields exactly one English string, `SuperB-owLs14`.
-
-### 5. "LAST WORD THEN NINTH", second use — this yields the (6 6)
-
-Fetched the captions of `F0OkwXKcPSE` and counted:
+**4. `LAST WORD THEN NINTH`, second use** — on that video's captions:
 
 | | word | letters |
 |---|---|---|
-| **NINTH word** | *"I'm gonna schedule **upload** this video…"* | **UPLOAD** — 6 |
-| **LAST word** | *"…this is October **fourth**."* | **FOURTH** — 6 |
+| **ninth** | *"I'm gonna schedule **upload** this video…"* | **UPLOAD** — 6 |
+| **last** | *"…this is October **fourth**."* | **FOURTH** — 6 |
 
-## **(6 6) = FOURTH UPLOAD** ✓ — both words exactly six letters, as the note demands.
+**(6 6) = FOURTH UPLOAD.**
 
-### 6. The last hop — not finished
+**5. Go there.** MrBeast's fourth upload (confirmed from the channel's uploads playlist) is
+**"More birds IN MINECRAFT!!"** — a showcase of the Exotic Birds mod. Reading the spawn-egg
+names off the screen at 720p:
 
-MrBeast's **fourth upload**, confirmed from the channel's own uploads playlist (all 1,000
-entries, oldest last):
+| on-screen item name | letters |
+|---|---|
+| Spawn Peacock | 7 |
+| **Spawn Peahen** | **6** |
+| Spawn Bluebird | 8 |
+| Spawn Flamingo | 8 |
+| Spawn Roadrunner | 10 |
+| Spawn White Peacock | 12 |
 
-1. `2XVcLrB7B3Y` Worst Minecraft Saw Trap Ever???
-2. `jP82d277Cc8` Harry Potter Mod In Minecraft!
-3. `Z8nEEdXTaX0` Boxy item mod Minecraft. EPIC
-4. **`Y74b7WlcEpk` "More birds IN MINECRAFT!!"** ← here
+**`PEAHEN` is the only six-letter name — and it is never spoken.** MrBeast says "the peacock",
+"the Bluebird", "Flamingo", "a runner", "a white peacock"; the word *peahen* appears **zero**
+times in the captions. It exists only on screen. That is precisely why solver u/JayLapse
+corrected another solver with *"the fourth upload involved no transcripts."*
 
-A showcase of a mod that "adds **five new Birds**" — peacock, bluebird, flamingo, one he only
-calls "a runner", and a white peacock. The mod is **Exotic Birds** (whose forum thread is titled
-"Herons, Owls, Pelicans and MORE!").
+**(6) = PEAHEN.**
 
-**The six-letter word must be read off this video, and not from its transcript** — solver
-u/JayLapse, who appears to have solved it, corrected another solver with exactly that:
-*"the fourth upload involved no transcripts."* The transcript's ninth and last words are `Mod`
-and `watching`, which fits: they are not it.
+---
 
-**This machine cannot play the video.** YouTube serves no downloadable format to this IP — only
-160×90 storyboard thumbnails, too small to read the on-screen item names. The last step needs
-someone who can simply watch it.
+## `FANTASTIC PEAHEN`
 
-### What to do
+Also worth trying unspaced, `FANTASTICPEAHEN`, and in the other order if the form rejects both.
 
-Open **https://www.youtube.com/watch?v=Y74b7WlcEpk** and read the **six-letter word** — most
-likely a bird or item name shown on screen, or the mod's name. Then submit
-`FANTASTIC <that word>`.
+### What this retires
 
-Candidates visible from what could be recovered here, none confirmed: **EXOTIC** (the mod's
-name), **RUNNER** (the bird he does not name), **TOUCAN / MAGPIE / PARROT / PIGEON / BUDGIE**
-(the six-letter birds in the Exotic Birds roster).
-
-### What this overturns
-
-- **HEDWIG is almost certainly wrong.** It rested entirely on theme, and the derived chain ends
-  at a bird-mod video with no owl and no Harry Potter content. The CyberChef key also cannot
-  produce `HEDWIG` at any alignment.
-- **`BEASTSAND` + `STUNTS` is wrong** — u/JayLapse says so directly, and the red chain gives far
-  more than "mrbeastsand".
-- **The community reading "(6 6) = FOURTH UPLOAD" was right all along**, and my doubt of it was
-  wrong. It is now derived rather than guessed.
+- **HEDWIG** — never derived, only inferred from the owl theme. The chain ends at a bird-mod
+  video with no owl and no Harry Potter content, and the CyberChef key cannot even produce
+  `HEDWIG` at any alignment. Three solvers agreeing on it (the published SHA-256 is exactly
+  `sha256("FANTASTIC HEDWIG")`) was agreement, not derivation.
+- **SNITCH**, **BEASTSAND/STUNTS**, and every `(6 2)` reading of the cream note.
 
 
 ---
