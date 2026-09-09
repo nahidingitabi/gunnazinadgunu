@@ -189,6 +189,31 @@ sweepstakes form, not a checker — it does not tell you that you are wrong. So 
 form explicitly rejected the answer, submitting and hearing nothing is **not** evidence
 against `FANTASTIC HEDWIG`.
 
+## The middle node is (6 6), settled
+
+Another solver reads the cream note's middle node as `(6 2)`, and my own first pass on a
+360p frame read it that way too. Settled here by comparing ink shapes rather than by
+squinting.
+
+Threshold the upright note across the band holding the middle node, the arrow and the final
+node, label the connected ink blobs, and cross-correlate them pairwise. The strokes merge at
+this resolution so the blobs are not cleanly one-digit-each, but the pattern is unambiguous:
+
+```
+middle-node upper glyph  vs  middle-node lower glyph   +0.81
+middle-node lower glyph  vs  final-node glyph          +0.83
+middle-node upper glyph  vs  final-node glyph          +0.72
+the arrow / other marks in the same band vs any of them  ≈ 0.0
+```
+
+Three marks that mutually correlate at 0.72–0.83 while everything else in the same band sits
+at zero are **the same character written three times**. Rendered side by side, the middle
+node plainly carries two identical glyphs and the final node one of the same shape.
+
+The final node is `(6)` — the answer's second half is a six-letter word, which is not in
+dispute. So the middle node is **`(6 6)`**, and the `(6 2)` reading is wrong. Every
+"six-letter word plus a two-letter word" line of attack can be dropped.
+
 ## What the CyberChef box will and will not accept
 
 The placeholder is not filler. **`AaaaaA-aaAa##` is a legality template.** For the XOR
