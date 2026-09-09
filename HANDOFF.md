@@ -13,8 +13,10 @@ Nine letters and six. Both halves derived. Full derivation in `ANSWER.md`.
   a word never spoken in the video.
 ## Nothing is left to derive — only to submit
 
-Submit **`FANTASTIC PEAHEN`** at the entry form. If it is rejected, try `FANTASTICPEAHEN`
-and then the reversed order.
+Submit **`FANTASTICPEAHEN`** at the entry form — unspaced. At 17:25-17:29 the video shows
+the form being filled in and the typing animation puts exactly 15 asterisks in the answer
+box (it counts 1..15 and stops). FANTASTICPEAHEN is 15 characters; with a space it is 16.
+If it is rejected, try it with the space, then the reversed order.
 
 Why PEAHEN and not another word from that video: the inventory tooltips (visible 53-60 s
 and 95-97 s) give the mod's complete vocabulary — Spawn Peacock / Peahen / Bluebird /

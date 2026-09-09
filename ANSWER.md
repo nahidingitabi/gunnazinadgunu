@@ -104,9 +104,14 @@ vocabulary. It is a choice the puzzle can point at.
 
 ---
 
-## `FANTASTIC PEAHEN`
+## `FANTASTICPEAHEN`
 
-Also worth trying unspaced, `FANTASTICPEAHEN`, and in the other order if the form rejects both.
+**Submit it unspaced.** At 17:25–17:29 the video shows the entry form being filled in, and
+the typing animation puts **exactly 15 asterisks** in the answer box — it counts 1…15 and
+stops. `FANTASTICPEAHEN` is 15 characters; `FANTASTIC PEAHEN` with the space is 16.
+That measurement is also a third independent confirmation of the 9 + 6 shape.
+
+If it is rejected, try `FANTASTIC PEAHEN` with the space, then the reversed order.
 
 ### What this retires
 
@@ -486,70 +491,99 @@ locations (verified verbatim from the transcript), and the main video's descript
   Colin video, the wilderness video and all nine playlist entries, in base64url index
   space: not one result is an ID MrBeast has ever published.
 
-## Every clue, used and unused
+## Every clue, used and unused — the complete inventory
 
-Rewritten 9 September, after the chain closed. A puzzle this tight does not leave spare
-parts — and it now has none that matter.
+Rewritten 9 September after a full sweep of the video. Every object anyone has pointed
+at is listed here with a verdict. Four items were resolved on this pass and are marked
+**NEW**.
 
-### Used, and load-bearing
+### A. The desk — Colin's added clue set. All of it is consumed.
 
 | clue | what it does |
 |---|---|
 | 14 jigsaw pictures | each is an owl species |
 | red Roman numerals | index the scientific names → `BIRDSOFAMERICA` |
 | blue Roman numerals | index the scientific names → `XORSUPERBOWLS` |
-| pink sheet (plate № + numeral) | → `MRBEASTSANDWHERETOFINDTHEM` |
+| the printed plate sheet | `<plate №> <numeral>` rows → `MRBEASTSANDWHERETOFINDTHEM` |
 | orange sticky "Books w/ old names… Alphabetize?" | the red chain's sort rule |
-| green sticky "LSWRTE…" + "Should I call it bird fence?" | rail fence → `LASTWORDTHENNINTH` |
-| red note `(5 2 7) → (8 3 5 2 4 4) → M̶R̶ (9)` | the red chain's skeleton; `(5 2 7)` **is** BIRDS OF AMERICA |
-| yellow `081 XIV / Seahawks?` | worked example of the red mechanism (plate 81 = Fish Hawk) |
+| teal sticky `LSWRTE / NNHTIN / HDOTA` + "Should I call it bird fence?" | rail fence → `LASTWORDTHENNINTH` |
+| **NEW** — the small note beside the keyboard | reads **"… numbers for Roman numerals?"**. Never read before; it is the plate sheet's legend, and it agrees with the `PLATES` sticky. Adds nothing new, contradicts nothing. |
+| yellow `081 XIV / Seahawks?` | worked example of the red mechanism (plate 81 = Fish Hawk, a sea hawk) |
 | yellow `QX = TH` | the two alphabet slots Audubon has no plate for |
 | yellow `PLATES` | says the numbers are plate numbers |
 | "Boo! book — five of these" | confirms five boobooks among the fourteen |
-| cream note `(3 6 4) + (4 4 4 5) → (6 6) → (6)` | the blue chain's skeleton; `(3 6 4)` **is** XOR SUPERB OWLS |
-| MrBeast's pinned comment | nine words, so its last word *is* its ninth → `tinyurl.com/xorprofile` |
-| CyberChef key `%H6U=)Z7</#bq` | the XOR key, 13 characters |
-| placeholder `AaaaaA-aaAa##` | a fill-in mask: 6 letters · hyphen · 4 letters · 2 digits |
+| red note `(5 2 7) → (8 3 5 2 4 4) → M̶R̶ (9)` | the red skeleton; `(5 2 7)` **is** BIRDS OF AMERICA |
+| cream note `(3 6 4) → (6 6) → (6)` | the blue skeleton; `(3 6 4)` **is** XOR SUPERB OWLS |
 | blue sticky `# #` / `How many?` | the mask's two digits: **14**, the fourteen owls |
 | blue sticky `251634` | the worked XOR example: 25\|16\|34, each pair both summing and XOR-ing to 7 |
 | blue sticky `YouTube link / watch?` | the XOR output is `v=…`, the tail of a `watch?v=` URL |
-| `LAST WORD THEN NINTH` | used **twice** — on the pinned comment, then on *Hi Me In 10 Years* |
+| MrBeast's pinned comment (nine words) | its last word *is* its ninth → `tinyurl.com/xorprofile` |
+| CyberChef key `%H6U=)Z7</#bq` + placeholder `AaaaaA-aaAa##` | the XOR key, and a fill-in mask: 6 letters · hyphen · 4 letters · 2 digits |
 
-Every clue in the two chains is now consumed, and the two desk notes turn out to be
-self-checks rather than instructions: `(5 2 7)` totals 14 = the red string's length, and
-`(3 6 4)` totals 13 = the blue string's length **and** the CyberChef key's length **and**
-the placeholder's length. Three independent quantities agreeing on 13 is what makes the
-mask reading safe.
+The two desk notes turn out to be self-checks: `(5 2 7)` totals 14 = the red string's
+length, and `(3 6 4)` totals 13 = the blue string's length **and** the key's length
+**and** the placeholder's length.
 
-### Genuinely never used — and why none of it matters
+### B. Clues the video itself gives, outside the desk
 
-| # | clue | status |
-|---|---|---|
-| 1 | pipe stickers: blue `6`, red `7`, white `4` (two walls, six stickers) | unused |
-| 2 | the rotary phone and its dial markings | unused |
-| 3 | yellow note `CODE … ON … →` | physically hidden under another sheet; unreadable in any frame |
-| 4 | the LOGIN ATTEMPTS dates on the thumbnail | unused |
-| 5 | yellow note `K's ON BELT` | refers to the *old* hunt's Super Bowl 2 belt |
-| 6 | "PUZZLE CLUES" boxes: Roman-numeral picture cards (IV+flag, VII+warehouse, XI+child…) | props from the old hunt |
-| 7 | the printed "here are some … to get you started" sheet | never fully in frame |
-| 8 | the box's "July 1st 1988 – June 30 89" (= 364 days) | a coincidence with `(3 6 4)`, not a use |
-| 9 | the pink sheet's odd `424-6` row | the L slot; forced to W by the target string |
+| clue | verdict |
+|---|---|
+| 16:58.9–17:01.2 — the Zenith TV displays **`PAUSE ▮▮`** | used: it says *stop here and look at the desk* |
+| **NEW** — 17:25–17:29, the form demo types **exactly 15 asterisks** | **measured today and decisive.** The typing animation counts 1…15 and stops; the glyphs sit at x = 594→1267, spaced 45.4 px, over frames 141–153. `FANTASTICPEAHEN` is 15 characters. `FANTASTIC PEAHEN` with the space is 16. **Submit it unspaced.** It is also a third, independent confirmation of the 9 + 6 shape the two desk notes demand. |
+| 17:11 "nothing is ever what it seems, including this video" | framing, not a mechanism |
+| 17:20 "a puzzle hidden within this video created by Colin himself" | framing |
+| the closing QR | 115 frames decoded, all identical: the plain sweepstakes URL. No parameters. |
+| captions vs. an independent ASR pass | 0.9115 similarity, every difference an ordinary ASR error. The old hunt's "modded captions" trick is **not** used here. |
+| "the video is mirrored" | negative — 573 frames flipped and re-OCR'd, zero word-like strings |
+| single-frame text flashes | negative — 5,920 samples at 10 fps, 15 candidates, all ordinary cuts |
+| the semaphore alphabet at 5:03 | standard and error-free; no hidden message |
+| the closing montage 17:01–17:24 | 840 frames, 198 shots, all OCR'd — nothing |
+| the audio | no DTMF, no Morse, no dial pulses |
 
-Items 1–7 are covered by Colin Sanders' own statement of 7 September: he *"had to add
-clues without modifying anything else in the room… there are probably room elements or
-things Jimmy does that you have to ignore."* The room is a **summary set of the old
-$1,000,000 hunt** — corkboard photographs, a META PUZZLE card, MM2 globes, MM1
-crosswords, MP16–24 cryptic cards, string links. `K's ON BELT` and the Roman-numeral
-picture cards are demonstrably that old hunt's props, not this puzzle's.
+### C. Room props — the set the author told us to ignore
 
-Item 8 is worth naming explicitly because it looks like a lead and is not: the cardboard
-box on the desk is labelled *July 1st 1988 – June 30 89*, an interval of exactly 364
-days, next to a note beginning `(364)`. But `(3 6 4)` matches XOR SUPERB OWLS letter for
-letter and `(5 2 7)` matches BIRDS OF AMERICA letter for letter — two independent exact
-fits — so the enumeration reading is right and the box is a coincidence or a joke.
+Colin Sanders, 7 September: he *"had to add clues without modifying anything else in the
+room… there are probably room elements or things Jimmy does that you have to ignore."*
+The room is a **summary set of the old $1,000,000 hunt** — the brick wall is a
+reconstruction of the "serial killer wall" on page 5 of the official answer document, and
+60 lines OCR'd off it are all old-hunt material.
 
-Item 9 does not touch the answer: the red chain closes at 25 of 26 letters with zero
-mismatches, and the 26th is forced.
+| prop | verdict |
+|---|---|
+| conduit stickers: blue `6`, red `7`, white `4` (six stickers, two walls) | unexplained, unused. Neither `674` nor Nauru appears in the $1M document. Covered by the author's statement. |
+| **NEW** — the rotary phone's "dot and dash" marks | **closed.** Read at 17:28 in 1080p: they are the **standard letter triplets printed on a rotary dial** — ABC, DEF, GHI… — not Morse. The Morse hypothesis is dead. |
+| **NEW** — corkboard sticky `CODE` / `[~3 chars]ON` / `→` | **measured, not readable.** The sticky is ~49 px per character; the hidden run before "ON" is ~160 px ≈ 3 characters ("IS ", "IT ", a digit + space). A **blank white index card is physically pinned over that line** in every frame of the only close-up (5:26–5:45), and the arrow points right, at the photograph of the old hunt's gold vault door. Old-hunt documentation. |
+| corkboard `K's ON BELT` | the old hunt's Super Bowl 2 belt X's |
+| "PUZZLE CLUES" boxes: Roman-numeral picture cards (IV+flag, VII+warehouse, XI+child, XV+hamburger…) | old hunt — "hamburger → AMERICAN CHEESE" is in the $1M document |
+| the 11 INSTRUCTIONS cards (Salina Turda, Seoul, Lower Hutt, Tbilisi, Toad Suck, Tijuana, Kandi, Ankara, Doha, Cairo, Maputo) | read at 1080p; word-for-word identical to PG1–PG13 of the official document. Not one word changed. |
+| the box lettered "July 1st 1988 – June 30 89" (= 364 days) | a coincidence with the cream note's `(3 6 4)`. `(3 6 4)` matches XOR SUPERB OWLS letter for letter and `(5 2 7)` matches BIRDS OF AMERICA letter for letter — two exact fits — so the enumeration reading is right and the box is a joke. |
+| the Zenith TV | matters only because it is the object that displays `PAUSE` |
+| Rubik's cube, Salesforce logo, gold safe, money counter, the $36,348.26 cheque, tank "3634826-1", the BEAST VAULT tablet | the old hunt's montage |
+| the printed table on the desk ("here are some … to get you started") | **re-checked today** at the sharpest available frame (6:28, 1080p): roughly seven columns by ten rows, but the sheet lies almost edge-on to the camera and the strokes are 1–2 px. Unreadable in every frame of the video. |
+
+### D. The thumbnail — outside the puzzle
+
+Colin added clues **in the room**; the thumbnail is not in the video. It is also
+technically inert: the QR code on it produces **0 of 3 valid finder patterns** at every
+module grid from N = 25 to 45, so it is artwork, not a code. The rest — the LOGIN
+ATTEMPTS LOG's 17 failed dates, the 8-dot password field, `16-3-4`, `#1 SMOKE 1+1`,
+"Emma, Boston server logs?", "No face ID bypass? Check #5 version" — is hacker-desk
+dressing. The 17 dates do not map to letters (three of the days exceed 26) and do not
+intersect the jigsaw's numbers.
+
+### E. What is genuinely still open — one cell, and it does not move the answer
+
+The plate sheet's **L row**, which the community transcribes as the odd `424-6`. The red
+chain needs a **W** there, and **W does not exist in classical Latin**, so it cannot come
+from an ordinary scientific epithet. It must come either from a Latinised proper name —
+Audubon has *Washingtonii*, *Wilsonii*, *Townsendii*, *Bachmanii*, *Harrisii*,
+*Swainsonii*, *Cooperii*, *MacGillivrayi* — or from a second exception sticky of the same
+kind as `QX = TH`. The sheet's other oddity, the `X VI` row, is moot: X has no Audubon
+plate and the `QX = TH` sticky already supplies it.
+
+Twenty-five of the twenty-six letters come out with zero mismatches, and the
+twenty-sixth is forced by the target string, so this is a loose end in the *documentation*
+of the red chain, not in its result.
 
 ### The pipe — retracted on 8 September
 

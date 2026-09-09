@@ -12221,3 +12221,54 @@ Fayllar: `GUI1/`, `GUI2/` (15 fps kadrlar), `GUI1_TIPS.png`, `GUI2_TIPS.png`,
 **ANSWER.md düzəlişləri:** «(6 6) ?» / «(6) ?» sətri dolduruldu; «But THEN NINTH still
 does not land» və «2b. The blue half» bölmələri SUPERSEDED kimi işarələndi (onlar hələ
 HEDWIG deyirdi); «Every clue, used and unused» bölməsi tam yenidən yazıldı.
+
+---
+
+## 09.09.2026 ~21:30Z — §32. QALAN BÜTÜN İPUÇLARININ SÜPÜRGƏSİ (4 YENİ NƏTİCƏ)
+
+### ★★★ 1. FORMA DEMO-SU: DÜZ 15 ULDUZ — ÖLÇÜLDÜ VƏ QƏTİLƏŞDİ
+Notlarda ziddiyyət var idi (bir yerdə 15, bir yerdə 16). 17:25–17:29 üçün
+`dd608937` klipindən 30 fps-də 360 kadr çıxarıldı; yazma animasiyası 1-dən sayır və
+**15-də dayanır** (kadr 139–153 boyunca 15 qalır). Sütun proyeksiyası:
+x = 594→1267, 15 qlif, aralıq 45.4 px, sağda kəsilmə yoxdur.
+
+- `FANTASTICPEAHEN` = **15** ✓
+- `FANTASTIC PEAHEN` (boşluqla) = 16 ✗
+
+→ **BOŞLUQSUZ göndərilməlidir.** Üstəlik bu, iki masa qeydinin tələb etdiyi
+**9 + 6** formasının üçüncü müstəqil təsdiqidir.
+Fayllar: `FORM/`, `STARS_0143/0147/0151.png`.
+
+### ★ 2. DİSK TELEFON — MORZE DEYİL, BAĞLANDI
+17:28 kadrında (1080p, `FORM/s_0186.png`) telefon ilk dəfə aydın görünür.
+Diskin ətrafındakı "nöqtə/tire" işarələri **adi rotary telefon diskinin standart
+hərf üçlükləridir** — ABC, DEF, GHI… — aydın oxunur (`PHONE_A.png`, `DIAL.png`).
+«DULUTH/ZENITH morzelə yazılıb» hipotezi **ölüdür**. 4K-ya ehtiyac yoxdur.
+
+### ★ 3. KORKBORD QEYDİ `CODE / …ON / →` — ÖLÇÜLDÜ, OXUNMUR
+Yeganə yaxın plan 5:26–5:45 (`a16ce518`). Stiker ~49 px/simvol; 2-ci sətirdə
+"ON"-dan əvvəlki gizli hissə ~160 px ≈ **3 simvol** ("IS ", "IT ", rəqəm+boşluq).
+Üstündə **boş ağ kart fiziki olaraq sancaqlanıb** — heç bir kadrda açılmır.
+Ox sağa, **köhnə ovun qızıl seyf fotosuna** baxır. Köhnə ov sənədləşməsidir.
+Fayllar: `CORK/`, `SL_85..97.png`, `STICKY_103.png`.
+
+### ★ 4. KLAVİATURA YANINDAKI QEYD OXUNDU
+6:28-də (`a16ce518`, kadr `DESK/d_0093.png`) masanın indiyə qədərki ən aydın
+görüntüsü alındı. Kiçik sarı qeyd: **"… numbers for Roman numerals?"**.
+Bu, çap olunmuş lövhə cədvəlinin legendasıdır — `PLATES` stikeri ilə eyni şeyi
+deyir. Yeni məlumat vermir, heç nəyə zidd deyil. Fayl: `KBNOTE.png`.
+Eyni kadrda teal qeyd (`LSWRTE/NNHTIN/HDOTA` + "Should I call it bird fence?") və
+narıncı qeyd ("…old names… / Alphabetize?") da tam təsdiqləndi.
+
+### Çap olunmuş cədvəl — yenidən yoxlandı, yenə oxunmur
+Eyni kadrda cədvəl ~7 sütun × ~10 sətirdir, amma vərəq kameraya demək olar ki,
+kənarı ilə durur; ştrixlər 1–2 px. `PLATESHEET.png`. Videoda başqa kadr yoxdur.
+
+### AÇIQ QALAN TƏK XANA
+Lövhə cədvəlinin **L sətri** ("424-6"). Qırmızı zəncir orada **W** tələb edir, amma
+**klassik latında W hərfi yoxdur** — yəni ya latınlaşdırılmış xüsusi addan gəlir
+(*Washingtonii, Wilsonii, Townsendii, Bachmanii, Harrisii, Swainsonii, Cooperii,
+MacGillivrayi*), ya da `QX = TH` kimi ikinci istisna stikeri var. 26 hərfdən 25-i
+sıfır uyğunsuzluqla düşür, 26-cı isə hədəf sətir tərəfindən məcburlanır →
+**cavaba təsiri yoxdur**. `X VI` sətri isə mövzusuzdur: X-in lövhəsi yoxdur və
+`QX = TH` onu artıq verir.
