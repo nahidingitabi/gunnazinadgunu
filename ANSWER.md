@@ -22,12 +22,26 @@ Them* is **FANTASTIC** (9). `QX = TH` fills the two alphabet slots Audubon has n
 
 ## The blue half → PEAHEN
 
-**1. The pinned comment hands you the key.** It is exactly nine words, so its **last word is
-its ninth** — the teal card's `LAST WORD THEN NINTH` pointing at itself:
+**1. The pinned comment hands you the key.** MrBeast's pinned comment on the puzzle video
+reads, in full:
 
-> Make(1) sure(2) you(3) check(4) out(5) Colin's(6) profile(7) 👀(8) **tinyurl.com/xorprofile(9)**
+> Make sure you check out Colin's profile 👀 https://tinyurl.com/xorprofile
 
-It opens CyberChef with an XOR recipe: key `%H6U=)Z7</#bq`, placeholder `AaaaaA-aaAa##`.
+The link does not go to Colin's profile. Resolved (301), byte for byte, it is:
+
+```
+https://gchq.github.io/CyberChef/#recipe=XOR({'option':'UTF8','string':'%H6U=)Z7</#bq'},
+'Standard',false)&input=QWFhYWFBLWFhQWEjIw
+```
+
+An XOR recipe with key `%H6U=)Z7</#bq` (13 characters) and a pre-filled input that
+base64-decodes to `AaaaaA-aaAa##` (13 characters). The base64 is canonical — there are no
+spare bits and nothing else in the URL.
+
+*(A note on an over-claim I made earlier: the comment is nine whitespace tokens, so its
+ninth token is also its last, and I presented that as `LAST WORD THEN NINTH` pointing at
+itself. That is a consistency check at best — you do not need a rule to find the only link
+in a nine-word comment. The rule does its real work in step 5.)*
 
 **2. The placeholder is a fill-in mask** — 6 letters · hyphen · 4 letters · 2 digits.
 
@@ -42,11 +56,24 @@ SuperB-owLs14        ← matches the mask 13/13 by character class
 ```
 
 `F0OkwXKcPSE` is **"Hi Me In 10 Years"** — MrBeast's 2015 message to his future self,
-schedule-uploaded to 2025-10-04. Of **55,552** well-formed candidate IDs this construction can
-produce, exactly one is a real video; the reverse scan over all 802 channel videos also lands
-only here.
+schedule-uploaded to 2025-10-04.
 
-**4. `LAST WORD THEN NINTH`, second use** — on that video's captions:
+**This step is locked from both sides.** Forwards: the other blue clues independently
+produce `SuperB-owLs14`, and it matches the mask in all thirteen positions. Backwards: take
+all **1,053** distinct real MrBeast video IDs on file, ask for each one what input would be
+needed to make the box output `v=<that id>`, and check which of those inputs the mask
+accepts. **Exactly one does** —
+
+```
+F0OkwXKcPSE  ←  SuperB-owLs14
+```
+
+The mask's input space is 26·26⁴·26 · 26⁴ · 10² ≈ 1.4 × 10¹⁶ strings, and of every video
+MrBeast has ever published, precisely one is reachable through it. This is not a fit chosen
+after the fact; it is the only fit there is.
+
+**4. `LAST WORD THEN NINTH` — this is where the teal card is spent.** On that video's
+captions (507 words):
 
 | | word | letters |
 |---|---|---|

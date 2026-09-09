@@ -12272,3 +12272,47 @@ MacGillivrayi*), ya da `QX = TH` kimi ikinci istisna stikeri var. 26 hərfdən 2
 sıfır uyğunsuzluqla düşür, 26-cı isə hədəf sətir tərəfindən məcburlanır →
 **cavaba təsiri yoxdur**. `X VI` sətri isə mövzusuzdur: X-in lövhəsi yoxdur və
 `QX = TH` onu artıq verir.
+
+---
+
+## 09.09.2026 ~22:10Z — §33. PINNED COMMENT ADDIMI HƏR İKİ TƏRƏFDƏN KİLİDLƏNDİ
+
+İstifadəçi «pinned commenti heç işlətmədik» dedi. Əslində o, mavi zəncirin 1-ci
+addımıdır — göndərdiyi CyberChef ekranı məhz onun məhsuludur. Yenə də addımı
+sıfırdan yenidən yoxladım.
+
+### tinyurl bayt-bayt yenidən açıldı (301)
+```
+https://gchq.github.io/CyberChef/#recipe=XOR(%7B%27option%27:%27UTF8%27,%27string%27:
+%27%25H6U%3D)Z7%3C/%23bq%27%7D,%27Standard%27,false)&input=QWFhYWFBLWFhQWEjIw
+```
+- URL-dekod: açar `%H6U=)Z7</#bq` (13)
+- `QWFhYWFBLWFhQWEjIw` → `AaaaaA-aaAa##` (13). **Base64 kanonikdir** — artıq bit yoxdur.
+- URL-də başqa heç nə yoxdur (əlavə əməliyyat, parametr, yorum).
+- Şablonun öz çıxışı: `AaaaaA-aaAa##` ⊕ açar = `d)W4\hwV]nBAR` (mənasız — şablon
+  sadəcə format nümunəsidir).
+
+### ★★★ TƏRS SKAN — 1053 HƏQİQİ MrBeast ID-si
+Hər həqiqi ID üçün `v=<ID>` çıxışını verəcək giriş hesablandı və şablonun
+simvol-sinifləri ilə tutuşduruldu:
+
+```
+şablona uyğun gələn ID sayı: 1
+F0OkwXKcPSE  ←  SuperB-owLs14
+```
+
+Şablonun giriş fəzası 26·26⁴·26 · 26⁴ · 10² ≈ **1.4 × 10¹⁶**. MrBeast-in bütün
+videoları içindən yalnız biri bu şablondan keçir. İrəli istiqamətdə isə ipuçları
+(`XOR SUPERB OWLS` + `# #`/`How many?` = 14) müstəqil olaraq eyni sətri verir.
+**İki tərəfli kilid.**
+
+### `LAST WORD THEN NINTH` yenidən yoxlandı (HI10.en.vtt, 507 söz)
+- 9-cu söz: `upload` — «I'm gonna schedule **upload** this video ten years in the future»
+- son söz: `fourth.` — «…this is October **fourth**.»
+→ `(6 6)` = **FOURTH UPLOAD** ✓
+
+### DÜZƏLİŞ — əvvəlki iddiam şişirdilmiş idi
+ANSWER.md-də «pinned comment doqquz sözdür, ona görə son sözü doqquzuncusudur —
+`LAST WORD THEN NINTH` özünə işarə edir» yazmışdım. Bu, **çox güclü iddiadır**:
+doqquz sözlük şərhdəki yeganə linki tapmaq üçün qaydaya ehtiyac yoxdur. Qayda öz
+işini `F0OkwXKcPSE`-də görür. ANSWER.md düzəldildi.
